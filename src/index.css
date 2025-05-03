@@ -1,1 +1,19 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add custom styles for Vietnamese and Chinese text */
+@layer base {
+  body {
+    @apply bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+  }
+  
+  /* Ensure proper font support for Vietnamese and Chinese characters */
+  .vietnamese-text {
+    font-family: 'Noto Sans', 'Arial', sans-serif;
+  }
+  
+  .chinese-text {
+    font-family: 'Noto Sans SC', 'SimSun', 'SimHei', sans-serif;
+  }
+}
