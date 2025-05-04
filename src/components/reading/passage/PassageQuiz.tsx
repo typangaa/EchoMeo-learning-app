@@ -1,14 +1,16 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ReadingPassage } from '../../../types';
 
 interface PassageQuizProps {
   passage: ReadingPassage;
+  onComplete?: (score: number) => void;
 }
 
-const PassageQuiz: React.FC<PassageQuizProps> = ({ passage }) => {
+const PassageQuiz: React.FC<PassageQuizProps> = ({ passage, onComplete }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState<number[]>([]);
   const [showResults, setShowResults] = useState(false);
+  const [hasReportedCompletion, setHasReportedCompletion] = useState(false);
   
   // If no questions are available, show a message
   if (!passage.questions || passage.questions.length === 0) {
@@ -20,6 +22,15 @@ const PassageQuiz: React.FC<PassageQuizProps> = ({ passage }) => {
   }
   
   const currentQuestion = passage.questions[currentQuestionIndex];
+  
+  useEffect(() => {
+    // Report quiz completion when showing results
+    if (showResults && !hasReportedCompletion && onComplete) {
+      const result = calculateScore();
+      onComplete(result.percentage);
+      setHasReportedCompletion(true);
+    }
+  }, [showResults, hasReportedCompletion, onComplete]);
   
   const handleAnswerSelect = (optionIndex: number) => {
     const newAnswers = [...selectedAnswers];
@@ -45,6 +56,7 @@ const PassageQuiz: React.FC<PassageQuizProps> = ({ passage }) => {
     setCurrentQuestionIndex(0);
     setSelectedAnswers([]);
     setShowResults(false);
+    setHasReportedCompletion(false);
   };
   
   // Calculate results
