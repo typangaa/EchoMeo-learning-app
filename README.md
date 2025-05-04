@@ -2,6 +2,10 @@
 
 A web application focused on helping users learn Vietnamese from Chinese or Chinese from Vietnamese, with vocabulary lists, flashcards, and reading practice.
 
+## Live Demo
+
+Visit the live application at: [https://typangaa.github.io/vietnamese-chinese-learning/](https://typangaa.github.io/vietnamese-chinese-learning/)
+
 ## Features
 
 - **Vocabulary Learning**: Organized by CEFR levels (A1, A2, B1, B2, C1, C2) and categories
@@ -14,11 +18,11 @@ A web application focused on helping users learn Vietnamese from Chinese or Chin
 
 - **Frontend**: React 18 with TypeScript
 - **Build Tool**: Vite for fast development and optimized builds
-- **Routing**: React Router v6
+- **Routing**: React Router with HashRouter for GitHub Pages compatibility
 - **Styling**: Tailwind CSS
 - **Deployment**: GitHub Pages
 
-## Getting Started
+## Project Setup
 
 ### Prerequisites
 
@@ -29,7 +33,7 @@ A web application focused on helping users learn Vietnamese from Chinese or Chin
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/vietnamese-chinese-learning.git
+   git clone https://github.com/typangaa/vietnamese-chinese-learning.git
    cd vietnamese-chinese-learning
    ```
 
@@ -43,7 +47,7 @@ A web application focused on helping users learn Vietnamese from Chinese or Chin
    npm run dev
    ```
 
-4. Open your browser and navigate to `http://localhost:3000`
+4. Open your browser and navigate to `http://localhost:5173`
 
 ### Building for Production
 
@@ -52,6 +56,16 @@ npm run build
 ```
 
 The built files will be in the `dist` directory.
+
+### Deployment
+
+The project is configured for automatic deployment to GitHub Pages using GitHub Actions. Any push to the main branch will trigger a deployment.
+
+To manually deploy:
+
+```bash
+npm run deploy
+```
 
 ## Project Structure
 
@@ -69,40 +83,39 @@ src/
 ├── data/             # Static data files (vocabulary lists, readings)
 ├── hooks/            # Custom React hooks
 ├── pages/            # Page components
-├── services/         # API services and external integrations
 ├── types/            # TypeScript type definitions
 └── utils/            # Utility functions
 ```
 
-## Key Features Implementation
+## Key Components
 
 ### Vocabulary System
 
-- Vocabulary items are organized by CEFR levels and categories
-- Each item includes Vietnamese text, Chinese characters, pinyin pronunciation, and example usage
-- Users can filter by level, category, or search by text
-- Favoriting functionality to save important words
+- **VocabularyContext**: Manages vocabulary state, filtering, and favorites
+- **VocabularyList/Card**: Components for displaying vocabulary items
+- **VocabularyFilters**: Controls for filtering by CEFR level and category
 
-### Flashcard Learning
+### Flashcard System
 
-- Spaced repetition system (SRS) for optimized learning
-- Cards due for review are prioritized based on previous performance
-- Detailed statistics and progress tracking
-- Visual feedback for correct/incorrect answers
+- **useSpacedRepetition**: Custom hook implementing spaced repetition algorithm
+- **FlashcardPractice**: Manages flashcard session with progress tracking
+- **Flashcard**: Interactive card with 3D flip effect
 
-### Reading Practice
+### Reading System
 
-- Parallel texts with Vietnamese and Chinese versions side by side
-- Interactive vocabulary - click on words to see translations
-- Progress tracking for each reading passage
-- Comprehension quizzes to test understanding
+- **ReadingList/Card**: Components for browsing reading passages
+- **PassageDetail**: Interactive reading component with vocabulary lookup
+- **PassageQuiz**: Comprehension quiz component for reading passages
 
-### User Experience
+## Progress Tracking
 
-- Dark/light mode toggle
-- Mobile-responsive design
-- Progress tracking across sessions using localStorage
-- Clean, intuitive interface
+The application uses the browser's localStorage to track user progress, including:
+
+- Vocabulary mastery levels
+- Reading completion percentages
+- Quiz scores
+- Study time statistics
+- Login streak
 
 ## Development Roadmap
 
@@ -111,6 +124,14 @@ src/
 - [ ] Implement user accounts and cloud synchronization
 - [ ] Add writing practice module
 - [ ] Develop more interactive learning exercises
+
+## Troubleshooting
+
+### Common Issues
+
+- **Blank page on GitHub Pages**: Make sure base path is correctly set in vite.config.ts
+- **Routing issues**: The application uses HashRouter for GitHub Pages compatibility
+- **MIME type errors**: Check asset path references in index.html and vite.config.ts
 
 ## Contributing
 

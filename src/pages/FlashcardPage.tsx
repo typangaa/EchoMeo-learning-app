@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { VocabularyProvider } from '../context/VocabularyContext';
-import { sampleVocabulary } from '../data/sampleVocabulary';
 import { useVocabulary } from '../context/VocabularyContext';
 import FlashcardPractice from '../components/vocabulary/flashcard/FlashcardPractice';
 
@@ -142,7 +141,7 @@ function FlashcardContent() {
 
 const FlashcardPage = () => {
   return (
-    <VocabularyProvider initialVocabulary={sampleVocabulary}>
+    <VocabularyProvider>
       <FlashcardContent />
     </VocabularyProvider>
   );

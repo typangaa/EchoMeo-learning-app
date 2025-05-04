@@ -22,6 +22,7 @@ export function useSpacedRepetition(vocabularyItems: VocabularyItem[]) {
     
     if (storedItems) {
       // Parse stored items, ensuring dates are properly converted back from strings
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const parsedItems: SpacedRepetitionItem[] = JSON.parse(storedItems).map((item: any) => ({
         ...item,
         nextReviewDate: new Date(item.nextReviewDate),

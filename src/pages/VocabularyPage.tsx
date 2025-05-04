@@ -1,16 +1,16 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { VocabularyProvider } from '../context/VocabularyContext';
-import { sampleVocabulary } from '../data/sampleVocabulary';
 import VocabularyList from '../components/vocabulary/VocabularyList';
 import VocabularyFilters from '../components/vocabulary/VocabularyFilters';
+// No need to import sampleVocabulary anymore
 
 const VocabularyPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [showFavorites, setShowFavorites] = useState(false);
 
   return (
-    <VocabularyProvider initialVocabulary={sampleVocabulary}>
+    <VocabularyProvider>
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start mb-6">
           <h1 className="text-3xl font-bold mb-2 md:mb-0">

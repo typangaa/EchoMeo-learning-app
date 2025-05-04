@@ -1,5 +1,6 @@
 import { createContext, useContext, useState, ReactNode, useEffect } from 'react';
 import { VocabularyItem, CEFRLevel } from '../types';
+import { allVocabulary, getAllCategories } from '../data/vocabulary';
 
 interface VocabularyContextType {
   vocabularyItems: VocabularyItem[];
@@ -27,10 +28,13 @@ export const useVocabulary = () => {
 
 interface VocabularyProviderProps {
   children: ReactNode;
-  initialVocabulary: VocabularyItem[];
+  initialVocabulary?: VocabularyItem[]; // Make this optional
 }
 
-export const VocabularyProvider = ({ children, initialVocabulary }: VocabularyProviderProps) => {
+export const VocabularyProvider = ({ 
+  children, 
+  initialVocabulary = allVocabulary // Default to all vocabulary if not provided
+}: VocabularyProviderProps) => {
   const [vocabularyItems] = useState<VocabularyItem[]>(initialVocabulary);
   const [filteredItems, setFilteredItems] = useState<VocabularyItem[]>(initialVocabulary);
   const [selectedLevel, setSelectedLevel] = useState<CEFRLevel | 'all'>('all');
@@ -42,9 +46,7 @@ export const VocabularyProvider = ({ children, initialVocabulary }: VocabularyPr
   });
   
   // Get unique categories from vocabulary items
-  const categories = Array.from(
-    new Set(vocabularyItems.map(item => item.category))
-  ).sort();
+  const categories = getAllCategories();
 
   // Apply filters when dependencies change
   useEffect(() => {
