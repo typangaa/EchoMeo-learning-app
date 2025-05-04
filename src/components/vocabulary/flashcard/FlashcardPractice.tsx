@@ -15,7 +15,6 @@ const FlashcardPractice: React.FC<FlashcardPracticeProps> = ({
 }) => {
   const {
     dueItems,
-    getDueCount,
     addAllItems,
     recordCorrectAnswer,
     recordIncorrectAnswer

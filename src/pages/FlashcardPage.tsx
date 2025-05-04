@@ -37,14 +37,6 @@ function FlashcardContent() {
     }
   };
   
-  const toggleItemSelection = (id: number) => {
-    if (selectedItems.includes(id)) {
-      setSelectedItems(selectedItems.filter(itemId => itemId !== id));
-    } else {
-      setSelectedItems([...selectedItems, id]);
-    }
-  };
-  
   if (!selectingOptions) {
     return <FlashcardPractice vocabularyItems={getItemsForPractice()} onComplete={handleComplete} />;
   }
