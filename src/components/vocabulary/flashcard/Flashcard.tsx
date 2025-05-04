@@ -1,31 +1,33 @@
 import { useState } from 'react';
 import { VocabularyItem } from '../../../types';
+import { LanguageDirection } from '../../common/LanguageDirectionToggle';
 import './flashcard.css';
 
 interface FlashcardProps {
   item: VocabularyItem;
-  onCorrect: (id: number) => void;
-  onIncorrect: (id: number) => void;
+  onNext: () => void;
+  direction: LanguageDirection;
 }
 
 const Flashcard: React.FC<FlashcardProps> = ({ 
   item, 
-  onCorrect, 
-  onIncorrect 
+  onNext,
+  direction
 }) => {
   const [flipped, setFlipped] = useState(false);
   const [showExample, setShowExample] = useState(false);
+  
+  const isFrontChinese = direction === 'vn-to-cn';
   
   const handleFlip = () => {
     setFlipped(!flipped);
   };
   
-  const handleCorrect = () => {
-    onCorrect(item.id);
-  };
-  
-  const handleIncorrect = () => {
-    onIncorrect(item.id);
+  const handleNext = () => {
+    // Reset card state before moving to next
+    setFlipped(false);
+    setShowExample(showExample);
+    onNext();
   };
   
   const playAudio = (e: React.MouseEvent) => {
@@ -41,88 +43,99 @@ const Flashcard: React.FC<FlashcardProps> = ({
     setShowExample(!showExample);
   };
   
+  // Front content changes based on direction
+  const renderFrontContent = () => (
+    <div className="flex flex-col justify-between h-full bg-white dark:bg-gray-800 rounded-xl p-6">
+      <div className="flex justify-between">
+        <span className="text-xs text-gray-500 dark:text-gray-400">{item.level} • {item.category}</span>
+        {item.audioUrl && (
+          <button 
+            onClick={playAudio}
+            className="text-blue-600 dark:text-blue-400 text-sm"
+            aria-label="Listen"
+          >
+            🔊
+          </button>
+        )}
+      </div>
+      
+      <div className="text-center">
+        <h2 className={`text-5xl font-bold ${isFrontChinese ? 'chinese-text' : 'vietnamese-text'}`}>
+          {isFrontChinese ? item.chinese : item.vietnamese}
+        </h2>
+        {isFrontChinese && (
+          <p className="text-xl text-gray-600 dark:text-gray-400 mt-1">{item.pinyin}</p>
+        )}
+        {item.english && !isFrontChinese && (
+          <p className="text-xl text-gray-600 dark:text-gray-400 mt-2">{item.english}</p>
+        )}
+      </div>
+      
+      <p className="text-sm text-center text-gray-500 dark:text-gray-400">
+        Click to see {isFrontChinese ? 'Vietnamese' : 'Chinese'}
+      </p>
+    </div>
+  );
+  
+  // Back content changes based on direction
+  const renderBackContent = () => (
+    <div className="flex flex-col justify-between h-full bg-white dark:bg-gray-800 rounded-xl p-6">
+      <div className="flex justify-between">
+        <span className="text-xs text-gray-500 dark:text-gray-400">{item.level} • {item.category}</span>
+        {item.examples && item.examples.length > 0 && (
+          <button 
+            onClick={toggleExample}
+            className="text-blue-600 dark:text-blue-400 text-sm"
+          >
+            {showExample ? 'Hide Example' : 'Show Example'}
+          </button>
+        )}
+      </div>
+      
+      <div className="text-center">
+        <h2 className={`text-4xl font-bold ${isFrontChinese ? 'vietnamese-text' : 'chinese-text'}`}>
+          {isFrontChinese ? item.vietnamese : item.chinese}
+        </h2>
+        {!isFrontChinese && (
+          <p className="text-xl text-gray-600 dark:text-gray-400 mt-1">{item.pinyin}</p>
+        )}
+        
+        {showExample && item.examples && item.examples.length > 0 && (
+          <div className="mt-4 pt-3 border-t border-gray-200 dark:border-gray-700">
+            <p className="text-md vietnamese-text">{item.examples[0].vietnamese}</p>
+            <p className="text-md chinese-text mt-1">{item.examples[0].chinese}</p>
+            <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">{item.examples[0].pinyin}</p>
+          </div>
+        )}
+      </div>
+      
+      <p className="text-sm text-center text-gray-500 dark:text-gray-400">
+        Click to see {isFrontChinese ? 'Chinese' : 'Vietnamese'}
+      </p>
+    </div>
+  );
+  
   return (
     <div className="max-w-md mx-auto">
       <div className="flip-container">
         <div className={`flipper ${flipped ? 'is-flipped' : ''}`} onClick={handleFlip}>
           <div className="front">
-            {/* Front of card (Vietnamese) */}
-            <div className="flex flex-col justify-between h-full bg-white dark:bg-gray-800 rounded-xl p-6">
-              <div className="flex justify-between">
-                <span className="text-xs text-gray-500 dark:text-gray-400">{item.level} • {item.category}</span>
-                {item.audioUrl && (
-                  <button 
-                    onClick={playAudio}
-                    className="text-blue-600 dark:text-blue-400 text-sm"
-                    aria-label="Listen"
-                  >
-                    🔊
-                  </button>
-                )}
-              </div>
-              
-              <div className="text-center">
-                <h2 className="text-3xl font-bold vietnamese-text">{item.vietnamese}</h2>
-                {item.english && (
-                  <p className="text-gray-600 dark:text-gray-400 mt-2">{item.english}</p>
-                )}
-              </div>
-              
-              <p className="text-sm text-center text-gray-500 dark:text-gray-400">
-                Click to see Chinese
-              </p>
-            </div>
+            {renderFrontContent()}
           </div>
           
           <div className="back">
-            {/* Back of card (Chinese) */}
-            <div className="flex flex-col justify-between h-full bg-white dark:bg-gray-800 rounded-xl p-6">
-              <div className="flex justify-between">
-                <span className="text-xs text-gray-500 dark:text-gray-400">{item.level} • {item.category}</span>
-                {item.examples && item.examples.length > 0 && (
-                  <button 
-                    onClick={toggleExample}
-                    className="text-blue-600 dark:text-blue-400 text-sm"
-                  >
-                    {showExample ? 'Hide Example' : 'Show Example'}
-                  </button>
-                )}
-              </div>
-              
-              <div className="text-center">
-                <h2 className="text-3xl font-bold chinese-text">{item.chinese}</h2>
-                <p className="text-lg text-gray-600 dark:text-gray-400 mt-1">{item.pinyin}</p>
-                
-                {showExample && item.examples && item.examples.length > 0 && (
-                  <div className="mt-4 pt-3 border-t border-gray-200 dark:border-gray-700">
-                    <p className="text-sm vietnamese-text">{item.examples[0].vietnamese}</p>
-                    <p className="text-sm chinese-text mt-1">{item.examples[0].chinese}</p>
-                    <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{item.examples[0].pinyin}</p>
-                  </div>
-                )}
-              </div>
-              
-              <p className="text-sm text-center text-gray-500 dark:text-gray-400">
-                Click to see Vietnamese
-              </p>
-            </div>
+            {renderBackContent()}
           </div>
         </div>
       </div>
       
-      {/* Answer buttons */}
-      <div className="mt-6 flex justify-center space-x-4">
+      {/* Next button */}
+      <div className="mt-6 flex justify-center">
         <button
-          onClick={handleIncorrect}
-          className="px-6 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors"
+          onClick={handleNext}
+          className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
         >
-          Incorrect
-        </button>
-        <button
-          onClick={handleCorrect}
-          className="px-6 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors"
-        >
-          Correct
+          Next
         </button>
       </div>
     </div>

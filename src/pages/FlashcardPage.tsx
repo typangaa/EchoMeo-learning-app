@@ -6,9 +6,8 @@ import FlashcardPractice from '../components/vocabulary/flashcard/FlashcardPract
 
 function FlashcardContent() {
   const navigate = useNavigate();
-  const { vocabularyItems, filteredItems, selectedLevel, setSelectedLevel, categories, setSelectedCategory } = useVocabulary();
+  const { vocabularyItems, filteredItems, selectedLevel, setSelectedLevel, categories, setSelectedCategory, favorites } = useVocabulary();
   const [selectingOptions, setSelectingOptions] = useState(true);
-  const [selectedItems] = useState<number[]>([]);
   const [itemSource, setItemSource] = useState<'all' | 'filtered' | 'favorites' | 'custom'>('all');
   
   const handleComplete = () => {
@@ -27,10 +26,11 @@ function FlashcardContent() {
       case 'filtered':
         return filteredItems;
       case 'favorites':
-        // This would need favorites implementation from VocabularyContext
-        return vocabularyItems.filter(item => selectedItems.includes(item.id));
+        // Use favorites from VocabularyContext
+        return vocabularyItems.filter(item => favorites.includes(item.id));
       case 'custom':
-        return vocabularyItems.filter(item => selectedItems.includes(item.id));
+        // Custom would be handled differently if implemented
+        return filteredItems;
       default:
         return vocabularyItems;
     }
@@ -124,6 +124,18 @@ function FlashcardContent() {
               </button>
             </div>
           </div>
+          
+          {favorites.length > 0 && (
+            <div>
+              <h3 className="text-lg font-medium mb-3">Practice Favorites</h3>
+              <button
+                onClick={() => startPractice('favorites')}
+                className="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition-colors"
+              >
+                Practice {favorites.length} Favorite Items
+              </button>
+            </div>
+          )}
         </div>
       </div>
       
