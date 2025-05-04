@@ -9,7 +9,7 @@ function FlashcardContent() {
   const navigate = useNavigate();
   const { vocabularyItems, filteredItems, selectedLevel, setSelectedLevel, categories, setSelectedCategory } = useVocabulary();
   const [selectingOptions, setSelectingOptions] = useState(true);
-  const [selectedItems, setSelectedItems] = useState<number[]>([]);
+  const [selectedItems] = useState<number[]>([]);
   const [itemSource, setItemSource] = useState<'all' | 'filtered' | 'favorites' | 'custom'>('all');
   
   const handleComplete = () => {
@@ -90,6 +90,7 @@ function FlashcardContent() {
               {['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].map(level => (
                 <button
                   key={level}
+                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
                   onClick={() => setSelectedLevel(level as any)}
                   className={`px-3 py-1 rounded-full text-sm ${
                     selectedLevel === level

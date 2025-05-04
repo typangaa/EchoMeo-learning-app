@@ -1,4 +1,4 @@
-import { VocabularyItem, ReadingPassage } from '../types';
+//import { VocabularyItem, ReadingPassage } from '../types';
 
 // Interface for user progress data
 export interface UserProgress {
