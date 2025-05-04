@@ -1506,6 +1506,1846 @@ export const a1Vocabulary: VocabularyItem[] = [
         pinyin: "yuè nán yǔ nán ma?"
       }
     ]
+  },
+  {
+    id: 1101,
+    vietnamese: "màu đỏ",
+    chinese: "红色",
+    pinyin: "hóng sè",
+    english: "red",
+    level: "A1",
+    category: "Colors",
+    examples: [
+      {
+        vietnamese: "Tôi thích màu đỏ.",
+        chinese: "我喜欢红色。",
+        pinyin: "wǒ xǐ huān hóng sè."
+      },
+      {
+        vietnamese: "Cái áo này màu đỏ.",
+        chinese: "这件衣服是红色的。",
+        pinyin: "zhè jiàn yī fú shì hóng sè de."
+      }
+    ]
+  },
+  {
+    id: 1102,
+    vietnamese: "màu xanh lá",
+    chinese: "绿色",
+    pinyin: "lǜ sè",
+    english: "green",
+    level: "A1",
+    category: "Colors",
+    examples: [
+      {
+        vietnamese: "Tôi thích màu xanh lá.",
+        chinese: "我喜欢绿色。",
+        pinyin: "wǒ xǐ huān lǜ sè."
+      },
+      {
+        vietnamese: "Lá cây màu xanh lá.",
+        chinese: "树叶是绿色的。",
+        pinyin: "shù yè shì lǜ sè de."
+      }
+    ]
+  },
+  {
+    id: 1103,
+    vietnamese: "màu xanh dương",
+    chinese: "蓝色",
+    pinyin: "lán sè",
+    english: "blue",
+    level: "A1",
+    category: "Colors",
+    examples: [
+      {
+        vietnamese: "Bầu trời màu xanh dương.",
+        chinese: "天空是蓝色的。",
+        pinyin: "tiān kōng shì lán sè de."
+      }
+    ]
+  },
+  {
+    id: 1104,
+    vietnamese: "màu vàng",
+    chinese: "黄色",
+    pinyin: "huáng sè",
+    english: "yellow",
+    level: "A1",
+    category: "Colors",
+    examples: [
+      {
+        vietnamese: "Mặt trời màu vàng.",
+        chinese: "太阳是黄色的。",
+        pinyin: "tài yáng shì huáng sè de."
+      }
+    ]
+  },
+  {
+    id: 1105,
+    vietnamese: "màu đen",
+    chinese: "黑色",
+    pinyin: "hēi sè",
+    english: "black",
+    level: "A1",
+    category: "Colors",
+    examples: [
+      {
+        vietnamese: "Tôi có một cái áo màu đen.",
+        chinese: "我有一件黑色的衣服。",
+        pinyin: "wǒ yǒu yī jiàn hēi sè de yī fú."
+      }
+    ]
+  },
+  {
+    id: 1106,
+    vietnamese: "màu trắng",
+    chinese: "白色",
+    pinyin: "bái sè",
+    english: "white",
+    level: "A1",
+    category: "Colors",
+    examples: [
+      {
+        vietnamese: "Tuyết màu trắng.",
+        chinese: "雪是白色的。",
+        pinyin: "xuě shì bái sè de."
+      }
+    ]
+  },
+  
+  // Clothing
+  {
+    id: 1201,
+    vietnamese: "áo",
+    chinese: "衣服",
+    pinyin: "yī fu",
+    english: "clothes, shirt",
+    level: "A1",
+    category: "Clothing",
+    examples: [
+      {
+        vietnamese: "Tôi mặc áo mới.",
+        chinese: "我穿新衣服。",
+        pinyin: "wǒ chuān xīn yī fu."
+      }
+    ]
+  },
+  {
+    id: 1202,
+    vietnamese: "quần",
+    chinese: "裤子",
+    pinyin: "kù zi",
+    english: "pants, trousers",
+    level: "A1",
+    category: "Clothing",
+    examples: [
+      {
+        vietnamese: "Quần này rất đẹp.",
+        chinese: "这条裤子很漂亮。",
+        pinyin: "zhè tiáo kù zi hěn piào liang."
+      }
+    ]
+  },
+  {
+    id: 1203,
+    vietnamese: "giày",
+    chinese: "鞋",
+    pinyin: "xié",
+    english: "shoes",
+    level: "A1",
+    category: "Clothing",
+    examples: [
+      {
+        vietnamese: "Đôi giày này màu đen.",
+        chinese: "这双鞋是黑色的。",
+        pinyin: "zhè shuāng xié shì hēi sè de."
+      }
+    ]
+  },
+  {
+    id: 1204,
+    vietnamese: "mũ",
+    chinese: "帽子",
+    pinyin: "mào zi",
+    english: "hat",
+    level: "A1",
+    category: "Clothing",
+    examples: [
+      {
+        vietnamese: "Tôi đội mũ vào mùa đông.",
+        chinese: "我冬天戴帽子。",
+        pinyin: "wǒ dōng tiān dài mào zi."
+      }
+    ]
+  },
+  
+  // Transportation
+  {
+    id: 1301,
+    vietnamese: "xe đạp",
+    chinese: "自行车",
+    pinyin: "zì xíng chē",
+    english: "bicycle",
+    level: "A1",
+    category: "Transportation",
+    examples: [
+      {
+        vietnamese: "Tôi đi xe đạp đến trường.",
+        chinese: "我骑自行车去学校。",
+        pinyin: "wǒ qí zì xíng chē qù xué xiào."
+      }
+    ]
+  },
+  {
+    id: 1302,
+    vietnamese: "xe buýt",
+    chinese: "公共汽车",
+    pinyin: "gōng gòng qì chē",
+    english: "bus",
+    level: "A1",
+    category: "Transportation",
+    examples: [
+      {
+        vietnamese: "Tôi đi xe buýt đến công ty.",
+        chinese: "我坐公共汽车去公司。",
+        pinyin: "wǒ zuò gōng gòng qì chē qù gōng sī."
+      }
+    ]
+  },
+  {
+    id: 1303,
+    vietnamese: "xe hơi",
+    chinese: "汽车",
+    pinyin: "qì chē",
+    english: "car",
+    level: "A1",
+    category: "Transportation",
+    examples: [
+      {
+        vietnamese: "Bố tôi có một chiếc xe hơi màu đen.",
+        chinese: "我爸爸有一辆黑色汽车。",
+        pinyin: "wǒ bà ba yǒu yī liàng hēi sè qì chē."
+      }
+    ]
+  },
+  {
+    id: 1304,
+    vietnamese: "tàu",
+    chinese: "火车",
+    pinyin: "huǒ chē",
+    english: "train",
+    level: "A1",
+    category: "Transportation",
+    examples: [
+      {
+        vietnamese: "Tôi đi tàu từ Hà Nội đến Tp. HCM.",
+        chinese: "我坐火车从河内到胡志明市。",
+        pinyin: "wǒ zuò huǒ chē cóng hé nèi dào hú zhì míng shì."
+      }
+    ]
+  },
+  {
+    id: 1305,
+    vietnamese: "máy bay",
+    chinese: "飞机",
+    pinyin: "fēi jī",
+    english: "airplane",
+    level: "A1",
+    category: "Transportation",
+    examples: [
+      {
+        vietnamese: "Tôi đi máy bay đến Trung Quốc.",
+        chinese: "我坐飞机去中国。",
+        pinyin: "wǒ zuò fēi jī qù zhōng guó."
+      }
+    ]
+  },
+  
+  // Animals
+  {
+    id: 1401,
+    vietnamese: "chó",
+    chinese: "狗",
+    pinyin: "gǒu",
+    english: "dog",
+    level: "A1",
+    category: "Animals",
+    examples: [
+      {
+        vietnamese: "Tôi có một con chó.",
+        chinese: "我有一只狗。",
+        pinyin: "wǒ yǒu yī zhī gǒu."
+      }
+    ]
+  },
+  {
+    id: 1402,
+    vietnamese: "mèo",
+    chinese: "猫",
+    pinyin: "māo",
+    english: "cat",
+    level: "A1",
+    category: "Animals",
+    examples: [
+      {
+        vietnamese: "Con mèo của tôi màu đen.",
+        chinese: "我的猫是黑色的。",
+        pinyin: "wǒ de māo shì hēi sè de."
+      }
+    ]
+  },
+  {
+    id: 1403,
+    vietnamese: "cá",
+    chinese: "鱼",
+    pinyin: "yú",
+    english: "fish",
+    level: "A1",
+    category: "Animals",
+    examples: [
+      {
+        vietnamese: "Tôi thích ăn cá.",
+        chinese: "我喜欢吃鱼。",
+        pinyin: "wǒ xǐ huān chī yú."
+      }
+    ]
+  },
+  {
+    id: 1404,
+    vietnamese: "chim",
+    chinese: "鸟",
+    pinyin: "niǎo",
+    english: "bird",
+    level: "A1",
+    category: "Animals",
+    examples: [
+      {
+        vietnamese: "Con chim đang hót.",
+        chinese: "鸟在唱歌。",
+        pinyin: "niǎo zài chàng gē."
+      }
+    ]
+  },
+  
+  // Body Parts
+  {
+    id: 1501,
+    vietnamese: "đầu",
+    chinese: "头",
+    pinyin: "tóu",
+    english: "head",
+    level: "A1",
+    category: "Body Parts",
+    examples: [
+      {
+        vietnamese: "Tôi bị đau đầu.",
+        chinese: "我头疼。",
+        pinyin: "wǒ tóu téng."
+      }
+    ]
+  },
+  {
+    id: 1502,
+    vietnamese: "mắt",
+    chinese: "眼睛",
+    pinyin: "yǎn jing",
+    english: "eye",
+    level: "A1",
+    category: "Body Parts",
+    examples: [
+      {
+        vietnamese: "Cô ấy có đôi mắt đẹp.",
+        chinese: "她有一双漂亮的眼睛。",
+        pinyin: "tā yǒu yī shuāng piào liang de yǎn jing."
+      }
+    ]
+  },
+  {
+    id: 1503,
+    vietnamese: "mũi",
+    chinese: "鼻子",
+    pinyin: "bí zi",
+    english: "nose",
+    level: "A1",
+    category: "Body Parts",
+    examples: [
+      {
+        vietnamese: "Mũi tôi bị nghẹt.",
+        chinese: "我鼻子堵塞了。",
+        pinyin: "wǒ bí zi dǔ sè le."
+      }
+    ]
+  },
+  {
+    id: 1504,
+    vietnamese: "miệng",
+    chinese: "嘴",
+    pinyin: "zuǐ",
+    english: "mouth",
+    level: "A1",
+    category: "Body Parts",
+    examples: [
+      {
+        vietnamese: "Tôi đánh răng sau khi ăn.",
+        chinese: "我饭后刷牙。",
+        pinyin: "wǒ fàn hòu shuā yá."
+      }
+    ]
+  },
+  {
+    id: 1505,
+    vietnamese: "tay",
+    chinese: "手",
+    pinyin: "shǒu",
+    english: "hand",
+    level: "A1",
+    category: "Body Parts",
+    examples: [
+      {
+        vietnamese: "Tôi rửa tay trước khi ăn.",
+        chinese: "我饭前洗手。",
+        pinyin: "wǒ fàn qián xǐ shǒu."
+      }
+    ]
+  },
+  {
+    id: 1506,
+    vietnamese: "chân",
+    chinese: "脚",
+    pinyin: "jiǎo",
+    english: "leg, foot",
+    level: "A1",
+    category: "Body Parts",
+    examples: [
+      {
+        vietnamese: "Tôi đi bộ bằng chân.",
+        chinese: "我用脚走路。",
+        pinyin: "wǒ yòng jiǎo zǒu lù."
+      }
+    ]
+  },
+  
+  // Basic Verbs (continued)
+  {
+    id: 1601,
+    vietnamese: "nghe",
+    chinese: "听",
+    pinyin: "tīng",
+    english: "to listen, to hear",
+    level: "A1",
+    category: "Verbs",
+    examples: [
+      {
+        vietnamese: "Tôi nghe nhạc.",
+        chinese: "我听音乐。",
+        pinyin: "wǒ tīng yīn yuè."
+      }
+    ]
+  },
+  {
+    id: 1602,
+    vietnamese: "xem",
+    chinese: "看",
+    pinyin: "kàn",
+    english: "to watch, to see",
+    level: "A1",
+    category: "Verbs",
+    examples: [
+      {
+        vietnamese: "Tôi xem tivi.",
+        chinese: "我看电视。",
+        pinyin: "wǒ kàn diàn shì."
+      }
+    ]
+  },
+  {
+    id: 1603,
+    vietnamese: "viết",
+    chinese: "写",
+    pinyin: "xiě",
+    english: "to write",
+    level: "A1",
+    category: "Verbs",
+    examples: [
+      {
+        vietnamese: "Tôi viết thư.",
+        chinese: "我写信。",
+        pinyin: "wǒ xiě xìn."
+      }
+    ]
+  },
+  {
+    id: 1604,
+    vietnamese: "đọc",
+    chinese: "读",
+    pinyin: "dú",
+    english: "to read",
+    level: "A1",
+    category: "Verbs",
+    examples: [
+      {
+        vietnamese: "Tôi đọc sách.",
+        chinese: "我读书。",
+        pinyin: "wǒ dú shū."
+      }
+    ]
+  },
+  {
+    id: 1605,
+    vietnamese: "mua",
+    chinese: "买",
+    pinyin: "mǎi",
+    english: "to buy",
+    level: "A1",
+    category: "Verbs",
+    examples: [
+      {
+        vietnamese: "Tôi mua quần áo.",
+        chinese: "我买衣服。",
+        pinyin: "wǒ mǎi yī fu."
+      }
+    ]
+  },
+  {
+    id: 1606,
+    vietnamese: "bán",
+    chinese: "卖",
+    pinyin: "mài",
+    english: "to sell",
+    level: "A1",
+    category: "Verbs",
+    examples: [
+      {
+        vietnamese: "Cửa hàng này bán hoa quả.",
+        chinese: "这家商店卖水果。",
+        pinyin: "zhè jiā shāng diàn mài shuǐ guǒ."
+      }
+    ]
+  },
+  
+  // Fruits and Vegetables
+  {
+    id: 1701,
+    vietnamese: "táo",
+    chinese: "苹果",
+    pinyin: "píng guǒ",
+    english: "apple",
+    level: "A1",
+    category: "Fruits and Vegetables",
+    examples: [
+      {
+        vietnamese: "Tôi thích ăn táo.",
+        chinese: "我喜欢吃苹果。",
+        pinyin: "wǒ xǐ huān chī píng guǒ."
+      }
+    ]
+  },
+  {
+    id: 1702,
+    vietnamese: "chuối",
+    chinese: "香蕉",
+    pinyin: "xiāng jiāo",
+    english: "banana",
+    level: "A1",
+    category: "Fruits and Vegetables",
+    examples: [
+      {
+        vietnamese: "Tôi ăn chuối mỗi ngày.",
+        chinese: "我每天吃香蕉。",
+        pinyin: "wǒ měi tiān chī xiāng jiāo."
+      }
+    ]
+  },
+  {
+    id: 1703,
+    vietnamese: "cam",
+    chinese: "橙子",
+    pinyin: "chéng zi",
+    english: "orange",
+    level: "A1",
+    category: "Fruits and Vegetables",
+    examples: [
+      {
+        vietnamese: "Tôi thích uống nước cam.",
+        chinese: "我喜欢喝橙汁。",
+        pinyin: "wǒ xǐ huān hē chéng zhī."
+      }
+    ]
+  },
+  {
+    id: 1704,
+    vietnamese: "cà rốt",
+    chinese: "胡萝卜",
+    pinyin: "hú luó bo",
+    english: "carrot",
+    level: "A1",
+    category: "Fruits and Vegetables",
+    examples: [
+      {
+        vietnamese: "Tôi thích ăn cà rốt.",
+        chinese: "我喜欢吃胡萝卜。",
+        pinyin: "wǒ xǐ huān chī hú luó bo."
+      }
+    ]
+  },
+  {
+    id: 1705,
+    vietnamese: "khoai tây",
+    chinese: "土豆",
+    pinyin: "tǔ dòu",
+    english: "potato",
+    level: "A1",
+    category: "Fruits and Vegetables",
+    examples: [
+      {
+        vietnamese: "Tôi thích ăn khoai tây chiên.",
+        chinese: "我喜欢吃炸土豆。",
+        pinyin: "wǒ xǐ huān chī zhà tǔ dòu."
+      }
+    ]
+  },
+  
+  // Weather
+  {
+    id: 1801,
+    vietnamese: "thời tiết",
+    chinese: "天气",
+    pinyin: "tiān qì",
+    english: "weather",
+    level: "A1",
+    category: "Weather",
+    examples: [
+      {
+        vietnamese: "Thời tiết hôm nay thế nào?",
+        chinese: "今天天气怎么样？",
+        pinyin: "jīn tiān tiān qì zěn me yàng?"
+      }
+    ]
+  },
+  {
+    id: 1802,
+    vietnamese: "mưa",
+    chinese: "雨",
+    pinyin: "yǔ",
+    english: "rain",
+    level: "A1",
+    category: "Weather",
+    examples: [
+      {
+        vietnamese: "Hôm nay trời mưa.",
+        chinese: "今天下雨。",
+        pinyin: "jīn tiān xià yǔ."
+      }
+    ]
+  },
+  {
+    id: 1803,
+    vietnamese: "nắng",
+    chinese: "晴",
+    pinyin: "qíng",
+    english: "sunny",
+    level: "A1",
+    category: "Weather",
+    examples: [
+      {
+        vietnamese: "Hôm nay trời nắng.",
+        chinese: "今天天晴。",
+        pinyin: "jīn tiān tiān qíng."
+      }
+    ]
+  },
+  {
+    id: 1804,
+    vietnamese: "mây",
+    chinese: "云",
+    pinyin: "yún",
+    english: "cloud",
+    level: "A1",
+    category: "Weather",
+    examples: [
+      {
+        vietnamese: "Trên bầu trời có nhiều mây.",
+        chinese: "天空中有很多云。",
+        pinyin: "tiān kōng zhōng yǒu hěn duō yún."
+      }
+    ]
+  },
+  {
+    id: 1805,
+    vietnamese: "gió",
+    chinese: "风",
+    pinyin: "fēng",
+    english: "wind",
+    level: "A1",
+    category: "Weather",
+    examples: [
+      {
+        vietnamese: "Hôm nay có gió lớn.",
+        chinese: "今天有大风。",
+        pinyin: "jīn tiān yǒu dà fēng."
+      }
+    ]
+  },
+  
+  // School and Education
+  {
+    id: 1901,
+    vietnamese: "học sinh",
+    chinese: "学生",
+    pinyin: "xué sheng",
+    english: "student",
+    level: "A1",
+    category: "School and Education",
+    examples: [
+      {
+        vietnamese: "Tôi là học sinh.",
+        chinese: "我是学生。",
+        pinyin: "wǒ shì xué sheng."
+      }
+    ]
+  },
+  {
+    id: 1902,
+    vietnamese: "giáo viên",
+    chinese: "老师",
+    pinyin: "lǎo shī",
+    english: "teacher",
+    level: "A1",
+    category: "School and Education",
+    examples: [
+      {
+        vietnamese: "Cô ấy là giáo viên tiếng Việt.",
+        chinese: "她是越南语老师。",
+        pinyin: "tā shì yuè nán yǔ lǎo shī."
+      }
+    ]
+  },
+  {
+    id: 1903,
+    vietnamese: "bài tập",
+    chinese: "作业",
+    pinyin: "zuò yè",
+    english: "homework",
+    level: "A1",
+    category: "School and Education",
+    examples: [
+      {
+        vietnamese: "Tôi làm bài tập mỗi tối.",
+        chinese: "我每晚做作业。",
+        pinyin: "wǒ měi wǎn zuò zuò yè."
+      }
+    ]
+  },
+  {
+    id: 1904,
+    vietnamese: "bài kiểm tra",
+    chinese: "考试",
+    pinyin: "kǎo shì",
+    english: "test, exam",
+    level: "A1",
+    category: "School and Education",
+    examples: [
+      {
+        vietnamese: "Ngày mai tôi có bài kiểm tra.",
+        chinese: "明天我有考试。",
+        pinyin: "míng tiān wǒ yǒu kǎo shì."
+      }
+    ]
+  },
+  {
+    id: 1905,
+    vietnamese: "sách",
+    chinese: "书",
+    pinyin: "shū",
+    english: "book",
+    level: "A1",
+    category: "School and Education",
+    examples: [
+      {
+        vietnamese: "Tôi đọc sách mỗi ngày.",
+        chinese: "我每天读书。",
+        pinyin: "wǒ měi tiān dú shū."
+      }
+    ]
+  },
+  {
+    id: 1906,
+    vietnamese: "bút",
+    chinese: "笔",
+    pinyin: "bǐ",
+    english: "pen",
+    level: "A1",
+    category: "School and Education",
+    examples: [
+      {
+        vietnamese: "Tôi viết bằng bút.",
+        chinese: "我用笔写字。",
+        pinyin: "wǒ yòng bǐ xiě zì."
+      }
+    ]
+  },
+  // Days of the Week
+{
+    id: 2001,
+    vietnamese: "thứ hai",
+    chinese: "星期一",
+    pinyin: "xīng qī yī",
+    english: "Monday",
+    level: "A1",
+    category: "Days of the Week",
+    examples: [
+      {
+        vietnamese: "Hôm nay là thứ hai.",
+        chinese: "今天是星期一。",
+        pinyin: "jīn tiān shì xīng qī yī."
+      }
+    ]
+  },
+  {
+    id: 2002,
+    vietnamese: "thứ ba",
+    chinese: "星期二",
+    pinyin: "xīng qī èr",
+    english: "Tuesday",
+    level: "A1",
+    category: "Days of the Week",
+    examples: [
+      {
+        vietnamese: "Tôi học tiếng Việt vào thứ ba.",
+        chinese: "我星期二学越南语。",
+        pinyin: "wǒ xīng qī èr xué yuè nán yǔ."
+      }
+    ]
+  },
+  {
+    id: 2003,
+    vietnamese: "thứ tư",
+    chinese: "星期三",
+    pinyin: "xīng qī sān",
+    english: "Wednesday",
+    level: "A1",
+    category: "Days of the Week",
+    examples: [
+      {
+        vietnamese: "Tôi có cuộc họp vào thứ tư.",
+        chinese: "我星期三有会议。",
+        pinyin: "wǒ xīng qī sān yǒu huì yì."
+      }
+    ]
+  },
+  {
+    id: 2004,
+    vietnamese: "thứ năm",
+    chinese: "星期四",
+    pinyin: "xīng qī sì",
+    english: "Thursday",
+    level: "A1",
+    category: "Days of the Week",
+    examples: [
+      {
+        vietnamese: "Thứ năm tôi gặp bạn bè.",
+        chinese: "星期四我见朋友。",
+        pinyin: "xīng qī sì wǒ jiàn péng yǒu."
+      }
+    ]
+  },
+  {
+    id: 2005,
+    vietnamese: "thứ sáu",
+    chinese: "星期五",
+    pinyin: "xīng qī wǔ",
+    english: "Friday",
+    level: "A1",
+    category: "Days of the Week",
+    examples: [
+      {
+        vietnamese: "Thứ sáu là ngày làm việc cuối cùng của tuần.",
+        chinese: "星期五是一周的最后一个工作日。",
+        pinyin: "xīng qī wǔ shì yī zhōu de zuì hòu yī gè gōng zuò rì."
+      }
+    ]
+  },
+  {
+    id: 2006,
+    vietnamese: "thứ bảy",
+    chinese: "星期六",
+    pinyin: "xīng qī liù",
+    english: "Saturday",
+    level: "A1",
+    category: "Days of the Week",
+    examples: [
+      {
+        vietnamese: "Thứ bảy tôi đi mua sắm.",
+        chinese: "星期六我去购物。",
+        pinyin: "xīng qī liù wǒ qù gòu wù."
+      }
+    ]
+  },
+  {
+    id: 2007,
+    vietnamese: "chủ nhật",
+    chinese: "星期日",
+    pinyin: "xīng qī rì",
+    english: "Sunday",
+    level: "A1",
+    category: "Days of the Week",
+    examples: [
+      {
+        vietnamese: "Chủ nhật tôi ở nhà nghỉ ngơi.",
+        chinese: "星期日我在家休息。",
+        pinyin: "xīng qī rì wǒ zài jiā xiū xí."
+      }
+    ]
+  },
+  
+  // Months
+  {
+    id: 2101,
+    vietnamese: "tháng một",
+    chinese: "一月",
+    pinyin: "yī yuè",
+    english: "January",
+    level: "A1",
+    category: "Months",
+    examples: [
+      {
+        vietnamese: "Tháng một là tháng đầu tiên của năm.",
+        chinese: "一月是一年的第一个月。",
+        pinyin: "yī yuè shì yī nián de dì yī gè yuè."
+      }
+    ]
+  },
+  {
+    id: 2102,
+    vietnamese: "tháng hai",
+    chinese: "二月",
+    pinyin: "èr yuè",
+    english: "February",
+    level: "A1",
+    category: "Months",
+    examples: [
+      {
+        vietnamese: "Tết thường rơi vào tháng hai.",
+        chinese: "春节通常在二月。",
+        pinyin: "chūn jié tōng cháng zài èr yuè."
+      }
+    ]
+  },
+  {
+    id: 2103,
+    vietnamese: "tháng ba",
+    chinese: "三月",
+    pinyin: "sān yuè",
+    english: "March",
+    level: "A1",
+    category: "Months",
+    examples: [
+      {
+        vietnamese: "Tháng ba là tháng của mùa xuân.",
+        chinese: "三月是春天的月份。",
+        pinyin: "sān yuè shì chūn tiān de yuè fèn."
+      }
+    ]
+  },
+  {
+    id: 2104,
+    vietnamese: "tháng tư",
+    chinese: "四月",
+    pinyin: "sì yuè",
+    english: "April",
+    level: "A1",
+    category: "Months",
+    examples: [
+      {
+        vietnamese: "Sinh nhật tôi vào tháng tư.",
+        chinese: "我的生日在四月。",
+        pinyin: "wǒ de shēng rì zài sì yuè."
+      }
+    ]
+  },
+  {
+    id: 2105,
+    vietnamese: "tháng năm",
+    chinese: "五月",
+    pinyin: "wǔ yuè",
+    english: "May",
+    level: "A1",
+    category: "Months",
+    examples: [
+      {
+        vietnamese: "Tháng năm thời tiết rất đẹp.",
+        chinese: "五月天气很好。",
+        pinyin: "wǔ yuè tiān qì hěn hǎo."
+      }
+    ]
+  },
+  {
+    id: 2106,
+    vietnamese: "tháng sáu",
+    chinese: "六月",
+    pinyin: "liù yuè",
+    english: "June",
+    level: "A1",
+    category: "Months",
+    examples: [
+      {
+        vietnamese: "Tháng sáu là đầu mùa hè.",
+        chinese: "六月是夏天的开始。",
+        pinyin: "liù yuè shì xià tiān de kāi shǐ."
+      }
+    ]
+  },
+  
+  // Occupations
+  {
+    id: 2201,
+    vietnamese: "bác sĩ",
+    chinese: "医生",
+    pinyin: "yī shēng",
+    english: "doctor",
+    level: "A1",
+    category: "Occupations",
+    examples: [
+      {
+        vietnamese: "Chị tôi là bác sĩ.",
+        chinese: "我姐姐是医生。",
+        pinyin: "wǒ jiě jie shì yī shēng."
+      }
+    ]
+  },
+  {
+    id: 2202,
+    vietnamese: "y tá",
+    chinese: "护士",
+    pinyin: "hù shi",
+    english: "nurse",
+    level: "A1",
+    category: "Occupations",
+    examples: [
+      {
+        vietnamese: "Cô ấy làm việc như một y tá.",
+        chinese: "她作为护士工作。",
+        pinyin: "tā zuò wéi hù shi gōng zuò."
+      }
+    ]
+  },
+  {
+    id: 2203,
+    vietnamese: "kỹ sư",
+    chinese: "工程师",
+    pinyin: "gōng chéng shī",
+    english: "engineer",
+    level: "A1",
+    category: "Occupations",
+    examples: [
+      {
+        vietnamese: "Anh tôi là kỹ sư.",
+        chinese: "我哥哥是工程师。",
+        pinyin: "wǒ gē ge shì gōng chéng shī."
+      }
+    ]
+  },
+  {
+    id: 2204,
+    vietnamese: "giám đốc",
+    chinese: "经理",
+    pinyin: "jīng lǐ",
+    english: "manager, director",
+    level: "A1",
+    category: "Occupations",
+    examples: [
+      {
+        vietnamese: "Anh ấy là giám đốc của công ty.",
+        chinese: "他是公司的经理。",
+        pinyin: "tā shì gōng sī de jīng lǐ."
+      }
+    ]
+  },
+  {
+    id: 2205,
+    vietnamese: "công nhân",
+    chinese: "工人",
+    pinyin: "gōng rén",
+    english: "worker",
+    level: "A1",
+    category: "Occupations",
+    examples: [
+      {
+        vietnamese: "Có nhiều công nhân trong nhà máy.",
+        chinese: "工厂里有很多工人。",
+        pinyin: "gōng chǎng lǐ yǒu hěn duō gōng rén."
+      }
+    ]
+  },
+  {
+    id: 2206,
+    vietnamese: "nông dân",
+    chinese: "农民",
+    pinyin: "nóng mín",
+    english: "farmer",
+    level: "A1",
+    category: "Occupations",
+    examples: [
+      {
+        vietnamese: "Ông tôi là nông dân.",
+        chinese: "我爷爷是农民。",
+        pinyin: "wǒ yé ye shì nóng mín."
+      }
+    ]
+  },
+  
+  // Relationships and People
+  {
+    id: 2301,
+    vietnamese: "bạn",
+    chinese: "朋友",
+    pinyin: "péng you",
+    english: "friend",
+    level: "A1",
+    category: "Relationships",
+    examples: [
+      {
+        vietnamese: "Cô ấy là bạn tốt của tôi.",
+        chinese: "她是我的好朋友。",
+        pinyin: "tā shì wǒ de hǎo péng you."
+      }
+    ]
+  },
+  {
+    id: 2302,
+    vietnamese: "đồng nghiệp",
+    chinese: "同事",
+    pinyin: "tóng shì",
+    english: "colleague",
+    level: "A1",
+    category: "Relationships",
+    examples: [
+      {
+        vietnamese: "Tôi ăn trưa với đồng nghiệp.",
+        chinese: "我和同事一起吃午饭。",
+        pinyin: "wǒ hé tóng shì yī qǐ chī wǔ fàn."
+      }
+    ]
+  },
+  {
+    id: 2303,
+    vietnamese: "hàng xóm",
+    chinese: "邻居",
+    pinyin: "lín jū",
+    english: "neighbor",
+    level: "A1",
+    category: "Relationships",
+    examples: [
+      {
+        vietnamese: "Tôi có hàng xóm tốt.",
+        chinese: "我有好邻居。",
+        pinyin: "wǒ yǒu hǎo lín jū."
+      }
+    ]
+  },
+  {
+    id: 2304,
+    vietnamese: "người yêu",
+    chinese: "恋人",
+    pinyin: "liàn rén",
+    english: "lover, boyfriend/girlfriend",
+    level: "A1",
+    category: "Relationships",
+    examples: [
+      {
+        vietnamese: "Cô ấy là người yêu của tôi.",
+        chinese: "她是我的恋人。",
+        pinyin: "tā shì wǒ de liàn rén."
+      }
+    ]
+  },
+  {
+    id: 2305,
+    vietnamese: "vợ",
+    chinese: "妻子",
+    pinyin: "qī zi",
+    english: "wife",
+    level: "A1",
+    category: "Relationships",
+    examples: [
+      {
+        vietnamese: "Vợ tôi là người Việt Nam.",
+        chinese: "我的妻子是越南人。",
+        pinyin: "wǒ de qī zi shì yuè nán rén."
+      }
+    ]
+  },
+  {
+    id: 2306,
+    vietnamese: "chồng",
+    chinese: "丈夫",
+    pinyin: "zhàng fu",
+    english: "husband",
+    level: "A1",
+    category: "Relationships",
+    examples: [
+      {
+        vietnamese: "Chồng tôi là người Trung Quốc.",
+        chinese: "我的丈夫是中国人。",
+        pinyin: "wǒ de zhàng fu shì zhōng guó rén."
+      }
+    ]
+  },
+  
+  // Countries and Nationalities
+  {
+    id: 2401,
+    vietnamese: "Việt Nam",
+    chinese: "越南",
+    pinyin: "yuè nán",
+    english: "Vietnam",
+    level: "A1",
+    category: "Countries",
+    examples: [
+      {
+        vietnamese: "Tôi đến từ Việt Nam.",
+        chinese: "我来自越南。",
+        pinyin: "wǒ lái zì yuè nán."
+      }
+    ]
+  },
+  {
+    id: 2402,
+    vietnamese: "Trung Quốc",
+    chinese: "中国",
+    pinyin: "zhōng guó",
+    english: "China",
+    level: "A1",
+    category: "Countries",
+    examples: [
+      {
+        vietnamese: "Bạn tôi đến từ Trung Quốc.",
+        chinese: "我的朋友来自中国。",
+        pinyin: "wǒ de péng you lái zì zhōng guó."
+      }
+    ]
+  },
+  {
+    id: 2403,
+    vietnamese: "Hoa Kỳ",
+    chinese: "美国",
+    pinyin: "měi guó",
+    english: "United States",
+    level: "A1",
+    category: "Countries",
+    examples: [
+      {
+        vietnamese: "Cô ấy sống ở Hoa Kỳ.",
+        chinese: "她住在美国。",
+        pinyin: "tā zhù zài měi guó."
+      }
+    ]
+  },
+  {
+    id: 2404,
+    vietnamese: "Nhật Bản",
+    chinese: "日本",
+    pinyin: "rì běn",
+    english: "Japan",
+    level: "A1",
+    category: "Countries",
+    examples: [
+      {
+        vietnamese: "Tôi muốn đi du lịch đến Nhật Bản.",
+        chinese: "我想去日本旅游。",
+        pinyin: "wǒ xiǎng qù rì běn lǚ yóu."
+      }
+    ]
+  },
+  {
+    id: 2405,
+    vietnamese: "Hàn Quốc",
+    chinese: "韩国",
+    pinyin: "hán guó",
+    english: "South Korea",
+    level: "A1",
+    category: "Countries",
+    examples: [
+      {
+        vietnamese: "Chị tôi làm việc ở Hàn Quốc.",
+        chinese: "我姐姐在韩国工作。",
+        pinyin: "wǒ jiě jie zài hán guó gōng zuò."
+      }
+    ]
+  },
+  
+  // Common Phrases
+  {
+    id: 2501,
+    vietnamese: "làm ơn",
+    chinese: "请",
+    pinyin: "qǐng",
+    english: "please",
+    level: "A1",
+    category: "Common Phrases",
+    examples: [
+      {
+        vietnamese: "Làm ơn cho tôi xem.",
+        chinese: "请给我看。",
+        pinyin: "qǐng gěi wǒ kàn."
+      }
+    ]
+  },
+  {
+    id: 2502,
+    vietnamese: "xin vui lòng",
+    chinese: "请",
+    pinyin: "qǐng",
+    english: "please (more formal)",
+    level: "A1",
+    category: "Common Phrases",
+    examples: [
+      {
+        vietnamese: "Xin vui lòng đợi một chút.",
+        chinese: "请稍等一下。",
+        pinyin: "qǐng shāo děng yī xià."
+      }
+    ]
+  },
+  {
+    id: 2503,
+    vietnamese: "không sao",
+    chinese: "没关系",
+    pinyin: "méi guān xi",
+    english: "it's okay, no problem",
+    level: "A1",
+    category: "Common Phrases",
+    examples: [
+      {
+        vietnamese: "Không sao, đừng lo lắng.",
+        chinese: "没关系，别担心。",
+        pinyin: "méi guān xi, bié dān xīn."
+      }
+    ]
+  },
+  {
+    id: 2504,
+    vietnamese: "chúc mừng",
+    chinese: "祝贺",
+    pinyin: "zhù hè",
+    english: "congratulations",
+    level: "A1",
+    category: "Common Phrases",
+    examples: [
+      {
+        vietnamese: "Chúc mừng sinh nhật!",
+        chinese: "生日快乐！",
+        pinyin: "shēng rì kuài lè!"
+      }
+    ]
+  },
+  {
+    id: 2505,
+    vietnamese: "vâng",
+    chinese: "是的",
+    pinyin: "shì de",
+    english: "yes",
+    level: "A1",
+    category: "Common Phrases",
+    examples: [
+      {
+        vietnamese: "Vâng, tôi hiểu.",
+        chinese: "是的，我明白。",
+        pinyin: "shì de, wǒ míng bái."
+      }
+    ]
+  },
+  {
+    id: 2506,
+    vietnamese: "không",
+    chinese: "不",
+    pinyin: "bù",
+    english: "no",
+    level: "A1",
+    category: "Common Phrases",
+    examples: [
+      {
+        vietnamese: "Không, tôi không muốn.",
+        chinese: "不，我不想。",
+        pinyin: "bù, wǒ bù xiǎng."
+      }
+    ]
+  },
+  // Additional A1 vocabulary to add to a1Vocabulary.ts
+
+// Kitchen and Dining
+{
+    id: 2601,
+    vietnamese: "nhà bếp",
+    chinese: "厨房",
+    pinyin: "chú fáng",
+    english: "kitchen",
+    level: "A1",
+    category: "Kitchen and Dining",
+    examples: [
+      {
+        vietnamese: "Nhà bếp của tôi rất nhỏ.",
+        chinese: "我的厨房很小。",
+        pinyin: "wǒ de chú fáng hěn xiǎo."
+      }
+    ]
+  },
+  {
+    id: 2602,
+    vietnamese: "bàn ăn",
+    chinese: "餐桌",
+    pinyin: "cān zhuō",
+    english: "dining table",
+    level: "A1",
+    category: "Kitchen and Dining",
+    examples: [
+      {
+        vietnamese: "Chúng tôi ăn tối ở bàn ăn.",
+        chinese: "我们在餐桌上吃晚饭。",
+        pinyin: "wǒ men zài cān zhuō shàng chī wǎn fàn."
+      }
+    ]
+  },
+  {
+    id: 2603,
+    vietnamese: "bát",
+    chinese: "碗",
+    pinyin: "wǎn",
+    english: "bowl",
+    level: "A1",
+    category: "Kitchen and Dining",
+    examples: [
+      {
+        vietnamese: "Tôi có một bát cơm.",
+        chinese: "我有一碗饭。",
+        pinyin: "wǒ yǒu yī wǎn fàn."
+      }
+    ]
+  },
+  {
+    id: 2604,
+    vietnamese: "đĩa",
+    chinese: "盘子",
+    pinyin: "pán zi",
+    english: "plate",
+    level: "A1",
+    category: "Kitchen and Dining",
+    examples: [
+      {
+        vietnamese: "Thức ăn ở trên đĩa.",
+        chinese: "食物在盘子上。",
+        pinyin: "shí wù zài pán zi shàng."
+      }
+    ]
+  },
+  {
+    id: 2605,
+    vietnamese: "đũa",
+    chinese: "筷子",
+    pinyin: "kuài zi",
+    english: "chopsticks",
+    level: "A1",
+    category: "Kitchen and Dining",
+    examples: [
+      {
+        vietnamese: "Người Việt Nam ăn bằng đũa.",
+        chinese: "越南人用筷子吃饭。",
+        pinyin: "yuè nán rén yòng kuài zi chī fàn."
+      }
+    ]
+  },
+  {
+    id: 2606,
+    vietnamese: "thìa",
+    chinese: "勺子",
+    pinyin: "sháo zi",
+    english: "spoon",
+    level: "A1",
+    category: "Kitchen and Dining",
+    examples: [
+      {
+        vietnamese: "Tôi ăn súp bằng thìa.",
+        chinese: "我用勺子吃汤。",
+        pinyin: "wǒ yòng sháo zi chī tāng."
+      }
+    ]
+  },
+  {
+    id: 2607,
+    vietnamese: "dao",
+    chinese: "刀",
+    pinyin: "dāo",
+    english: "knife",
+    level: "A1",
+    category: "Kitchen and Dining",
+    examples: [
+      {
+        vietnamese: "Tôi cắt thịt bằng dao.",
+        chinese: "我用刀切肉。",
+        pinyin: "wǒ yòng dāo qiē ròu."
+      }
+    ]
+  },
+  
+  // Home Furniture
+  {
+    id: 2701,
+    vietnamese: "giường",
+    chinese: "床",
+    pinyin: "chuáng",
+    english: "bed",
+    level: "A1",
+    category: "Home Furniture",
+    examples: [
+      {
+        vietnamese: "Tôi ngủ trên giường.",
+        chinese: "我在床上睡觉。",
+        pinyin: "wǒ zài chuáng shàng shuì jiào."
+      }
+    ]
+  },
+  {
+    id: 2702,
+    vietnamese: "ghế",
+    chinese: "椅子",
+    pinyin: "yǐ zi",
+    english: "chair",
+    level: "A1",
+    category: "Home Furniture",
+    examples: [
+      {
+        vietnamese: "Tôi ngồi trên ghế.",
+        chinese: "我坐在椅子上。",
+        pinyin: "wǒ zuò zài yǐ zi shàng."
+      }
+    ]
+  },
+  {
+    id: 2703,
+    vietnamese: "bàn",
+    chinese: "桌子",
+    pinyin: "zhuō zi",
+    english: "table",
+    level: "A1",
+    category: "Home Furniture",
+    examples: [
+      {
+        vietnamese: "Quyển sách ở trên bàn.",
+        chinese: "书在桌子上。",
+        pinyin: "shū zài zhuō zi shàng."
+      }
+    ]
+  },
+  {
+    id: 2704,
+    vietnamese: "tủ quần áo",
+    chinese: "衣柜",
+    pinyin: "yī guì",
+    english: "wardrobe, closet",
+    level: "A1",
+    category: "Home Furniture",
+    examples: [
+      {
+        vietnamese: "Quần áo của tôi ở trong tủ quần áo.",
+        chinese: "我的衣服在衣柜里。",
+        pinyin: "wǒ de yī fu zài yī guì lǐ."
+      }
+    ]
+  },
+  {
+    id: 2705,
+    vietnamese: "kệ sách",
+    chinese: "书架",
+    pinyin: "shū jià",
+    english: "bookshelf",
+    level: "A1",
+    category: "Home Furniture",
+    examples: [
+      {
+        vietnamese: "Có nhiều sách trên kệ sách.",
+        chinese: "书架上有很多书。",
+        pinyin: "shū jià shàng yǒu hěn duō shū."
+      }
+    ]
+  },
+  {
+    id: 2706,
+    vietnamese: "sofa",
+    chinese: "沙发",
+    pinyin: "shā fā",
+    english: "sofa, couch",
+    level: "A1",
+    category: "Home Furniture",
+    examples: [
+      {
+        vietnamese: "Chúng tôi ngồi trên sofa và xem tivi.",
+        chinese: "我们坐在沙发上看电视。",
+        pinyin: "wǒ men zuò zài shā fā shàng kàn diàn shì."
+      }
+    ]
+  },
+  
+  // Electronics and Technology
+  {
+    id: 2801,
+    vietnamese: "điện thoại",
+    chinese: "电话",
+    pinyin: "diàn huà",
+    english: "telephone, phone",
+    level: "A1",
+    category: "Electronics",
+    examples: [
+      {
+        vietnamese: "Tôi gọi điện thoại cho bạn tôi.",
+        chinese: "我给我的朋友打电话。",
+        pinyin: "wǒ gěi wǒ de péng yǒu dǎ diàn huà."
+      }
+    ]
+  },
+  {
+    id: 2802,
+    vietnamese: "máy tính",
+    chinese: "电脑",
+    pinyin: "diàn nǎo",
+    english: "computer",
+    level: "A1",
+    category: "Electronics",
+    examples: [
+      {
+        vietnamese: "Tôi làm việc trên máy tính.",
+        chinese: "我在电脑上工作。",
+        pinyin: "wǒ zài diàn nǎo shàng gōng zuò."
+      }
+    ]
+  },
+  {
+    id: 2803,
+    vietnamese: "tivi",
+    chinese: "电视",
+    pinyin: "diàn shì",
+    english: "TV, television",
+    level: "A1",
+    category: "Electronics",
+    examples: [
+      {
+        vietnamese: "Tôi thích xem tivi vào buổi tối.",
+        chinese: "我喜欢晚上看电视。",
+        pinyin: "wǒ xǐ huān wǎn shàng kàn diàn shì."
+      }
+    ]
+  },
+  {
+    id: 2804,
+    vietnamese: "máy ảnh",
+    chinese: "相机",
+    pinyin: "xiàng jī",
+    english: "camera",
+    level: "A1",
+    category: "Electronics",
+    examples: [
+      {
+        vietnamese: "Tôi chụp ảnh bằng máy ảnh.",
+        chinese: "我用相机拍照。",
+        pinyin: "wǒ yòng xiàng jī pāi zhào."
+      }
+    ]
+  },
+  {
+    id: 2805,
+    vietnamese: "radio",
+    chinese: "收音机",
+    pinyin: "shōu yīn jī",
+    english: "radio",
+    level: "A1",
+    category: "Electronics",
+    examples: [
+      {
+        vietnamese: "Tôi nghe radio vào buổi sáng.",
+        chinese: "我早上听收音机。",
+        pinyin: "wǒ zǎo shàng tīng shōu yīn jī."
+      }
+    ]
+  },
+  
+  // Emotions and Feelings
+  {
+    id: 2901,
+    vietnamese: "vui",
+    chinese: "高兴",
+    pinyin: "gāo xìng",
+    english: "happy",
+    level: "A1",
+    category: "Emotions",
+    examples: [
+      {
+        vietnamese: "Tôi rất vui hôm nay.",
+        chinese: "我今天很高兴。",
+        pinyin: "wǒ jīn tiān hěn gāo xìng."
+      }
+    ]
+  },
+  {
+    id: 2902,
+    vietnamese: "buồn",
+    chinese: "伤心",
+    pinyin: "shāng xīn",
+    english: "sad",
+    level: "A1",
+    category: "Emotions",
+    examples: [
+      {
+        vietnamese: "Cô ấy cảm thấy buồn.",
+        chinese: "她感到伤心。",
+        pinyin: "tā gǎn dào shāng xīn."
+      }
+    ]
+  },
+  {
+    id: 2903,
+    vietnamese: "mệt",
+    chinese: "累",
+    pinyin: "lèi",
+    english: "tired",
+    level: "A1",
+    category: "Emotions",
+    examples: [
+      {
+        vietnamese: "Tôi rất mệt sau khi làm việc.",
+        chinese: "工作后我很累。",
+        pinyin: "gōng zuò hòu wǒ hěn lèi."
+      }
+    ]
+  },
+  {
+    id: 2904,
+    vietnamese: "đói",
+    chinese: "饿",
+    pinyin: "è",
+    english: "hungry",
+    level: "A1",
+    category: "Emotions",
+    examples: [
+      {
+        vietnamese: "Tôi đói. Tôi muốn ăn cơm.",
+        chinese: "我饿了。我想吃饭。",
+        pinyin: "wǒ è le. wǒ xiǎng chī fàn."
+      }
+    ]
+  },
+  {
+    id: 2905,
+    vietnamese: "khát",
+    chinese: "渴",
+    pinyin: "kě",
+    english: "thirsty",
+    level: "A1",
+    category: "Emotions",
+    examples: [
+      {
+        vietnamese: "Tôi khát. Tôi muốn uống nước.",
+        chinese: "我渴了。我想喝水。",
+        pinyin: "wǒ kě le. wǒ xiǎng hē shuǐ."
+      }
+    ]
+  },
+  {
+    id: 2906,
+    vietnamese: "sợ",
+    chinese: "害怕",
+    pinyin: "hài pà",
+    english: "afraid, scared",
+    level: "A1",
+    category: "Emotions",
+    examples: [
+      {
+        vietnamese: "Tôi sợ rắn.",
+        chinese: "我害怕蛇。",
+        pinyin: "wǒ hài pà shé."
+      }
+    ]
+  },
+  
+  // Hobbies and Activities
+  {
+    id: 3001,
+    vietnamese: "bơi",
+    chinese: "游泳",
+    pinyin: "yóu yǒng",
+    english: "to swim, swimming",
+    level: "A1",
+    category: "Hobbies",
+    examples: [
+      {
+        vietnamese: "Tôi thích bơi vào mùa hè.",
+        chinese: "我喜欢在夏天游泳。",
+        pinyin: "wǒ xǐ huān zài xià tiān yóu yǒng."
+      }
+    ]
+  },
+  {
+    id: 3002,
+    vietnamese: "hát",
+    chinese: "唱歌",
+    pinyin: "chàng gē",
+    english: "to sing, singing",
+    level: "A1",
+    category: "Hobbies",
+    examples: [
+      {
+        vietnamese: "Cô ấy hát rất hay.",
+        chinese: "她唱歌很好听。",
+        pinyin: "tā chàng gē hěn hǎo tīng."
+      }
+    ]
+  },
+  {
+    id: 3003,
+    vietnamese: "khiêu vũ",
+    chinese: "跳舞",
+    pinyin: "tiào wǔ",
+    english: "to dance, dancing",
+    level: "A1",
+    category: "Hobbies",
+    examples: [
+      {
+        vietnamese: "Anh ấy thích khiêu vũ.",
+        chinese: "他喜欢跳舞。",
+        pinyin: "tā xǐ huān tiào wǔ."
+      }
+    ]
+  },
+  {
+    id: 3004,
+    vietnamese: "nấu ăn",
+    chinese: "做饭",
+    pinyin: "zuò fàn",
+    english: "to cook, cooking",
+    level: "A1",
+    category: "Hobbies",
+    examples: [
+      {
+        vietnamese: "Mẹ tôi nấu ăn rất ngon.",
+        chinese: "我妈妈做饭很好吃。",
+        pinyin: "wǒ mā ma zuò fàn hěn hǎo chī."
+      }
+    ]
+  },
+  {
+    id: 3005,
+    vietnamese: "chụp ảnh",
+    chinese: "拍照",
+    pinyin: "pāi zhào",
+    english: "to take photos, photography",
+    level: "A1",
+    category: "Hobbies",
+    examples: [
+      {
+        vietnamese: "Tôi thích chụp ảnh khi đi du lịch.",
+        chinese: "我喜欢旅游时拍照。",
+        pinyin: "wǒ xǐ huān lǚ yóu shí pāi zhào."
+      }
+    ]
   }
 ];
 

@@ -23,9 +23,7 @@ const ReadingCard: React.FC<ReadingCardProps> = ({ passage }) => {
       </div>
       
       <div className="text-sm text-gray-600 dark:text-gray-400 mb-4">
-        <p>Paragraphs: {passage.paragraphs.length}</p>
-        <p>Vocabulary: {passage.vocabulary.length} words</p>
-        
+
         {/* Completion progress bar */}
         {completionPercentage > 0 && (
           <div className="mt-2">
