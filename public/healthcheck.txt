@@ -1,0 +1,1 @@
+GitHub Pages is properly configured and serving files.
