@@ -34,9 +34,10 @@ const ReadingFilters: React.FC<ReadingFiltersProps> = ({
       <div className="mb-4 pt-4 border-t border-gray-200 dark:border-gray-700">
         <h3 className="text-sm font-medium mb-2">Reading Tips</h3>
         <ul className="text-sm text-gray-600 dark:text-gray-400 space-y-2">
-          <li>• Click on words to see translations</li>
+          <li>• Click on highlighted words to see translations</li>
+          <li>• Toggle between parallel and alternating layouts</li>
           <li>• Practice reading aloud for pronunciation</li>
-          <li>• Try to understand the context before checking translations</li>
+          <li>• Try to understand the context before checking vocabulary</li>
         </ul>
       </div>
     </div>

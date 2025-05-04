@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { sampleReadings } from '../data/sampleReadings';
+import { allReadings } from '../data/reading';
 import ReadingList from '../components/reading/ReadingList';
 import ReadingFilters from '../components/reading/ReadingFilters';
 
@@ -22,7 +22,7 @@ const ReadingPage = () => {
         
         <div className="md:col-span-3">
           <ReadingList 
-            passages={sampleReadings} 
+            passages={allReadings} 
             selectedLevel={selectedLevel} 
           />
         </div>

@@ -1,7 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { ReadingPassage } from '../types';
-import { sampleReadings } from '../data/sampleReadings';
+import { getReadingById, allReadings } from '../data/reading';
 import PassageDetail from '../components/reading/passage/PassageDetail';
 import { updateReadingProgress, getReadingCompletion } from '../utils/progressTracking';
 
@@ -12,13 +12,12 @@ const PassageDetailPage = () => {
   const [completionPercentage, setCompletionPercentage] = useState(0);
   
   useEffect(() => {
-    // In a real app, this would fetch from an API
-    // For now, we'll use the sample data
+    // In a real app with a backend, this would fetch from an API
     setLoading(true);
     
     // Simulate API call with setTimeout
     setTimeout(() => {
-      const foundPassage = sampleReadings.find(p => p.id === id);
+      const foundPassage = getReadingById(id || '');
       setPassage(foundPassage || null);
       
       if (foundPassage) {
@@ -34,23 +33,13 @@ const PassageDetailPage = () => {
       }
       
       setLoading(false);
-    }, 500); // Simulate loading delay
+    }, 300); // Brief loading delay for UX
   }, [id]);
-  
-  // When a quiz is completed, update the progress
-  const handleQuizCompletion = (score: number) => {
-    if (passage) {
-      // Mark as 100% completed when quiz is done
-      updateReadingProgress(passage.id, 100, score);
-      setCompletionPercentage(100);
-    }
-  };
   
   // Track scrolling to update completion percentage
   const handleScroll = () => {
-    if (passage && completionPercentage < 90) {
+    if (passage && completionPercentage < 100) {
       // Calculate a new completion percentage based on scroll position
-      // This is a simple implementation - can be improved
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
       const documentHeight = Math.max(
         document.body.scrollHeight, 
@@ -64,7 +53,7 @@ const PassageDetailPage = () => {
       
       // Only update if the new percentage is higher
       if (scrollPercent > completionPercentage) {
-        const newCompletion = Math.min(90, Math.round(scrollPercent));
+        const newCompletion = Math.min(100, Math.round(scrollPercent));
         updateReadingProgress(passage.id, newCompletion);
         setCompletionPercentage(newCompletion);
       }
@@ -125,32 +114,42 @@ const PassageDetailPage = () => {
         </div>
       </div>
       
-      <PassageDetail passage={passage} onQuizComplete={handleQuizCompletion} />
+      <PassageDetail passage={passage} />
       
       <div className="mt-8 flex justify-between">
-        <div>
-          {/* If there's a previous passage */}
-          {parseInt(passage.id) > 1 && (
-            <Link 
-              to={`/reading/${parseInt(passage.id) - 1}`}
-              className="bg-gray-200 dark:bg-gray-700 px-4 py-2 rounded hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
-            >
-              ← Previous Passage
-            </Link>
-          )}
-        </div>
-        
-        <div>
-          {/* If there's a next passage */}
-          {parseInt(passage.id) < sampleReadings.length && (
-            <Link 
-              to={`/reading/${parseInt(passage.id) + 1}`}
-              className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors"
-            >
-              Next Passage →
-            </Link>
-          )}
-        </div>
+        {/* Find previous and next passages */}
+        {(() => {
+          const allIds = allReadings.map(p => p.id);
+          const currentIndex = allIds.indexOf(passage.id);
+          const prevId = currentIndex > 0 ? allIds[currentIndex - 1] : null;
+          const nextId = currentIndex < allIds.length - 1 ? allIds[currentIndex + 1] : null;
+          
+          return (
+            <>
+              <div>
+                {prevId && (
+                  <Link 
+                    to={`/reading/${prevId}`}
+                    className="bg-gray-200 dark:bg-gray-700 px-4 py-2 rounded hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+                  >
+                    ← Previous Passage
+                  </Link>
+                )}
+              </div>
+              
+              <div>
+                {nextId && (
+                  <Link 
+                    to={`/reading/${nextId}`}
+                    className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors"
+                  >
+                    Next Passage →
+                  </Link>
+                )}
+              </div>
+            </>
+          );
+        })()}
       </div>
     </div>
   );

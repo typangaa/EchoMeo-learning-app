@@ -1,11 +1,15 @@
 import { Link } from 'react-router-dom';
 import { ReadingPassage } from '../../types';
+import { getReadingCompletion } from '../../utils/progressTracking';
 
 interface ReadingCardProps {
   passage: ReadingPassage;
 }
 
 const ReadingCard: React.FC<ReadingCardProps> = ({ passage }) => {
+  // Get the saved completion percentage
+  const completionPercentage = getReadingCompletion(passage.id);
+  
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow">
       <div className="flex justify-between items-start mb-4">
@@ -21,7 +25,28 @@ const ReadingCard: React.FC<ReadingCardProps> = ({ passage }) => {
       <div className="text-sm text-gray-600 dark:text-gray-400 mb-4">
         <p>Paragraphs: {passage.paragraphs.length}</p>
         <p>Vocabulary: {passage.vocabulary.length} words</p>
-        {passage.questions && <p>Questions: {passage.questions.length}</p>}
+        
+        {/* Completion progress bar */}
+        {completionPercentage > 0 && (
+          <div className="mt-2">
+            <div className="flex justify-between items-center text-xs mb-1">
+              <span>Progress:</span>
+              <span>{completionPercentage}%</span>
+            </div>
+            <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-1.5">
+              <div 
+                className={`h-1.5 rounded-full ${
+                  completionPercentage >= 100
+                    ? 'bg-green-600'
+                    : completionPercentage >= 50
+                      ? 'bg-blue-600'
+                      : 'bg-yellow-600'
+                }`}
+                style={{ width: `${completionPercentage}%` }}
+              ></div>
+            </div>
+          </div>
+        )}
       </div>
       
       <div className="grid grid-cols-2 gap-3 mb-4">
