@@ -12,6 +12,7 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
   const [selectedWord, setSelectedWord] = useState<VocabularyItem | null>(null);
   const [popoverPosition, setPopoverPosition] = useState({ top: 0, left: 0 });
   const [layoutMode, setLayoutMode] = useState<LayoutMode>('parallel');
+  const [showPinyin, setShowPinyin] = useState(true);
   
   // Function to handle word click and display vocabulary popover
   const handleWordClick = useCallback((vocabItem: VocabularyItem, event: React.MouseEvent) => {
@@ -236,6 +237,11 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
     setLayoutMode(prevMode => prevMode === 'parallel' ? 'alternating' : 'parallel');
   };
 
+  // Toggle pinyin display
+  const togglePinyin = () => {
+    setShowPinyin(prev => !prev);
+  };
+
   // Render parallel layout
   const renderParallelLayout = () => (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
@@ -254,12 +260,16 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
       <div className="space-y-4">
         <h3 className="font-medium text-lg border-b pb-2 chinese-text">中文</h3>
         {passage.paragraphs.map((para, index) => (
-          <p 
-            key={`cn-${index}`} 
-            className="leading-relaxed chinese-text" 
-          >
-            {processChineseText(para.chinese)}
-          </p>
+          <div key={`cn-${index}`} className="mb-4">
+            <p className="leading-relaxed chinese-text">
+              {processChineseText(para.chinese)}
+            </p>
+            {showPinyin && para.pinyin && (
+              <p className="text-xs text-gray-500 dark:text-gray-400 mt-1 leading-relaxed">
+                {para.pinyin}
+              </p>
+            )}
+          </div>
         ))}
       </div>
     </div>
@@ -273,9 +283,16 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
           <p className="leading-relaxed vietnamese-text mb-2">
             {processVietnameseText(para.vietnamese)}
           </p>
-          <p className="leading-relaxed chinese-text pl-4 border-l-4 border-gray-200 dark:border-gray-700">
-            {processChineseText(para.chinese)}
-          </p>
+          <div className="pl-4 border-l-4 border-gray-200 dark:border-gray-700">
+            <p className="leading-relaxed chinese-text">
+              {processChineseText(para.chinese)}
+            </p>
+            {showPinyin && para.pinyin && (
+              <p className="text-xs text-gray-500 dark:text-gray-400 mt-1 leading-relaxed">
+                {para.pinyin}
+              </p>
+            )}
+          </div>
         </div>
       ))}
     </div>
@@ -285,17 +302,30 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
       <div className="mb-6">
         <h1 className="text-2xl font-bold mb-2 vietnamese-text">{passage.title.vietnamese}</h1>
-        <h2 className="text-xl mb-4 chinese-text">{passage.title.chinese}</h2>
-        <div className="flex justify-between items-center">
+        <h2 className="text-xl mb-1 chinese-text">{passage.title.chinese}</h2>
+        {showPinyin && passage.title.pinyin && (
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+            {passage.title.pinyin}
+          </p>
+        )}
+        <div className="flex justify-between items-center flex-wrap gap-2">
           <span className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded text-sm">
             Level: {passage.level}
           </span>
-          <button
-            className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors"
-            onClick={toggleLayout}
-          >
-            {layoutMode === 'parallel' ? 'Switch to Alternating Layout' : 'Switch to Parallel Layout'}
-          </button>
+          <div className="flex gap-2">
+            <button
+              className="bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700 transition-colors text-sm"
+              onClick={togglePinyin}
+            >
+              {showPinyin ? 'Hide Pinyin' : 'Show Pinyin'}
+            </button>
+            <button
+              className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors"
+              onClick={toggleLayout}
+            >
+              {layoutMode === 'parallel' ? 'Switch to Alternating Layout' : 'Switch to Parallel Layout'}
+            </button>
+          </div>
         </div>
       </div>
       
