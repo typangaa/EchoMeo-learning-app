@@ -11,6 +11,7 @@ Visit the live application at: [https://typangaa.github.io/vietnamese-chinese-le
 - **Vocabulary Learning**: Organized by CEFR levels (A1, A2, B1, B2, C1, C2) and categories
 - **Flashcard Practice**: Spaced repetition system for optimized learning
 - **Reading Practice**: Parallel texts in Vietnamese and Chinese with interactive vocabulary lookup
+- **Audio Pronunciation**: Text-to-speech functionality for vocabulary and example sentences
 - **Progress Tracking**: User progress tracking across vocabulary and reading
 - **Responsive Design**: Mobile-friendly interface with dark mode support
 
@@ -28,6 +29,7 @@ Visit the live application at: [https://typangaa.github.io/vietnamese-chinese-le
 
 - Node.js (v16.0.0 or later)
 - npm (v8.0.0 or later)
+- Python (v3.8 or later) - only required for audio generation and data processing scripts
 
 ### Installation
 
@@ -70,42 +72,91 @@ npm run deploy
 ## Project Structure
 
 ```
-src/
-├── assets/           # Static assets like images and audio
-├── components/       # Reusable UI components
-│   ├── common/       # Shared components (Layout, Navbar, Footer)
-│   ├── vocabulary/   # Vocabulary-specific components
-│   │   ├── flashcard/  # Flashcard practice components
-│   ├── reading/      # Reading-specific components
-│   │   ├── passage/    # Reading passage components
-│   └── user/         # User-related components (profile, progress)
-├── context/          # React context for global state
-├── data/             # Static data files (vocabulary lists, readings)
-├── hooks/            # Custom React hooks
-├── pages/            # Page components
-├── types/            # TypeScript type definitions
-└── utils/            # Utility functions
+vietnamese-chinese-learning/
+├── dist/               # Production build files
+├── public/             # Static files served as-is
+│   └── audio/          # Generated audio files for pronunciation
+├── scripts/            # Utility scripts for development and data processing
+│   ├── data/           # Data files for scripts
+│   ├── generate_audio.py     # Script for generating TTS audio files
+│   ├── generate_audio.bat    # Windows batch file to run the audio generation script
+│   ├── hsk_vocabulary_processor.py   # Script for processing HSK vocabulary
+│   └── vocabulary_enrichment.py      # Script for enriching vocabulary data
+├── src/                # Source code
+│   ├── assets/         # Static assets like images
+│   ├── components/     # Reusable UI components
+│   │   ├── common/     # Shared components (Layout, Navbar, Footer)
+│   │   ├── vocabulary/ # Vocabulary-specific components
+│   │   │   ├── flashcard/  # Flashcard practice components
+│   │   ├── reading/    # Reading-specific components
+│   │   │   ├── passage/  # Reading passage components
+│   │   └── user/       # User-related components (profile, progress)
+│   ├── context/        # React context for global state
+│   ├── data/           # Static data files (vocabulary lists, readings)
+│   ├── hooks/          # Custom React hooks
+│   ├── pages/          # Page components
+│   ├── services/       # Service modules for external functionality
+│   ├── types/          # TypeScript type definitions
+│   └── utils/          # Utility functions
+└── ...                 # Configuration files
 ```
 
 ## Key Components
 
 ### Vocabulary System
 
-- **VocabularyContext**: Manages vocabulary state, filtering, and favorites
-- **VocabularyList/Card**: Components for displaying vocabulary items
-- **VocabularyFilters**: Controls for filtering by CEFR level and category
+- **VocabularyContext**: Manages vocabulary state, filtering, and favorites. Provides a central store for vocabulary items and filtering functions.
+- **VocabularyList/Card**: Components for displaying vocabulary items with interactive elements.
+- **VocabularyFilters**: Controls for filtering by CEFR level and category, offering a clean user interface for narrowing down vocabulary items.
+- **HSKVocabularyList**: Special component for browsing HSK (Chinese Proficiency Test) vocabulary with level-based filtering.
 
 ### Flashcard System
 
-- **useSpacedRepetition**: Custom hook implementing spaced repetition algorithm
-- **FlashcardPractice**: Manages flashcard session with progress tracking
-- **Flashcard**: Interactive card with 3D flip effect
+- **useSpacedRepetition**: Custom hook implementing a spaced repetition algorithm for optimal learning retention. It tracks user performance and schedules reviews at increasing intervals.
+- **FlashcardPractice**: Manages flashcard session with progress tracking, statistics, and session control.
+- **Flashcard**: Interactive card with 3D flip effect for an engaging study experience.
+- **LanguageDirectionToggle**: Component that allows users to switch between learning Chinese from Vietnamese, or Vietnamese from Chinese.
 
 ### Reading System
 
-- **ReadingList/Card**: Components for browsing reading passages
-- **PassageDetail**: Interactive reading component with vocabulary lookup
-- **PassageQuiz**: Comprehension quiz component for reading passages
+- **ReadingList/Card**: Components for browsing reading passages by difficulty level.
+- **PassageDetail**: Interactive reading component with vocabulary lookup and parallel text display.
+- **ReadingFilters**: Filters for finding appropriate reading material by level and topic.
+- **PassageQuiz**: Comprehension quiz component for testing understanding of reading passages.
+
+### Audio Feature System
+
+- **AudioService**: A singleton service that manages audio playback, with fallback to Web Speech API when pre-generated audio is not available. It handles both Vietnamese and Chinese pronunciation.
+- **AudioButton**: A reusable component that triggers audio playback for vocabulary items and example sentences.
+- **Audio Generation Scripts**: Located in the scripts folder, these Python scripts generate MP3 files for vocabulary items using Text-to-Speech services.
+
+#### Audio Feature Implementation Details
+
+1. **Audio Service (`audioService.ts`)**:
+   - Provides a centralized interface for playing audio across the application
+   - Maps vocabulary and passages to their corresponding audio files
+   - Implements fallback to Web Speech API when pre-generated audio files are not available
+   - Offers methods for preloading audio to improve user experience
+   - Controls audio volume and playback settings
+
+2. **Audio Button Component**:
+   - Renders a small speaker icon next to vocabulary items
+   - Handles click events to trigger audio playback
+   - Shows animation during playback
+   - Adapts to different sizes for various UI contexts
+
+3. **Audio Generation Pipeline**:
+   - `generate_audio.py`: Script that processes vocabulary and reading passages to generate MP3 files
+   - Uses Text-to-Speech services to create natural pronunciation
+   - Generates audio for both Vietnamese and Chinese text
+   - Creates an audio mapping file that links text to corresponding audio files
+   - Audio files are stored in the `/public/audio/` directory for serving with the application
+
+4. **Integration with Learning Components**:
+   - Vocabulary cards include audio buttons for both languages
+   - Example sentences feature pronunciation
+   - Reading passages can be played for pronunciation practice
+   - Flashcards incorporate audio for immersive learning
 
 ## Progress Tracking
 
@@ -117,13 +168,44 @@ The application uses the browser's localStorage to track user progress, includin
 - Study time statistics
 - Login streak
 
+The progress tracking system is implemented in `progressTracking.ts` and provides functions for updating and retrieving user progress data.
+
 ## Development Roadmap
 
+- [x] Implement audio pronunciation
 - [ ] Expand vocabulary database
-- [ ] Add audio pronunciation
 - [ ] Implement user accounts and cloud synchronization
 - [ ] Add writing practice module
 - [ ] Develop more interactive learning exercises
+
+## Scripts Usage
+
+### Audio Generation
+
+To generate audio files for vocabulary items and reading passages:
+
+1. Ensure you have Python 3.8+ installed with required packages
+2. Run the audio generation script:
+   ```bash
+   cd scripts
+   python generate_audio.py
+   ```
+   or use the batch file on Windows:
+   ```bash
+   cd scripts
+   generate_audio.bat
+   ```
+
+3. See `TTS_IMPLEMENTATION_GUIDE.md` in the scripts folder for detailed configuration options
+
+### HSK Vocabulary Processing
+
+To process HSK vocabulary data:
+
+```bash
+cd scripts
+python hsk_vocabulary_processor.py
+```
 
 ## Troubleshooting
 
@@ -132,6 +214,7 @@ The application uses the browser's localStorage to track user progress, includin
 - **Blank page on GitHub Pages**: Make sure base path is correctly set in vite.config.ts
 - **Routing issues**: The application uses HashRouter for GitHub Pages compatibility
 - **MIME type errors**: Check asset path references in index.html and vite.config.ts
+- **Audio not playing**: Verify that audio files exist in the public/audio directory and check browser console for errors
 
 ## Contributing
 

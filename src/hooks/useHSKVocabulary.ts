@@ -28,7 +28,7 @@ export function useHSKVocabulary(
   const [loading, setLoading] = useState<boolean>(false);
   const [progress, setProgress] = useState<number>(0);
   const [error, setError] = useState<Error | null>(null);
-  const [currentLevel, setCurrentLevel] = useState<number | null>(initialLevel || null);
+  const [, setCurrentLevel] = useState<number | null>(initialLevel || null);
   
   // Default options
   const { loadProgressively = true } = options;

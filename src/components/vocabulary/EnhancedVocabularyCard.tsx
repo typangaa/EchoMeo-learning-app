@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { EnhancedVocabularyItem, getPrimaryTranslation } from '../../utils/translations';
+import { EnhancedVocabularyItem } from '../../utils/translations';
 
 interface EnhancedVocabularyCardProps {
   item: EnhancedVocabularyItem;
@@ -40,7 +40,7 @@ const EnhancedVocabularyCard: React.FC<EnhancedVocabularyCardProps> = ({
   };
 
   // Get the primary meaning (or first if none marked as primary)
-  const primaryMeaning = item.meanings.find(m => m.primary) || 
+  const primaryMeaning = item.meanings.find((m) => m.primary) || 
                          (item.meanings.length > 0 ? item.meanings[0] : null);
   
   return (
@@ -90,7 +90,7 @@ const EnhancedVocabularyCard: React.FC<EnhancedVocabularyCardProps> = ({
         <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
           <h4 className="text-sm font-semibold mb-2">All Meanings:</h4>
           <ul className="space-y-2">
-            {item.meanings.map((meaning, index) => (
+            {item.meanings.map((meaning, index: number) => (
               <li key={index} className={`text-sm ${meaning.primary ? 'font-medium' : ''}`}>
                 <span className="vietnamese-text">{meaning.vietnamese}</span>
                 <span className="text-xs text-gray-500 dark:text-gray-400 ml-1">
@@ -106,7 +106,7 @@ const EnhancedVocabularyCard: React.FC<EnhancedVocabularyCardProps> = ({
       {showDetails && item.examples && item.examples.length > 0 && (
         <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
           <h4 className="text-sm font-semibold mb-2">Examples:</h4>
-          {item.examples.map((example, index) => (
+          {item.examples.map((example, index: number) => (
             <div key={index} className="mb-2">
               <p className="text-sm chinese-text">{example.chinese}</p>
               <p className="text-sm vietnamese-text">{example.vietnamese}</p>

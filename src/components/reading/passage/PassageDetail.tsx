@@ -235,34 +235,6 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
     return result;
   }, [passage.vocabulary, handleWordClick]);
 
-  // Play a paragraph audio
-  const playParagraph = (index: number, language: 'vietnamese' | 'chinese') => {
-    if (currentlyPlayingIndex !== null) {
-      // Stop current audio if playing
-      audioService.stop();
-    }
-    
-    setCurrentlyPlayingIndex(index);
-    
-    // Play audio for the paragraph
-    audioService.playPassageParagraph(passage.id, index, language)
-      .then(() => {
-        setCurrentlyPlayingIndex(null);
-      })
-      .catch(error => {
-        console.error(`Error playing ${language} paragraph ${index}:`, error);
-        setCurrentlyPlayingIndex(null);
-      });
-  };
-
-  // Play the title audio
-  const playTitle = (language: 'vietnamese' | 'chinese') => {
-    audioService.playPassageTitle(passage.id, language)
-      .catch(error => {
-        console.error(`Error playing ${language} title:`, error);
-      });
-  };
-  
   // Toggle between parallel and alternating layouts
   const toggleLayout = () => {
     setLayoutMode(prevMode => prevMode === 'parallel' ? 'alternating' : 'parallel');
