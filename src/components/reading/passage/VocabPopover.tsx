@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { VocabularyItem } from '../../../types';
+import AudioButton from '../../common/AudioButton';
 
 interface VocabPopoverProps {
   vocabItem: VocabularyItem;
@@ -27,14 +28,6 @@ const VocabPopover: React.FC<VocabPopoverProps> = ({
       document.removeEventListener('keydown', handleEscapeKey);
     };
   }, [onClose]);
-  
-  // Play audio if available
-  const playAudio = () => {
-    if (vocabItem.audioUrl) {
-      const audio = new Audio(vocabItem.audioUrl);
-      audio.play();
-    }
-  };
   
   // Calculate proper position to ensure popover stays within viewport
   const calculatePosition = () => {
@@ -74,7 +67,15 @@ const VocabPopover: React.FC<VocabPopoverProps> = ({
       }}
     >
       <div className="flex justify-between items-start mb-2">
-        <h3 className="font-bold vietnamese-text">{vocabItem.vietnamese}</h3>
+        <div className="flex items-center">
+          <h3 className="font-bold vietnamese-text">{vocabItem.vietnamese}</h3>
+          <AudioButton
+            text={vocabItem.vietnamese}
+            language="vietnamese"
+            className="ml-1" 
+            size="sm"
+          />
+        </div>
         <button 
           onClick={onClose}
           className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
@@ -85,7 +86,15 @@ const VocabPopover: React.FC<VocabPopoverProps> = ({
       </div>
       
       <div className="bg-gray-50 dark:bg-gray-700/50 p-2 rounded-md mb-2">
-        <p className="mb-1 text-lg chinese-text">{vocabItem.chinese}</p>
+        <div className="flex items-center">
+          <p className="mb-1 text-lg chinese-text">{vocabItem.chinese}</p>
+          <AudioButton
+            text={vocabItem.chinese}
+            language="chinese"
+            className="ml-1" 
+            size="sm"
+          />
+        </div>
         <p className="text-sm text-gray-600 dark:text-gray-400">{vocabItem.pinyin}</p>
       </div>
       
@@ -100,8 +109,24 @@ const VocabPopover: React.FC<VocabPopoverProps> = ({
         <div className="mt-3 pt-2 border-t border-gray-200 dark:border-gray-700">
           <h4 className="text-xs font-semibold mb-1">Example:</h4>
           <div className="bg-gray-50 dark:bg-gray-700/50 p-2 rounded-md">
-            <p className="text-sm vietnamese-text">{vocabItem.examples[0].vietnamese}</p>
-            <p className="text-sm chinese-text mt-1">{vocabItem.examples[0].chinese}</p>
+            <div className="flex items-center">
+              <p className="text-sm vietnamese-text">{vocabItem.examples[0].vietnamese}</p>
+              <AudioButton
+                text={vocabItem.examples[0].vietnamese}
+                language="vietnamese"
+                className="ml-1" 
+                size="sm"
+              />
+            </div>
+            <div className="flex items-center mt-1">
+              <p className="text-sm chinese-text">{vocabItem.examples[0].chinese}</p>
+              <AudioButton
+                text={vocabItem.examples[0].chinese}
+                language="chinese"
+                className="ml-1" 
+                size="sm"
+              />
+            </div>
             <p className="text-xs text-gray-600 dark:text-gray-400 mt-1">{vocabItem.examples[0].pinyin}</p>
           </div>
         </div>
@@ -111,15 +136,6 @@ const VocabPopover: React.FC<VocabPopoverProps> = ({
         <div className="text-xs text-gray-500 dark:text-gray-400">
           {vocabItem.level} • {vocabItem.category}
         </div>
-        
-        {vocabItem.audioUrl && (
-          <button 
-            onClick={playAudio}
-            className="text-blue-600 dark:text-blue-400 text-sm flex items-center"
-          >
-            🔊 Listen
-          </button>
-        )}
       </div>
     </div>
   );

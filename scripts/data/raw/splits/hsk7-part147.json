@@ -1,0 +1,1226 @@
+[
+  {
+    "simplified": "尊重",
+    "radical": "寸",
+    "frequency": 1926,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "尊重",
+        "transcriptions": {
+          "pinyin": "zūn zhòng",
+          "numeric": "zun1 zhong4",
+          "wadegiles": "tsun¹ chung⁴",
+          "bopomofo": "ㄗㄨㄣ ㄓㄨㄥˋ",
+          "romatzyh": "tzuen jonq"
+        },
+        "meanings": [
+          "to esteem",
+          "to respect",
+          "to honor",
+          "to value",
+          "eminent",
+          "serious",
+          "proper"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "遵守",
+    "radical": "辶",
+    "frequency": 3894,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "遵守",
+        "transcriptions": {
+          "pinyin": "zūn shǒu",
+          "numeric": "zun1 shou3",
+          "wadegiles": "tsun¹ shou³",
+          "bopomofo": "ㄗㄨㄣ ㄕㄡˇ",
+          "romatzyh": "tzuen shoou"
+        },
+        "meanings": [
+          "to comply with; to abide by; to respect (an agreement)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "遵循",
+    "radical": "辶",
+    "frequency": 7828,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "遵循",
+        "transcriptions": {
+          "pinyin": "zūn xún",
+          "numeric": "zun1 xun2",
+          "wadegiles": "tsun¹ hsün²",
+          "bopomofo": "ㄗㄨㄣ ㄒㄩㄣˊ",
+          "romatzyh": "tzuen shyun"
+        },
+        "meanings": [
+          "to follow; to abide by; to comply with"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "遵照",
+    "radical": "辶",
+    "frequency": 13750,
+    "pos": [
+      "v",
+      "p"
+    ],
+    "forms": [
+      {
+        "traditional": "遵照",
+        "transcriptions": {
+          "pinyin": "zūn zhào",
+          "numeric": "zun1 zhao4",
+          "wadegiles": "tsun¹ chao⁴",
+          "bopomofo": "ㄗㄨㄣ ㄓㄠˋ",
+          "romatzyh": "tzuen jaw"
+        },
+        "meanings": [
+          "in accordance with",
+          "to follow (the rules)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "昨天",
+    "radical": "日",
+    "frequency": 557,
+    "pos": [
+      "t"
+    ],
+    "forms": [
+      {
+        "traditional": "昨天",
+        "transcriptions": {
+          "pinyin": "zuó tiān",
+          "numeric": "zuo2 tian1",
+          "wadegiles": "tso² t'ien¹",
+          "bopomofo": "ㄗㄨㄛˊ ㄊㄧㄢ",
+          "romatzyh": "tzwo tian"
+        },
+        "meanings": [
+          "yesterday"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "琢磨",
+    "radical": "王",
+    "frequency": 8593,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "琢磨",
+        "transcriptions": {
+          "pinyin": "zhuó mó",
+          "numeric": "zhuo2 mo2",
+          "wadegiles": "cho² mo²",
+          "bopomofo": "ㄓㄨㄛˊ ㄇㄛˊ",
+          "romatzyh": "jwo mo"
+        },
+        "meanings": [
+          "to carve and polish (jade)",
+          "to polish and refine a literary work"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "琢磨",
+        "transcriptions": {
+          "pinyin": "zuó mo",
+          "numeric": "zuo2 mo5",
+          "wadegiles": "tso² mo",
+          "bopomofo": "ㄗㄨㄛˊ mo",
+          "romatzyh": "tzwo mo"
+        },
+        "meanings": [
+          "to ponder",
+          "to mull over",
+          "to think through",
+          "Taiwan pr. [zhuó mó]"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "左",
+    "radical": "工",
+    "frequency": 1382,
+    "pos": [
+      "f",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "左",
+        "transcriptions": {
+          "pinyin": "Zuǒ",
+          "numeric": "Zuo3",
+          "wadegiles": "tso³",
+          "bopomofo": "ㄗㄨㄛˇ",
+          "romatzyh": "tzuoo"
+        },
+        "meanings": [
+          "surname Zuo"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "左",
+        "transcriptions": {
+          "pinyin": "zuǒ",
+          "numeric": "zuo3",
+          "wadegiles": "tso³",
+          "bopomofo": "ㄗㄨㄛˇ",
+          "romatzyh": "tzuoo"
+        },
+        "meanings": [
+          "left",
+          "the Left (politics)",
+          "east",
+          "unorthodox",
+          "queer",
+          "wrong",
+          "differing",
+          "opposite",
+          "variant of 佐"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "左边",
+    "radical": "工",
+    "frequency": 4584,
+    "pos": [
+      "f"
+    ],
+    "forms": [
+      {
+        "traditional": "左邊",
+        "transcriptions": {
+          "pinyin": "zuǒ bian",
+          "numeric": "zuo3 bian5",
+          "wadegiles": "tso³ bian",
+          "bopomofo": "ㄗㄨㄛˇ bian",
+          "romatzyh": "tzuoo bian"
+        },
+        "meanings": [
+          "left",
+          "the left side",
+          "to the left of"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "左顾右盼",
+    "radical": "工",
+    "frequency": 42319,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "左顧右盼",
+        "transcriptions": {
+          "pinyin": "zuǒ gù yòu pàn",
+          "numeric": "zuo3 gu4 you4 pan4",
+          "wadegiles": "tso³ ku⁴ yu⁴ p'an⁴",
+          "bopomofo": "ㄗㄨㄛˇ ㄍㄨˋ ㄧㄡˋ ㄆㄢˋ",
+          "romatzyh": "tzuoo guh yow pann"
+        },
+        "meanings": [
+          "glancing to left and right (idiom); to look all around"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "左右",
+    "radical": "工",
+    "frequency": 1351,
+    "pos": [
+      "m",
+      "f",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "左右",
+        "transcriptions": {
+          "pinyin": "zuǒ yòu",
+          "numeric": "zuo3 you4",
+          "wadegiles": "tso³ yu⁴",
+          "bopomofo": "ㄗㄨㄛˇ ㄧㄡˋ",
+          "romatzyh": "tzuoo yow"
+        },
+        "meanings": [
+          "left and right",
+          "nearby",
+          "approximately",
+          "attendant",
+          "to control",
+          "to influence"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "佐料",
+    "radical": "亻",
+    "frequency": 30583,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "佐料",
+        "transcriptions": {
+          "pinyin": "zuǒ liào",
+          "numeric": "zuo3 liao4",
+          "wadegiles": "tso³ liao⁴",
+          "bopomofo": "ㄗㄨㄛˇ ㄌㄧㄠˋ",
+          "romatzyh": "tzuoo liaw"
+        },
+        "meanings": [
+          "condiments",
+          "seasoning"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "作",
+    "radical": "亻",
+    "frequency": 483,
+    "pos": [
+      "v",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "作",
+        "transcriptions": {
+          "pinyin": "zuō",
+          "numeric": "zuo1",
+          "wadegiles": "tso¹",
+          "bopomofo": "ㄗㄨㄛ",
+          "romatzyh": "tzuo"
+        },
+        "meanings": [
+          "worker",
+          "workshop",
+          "(slang) troublesome",
+          "high-maintenance (person)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "作",
+        "transcriptions": {
+          "pinyin": "zuò",
+          "numeric": "zuo4",
+          "wadegiles": "tso⁴",
+          "bopomofo": "ㄗㄨㄛˋ",
+          "romatzyh": "tzuoh"
+        },
+        "meanings": [
+          "to do; to engage in",
+          "to write; to compose",
+          "to pretend; to feign",
+          "to regard as; to consider to be",
+          "to be; to act the part of",
+          "to feel (itchy, nauseous etc)",
+          "writings; works"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "作弊",
+    "radical": "亻",
+    "frequency": 7875,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "作弊",
+        "transcriptions": {
+          "pinyin": "zuò bì",
+          "numeric": "zuo4 bi4",
+          "wadegiles": "tso⁴ pi⁴",
+          "bopomofo": "ㄗㄨㄛˋ ㄅㄧˋ",
+          "romatzyh": "tzuoh bih"
+        },
+        "meanings": [
+          "to practice fraud",
+          "to cheat",
+          "to engage in corrupt practices"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "作出",
+    "radical": "亻",
+    "frequency": 3060,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "作出",
+        "transcriptions": {
+          "pinyin": "zuò chū",
+          "numeric": "zuo4 chu1",
+          "wadegiles": "tso⁴ ch'u¹",
+          "bopomofo": "ㄗㄨㄛˋ ㄔㄨ",
+          "romatzyh": "tzuoh chu"
+        },
+        "meanings": [
+          "to put out",
+          "to come up with",
+          "to make (a choice, decision, proposal, response, comment etc)",
+          "to issue (a permit, statement, explanation, apology, reassurance to the public etc)",
+          "to draw (conclusion)",
+          "to deliver (speech, judgment)",
+          "to devise (explanation)",
+          "to extract"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "作对",
+    "radical": "亻",
+    "frequency": 17854,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "作對",
+        "transcriptions": {
+          "pinyin": "zuò duì",
+          "numeric": "zuo4 dui4",
+          "wadegiles": "tso⁴ tui⁴",
+          "bopomofo": "ㄗㄨㄛˋ ㄉㄨㄟˋ",
+          "romatzyh": "tzuoh duey"
+        },
+        "meanings": [
+          "to set oneself against",
+          "to oppose",
+          "to make a pair"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "作废",
+    "radical": "亻",
+    "frequency": 15045,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "作廢",
+        "transcriptions": {
+          "pinyin": "zuò fèi",
+          "numeric": "zuo4 fei4",
+          "wadegiles": "tso⁴ fei⁴",
+          "bopomofo": "ㄗㄨㄛˋ ㄈㄟˋ",
+          "romatzyh": "tzuoh fey"
+        },
+        "meanings": [
+          "to become invalid",
+          "to cancel",
+          "to delete",
+          "to nullify"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "作风",
+    "radical": "亻",
+    "frequency": 5307,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "作風",
+        "transcriptions": {
+          "pinyin": "zuò fēng",
+          "numeric": "zuo4 feng1",
+          "wadegiles": "tso⁴ feng¹",
+          "bopomofo": "ㄗㄨㄛˋ ㄈㄥ",
+          "romatzyh": "tzuoh feng"
+        },
+        "meanings": [
+          "style",
+          "style of work",
+          "way"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "作家",
+    "radical": "亻",
+    "frequency": 3034,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "作家",
+        "transcriptions": {
+          "pinyin": "zuò jiā",
+          "numeric": "zuo4 jia1",
+          "wadegiles": "tso⁴ chia¹",
+          "bopomofo": "ㄗㄨㄛˋ ㄐㄧㄚ",
+          "romatzyh": "tzuoh jia"
+        },
+        "meanings": [
+          "author"
+        ],
+        "classifiers": [
+          "个",
+          "位"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "作客",
+    "radical": "亻",
+    "frequency": 29234,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "作客",
+        "transcriptions": {
+          "pinyin": "zuò kè",
+          "numeric": "zuo4 ke4",
+          "wadegiles": "tso⁴ k'o⁴",
+          "bopomofo": "ㄗㄨㄛˋ ㄎㄜˋ",
+          "romatzyh": "tzuoh keh"
+        },
+        "meanings": [
+          "to live somewhere as a visitor; to stay with sb as a guest; to sojourn"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "作品",
+    "radical": "亻",
+    "frequency": 1381,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "作品",
+        "transcriptions": {
+          "pinyin": "zuò pǐn",
+          "numeric": "zuo4 pin3",
+          "wadegiles": "tso⁴ p'in³",
+          "bopomofo": "ㄗㄨㄛˋ ㄆㄧㄣˇ",
+          "romatzyh": "tzuoh piin"
+        },
+        "meanings": [
+          "work (of art)",
+          "opus"
+        ],
+        "classifiers": [
+          "部",
+          "篇"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "作为",
+    "radical": "亻",
+    "frequency": 405,
+    "pos": [
+      "p",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "作為",
+        "transcriptions": {
+          "pinyin": "zuò wéi",
+          "numeric": "zuo4 wei2",
+          "wadegiles": "tso⁴ wei²",
+          "bopomofo": "ㄗㄨㄛˋ ㄨㄟˊ",
+          "romatzyh": "tzuoh wei"
+        },
+        "meanings": [
+          "one's conduct",
+          "deed",
+          "activity",
+          "accomplishment",
+          "achievement",
+          "to act as",
+          "as (in the capacity of)",
+          "qua",
+          "to view as",
+          "to look upon (sth as)",
+          "to take sth to be"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "作文",
+    "radical": "亻",
+    "frequency": 10798,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "作文",
+        "transcriptions": {
+          "pinyin": "zuò wén",
+          "numeric": "zuo4 wen2",
+          "wadegiles": "tso⁴ wen²",
+          "bopomofo": "ㄗㄨㄛˋ ㄨㄣˊ",
+          "romatzyh": "tzuoh wen"
+        },
+        "meanings": [
+          "to write an essay",
+          "composition (student essay)"
+        ],
+        "classifiers": [
+          "篇"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "作物",
+    "radical": "亻",
+    "frequency": 15534,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "作物",
+        "transcriptions": {
+          "pinyin": "zuò wù",
+          "numeric": "zuo4 wu4",
+          "wadegiles": "tso⁴ wu⁴",
+          "bopomofo": "ㄗㄨㄛˋ ㄨˋ",
+          "romatzyh": "tzuoh wuh"
+        },
+        "meanings": [
+          "crop"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "作业",
+    "radical": "亻",
+    "frequency": 2574,
+    "pos": [
+      "n",
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "作業",
+        "transcriptions": {
+          "pinyin": "zuò yè",
+          "numeric": "zuo4 ye4",
+          "wadegiles": "tso⁴ yeh⁴",
+          "bopomofo": "ㄗㄨㄛˋ ㄧㄝˋ",
+          "romatzyh": "tzuoh yeh"
+        },
+        "meanings": [
+          "school assignment",
+          "homework",
+          "work",
+          "task",
+          "operation",
+          "to operate"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "作用",
+    "radical": "亻",
+    "frequency": 955,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "作用",
+        "transcriptions": {
+          "pinyin": "zuò yòng",
+          "numeric": "zuo4 yong4",
+          "wadegiles": "tso⁴ yung⁴",
+          "bopomofo": "ㄗㄨㄛˋ ㄩㄥˋ",
+          "romatzyh": "tzuoh yonq"
+        },
+        "meanings": [
+          "to act on",
+          "to affect",
+          "action",
+          "function",
+          "activity",
+          "impact",
+          "result",
+          "effect",
+          "purpose",
+          "intent",
+          "(suffix) -ation, -tion etc, as in 用, inhibition"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "作战",
+    "radical": "亻",
+    "frequency": 3612,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "作戰",
+        "transcriptions": {
+          "pinyin": "zuò zhàn",
+          "numeric": "zuo4 zhan4",
+          "wadegiles": "tso⁴ chan⁴",
+          "bopomofo": "ㄗㄨㄛˋ ㄓㄢˋ",
+          "romatzyh": "tzuoh jann"
+        },
+        "meanings": [
+          "combat",
+          "to fight"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "作者",
+    "radical": "亻",
+    "frequency": 2796,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "作者",
+        "transcriptions": {
+          "pinyin": "zuò zhě",
+          "numeric": "zuo4 zhe3",
+          "wadegiles": "tso⁴ che³",
+          "bopomofo": "ㄗㄨㄛˋ ㄓㄜˇ",
+          "romatzyh": "tzuoh jee"
+        },
+        "meanings": [
+          "author; writer"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "坐",
+    "radical": "土",
+    "frequency": 435,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "坐",
+        "transcriptions": {
+          "pinyin": "Zuò",
+          "numeric": "Zuo4",
+          "wadegiles": "tso⁴",
+          "bopomofo": "ㄗㄨㄛˋ",
+          "romatzyh": "tzuoh"
+        },
+        "meanings": [
+          "surname Zuo"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "坐",
+        "transcriptions": {
+          "pinyin": "zuò",
+          "numeric": "zuo4",
+          "wadegiles": "tso⁴",
+          "bopomofo": "ㄗㄨㄛˋ",
+          "romatzyh": "tzuoh"
+        },
+        "meanings": [
+          "to sit",
+          "to take a seat",
+          "to take (a bus, airplane etc)",
+          "to bear fruit",
+          "variant of 座"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "坐落",
+    "radical": "土",
+    "frequency": 17181,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "坐落",
+        "transcriptions": {
+          "pinyin": "zuò luò",
+          "numeric": "zuo4 luo4",
+          "wadegiles": "tso⁴ lo⁴",
+          "bopomofo": "ㄗㄨㄛˋ ㄌㄨㄛˋ",
+          "romatzyh": "tzuoh luoh"
+        },
+        "meanings": [
+          "to be situated",
+          "to be located (of a building)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "坐下",
+    "radical": "土",
+    "frequency": 3600,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "坐下",
+        "transcriptions": {
+          "pinyin": "zuò xia",
+          "numeric": "zuo4 xia5",
+          "wadegiles": "tso⁴ xia",
+          "bopomofo": "ㄗㄨㄛˋ xia",
+          "romatzyh": "tzuoh xia"
+        },
+        "meanings": [
+          "to sit down"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "座",
+    "radical": "广",
+    "frequency": 751,
+    "pos": [
+      "q",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "座",
+        "transcriptions": {
+          "pinyin": "zuò",
+          "numeric": "zuo4",
+          "wadegiles": "tso⁴",
+          "bopomofo": "ㄗㄨㄛˋ",
+          "romatzyh": "tzuoh"
+        },
+        "meanings": [
+          "seat",
+          "base",
+          "stand",
+          "(archaic) suffix used in a respectful form of address, e.g. 师座",
+          "classifier for buildings, mountains and similar immovable objects"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "座谈",
+    "radical": "广",
+    "frequency": 20453,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "座談",
+        "transcriptions": {
+          "pinyin": "zuò tán",
+          "numeric": "zuo4 tan2",
+          "wadegiles": "tso⁴ t'an²",
+          "bopomofo": "ㄗㄨㄛˋ ㄊㄢˊ",
+          "romatzyh": "tzuoh tarn"
+        },
+        "meanings": [
+          "to have an informal discussion"
+        ],
+        "classifiers": [
+          "次",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "座谈会",
+    "radical": "广",
+    "frequency": 14733,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "座談會",
+        "transcriptions": {
+          "pinyin": "zuò tán huì",
+          "numeric": "zuo4 tan2 hui4",
+          "wadegiles": "tso⁴ t'an² hui⁴",
+          "bopomofo": "ㄗㄨㄛˋ ㄊㄢˊ ㄏㄨㄟˋ",
+          "romatzyh": "tzuoh tarn huey"
+        },
+        "meanings": [
+          "conference",
+          "symposium",
+          "rap session"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "座位",
+    "radical": "广",
+    "frequency": 4477,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "座位",
+        "transcriptions": {
+          "pinyin": "zuò wèi",
+          "numeric": "zuo4 wei4",
+          "wadegiles": "tso⁴ wei⁴",
+          "bopomofo": "ㄗㄨㄛˋ ㄨㄟˋ",
+          "romatzyh": "tzuoh wey"
+        },
+        "meanings": [
+          "seat"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "座右铭",
+    "radical": "广",
+    "frequency": 21583,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "座右銘",
+        "transcriptions": {
+          "pinyin": "zuò yòu míng",
+          "numeric": "zuo4 you4 ming2",
+          "wadegiles": "tso⁴ yu⁴ ming²",
+          "bopomofo": "ㄗㄨㄛˋ ㄧㄡˋ ㄇㄧㄥˊ",
+          "romatzyh": "tzuoh yow ming"
+        },
+        "meanings": [
+          "motto",
+          "maxim"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "做",
+    "radical": "亻",
+    "frequency": 53,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "做",
+        "transcriptions": {
+          "pinyin": "zuò",
+          "numeric": "zuo4",
+          "wadegiles": "tso⁴",
+          "bopomofo": "ㄗㄨㄛˋ",
+          "romatzyh": "tzuoh"
+        },
+        "meanings": [
+          "to make; to produce",
+          "to write; to compose",
+          "to do; to engage in; to hold (a party etc)",
+          "(of a person) to be (an intermediary, a good student etc); to become (husband and wife, friends etc)",
+          "(of a thing) to serve as; to be used for",
+          "to assume (an air or manner)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "做到",
+    "radical": "亻",
+    "frequency": 818,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "做到",
+        "transcriptions": {
+          "pinyin": "zuò dào",
+          "numeric": "zuo4 dao4",
+          "wadegiles": "tso⁴ tao⁴",
+          "bopomofo": "ㄗㄨㄛˋ ㄉㄠˋ",
+          "romatzyh": "tzuoh daw"
+        },
+        "meanings": [
+          "to accomplish",
+          "to achieve"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "做法",
+    "radical": "亻",
+    "frequency": 3019,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "做法",
+        "transcriptions": {
+          "pinyin": "zuò fǎ",
+          "numeric": "zuo4 fa3",
+          "wadegiles": "tso⁴ fa³",
+          "bopomofo": "ㄗㄨㄛˋ ㄈㄚˇ",
+          "romatzyh": "tzuoh faa"
+        },
+        "meanings": [
+          "way of handling sth",
+          "method for making",
+          "work method",
+          "recipe",
+          "practice"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "做饭",
+    "radical": "亻",
+    "frequency": 5512,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "做飯",
+        "transcriptions": {
+          "pinyin": "zuò fàn",
+          "numeric": "zuo4 fan4",
+          "wadegiles": "tso⁴ fan⁴",
+          "bopomofo": "ㄗㄨㄛˋ ㄈㄢˋ",
+          "romatzyh": "tzuoh fann"
+        },
+        "meanings": [
+          "to prepare a meal",
+          "to cook"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "做客",
+    "radical": "亻",
+    "frequency": 13383,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "做客",
+        "transcriptions": {
+          "pinyin": "zuò kè",
+          "numeric": "zuo4 ke4",
+          "wadegiles": "tso⁴ k'o⁴",
+          "bopomofo": "ㄗㄨㄛˋ ㄎㄜˋ",
+          "romatzyh": "tzuoh keh"
+        },
+        "meanings": [
+          "to be a guest or visitor"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "做梦",
+    "radical": "亻",
+    "frequency": 4824,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "做夢",
+        "transcriptions": {
+          "pinyin": "zuò mèng",
+          "numeric": "zuo4 meng4",
+          "wadegiles": "tso⁴ meng⁴",
+          "bopomofo": "ㄗㄨㄛˋ ㄇㄥˋ",
+          "romatzyh": "tzuoh menq"
+        },
+        "meanings": [
+          "to dream",
+          "to have a dream",
+          "fig. illusion",
+          "fantasy",
+          "pipe dream"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "做生意",
+    "radical": "亻",
+    "frequency": 9762,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "做生意",
+        "transcriptions": {
+          "pinyin": "zuò shēng yì",
+          "numeric": "zuo4 sheng1 yi4",
+          "wadegiles": "tso⁴ sheng¹ i⁴",
+          "bopomofo": "ㄗㄨㄛˋ ㄕㄥ ㄧˋ",
+          "romatzyh": "tzuoh sheng yih"
+        },
+        "meanings": [
+          "to do business"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "做证",
+    "radical": "亻",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "做證",
+        "transcriptions": {
+          "pinyin": "zuò zhèng",
+          "numeric": "zuo4 zheng4",
+          "wadegiles": "tso⁴ cheng⁴",
+          "bopomofo": "ㄗㄨㄛˋ ㄓㄥˋ",
+          "romatzyh": "tzuoh jenq"
+        },
+        "meanings": [
+          "variant of 作证"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

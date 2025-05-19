@@ -1,0 +1,2252 @@
+[
+  {
+    "simplified": "门",
+    "radical": "门",
+    "frequency": 422,
+    "pos": [
+      "n",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "門",
+        "transcriptions": {
+          "pinyin": "Mén",
+          "numeric": "Men2",
+          "wadegiles": "men²",
+          "bopomofo": "ㄇㄣˊ",
+          "romatzyh": "men"
+        },
+        "meanings": [
+          "surname Men"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "門",
+        "transcriptions": {
+          "pinyin": "mén",
+          "numeric": "men2",
+          "wadegiles": "men²",
+          "bopomofo": "ㄇㄣˊ",
+          "romatzyh": "men"
+        },
+        "meanings": [
+          "gate",
+          "door",
+          "gateway",
+          "doorway",
+          "opening",
+          "valve",
+          "switch",
+          "way to do something",
+          "knack",
+          "family",
+          "house",
+          "(religious) sect",
+          "school (of thought)",
+          "class",
+          "category",
+          "phylum or division (taxonomy)",
+          "classifier for large guns",
+          "classifier for lessons, subjects, branches of technology",
+          "(suffix) -gate (i.e. scandal; derived from Watergate)"
+        ],
+        "classifiers": [
+          "扇",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "门口",
+    "radical": "门",
+    "frequency": 2762,
+    "pos": [
+      "s"
+    ],
+    "forms": [
+      {
+        "traditional": "門口",
+        "transcriptions": {
+          "pinyin": "mén kǒu",
+          "numeric": "men2 kou3",
+          "wadegiles": "men² k'ou³",
+          "bopomofo": "ㄇㄣˊ ㄎㄡˇ",
+          "romatzyh": "men koou"
+        },
+        "meanings": [
+          "doorway",
+          "gate"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "门票",
+    "radical": "门",
+    "frequency": 5140,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "門票",
+        "transcriptions": {
+          "pinyin": "mén piào",
+          "numeric": "men2 piao4",
+          "wadegiles": "men² p'iao⁴",
+          "bopomofo": "ㄇㄣˊ ㄆㄧㄠˋ",
+          "romatzyh": "men piaw"
+        },
+        "meanings": [
+          "ticket (for theater, cinema etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "门诊",
+    "radical": "门",
+    "frequency": 9195,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "門診",
+        "transcriptions": {
+          "pinyin": "mén zhěn",
+          "numeric": "men2 zhen3",
+          "wadegiles": "men² chen³",
+          "bopomofo": "ㄇㄣˊ ㄓㄣˇ",
+          "romatzyh": "men jeen"
+        },
+        "meanings": [
+          "outpatient service"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "们",
+    "radical": "亻",
+    "frequency": 457,
+    "pos": [
+      "k"
+    ],
+    "forms": [
+      {
+        "traditional": "們",
+        "transcriptions": {
+          "pinyin": "men",
+          "numeric": "men5",
+          "wadegiles": "men",
+          "bopomofo": "men",
+          "romatzyh": "men"
+        },
+        "meanings": [
+          "plural marker for pronouns, and nouns referring to individuals"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "们",
+    "radical": "亻",
+    "frequency": 457,
+    "pos": [
+      "k"
+    ],
+    "forms": [
+      {
+        "traditional": "們",
+        "transcriptions": {
+          "pinyin": "men",
+          "numeric": "men5",
+          "wadegiles": "men",
+          "bopomofo": "men",
+          "romatzyh": "men"
+        },
+        "meanings": [
+          "plural marker for pronouns, and nouns referring to individuals"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "蒙",
+    "radical": "艹",
+    "frequency": 2993,
+    "pos": [
+      "v",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "濛",
+        "transcriptions": {
+          "pinyin": "méng",
+          "numeric": "meng2",
+          "wadegiles": "meng²",
+          "bopomofo": "ㄇㄥˊ",
+          "romatzyh": "meng"
+        },
+        "meanings": [
+          "drizzle",
+          "mist"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "矇",
+        "transcriptions": {
+          "pinyin": "mēng",
+          "numeric": "meng1",
+          "wadegiles": "meng¹",
+          "bopomofo": "ㄇㄥ",
+          "romatzyh": "mheng"
+        },
+        "meanings": [
+          "to deceive",
+          "to cheat",
+          "to hoodwink",
+          "to make a wild guess"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "矇",
+        "transcriptions": {
+          "pinyin": "méng",
+          "numeric": "meng2",
+          "wadegiles": "meng²",
+          "bopomofo": "ㄇㄥˊ",
+          "romatzyh": "meng"
+        },
+        "meanings": [
+          "blind",
+          "dim-sighted"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "蒙",
+        "transcriptions": {
+          "pinyin": "Méng",
+          "numeric": "Meng2",
+          "wadegiles": "meng²",
+          "bopomofo": "ㄇㄥˊ",
+          "romatzyh": "meng"
+        },
+        "meanings": [
+          "surname Meng"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "蒙",
+        "transcriptions": {
+          "pinyin": "Měng",
+          "numeric": "Meng3",
+          "wadegiles": "meng³",
+          "bopomofo": "ㄇㄥˇ",
+          "romatzyh": "meeng"
+        },
+        "meanings": [
+          "Mongol ethnic group",
+          "abbr. for Mongolia 蒙古国",
+          "Taiwan pr. [Méng]"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "蒙",
+        "transcriptions": {
+          "pinyin": "mēng",
+          "numeric": "meng1",
+          "wadegiles": "meng¹",
+          "bopomofo": "ㄇㄥ",
+          "romatzyh": "mheng"
+        },
+        "meanings": [
+          "(knocked) unconscious",
+          "dazed",
+          "stunned"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "蒙",
+        "transcriptions": {
+          "pinyin": "méng",
+          "numeric": "meng2",
+          "wadegiles": "meng²",
+          "bopomofo": "ㄇㄥˊ",
+          "romatzyh": "meng"
+        },
+        "meanings": [
+          "to cover",
+          "ignorant",
+          "to suffer (misfortune)",
+          "to receive (a favor)",
+          "to cheat"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "猛",
+    "radical": "犭",
+    "frequency": 3398,
+    "pos": [
+      "a",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "猛",
+        "transcriptions": {
+          "pinyin": "měng",
+          "numeric": "meng3",
+          "wadegiles": "meng³",
+          "bopomofo": "ㄇㄥˇ",
+          "romatzyh": "meeng"
+        },
+        "meanings": [
+          "ferocious",
+          "fierce",
+          "violent",
+          "brave",
+          "suddenly",
+          "abrupt",
+          "(slang) awesome"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "梦",
+    "radical": "木",
+    "frequency": 913,
+    "pos": [
+      "n",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "夢",
+        "transcriptions": {
+          "pinyin": "mèng",
+          "numeric": "meng4",
+          "wadegiles": "meng⁴",
+          "bopomofo": "ㄇㄥˋ",
+          "romatzyh": "menq"
+        },
+        "meanings": [
+          "dream",
+          "(bound form) to dream"
+        ],
+        "classifiers": [
+          "场",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "梦见",
+    "radical": "木",
+    "frequency": 7312,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "夢見",
+        "transcriptions": {
+          "pinyin": "mèng jiàn",
+          "numeric": "meng4 jian4",
+          "wadegiles": "meng⁴ chien⁴",
+          "bopomofo": "ㄇㄥˋ ㄐㄧㄢˋ",
+          "romatzyh": "menq jiann"
+        },
+        "meanings": [
+          "to dream about (sth or sb)",
+          "to see in a dream"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "梦想",
+    "radical": "木",
+    "frequency": 1446,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "夢想",
+        "transcriptions": {
+          "pinyin": "mèng xiǎng",
+          "numeric": "meng4 xiang3",
+          "wadegiles": "meng⁴ hsiang³",
+          "bopomofo": "ㄇㄥˋ ㄒㄧㄤˇ",
+          "romatzyh": "menq sheang"
+        },
+        "meanings": [
+          "(fig.) to dream of",
+          "dream"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "迷",
+    "radical": "辶",
+    "frequency": 2123,
+    "pos": [
+      "v",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "迷",
+        "transcriptions": {
+          "pinyin": "mí",
+          "numeric": "mi2",
+          "wadegiles": "mi²",
+          "bopomofo": "ㄇㄧˊ",
+          "romatzyh": "mi"
+        },
+        "meanings": [
+          "to bewilder",
+          "crazy about",
+          "fan",
+          "enthusiast",
+          "lost",
+          "confused"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "迷人",
+    "radical": "辶",
+    "frequency": 4430,
+    "pos": [
+      "a",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "迷人",
+        "transcriptions": {
+          "pinyin": "mí rén",
+          "numeric": "mi2 ren2",
+          "wadegiles": "mi² jen²",
+          "bopomofo": "ㄇㄧˊ ㄖㄣˊ",
+          "romatzyh": "mi ren"
+        },
+        "meanings": [
+          "fascinating",
+          "enchanting",
+          "charming",
+          "tempting"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "迷信",
+    "radical": "辶",
+    "frequency": 9691,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "迷信",
+        "transcriptions": {
+          "pinyin": "mí xìn",
+          "numeric": "mi2 xin4",
+          "wadegiles": "mi² hsin⁴",
+          "bopomofo": "ㄇㄧˊ ㄒㄧㄣˋ",
+          "romatzyh": "mi shinn"
+        },
+        "meanings": [
+          "superstition",
+          "to have a superstitious belief (in sth)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "米",
+    "radical": "米",
+    "frequency": 663,
+    "pos": [
+      "n",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "米",
+        "transcriptions": {
+          "pinyin": "Mǐ",
+          "numeric": "Mi3",
+          "wadegiles": "mi³",
+          "bopomofo": "ㄇㄧˇ",
+          "romatzyh": "mii"
+        },
+        "meanings": [
+          "surname Mi"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "米",
+        "transcriptions": {
+          "pinyin": "mǐ",
+          "numeric": "mi3",
+          "wadegiles": "mi³",
+          "bopomofo": "ㄇㄧˇ",
+          "romatzyh": "mii"
+        },
+        "meanings": [
+          "rice",
+          "meter (classifier)"
+        ],
+        "classifiers": [
+          "粒"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "米饭",
+    "radical": "米",
+    "frequency": 10194,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "米飯",
+        "transcriptions": {
+          "pinyin": "mǐ fàn",
+          "numeric": "mi3 fan4",
+          "wadegiles": "mi³ fan⁴",
+          "bopomofo": "ㄇㄧˇ ㄈㄢˋ",
+          "romatzyh": "mii fann"
+        },
+        "meanings": [
+          "(cooked) rice"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "秘密",
+    "radical": "禾",
+    "frequency": 1577,
+    "pos": [
+      "n",
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "秘密",
+        "transcriptions": {
+          "pinyin": "mì mì",
+          "numeric": "mi4 mi4",
+          "wadegiles": "mi⁴ mi⁴",
+          "bopomofo": "ㄇㄧˋ ㄇㄧˋ",
+          "romatzyh": "mih mih"
+        },
+        "meanings": [
+          "secret; private; confidential; clandestine",
+          "a secret"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "秘书",
+    "radical": "禾",
+    "frequency": 4599,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "秘書",
+        "transcriptions": {
+          "pinyin": "mì shū",
+          "numeric": "mi4 shu1",
+          "wadegiles": "mi⁴ shu¹",
+          "bopomofo": "ㄇㄧˋ ㄕㄨ",
+          "romatzyh": "mih shu"
+        },
+        "meanings": [
+          "secretary"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "秘书长",
+    "radical": "禾",
+    "frequency": 11446,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "秘書長",
+        "transcriptions": {
+          "pinyin": "mì shū zhǎng",
+          "numeric": "mi4 shu1 zhang3",
+          "wadegiles": "mi⁴ shu¹ chang³",
+          "bopomofo": "ㄇㄧˋ ㄕㄨ ㄓㄤˇ",
+          "romatzyh": "mih shu jaang"
+        },
+        "meanings": [
+          "secretary-general"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "密",
+    "radical": "宀",
+    "frequency": 3591,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "密",
+        "transcriptions": {
+          "pinyin": "Mì",
+          "numeric": "Mi4",
+          "wadegiles": "mi⁴",
+          "bopomofo": "ㄇㄧˋ",
+          "romatzyh": "mih"
+        },
+        "meanings": [
+          "surname Mi",
+          "name of an ancient state"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "密",
+        "transcriptions": {
+          "pinyin": "mì",
+          "numeric": "mi4",
+          "wadegiles": "mi⁴",
+          "bopomofo": "ㄇㄧˋ",
+          "romatzyh": "mih"
+        },
+        "meanings": [
+          "secret",
+          "confidential",
+          "close",
+          "thick",
+          "dense"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "密码",
+    "radical": "宀",
+    "frequency": 3133,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "密碼",
+        "transcriptions": {
+          "pinyin": "mì mǎ",
+          "numeric": "mi4 ma3",
+          "wadegiles": "mi⁴ ma³",
+          "bopomofo": "ㄇㄧˋ ㄇㄚˇ",
+          "romatzyh": "mih maa"
+        },
+        "meanings": [
+          "cipher; secret code",
+          "password; PIN"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "密切",
+    "radical": "宀",
+    "frequency": 5024,
+    "pos": [
+      "ad",
+      "a",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "密切",
+        "transcriptions": {
+          "pinyin": "mì qiè",
+          "numeric": "mi4 qie4",
+          "wadegiles": "mi⁴ ch'ieh⁴",
+          "bopomofo": "ㄇㄧˋ ㄑㄧㄝˋ",
+          "romatzyh": "mih chieh"
+        },
+        "meanings": [
+          "close",
+          "familiar",
+          "intimate",
+          "closely (related)",
+          "to foster close ties",
+          "to pay close attention"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "棉",
+    "radical": "木",
+    "frequency": 5317,
+    "pos": [
+      "g",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "棉",
+        "transcriptions": {
+          "pinyin": "mián",
+          "numeric": "mian2",
+          "wadegiles": "mien²",
+          "bopomofo": "ㄇㄧㄢˊ",
+          "romatzyh": "mian"
+        },
+        "meanings": [
+          "generic term for cotton or kapok",
+          "cotton",
+          "padded or quilted with cotton"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "免得",
+    "radical": "儿",
+    "frequency": 9217,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "免得",
+        "transcriptions": {
+          "pinyin": "miǎn de",
+          "numeric": "mian3 de5",
+          "wadegiles": "mien³ de",
+          "bopomofo": "ㄇㄧㄢˇ de",
+          "romatzyh": "mean de"
+        },
+        "meanings": [
+          "so as not to; so as to avoid"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "免费",
+    "radical": "儿",
+    "frequency": 1416,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "免費",
+        "transcriptions": {
+          "pinyin": "miǎn fèi",
+          "numeric": "mian3 fei4",
+          "wadegiles": "mien³ fei⁴",
+          "bopomofo": "ㄇㄧㄢˇ ㄈㄟˋ",
+          "romatzyh": "mean fey"
+        },
+        "meanings": [
+          "free (of charge)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "面",
+    "radical": "面",
+    "frequency": 604,
+    "pos": [
+      "n",
+      "q",
+      "v",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "面",
+        "transcriptions": {
+          "pinyin": "miàn",
+          "numeric": "mian4",
+          "wadegiles": "mien⁴",
+          "bopomofo": "ㄇㄧㄢˋ",
+          "romatzyh": "miann"
+        },
+        "meanings": [
+          "face",
+          "side",
+          "surface",
+          "aspect",
+          "top",
+          "classifier for objects with flat surfaces such as drums, mirrors, flags etc"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "麪",
+        "transcriptions": {
+          "pinyin": "miàn",
+          "numeric": "mian4",
+          "wadegiles": "mien⁴",
+          "bopomofo": "ㄇㄧㄢˋ",
+          "romatzyh": "miann"
+        },
+        "meanings": [
+          "variant of 面"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "麵",
+        "transcriptions": {
+          "pinyin": "miàn",
+          "numeric": "mian4",
+          "wadegiles": "mien⁴",
+          "bopomofo": "ㄇㄧㄢˋ",
+          "romatzyh": "miann"
+        },
+        "meanings": [
+          "flour",
+          "noodles",
+          "(of food) soft (not crunchy)",
+          "(slang) (of a person) ineffectual",
+          "spineless"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "面",
+    "radical": "面",
+    "frequency": 604,
+    "pos": [
+      "n",
+      "q",
+      "v",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "面",
+        "transcriptions": {
+          "pinyin": "miàn",
+          "numeric": "mian4",
+          "wadegiles": "mien⁴",
+          "bopomofo": "ㄇㄧㄢˋ",
+          "romatzyh": "miann"
+        },
+        "meanings": [
+          "face",
+          "side",
+          "surface",
+          "aspect",
+          "top",
+          "classifier for objects with flat surfaces such as drums, mirrors, flags etc"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "麪",
+        "transcriptions": {
+          "pinyin": "miàn",
+          "numeric": "mian4",
+          "wadegiles": "mien⁴",
+          "bopomofo": "ㄇㄧㄢˋ",
+          "romatzyh": "miann"
+        },
+        "meanings": [
+          "variant of 面"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "麵",
+        "transcriptions": {
+          "pinyin": "miàn",
+          "numeric": "mian4",
+          "wadegiles": "mien⁴",
+          "bopomofo": "ㄇㄧㄢˋ",
+          "romatzyh": "miann"
+        },
+        "meanings": [
+          "flour",
+          "noodles",
+          "(of food) soft (not crunchy)",
+          "(slang) (of a person) ineffectual",
+          "spineless"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "面包",
+    "radical": "面",
+    "frequency": 4138,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "麵包",
+        "transcriptions": {
+          "pinyin": "miàn bāo",
+          "numeric": "mian4 bao1",
+          "wadegiles": "mien⁴ pao¹",
+          "bopomofo": "ㄇㄧㄢˋ ㄅㄠ",
+          "romatzyh": "miann bau"
+        },
+        "meanings": [
+          "bread"
+        ],
+        "classifiers": [
+          "片",
+          "袋",
+          "块"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "面对",
+    "radical": "面",
+    "frequency": 973,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "面對",
+        "transcriptions": {
+          "pinyin": "miàn duì",
+          "numeric": "mian4 dui4",
+          "wadegiles": "mien⁴ tui⁴",
+          "bopomofo": "ㄇㄧㄢˋ ㄉㄨㄟˋ",
+          "romatzyh": "miann duey"
+        },
+        "meanings": [
+          "to face; to confront"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "面对面",
+    "radical": "面",
+    "frequency": 8105,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "面對面",
+        "transcriptions": {
+          "pinyin": "miàn duì miàn",
+          "numeric": "mian4 dui4 mian4",
+          "wadegiles": "mien⁴ tui⁴ mien⁴",
+          "bopomofo": "ㄇㄧㄢˋ ㄉㄨㄟˋ ㄇㄧㄢˋ",
+          "romatzyh": "miann duey miann"
+        },
+        "meanings": [
+          "face to face"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "面积",
+    "radical": "面",
+    "frequency": 6252,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "面積",
+        "transcriptions": {
+          "pinyin": "miàn jī",
+          "numeric": "mian4 ji1",
+          "wadegiles": "mien⁴ chi¹",
+          "bopomofo": "ㄇㄧㄢˋ ㄐㄧ",
+          "romatzyh": "miann ji"
+        },
+        "meanings": [
+          "area (of a floor, piece of land etc)",
+          "surface area",
+          "tract of land"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "面临",
+    "radical": "面",
+    "frequency": 2363,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "面臨",
+        "transcriptions": {
+          "pinyin": "miàn lín",
+          "numeric": "mian4 lin2",
+          "wadegiles": "mien⁴ lin²",
+          "bopomofo": "ㄇㄧㄢˋ ㄌㄧㄣˊ",
+          "romatzyh": "miann lin"
+        },
+        "meanings": [
+          "to face sth; to be confronted with"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "面貌",
+    "radical": "面",
+    "frequency": 12053,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "面貌",
+        "transcriptions": {
+          "pinyin": "miàn mào",
+          "numeric": "mian4 mao4",
+          "wadegiles": "mien⁴ mao⁴",
+          "bopomofo": "ㄇㄧㄢˋ ㄇㄠˋ",
+          "romatzyh": "miann maw"
+        },
+        "meanings": [
+          "face; features",
+          "appearance; look"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "面前",
+    "radical": "面",
+    "frequency": 948,
+    "pos": [
+      "f"
+    ],
+    "forms": [
+      {
+        "traditional": "面前",
+        "transcriptions": {
+          "pinyin": "miàn qián",
+          "numeric": "mian4 qian2",
+          "wadegiles": "mien⁴ ch'ien²",
+          "bopomofo": "ㄇㄧㄢˋ ㄑㄧㄢˊ",
+          "romatzyh": "miann chyan"
+        },
+        "meanings": [
+          "in front of",
+          "facing",
+          "(in the) presence (of)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "面试",
+    "radical": "面",
+    "frequency": 4005,
+    "pos": [
+      "v",
+      "vn",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "面試",
+        "transcriptions": {
+          "pinyin": "miàn shì",
+          "numeric": "mian4 shi4",
+          "wadegiles": "mien⁴ shih⁴",
+          "bopomofo": "ㄇㄧㄢˋ ㄕˋ",
+          "romatzyh": "miann shyh"
+        },
+        "meanings": [
+          "to be interviewed (as a candidate)",
+          "interview"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "面条儿",
+    "radical": "面",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "麵條兒",
+        "transcriptions": {
+          "pinyin": "miàn tiáo r",
+          "numeric": "mian4 tiao2 r5",
+          "wadegiles": "mien⁴ t'iao² r",
+          "bopomofo": "ㄇㄧㄢˋ ㄊㄧㄠˊ r",
+          "romatzyh": "miann tyau r"
+        },
+        "meanings": [
+          "erhua variant of 面条"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "面向",
+    "radical": "面",
+    "frequency": 7350,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "面嚮",
+        "transcriptions": {
+          "pinyin": "miàn xiàng",
+          "numeric": "mian4 xiang4",
+          "wadegiles": "mien⁴ hsiang⁴",
+          "bopomofo": "ㄇㄧㄢˋ ㄒㄧㄤˋ",
+          "romatzyh": "miann shianq"
+        },
+        "meanings": [
+          "to face",
+          "to turn towards",
+          "to incline to",
+          "geared towards",
+          "catering for",
+          "-oriented",
+          "facial feature",
+          "appearance",
+          "aspect",
+          "facet"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "面子",
+    "radical": "面",
+    "frequency": 5831,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "面子",
+        "transcriptions": {
+          "pinyin": "miàn zi",
+          "numeric": "mian4 zi5",
+          "wadegiles": "mien⁴ zi",
+          "bopomofo": "ㄇㄧㄢˋ zi",
+          "romatzyh": "miann zi"
+        },
+        "meanings": [
+          "outer surface; the outside of sth",
+          "social prestige; face"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "麵子",
+        "transcriptions": {
+          "pinyin": "miàn zi",
+          "numeric": "mian4 zi5",
+          "wadegiles": "mien⁴ zi",
+          "bopomofo": "ㄇㄧㄢˋ zi",
+          "romatzyh": "miann zi"
+        },
+        "meanings": [
+          "(medicinal) powder"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "描述",
+    "radical": "扌",
+    "frequency": 3196,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "描述",
+        "transcriptions": {
+          "pinyin": "miáo shù",
+          "numeric": "miao2 shu4",
+          "wadegiles": "miao² shu⁴",
+          "bopomofo": "ㄇㄧㄠˊ ㄕㄨˋ",
+          "romatzyh": "miau shuh"
+        },
+        "meanings": [
+          "to describe",
+          "description"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "描写",
+    "radical": "扌",
+    "frequency": 9246,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "描寫",
+        "transcriptions": {
+          "pinyin": "miáo xiě",
+          "numeric": "miao2 xie3",
+          "wadegiles": "miao² hsieh³",
+          "bopomofo": "ㄇㄧㄠˊ ㄒㄧㄝˇ",
+          "romatzyh": "miau shiee"
+        },
+        "meanings": [
+          "to describe",
+          "to depict",
+          "to portray",
+          "description"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "秒",
+    "radical": "禾",
+    "frequency": 1034,
+    "pos": [
+      "t",
+      "qt"
+    ],
+    "forms": [
+      {
+        "traditional": "秒",
+        "transcriptions": {
+          "pinyin": "miǎo",
+          "numeric": "miao3",
+          "wadegiles": "miao³",
+          "bopomofo": "ㄇㄧㄠˇ",
+          "romatzyh": "meau"
+        },
+        "meanings": [
+          "second (unit of time)",
+          "arc second (angular measurement unit)",
+          "(coll.) instantly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "妙",
+    "radical": "女",
+    "frequency": 4292,
+    "pos": [
+      "a",
+      "ad",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "妙",
+        "transcriptions": {
+          "pinyin": "miào",
+          "numeric": "miao4",
+          "wadegiles": "miao⁴",
+          "bopomofo": "ㄇㄧㄠˋ",
+          "romatzyh": "miaw"
+        },
+        "meanings": [
+          "clever",
+          "wonderful"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "玅",
+        "transcriptions": {
+          "pinyin": "miào",
+          "numeric": "miao4",
+          "wadegiles": "miao⁴",
+          "bopomofo": "ㄇㄧㄠˋ",
+          "romatzyh": "miaw"
+        },
+        "meanings": [
+          "variant of 妙"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "灭",
+    "radical": "火",
+    "frequency": 4065,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "滅",
+        "transcriptions": {
+          "pinyin": "miè",
+          "numeric": "mie4",
+          "wadegiles": "mieh⁴",
+          "bopomofo": "ㄇㄧㄝˋ",
+          "romatzyh": "mieh"
+        },
+        "meanings": [
+          "to extinguish or put out",
+          "to go out (of a fire etc)",
+          "to exterminate or wipe out",
+          "to drown"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "民歌",
+    "radical": "民",
+    "frequency": 18474,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "民歌",
+        "transcriptions": {
+          "pinyin": "mín gē",
+          "numeric": "min2 ge1",
+          "wadegiles": "min² ko¹",
+          "bopomofo": "ㄇㄧㄣˊ ㄍㄜ",
+          "romatzyh": "min ge"
+        },
+        "meanings": [
+          "folk song"
+        ],
+        "classifiers": [
+          "支",
+          "首"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "民工",
+    "radical": "民",
+    "frequency": 18297,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "民工",
+        "transcriptions": {
+          "pinyin": "mín gōng",
+          "numeric": "min2 gong1",
+          "wadegiles": "min² kung¹",
+          "bopomofo": "ㄇㄧㄣˊ ㄍㄨㄥ",
+          "romatzyh": "min gong"
+        },
+        "meanings": [
+          "migrant worker (who moved from a rural area of China to a city to find work)",
+          "temporary worker enlisted on a public project"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "民间",
+    "radical": "民",
+    "frequency": 7015,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "民間",
+        "transcriptions": {
+          "pinyin": "mín jiān",
+          "numeric": "min2 jian1",
+          "wadegiles": "min² chien¹",
+          "bopomofo": "ㄇㄧㄣˊ ㄐㄧㄢ",
+          "romatzyh": "min jian"
+        },
+        "meanings": [
+          "among the people",
+          "popular",
+          "folk",
+          "non-governmental",
+          "involving people rather than governments"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "民警",
+    "radical": "民",
+    "frequency": 26049,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "民警",
+        "transcriptions": {
+          "pinyin": "mín jǐng",
+          "numeric": "min2 jing3",
+          "wadegiles": "min² ching³",
+          "bopomofo": "ㄇㄧㄣˊ ㄐㄧㄥˇ",
+          "romatzyh": "min jiing"
+        },
+        "meanings": [
+          "civil police",
+          "PRC police",
+          "abbr. for 人民警察"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "民意",
+    "radical": "民",
+    "frequency": 14044,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "民意",
+        "transcriptions": {
+          "pinyin": "mín yì",
+          "numeric": "min2 yi4",
+          "wadegiles": "min² i⁴",
+          "bopomofo": "ㄇㄧㄣˊ ㄧˋ",
+          "romatzyh": "min yih"
+        },
+        "meanings": [
+          "public opinion",
+          "popular will",
+          "public will"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "民主",
+    "radical": "民",
+    "frequency": 3363,
+    "pos": [
+      "a",
+      "an",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "民主",
+        "transcriptions": {
+          "pinyin": "mín zhǔ",
+          "numeric": "min2 zhu3",
+          "wadegiles": "min² chu³",
+          "bopomofo": "ㄇㄧㄣˊ ㄓㄨˇ",
+          "romatzyh": "min juu"
+        },
+        "meanings": [
+          "democracy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "民族",
+    "radical": "民",
+    "frequency": 3724,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "民族",
+        "transcriptions": {
+          "pinyin": "mín zú",
+          "numeric": "min2 zu2",
+          "wadegiles": "min² tsu²",
+          "bopomofo": "ㄇㄧㄣˊ ㄗㄨˊ",
+          "romatzyh": "min tzwu"
+        },
+        "meanings": [
+          "nationality; ethnic group"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "敏感",
+    "radical": "攵",
+    "frequency": 3233,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "敏感",
+        "transcriptions": {
+          "pinyin": "mǐn gǎn",
+          "numeric": "min3 gan3",
+          "wadegiles": "min³ kan³",
+          "bopomofo": "ㄇㄧㄣˇ ㄍㄢˇ",
+          "romatzyh": "miin gaan"
+        },
+        "meanings": [
+          "sensitive",
+          "susceptible"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "名",
+    "radical": "口",
+    "frequency": 234,
+    "pos": [
+      "q",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "名",
+        "transcriptions": {
+          "pinyin": "míng",
+          "numeric": "ming2",
+          "wadegiles": "ming²",
+          "bopomofo": "ㄇㄧㄥˊ",
+          "romatzyh": "ming"
+        },
+        "meanings": [
+          "name",
+          "noun (part of speech)",
+          "place (e.g. among winners)",
+          "famous",
+          "classifier for people"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "名称",
+    "radical": "口",
+    "frequency": 6563,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "名稱",
+        "transcriptions": {
+          "pinyin": "míng chēng",
+          "numeric": "ming2 cheng1",
+          "wadegiles": "ming² ch'eng¹",
+          "bopomofo": "ㄇㄧㄥˊ ㄔㄥ",
+          "romatzyh": "ming cheng"
+        },
+        "meanings": [
+          "name (of a thing)",
+          "name (of an organization)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "名单",
+    "radical": "口",
+    "frequency": 2125,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "名單",
+        "transcriptions": {
+          "pinyin": "míng dān",
+          "numeric": "ming2 dan1",
+          "wadegiles": "ming² tan¹",
+          "bopomofo": "ㄇㄧㄥˊ ㄉㄢ",
+          "romatzyh": "ming dan"
+        },
+        "meanings": [
+          "list of names"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "名额",
+    "radical": "口",
+    "frequency": 10248,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "名額",
+        "transcriptions": {
+          "pinyin": "míng é",
+          "numeric": "ming2 e2",
+          "wadegiles": "ming² e²",
+          "bopomofo": "ㄇㄧㄥˊ ㄜˊ",
+          "romatzyh": "ming er"
+        },
+        "meanings": [
+          "quota",
+          "number of places",
+          "place (in an institution, a group etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "名牌儿",
+    "radical": "口",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "名牌兒",
+        "transcriptions": {
+          "pinyin": "míngpáir5",
+          "numeric": "míngpáir5",
+          "wadegiles": "míngpáir5",
+          "bopomofo": "míngpáir5",
+          "romatzyh": "míngpáir5"
+        },
+        "meanings": [
+          "Famous brand"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "名片",
+    "radical": "口",
+    "frequency": 6747,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "名片",
+        "transcriptions": {
+          "pinyin": "míng piàn",
+          "numeric": "ming2 pian4",
+          "wadegiles": "ming² p'ien⁴",
+          "bopomofo": "ㄇㄧㄥˊ ㄆㄧㄢˋ",
+          "romatzyh": "ming piann"
+        },
+        "meanings": [
+          "(business) card"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "名人",
+    "radical": "口",
+    "frequency": 3879,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "名人",
+        "transcriptions": {
+          "pinyin": "míng rén",
+          "numeric": "ming2 ren2",
+          "wadegiles": "ming² jen²",
+          "bopomofo": "ㄇㄧㄥˊ ㄖㄣˊ",
+          "romatzyh": "ming ren"
+        },
+        "meanings": [
+          "personage",
+          "celebrity"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "名胜",
+    "radical": "口",
+    "frequency": 29771,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "名勝",
+        "transcriptions": {
+          "pinyin": "míng shèng",
+          "numeric": "ming2 sheng4",
+          "wadegiles": "ming² sheng⁴",
+          "bopomofo": "ㄇㄧㄥˊ ㄕㄥˋ",
+          "romatzyh": "ming shenq"
+        },
+        "meanings": [
+          "a place famous for its scenery or historical relics",
+          "scenic spot"
+        ],
+        "classifiers": [
+          "处"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "名义",
+    "radical": "口",
+    "frequency": 4447,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "名義",
+        "transcriptions": {
+          "pinyin": "míng yì",
+          "numeric": "ming2 yi4",
+          "wadegiles": "ming² i⁴",
+          "bopomofo": "ㄇㄧㄥˊ ㄧˋ",
+          "romatzyh": "ming yih"
+        },
+        "meanings": [
+          "name",
+          "titular",
+          "nominal",
+          "in name",
+          "ostensible purpose"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "名誉",
+    "radical": "口",
+    "frequency": 7798,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "名譽",
+        "transcriptions": {
+          "pinyin": "míng yù",
+          "numeric": "ming2 yu4",
+          "wadegiles": "ming² yü⁴",
+          "bopomofo": "ㄇㄧㄥˊ ㄩˋ",
+          "romatzyh": "ming yuh"
+        },
+        "meanings": [
+          "fame",
+          "reputation",
+          "honor",
+          "honorary",
+          "emeritus (of retired professor)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "名字",
+    "radical": "口",
+    "frequency": 829,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "名字",
+        "transcriptions": {
+          "pinyin": "míng zi",
+          "numeric": "ming2 zi5",
+          "wadegiles": "ming² zi",
+          "bopomofo": "ㄇㄧㄥˊ zi",
+          "romatzyh": "ming zi"
+        },
+        "meanings": [
+          "name (of a person or thing)"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "明白",
+    "radical": "日",
+    "frequency": 676,
+    "pos": [
+      "v",
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "明白",
+        "transcriptions": {
+          "pinyin": "míng bai",
+          "numeric": "ming2 bai5",
+          "wadegiles": "ming² bai",
+          "bopomofo": "ㄇㄧㄥˊ bai",
+          "romatzyh": "ming bai"
+        },
+        "meanings": [
+          "clear",
+          "obvious",
+          "unequivocal",
+          "to understand",
+          "to realize"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "明亮",
+    "radical": "日",
+    "frequency": 9553,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "明亮",
+        "transcriptions": {
+          "pinyin": "míng liàng",
+          "numeric": "ming2 liang4",
+          "wadegiles": "ming² liang⁴",
+          "bopomofo": "ㄇㄧㄥˊ ㄌㄧㄤˋ",
+          "romatzyh": "ming lianq"
+        },
+        "meanings": [
+          "bright",
+          "shining",
+          "glittering",
+          "to become clear"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "明明",
+    "radical": "日",
+    "frequency": 3970,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "明明",
+        "transcriptions": {
+          "pinyin": "míng míng",
+          "numeric": "ming2 ming2",
+          "wadegiles": "ming² ming²",
+          "bopomofo": "ㄇㄧㄥˊ ㄇㄧㄥˊ",
+          "romatzyh": "ming ming"
+        },
+        "meanings": [
+          "obviously",
+          "plainly",
+          "undoubtedly",
+          "definitely"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "明年",
+    "radical": "日",
+    "frequency": 2487,
+    "pos": [
+      "t"
+    ],
+    "forms": [
+      {
+        "traditional": "明年",
+        "transcriptions": {
+          "pinyin": "míng nián",
+          "numeric": "ming2 nian2",
+          "wadegiles": "ming² nien²",
+          "bopomofo": "ㄇㄧㄥˊ ㄋㄧㄢˊ",
+          "romatzyh": "ming nian"
+        },
+        "meanings": [
+          "next year"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "明确",
+    "radical": "日",
+    "frequency": 2369,
+    "pos": [
+      "a",
+      "v",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "明確",
+        "transcriptions": {
+          "pinyin": "míng què",
+          "numeric": "ming2 que4",
+          "wadegiles": "ming² ch'üeh⁴",
+          "bopomofo": "ㄇㄧㄥˊ ㄑㄩㄝˋ",
+          "romatzyh": "ming chiueh"
+        },
+        "meanings": [
+          "clear-cut; definite; explicit",
+          "to clarify; to specify; to make definite"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "明日",
+    "radical": "日",
+    "frequency": 8959,
+    "pos": [
+      "t"
+    ],
+    "forms": [
+      {
+        "traditional": "明日",
+        "transcriptions": {
+          "pinyin": "míng rì",
+          "numeric": "ming2 ri4",
+          "wadegiles": "ming² jih⁴",
+          "bopomofo": "ㄇㄧㄥˊ ㄖˋ",
+          "romatzyh": "ming ryh"
+        },
+        "meanings": [
+          "tomorrow"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "明天",
+    "radical": "日",
+    "frequency": 469,
+    "pos": [
+      "t"
+    ],
+    "forms": [
+      {
+        "traditional": "明天",
+        "transcriptions": {
+          "pinyin": "míng tiān",
+          "numeric": "ming2 tian1",
+          "wadegiles": "ming² t'ien¹",
+          "bopomofo": "ㄇㄧㄥˊ ㄊㄧㄢ",
+          "romatzyh": "ming tian"
+        },
+        "meanings": [
+          "tomorrow"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "明显",
+    "radical": "日",
+    "frequency": 710,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "明顯",
+        "transcriptions": {
+          "pinyin": "míng xiǎn",
+          "numeric": "ming2 xian3",
+          "wadegiles": "ming² hsien³",
+          "bopomofo": "ㄇㄧㄥˊ ㄒㄧㄢˇ",
+          "romatzyh": "ming shean"
+        },
+        "meanings": [
+          "clear",
+          "distinct",
+          "obvious"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "明星",
+    "radical": "日",
+    "frequency": 1452,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "明星",
+        "transcriptions": {
+          "pinyin": "míng xīng",
+          "numeric": "ming2 xing1",
+          "wadegiles": "ming² hsing¹",
+          "bopomofo": "ㄇㄧㄥˊ ㄒㄧㄥ",
+          "romatzyh": "ming shing"
+        },
+        "meanings": [
+          "star; celebrity"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "命",
+    "radical": "口",
+    "frequency": 1484,
+    "pos": [
+      "n",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "命",
+        "transcriptions": {
+          "pinyin": "mìng",
+          "numeric": "ming4",
+          "wadegiles": "ming⁴",
+          "bopomofo": "ㄇㄧㄥˋ",
+          "romatzyh": "minq"
+        },
+        "meanings": [
+          "life",
+          "fate",
+          "order or command",
+          "to assign a name, title etc"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "命令",
+    "radical": "口",
+    "frequency": 2305,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "命令",
+        "transcriptions": {
+          "pinyin": "mìng lìng",
+          "numeric": "ming4 ling4",
+          "wadegiles": "ming⁴ ling⁴",
+          "bopomofo": "ㄇㄧㄥˋ ㄌㄧㄥˋ",
+          "romatzyh": "minq linq"
+        },
+        "meanings": [
+          "order",
+          "command"
+        ],
+        "classifiers": [
+          "道",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "命运",
+    "radical": "口",
+    "frequency": 2268,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "命運",
+        "transcriptions": {
+          "pinyin": "mìng yùn",
+          "numeric": "ming4 yun4",
+          "wadegiles": "ming⁴ yün⁴",
+          "bopomofo": "ㄇㄧㄥˋ ㄩㄣˋ",
+          "romatzyh": "minq yunn"
+        },
+        "meanings": [
+          "fate; destiny"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "摸",
+    "radical": "扌",
+    "frequency": 2716,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "摸",
+        "transcriptions": {
+          "pinyin": "mō",
+          "numeric": "mo1",
+          "wadegiles": "mo¹",
+          "bopomofo": "ㄇㄛ",
+          "romatzyh": "mho"
+        },
+        "meanings": [
+          "to feel with the hand",
+          "to touch",
+          "to stroke",
+          "to grope",
+          "to steal",
+          "to abstract"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "摸",
+        "transcriptions": {
+          "pinyin": "mó",
+          "numeric": "mo2",
+          "wadegiles": "mo²",
+          "bopomofo": "ㄇㄛˊ",
+          "romatzyh": "mo"
+        },
+        "meanings": [
+          "variant of 摹"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

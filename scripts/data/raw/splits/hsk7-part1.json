@@ -1,0 +1,2249 @@
+[
+  {
+    "simplified": "阿拉伯语",
+    "radical": "阝",
+    "frequency": 27202,
+    "pos": [
+      "nz"
+    ],
+    "forms": [
+      {
+        "traditional": "阿拉伯語",
+        "transcriptions": {
+          "pinyin": "Ā lā bó yǔ",
+          "numeric": "A1 la1 bo2 yu3",
+          "wadegiles": "a¹ la¹ po² yü³",
+          "bopomofo": "ㄚ ㄌㄚ ㄅㄛˊ ㄩˇ",
+          "romatzyh": "a lha bor yeu"
+        },
+        "meanings": [
+          "Arabic (language)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "阿姨",
+    "radical": "阝",
+    "frequency": 4355,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "阿姨",
+        "transcriptions": {
+          "pinyin": "ā yí",
+          "numeric": "a1 yi2",
+          "wadegiles": "a¹ i²",
+          "bopomofo": "ㄚ ㄧˊ",
+          "romatzyh": "a yi"
+        },
+        "meanings": [
+          "maternal aunt",
+          "step-mother",
+          "childcare worker",
+          "nursemaid",
+          "woman of similar age to one's parents (term of address used by child)"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "呵护",
+    "radical": "口",
+    "frequency": 13381,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "呵護",
+        "transcriptions": {
+          "pinyin": "hē hù",
+          "numeric": "he1 hu4",
+          "wadegiles": "ho¹ hu⁴",
+          "bopomofo": "ㄏㄜ ㄏㄨˋ",
+          "romatzyh": "he huh"
+        },
+        "meanings": [
+          "to bless",
+          "to cherish",
+          "to take good care of",
+          "to conserve"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "啊",
+    "radical": "口",
+    "frequency": 47,
+    "pos": [
+      "y",
+      "e"
+    ],
+    "forms": [
+      {
+        "traditional": "啊",
+        "transcriptions": {
+          "pinyin": "ā",
+          "numeric": "a1",
+          "wadegiles": "a¹",
+          "bopomofo": "ㄚ",
+          "romatzyh": "a"
+        },
+        "meanings": [
+          "interjection of surprise",
+          "Ah!",
+          "Oh!"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "啊",
+        "transcriptions": {
+          "pinyin": "á",
+          "numeric": "a2",
+          "wadegiles": "a²",
+          "bopomofo": "ㄚˊ",
+          "romatzyh": "ar"
+        },
+        "meanings": [
+          "interjection expressing doubt or requiring answer",
+          "Eh?",
+          "what?"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "啊",
+        "transcriptions": {
+          "pinyin": "ǎ",
+          "numeric": "a3",
+          "wadegiles": "a³",
+          "bopomofo": "ㄚˇ",
+          "romatzyh": "aa"
+        },
+        "meanings": [
+          "interjection of surprise or doubt",
+          "Eh?",
+          "My!",
+          "what's up?"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "啊",
+        "transcriptions": {
+          "pinyin": "à",
+          "numeric": "a4",
+          "wadegiles": "a⁴",
+          "bopomofo": "ㄚˋ",
+          "romatzyh": "ah"
+        },
+        "meanings": [
+          "interjection or grunt of agreement",
+          "uhm",
+          "Ah, OK",
+          "expression of recognition",
+          "Oh, it's you!"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "啊",
+        "transcriptions": {
+          "pinyin": "a",
+          "numeric": "a5",
+          "wadegiles": "a",
+          "bopomofo": "a",
+          "romatzyh": "a"
+        },
+        "meanings": [
+          "modal particle ending sentence, showing affirmation, approval, or consent"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "哎",
+    "radical": "口",
+    "frequency": 2092,
+    "pos": [
+      "e"
+    ],
+    "forms": [
+      {
+        "traditional": "哎",
+        "transcriptions": {
+          "pinyin": "āi",
+          "numeric": "ai1",
+          "wadegiles": "ai¹",
+          "bopomofo": "ㄞ",
+          "romatzyh": "ai"
+        },
+        "meanings": [
+          "hey!",
+          "(interjection used to attract attention or to express surprise or disapprobation)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "哎呀",
+    "radical": "口",
+    "frequency": 4772,
+    "pos": [
+      "e"
+    ],
+    "forms": [
+      {
+        "traditional": "哎呀",
+        "transcriptions": {
+          "pinyin": "āi yā",
+          "numeric": "ai1 ya1",
+          "wadegiles": "ai¹ ya¹",
+          "bopomofo": "ㄞ ㄧㄚ",
+          "romatzyh": "ai ia"
+        },
+        "meanings": [
+          "interjection of wonder, shock or admiration"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "哀求",
+    "radical": "口",
+    "frequency": 19304,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "哀求",
+        "transcriptions": {
+          "pinyin": "āi qiú",
+          "numeric": "ai1 qiu2",
+          "wadegiles": "ai¹ ch'iu²",
+          "bopomofo": "ㄞ ㄑㄧㄡˊ",
+          "romatzyh": "ai chyou"
+        },
+        "meanings": [
+          "to entreat",
+          "to implore",
+          "to plead"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "唉",
+    "radical": "口",
+    "frequency": 2512,
+    "pos": [
+      "e"
+    ],
+    "forms": [
+      {
+        "traditional": "唉",
+        "transcriptions": {
+          "pinyin": "āi",
+          "numeric": "ai1",
+          "wadegiles": "ai¹",
+          "bopomofo": "ㄞ",
+          "romatzyh": "ai"
+        },
+        "meanings": [
+          "interjection or grunt of agreement or recognition (e.g. yes, it's me!)",
+          "to sigh"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "唉",
+        "transcriptions": {
+          "pinyin": "ài",
+          "numeric": "ai4",
+          "wadegiles": "ai⁴",
+          "bopomofo": "ㄞˋ",
+          "romatzyh": "ay"
+        },
+        "meanings": [
+          "alas",
+          "oh dear"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "挨",
+    "radical": "扌",
+    "frequency": 5720,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "挨",
+        "transcriptions": {
+          "pinyin": "āi",
+          "numeric": "ai1",
+          "wadegiles": "ai¹",
+          "bopomofo": "ㄞ",
+          "romatzyh": "ai"
+        },
+        "meanings": [
+          "in order; in sequence",
+          "close to; adjacent to"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "挨",
+        "transcriptions": {
+          "pinyin": "ái",
+          "numeric": "ai2",
+          "wadegiles": "ai²",
+          "bopomofo": "ㄞˊ",
+          "romatzyh": "air"
+        },
+        "meanings": [
+          "to suffer; to endure",
+          "to pull through (hard times)",
+          "to delay; to stall; to play for time; to dawdle"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "挨打",
+    "radical": "扌",
+    "frequency": 15204,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "挨打",
+        "transcriptions": {
+          "pinyin": "ái dǎ",
+          "numeric": "ai2 da3",
+          "wadegiles": "ai² ta³",
+          "bopomofo": "ㄞˊ ㄉㄚˇ",
+          "romatzyh": "air daa"
+        },
+        "meanings": [
+          "to take a beating",
+          "to get thrashed",
+          "to come under attack"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "挨家挨户",
+    "radical": "扌",
+    "frequency": 26236,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "挨家挨戶",
+        "transcriptions": {
+          "pinyin": "āi jiā āi hù",
+          "numeric": "ai1 jia1 ai1 hu4",
+          "wadegiles": "ai¹ chia¹ ai¹ hu⁴",
+          "bopomofo": "ㄞ ㄐㄧㄚ ㄞ ㄏㄨˋ",
+          "romatzyh": "ai jia ai huh"
+        },
+        "meanings": [
+          "to go from house to house"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "挨着",
+    "radical": "扌",
+    "frequency": 11185,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "挨著",
+        "transcriptions": {
+          "pinyin": "āi zhe",
+          "numeric": "ai1 zhe5",
+          "wadegiles": "ai¹ zhe",
+          "bopomofo": "ㄞ zhe",
+          "romatzyh": "ai zhe"
+        },
+        "meanings": [
+          "near"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "癌",
+    "radical": "疒",
+    "frequency": 6175,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "癌",
+        "transcriptions": {
+          "pinyin": "ái",
+          "numeric": "ai2",
+          "wadegiles": "ai²",
+          "bopomofo": "ㄞˊ",
+          "romatzyh": "air"
+        },
+        "meanings": [
+          "cancer",
+          "carcinoma",
+          "also pr. [yán]"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "癌症",
+    "radical": "疒",
+    "frequency": 4759,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "癌症",
+        "transcriptions": {
+          "pinyin": "ái zhèng",
+          "numeric": "ai2 zheng4",
+          "wadegiles": "ai² cheng⁴",
+          "bopomofo": "ㄞˊ ㄓㄥˋ",
+          "romatzyh": "air jenq"
+        },
+        "meanings": [
+          "cancer"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "矮",
+    "radical": "矢",
+    "frequency": 3952,
+    "pos": [
+      "a",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "矮",
+        "transcriptions": {
+          "pinyin": "ǎi",
+          "numeric": "ai3",
+          "wadegiles": "ai³",
+          "bopomofo": "ㄞˇ",
+          "romatzyh": "ae"
+        },
+        "meanings": [
+          "low",
+          "short (in length)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "矮小",
+    "radical": "矢",
+    "frequency": 21508,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "矮小",
+        "transcriptions": {
+          "pinyin": "ǎi xiǎo",
+          "numeric": "ai3 xiao3",
+          "wadegiles": "ai³ hsiao³",
+          "bopomofo": "ㄞˇ ㄒㄧㄠˇ",
+          "romatzyh": "ae sheau"
+        },
+        "meanings": [
+          "short and small",
+          "low and small",
+          "undersized"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "艾滋病",
+    "radical": "艹",
+    "frequency": 6270,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "艾滋病",
+        "transcriptions": {
+          "pinyin": "ài zī bìng",
+          "numeric": "ai4 zi1 bing4",
+          "wadegiles": "ai⁴ tzu¹ ping⁴",
+          "bopomofo": "ㄞˋ ㄗ ㄅㄧㄥˋ",
+          "romatzyh": "ay tzy binq"
+        },
+        "meanings": [
+          "AIDS (loanword)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "爱",
+    "radical": "爫",
+    "frequency": 130,
+    "pos": [
+      "v",
+      "vn",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "愛",
+        "transcriptions": {
+          "pinyin": "ài",
+          "numeric": "ai4",
+          "wadegiles": "ai⁴",
+          "bopomofo": "ㄞˋ",
+          "romatzyh": "ay"
+        },
+        "meanings": [
+          "to love; to be fond of; to like",
+          "affection",
+          "to be inclined (to do sth); to tend to (happen)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "爱不释手",
+    "radical": "爫",
+    "frequency": 26355,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "愛不釋手",
+        "transcriptions": {
+          "pinyin": "ài bù shì shǒu",
+          "numeric": "ai4 bu4 shi4 shou3",
+          "wadegiles": "ai⁴ pu⁴ shih⁴ shou³",
+          "bopomofo": "ㄞˋ ㄅㄨˋ ㄕˋ ㄕㄡˇ",
+          "romatzyh": "ay buh shyh shoou"
+        },
+        "meanings": [
+          "(idiom) to like sth so much that one is reluctant to put it down; to find sth utterly irresistible"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "爱国",
+    "radical": "爫",
+    "frequency": 7528,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "愛國",
+        "transcriptions": {
+          "pinyin": "ài guó",
+          "numeric": "ai4 guo2",
+          "wadegiles": "ai⁴ kuo²",
+          "bopomofo": "ㄞˋ ㄍㄨㄛˊ",
+          "romatzyh": "ay gwo"
+        },
+        "meanings": [
+          "to love one's country",
+          "patriotic"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "爱好",
+    "radical": "爫",
+    "frequency": 4902,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "愛好",
+        "transcriptions": {
+          "pinyin": "ài hào",
+          "numeric": "ai4 hao4",
+          "wadegiles": "ai⁴ hao⁴",
+          "bopomofo": "ㄞˋ ㄏㄠˋ",
+          "romatzyh": "ay haw"
+        },
+        "meanings": [
+          "to like; to be fond of; to take pleasure in; to be keen on",
+          "interest; hobby"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "爱护",
+    "radical": "爫",
+    "frequency": 10522,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "愛護",
+        "transcriptions": {
+          "pinyin": "ài hù",
+          "numeric": "ai4 hu4",
+          "wadegiles": "ai⁴ hu⁴",
+          "bopomofo": "ㄞˋ ㄏㄨˋ",
+          "romatzyh": "ay huh"
+        },
+        "meanings": [
+          "to cherish",
+          "to treasure",
+          "to take care of",
+          "to love and protect"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "爱理不理",
+    "radical": "爫",
+    "frequency": 69479,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "愛理不理",
+        "transcriptions": {
+          "pinyin": "ài lǐ bù lǐ",
+          "numeric": "ai4 li3 bu4 li3",
+          "wadegiles": "ai⁴ li³ pu⁴ li³",
+          "bopomofo": "ㄞˋ ㄌㄧˇ ㄅㄨˋ ㄌㄧˇ",
+          "romatzyh": "ay lii buh lii"
+        },
+        "meanings": [
+          "(idiom) standoffish; indifferent"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "爱面子",
+    "radical": "爫",
+    "frequency": 44438,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "愛面子",
+        "transcriptions": {
+          "pinyin": "ài miàn zi",
+          "numeric": "ai4 mian4 zi5",
+          "wadegiles": "ai⁴ mien⁴ zi",
+          "bopomofo": "ㄞˋ ㄇㄧㄢˋ zi",
+          "romatzyh": "ay miann zi"
+        },
+        "meanings": [
+          "to like to look good in the eyes of others; sensitive about how one is regarded by others; proud"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "爱情",
+    "radical": "爫",
+    "frequency": 1164,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "愛情",
+        "transcriptions": {
+          "pinyin": "ài qíng",
+          "numeric": "ai4 qing2",
+          "wadegiles": "ai⁴ ch'ing²",
+          "bopomofo": "ㄞˋ ㄑㄧㄥˊ",
+          "romatzyh": "ay chyng"
+        },
+        "meanings": [
+          "romance; love (romantic)"
+        ],
+        "classifiers": [
+          "份"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "爱人",
+    "radical": "爫",
+    "frequency": 4365,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "愛人",
+        "transcriptions": {
+          "pinyin": "ài ren",
+          "numeric": "ai4 ren5",
+          "wadegiles": "ai⁴ ren",
+          "bopomofo": "ㄞˋ ren",
+          "romatzyh": "ay ren"
+        },
+        "meanings": [
+          "spouse (PRC)",
+          "lover (non-PRC)"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "爱惜",
+    "radical": "爫",
+    "frequency": 20535,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "愛惜",
+        "transcriptions": {
+          "pinyin": "ài xī",
+          "numeric": "ai4 xi1",
+          "wadegiles": "ai⁴ hsi¹",
+          "bopomofo": "ㄞˋ ㄒㄧ",
+          "romatzyh": "ay shi"
+        },
+        "meanings": [
+          "to cherish",
+          "to treasure",
+          "to use sparingly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "爱心",
+    "radical": "爫",
+    "frequency": 5809,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "愛心",
+        "transcriptions": {
+          "pinyin": "ài xīn",
+          "numeric": "ai4 xin1",
+          "wadegiles": "ai⁴ hsin¹",
+          "bopomofo": "ㄞˋ ㄒㄧㄣ",
+          "romatzyh": "ay shin"
+        },
+        "meanings": [
+          "compassion",
+          "kindness",
+          "care for others",
+          "love",
+          "charity (bazaar, golf day etc)",
+          "heart (the symbol ♥)"
+        ],
+        "classifiers": [
+          "片"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "碍事",
+    "radical": "石",
+    "frequency": 34045,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "礙事",
+        "transcriptions": {
+          "pinyin": "ài shì",
+          "numeric": "ai4 shi4",
+          "wadegiles": "ai⁴ shih⁴",
+          "bopomofo": "ㄞˋ ㄕˋ",
+          "romatzyh": "ay shyh"
+        },
+        "meanings": [
+          "to be in the way; to be a hindrance",
+          "(usu. in the negative) to be of consequence; to matter"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "安",
+    "radical": "宀",
+    "frequency": 1506,
+    "pos": [
+      "v",
+      "g",
+      "nr",
+      "b",
+      "r"
+    ],
+    "forms": [
+      {
+        "traditional": "安",
+        "transcriptions": {
+          "pinyin": "Ān",
+          "numeric": "An1",
+          "wadegiles": "an¹",
+          "bopomofo": "ㄢ",
+          "romatzyh": "an"
+        },
+        "meanings": [
+          "surname An"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "安",
+        "transcriptions": {
+          "pinyin": "ān",
+          "numeric": "an1",
+          "wadegiles": "an¹",
+          "bopomofo": "ㄢ",
+          "romatzyh": "an"
+        },
+        "meanings": [
+          "(bound form) calm; peaceful",
+          "to calm; to set at ease",
+          "safe; secure; in good health",
+          "content; satisfied (as in 安于)",
+          "to place (sb) in a suitable position (job)",
+          "to install; to fix; to fit",
+          "to bring (a charge against sb)",
+          "to harbor (certain intentions)",
+          "ampere (abbr. for 培)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "安定",
+    "radical": "宀",
+    "frequency": 7377,
+    "pos": [
+      "a",
+      "an",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "安定",
+        "transcriptions": {
+          "pinyin": "Ān dìng",
+          "numeric": "An1 ding4",
+          "wadegiles": "an¹ ting⁴",
+          "bopomofo": "ㄢ ㄉㄧㄥˋ",
+          "romatzyh": "an dinq"
+        },
+        "meanings": [
+          "Anting township in Tainan county 台南县, Taiwan"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "安定",
+        "transcriptions": {
+          "pinyin": "ān dìng",
+          "numeric": "an1 ding4",
+          "wadegiles": "an¹ ting⁴",
+          "bopomofo": "ㄢ ㄉㄧㄥˋ",
+          "romatzyh": "an dinq"
+        },
+        "meanings": [
+          "stable; calm; settled",
+          "to stabilize",
+          "Valium; diazepam"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "安抚",
+    "radical": "宀",
+    "frequency": 12099,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "安撫",
+        "transcriptions": {
+          "pinyin": "ān fǔ",
+          "numeric": "an1 fu3",
+          "wadegiles": "an¹ fu³",
+          "bopomofo": "ㄢ ㄈㄨˇ",
+          "romatzyh": "an fuu"
+        },
+        "meanings": [
+          "to placate",
+          "to pacify",
+          "to appease"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "安检",
+    "radical": "宀",
+    "frequency": 13665,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "安檢",
+        "transcriptions": {
+          "pinyin": "ān jiǎn",
+          "numeric": "an1 jian3",
+          "wadegiles": "an¹ chien³",
+          "bopomofo": "ㄢ ㄐㄧㄢˇ",
+          "romatzyh": "an jean"
+        },
+        "meanings": [
+          "security check (abbr. for 安全检查)",
+          "to do a security check"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "安静",
+    "radical": "宀",
+    "frequency": 2501,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "安靜",
+        "transcriptions": {
+          "pinyin": "ān jìng",
+          "numeric": "an1 jing4",
+          "wadegiles": "an¹ ching⁴",
+          "bopomofo": "ㄢ ㄐㄧㄥˋ",
+          "romatzyh": "an jinq"
+        },
+        "meanings": [
+          "quiet",
+          "peaceful",
+          "calm"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "安眠药",
+    "radical": "宀",
+    "frequency": 16000,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "安眠藥",
+        "transcriptions": {
+          "pinyin": "ān mián yào",
+          "numeric": "an1 mian2 yao4",
+          "wadegiles": "an¹ mien² yao⁴",
+          "bopomofo": "ㄢ ㄇㄧㄢˊ ㄧㄠˋ",
+          "romatzyh": "an mian yaw"
+        },
+        "meanings": [
+          "sleeping pill"
+        ],
+        "classifiers": [
+          "粒"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "安宁",
+    "radical": "宀",
+    "frequency": 9417,
+    "pos": [
+      "an",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "安寧",
+        "transcriptions": {
+          "pinyin": "Ān níng",
+          "numeric": "An1 ning2",
+          "wadegiles": "an¹ ning²",
+          "bopomofo": "ㄢ ㄋㄧㄥˊ",
+          "romatzyh": "an ning"
+        },
+        "meanings": [
+          "Anning District of Lanzhou City 兰州市, Gansu",
+          "Anning City, to the west of Kunming 明, Yunnan"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "安寧",
+        "transcriptions": {
+          "pinyin": "ān níng",
+          "numeric": "an1 ning2",
+          "wadegiles": "an¹ ning²",
+          "bopomofo": "ㄢ ㄋㄧㄥˊ",
+          "romatzyh": "an ning"
+        },
+        "meanings": [
+          "peaceful",
+          "tranquil",
+          "calm",
+          "composed",
+          "free from worry"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "安排",
+    "radical": "宀",
+    "frequency": 900,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "安排",
+        "transcriptions": {
+          "pinyin": "ān pái",
+          "numeric": "an1 pai2",
+          "wadegiles": "an¹ p'ai²",
+          "bopomofo": "ㄢ ㄆㄞˊ",
+          "romatzyh": "an pair"
+        },
+        "meanings": [
+          "to arrange",
+          "to plan",
+          "to set up",
+          "arrangements",
+          "plans"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "安全",
+    "radical": "宀",
+    "frequency": 364,
+    "pos": [
+      "an",
+      "a",
+      "ad",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "安全",
+        "transcriptions": {
+          "pinyin": "ān quán",
+          "numeric": "an1 quan2",
+          "wadegiles": "an¹ ch'üan²",
+          "bopomofo": "ㄢ ㄑㄩㄢˊ",
+          "romatzyh": "an chyuan"
+        },
+        "meanings": [
+          "safe; secure",
+          "safety; security"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "安慰",
+    "radical": "宀",
+    "frequency": 3563,
+    "pos": [
+      "v",
+      "vn",
+      "an",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "安慰",
+        "transcriptions": {
+          "pinyin": "ān wèi",
+          "numeric": "an1 wei4",
+          "wadegiles": "an¹ wei⁴",
+          "bopomofo": "ㄢ ㄨㄟˋ",
+          "romatzyh": "an wey"
+        },
+        "meanings": [
+          "to comfort",
+          "to console"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "安稳",
+    "radical": "宀",
+    "frequency": 12368,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "安穩",
+        "transcriptions": {
+          "pinyin": "ān wěn",
+          "numeric": "an1 wen3",
+          "wadegiles": "an¹ wen³",
+          "bopomofo": "ㄢ ㄨㄣˇ",
+          "romatzyh": "an woen"
+        },
+        "meanings": [
+          "steady; stable; sedate; calm; (of sleep) sound; (of a transition) smooth"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "安心",
+    "radical": "宀",
+    "frequency": 5992,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "安心",
+        "transcriptions": {
+          "pinyin": "ān xīn",
+          "numeric": "an1 xin1",
+          "wadegiles": "an¹ hsin¹",
+          "bopomofo": "ㄢ ㄒㄧㄣ",
+          "romatzyh": "an shin"
+        },
+        "meanings": [
+          "at ease",
+          "to feel relieved",
+          "to set one's mind at rest",
+          "to keep one's mind on sth"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "安逸",
+    "radical": "宀",
+    "frequency": 14622,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "安逸",
+        "transcriptions": {
+          "pinyin": "ān yì",
+          "numeric": "an1 yi4",
+          "wadegiles": "an¹ i⁴",
+          "bopomofo": "ㄢ ㄧˋ",
+          "romatzyh": "an yih"
+        },
+        "meanings": [
+          "easy and comfortable",
+          "easy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "安置",
+    "radical": "宀",
+    "frequency": 5845,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "安置",
+        "transcriptions": {
+          "pinyin": "ān zhì",
+          "numeric": "an1 zhi4",
+          "wadegiles": "an¹ chih⁴",
+          "bopomofo": "ㄢ ㄓˋ",
+          "romatzyh": "an jyh"
+        },
+        "meanings": [
+          "to find a place for",
+          "to help settle down",
+          "to arrange for",
+          "to get into bed",
+          "placement"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "安装",
+    "radical": "宀",
+    "frequency": 3653,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "安裝",
+        "transcriptions": {
+          "pinyin": "ān zhuāng",
+          "numeric": "an1 zhuang1",
+          "wadegiles": "an¹ chuang¹",
+          "bopomofo": "ㄢ ㄓㄨㄤ",
+          "romatzyh": "an juang"
+        },
+        "meanings": [
+          "to install",
+          "to erect",
+          "to fix",
+          "to mount",
+          "installation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "岸",
+    "radical": "山",
+    "frequency": 6867,
+    "pos": [
+      "n",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "㟁",
+        "transcriptions": {
+          "pinyin": "àn",
+          "numeric": "an4",
+          "wadegiles": "an⁴",
+          "bopomofo": "ㄢˋ",
+          "romatzyh": "ann"
+        },
+        "meanings": [
+          "variant of 岸"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "岸",
+        "transcriptions": {
+          "pinyin": "àn",
+          "numeric": "an4",
+          "wadegiles": "an⁴",
+          "bopomofo": "ㄢˋ",
+          "romatzyh": "ann"
+        },
+        "meanings": [
+          "bank; shore; beach; coast"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "岸上",
+    "radical": "山",
+    "frequency": 18516,
+    "pos": [
+      "s"
+    ],
+    "forms": [
+      {
+        "traditional": "岸上",
+        "transcriptions": {
+          "pinyin": "àn shàng",
+          "numeric": "an4 shang4",
+          "wadegiles": "an⁴ shang⁴",
+          "bopomofo": "ㄢˋ ㄕㄤˋ",
+          "romatzyh": "ann shanq"
+        },
+        "meanings": [
+          "ashore",
+          "on the riverbank"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "按",
+    "radical": "扌",
+    "frequency": 678,
+    "pos": [
+      "p",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "按",
+        "transcriptions": {
+          "pinyin": "àn",
+          "numeric": "an4",
+          "wadegiles": "an⁴",
+          "bopomofo": "ㄢˋ",
+          "romatzyh": "ann"
+        },
+        "meanings": [
+          "to press",
+          "to push",
+          "to leave aside or shelve",
+          "to control",
+          "to restrain",
+          "to keep one's hand on",
+          "to check or refer to",
+          "according to",
+          "in the light of",
+          "(of an editor or author) to make a comment"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "按键",
+    "radical": "扌",
+    "frequency": 13672,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "按鍵",
+        "transcriptions": {
+          "pinyin": "àn jiàn",
+          "numeric": "an4 jian4",
+          "wadegiles": "an⁴ chien⁴",
+          "bopomofo": "ㄢˋ ㄐㄧㄢˋ",
+          "romatzyh": "ann jiann"
+        },
+        "meanings": [
+          "button or key (on a device)",
+          "keystroke",
+          "to press a button"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "按理说",
+    "radical": "扌",
+    "frequency": 25769,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "按理說",
+        "transcriptions": {
+          "pinyin": "àn lǐ shuō",
+          "numeric": "an4 li3 shuo1",
+          "wadegiles": "an⁴ li³ shuo¹",
+          "bopomofo": "ㄢˋ ㄌㄧˇ ㄕㄨㄛ",
+          "romatzyh": "ann lii shuo"
+        },
+        "meanings": [
+          "it is reasonable to say that..."
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "按摩",
+    "radical": "扌",
+    "frequency": 3990,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "按摩",
+        "transcriptions": {
+          "pinyin": "àn mó",
+          "numeric": "an4 mo2",
+          "wadegiles": "an⁴ mo²",
+          "bopomofo": "ㄢˋ ㄇㄛˊ",
+          "romatzyh": "ann mo"
+        },
+        "meanings": [
+          "massage",
+          "to massage"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "按时",
+    "radical": "扌",
+    "frequency": 7233,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "按時",
+        "transcriptions": {
+          "pinyin": "àn shí",
+          "numeric": "an4 shi2",
+          "wadegiles": "an⁴ shih²",
+          "bopomofo": "ㄢˋ ㄕˊ",
+          "romatzyh": "ann shyr"
+        },
+        "meanings": [
+          "on time",
+          "before deadline",
+          "on schedule"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "按说",
+    "radical": "扌",
+    "frequency": 32917,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "按說",
+        "transcriptions": {
+          "pinyin": "àn shuō",
+          "numeric": "an4 shuo1",
+          "wadegiles": "an⁴ shuo¹",
+          "bopomofo": "ㄢˋ ㄕㄨㄛ",
+          "romatzyh": "ann shuo"
+        },
+        "meanings": [
+          "in the ordinary course of events; ordinarily; normally"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "按照",
+    "radical": "扌",
+    "frequency": 1378,
+    "pos": [
+      "p",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "按照",
+        "transcriptions": {
+          "pinyin": "àn zhào",
+          "numeric": "an4 zhao4",
+          "wadegiles": "an⁴ chao⁴",
+          "bopomofo": "ㄢˋ ㄓㄠˋ",
+          "romatzyh": "ann jaw"
+        },
+        "meanings": [
+          "according to",
+          "in accordance with",
+          "in the light of",
+          "on the basis of"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "案件",
+    "radical": "木",
+    "frequency": 1617,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "案件",
+        "transcriptions": {
+          "pinyin": "àn jiàn",
+          "numeric": "an4 jian4",
+          "wadegiles": "an⁴ chien⁴",
+          "bopomofo": "ㄢˋ ㄐㄧㄢˋ",
+          "romatzyh": "ann jiann"
+        },
+        "meanings": [
+          "case",
+          "instance"
+        ],
+        "classifiers": [
+          "宗",
+          "桩",
+          "起"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "暗",
+    "radical": "日",
+    "frequency": 2594,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "晻",
+        "transcriptions": {
+          "pinyin": "àn",
+          "numeric": "an4",
+          "wadegiles": "an⁴",
+          "bopomofo": "ㄢˋ",
+          "romatzyh": "ann"
+        },
+        "meanings": [
+          "variant of 暗"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "暗",
+        "transcriptions": {
+          "pinyin": "àn",
+          "numeric": "an4",
+          "wadegiles": "an⁴",
+          "bopomofo": "ㄢˋ",
+          "romatzyh": "ann"
+        },
+        "meanings": [
+          "dark",
+          "to turn dark",
+          "secret; hidden",
+          "(literary) confused; ignorant"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "闇",
+        "transcriptions": {
+          "pinyin": "àn",
+          "numeric": "an4",
+          "wadegiles": "an⁴",
+          "bopomofo": "ㄢˋ",
+          "romatzyh": "ann"
+        },
+        "meanings": [
+          "(literary) to close (a door)",
+          "to eclipse",
+          "confused; ignorant (variant of 暗)",
+          "dark (variant of 暗)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "暗地里",
+    "radical": "日",
+    "frequency": 20436,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "暗地裡",
+        "transcriptions": {
+          "pinyin": "àn dì li",
+          "numeric": "an4 di4 li5",
+          "wadegiles": "an⁴ ti⁴ li",
+          "bopomofo": "ㄢˋ ㄉㄧˋ li",
+          "romatzyh": "ann dih li"
+        },
+        "meanings": [
+          "secretly; inwardly; on the sly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "暗杀",
+    "radical": "日",
+    "frequency": 9964,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "暗殺",
+        "transcriptions": {
+          "pinyin": "àn shā",
+          "numeric": "an4 sha1",
+          "wadegiles": "an⁴ sha¹",
+          "bopomofo": "ㄢˋ ㄕㄚ",
+          "romatzyh": "ann sha"
+        },
+        "meanings": [
+          "to assassinate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "暗示",
+    "radical": "日",
+    "frequency": 4917,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "暗示",
+        "transcriptions": {
+          "pinyin": "àn shì",
+          "numeric": "an4 shi4",
+          "wadegiles": "an⁴ shih⁴",
+          "bopomofo": "ㄢˋ ㄕˋ",
+          "romatzyh": "ann shyh"
+        },
+        "meanings": [
+          "to hint; to suggest",
+          "hint; suggestion"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "暗中",
+    "radical": "日",
+    "frequency": 9222,
+    "pos": [
+      "d",
+      "s"
+    ],
+    "forms": [
+      {
+        "traditional": "暗中",
+        "transcriptions": {
+          "pinyin": "àn zhōng",
+          "numeric": "an4 zhong1",
+          "wadegiles": "an⁴ chung¹",
+          "bopomofo": "ㄢˋ ㄓㄨㄥ",
+          "romatzyh": "ann jong"
+        },
+        "meanings": [
+          "in the dark",
+          "in secret",
+          "on the sly",
+          "surreptitiously"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "昂贵",
+    "radical": "日",
+    "frequency": 7743,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "昂貴",
+        "transcriptions": {
+          "pinyin": "áng guì",
+          "numeric": "ang2 gui4",
+          "wadegiles": "ang² kuei⁴",
+          "bopomofo": "ㄤˊ ㄍㄨㄟˋ",
+          "romatzyh": "arng guey"
+        },
+        "meanings": [
+          "expensive",
+          "costly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "凹",
+    "radical": "凵",
+    "frequency": 10239,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "凹",
+        "transcriptions": {
+          "pinyin": "āo",
+          "numeric": "ao1",
+          "wadegiles": "ao¹",
+          "bopomofo": "ㄠ",
+          "romatzyh": "au"
+        },
+        "meanings": [
+          "depressed",
+          "sunken",
+          "indented",
+          "concave",
+          "female (connector etc)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "凹",
+        "transcriptions": {
+          "pinyin": "wā",
+          "numeric": "wa1",
+          "wadegiles": "wa¹",
+          "bopomofo": "ㄨㄚ",
+          "romatzyh": "ua"
+        },
+        "meanings": [
+          "variant of 洼",
+          "(used in names)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "熬",
+    "radical": "灬",
+    "frequency": 4418,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "熬",
+        "transcriptions": {
+          "pinyin": "āo",
+          "numeric": "ao1",
+          "wadegiles": "ao¹",
+          "bopomofo": "ㄠ",
+          "romatzyh": "au"
+        },
+        "meanings": [
+          "to boil",
+          "to simmer"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "熬",
+        "transcriptions": {
+          "pinyin": "áo",
+          "numeric": "ao2",
+          "wadegiles": "ao²",
+          "bopomofo": "ㄠˊ",
+          "romatzyh": "aur"
+        },
+        "meanings": [
+          "to cook on a slow fire",
+          "to extract by heating",
+          "to decoct",
+          "to endure"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "熬夜",
+    "radical": "灬",
+    "frequency": 9364,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "熬夜",
+        "transcriptions": {
+          "pinyin": "áo yè",
+          "numeric": "ao2 ye4",
+          "wadegiles": "ao² yeh⁴",
+          "bopomofo": "ㄠˊ ㄧㄝˋ",
+          "romatzyh": "aur yeh"
+        },
+        "meanings": [
+          "to stay up late or all night"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "傲",
+    "radical": "亻",
+    "frequency": 7205,
+    "pos": [
+      "g",
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "傲",
+        "transcriptions": {
+          "pinyin": "ào",
+          "numeric": "ao4",
+          "wadegiles": "ao⁴",
+          "bopomofo": "ㄠˋ",
+          "romatzyh": "aw"
+        },
+        "meanings": [
+          "proud",
+          "arrogant",
+          "to despise",
+          "unyielding",
+          "to defy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "傲慢",
+    "radical": "亻",
+    "frequency": 11766,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "傲慢",
+        "transcriptions": {
+          "pinyin": "ào màn",
+          "numeric": "ao4 man4",
+          "wadegiles": "ao⁴ man⁴",
+          "bopomofo": "ㄠˋ ㄇㄢˋ",
+          "romatzyh": "aw mann"
+        },
+        "meanings": [
+          "arrogant",
+          "haughty"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "奥秘",
+    "radical": "大",
+    "frequency": 18113,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "奧祕",
+        "transcriptions": {
+          "pinyin": "ào mì",
+          "numeric": "ao4 mi4",
+          "wadegiles": "ao⁴ mi⁴",
+          "bopomofo": "ㄠˋ ㄇㄧˋ",
+          "romatzyh": "aw mih"
+        },
+        "meanings": [
+          "secret",
+          "mystery"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "奥运会",
+    "radical": "大",
+    "frequency": 5746,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "奧運會",
+        "transcriptions": {
+          "pinyin": "Aò yùn huì",
+          "numeric": "Ao4 yun4 hui4",
+          "wadegiles": "Aò yün⁴ hui⁴",
+          "bopomofo": "Aò ㄩㄣˋ ㄏㄨㄟˋ",
+          "romatzyh": "Aò yunn huey"
+        },
+        "meanings": [
+          "abbr. for 奥林匹克运动会",
+          "Olympic Games",
+          "the Olympics"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "八",
+    "radical": "八",
+    "frequency": 1362,
+    "pos": [
+      "m",
+      "t"
+    ],
+    "forms": [
+      {
+        "traditional": "八",
+        "transcriptions": {
+          "pinyin": "bā",
+          "numeric": "ba1",
+          "wadegiles": "pa¹",
+          "bopomofo": "ㄅㄚ",
+          "romatzyh": "ba"
+        },
+        "meanings": [
+          "eight; 8"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "八卦",
+    "radical": "八",
+    "frequency": 6491,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "八卦",
+        "transcriptions": {
+          "pinyin": "bā guà",
+          "numeric": "ba1 gua4",
+          "wadegiles": "pa¹ kua⁴",
+          "bopomofo": "ㄅㄚ ㄍㄨㄚˋ",
+          "romatzyh": "ba guah"
+        },
+        "meanings": [
+          "the eight divinatory trigrams of the Book of Changes 易经",
+          "gossip",
+          "gossipy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "扒",
+    "radical": "扌",
+    "frequency": 8554,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "扒",
+        "transcriptions": {
+          "pinyin": "bā",
+          "numeric": "ba1",
+          "wadegiles": "pa¹",
+          "bopomofo": "ㄅㄚ",
+          "romatzyh": "ba"
+        },
+        "meanings": [
+          "to peel",
+          "to skin",
+          "to tear",
+          "to pull down",
+          "to cling to (sth on which one is climbing)",
+          "to dig"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "扒",
+        "transcriptions": {
+          "pinyin": "pá",
+          "numeric": "pa2",
+          "wadegiles": "p'a²",
+          "bopomofo": "ㄆㄚˊ",
+          "romatzyh": "par"
+        },
+        "meanings": [
+          "to rake up",
+          "to steal",
+          "to braise",
+          "to crawl"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "芭蕾",
+    "radical": "艹",
+    "frequency": 12522,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "芭蕾",
+        "transcriptions": {
+          "pinyin": "bā lěi",
+          "numeric": "ba1 lei3",
+          "wadegiles": "pa¹ lei³",
+          "bopomofo": "ㄅㄚ ㄌㄟˇ",
+          "romatzyh": "ba leei"
+        },
+        "meanings": [
+          "ballet (loanword)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "拔",
+    "radical": "扌",
+    "frequency": 3803,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "拔",
+        "transcriptions": {
+          "pinyin": "bá",
+          "numeric": "ba2",
+          "wadegiles": "pa²",
+          "bopomofo": "ㄅㄚˊ",
+          "romatzyh": "bar"
+        },
+        "meanings": [
+          "to pull up",
+          "to pull out",
+          "to draw out by suction",
+          "to select",
+          "to pick",
+          "to stand out (above level)",
+          "to surpass",
+          "to seize"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "把",
+    "radical": "扌",
+    "frequency": 50,
+    "pos": [
+      "p",
+      "qv",
+      "v",
+      "m"
+    ],
+    "forms": [
+      {
+        "traditional": "把",
+        "transcriptions": {
+          "pinyin": "bǎ",
+          "numeric": "ba3",
+          "wadegiles": "pa³",
+          "bopomofo": "ㄅㄚˇ",
+          "romatzyh": "baa"
+        },
+        "meanings": [
+          "to hold; to grasp",
+          "to hold a baby in position to help it urinate or defecate",
+          "handlebar",
+          "classifier: handful, bundle, bunch",
+          "classifier for things with handles",
+          "(used to put the object before the verb: 把 + {noun} + {verb})"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "把",
+        "transcriptions": {
+          "pinyin": "bà",
+          "numeric": "ba4",
+          "wadegiles": "pa⁴",
+          "bopomofo": "ㄅㄚˋ",
+          "romatzyh": "bah"
+        },
+        "meanings": [
+          "handle"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "把柄",
+    "radical": "扌",
+    "frequency": 20374,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "把柄",
+        "transcriptions": {
+          "pinyin": "bǎ bǐng",
+          "numeric": "ba3 bing3",
+          "wadegiles": "pa³ ping³",
+          "bopomofo": "ㄅㄚˇ ㄅㄧㄥˇ",
+          "romatzyh": "baa biing"
+        },
+        "meanings": [
+          "handle",
+          "(fig.) information that can be used against sb"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "把关",
+    "radical": "扌",
+    "frequency": 24750,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "把關",
+        "transcriptions": {
+          "pinyin": "bǎ guān",
+          "numeric": "ba3 guan1",
+          "wadegiles": "pa³ kuan¹",
+          "bopomofo": "ㄅㄚˇ ㄍㄨㄢ",
+          "romatzyh": "baa guan"
+        },
+        "meanings": [
+          "to guard a pass",
+          "to check on sth"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

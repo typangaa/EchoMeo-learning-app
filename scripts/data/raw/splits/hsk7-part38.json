@@ -1,0 +1,2069 @@
+[
+  {
+    "simplified": "公园",
+    "radical": "八",
+    "frequency": 2134,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "公園",
+        "transcriptions": {
+          "pinyin": "gōng yuán",
+          "numeric": "gong1 yuan2",
+          "wadegiles": "kung¹ yüan²",
+          "bopomofo": "ㄍㄨㄥ ㄩㄢˊ",
+          "romatzyh": "gong yuan"
+        },
+        "meanings": [
+          "park (for public recreation)"
+        ],
+        "classifiers": [
+          "个",
+          "座"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "公约",
+    "radical": "八",
+    "frequency": 14016,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "公約",
+        "transcriptions": {
+          "pinyin": "gōng yuē",
+          "numeric": "gong1 yue1",
+          "wadegiles": "kung¹ yüeh¹",
+          "bopomofo": "ㄍㄨㄥ ㄩㄝ",
+          "romatzyh": "gong iue"
+        },
+        "meanings": [
+          "convention (i.e. international agreement)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "公正",
+    "radical": "八",
+    "frequency": 3881,
+    "pos": [
+      "a",
+      "ad",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "公正",
+        "transcriptions": {
+          "pinyin": "gōng zhèng",
+          "numeric": "gong1 zheng4",
+          "wadegiles": "kung¹ cheng⁴",
+          "bopomofo": "ㄍㄨㄥ ㄓㄥˋ",
+          "romatzyh": "gong jenq"
+        },
+        "meanings": [
+          "just; fair; equitable"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "公证",
+    "radical": "八",
+    "frequency": 16782,
+    "pos": [
+      "n",
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "公證",
+        "transcriptions": {
+          "pinyin": "gōng zhèng",
+          "numeric": "gong1 zheng4",
+          "wadegiles": "kung¹ cheng⁴",
+          "bopomofo": "ㄍㄨㄥ ㄓㄥˋ",
+          "romatzyh": "gong jenq"
+        },
+        "meanings": [
+          "notarization",
+          "notarized",
+          "acknowledgement"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "公职",
+    "radical": "八",
+    "frequency": 21674,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "公職",
+        "transcriptions": {
+          "pinyin": "gōng zhí",
+          "numeric": "gong1 zhi2",
+          "wadegiles": "kung¹ chih²",
+          "bopomofo": "ㄍㄨㄥ ㄓˊ",
+          "romatzyh": "gong jyr"
+        },
+        "meanings": [
+          "civil service",
+          "public office",
+          "government job"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "公众",
+    "radical": "八",
+    "frequency": 2628,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "公眾",
+        "transcriptions": {
+          "pinyin": "gōng zhòng",
+          "numeric": "gong1 zhong4",
+          "wadegiles": "kung¹ chung⁴",
+          "bopomofo": "ㄍㄨㄥ ㄓㄨㄥˋ",
+          "romatzyh": "gong jonq"
+        },
+        "meanings": [
+          "public"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "公主",
+    "radical": "八",
+    "frequency": 2764,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "公主",
+        "transcriptions": {
+          "pinyin": "gōng zhǔ",
+          "numeric": "gong1 zhu3",
+          "wadegiles": "kung¹ chu³",
+          "bopomofo": "ㄍㄨㄥ ㄓㄨˇ",
+          "romatzyh": "gong juu"
+        },
+        "meanings": [
+          "princess"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "功",
+    "radical": "力",
+    "frequency": 5063,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "功",
+        "transcriptions": {
+          "pinyin": "gōng",
+          "numeric": "gong1",
+          "wadegiles": "kung¹",
+          "bopomofo": "ㄍㄨㄥ",
+          "romatzyh": "gong"
+        },
+        "meanings": [
+          "meritorious deed or service",
+          "achievement",
+          "result",
+          "service",
+          "accomplishment",
+          "work (physics)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "功臣",
+    "radical": "力",
+    "frequency": 21834,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "功臣",
+        "transcriptions": {
+          "pinyin": "gōng chén",
+          "numeric": "gong1 chen2",
+          "wadegiles": "kung¹ ch'en²",
+          "bopomofo": "ㄍㄨㄥ ㄔㄣˊ",
+          "romatzyh": "gong chern"
+        },
+        "meanings": [
+          "minister who has given outstanding service"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "功底",
+    "radical": "力",
+    "frequency": 26517,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "功底",
+        "transcriptions": {
+          "pinyin": "gōng dǐ",
+          "numeric": "gong1 di3",
+          "wadegiles": "kung¹ ti³",
+          "bopomofo": "ㄍㄨㄥ ㄉㄧˇ",
+          "romatzyh": "gong dii"
+        },
+        "meanings": [
+          "training in the basic skills",
+          "knowledge of the fundamentals"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "功夫",
+    "radical": "力",
+    "frequency": 3675,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "功夫",
+        "transcriptions": {
+          "pinyin": "gōng fu",
+          "numeric": "gong1 fu5",
+          "wadegiles": "kung¹ fu",
+          "bopomofo": "ㄍㄨㄥ fu",
+          "romatzyh": "gong fu"
+        },
+        "meanings": [
+          "skill",
+          "art",
+          "kung fu",
+          "labor",
+          "effort"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "功课",
+    "radical": "力",
+    "frequency": 9040,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "功課",
+        "transcriptions": {
+          "pinyin": "gōng kè",
+          "numeric": "gong1 ke4",
+          "wadegiles": "kung¹ k'o⁴",
+          "bopomofo": "ㄍㄨㄥ ㄎㄜˋ",
+          "romatzyh": "gong keh"
+        },
+        "meanings": [
+          "homework",
+          "assignment",
+          "task",
+          "classwork",
+          "lesson",
+          "study"
+        ],
+        "classifiers": [
+          "门"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "功劳",
+    "radical": "力",
+    "frequency": 9813,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "功勞",
+        "transcriptions": {
+          "pinyin": "gōng láo",
+          "numeric": "gong1 lao2",
+          "wadegiles": "kung¹ lao²",
+          "bopomofo": "ㄍㄨㄥ ㄌㄠˊ",
+          "romatzyh": "gong lau"
+        },
+        "meanings": [
+          "contribution",
+          "meritorious service",
+          "credit"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "功力",
+    "radical": "力",
+    "frequency": 15370,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "功力",
+        "transcriptions": {
+          "pinyin": "gōng lì",
+          "numeric": "gong1 li4",
+          "wadegiles": "kung¹ li⁴",
+          "bopomofo": "ㄍㄨㄥ ㄌㄧˋ",
+          "romatzyh": "gong lih"
+        },
+        "meanings": [
+          "merit",
+          "efficacy",
+          "competence",
+          "skill",
+          "power"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "功率",
+    "radical": "力",
+    "frequency": 15055,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "功率",
+        "transcriptions": {
+          "pinyin": "gōng lu:4",
+          "numeric": "gong1 lü4",
+          "wadegiles": "kung¹ lu:4",
+          "bopomofo": "ㄍㄨㄥ lu:4",
+          "romatzyh": "gong lu:4"
+        },
+        "meanings": [
+          "rate of work",
+          "power (output)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "功能",
+    "radical": "力",
+    "frequency": 2138,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "功能",
+        "transcriptions": {
+          "pinyin": "gōng néng",
+          "numeric": "gong1 neng2",
+          "wadegiles": "kung¹ neng²",
+          "bopomofo": "ㄍㄨㄥ ㄋㄥˊ",
+          "romatzyh": "gong neng"
+        },
+        "meanings": [
+          "function; capability"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "功效",
+    "radical": "力",
+    "frequency": 12192,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "功效",
+        "transcriptions": {
+          "pinyin": "gōng xiào",
+          "numeric": "gong1 xiao4",
+          "wadegiles": "kung¹ hsiao⁴",
+          "bopomofo": "ㄍㄨㄥ ㄒㄧㄠˋ",
+          "romatzyh": "gong shiaw"
+        },
+        "meanings": [
+          "efficacy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "攻",
+    "radical": "攵",
+    "frequency": 4153,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "攻",
+        "transcriptions": {
+          "pinyin": "gōng",
+          "numeric": "gong1",
+          "wadegiles": "kung¹",
+          "bopomofo": "ㄍㄨㄥ",
+          "romatzyh": "gong"
+        },
+        "meanings": [
+          "to attack",
+          "to accuse",
+          "to study"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "攻读",
+    "radical": "攵",
+    "frequency": 24619,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "攻讀",
+        "transcriptions": {
+          "pinyin": "gōng dú",
+          "numeric": "gong1 du2",
+          "wadegiles": "kung¹ tu²",
+          "bopomofo": "ㄍㄨㄥ ㄉㄨˊ",
+          "romatzyh": "gong dwu"
+        },
+        "meanings": [
+          "to major (in a field)",
+          "to study a specialty to obtain a higher degree"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "攻关",
+    "radical": "攵",
+    "frequency": 46523,
+    "pos": [
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "攻關",
+        "transcriptions": {
+          "pinyin": "gōng guān",
+          "numeric": "gong1 guan1",
+          "wadegiles": "kung¹ kuan¹",
+          "bopomofo": "ㄍㄨㄥ ㄍㄨㄢ",
+          "romatzyh": "gong guan"
+        },
+        "meanings": [
+          "to storm a strategic pass",
+          "fig. to tackle a key problem"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "攻击",
+    "radical": "攵",
+    "frequency": 1579,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "攻擊",
+        "transcriptions": {
+          "pinyin": "gōng jī",
+          "numeric": "gong1 ji1",
+          "wadegiles": "kung¹ chi¹",
+          "bopomofo": "ㄍㄨㄥ ㄐㄧ",
+          "romatzyh": "gong ji"
+        },
+        "meanings": [
+          "to attack",
+          "to accuse",
+          "to charge",
+          "an attack (terrorist or military)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "供",
+    "radical": "亻",
+    "frequency": 2274,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "供",
+        "transcriptions": {
+          "pinyin": "gōng",
+          "numeric": "gong1",
+          "wadegiles": "kung¹",
+          "bopomofo": "ㄍㄨㄥ",
+          "romatzyh": "gong"
+        },
+        "meanings": [
+          "to provide",
+          "to supply"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "供",
+        "transcriptions": {
+          "pinyin": "gòng",
+          "numeric": "gong4",
+          "wadegiles": "kung⁴",
+          "bopomofo": "ㄍㄨㄥˋ",
+          "romatzyh": "gonq"
+        },
+        "meanings": [
+          "sacrificial offering",
+          "to confess"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "供不应求",
+    "radical": "亻",
+    "frequency": 23912,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "供不應求",
+        "transcriptions": {
+          "pinyin": "gōng bù yìng qiú",
+          "numeric": "gong1 bu4 ying4 qiu2",
+          "wadegiles": "kung¹ pu⁴ ying⁴ ch'iu²",
+          "bopomofo": "ㄍㄨㄥ ㄅㄨˋ ㄧㄥˋ ㄑㄧㄡˊ",
+          "romatzyh": "gong buh yinq chyou"
+        },
+        "meanings": [
+          "supply does not meet demand"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "供奉",
+    "radical": "亻",
+    "frequency": 23678,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "供奉",
+        "transcriptions": {
+          "pinyin": "gòng fèng",
+          "numeric": "gong4 feng4",
+          "wadegiles": "kung⁴ feng⁴",
+          "bopomofo": "ㄍㄨㄥˋ ㄈㄥˋ",
+          "romatzyh": "gonq fenq"
+        },
+        "meanings": [
+          "to consecrate",
+          "to enshrine and worship",
+          "an offering (to one's ancestors)",
+          "a sacrifice (to a god)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "供给",
+    "radical": "亻",
+    "frequency": 6645,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "供給",
+        "transcriptions": {
+          "pinyin": "gōng jǐ",
+          "numeric": "gong1 ji3",
+          "wadegiles": "kung¹ chi³",
+          "bopomofo": "ㄍㄨㄥ ㄐㄧˇ",
+          "romatzyh": "gong jii"
+        },
+        "meanings": [
+          "to furnish",
+          "to provide",
+          "supply (as in supply and demand)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "供暖",
+    "radical": "亻",
+    "frequency": 19635,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "供暖",
+        "transcriptions": {
+          "pinyin": "gōng nuǎn",
+          "numeric": "gong1 nuan3",
+          "wadegiles": "kung¹ nuan³",
+          "bopomofo": "ㄍㄨㄥ ㄋㄨㄢˇ",
+          "romatzyh": "gong noan"
+        },
+        "meanings": [
+          "to supply heating (in a building)",
+          "heating"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "供求",
+    "radical": "亻",
+    "frequency": 23788,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "供求",
+        "transcriptions": {
+          "pinyin": "gōng qiú",
+          "numeric": "gong1 qiu2",
+          "wadegiles": "kung¹ ch'iu²",
+          "bopomofo": "ㄍㄨㄥ ㄑㄧㄡˊ",
+          "romatzyh": "gong chyou"
+        },
+        "meanings": [
+          "supply and demand (economics)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "供应",
+    "radical": "亻",
+    "frequency": 3514,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "供應",
+        "transcriptions": {
+          "pinyin": "gōng yìng",
+          "numeric": "gong1 ying4",
+          "wadegiles": "kung¹ ying⁴",
+          "bopomofo": "ㄍㄨㄥ ㄧㄥˋ",
+          "romatzyh": "gong yinq"
+        },
+        "meanings": [
+          "to supply",
+          "to provide",
+          "to offer"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "宫",
+    "radical": "宀",
+    "frequency": 3150,
+    "pos": [
+      "g",
+      "nr"
+    ],
+    "forms": [
+      {
+        "traditional": "宮",
+        "transcriptions": {
+          "pinyin": "Gōng",
+          "numeric": "Gong1",
+          "wadegiles": "kung¹",
+          "bopomofo": "ㄍㄨㄥ",
+          "romatzyh": "gong"
+        },
+        "meanings": [
+          "surname Gong"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "宮",
+        "transcriptions": {
+          "pinyin": "gōng",
+          "numeric": "gong1",
+          "wadegiles": "kung¹",
+          "bopomofo": "ㄍㄨㄥ",
+          "romatzyh": "gong"
+        },
+        "meanings": [
+          "palace",
+          "temple",
+          "castration (as corporal punishment)",
+          "first note in pentatonic scale"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "宫殿",
+    "radical": "宀",
+    "frequency": 11395,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "宮殿",
+        "transcriptions": {
+          "pinyin": "gōng diàn",
+          "numeric": "gong1 dian4",
+          "wadegiles": "kung¹ tien⁴",
+          "bopomofo": "ㄍㄨㄥ ㄉㄧㄢˋ",
+          "romatzyh": "gong diann"
+        },
+        "meanings": [
+          "palace"
+        ],
+        "classifiers": [
+          "座"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "宫廷",
+    "radical": "宀",
+    "frequency": 15026,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "宮廷",
+        "transcriptions": {
+          "pinyin": "gōng tíng",
+          "numeric": "gong1 ting2",
+          "wadegiles": "kung¹ t'ing²",
+          "bopomofo": "ㄍㄨㄥ ㄊㄧㄥˊ",
+          "romatzyh": "gong tyng"
+        },
+        "meanings": [
+          "court (of king or emperor)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "恭维",
+    "radical": "⺗",
+    "frequency": 14955,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "恭維",
+        "transcriptions": {
+          "pinyin": "gōng wei",
+          "numeric": "gong1 wei5",
+          "wadegiles": "kung¹ wei",
+          "bopomofo": "ㄍㄨㄥ wei",
+          "romatzyh": "gong wei"
+        },
+        "meanings": [
+          "to praise",
+          "to speak highly of",
+          "compliment",
+          "praise"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "恭喜",
+    "radical": "⺗",
+    "frequency": 2480,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "恭喜",
+        "transcriptions": {
+          "pinyin": "gōng xǐ",
+          "numeric": "gong1 xi3",
+          "wadegiles": "kung¹ hsi³",
+          "bopomofo": "ㄍㄨㄥ ㄒㄧˇ",
+          "romatzyh": "gong shii"
+        },
+        "meanings": [
+          "to congratulate",
+          "(interj.) congratulations!"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "巩固",
+    "radical": "工",
+    "frequency": 9856,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "鞏固",
+        "transcriptions": {
+          "pinyin": "gǒng gù",
+          "numeric": "gong3 gu4",
+          "wadegiles": "kung³ ku⁴",
+          "bopomofo": "ㄍㄨㄥˇ ㄍㄨˋ",
+          "romatzyh": "goong guh"
+        },
+        "meanings": [
+          "to consolidate",
+          "consolidation",
+          "to strengthen"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "拱",
+    "radical": "扌",
+    "frequency": 13579,
+    "pos": [
+      "v",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "拱",
+        "transcriptions": {
+          "pinyin": "gǒng",
+          "numeric": "gong3",
+          "wadegiles": "kung³",
+          "bopomofo": "ㄍㄨㄥˇ",
+          "romatzyh": "goong"
+        },
+        "meanings": [
+          "to cup one's hands in salute",
+          "to surround",
+          "to arch",
+          "to dig earth with the snout",
+          "arched"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "共",
+    "radical": "八",
+    "frequency": 1227,
+    "pos": [
+      "d",
+      "g",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "共",
+        "transcriptions": {
+          "pinyin": "gòng",
+          "numeric": "gong4",
+          "wadegiles": "kung⁴",
+          "bopomofo": "ㄍㄨㄥˋ",
+          "romatzyh": "gonq"
+        },
+        "meanings": [
+          "common",
+          "general",
+          "to share",
+          "together",
+          "total",
+          "altogether",
+          "abbr. for 共产党, Communist party"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "共计",
+    "radical": "八",
+    "frequency": 19358,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "共計",
+        "transcriptions": {
+          "pinyin": "gòng jì",
+          "numeric": "gong4 ji4",
+          "wadegiles": "kung⁴ chi⁴",
+          "bopomofo": "ㄍㄨㄥˋ ㄐㄧˋ",
+          "romatzyh": "gonq jih"
+        },
+        "meanings": [
+          "to sum up to",
+          "to total"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "共鸣",
+    "radical": "八",
+    "frequency": 11154,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "共鳴",
+        "transcriptions": {
+          "pinyin": "gòng míng",
+          "numeric": "gong4 ming2",
+          "wadegiles": "kung⁴ ming²",
+          "bopomofo": "ㄍㄨㄥˋ ㄇㄧㄥˊ",
+          "romatzyh": "gonq ming"
+        },
+        "meanings": [
+          "(physics) to resonate; resonance",
+          "sympathetic response"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "共识",
+    "radical": "八",
+    "frequency": 6425,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "共識",
+        "transcriptions": {
+          "pinyin": "gòng shí",
+          "numeric": "gong4 shi2",
+          "wadegiles": "kung⁴ shih²",
+          "bopomofo": "ㄍㄨㄥˋ ㄕˊ",
+          "romatzyh": "gonq shyr"
+        },
+        "meanings": [
+          "common understanding",
+          "consensus"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "共同",
+    "radical": "八",
+    "frequency": 1623,
+    "pos": [
+      "d",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "共同",
+        "transcriptions": {
+          "pinyin": "gòng tóng",
+          "numeric": "gong4 tong2",
+          "wadegiles": "kung⁴ t'ung²",
+          "bopomofo": "ㄍㄨㄥˋ ㄊㄨㄥˊ",
+          "romatzyh": "gonq torng"
+        },
+        "meanings": [
+          "common",
+          "joint",
+          "jointly",
+          "together",
+          "collaborative"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "共同体",
+    "radical": "八",
+    "frequency": 25376,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "共同體",
+        "transcriptions": {
+          "pinyin": "gòng tóng tǐ",
+          "numeric": "gong4 tong2 ti3",
+          "wadegiles": "kung⁴ t'ung² t'i³",
+          "bopomofo": "ㄍㄨㄥˋ ㄊㄨㄥˊ ㄊㄧˇ",
+          "romatzyh": "gonq torng tii"
+        },
+        "meanings": [
+          "community"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "共享",
+    "radical": "八",
+    "frequency": 5789,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "共享",
+        "transcriptions": {
+          "pinyin": "gòng xiǎng",
+          "numeric": "gong4 xiang3",
+          "wadegiles": "kung⁴ hsiang³",
+          "bopomofo": "ㄍㄨㄥˋ ㄒㄧㄤˇ",
+          "romatzyh": "gonq sheang"
+        },
+        "meanings": [
+          "to share",
+          "to enjoy together"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "共性",
+    "radical": "八",
+    "frequency": 23643,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "共性",
+        "transcriptions": {
+          "pinyin": "gòng xìng",
+          "numeric": "gong4 xing4",
+          "wadegiles": "kung⁴ hsing⁴",
+          "bopomofo": "ㄍㄨㄥˋ ㄒㄧㄥˋ",
+          "romatzyh": "gonq shinq"
+        },
+        "meanings": [
+          "overall character"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "共有",
+    "radical": "八",
+    "frequency": 5958,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "共有",
+        "transcriptions": {
+          "pinyin": "gòng yǒu",
+          "numeric": "gong4 you3",
+          "wadegiles": "kung⁴ yu³",
+          "bopomofo": "ㄍㄨㄥˋ ㄧㄡˇ",
+          "romatzyh": "gonq yeou"
+        },
+        "meanings": [
+          "to have altogether",
+          "in all"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "贡献",
+    "radical": "贝",
+    "frequency": 2991,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "貢獻",
+        "transcriptions": {
+          "pinyin": "gòng xiàn",
+          "numeric": "gong4 xian4",
+          "wadegiles": "kung⁴ hsien⁴",
+          "bopomofo": "ㄍㄨㄥˋ ㄒㄧㄢˋ",
+          "romatzyh": "gonq shiann"
+        },
+        "meanings": [
+          "to contribute",
+          "to dedicate",
+          "to devote",
+          "contribution"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "勾",
+    "radical": "勹",
+    "frequency": 6157,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "勾",
+        "transcriptions": {
+          "pinyin": "Gōu",
+          "numeric": "Gou1",
+          "wadegiles": "kou¹",
+          "bopomofo": "ㄍㄡ",
+          "romatzyh": "gou"
+        },
+        "meanings": [
+          "surname Gou"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "勾",
+        "transcriptions": {
+          "pinyin": "gōu",
+          "numeric": "gou1",
+          "wadegiles": "kou¹",
+          "bopomofo": "ㄍㄡ",
+          "romatzyh": "gou"
+        },
+        "meanings": [
+          "to attract",
+          "to arouse",
+          "to tick",
+          "to strike out",
+          "to delineate",
+          "to collude",
+          "variant of 钩, hook"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "勾",
+        "transcriptions": {
+          "pinyin": "gòu",
+          "numeric": "gou4",
+          "wadegiles": "kou⁴",
+          "bopomofo": "ㄍㄡˋ",
+          "romatzyh": "gow"
+        },
+        "meanings": [
+          "used in 勾当"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "勾画",
+    "radical": "勹",
+    "frequency": 26891,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "勾畫",
+        "transcriptions": {
+          "pinyin": "gōu huà",
+          "numeric": "gou1 hua4",
+          "wadegiles": "kou¹ hua⁴",
+          "bopomofo": "ㄍㄡ ㄏㄨㄚˋ",
+          "romatzyh": "gou huah"
+        },
+        "meanings": [
+          "to sketch out",
+          "to delineate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "勾结",
+    "radical": "勹",
+    "frequency": 15011,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "勾結",
+        "transcriptions": {
+          "pinyin": "gōu jié",
+          "numeric": "gou1 jie2",
+          "wadegiles": "kou¹ chieh²",
+          "bopomofo": "ㄍㄡ ㄐㄧㄝˊ",
+          "romatzyh": "gou jye"
+        },
+        "meanings": [
+          "to collude with",
+          "to collaborate with",
+          "to gang up with"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "沟",
+    "radical": "氵",
+    "frequency": 6312,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "溝",
+        "transcriptions": {
+          "pinyin": "gōu",
+          "numeric": "gou1",
+          "wadegiles": "kou¹",
+          "bopomofo": "ㄍㄡ",
+          "romatzyh": "gou"
+        },
+        "meanings": [
+          "ditch",
+          "gutter",
+          "groove",
+          "gully",
+          "ravine"
+        ],
+        "classifiers": [
+          "道"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "沟通",
+    "radical": "氵",
+    "frequency": 3266,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "溝通",
+        "transcriptions": {
+          "pinyin": "gōu tōng",
+          "numeric": "gou1 tong1",
+          "wadegiles": "kou¹ t'ung¹",
+          "bopomofo": "ㄍㄡ ㄊㄨㄥ",
+          "romatzyh": "gou tong"
+        },
+        "meanings": [
+          "to join; to connect; to link up",
+          "to communicate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "钩",
+    "radical": "钅",
+    "frequency": 5639,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "鈎",
+        "transcriptions": {
+          "pinyin": "gōu",
+          "numeric": "gou1",
+          "wadegiles": "kou¹",
+          "bopomofo": "ㄍㄡ",
+          "romatzyh": "gou"
+        },
+        "meanings": [
+          "variant of 钩"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "鉤",
+        "transcriptions": {
+          "pinyin": "gōu",
+          "numeric": "gou1",
+          "wadegiles": "kou¹",
+          "bopomofo": "ㄍㄡ",
+          "romatzyh": "gou"
+        },
+        "meanings": [
+          "to hook",
+          "to sew",
+          "to crochet",
+          "hook",
+          "check mark or tick",
+          "window catch"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "钩子",
+    "radical": "钅",
+    "frequency": 12005,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "鉤子",
+        "transcriptions": {
+          "pinyin": "gōu zi",
+          "numeric": "gou1 zi5",
+          "wadegiles": "kou¹ zi",
+          "bopomofo": "ㄍㄡ zi",
+          "romatzyh": "gou zi"
+        },
+        "meanings": [
+          "hook"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "狗",
+    "radical": "犭",
+    "frequency": 620,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "狗",
+        "transcriptions": {
+          "pinyin": "gǒu",
+          "numeric": "gou3",
+          "wadegiles": "kou³",
+          "bopomofo": "ㄍㄡˇ",
+          "romatzyh": "goou"
+        },
+        "meanings": [
+          "dog"
+        ],
+        "classifiers": [
+          "只",
+          "条"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "构成",
+    "radical": "木",
+    "frequency": 4510,
+    "pos": [
+      "v",
+      "n",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "構成",
+        "transcriptions": {
+          "pinyin": "gòu chéng",
+          "numeric": "gou4 cheng2",
+          "wadegiles": "kou⁴ ch'eng²",
+          "bopomofo": "ㄍㄡˋ ㄔㄥˊ",
+          "romatzyh": "gow cherng"
+        },
+        "meanings": [
+          "to constitute",
+          "to form",
+          "to compose",
+          "to make up",
+          "to configure (computing)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "构建",
+    "radical": "木",
+    "frequency": 12897,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "構建",
+        "transcriptions": {
+          "pinyin": "gòu jiàn",
+          "numeric": "gou4 jian4",
+          "wadegiles": "kou⁴ chien⁴",
+          "bopomofo": "ㄍㄡˋ ㄐㄧㄢˋ",
+          "romatzyh": "gow jiann"
+        },
+        "meanings": [
+          "to construct (sth abstract)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "构思",
+    "radical": "木",
+    "frequency": 11513,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "構思",
+        "transcriptions": {
+          "pinyin": "gòu sī",
+          "numeric": "gou4 si1",
+          "wadegiles": "kou⁴ ssu¹",
+          "bopomofo": "ㄍㄡˋ ㄙ",
+          "romatzyh": "gow sy"
+        },
+        "meanings": [
+          "to design",
+          "to plot",
+          "to plan out",
+          "to compose",
+          "to draw a mental sketch",
+          "conception",
+          "plan",
+          "idea",
+          "composition"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "构想",
+    "radical": "木",
+    "frequency": 14061,
+    "pos": [
+      "vn",
+      "v",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "構想",
+        "transcriptions": {
+          "pinyin": "gòu xiǎng",
+          "numeric": "gou4 xiang3",
+          "wadegiles": "kou⁴ hsiang³",
+          "bopomofo": "ㄍㄡˋ ㄒㄧㄤˇ",
+          "romatzyh": "gow sheang"
+        },
+        "meanings": [
+          "to conceive",
+          "concept"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "构造",
+    "radical": "木",
+    "frequency": 9731,
+    "pos": [
+      "n",
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "構造",
+        "transcriptions": {
+          "pinyin": "gòu zào",
+          "numeric": "gou4 zao4",
+          "wadegiles": "kou⁴ tsao⁴",
+          "bopomofo": "ㄍㄡˋ ㄗㄠˋ",
+          "romatzyh": "gow tzaw"
+        },
+        "meanings": [
+          "structure",
+          "composition",
+          "tectonic (geology)"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "购",
+    "radical": "贝",
+    "frequency": 4316,
+    "pos": [
+      "g",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "購",
+        "transcriptions": {
+          "pinyin": "gòu",
+          "numeric": "gou4",
+          "wadegiles": "kou⁴",
+          "bopomofo": "ㄍㄡˋ",
+          "romatzyh": "gow"
+        },
+        "meanings": [
+          "to buy",
+          "to purchase"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "购买",
+    "radical": "贝",
+    "frequency": 2972,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "購買",
+        "transcriptions": {
+          "pinyin": "gòu mǎi",
+          "numeric": "gou4 mai3",
+          "wadegiles": "kou⁴ mai³",
+          "bopomofo": "ㄍㄡˋ ㄇㄞˇ",
+          "romatzyh": "gow mae"
+        },
+        "meanings": [
+          "to purchase; to buy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "购物",
+    "radical": "贝",
+    "frequency": 2912,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "購物",
+        "transcriptions": {
+          "pinyin": "gòu wù",
+          "numeric": "gou4 wu4",
+          "wadegiles": "kou⁴ wu⁴",
+          "bopomofo": "ㄍㄡˋ ㄨˋ",
+          "romatzyh": "gow wuh"
+        },
+        "meanings": [
+          "shopping"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "够",
+    "radical": "夕",
+    "frequency": 1173,
+    "pos": [
+      "v",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "夠",
+        "transcriptions": {
+          "pinyin": "gòu",
+          "numeric": "gou4",
+          "wadegiles": "kou⁴",
+          "bopomofo": "ㄍㄡˋ",
+          "romatzyh": "gow"
+        },
+        "meanings": [
+          "enough (sufficient)",
+          "enough (too much)",
+          "(coll.) (before adj.) really",
+          "(coll.) to reach by stretching out"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "够呛",
+    "radical": "夕",
+    "frequency": 21389,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "夠嗆",
+        "transcriptions": {
+          "pinyin": "gòu qiàng",
+          "numeric": "gou4 qiang4",
+          "wadegiles": "kou⁴ ch'iang⁴",
+          "bopomofo": "ㄍㄡˋ ㄑㄧㄤˋ",
+          "romatzyh": "gow chianq"
+        },
+        "meanings": [
+          "unbearable",
+          "terrible",
+          "enough",
+          "unlikely"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "估计",
+    "radical": "亻",
+    "frequency": 1586,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "估計",
+        "transcriptions": {
+          "pinyin": "gū jì",
+          "numeric": "gu1 ji4",
+          "wadegiles": "ku¹ chi⁴",
+          "bopomofo": "ㄍㄨ ㄐㄧˋ",
+          "romatzyh": "gu jih"
+        },
+        "meanings": [
+          "to estimate",
+          "to reckon",
+          "(coll.) to suppose"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "估算",
+    "radical": "亻",
+    "frequency": 14723,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "估算",
+        "transcriptions": {
+          "pinyin": "gū suàn",
+          "numeric": "gu1 suan4",
+          "wadegiles": "ku¹ suan⁴",
+          "bopomofo": "ㄍㄨ ㄙㄨㄢˋ",
+          "romatzyh": "gu suann"
+        },
+        "meanings": [
+          "assessment",
+          "evaluation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "姑姑",
+    "radical": "女",
+    "frequency": 10577,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "姑姑",
+        "transcriptions": {
+          "pinyin": "gū gu",
+          "numeric": "gu1 gu5",
+          "wadegiles": "ku¹ gu",
+          "bopomofo": "ㄍㄨ gu",
+          "romatzyh": "gu gu"
+        },
+        "meanings": [
+          "paternal aunt"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "姑娘",
+    "radical": "女",
+    "frequency": 1474,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "姑娘",
+        "transcriptions": {
+          "pinyin": "gū niang",
+          "numeric": "gu1 niang5",
+          "wadegiles": "ku¹ niang",
+          "bopomofo": "ㄍㄨ niang",
+          "romatzyh": "gu niang"
+        },
+        "meanings": [
+          "girl",
+          "young woman",
+          "young lady",
+          "daughter",
+          "paternal aunt (old)"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "孤单",
+    "radical": "子",
+    "frequency": 3459,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "孤單",
+        "transcriptions": {
+          "pinyin": "gū dān",
+          "numeric": "gu1 dan1",
+          "wadegiles": "ku¹ tan¹",
+          "bopomofo": "ㄍㄨ ㄉㄢ",
+          "romatzyh": "gu dan"
+        },
+        "meanings": [
+          "lone",
+          "lonely",
+          "loneliness"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "孤独",
+    "radical": "子",
+    "frequency": 2987,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "孤獨",
+        "transcriptions": {
+          "pinyin": "gū dú",
+          "numeric": "gu1 du2",
+          "wadegiles": "ku¹ tu²",
+          "bopomofo": "ㄍㄨ ㄉㄨˊ",
+          "romatzyh": "gu dwu"
+        },
+        "meanings": [
+          "lonely",
+          "solitary"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "孤儿",
+    "radical": "子",
+    "frequency": 4797,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "孤兒",
+        "transcriptions": {
+          "pinyin": "gū ér",
+          "numeric": "gu1 er2",
+          "wadegiles": "ku¹ erh²",
+          "bopomofo": "ㄍㄨ ㄦˊ",
+          "romatzyh": "gu erl"
+        },
+        "meanings": [
+          "orphan"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "孤立",
+    "radical": "子",
+    "frequency": 9536,
+    "pos": [
+      "v",
+      "a",
+      "an",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "孤立",
+        "transcriptions": {
+          "pinyin": "gū lì",
+          "numeric": "gu1 li4",
+          "wadegiles": "ku¹ li⁴",
+          "bopomofo": "ㄍㄨ ㄌㄧˋ",
+          "romatzyh": "gu lih"
+        },
+        "meanings": [
+          "isolated",
+          "to isolate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "孤零零",
+    "radical": "子",
+    "frequency": 22095,
+    "pos": [
+      "z"
+    ],
+    "forms": [
+      {
+        "traditional": "孤零零",
+        "transcriptions": {
+          "pinyin": "gū líng líng",
+          "numeric": "gu1 ling2 ling2",
+          "wadegiles": "ku¹ ling² ling²",
+          "bopomofo": "ㄍㄨ ㄌㄧㄥˊ ㄌㄧㄥˊ",
+          "romatzyh": "gu ling ling"
+        },
+        "meanings": [
+          "lone",
+          "isolated and without help",
+          "all alone",
+          "solitary"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "孤陋寡闻",
+    "radical": "子",
+    "frequency": 44513,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "孤陋寡聞",
+        "transcriptions": {
+          "pinyin": "gū lòu guǎ wén",
+          "numeric": "gu1 lou4 gua3 wen2",
+          "wadegiles": "ku¹ lou⁴ kua³ wen²",
+          "bopomofo": "ㄍㄨ ㄌㄡˋ ㄍㄨㄚˇ ㄨㄣˊ",
+          "romatzyh": "gu low goa wen"
+        },
+        "meanings": [
+          "ignorant and inexperienced",
+          "ill-informed and narrow-minded"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "沽名钓誉",
+    "radical": "氵",
+    "frequency": 57130,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "沽名釣譽",
+        "transcriptions": {
+          "pinyin": "gū míng diào yù",
+          "numeric": "gu1 ming2 diao4 yu4",
+          "wadegiles": "ku¹ ming² tiao⁴ yü⁴",
+          "bopomofo": "ㄍㄨ ㄇㄧㄥˊ ㄉㄧㄠˋ ㄩˋ",
+          "romatzyh": "gu ming diaw yuh"
+        },
+        "meanings": [
+          "to angle for fame (idiom)",
+          "to fish for compliments"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "辜负",
+    "radical": "辛",
+    "frequency": 11000,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "辜負",
+        "transcriptions": {
+          "pinyin": "gū fù",
+          "numeric": "gu1 fu4",
+          "wadegiles": "ku¹ fu⁴",
+          "bopomofo": "ㄍㄨ ㄈㄨˋ",
+          "romatzyh": "gu fuh"
+        },
+        "meanings": [
+          "to fail to live up (to expectations)",
+          "unworthy (of trust)",
+          "to let down",
+          "to betray (hopes)",
+          "to disappoint"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

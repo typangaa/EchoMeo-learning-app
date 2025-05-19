@@ -55,6 +55,15 @@ const Navbar = () => {
             </NavLink>
             
             <NavLink 
+              to="/hsk" 
+              className={({ isActive }) => 
+                isActive ? "text-blue-600 dark:text-blue-400" : "hover:text-blue-600 dark:hover:text-blue-400"
+              }
+            >
+              HSK
+            </NavLink>
+            
+            <NavLink 
               to="/flashcards" 
               className={({ isActive }) => 
                 isActive ? "text-blue-600 dark:text-blue-400" : "hover:text-blue-600 dark:hover:text-blue-400"
@@ -79,6 +88,18 @@ const Navbar = () => {
             >
               {isDarkMode ? "☀️" : "🌙"}
             </button>
+            
+            {/* Developer link - remove in production */}
+            {process.env.NODE_ENV === 'development' && (
+              <NavLink 
+                to="/admin/translations" 
+                className={({ isActive }) => 
+                  isActive ? "text-blue-600 dark:text-blue-400" : "hover:text-blue-600 dark:hover:text-blue-400"
+                }
+              >
+                🔧 Admin
+              </NavLink>
+            )}
           </div>
         </div>
         
@@ -94,6 +115,16 @@ const Navbar = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Vocabulary
+              </NavLink>
+              
+              <NavLink 
+                to="/hsk" 
+                className={({ isActive }) => 
+                  isActive ? "text-blue-600 dark:text-blue-400" : "hover:text-blue-600 dark:hover:text-blue-400"
+                }
+                onClick={() => setIsMenuOpen(false)}
+              >
+                HSK
               </NavLink>
               
               <NavLink 

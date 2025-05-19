@@ -1,0 +1,470 @@
+[
+  {
+    "character": "一",
+    "pinyin": "yī",
+    "meanings": [
+      {
+        "english": "one; first",
+        "vietnamese": "một; đầu tiên",
+        "part_of_speech": "numeral/adjective",
+        "usage_frequency": "very common",
+        "examples": [
+          {
+            "chinese": "一 + 二 = 三",
+            "pinyin": "yī èr = sān",
+            "english": "One plus two equals three",
+            "vietnamese": "Một cộng hai bằng ba"
+          },
+          {
+            "chinese": "一个苹果",
+            "pinyin": "yī gè píngguǒ",
+            "english": "One apple",
+            "vietnamese": "Một quả táo"
+          }
+        ]
+      },
+      {
+        "english": "a single; alone",
+        "vietnamese": "một (đơn lẻ); riêng biệt",
+        "part_of_speech": "adjective",
+        "usage_frequency": "common",
+        "examples": [
+          {
+            "chinese": "一扇门",
+            "pinyin": "yī shàn mén",
+            "english": "A door",
+            "vietnamese": "Một cánh cửa"
+          },
+          {
+            "chinese": "一个人",
+            "pinyin": "yī gè rén",
+            "english": "A person",
+            "vietnamese": "Một người"
+          }
+        ]
+      },
+      {
+        "english": "always; constantly",
+        "vietnamese": "luôn luôn; liên tục",
+        "part_of_speech": "adverb",
+        "usage_frequency": "less common",
+        "examples": [
+          {
+            "chinese": "一直下雨",
+            "pinyin": "yīzhí xià yǔ",
+            "english": "It has been raining continuously",
+            "vietnamese": "Đang mưa liên tục"
+          },
+          {
+            "chinese": "一直努力",
+            "pinyin": "yīzhí nǔlì",
+            "english": "Always work hard",
+            "vietnamese": "Luôn luôn nỗ lực"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "七",
+    "pinyin": "qī",
+    "meanings": [
+      {
+        "english": "seven",
+        "vietnamese": "bảy",
+        "part_of_speech": "num",
+        "usage_frequency": "very common",
+        "examples": [
+          {
+            "chinese": "我有七本书。",
+            "pinyin": "Wǒ yǒu qī běn shū.",
+            "english": "I have seven books.",
+            "vengkap": "Tôi có bảy cuốn sách."
+          },
+          {
+            "chinese": "七天后见。",
+            "pinyin": "Qī tiān hòu jiàn.",
+            "english": "See you in seven days.",
+            "vietnamese": "Hẹn gặp lại sau bảy ngày."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "上",
+    "pinyin": "shàng",
+    "meanings": [
+      {
+        "english": "up / above",
+        "vietnamese": "trên",
+        "part_of_speech": "prep",
+        "usage_frequency": "very common",
+        "examples": [
+          {
+            "chinese": "上课",
+            "pinyin": "shàngkè",
+            "english": "go to class",
+            "vietnamese": "đi học"
+          },
+          {
+            "chinese": "上山",
+            "pinyin": "shàngshān",
+            "english": "go up the mountain",
+            "vietnamese": "đi lên núi"
+          }
+        ]
+      },
+      {
+        "english": "to go up / ascend",
+        "vietnamese": "tăng lên",
+        "part_of_speech": "verb",
+        "usage_frequency": "very common",
+        "examples": [
+          {
+            "chinese": "上楼",
+            "pinyin": "shànglóu",
+            "english": "go up the stairs",
+            "vietnamese": "đi lên lầu"
+          },
+          {
+            "chinese": "上车",
+            "pinyin": "shàngchē",
+            "english": "get on the bus",
+            "vietnamese": "lên xe"
+          }
+        ]
+      },
+      {
+        "english": "superior / higher (in rank)",
+        "vietnamese": "cấp trên",
+        "part_of_speech": "adj",
+        "usage_frequency": "common",
+        "examples": [
+          {
+            "chinese": "上级",
+            "pinyin": "shàngjí",
+            "english": "superior",
+            "vietnamese": "người cấp trên"
+          },
+          {
+            "chinese": "上等",
+            "pinyin": "shàngděng",
+            "english": "superior quality",
+            "vietnamese": "chất lượng cao cấp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "下",
+    "pinyin": "xià",
+    "meanings": [
+      {
+        "english": "down (direction)",
+        "vietnamese": "xuống",
+        "part_of_speech": "prep",
+        "usage_frequency": "very common",
+        "examples": [
+          {
+            "chinese": "下楼",
+            "pinyin": "xià lóu",
+            "english": "go down the stairs",
+            "vacent": "đi xuống cầu thang"
+          },
+          {
+            "chinese": "下课",
+            "pinyin": "xià kè",
+            "english": "end of class",
+            "vietnamese": "kết thúc giờ học"
+          }
+        ]
+      },
+      {
+        "english": "to lower (something)",
+        "vietnamese": "giảm/xuống",
+        "part_of_speech": "verb",
+        "usage_frequency": "common",
+        "examples": [
+          {
+            "chinese": "下旗",
+            "pinyin": "xià qí",
+            "english": "lower the flag",
+            "vietnamese": "giảm cờ"
+          },
+          {
+            "chinese": "下水",
+            "pinyin": "xià shuǐ",
+            "english": "lower the water level",
+            "vietnamese": "giảm mực nước"
+          }
+        ]
+      },
+      {
+        "english": "under (position)",
+        "vietnamese": "dưới",
+        "part_of_speech": "adj/noun",
+        "usage_frequency": "common",
+        "examples": [
+          {
+            "chinese": "下层",
+            "pinyin": "xià céng",
+            "english": "lower layer",
+            "vietnamese": "lớp dưới"
+          },
+          {
+            "chinese": "下边",
+            "pinyin": "xià biān",
+            "english": "below",
+            "vietnamese": "dưới đây"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "不",
+    "pinyin": "bù",
+    "meanings": [
+      {
+        "english": "not; never",
+        "vietnamese": "không",
+        "part_of_speech": "adverb",
+        "usage_frequency": "very common",
+        "examples": [
+          {
+            "chinese": "我不去。",
+            "pinyin": "Wǒ bù qù.",
+            "english": "I don't go.",
+            "vietnamese": "Tôi không đi."
+          },
+          {
+            "chinese": "他不说话。",
+            "pinyin": "Tā bù shuō huà.",
+            "english": "He doesn't speak.",
+            "vietnamese": "Anh ấy không nói gì."
+          }
+        ]
+      },
+      {
+        "english": "difficult; hard to do",
+        "vietnamese": "khó",
+        "part_of_speech": "adjective",
+        "usage_frequency": "common",
+        "examples": [
+          {
+            "chinese": "这工作不难。",
+            "pinyin": "Zhè gōngzuò bù nán.",
+            "english": "This job isn't hard.",
+            "vietnamese": "Công việc này không khó."
+          },
+          {
+            "chinese": "学中文不难。",
+            "pinyin": "Xué zhōngwén bù nán.",
+            "english": "Learning Chinese isn't hard.",
+            "vietnamese": "Học tiếng Trung không khó."
+          }
+        ]
+      },
+      {
+        "english": "unusual; strange",
+        "vietnamese": "khác thường",
+        "part_of_speech": "adjective",
+        "usage_frequency": "less common",
+        "examples": [
+          {
+            "chinese": "这个想法不寻常。",
+            "pinyin": "Zhè ge xiǎngfǎ bù xúncháng.",
+            "english": "This idea is unusual.",
+            "vietnamese": "Ý tưởng này khác thường."
+          },
+          {
+            "chinese": "他的行为不寻常。",
+            "pinyin": "Tā de xíngwéi bù xúncháng.",
+            "english": "His behavior is strange.",
+            "vietnamese": "Hành vi của anh ấy khác thường."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "东",
+    "pinyin": "dōng",
+    "meanings": [
+      {
+        "english": "East (direction)",
+        "vietnamese": "Đông (phương hướng)",
+        "part_of_speech": "n",
+        "usage_frequency": "very common",
+        "examples": [
+          {
+            "chinese": "东边",
+            "pinyin": "dōng biān",
+            "english": "East side",
+            "vietnamese": "Phía đông"
+          },
+          {
+            "chinese": "东方",
+            "pinyin": "dōng fāng",
+            "english": "Eastern direction",
+            "vietnamese": "Phương Đông"
+          }
+        ]
+      },
+      {
+        "english": "Eastern (adjective)",
+        "vietnamese": "Đông phương (thuộc phương Đông)",
+        "part_of_speech": "adj",
+        "usage_frequency": "common",
+        "examples": [
+          {
+            "chinese": "东方文化",
+            "pinyin": "dōng fāng wén huà",
+            "english": "Eastern culture",
+            "vietnamese": "Văn hóa phương Đông"
+          },
+          {
+            "chinese": "东边的村庄",
+            "pinyin": "dōng biān de cūn zhuāng",
+            "english": "Village to the east",
+            "vietnamese": "Làng ở phía đông"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "个",
+    "pinyin": "gè",
+    "meanings": [
+      {
+        "english": "individual/person",
+        "vietnamese": "người",
+        "part_of_speech": "n",
+        "usage_frequency": "very common",
+        "examples": [
+          {
+            "chinese": "一个人",
+            "pinyin": "yī gè rén",
+            "english": "one person",
+            "vietnamese": "một người"
+          },
+          {
+            "chinese": "一个学生",
+            "pinyin": "yī gè xué shēng",
+            "english": "a student",
+            "vietnamese": "một học sinh"
+          }
+        ]
+      },
+      {
+        "english": "unit/piece",
+        "vietnamese": "đơn vị",
+        "part_of_speech": "measure word",
+        "usage_frequency": "common",
+        "examples": [
+          {
+            "chinese": "一个苹果",
+            "pinyin": "yī gè píng guǒ",
+            "english": "one apple",
+            "vietnamese": "một quả táo"
+          },
+          {
+            "chinese": "一个房间",
+            "pinyin": "yī gè fáng jiān",
+            "english": "a room",
+            "vietnamese": "một phòng"
+          }
+        ]
+      },
+      {
+        "english": "each",
+        "vietnamese": "mỗi",
+        "part_of_speech": "adj",
+        "usage_frequency": "less common",
+        "examples": [
+          {
+            "chinese": "每个学生",
+            "pinyin": "měi gè xué shēng",
+            "english": "each student",
+            "vietnamese": "mỗi học sinh"
+          },
+          {
+            "chinese": "每个问题",
+            "pinyin": "měi gè wèn tí",
+            "english": "each question",
+            "vietnamese": "mỗi câu hỏi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "中",
+    "pinyin": "zhōng",
+    "meanings": [
+      {
+        "english": "middle / center",
+        "vietnamese": "giữa, trung tâm",
+        "part_of_speech": "adj",
+        "usage_frequency": "very common",
+        "examples": [
+          {
+            "chinese": "中間",
+            "pinyin": "zhōng jiān",
+            "english": "middle",
+            "vietnamese": "giữa"
+          },
+          {
+            "chinese": "中間的",
+            "pinyin": "zhōng jiān de",
+            "english": "middle (of)",
+            "vietnamese": "trung tâm của"
+          }
+        ]
+      },
+      {
+        "english": "in the middle of (a period/event)",
+        "vietnamese": "trong lúc, trong thời gian",
+        "part_of_speech": "particle",
+        "usage_frequency": "common",
+        "examples": [
+          {
+            "chinese": "中間的過程",
+            "pinyin": "zhōng jiān de guò chéng",
+            "english": "the middle process",
+            "vietnamese": "quá trình trung gian"
+          },
+          {
+            "chinese": "中間休息一下",
+            "p,inyin": "zhōng jiān xiū xī yī xià",
+            "english": "rest for a moment in the middle",
+            "vietnamese": "nghỉ một lúc trong lúc đó"
+          }
+        ]
+      },
+      {
+        "english": "China / Chinese",
+        "vietnamese": "Trung Quốc",
+        "part_of_speech": "n",
+        "usage_frequency": "less common",
+        "examples": [
+          {
+            "chinese": "中國",
+            "pinyin": "zhōng guó",
+            "english": "China",
+            "vietnamese": "Trung Quốc"
+          },
+          {
+            "chinese": "中國人",
+            "pinyin": "zhōng guó rén",
+            "english": "Chinese person",
+            "vietnamese": "người Trung Quốc"
+          }
+        ]
+      }
+    ]
+  }
+]

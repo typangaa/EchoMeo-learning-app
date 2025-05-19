@@ -1,0 +1,2042 @@
+[
+  {
+    "simplified": "提问",
+    "radical": "扌",
+    "frequency": 5085,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "提問",
+        "transcriptions": {
+          "pinyin": "tí wèn",
+          "numeric": "ti2 wen4",
+          "wadegiles": "t'i² wen⁴",
+          "bopomofo": "ㄊㄧˊ ㄨㄣˋ",
+          "romatzyh": "tyi wenn"
+        },
+        "meanings": [
+          "to question; to quiz; to grill"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提心吊胆",
+    "radical": "扌",
+    "frequency": 20737,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "提心吊膽",
+        "transcriptions": {
+          "pinyin": "tí xīn diào dǎn",
+          "numeric": "ti2 xin1 diao4 dan3",
+          "wadegiles": "t'i² hsin¹ tiao⁴ tan³",
+          "bopomofo": "ㄊㄧˊ ㄒㄧㄣ ㄉㄧㄠˋ ㄉㄢˇ",
+          "romatzyh": "tyi shin diaw daan"
+        },
+        "meanings": [
+          "(saying) to be very scared and on edge"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提醒",
+    "radical": "扌",
+    "frequency": 1634,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "提醒",
+        "transcriptions": {
+          "pinyin": "tí xǐng",
+          "numeric": "ti2 xing3",
+          "wadegiles": "t'i² hsing³",
+          "bopomofo": "ㄊㄧˊ ㄒㄧㄥˇ",
+          "romatzyh": "tyi shiing"
+        },
+        "meanings": [
+          "to remind",
+          "to call attention to",
+          "to warn of"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提议",
+    "radical": "扌",
+    "frequency": 4891,
+    "pos": [
+      "n",
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "提議",
+        "transcriptions": {
+          "pinyin": "tí yì",
+          "numeric": "ti2 yi4",
+          "wadegiles": "t'i² i⁴",
+          "bopomofo": "ㄊㄧˊ ㄧˋ",
+          "romatzyh": "tyi yih"
+        },
+        "meanings": [
+          "proposal",
+          "suggestion",
+          "to propose",
+          "to suggest"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提早",
+    "radical": "扌",
+    "frequency": 10528,
+    "pos": [
+      "d",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "提早",
+        "transcriptions": {
+          "pinyin": "tí zǎo",
+          "numeric": "ti2 zao3",
+          "wadegiles": "t'i² tsao³",
+          "bopomofo": "ㄊㄧˊ ㄗㄠˇ",
+          "romatzyh": "tyi tzao"
+        },
+        "meanings": [
+          "ahead of schedule",
+          "sooner than planned",
+          "to bring forward (to an earlier time)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "题",
+    "radical": "页",
+    "frequency": 2690,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "題",
+        "transcriptions": {
+          "pinyin": "Tí",
+          "numeric": "Ti2",
+          "wadegiles": "t'i²",
+          "bopomofo": "ㄊㄧˊ",
+          "romatzyh": "tyi"
+        },
+        "meanings": [
+          "surname Ti"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "題",
+        "transcriptions": {
+          "pinyin": "tí",
+          "numeric": "ti2",
+          "wadegiles": "t'i²",
+          "bopomofo": "ㄊㄧˊ",
+          "romatzyh": "tyi"
+        },
+        "meanings": [
+          "topic",
+          "problem for discussion",
+          "exam question",
+          "subject",
+          "to inscribe",
+          "to mention"
+        ],
+        "classifiers": [
+          "个",
+          "道"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "题材",
+    "radical": "页",
+    "frequency": 8324,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "題材",
+        "transcriptions": {
+          "pinyin": "tí cái",
+          "numeric": "ti2 cai2",
+          "wadegiles": "t'i² ts'ai²",
+          "bopomofo": "ㄊㄧˊ ㄘㄞˊ",
+          "romatzyh": "tyi tsair"
+        },
+        "meanings": [
+          "subject matter"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "题目",
+    "radical": "页",
+    "frequency": 7020,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "題目",
+        "transcriptions": {
+          "pinyin": "tí mù",
+          "numeric": "ti2 mu4",
+          "wadegiles": "t'i² mu⁴",
+          "bopomofo": "ㄊㄧˊ ㄇㄨˋ",
+          "romatzyh": "tyi muh"
+        },
+        "meanings": [
+          "subject",
+          "title",
+          "topic"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "体操",
+    "radical": "亻",
+    "frequency": 8893,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "體操",
+        "transcriptions": {
+          "pinyin": "tǐ cāo",
+          "numeric": "ti3 cao1",
+          "wadegiles": "t'i³ ts'ao¹",
+          "bopomofo": "ㄊㄧˇ ㄘㄠ",
+          "romatzyh": "tii tsau"
+        },
+        "meanings": [
+          "gymnastic",
+          "gymnastics"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "体会",
+    "radical": "亻",
+    "frequency": 3605,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "體會",
+        "transcriptions": {
+          "pinyin": "tǐ huì",
+          "numeric": "ti3 hui4",
+          "wadegiles": "t'i³ hui⁴",
+          "bopomofo": "ㄊㄧˇ ㄏㄨㄟˋ",
+          "romatzyh": "tii huey"
+        },
+        "meanings": [
+          "to know from experience",
+          "to learn through experience",
+          "to realize",
+          "understanding",
+          "experience"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "体积",
+    "radical": "亻",
+    "frequency": 10883,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "體積",
+        "transcriptions": {
+          "pinyin": "tǐ jī",
+          "numeric": "ti3 ji1",
+          "wadegiles": "t'i³ chi¹",
+          "bopomofo": "ㄊㄧˇ ㄐㄧ",
+          "romatzyh": "tii ji"
+        },
+        "meanings": [
+          "volume",
+          "bulk"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "体检",
+    "radical": "亻",
+    "frequency": 8459,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "體檢",
+        "transcriptions": {
+          "pinyin": "tǐ jiǎn",
+          "numeric": "ti3 jian3",
+          "wadegiles": "t'i³ chien³",
+          "bopomofo": "ㄊㄧˇ ㄐㄧㄢˇ",
+          "romatzyh": "tii jean"
+        },
+        "meanings": [
+          "abbr. for 体格检查"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "体力",
+    "radical": "亻",
+    "frequency": 6132,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "體力",
+        "transcriptions": {
+          "pinyin": "tǐ lì",
+          "numeric": "ti3 li4",
+          "wadegiles": "t'i³ li⁴",
+          "bopomofo": "ㄊㄧˇ ㄌㄧˋ",
+          "romatzyh": "tii lih"
+        },
+        "meanings": [
+          "physical strength",
+          "physical power"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "体谅",
+    "radical": "亻",
+    "frequency": 12385,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "體諒",
+        "transcriptions": {
+          "pinyin": "tǐ liàng",
+          "numeric": "ti3 liang4",
+          "wadegiles": "t'i³ liang⁴",
+          "bopomofo": "ㄊㄧˇ ㄌㄧㄤˋ",
+          "romatzyh": "tii lianq"
+        },
+        "meanings": [
+          "to empathize",
+          "to allow (for sth)",
+          "to show understanding",
+          "to appreciate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "体面",
+    "radical": "亻",
+    "frequency": 13447,
+    "pos": [
+      "a",
+      "ad",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "體面",
+        "transcriptions": {
+          "pinyin": "tǐ miàn",
+          "numeric": "ti3 mian4",
+          "wadegiles": "t'i³ mien⁴",
+          "bopomofo": "ㄊㄧˇ ㄇㄧㄢˋ",
+          "romatzyh": "tii miann"
+        },
+        "meanings": [
+          "dignity; prestige; face",
+          "honorable; creditable",
+          "(of sb's appearance) presentable; respectable"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "体能",
+    "radical": "亻",
+    "frequency": 12260,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "體能",
+        "transcriptions": {
+          "pinyin": "tǐ néng",
+          "numeric": "ti3 neng2",
+          "wadegiles": "t'i³ neng²",
+          "bopomofo": "ㄊㄧˇ ㄋㄥˊ",
+          "romatzyh": "tii neng"
+        },
+        "meanings": [
+          "physical capability",
+          "stamina"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "体贴",
+    "radical": "亻",
+    "frequency": 7789,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "體貼",
+        "transcriptions": {
+          "pinyin": "tǐ tiē",
+          "numeric": "ti3 tie1",
+          "wadegiles": "t'i³ t'ieh¹",
+          "bopomofo": "ㄊㄧˇ ㄊㄧㄝ",
+          "romatzyh": "tii tie"
+        },
+        "meanings": [
+          "considerate (of other people's needs)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "体温",
+    "radical": "亻",
+    "frequency": 7596,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "體溫",
+        "transcriptions": {
+          "pinyin": "tǐ wēn",
+          "numeric": "ti3 wen1",
+          "wadegiles": "t'i³ wen¹",
+          "bopomofo": "ㄊㄧˇ ㄨㄣ",
+          "romatzyh": "tii uen"
+        },
+        "meanings": [
+          "(body) temperature"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "体系",
+    "radical": "亻",
+    "frequency": 4476,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "體系",
+        "transcriptions": {
+          "pinyin": "tǐ xì",
+          "numeric": "ti3 xi4",
+          "wadegiles": "t'i³ hsi⁴",
+          "bopomofo": "ㄊㄧˇ ㄒㄧˋ",
+          "romatzyh": "tii shih"
+        },
+        "meanings": [
+          "system",
+          "setup"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "体现",
+    "radical": "亻",
+    "frequency": 4185,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "體現",
+        "transcriptions": {
+          "pinyin": "tǐ xiàn",
+          "numeric": "ti3 xian4",
+          "wadegiles": "t'i³ hsien⁴",
+          "bopomofo": "ㄊㄧˇ ㄒㄧㄢˋ",
+          "romatzyh": "tii shiann"
+        },
+        "meanings": [
+          "to embody",
+          "to reflect",
+          "to incarnate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "体验",
+    "radical": "亻",
+    "frequency": 2553,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "體驗",
+        "transcriptions": {
+          "pinyin": "tǐ yàn",
+          "numeric": "ti3 yan4",
+          "wadegiles": "t'i³ yan⁴",
+          "bopomofo": "ㄊㄧˇ ㄧㄢˋ",
+          "romatzyh": "tii yann"
+        },
+        "meanings": [
+          "to experience for oneself"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "体育",
+    "radical": "亻",
+    "frequency": 2354,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "體育",
+        "transcriptions": {
+          "pinyin": "tǐ yù",
+          "numeric": "ti3 yu4",
+          "wadegiles": "t'i³ yü⁴",
+          "bopomofo": "ㄊㄧˇ ㄩˋ",
+          "romatzyh": "tii yuh"
+        },
+        "meanings": [
+          "sports",
+          "physical education"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "体育场",
+    "radical": "亻",
+    "frequency": 10575,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "體育場",
+        "transcriptions": {
+          "pinyin": "tǐ yù chǎng",
+          "numeric": "ti3 yu4 chang3",
+          "wadegiles": "t'i³ yü⁴ ch'ang³",
+          "bopomofo": "ㄊㄧˇ ㄩˋ ㄔㄤˇ",
+          "romatzyh": "tii yuh chaang"
+        },
+        "meanings": [
+          "stadium"
+        ],
+        "classifiers": [
+          "个",
+          "座"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "体育馆",
+    "radical": "亻",
+    "frequency": 7477,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "體育館",
+        "transcriptions": {
+          "pinyin": "tǐ yù guǎn",
+          "numeric": "ti3 yu4 guan3",
+          "wadegiles": "t'i³ yü⁴ kuan³",
+          "bopomofo": "ㄊㄧˇ ㄩˋ ㄍㄨㄢˇ",
+          "romatzyh": "tii yuh goan"
+        },
+        "meanings": [
+          "gym",
+          "gymnasium",
+          "stadium"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "体制",
+    "radical": "亻",
+    "frequency": 7005,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "體制",
+        "transcriptions": {
+          "pinyin": "tǐ zhì",
+          "numeric": "ti3 zhi4",
+          "wadegiles": "t'i³ chih⁴",
+          "bopomofo": "ㄊㄧˇ ㄓˋ",
+          "romatzyh": "tii jyh"
+        },
+        "meanings": [
+          "system",
+          "organization"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "体质",
+    "radical": "亻",
+    "frequency": 15276,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "體質",
+        "transcriptions": {
+          "pinyin": "tǐ zhì",
+          "numeric": "ti3 zhi4",
+          "wadegiles": "t'i³ chih⁴",
+          "bopomofo": "ㄊㄧˇ ㄓˋ",
+          "romatzyh": "tii jyh"
+        },
+        "meanings": [
+          "constitution"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "体重",
+    "radical": "亻",
+    "frequency": 4003,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "體重",
+        "transcriptions": {
+          "pinyin": "tǐ zhòng",
+          "numeric": "ti3 zhong4",
+          "wadegiles": "t'i³ chung⁴",
+          "bopomofo": "ㄊㄧˇ ㄓㄨㄥˋ",
+          "romatzyh": "tii jonq"
+        },
+        "meanings": [
+          "body weight"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "剃",
+    "radical": "刂",
+    "frequency": 12514,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "剃",
+        "transcriptions": {
+          "pinyin": "tì",
+          "numeric": "ti4",
+          "wadegiles": "t'i⁴",
+          "bopomofo": "ㄊㄧˋ",
+          "romatzyh": "tih"
+        },
+        "meanings": [
+          "to shave"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "薙",
+        "transcriptions": {
+          "pinyin": "tì",
+          "numeric": "ti4",
+          "wadegiles": "t'i⁴",
+          "bopomofo": "ㄊㄧˋ",
+          "romatzyh": "tih"
+        },
+        "meanings": [
+          "shave",
+          "to weed"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "鬀",
+        "transcriptions": {
+          "pinyin": "tì",
+          "numeric": "ti4",
+          "wadegiles": "t'i⁴",
+          "bopomofo": "ㄊㄧˋ",
+          "romatzyh": "tih"
+        },
+        "meanings": [
+          "variant of 剃"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "替",
+    "radical": "曰",
+    "frequency": 1826,
+    "pos": [
+      "p",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "替",
+        "transcriptions": {
+          "pinyin": "tì",
+          "numeric": "ti4",
+          "wadegiles": "t'i⁴",
+          "bopomofo": "ㄊㄧˋ",
+          "romatzyh": "tih"
+        },
+        "meanings": [
+          "to substitute for",
+          "to take the place of",
+          "to replace",
+          "for",
+          "on behalf of",
+          "to stand in for"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "替代",
+    "radical": "曰",
+    "frequency": 5840,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "替代",
+        "transcriptions": {
+          "pinyin": "tì dài",
+          "numeric": "ti4 dai4",
+          "wadegiles": "t'i⁴ tai⁴",
+          "bopomofo": "ㄊㄧˋ ㄉㄞˋ",
+          "romatzyh": "tih day"
+        },
+        "meanings": [
+          "to substitute for",
+          "to replace",
+          "to supersede"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "替换",
+    "radical": "曰",
+    "frequency": 10602,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "替換",
+        "transcriptions": {
+          "pinyin": "tì huàn",
+          "numeric": "ti4 huan4",
+          "wadegiles": "t'i⁴ huan⁴",
+          "bopomofo": "ㄊㄧˋ ㄏㄨㄢˋ",
+          "romatzyh": "tih huann"
+        },
+        "meanings": [
+          "to exchange",
+          "to replace",
+          "to substitute for",
+          "to switch"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "替身",
+    "radical": "曰",
+    "frequency": 16305,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "替身",
+        "transcriptions": {
+          "pinyin": "tì shēn",
+          "numeric": "ti4 shen1",
+          "wadegiles": "t'i⁴ shen¹",
+          "bopomofo": "ㄊㄧˋ ㄕㄣ",
+          "romatzyh": "tih shen"
+        },
+        "meanings": [
+          "stand-in",
+          "substitute",
+          "body double",
+          "stuntman",
+          "scapegoat",
+          "fall guy",
+          "to stand in for sb else"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天",
+    "radical": "大",
+    "frequency": 83,
+    "pos": [
+      "qt",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "天",
+        "transcriptions": {
+          "pinyin": "tiān",
+          "numeric": "tian1",
+          "wadegiles": "t'ien¹",
+          "bopomofo": "ㄊㄧㄢ",
+          "romatzyh": "tian"
+        },
+        "meanings": [
+          "day",
+          "sky",
+          "heaven"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天才",
+    "radical": "大",
+    "frequency": 4429,
+    "pos": [
+      "n",
+      "nr"
+    ],
+    "forms": [
+      {
+        "traditional": "天才",
+        "transcriptions": {
+          "pinyin": "tiān cái",
+          "numeric": "tian1 cai2",
+          "wadegiles": "t'ien¹ ts'ai²",
+          "bopomofo": "ㄊㄧㄢ ㄘㄞˊ",
+          "romatzyh": "tian tsair"
+        },
+        "meanings": [
+          "talent",
+          "gift",
+          "genius",
+          "talented",
+          "gifted"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天地",
+    "radical": "大",
+    "frequency": 7764,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "天地",
+        "transcriptions": {
+          "pinyin": "tiān dì",
+          "numeric": "tian1 di4",
+          "wadegiles": "t'ien¹ ti⁴",
+          "bopomofo": "ㄊㄧㄢ ㄉㄧˋ",
+          "romatzyh": "tian dih"
+        },
+        "meanings": [
+          "heaven and earth",
+          "world",
+          "scope",
+          "field of activity"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天鹅",
+    "radical": "大",
+    "frequency": 10373,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "天鵝",
+        "transcriptions": {
+          "pinyin": "tiān é",
+          "numeric": "tian1 e2",
+          "wadegiles": "t'ien¹ e²",
+          "bopomofo": "ㄊㄧㄢ ㄜˊ",
+          "romatzyh": "tian er"
+        },
+        "meanings": [
+          "swan"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天分",
+    "radical": "大",
+    "frequency": 16449,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "天分",
+        "transcriptions": {
+          "pinyin": "tiān fèn",
+          "numeric": "tian1 fen4",
+          "wadegiles": "t'ien¹ fen⁴",
+          "bopomofo": "ㄊㄧㄢ ㄈㄣˋ",
+          "romatzyh": "tian fenn"
+        },
+        "meanings": [
+          "natural gift",
+          "talent"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天赋",
+    "radical": "大",
+    "frequency": 6020,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "天賦",
+        "transcriptions": {
+          "pinyin": "tiān fù",
+          "numeric": "tian1 fu4",
+          "wadegiles": "t'ien¹ fu⁴",
+          "bopomofo": "ㄊㄧㄢ ㄈㄨˋ",
+          "romatzyh": "tian fuh"
+        },
+        "meanings": [
+          "gift",
+          "innate skill"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天经地义",
+    "radical": "大",
+    "frequency": 30356,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "天經地義",
+        "transcriptions": {
+          "pinyin": "tiān jīng dì yì",
+          "numeric": "tian1 jing1 di4 yi4",
+          "wadegiles": "t'ien¹ ching¹ ti⁴ i⁴",
+          "bopomofo": "ㄊㄧㄢ ㄐㄧㄥ ㄉㄧˋ ㄧˋ",
+          "romatzyh": "tian jing dih yih"
+        },
+        "meanings": [
+          "lit. heaven's law and earth's principle (idiom); fig. right and proper",
+          "right and unalterable",
+          "a matter of course"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天空",
+    "radical": "大",
+    "frequency": 3292,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "天空",
+        "transcriptions": {
+          "pinyin": "tiān kōng",
+          "numeric": "tian1 kong1",
+          "wadegiles": "t'ien¹ k'ung¹",
+          "bopomofo": "ㄊㄧㄢ ㄎㄨㄥ",
+          "romatzyh": "tian kong"
+        },
+        "meanings": [
+          "sky"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天平",
+    "radical": "大",
+    "frequency": 16762,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "天平",
+        "transcriptions": {
+          "pinyin": "tiān píng",
+          "numeric": "tian1 ping2",
+          "wadegiles": "t'ien¹ p'ing²",
+          "bopomofo": "ㄊㄧㄢ ㄆㄧㄥˊ",
+          "romatzyh": "tian pyng"
+        },
+        "meanings": [
+          "scales (to weigh things)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天气",
+    "radical": "大",
+    "frequency": 1675,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "天氣",
+        "transcriptions": {
+          "pinyin": "tiān qì",
+          "numeric": "tian1 qi4",
+          "wadegiles": "t'ien¹ ch'i⁴",
+          "bopomofo": "ㄊㄧㄢ ㄑㄧˋ",
+          "romatzyh": "tian chih"
+        },
+        "meanings": [
+          "weather"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天桥",
+    "radical": "大",
+    "frequency": 12172,
+    "pos": [
+      "n",
+      "ns"
+    ],
+    "forms": [
+      {
+        "traditional": "天橋",
+        "transcriptions": {
+          "pinyin": "Tiān qiáo",
+          "numeric": "Tian1 qiao2",
+          "wadegiles": "t'ien¹ ch'iao²",
+          "bopomofo": "ㄊㄧㄢ ㄑㄧㄠˊ",
+          "romatzyh": "tian chyau"
+        },
+        "meanings": [
+          "Tianqiao district of Jinan city 济南市, Shandong",
+          "Tianqiao district in Beijing, formerly a center of folk culture"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "天橋",
+        "transcriptions": {
+          "pinyin": "tiān qiáo",
+          "numeric": "tian1 qiao2",
+          "wadegiles": "t'ien¹ ch'iao²",
+          "bopomofo": "ㄊㄧㄢ ㄑㄧㄠˊ",
+          "romatzyh": "tian chyau"
+        },
+        "meanings": [
+          "overhead walkway",
+          "pedestrian bridge"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天然",
+    "radical": "大",
+    "frequency": 6323,
+    "pos": [
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "天然",
+        "transcriptions": {
+          "pinyin": "tiān rán",
+          "numeric": "tian1 ran2",
+          "wadegiles": "t'ien¹ jan²",
+          "bopomofo": "ㄊㄧㄢ ㄖㄢˊ",
+          "romatzyh": "tian ran"
+        },
+        "meanings": [
+          "natural"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天然气",
+    "radical": "大",
+    "frequency": 9485,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "天然氣",
+        "transcriptions": {
+          "pinyin": "tiān rán qì",
+          "numeric": "tian1 ran2 qi4",
+          "wadegiles": "t'ien¹ jan² ch'i⁴",
+          "bopomofo": "ㄊㄧㄢ ㄖㄢˊ ㄑㄧˋ",
+          "romatzyh": "tian ran chih"
+        },
+        "meanings": [
+          "natural gas"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天上",
+    "radical": "大",
+    "frequency": 5808,
+    "pos": [
+      "s"
+    ],
+    "forms": [
+      {
+        "traditional": "天上",
+        "transcriptions": {
+          "pinyin": "tiān shàng",
+          "numeric": "tian1 shang4",
+          "wadegiles": "t'ien¹ shang⁴",
+          "bopomofo": "ㄊㄧㄢ ㄕㄤˋ",
+          "romatzyh": "tian shanq"
+        },
+        "meanings": [
+          "celestial",
+          "heavenly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天生",
+    "radical": "大",
+    "frequency": 4564,
+    "pos": [
+      "d",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "天生",
+        "transcriptions": {
+          "pinyin": "tiān shēng",
+          "numeric": "tian1 sheng1",
+          "wadegiles": "t'ien¹ sheng¹",
+          "bopomofo": "ㄊㄧㄢ ㄕㄥ",
+          "romatzyh": "tian sheng"
+        },
+        "meanings": [
+          "nature",
+          "disposition",
+          "innate",
+          "natural"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天使",
+    "radical": "大",
+    "frequency": 3295,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "天使",
+        "transcriptions": {
+          "pinyin": "tiān shǐ",
+          "numeric": "tian1 shi3",
+          "wadegiles": "t'ien¹ shih³",
+          "bopomofo": "ㄊㄧㄢ ㄕˇ",
+          "romatzyh": "tian shyy"
+        },
+        "meanings": [
+          "angel"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天堂",
+    "radical": "大",
+    "frequency": 3183,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "天堂",
+        "transcriptions": {
+          "pinyin": "tiān táng",
+          "numeric": "tian1 tang2",
+          "wadegiles": "t'ien¹ t'ang²",
+          "bopomofo": "ㄊㄧㄢ ㄊㄤˊ",
+          "romatzyh": "tian tarng"
+        },
+        "meanings": [
+          "paradise",
+          "heaven"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天文",
+    "radical": "大",
+    "frequency": 18488,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "天文",
+        "transcriptions": {
+          "pinyin": "tiān wén",
+          "numeric": "tian1 wen2",
+          "wadegiles": "t'ien¹ wen²",
+          "bopomofo": "ㄊㄧㄢ ㄨㄣˊ",
+          "romatzyh": "tian wen"
+        },
+        "meanings": [
+          "astronomy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天下",
+    "radical": "大",
+    "frequency": 3855,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "天下",
+        "transcriptions": {
+          "pinyin": "tiān xià",
+          "numeric": "tian1 xia4",
+          "wadegiles": "t'ien¹ hsia⁴",
+          "bopomofo": "ㄊㄧㄢ ㄒㄧㄚˋ",
+          "romatzyh": "tian shiah"
+        },
+        "meanings": [
+          "land under heaven",
+          "the whole world",
+          "the whole of China",
+          "realm",
+          "rule"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天线",
+    "radical": "大",
+    "frequency": 11888,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "天線",
+        "transcriptions": {
+          "pinyin": "tiān xiàn",
+          "numeric": "tian1 xian4",
+          "wadegiles": "t'ien¹ hsien⁴",
+          "bopomofo": "ㄊㄧㄢ ㄒㄧㄢˋ",
+          "romatzyh": "tian shiann"
+        },
+        "meanings": [
+          "antenna",
+          "mast",
+          "connection with high-ranking officials"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天性",
+    "radical": "大",
+    "frequency": 10935,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "天性",
+        "transcriptions": {
+          "pinyin": "tiān xìng",
+          "numeric": "tian1 xing4",
+          "wadegiles": "t'ien¹ hsing⁴",
+          "bopomofo": "ㄊㄧㄢ ㄒㄧㄥˋ",
+          "romatzyh": "tian shinq"
+        },
+        "meanings": [
+          "nature",
+          "innate tendency"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天长地久",
+    "radical": "大",
+    "frequency": 20808,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "天長地久",
+        "transcriptions": {
+          "pinyin": "tiān cháng dì jiǔ",
+          "numeric": "tian1 chang2 di4 jiu3",
+          "wadegiles": "t'ien¹ ch'ang² ti⁴ chiu³",
+          "bopomofo": "ㄊㄧㄢ ㄔㄤˊ ㄉㄧˋ ㄐㄧㄡˇ",
+          "romatzyh": "tian charng dih jeou"
+        },
+        "meanings": [
+          "enduring while the world lasts (idiom)",
+          "eternal"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天真",
+    "radical": "大",
+    "frequency": 5823,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "天真",
+        "transcriptions": {
+          "pinyin": "tiān zhēn",
+          "numeric": "tian1 zhen1",
+          "wadegiles": "t'ien¹ chen¹",
+          "bopomofo": "ㄊㄧㄢ ㄓㄣ",
+          "romatzyh": "tian jen"
+        },
+        "meanings": [
+          "naive",
+          "innocent",
+          "artless"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "天主教",
+    "radical": "大",
+    "frequency": 15354,
+    "pos": [
+      "nz"
+    ],
+    "forms": [
+      {
+        "traditional": "天主教",
+        "transcriptions": {
+          "pinyin": "Tiān zhǔ jiào",
+          "numeric": "Tian1 zhu3 jiao4",
+          "wadegiles": "t'ien¹ chu³ chiao⁴",
+          "bopomofo": "ㄊㄧㄢ ㄓㄨˇ ㄐㄧㄠˋ",
+          "romatzyh": "tian juu jiaw"
+        },
+        "meanings": [
+          "Catholicism"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "添",
+    "radical": "氵",
+    "frequency": 4852,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "添",
+        "transcriptions": {
+          "pinyin": "tiān",
+          "numeric": "tian1",
+          "wadegiles": "t'ien¹",
+          "bopomofo": "ㄊㄧㄢ",
+          "romatzyh": "tian"
+        },
+        "meanings": [
+          "to add",
+          "to increase",
+          "to replenish"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "添加",
+    "radical": "氵",
+    "frequency": 9253,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "添加",
+        "transcriptions": {
+          "pinyin": "tiān jiā",
+          "numeric": "tian1 jia1",
+          "wadegiles": "t'ien¹ chia¹",
+          "bopomofo": "ㄊㄧㄢ ㄐㄧㄚ",
+          "romatzyh": "tian jia"
+        },
+        "meanings": [
+          "to add",
+          "to increase"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "田",
+    "radical": "田",
+    "frequency": 3192,
+    "pos": [
+      "n",
+      "nr"
+    ],
+    "forms": [
+      {
+        "traditional": "田",
+        "transcriptions": {
+          "pinyin": "Tián",
+          "numeric": "Tian2",
+          "wadegiles": "t'ien²",
+          "bopomofo": "ㄊㄧㄢˊ",
+          "romatzyh": "tyan"
+        },
+        "meanings": [
+          "surname Tian"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "田",
+        "transcriptions": {
+          "pinyin": "tián",
+          "numeric": "tian2",
+          "wadegiles": "t'ien²",
+          "bopomofo": "ㄊㄧㄢˊ",
+          "romatzyh": "tyan"
+        },
+        "meanings": [
+          "field",
+          "farm"
+        ],
+        "classifiers": [
+          "片"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "田径",
+    "radical": "田",
+    "frequency": 12862,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "田徑",
+        "transcriptions": {
+          "pinyin": "tián jìng",
+          "numeric": "tian2 jing4",
+          "wadegiles": "t'ien² ching⁴",
+          "bopomofo": "ㄊㄧㄢˊ ㄐㄧㄥˋ",
+          "romatzyh": "tyan jinq"
+        },
+        "meanings": [
+          "track and field (athletics)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "甜",
+    "radical": "甘",
+    "frequency": 2472,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "甜",
+        "transcriptions": {
+          "pinyin": "tián",
+          "numeric": "tian2",
+          "wadegiles": "t'ien²",
+          "bopomofo": "ㄊㄧㄢˊ",
+          "romatzyh": "tyan"
+        },
+        "meanings": [
+          "sweet"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "甜美",
+    "radical": "甘",
+    "frequency": 6581,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "甜美",
+        "transcriptions": {
+          "pinyin": "tián měi",
+          "numeric": "tian2 mei3",
+          "wadegiles": "t'ien² mei³",
+          "bopomofo": "ㄊㄧㄢˊ ㄇㄟˇ",
+          "romatzyh": "tyan meei"
+        },
+        "meanings": [
+          "sweet",
+          "pleasant",
+          "happy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "甜蜜",
+    "radical": "甘",
+    "frequency": 4680,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "甜蜜",
+        "transcriptions": {
+          "pinyin": "tián mì",
+          "numeric": "tian2 mi4",
+          "wadegiles": "t'ien² mi⁴",
+          "bopomofo": "ㄊㄧㄢˊ ㄇㄧˋ",
+          "romatzyh": "tyan mih"
+        },
+        "meanings": [
+          "sweet",
+          "happy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "甜头",
+    "radical": "甘",
+    "frequency": 16846,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "甜頭",
+        "transcriptions": {
+          "pinyin": "tián tou",
+          "numeric": "tian2 tou5",
+          "wadegiles": "t'ien² tou",
+          "bopomofo": "ㄊㄧㄢˊ tou",
+          "romatzyh": "tyan tou"
+        },
+        "meanings": [
+          "sweet taste (of power, success etc)",
+          "benefit"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "填",
+    "radical": "土",
+    "frequency": 4140,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "填",
+        "transcriptions": {
+          "pinyin": "tián",
+          "numeric": "tian2",
+          "wadegiles": "t'ien²",
+          "bopomofo": "ㄊㄧㄢˊ",
+          "romatzyh": "tyan"
+        },
+        "meanings": [
+          "to fill or stuff",
+          "(of a form etc) to fill in"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "填补",
+    "radical": "土",
+    "frequency": 9801,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "填補",
+        "transcriptions": {
+          "pinyin": "tián bǔ",
+          "numeric": "tian2 bu3",
+          "wadegiles": "t'ien² pu³",
+          "bopomofo": "ㄊㄧㄢˊ ㄅㄨˇ",
+          "romatzyh": "tyan buu"
+        },
+        "meanings": [
+          "to fill a gap",
+          "to fill in a blank (on a form)",
+          "to overcome a deficiency"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "填充",
+    "radical": "土",
+    "frequency": 16183,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "填充",
+        "transcriptions": {
+          "pinyin": "tián chōng",
+          "numeric": "tian2 chong1",
+          "wadegiles": "t'ien² ch'ung¹",
+          "bopomofo": "ㄊㄧㄢˊ ㄔㄨㄥ",
+          "romatzyh": "tyan chong"
+        },
+        "meanings": [
+          "to fill up; to stuff",
+          "to fill in a blank space"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "填空",
+    "radical": "土",
+    "frequency": 42424,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "填空",
+        "transcriptions": {
+          "pinyin": "tián kòng",
+          "numeric": "tian2 kong4",
+          "wadegiles": "t'ien² k'ung⁴",
+          "bopomofo": "ㄊㄧㄢˊ ㄎㄨㄥˋ",
+          "romatzyh": "tyan konq"
+        },
+        "meanings": [
+          "to fill a job vacancy",
+          "to fill in a blank (e.g. on questionnaire or exam paper)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "填写",
+    "radical": "土",
+    "frequency": 10133,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "填寫",
+        "transcriptions": {
+          "pinyin": "tián xiě",
+          "numeric": "tian2 xie3",
+          "wadegiles": "t'ien² hsieh³",
+          "bopomofo": "ㄊㄧㄢˊ ㄒㄧㄝˇ",
+          "romatzyh": "tyan shiee"
+        },
+        "meanings": [
+          "to fill in a form",
+          "to write data in a box (on a questionnaire or web form)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "舔",
+    "radical": "舌",
+    "frequency": 7383,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "舔",
+        "transcriptions": {
+          "pinyin": "tiǎn",
+          "numeric": "tian3",
+          "wadegiles": "t'ien³",
+          "bopomofo": "ㄊㄧㄢˇ",
+          "romatzyh": "tean"
+        },
+        "meanings": [
+          "to lick",
+          "to lap"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "挑",
+    "radical": "扌",
+    "frequency": 2310,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "挑",
+        "transcriptions": {
+          "pinyin": "tiāo",
+          "numeric": "tiao1",
+          "wadegiles": "t'iao¹",
+          "bopomofo": "ㄊㄧㄠ",
+          "romatzyh": "tiau"
+        },
+        "meanings": [
+          "to carry on a shoulder pole",
+          "to choose",
+          "to pick",
+          "to nitpick"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "挑",
+        "transcriptions": {
+          "pinyin": "tiǎo",
+          "numeric": "tiao3",
+          "wadegiles": "t'iao³",
+          "bopomofo": "ㄊㄧㄠˇ",
+          "romatzyh": "teau"
+        },
+        "meanings": [
+          "to raise",
+          "to dig up",
+          "to poke",
+          "to prick",
+          "to incite",
+          "to stir up"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "挑起",
+    "radical": "扌",
+    "frequency": 9853,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "挑起",
+        "transcriptions": {
+          "pinyin": "tiǎo qǐ",
+          "numeric": "tiao3 qi3",
+          "wadegiles": "t'iao³ ch'i³",
+          "bopomofo": "ㄊㄧㄠˇ ㄑㄧˇ",
+          "romatzyh": "teau chii"
+        },
+        "meanings": [
+          "to provoke",
+          "to stir up",
+          "to incite"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "挑剔",
+    "radical": "扌",
+    "frequency": 10153,
+    "pos": [
+      "v",
+      "a",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "挑剔",
+        "transcriptions": {
+          "pinyin": "tiāo ti",
+          "numeric": "tiao1 ti5",
+          "wadegiles": "t'iao¹ ti",
+          "bopomofo": "ㄊㄧㄠ ti",
+          "romatzyh": "tiau ti"
+        },
+        "meanings": [
+          "picky",
+          "fussy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "挑衅",
+    "radical": "扌",
+    "frequency": 9812,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "挑釁",
+        "transcriptions": {
+          "pinyin": "tiǎo xìn",
+          "numeric": "tiao3 xin4",
+          "wadegiles": "t'iao³ hsin⁴",
+          "bopomofo": "ㄊㄧㄠˇ ㄒㄧㄣˋ",
+          "romatzyh": "teau shinn"
+        },
+        "meanings": [
+          "to provoke",
+          "provocation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "挑选",
+    "radical": "扌",
+    "frequency": 4696,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "挑選",
+        "transcriptions": {
+          "pinyin": "tiāo xuǎn",
+          "numeric": "tiao1 xuan3",
+          "wadegiles": "t'iao¹ hsüan³",
+          "bopomofo": "ㄊㄧㄠ ㄒㄩㄢˇ",
+          "romatzyh": "tiau sheuan"
+        },
+        "meanings": [
+          "to choose",
+          "to select"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

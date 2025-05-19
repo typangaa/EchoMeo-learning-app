@@ -1,0 +1,2193 @@
+[
+  {
+    "simplified": "考试",
+    "radical": "耂",
+    "frequency": 1718,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "考試",
+        "transcriptions": {
+          "pinyin": "kǎo shì",
+          "numeric": "kao3 shi4",
+          "wadegiles": "k'ao³ shih⁴",
+          "bopomofo": "ㄎㄠˇ ㄕˋ",
+          "romatzyh": "kao shyh"
+        },
+        "meanings": [
+          "to take an exam",
+          "exam"
+        ],
+        "classifiers": [
+          "次"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "考题",
+    "radical": "耂",
+    "frequency": 44976,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "考題",
+        "transcriptions": {
+          "pinyin": "kǎo tí",
+          "numeric": "kao3 ti2",
+          "wadegiles": "k'ao³ t'i²",
+          "bopomofo": "ㄎㄠˇ ㄊㄧˊ",
+          "romatzyh": "kao tyi"
+        },
+        "meanings": [
+          "exam question"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "考验",
+    "radical": "耂",
+    "frequency": 3850,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "考驗",
+        "transcriptions": {
+          "pinyin": "kǎo yàn",
+          "numeric": "kao3 yan4",
+          "wadegiles": "k'ao³ yan⁴",
+          "bopomofo": "ㄎㄠˇ ㄧㄢˋ",
+          "romatzyh": "kao yann"
+        },
+        "meanings": [
+          "to test",
+          "to put to the test",
+          "trial",
+          "ordeal"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "烤肉",
+    "radical": "火",
+    "frequency": 9467,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "烤肉",
+        "transcriptions": {
+          "pinyin": "kǎo ròu",
+          "numeric": "kao3 rou4",
+          "wadegiles": "k'ao³ jou⁴",
+          "bopomofo": "ㄎㄠˇ ㄖㄡˋ",
+          "romatzyh": "kao row"
+        },
+        "meanings": [
+          "barbecue (lit. roast meat)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "烤鸭",
+    "radical": "火",
+    "frequency": 28090,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "烤鴨",
+        "transcriptions": {
+          "pinyin": "kǎo yā",
+          "numeric": "kao3 ya1",
+          "wadegiles": "k'ao³ ya¹",
+          "bopomofo": "ㄎㄠˇ ㄧㄚ",
+          "romatzyh": "kao ia"
+        },
+        "meanings": [
+          "roast duck"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "靠",
+    "radical": "非",
+    "frequency": 622,
+    "pos": [
+      "v",
+      "p"
+    ],
+    "forms": [
+      {
+        "traditional": "靠",
+        "transcriptions": {
+          "pinyin": "kào",
+          "numeric": "kao4",
+          "wadegiles": "k'ao⁴",
+          "bopomofo": "ㄎㄠˋ",
+          "romatzyh": "kaw"
+        },
+        "meanings": [
+          "to lean against or on",
+          "to stand by the side of",
+          "to come near to",
+          "to depend on",
+          "to trust",
+          "to fuck (vulgar)",
+          "traditional military costume drama where the performers wear armor (old)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "靠近",
+    "radical": "非",
+    "frequency": 3359,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "靠近",
+        "transcriptions": {
+          "pinyin": "kào jìn",
+          "numeric": "kao4 jin4",
+          "wadegiles": "k'ao⁴ chin⁴",
+          "bopomofo": "ㄎㄠˋ ㄐㄧㄣˋ",
+          "romatzyh": "kaw jinn"
+        },
+        "meanings": [
+          "to be close to",
+          "to approach; to draw near"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "科",
+    "radical": "禾",
+    "frequency": 1543,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "科",
+        "transcriptions": {
+          "pinyin": "kē",
+          "numeric": "ke1",
+          "wadegiles": "k'o¹",
+          "bopomofo": "ㄎㄜ",
+          "romatzyh": "ke"
+        },
+        "meanings": [
+          "branch of study",
+          "administrative section",
+          "division",
+          "field",
+          "branch",
+          "stage directions",
+          "family (taxonomy)",
+          "rules",
+          "laws",
+          "to mete out (punishment)",
+          "to levy (taxes etc)",
+          "to fine sb"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "科技",
+    "radical": "禾",
+    "frequency": 2094,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "科技",
+        "transcriptions": {
+          "pinyin": "kē jì",
+          "numeric": "ke1 ji4",
+          "wadegiles": "k'o¹ chi⁴",
+          "bopomofo": "ㄎㄜ ㄐㄧˋ",
+          "romatzyh": "ke jih"
+        },
+        "meanings": [
+          "science and technology"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "科学",
+    "radical": "禾",
+    "frequency": 1299,
+    "pos": [
+      "n",
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "科學",
+        "transcriptions": {
+          "pinyin": "kē xué",
+          "numeric": "ke1 xue2",
+          "wadegiles": "k'o¹ hsüeh²",
+          "bopomofo": "ㄎㄜ ㄒㄩㄝˊ",
+          "romatzyh": "ke shyue"
+        },
+        "meanings": [
+          "science",
+          "scientific knowledge",
+          "scientific",
+          "rational"
+        ],
+        "classifiers": [
+          "门",
+          "个",
+          "种"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "科学家",
+    "radical": "禾",
+    "frequency": 3551,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "科學家",
+        "transcriptions": {
+          "pinyin": "kē xué jiā",
+          "numeric": "ke1 xue2 jia1",
+          "wadegiles": "k'o¹ hsüeh² chia¹",
+          "bopomofo": "ㄎㄜ ㄒㄩㄝˊ ㄐㄧㄚ",
+          "romatzyh": "ke shyue jia"
+        },
+        "meanings": [
+          "scientist"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "科研",
+    "radical": "禾",
+    "frequency": 9732,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "科研",
+        "transcriptions": {
+          "pinyin": "kē yán",
+          "numeric": "ke1 yan2",
+          "wadegiles": "k'o¹ yan²",
+          "bopomofo": "ㄎㄜ ㄧㄢˊ",
+          "romatzyh": "ke yan"
+        },
+        "meanings": [
+          "(scientific) research"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "棵",
+    "radical": "木",
+    "frequency": 4222,
+    "pos": [
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "棵",
+        "transcriptions": {
+          "pinyin": "kē",
+          "numeric": "ke1",
+          "wadegiles": "k'o¹",
+          "bopomofo": "ㄎㄜ",
+          "romatzyh": "ke"
+        },
+        "meanings": [
+          "classifier for trees, cabbages, plants etc"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "颗",
+    "radical": "页",
+    "frequency": 1392,
+    "pos": [
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "顆",
+        "transcriptions": {
+          "pinyin": "kē",
+          "numeric": "ke1",
+          "wadegiles": "k'o¹",
+          "bopomofo": "ㄎㄜ",
+          "romatzyh": "ke"
+        },
+        "meanings": [
+          "classifier for small spheres, pearls, corn grains, teeth, hearts, satellites etc"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "可",
+    "radical": "口",
+    "frequency": 96,
+    "pos": [
+      "v",
+      "c",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "可",
+        "transcriptions": {
+          "pinyin": "kě",
+          "numeric": "ke3",
+          "wadegiles": "k'o³",
+          "bopomofo": "ㄎㄜˇ",
+          "romatzyh": "kee"
+        },
+        "meanings": [
+          "(prefix) can; may; able to; -able",
+          "to approve; to permit",
+          "to suit",
+          "(particle used for emphasis) certainly; very"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "可",
+        "transcriptions": {
+          "pinyin": "kè",
+          "numeric": "ke4",
+          "wadegiles": "k'o⁴",
+          "bopomofo": "ㄎㄜˋ",
+          "romatzyh": "keh"
+        },
+        "meanings": [
+          "used in 汗"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "可爱",
+    "radical": "口",
+    "frequency": 799,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "可愛",
+        "transcriptions": {
+          "pinyin": "kě ài",
+          "numeric": "ke3 ai4",
+          "wadegiles": "k'o³ ai⁴",
+          "bopomofo": "ㄎㄜˇ ㄞˋ",
+          "romatzyh": "kee ay"
+        },
+        "meanings": [
+          "adorable",
+          "cute",
+          "lovely"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "可见",
+    "radical": "口",
+    "frequency": 8748,
+    "pos": [
+      "v",
+      "c"
+    ],
+    "forms": [
+      {
+        "traditional": "可見",
+        "transcriptions": {
+          "pinyin": "kě jiàn",
+          "numeric": "ke3 jian4",
+          "wadegiles": "k'o³ chien⁴",
+          "bopomofo": "ㄎㄜˇ ㄐㄧㄢˋ",
+          "romatzyh": "kee jiann"
+        },
+        "meanings": [
+          "it can clearly be seen (that this is the case)",
+          "it is (thus) clear",
+          "clear",
+          "visible"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "可靠",
+    "radical": "口",
+    "frequency": 4079,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "可靠",
+        "transcriptions": {
+          "pinyin": "kě kào",
+          "numeric": "ke3 kao4",
+          "wadegiles": "k'o³ k'ao⁴",
+          "bopomofo": "ㄎㄜˇ ㄎㄠˋ",
+          "romatzyh": "kee kaw"
+        },
+        "meanings": [
+          "reliable"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "可乐",
+    "radical": "口",
+    "frequency": 6636,
+    "pos": [
+      "n",
+      "nz",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "可樂",
+        "transcriptions": {
+          "pinyin": "kě lè",
+          "numeric": "ke3 le4",
+          "wadegiles": "k'o³ le⁴",
+          "bopomofo": "ㄎㄜˇ ㄌㄜˋ",
+          "romatzyh": "kee leh"
+        },
+        "meanings": [
+          "amusing",
+          "entertaining",
+          "(loanword) cola"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "可怜",
+    "radical": "口",
+    "frequency": 1942,
+    "pos": [
+      "v",
+      "a",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "可憐",
+        "transcriptions": {
+          "pinyin": "kě lián",
+          "numeric": "ke3 lian2",
+          "wadegiles": "k'o³ lien²",
+          "bopomofo": "ㄎㄜˇ ㄌㄧㄢˊ",
+          "romatzyh": "kee lian"
+        },
+        "meanings": [
+          "pitiful",
+          "pathetic",
+          "to have pity on"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "可能",
+    "radical": "口",
+    "frequency": 127,
+    "pos": [
+      "v",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "可能",
+        "transcriptions": {
+          "pinyin": "kě néng",
+          "numeric": "ke3 neng2",
+          "wadegiles": "k'o³ neng²",
+          "bopomofo": "ㄎㄜˇ ㄋㄥˊ",
+          "romatzyh": "kee neng"
+        },
+        "meanings": [
+          "might (happen)",
+          "possible",
+          "probable",
+          "possibility",
+          "probability",
+          "maybe",
+          "perhaps"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "可怕",
+    "radical": "口",
+    "frequency": 2006,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "可怕",
+        "transcriptions": {
+          "pinyin": "kě pà",
+          "numeric": "ke3 pa4",
+          "wadegiles": "k'o³ p'a⁴",
+          "bopomofo": "ㄎㄜˇ ㄆㄚˋ",
+          "romatzyh": "kee pah"
+        },
+        "meanings": [
+          "awful",
+          "dreadful",
+          "fearful",
+          "formidable",
+          "frightful",
+          "scary",
+          "hideous",
+          "horrible",
+          "terrible",
+          "terribly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "可是",
+    "radical": "口",
+    "frequency": 404,
+    "pos": [
+      "c",
+      "d",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "可是",
+        "transcriptions": {
+          "pinyin": "kě shì",
+          "numeric": "ke3 shi4",
+          "wadegiles": "k'o³ shih⁴",
+          "bopomofo": "ㄎㄜˇ ㄕˋ",
+          "romatzyh": "kee shyh"
+        },
+        "meanings": [
+          "but; however",
+          "(used for emphasis) indeed"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "可惜",
+    "radical": "口",
+    "frequency": 2035,
+    "pos": [
+      "v",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "可惜",
+        "transcriptions": {
+          "pinyin": "kě xī",
+          "numeric": "ke3 xi1",
+          "wadegiles": "k'o³ hsi¹",
+          "bopomofo": "ㄎㄜˇ ㄒㄧ",
+          "romatzyh": "kee shi"
+        },
+        "meanings": [
+          "it is a pity",
+          "what a pity",
+          "unfortunately"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "可以",
+    "radical": "口",
+    "frequency": 58,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "可以",
+        "transcriptions": {
+          "pinyin": "kě yǐ",
+          "numeric": "ke3 yi3",
+          "wadegiles": "k'o³ i³",
+          "bopomofo": "ㄎㄜˇ ㄧˇ",
+          "romatzyh": "kee yii"
+        },
+        "meanings": [
+          "can",
+          "may",
+          "possible",
+          "able to",
+          "not bad",
+          "pretty good"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "渴",
+    "radical": "氵",
+    "frequency": 9442,
+    "pos": [
+      "a",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "渴",
+        "transcriptions": {
+          "pinyin": "kě",
+          "numeric": "ke3",
+          "wadegiles": "k'o³",
+          "bopomofo": "ㄎㄜˇ",
+          "romatzyh": "kee"
+        },
+        "meanings": [
+          "thirsty"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "渴望",
+    "radical": "氵",
+    "frequency": 3423,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "渴望",
+        "transcriptions": {
+          "pinyin": "kě wàng",
+          "numeric": "ke3 wang4",
+          "wadegiles": "k'o³ wang⁴",
+          "bopomofo": "ㄎㄜˇ ㄨㄤˋ",
+          "romatzyh": "kee wanq"
+        },
+        "meanings": [
+          "to thirst for",
+          "to long for"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "克",
+    "radical": "儿",
+    "frequency": 738,
+    "pos": [
+      "g",
+      "q",
+      "b",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "克",
+        "transcriptions": {
+          "pinyin": "Kè",
+          "numeric": "Ke4",
+          "wadegiles": "k'o⁴",
+          "bopomofo": "ㄎㄜˋ",
+          "romatzyh": "keh"
+        },
+        "meanings": [
+          "abbr. for 克罗地亚, Croatia",
+          "(Tw) abbr. for 克罗埃西亚, Croatia"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "克",
+        "transcriptions": {
+          "pinyin": "kè",
+          "numeric": "ke4",
+          "wadegiles": "k'o⁴",
+          "bopomofo": "ㄎㄜˋ",
+          "romatzyh": "keh"
+        },
+        "meanings": [
+          "to be able to",
+          "to subdue",
+          "to restrain",
+          "to overcome",
+          "gram",
+          "Tibetan unit of land area, about 6 ares"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "剋",
+        "transcriptions": {
+          "pinyin": "Kè",
+          "numeric": "Ke4",
+          "wadegiles": "k'o⁴",
+          "bopomofo": "ㄎㄜˋ",
+          "romatzyh": "keh"
+        },
+        "meanings": [
+          "Ke (c. 2000 BC), seventh of the legendary Flame Emperors, 帝 descended from Shennong 神农 Farmer God"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "剋",
+        "transcriptions": {
+          "pinyin": "kè",
+          "numeric": "ke4",
+          "wadegiles": "k'o⁴",
+          "bopomofo": "ㄎㄜˋ",
+          "romatzyh": "keh"
+        },
+        "meanings": [
+          "variant of 克",
+          "to subdue",
+          "to overthrow",
+          "to restrain"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "尅",
+        "transcriptions": {
+          "pinyin": "kè",
+          "numeric": "ke4",
+          "wadegiles": "k'o⁴",
+          "bopomofo": "ㄎㄜˋ",
+          "romatzyh": "keh"
+        },
+        "meanings": [
+          "variant of 克"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "克服",
+    "radical": "儿",
+    "frequency": 4119,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "克服",
+        "transcriptions": {
+          "pinyin": "kè fú",
+          "numeric": "ke4 fu2",
+          "wadegiles": "k'o⁴ fu²",
+          "bopomofo": "ㄎㄜˋ ㄈㄨˊ",
+          "romatzyh": "keh fwu"
+        },
+        "meanings": [
+          "(try to) overcome (hardships etc)",
+          "to conquer",
+          "to put up with",
+          "to endure"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "刻",
+    "radical": "刂",
+    "frequency": 3756,
+    "pos": [
+      "v",
+      "qt"
+    ],
+    "forms": [
+      {
+        "traditional": "刻",
+        "transcriptions": {
+          "pinyin": "kè",
+          "numeric": "ke4",
+          "wadegiles": "k'o⁴",
+          "bopomofo": "ㄎㄜˋ",
+          "romatzyh": "keh"
+        },
+        "meanings": [
+          "quarter (hour)",
+          "moment",
+          "to carve",
+          "to engrave",
+          "to cut",
+          "oppressive",
+          "classifier for short time intervals"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "客车",
+    "radical": "宀",
+    "frequency": 16300,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "客車",
+        "transcriptions": {
+          "pinyin": "kè chē",
+          "numeric": "ke4 che1",
+          "wadegiles": "k'o⁴ ch'e¹",
+          "bopomofo": "ㄎㄜˋ ㄔㄜ",
+          "romatzyh": "keh che"
+        },
+        "meanings": [
+          "coach",
+          "bus",
+          "passenger train"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "客观",
+    "radical": "宀",
+    "frequency": 5447,
+    "pos": [
+      "a",
+      "n",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "客觀",
+        "transcriptions": {
+          "pinyin": "kè guān",
+          "numeric": "ke4 guan1",
+          "wadegiles": "k'o⁴ kuan¹",
+          "bopomofo": "ㄎㄜˋ ㄍㄨㄢ",
+          "romatzyh": "keh guan"
+        },
+        "meanings": [
+          "objective",
+          "impartial"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "客户",
+    "radical": "宀",
+    "frequency": 1095,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "客戶",
+        "transcriptions": {
+          "pinyin": "kè hù",
+          "numeric": "ke4 hu4",
+          "wadegiles": "k'o⁴ hu⁴",
+          "bopomofo": "ㄎㄜˋ ㄏㄨˋ",
+          "romatzyh": "keh huh"
+        },
+        "meanings": [
+          "client",
+          "customer"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "客气",
+    "radical": "宀",
+    "frequency": 5093,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "客氣",
+        "transcriptions": {
+          "pinyin": "kè qi",
+          "numeric": "ke4 qi5",
+          "wadegiles": "k'o⁴ qi",
+          "bopomofo": "ㄎㄜˋ qi",
+          "romatzyh": "keh qi"
+        },
+        "meanings": [
+          "polite",
+          "courteous",
+          "formal",
+          "modest"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "客人",
+    "radical": "宀",
+    "frequency": 2750,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "客人",
+        "transcriptions": {
+          "pinyin": "kè rén",
+          "numeric": "ke4 ren2",
+          "wadegiles": "k'o⁴ jen²",
+          "bopomofo": "ㄎㄜˋ ㄖㄣˊ",
+          "romatzyh": "keh ren"
+        },
+        "meanings": [
+          "visitor",
+          "guest",
+          "customer",
+          "client"
+        ],
+        "classifiers": [
+          "位"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "客厅",
+    "radical": "宀",
+    "frequency": 5646,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "客廳",
+        "transcriptions": {
+          "pinyin": "kè tīng",
+          "numeric": "ke4 ting1",
+          "wadegiles": "k'o⁴ t'ing¹",
+          "bopomofo": "ㄎㄜˋ ㄊㄧㄥ",
+          "romatzyh": "keh ting"
+        },
+        "meanings": [
+          "drawing room (room for arriving guests)",
+          "living room"
+        ],
+        "classifiers": [
+          "间"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "课",
+    "radical": "讠",
+    "frequency": 1517,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "課",
+        "transcriptions": {
+          "pinyin": "kè",
+          "numeric": "ke4",
+          "wadegiles": "k'o⁴",
+          "bopomofo": "ㄎㄜˋ",
+          "romatzyh": "keh"
+        },
+        "meanings": [
+          "subject",
+          "course",
+          "class",
+          "lesson",
+          "to levy",
+          "tax",
+          "form of divination"
+        ],
+        "classifiers": [
+          "门",
+          "堂",
+          "节"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "课本",
+    "radical": "讠",
+    "frequency": 13062,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "課本",
+        "transcriptions": {
+          "pinyin": "kè běn",
+          "numeric": "ke4 ben3",
+          "wadegiles": "k'o⁴ pen³",
+          "bopomofo": "ㄎㄜˋ ㄅㄣˇ",
+          "romatzyh": "keh been"
+        },
+        "meanings": [
+          "textbook"
+        ],
+        "classifiers": [
+          "本"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "课程",
+    "radical": "讠",
+    "frequency": 3080,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "課程",
+        "transcriptions": {
+          "pinyin": "kè chéng",
+          "numeric": "ke4 cheng2",
+          "wadegiles": "k'o⁴ ch'eng²",
+          "bopomofo": "ㄎㄜˋ ㄔㄥˊ",
+          "romatzyh": "keh cherng"
+        },
+        "meanings": [
+          "course",
+          "academic program"
+        ],
+        "classifiers": [
+          "堂",
+          "节",
+          "门"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "课堂",
+    "radical": "讠",
+    "frequency": 6943,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "課堂",
+        "transcriptions": {
+          "pinyin": "kè táng",
+          "numeric": "ke4 tang2",
+          "wadegiles": "k'o⁴ t'ang²",
+          "bopomofo": "ㄎㄜˋ ㄊㄤˊ",
+          "romatzyh": "keh tarng"
+        },
+        "meanings": [
+          "classroom"
+        ],
+        "classifiers": [
+          "间"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "课题",
+    "radical": "讠",
+    "frequency": 9165,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "課題",
+        "transcriptions": {
+          "pinyin": "kè tí",
+          "numeric": "ke4 ti2",
+          "wadegiles": "k'o⁴ t'i²",
+          "bopomofo": "ㄎㄜˋ ㄊㄧˊ",
+          "romatzyh": "keh tyi"
+        },
+        "meanings": [
+          "task",
+          "problem",
+          "issue"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "课文",
+    "radical": "讠",
+    "frequency": 30576,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "課文",
+        "transcriptions": {
+          "pinyin": "kè wén",
+          "numeric": "ke4 wen2",
+          "wadegiles": "k'o⁴ wen²",
+          "bopomofo": "ㄎㄜˋ ㄨㄣˊ",
+          "romatzyh": "keh wen"
+        },
+        "meanings": [
+          "text"
+        ],
+        "classifiers": [
+          "篇"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "肯",
+    "radical": "⺼",
+    "frequency": 3114,
+    "pos": [
+      "v",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "肎",
+        "transcriptions": {
+          "pinyin": "kěn",
+          "numeric": "ken3",
+          "wadegiles": "k'en³",
+          "bopomofo": "ㄎㄣˇ",
+          "romatzyh": "keen"
+        },
+        "meanings": [
+          "old variant of 肯"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "肯",
+        "transcriptions": {
+          "pinyin": "kěn",
+          "numeric": "ken3",
+          "wadegiles": "k'en³",
+          "bopomofo": "ㄎㄣˇ",
+          "romatzyh": "keen"
+        },
+        "meanings": [
+          "to agree; to consent",
+          "to be willing to"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "肯定",
+    "radical": "⺼",
+    "frequency": 494,
+    "pos": [
+      "d",
+      "v",
+      "vn",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "肯定",
+        "transcriptions": {
+          "pinyin": "kěn dìng",
+          "numeric": "ken3 ding4",
+          "wadegiles": "k'en³ ting⁴",
+          "bopomofo": "ㄎㄣˇ ㄉㄧㄥˋ",
+          "romatzyh": "keen dinq"
+        },
+        "meanings": [
+          "to be certain",
+          "to be positive",
+          "assuredly",
+          "definitely",
+          "to give recognition",
+          "to affirm",
+          "affirmative (answer)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "空",
+    "radical": "穴",
+    "frequency": 1345,
+    "pos": [
+      "a",
+      "v",
+      "g",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "空",
+        "transcriptions": {
+          "pinyin": "kōng",
+          "numeric": "kong1",
+          "wadegiles": "k'ung¹",
+          "bopomofo": "ㄎㄨㄥ",
+          "romatzyh": "kong"
+        },
+        "meanings": [
+          "empty",
+          "air",
+          "sky",
+          "in vain"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "空",
+        "transcriptions": {
+          "pinyin": "kòng",
+          "numeric": "kong4",
+          "wadegiles": "k'ung⁴",
+          "bopomofo": "ㄎㄨㄥˋ",
+          "romatzyh": "konq"
+        },
+        "meanings": [
+          "to empty",
+          "vacant",
+          "unoccupied",
+          "space",
+          "leisure",
+          "free time"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "空调",
+    "radical": "穴",
+    "frequency": 4763,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "空調",
+        "transcriptions": {
+          "pinyin": "kōng tiáo",
+          "numeric": "kong1 tiao2",
+          "wadegiles": "k'ung¹ t'iao²",
+          "bopomofo": "ㄎㄨㄥ ㄊㄧㄠˊ",
+          "romatzyh": "kong tyau"
+        },
+        "meanings": [
+          "air conditioning",
+          "air conditioner (including units that have a heating mode)"
+        ],
+        "classifiers": [
+          "台"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "空儿",
+    "radical": "穴",
+    "frequency": 34728,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "空兒",
+        "transcriptions": {
+          "pinyin": "kòng r",
+          "numeric": "kong4 r5",
+          "wadegiles": "k'ung⁴ r",
+          "bopomofo": "ㄎㄨㄥˋ r",
+          "romatzyh": "konq r"
+        },
+        "meanings": [
+          "spare time",
+          "free time"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "空间",
+    "radical": "穴",
+    "frequency": 1306,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "空間",
+        "transcriptions": {
+          "pinyin": "kōng jiān",
+          "numeric": "kong1 jian1",
+          "wadegiles": "k'ung¹ chien¹",
+          "bopomofo": "ㄎㄨㄥ ㄐㄧㄢ",
+          "romatzyh": "kong jian"
+        },
+        "meanings": [
+          "space; room",
+          "(fig.) scope; leeway",
+          "(astronomy) outer space",
+          "(physics, math.) space"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "空军",
+    "radical": "穴",
+    "frequency": 4866,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "空軍",
+        "transcriptions": {
+          "pinyin": "kōng jūn",
+          "numeric": "kong1 jun1",
+          "wadegiles": "k'ung¹ chün¹",
+          "bopomofo": "ㄎㄨㄥ ㄐㄩㄣ",
+          "romatzyh": "kong jiun"
+        },
+        "meanings": [
+          "air force"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "空气",
+    "radical": "穴",
+    "frequency": 2055,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "空氣",
+        "transcriptions": {
+          "pinyin": "kōng qì",
+          "numeric": "kong1 qi4",
+          "wadegiles": "k'ung¹ ch'i⁴",
+          "bopomofo": "ㄎㄨㄥ ㄑㄧˋ",
+          "romatzyh": "kong chih"
+        },
+        "meanings": [
+          "air",
+          "atmosphere"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "空中",
+    "radical": "穴",
+    "frequency": 3417,
+    "pos": [
+      "s"
+    ],
+    "forms": [
+      {
+        "traditional": "空中",
+        "transcriptions": {
+          "pinyin": "kōng zhōng",
+          "numeric": "kong1 zhong1",
+          "wadegiles": "k'ung¹ chung¹",
+          "bopomofo": "ㄎㄨㄥ ㄓㄨㄥ",
+          "romatzyh": "kong jong"
+        },
+        "meanings": [
+          "in the sky",
+          "in the air"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "恐怕",
+    "radical": "心",
+    "frequency": 2245,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "恐怕",
+        "transcriptions": {
+          "pinyin": "kǒng pà",
+          "numeric": "kong3 pa4",
+          "wadegiles": "k'ung³ p'a⁴",
+          "bopomofo": "ㄎㄨㄥˇ ㄆㄚˋ",
+          "romatzyh": "koong pah"
+        },
+        "meanings": [
+          "fear",
+          "to dread",
+          "I'm afraid that...",
+          "perhaps",
+          "maybe"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "控制",
+    "radical": "扌",
+    "frequency": 569,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "控制",
+        "transcriptions": {
+          "pinyin": "kòng zhì",
+          "numeric": "kong4 zhi4",
+          "wadegiles": "k'ung⁴ chih⁴",
+          "bopomofo": "ㄎㄨㄥˋ ㄓˋ",
+          "romatzyh": "konq jyh"
+        },
+        "meanings": [
+          "to control"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "口",
+    "radical": "口",
+    "frequency": 637,
+    "pos": [
+      "q",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "口",
+        "transcriptions": {
+          "pinyin": "kǒu",
+          "numeric": "kou3",
+          "wadegiles": "k'ou³",
+          "bopomofo": "ㄎㄡˇ",
+          "romatzyh": "koou"
+        },
+        "meanings": [
+          "mouth",
+          "classifier for things with mouths (people, domestic animals, cannons, wells etc)",
+          "classifier for bites or mouthfuls"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "口袋",
+    "radical": "口",
+    "frequency": 4512,
+    "pos": [
+      "n",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "口袋",
+        "transcriptions": {
+          "pinyin": "kǒu dài",
+          "numeric": "kou3 dai4",
+          "wadegiles": "k'ou³ tai⁴",
+          "bopomofo": "ㄎㄡˇ ㄉㄞˋ",
+          "romatzyh": "koou day"
+        },
+        "meanings": [
+          "pocket",
+          "bag",
+          "sack"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "口号",
+    "radical": "口",
+    "frequency": 8137,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "口號",
+        "transcriptions": {
+          "pinyin": "kǒu hào",
+          "numeric": "kou3 hao4",
+          "wadegiles": "k'ou³ hao⁴",
+          "bopomofo": "ㄎㄡˇ ㄏㄠˋ",
+          "romatzyh": "koou haw"
+        },
+        "meanings": [
+          "slogan",
+          "catchphrase"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "口试",
+    "radical": "口",
+    "frequency": 37233,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "口試",
+        "transcriptions": {
+          "pinyin": "kǒu shì",
+          "numeric": "kou3 shi4",
+          "wadegiles": "k'ou³ shih⁴",
+          "bopomofo": "ㄎㄡˇ ㄕˋ",
+          "romatzyh": "koou shyh"
+        },
+        "meanings": [
+          "oral examination",
+          "oral test"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "口语",
+    "radical": "口",
+    "frequency": 20368,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "口語",
+        "transcriptions": {
+          "pinyin": "kǒu yǔ",
+          "numeric": "kou3 yu3",
+          "wadegiles": "k'ou³ yü³",
+          "bopomofo": "ㄎㄡˇ ㄩˇ",
+          "romatzyh": "koou yeu"
+        },
+        "meanings": [
+          "colloquial speech",
+          "spoken language",
+          "vernacular language",
+          "slander",
+          "gossip"
+        ],
+        "classifiers": [
+          "门"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "扣",
+    "radical": "扌",
+    "frequency": 2421,
+    "pos": [
+      "v",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "扣",
+        "transcriptions": {
+          "pinyin": "kòu",
+          "numeric": "kou4",
+          "wadegiles": "k'ou⁴",
+          "bopomofo": "ㄎㄡˋ",
+          "romatzyh": "kow"
+        },
+        "meanings": [
+          "to fasten",
+          "to button",
+          "button",
+          "buckle",
+          "knot",
+          "to arrest",
+          "to confiscate",
+          "to deduct (money)",
+          "discount",
+          "to knock",
+          "to smash, spike or dunk (a ball)",
+          "to cover (with a bowl etc)",
+          "(fig.) to tag a label on sb",
+          "(Tw) (loanword) code"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "釦",
+        "transcriptions": {
+          "pinyin": "kòu",
+          "numeric": "kou4",
+          "wadegiles": "k'ou⁴",
+          "bopomofo": "ㄎㄡˋ",
+          "romatzyh": "kow"
+        },
+        "meanings": [
+          "button"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "哭",
+    "radical": "口",
+    "frequency": 898,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "哭",
+        "transcriptions": {
+          "pinyin": "kū",
+          "numeric": "ku1",
+          "wadegiles": "k'u¹",
+          "bopomofo": "ㄎㄨ",
+          "romatzyh": "ku"
+        },
+        "meanings": [
+          "to cry; to weep"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "苦",
+    "radical": "艹",
+    "frequency": 2331,
+    "pos": [
+      "a",
+      "an",
+      "ad",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "苦",
+        "transcriptions": {
+          "pinyin": "kǔ",
+          "numeric": "ku3",
+          "wadegiles": "k'u³",
+          "bopomofo": "ㄎㄨˇ",
+          "romatzyh": "kuu"
+        },
+        "meanings": [
+          "bitter",
+          "hardship",
+          "pain",
+          "to suffer",
+          "to bring suffering to",
+          "painstakingly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "库",
+    "radical": "广",
+    "frequency": 2737,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "庫",
+        "transcriptions": {
+          "pinyin": "kù",
+          "numeric": "ku4",
+          "wadegiles": "k'u⁴",
+          "bopomofo": "ㄎㄨˋ",
+          "romatzyh": "kuh"
+        },
+        "meanings": [
+          "warehouse",
+          "storehouse",
+          "(file) library"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "裤子",
+    "radical": "衤",
+    "frequency": 3765,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "袴子",
+        "transcriptions": {
+          "pinyin": "kù zi",
+          "numeric": "ku4 zi5",
+          "wadegiles": "k'u⁴ zi",
+          "bopomofo": "ㄎㄨˋ zi",
+          "romatzyh": "kuh zi"
+        },
+        "meanings": [
+          "variant of 裤子, trousers",
+          "pants"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "褲子",
+        "transcriptions": {
+          "pinyin": "kù zi",
+          "numeric": "ku4 zi5",
+          "wadegiles": "k'u⁴ zi",
+          "bopomofo": "ㄎㄨˋ zi",
+          "romatzyh": "kuh zi"
+        },
+        "meanings": [
+          "trousers",
+          "pants"
+        ],
+        "classifiers": [
+          "条"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "酷",
+    "radical": "酉",
+    "frequency": 2111,
+    "pos": [
+      "g",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "酷",
+        "transcriptions": {
+          "pinyin": "kù",
+          "numeric": "ku4",
+          "wadegiles": "k'u⁴",
+          "bopomofo": "ㄎㄨˋ",
+          "romatzyh": "kuh"
+        },
+        "meanings": [
+          "ruthless",
+          "strong (e.g. of wine)",
+          "(loanword) cool",
+          "hip"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "跨",
+    "radical": "足",
+    "frequency": 4234,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "跨",
+        "transcriptions": {
+          "pinyin": "kuà",
+          "numeric": "kua4",
+          "wadegiles": "k'ua⁴",
+          "bopomofo": "ㄎㄨㄚˋ",
+          "romatzyh": "kuah"
+        },
+        "meanings": [
+          "to step across",
+          "to stride over",
+          "to straddle",
+          "to span"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "块",
+    "radical": "土",
+    "frequency": 483,
+    "pos": [
+      "q",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "塊",
+        "transcriptions": {
+          "pinyin": "kuài",
+          "numeric": "kuai4",
+          "wadegiles": "k'uai⁴",
+          "bopomofo": "ㄎㄨㄞˋ",
+          "romatzyh": "kuay"
+        },
+        "meanings": [
+          "lump; chunk; piece",
+          "classifier for pieces of cloth, cake, soap etc",
+          "(coll.) classifier for money and currency units"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "快",
+    "radical": "忄",
+    "frequency": 153,
+    "pos": [
+      "a",
+      "d",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "快",
+        "transcriptions": {
+          "pinyin": "kuài",
+          "numeric": "kuai4",
+          "wadegiles": "k'uai⁴",
+          "bopomofo": "ㄎㄨㄞˋ",
+          "romatzyh": "kuay"
+        },
+        "meanings": [
+          "rapid",
+          "quick",
+          "speed",
+          "rate",
+          "soon",
+          "almost",
+          "to make haste",
+          "clever",
+          "sharp (of knives or wits)",
+          "forthright",
+          "plainspoken",
+          "gratified",
+          "pleased",
+          "pleasant"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "快餐",
+    "radical": "忄",
+    "frequency": 11411,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "快餐",
+        "transcriptions": {
+          "pinyin": "kuài cān",
+          "numeric": "kuai4 can1",
+          "wadegiles": "k'uai⁴ ts'an¹",
+          "bopomofo": "ㄎㄨㄞˋ ㄘㄢ",
+          "romatzyh": "kuay tsan"
+        },
+        "meanings": [
+          "fast food",
+          "snack",
+          "quick meal"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "快车",
+    "radical": "忄",
+    "frequency": 18209,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "快車",
+        "transcriptions": {
+          "pinyin": "kuài chē",
+          "numeric": "kuai4 che1",
+          "wadegiles": "k'uai⁴ ch'e¹",
+          "bopomofo": "ㄎㄨㄞˋ ㄔㄜ",
+          "romatzyh": "kuay che"
+        },
+        "meanings": [
+          "express (train, bus etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "快递",
+    "radical": "忄",
+    "frequency": 7167,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "快遞",
+        "transcriptions": {
+          "pinyin": "kuài dì",
+          "numeric": "kuai4 di4",
+          "wadegiles": "k'uai⁴ ti⁴",
+          "bopomofo": "ㄎㄨㄞˋ ㄉㄧˋ",
+          "romatzyh": "kuay dih"
+        },
+        "meanings": [
+          "express delivery"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "快点儿",
+    "radical": "忄",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "快點兒",
+        "transcriptions": {
+          "pinyin": "kuài diǎn r",
+          "numeric": "kuai4 dian3 r5",
+          "wadegiles": "k'uai⁴ tien³ r",
+          "bopomofo": "ㄎㄨㄞˋ ㄉㄧㄢˇ r",
+          "romatzyh": "kuay dean r"
+        },
+        "meanings": [
+          "erhua variant of 快点"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "快活",
+    "radical": "忄",
+    "frequency": 13797,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "快活",
+        "transcriptions": {
+          "pinyin": "kuài huo",
+          "numeric": "kuai4 huo5",
+          "wadegiles": "k'uai⁴ huo",
+          "bopomofo": "ㄎㄨㄞˋ huo",
+          "romatzyh": "kuay huo"
+        },
+        "meanings": [
+          "happy",
+          "cheerful"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "快乐",
+    "radical": "忄",
+    "frequency": 637,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "快樂",
+        "transcriptions": {
+          "pinyin": "kuài lè",
+          "numeric": "kuai4 le4",
+          "wadegiles": "k'uai⁴ le⁴",
+          "bopomofo": "ㄎㄨㄞˋ ㄌㄜˋ",
+          "romatzyh": "kuay leh"
+        },
+        "meanings": [
+          "happy; joyful"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "快速",
+    "radical": "忄",
+    "frequency": 2309,
+    "pos": [
+      "d",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "快速",
+        "transcriptions": {
+          "pinyin": "kuài sù",
+          "numeric": "kuai4 su4",
+          "wadegiles": "k'uai⁴ su⁴",
+          "bopomofo": "ㄎㄨㄞˋ ㄙㄨˋ",
+          "romatzyh": "kuay suh"
+        },
+        "meanings": [
+          "fast; high-speed; rapid"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "快要",
+    "radical": "忄",
+    "frequency": 5135,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "快要",
+        "transcriptions": {
+          "pinyin": "kuài yào",
+          "numeric": "kuai4 yao4",
+          "wadegiles": "k'uai⁴ yao⁴",
+          "bopomofo": "ㄎㄨㄞˋ ㄧㄠˋ",
+          "romatzyh": "kuay yaw"
+        },
+        "meanings": [
+          "nearly at the point of (doing sth); about to (do sth)"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

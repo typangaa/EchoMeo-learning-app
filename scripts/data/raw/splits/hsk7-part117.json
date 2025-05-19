@@ -1,0 +1,2107 @@
+[
+  {
+    "simplified": "相依为命",
+    "radical": "目",
+    "frequency": 24505,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "相依為命",
+        "transcriptions": {
+          "pinyin": "xiāng yī wéi mìng",
+          "numeric": "xiang1 yi1 wei2 ming4",
+          "wadegiles": "hsiang¹ i¹ wei² ming⁴",
+          "bopomofo": "ㄒㄧㄤ ㄧ ㄨㄟˊ ㄇㄧㄥˋ",
+          "romatzyh": "shiang i wei minq"
+        },
+        "meanings": [
+          "mutually dependent for life (idiom); to rely upon one another for survival",
+          "interdependent"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相应",
+    "radical": "目",
+    "frequency": 6310,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "相應",
+        "transcriptions": {
+          "pinyin": "xiāng yìng",
+          "numeric": "xiang1 ying4",
+          "wadegiles": "hsiang¹ ying⁴",
+          "bopomofo": "ㄒㄧㄤ ㄧㄥˋ",
+          "romatzyh": "shiang yinq"
+        },
+        "meanings": [
+          "to correspond",
+          "answering (one another)",
+          "to agree (among the part)",
+          "corresponding",
+          "relevant",
+          "appropriate",
+          "(modify) accordingly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相遇",
+    "radical": "目",
+    "frequency": 5707,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "相遇",
+        "transcriptions": {
+          "pinyin": "xiāng yù",
+          "numeric": "xiang1 yu4",
+          "wadegiles": "hsiang¹ yü⁴",
+          "bopomofo": "ㄒㄧㄤ ㄩˋ",
+          "romatzyh": "shiang yuh"
+        },
+        "meanings": [
+          "to meet",
+          "to encounter",
+          "to come across"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相约",
+    "radical": "目",
+    "frequency": 16205,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "相約",
+        "transcriptions": {
+          "pinyin": "xiāng yuē",
+          "numeric": "xiang1 yue1",
+          "wadegiles": "hsiang¹ yüeh¹",
+          "bopomofo": "ㄒㄧㄤ ㄩㄝ",
+          "romatzyh": "shiang iue"
+        },
+        "meanings": [
+          "to agree (on a meeting place, date etc)",
+          "to reach agreement",
+          "to make an appointment"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "香",
+    "radical": "香",
+    "frequency": 1953,
+    "pos": [
+      "n",
+      "a",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "香",
+        "transcriptions": {
+          "pinyin": "xiāng",
+          "numeric": "xiang1",
+          "wadegiles": "hsiang¹",
+          "bopomofo": "ㄒㄧㄤ",
+          "romatzyh": "shiang"
+        },
+        "meanings": [
+          "fragrant",
+          "sweet smelling",
+          "aromatic",
+          "savory or appetizing",
+          "(to eat) with relish",
+          "(of sleep) sound",
+          "perfume or spice",
+          "joss or incense stick"
+        ],
+        "classifiers": [
+          "根"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "香肠",
+    "radical": "香",
+    "frequency": 11857,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "香腸",
+        "transcriptions": {
+          "pinyin": "xiāng cháng",
+          "numeric": "xiang1 chang2",
+          "wadegiles": "hsiang¹ ch'ang²",
+          "bopomofo": "ㄒㄧㄤ ㄔㄤˊ",
+          "romatzyh": "shiang charng"
+        },
+        "meanings": [
+          "sausage"
+        ],
+        "classifiers": [
+          "根"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "香蕉",
+    "radical": "香",
+    "frequency": 5473,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "香蕉",
+        "transcriptions": {
+          "pinyin": "xiāng jiāo",
+          "numeric": "xiang1 jiao1",
+          "wadegiles": "hsiang¹ chiao¹",
+          "bopomofo": "ㄒㄧㄤ ㄐㄧㄠ",
+          "romatzyh": "shiang jiau"
+        },
+        "meanings": [
+          "banana"
+        ],
+        "classifiers": [
+          "枝",
+          "根",
+          "个",
+          "把"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "香料",
+    "radical": "香",
+    "frequency": 14321,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "香料",
+        "transcriptions": {
+          "pinyin": "xiāng liào",
+          "numeric": "xiang1 liao4",
+          "wadegiles": "hsiang¹ liao⁴",
+          "bopomofo": "ㄒㄧㄤ ㄌㄧㄠˋ",
+          "romatzyh": "shiang liaw"
+        },
+        "meanings": [
+          "spice",
+          "flavoring",
+          "condiment",
+          "perfume"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "香水",
+    "radical": "香",
+    "frequency": 5737,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "香水",
+        "transcriptions": {
+          "pinyin": "xiāng shuǐ",
+          "numeric": "xiang1 shui3",
+          "wadegiles": "hsiang¹ shui³",
+          "bopomofo": "ㄒㄧㄤ ㄕㄨㄟˇ",
+          "romatzyh": "shiang shoei"
+        },
+        "meanings": [
+          "perfume",
+          "cologne"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "香味",
+    "radical": "香",
+    "frequency": 8749,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "香味",
+        "transcriptions": {
+          "pinyin": "xiāng wèi",
+          "numeric": "xiang1 wei4",
+          "wadegiles": "hsiang¹ wei⁴",
+          "bopomofo": "ㄒㄧㄤ ㄨㄟˋ",
+          "romatzyh": "shiang wey"
+        },
+        "meanings": [
+          "fragrance",
+          "bouquet",
+          "sweet smell"
+        ],
+        "classifiers": [
+          "股"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "香烟",
+    "radical": "香",
+    "frequency": 6871,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "香煙",
+        "transcriptions": {
+          "pinyin": "xiāng yān",
+          "numeric": "xiang1 yan1",
+          "wadegiles": "hsiang¹ yan¹",
+          "bopomofo": "ㄒㄧㄤ ㄧㄢ",
+          "romatzyh": "shiang ian"
+        },
+        "meanings": [
+          "cigarette",
+          "smoke from burning incense"
+        ],
+        "classifiers": [
+          "支",
+          "条"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "香油",
+    "radical": "香",
+    "frequency": 30870,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "香油",
+        "transcriptions": {
+          "pinyin": "xiāng yóu",
+          "numeric": "xiang1 you2",
+          "wadegiles": "hsiang¹ yu²",
+          "bopomofo": "ㄒㄧㄤ ㄧㄡˊ",
+          "romatzyh": "shiang you"
+        },
+        "meanings": [
+          "sesame oil",
+          "perfumed oil"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "箱",
+    "radical": "⺮",
+    "frequency": 2345,
+    "pos": [
+      "g",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "箱",
+        "transcriptions": {
+          "pinyin": "xiāng",
+          "numeric": "xiang1",
+          "wadegiles": "hsiang¹",
+          "bopomofo": "ㄒㄧㄤ",
+          "romatzyh": "shiang"
+        },
+        "meanings": [
+          "box",
+          "trunk",
+          "chest"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "箱子",
+    "radical": "⺮",
+    "frequency": 5854,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "箱子",
+        "transcriptions": {
+          "pinyin": "xiāng zi",
+          "numeric": "xiang1 zi5",
+          "wadegiles": "hsiang¹ zi",
+          "bopomofo": "ㄒㄧㄤ zi",
+          "romatzyh": "shiang zi"
+        },
+        "meanings": [
+          "suitcase",
+          "chest",
+          "box",
+          "case",
+          "trunk"
+        ],
+        "classifiers": [
+          "只",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "镶",
+    "radical": "钅",
+    "frequency": 13195,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "鑲",
+        "transcriptions": {
+          "pinyin": "xiāng",
+          "numeric": "xiang1",
+          "wadegiles": "hsiang¹",
+          "bopomofo": "ㄒㄧㄤ",
+          "romatzyh": "shiang"
+        },
+        "meanings": [
+          "to inlay",
+          "to embed",
+          "ridge",
+          "border"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "镶嵌",
+    "radical": "钅",
+    "frequency": 19000,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "鑲嵌",
+        "transcriptions": {
+          "pinyin": "xiāng qiàn",
+          "numeric": "xiang1 qian4",
+          "wadegiles": "hsiang¹ ch'ien⁴",
+          "bopomofo": "ㄒㄧㄤ ㄑㄧㄢˋ",
+          "romatzyh": "shiang chiann"
+        },
+        "meanings": [
+          "to inlay",
+          "to embed",
+          "to set (e.g. a jewel in a ring)",
+          "tiling",
+          "tesselation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "详尽",
+    "radical": "讠",
+    "frequency": 18410,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "詳盡",
+        "transcriptions": {
+          "pinyin": "xiáng jìn",
+          "numeric": "xiang2 jin4",
+          "wadegiles": "hsiang² chin⁴",
+          "bopomofo": "ㄒㄧㄤˊ ㄐㄧㄣˋ",
+          "romatzyh": "shyang jinn"
+        },
+        "meanings": [
+          "thorough and detailed",
+          "exhaustive",
+          "the tedious details in full"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "详细",
+    "radical": "讠",
+    "frequency": 2875,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "詳細",
+        "transcriptions": {
+          "pinyin": "xiáng xì",
+          "numeric": "xiang2 xi4",
+          "wadegiles": "hsiang² hsi⁴",
+          "bopomofo": "ㄒㄧㄤˊ ㄒㄧˋ",
+          "romatzyh": "shyang shih"
+        },
+        "meanings": [
+          "detailed",
+          "in detail",
+          "minute"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "祥和",
+    "radical": "礻",
+    "frequency": 18109,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "祥和",
+        "transcriptions": {
+          "pinyin": "xiáng hé",
+          "numeric": "xiang2 he2",
+          "wadegiles": "hsiang² ho²",
+          "bopomofo": "ㄒㄧㄤˊ ㄏㄜˊ",
+          "romatzyh": "shyang her"
+        },
+        "meanings": [
+          "auspicious and peaceful"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "享",
+    "radical": "亠",
+    "frequency": 7536,
+    "pos": [
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "享",
+        "transcriptions": {
+          "pinyin": "xiǎng",
+          "numeric": "xiang3",
+          "wadegiles": "hsiang³",
+          "bopomofo": "ㄒㄧㄤˇ",
+          "romatzyh": "sheang"
+        },
+        "meanings": [
+          "to enjoy",
+          "to benefit",
+          "to have the use of"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "亯",
+        "transcriptions": {
+          "pinyin": "xiǎng",
+          "numeric": "xiang3",
+          "wadegiles": "hsiang³",
+          "bopomofo": "ㄒㄧㄤˇ",
+          "romatzyh": "sheang"
+        },
+        "meanings": [
+          "old variant of 享"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "享受",
+    "radical": "亠",
+    "frequency": 1102,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "享受",
+        "transcriptions": {
+          "pinyin": "xiǎng shòu",
+          "numeric": "xiang3 shou4",
+          "wadegiles": "hsiang³ shou⁴",
+          "bopomofo": "ㄒㄧㄤˇ ㄕㄡˋ",
+          "romatzyh": "sheang show"
+        },
+        "meanings": [
+          "to enjoy",
+          "to live it up",
+          "pleasure"
+        ],
+        "classifiers": [
+          "种"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "享有",
+    "radical": "亠",
+    "frequency": 7670,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "享有",
+        "transcriptions": {
+          "pinyin": "xiǎng yǒu",
+          "numeric": "xiang3 you3",
+          "wadegiles": "hsiang³ yu³",
+          "bopomofo": "ㄒㄧㄤˇ ㄧㄡˇ",
+          "romatzyh": "sheang yeou"
+        },
+        "meanings": [
+          "to enjoy (rights, privileges etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "响",
+    "radical": "口",
+    "frequency": 2237,
+    "pos": [
+      "v",
+      "a",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "響",
+        "transcriptions": {
+          "pinyin": "xiǎng",
+          "numeric": "xiang3",
+          "wadegiles": "hsiang³",
+          "bopomofo": "ㄒㄧㄤˇ",
+          "romatzyh": "sheang"
+        },
+        "meanings": [
+          "echo",
+          "sound",
+          "noise",
+          "to make a sound",
+          "to sound",
+          "to ring",
+          "loud",
+          "classifier for noises"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "响亮",
+    "radical": "口",
+    "frequency": 15207,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "響亮",
+        "transcriptions": {
+          "pinyin": "xiǎng liàng",
+          "numeric": "xiang3 liang4",
+          "wadegiles": "hsiang³ liang⁴",
+          "bopomofo": "ㄒㄧㄤˇ ㄌㄧㄤˋ",
+          "romatzyh": "sheang lianq"
+        },
+        "meanings": [
+          "loud and clear",
+          "resounding"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "响起",
+    "radical": "口",
+    "frequency": 6888,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "響起",
+        "transcriptions": {
+          "pinyin": "xiǎng qǐ",
+          "numeric": "xiang3 qi3",
+          "wadegiles": "hsiang³ ch'i³",
+          "bopomofo": "ㄒㄧㄤˇ ㄑㄧˇ",
+          "romatzyh": "sheang chii"
+        },
+        "meanings": [
+          "(of a sound) to come forth",
+          "(of a sound source) to ring out",
+          "to sound",
+          "to go off"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "响声",
+    "radical": "口",
+    "frequency": 16743,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "響聲",
+        "transcriptions": {
+          "pinyin": "xiǎng shēng",
+          "numeric": "xiang3 sheng1",
+          "wadegiles": "hsiang³ sheng¹",
+          "bopomofo": "ㄒㄧㄤˇ ㄕㄥ",
+          "romatzyh": "sheang sheng"
+        },
+        "meanings": [
+          "noise"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "响应",
+    "radical": "口",
+    "frequency": 10032,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "響應",
+        "transcriptions": {
+          "pinyin": "xiǎng yìng",
+          "numeric": "xiang3 ying4",
+          "wadegiles": "hsiang³ ying⁴",
+          "bopomofo": "ㄒㄧㄤˇ ㄧㄥˋ",
+          "romatzyh": "sheang yinq"
+        },
+        "meanings": [
+          "to respond to",
+          "answer"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "想",
+    "radical": "心",
+    "frequency": 44,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "想",
+        "transcriptions": {
+          "pinyin": "xiǎng",
+          "numeric": "xiang3",
+          "wadegiles": "hsiang³",
+          "bopomofo": "ㄒㄧㄤˇ",
+          "romatzyh": "sheang"
+        },
+        "meanings": [
+          "to think (about)",
+          "to think of; to devise",
+          "to think (that); to believe (that)",
+          "to desire; to want (to)",
+          "to miss (feel wistful about the absence of)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "想不到",
+    "radical": "心",
+    "frequency": 5435,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "想不到",
+        "transcriptions": {
+          "pinyin": "xiǎng bu dào",
+          "numeric": "xiang3 bu5 dao4",
+          "wadegiles": "hsiang³ bu tao⁴",
+          "bopomofo": "ㄒㄧㄤˇ bu ㄉㄠˋ",
+          "romatzyh": "sheang bu daw"
+        },
+        "meanings": [
+          "unexpected",
+          "hard to imagine",
+          "it had not occurred to me",
+          "who could have thought that"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "想到",
+    "radical": "心",
+    "frequency": 733,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "想到",
+        "transcriptions": {
+          "pinyin": "xiǎng dào",
+          "numeric": "xiang3 dao4",
+          "wadegiles": "hsiang³ tao⁴",
+          "bopomofo": "ㄒㄧㄤˇ ㄉㄠˋ",
+          "romatzyh": "sheang daw"
+        },
+        "meanings": [
+          "to think of",
+          "to call to mind",
+          "to anticipate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "想法",
+    "radical": "心",
+    "frequency": 1433,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "想法",
+        "transcriptions": {
+          "pinyin": "xiǎng fǎ",
+          "numeric": "xiang3 fa3",
+          "wadegiles": "hsiang³ fa³",
+          "bopomofo": "ㄒㄧㄤˇ ㄈㄚˇ",
+          "romatzyh": "sheang faa"
+        },
+        "meanings": [
+          "way of thinking; opinion; notion",
+          "to think of a way (to do sth)"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "想方设法",
+    "radical": "心",
+    "frequency": 12483,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "想方設法",
+        "transcriptions": {
+          "pinyin": "xiǎng fāng shè fǎ",
+          "numeric": "xiang3 fang1 she4 fa3",
+          "wadegiles": "hsiang³ fang¹ she⁴ fa³",
+          "bopomofo": "ㄒㄧㄤˇ ㄈㄤ ㄕㄜˋ ㄈㄚˇ",
+          "romatzyh": "sheang fang sheh faa"
+        },
+        "meanings": [
+          "to think up every possible method (idiom); to devise ways and means",
+          "to try this, that and the other"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "想念",
+    "radical": "心",
+    "frequency": 3090,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "想念",
+        "transcriptions": {
+          "pinyin": "xiǎng niàn",
+          "numeric": "xiang3 nian4",
+          "wadegiles": "hsiang³ nien⁴",
+          "bopomofo": "ㄒㄧㄤˇ ㄋㄧㄢˋ",
+          "romatzyh": "sheang niann"
+        },
+        "meanings": [
+          "to miss",
+          "to remember with longing",
+          "to long to see again"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "想起",
+    "radical": "心",
+    "frequency": 1611,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "想起",
+        "transcriptions": {
+          "pinyin": "xiǎng qǐ",
+          "numeric": "xiang3 qi3",
+          "wadegiles": "hsiang³ ch'i³",
+          "bopomofo": "ㄒㄧㄤˇ ㄑㄧˇ",
+          "romatzyh": "sheang chii"
+        },
+        "meanings": [
+          "to recall",
+          "to think of",
+          "to call to mind"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "想象",
+    "radical": "心",
+    "frequency": 1608,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "想象",
+        "transcriptions": {
+          "pinyin": "xiǎng xiàng",
+          "numeric": "xiang3 xiang4",
+          "wadegiles": "hsiang³ hsiang⁴",
+          "bopomofo": "ㄒㄧㄤˇ ㄒㄧㄤˋ",
+          "romatzyh": "sheang shianq"
+        },
+        "meanings": [
+          "to imagine; to envision",
+          "imagination"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "向",
+    "radical": "口",
+    "frequency": 165,
+    "pos": [
+      "p",
+      "v",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "向",
+        "transcriptions": {
+          "pinyin": "Xiàng",
+          "numeric": "Xiang4",
+          "wadegiles": "hsiang⁴",
+          "bopomofo": "ㄒㄧㄤˋ",
+          "romatzyh": "shianq"
+        },
+        "meanings": [
+          "surname Xiang"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "向",
+        "transcriptions": {
+          "pinyin": "xiàng",
+          "numeric": "xiang4",
+          "wadegiles": "hsiang⁴",
+          "bopomofo": "ㄒㄧㄤˋ",
+          "romatzyh": "shianq"
+        },
+        "meanings": [
+          "towards",
+          "to face",
+          "to turn towards",
+          "direction",
+          "to support",
+          "to side with",
+          "shortly before",
+          "formerly",
+          "always",
+          "all along",
+          "(suffix) suitable for ...",
+          "oriented to ..."
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "嚮",
+        "transcriptions": {
+          "pinyin": "xiàng",
+          "numeric": "xiang4",
+          "wadegiles": "hsiang⁴",
+          "bopomofo": "ㄒㄧㄤˋ",
+          "romatzyh": "shianq"
+        },
+        "meanings": [
+          "to tend toward",
+          "to guide",
+          "variant of 向"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "曏",
+        "transcriptions": {
+          "pinyin": "xiàng",
+          "numeric": "xiang4",
+          "wadegiles": "hsiang⁴",
+          "bopomofo": "ㄒㄧㄤˋ",
+          "romatzyh": "shianq"
+        },
+        "meanings": [
+          "variant of 向",
+          "direction",
+          "orientation",
+          "to face",
+          "to turn toward",
+          "to",
+          "towards",
+          "shortly before",
+          "formerly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "向导",
+    "radical": "口",
+    "frequency": 15744,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "嚮導",
+        "transcriptions": {
+          "pinyin": "xiàng dǎo",
+          "numeric": "xiang4 dao3",
+          "wadegiles": "hsiang⁴ tao³",
+          "bopomofo": "ㄒㄧㄤˋ ㄉㄠˇ",
+          "romatzyh": "shianq dao"
+        },
+        "meanings": [
+          "guide"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "向来",
+    "radical": "口",
+    "frequency": 12301,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "向來",
+        "transcriptions": {
+          "pinyin": "xiàng lái",
+          "numeric": "xiang4 lai2",
+          "wadegiles": "hsiang⁴ lai²",
+          "bopomofo": "ㄒㄧㄤˋ ㄌㄞˊ",
+          "romatzyh": "shianq lai"
+        },
+        "meanings": [
+          "always (previously)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "向前",
+    "radical": "口",
+    "frequency": 4314,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "向前",
+        "transcriptions": {
+          "pinyin": "xiàng qián",
+          "numeric": "xiang4 qian2",
+          "wadegiles": "hsiang⁴ ch'ien²",
+          "bopomofo": "ㄒㄧㄤˋ ㄑㄧㄢˊ",
+          "romatzyh": "shianq chyan"
+        },
+        "meanings": [
+          "forward",
+          "onward"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "向上",
+    "radical": "口",
+    "frequency": 6564,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "向上",
+        "transcriptions": {
+          "pinyin": "xiàng shàng",
+          "numeric": "xiang4 shang4",
+          "wadegiles": "hsiang⁴ shang⁴",
+          "bopomofo": "ㄒㄧㄤˋ ㄕㄤˋ",
+          "romatzyh": "shianq shanq"
+        },
+        "meanings": [
+          "upward",
+          "up",
+          "to advance",
+          "to try to improve oneself",
+          "to make progress"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "向往",
+    "radical": "口",
+    "frequency": 8559,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "嚮往",
+        "transcriptions": {
+          "pinyin": "xiàng wǎng",
+          "numeric": "xiang4 wang3",
+          "wadegiles": "hsiang⁴ wang³",
+          "bopomofo": "ㄒㄧㄤˋ ㄨㄤˇ",
+          "romatzyh": "shianq woang"
+        },
+        "meanings": [
+          "to yearn for",
+          "to look forward to"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "向着",
+    "radical": "口",
+    "frequency": 13962,
+    "pos": [
+      "p"
+    ],
+    "forms": [
+      {
+        "traditional": "向著",
+        "transcriptions": {
+          "pinyin": "xiàng zhe",
+          "numeric": "xiang4 zhe5",
+          "wadegiles": "hsiang⁴ zhe",
+          "bopomofo": "ㄒㄧㄤˋ zhe",
+          "romatzyh": "shianq zhe"
+        },
+        "meanings": [
+          "towards",
+          "facing (sb or sth)",
+          "(coll.) to side with",
+          "to favor"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "项",
+    "radical": "页",
+    "frequency": 837,
+    "pos": [
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "項",
+        "transcriptions": {
+          "pinyin": "Xiàng",
+          "numeric": "Xiang4",
+          "wadegiles": "hsiang⁴",
+          "bopomofo": "ㄒㄧㄤˋ",
+          "romatzyh": "shianq"
+        },
+        "meanings": [
+          "surname Xiang"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "項",
+        "transcriptions": {
+          "pinyin": "xiàng",
+          "numeric": "xiang4",
+          "wadegiles": "hsiang⁴",
+          "bopomofo": "ㄒㄧㄤˋ",
+          "romatzyh": "shianq"
+        },
+        "meanings": [
+          "back of neck",
+          "item",
+          "thing",
+          "term (in a mathematical formula)",
+          "sum (of money)",
+          "classifier for principles, items, clauses, tasks, research projects etc"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "项链",
+    "radical": "页",
+    "frequency": 6716,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "項鏈",
+        "transcriptions": {
+          "pinyin": "xiàng liàn",
+          "numeric": "xiang4 lian4",
+          "wadegiles": "hsiang⁴ lien⁴",
+          "bopomofo": "ㄒㄧㄤˋ ㄌㄧㄢˋ",
+          "romatzyh": "shianq liann"
+        },
+        "meanings": [
+          "necklace"
+        ],
+        "classifiers": [
+          "条"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "项目",
+    "radical": "页",
+    "frequency": 908,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "項目",
+        "transcriptions": {
+          "pinyin": "xiàng mù",
+          "numeric": "xiang4 mu4",
+          "wadegiles": "hsiang⁴ mu⁴",
+          "bopomofo": "ㄒㄧㄤˋ ㄇㄨˋ",
+          "romatzyh": "shianq muh"
+        },
+        "meanings": [
+          "item",
+          "project",
+          "(sports) event"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "象征",
+    "radical": "豕",
+    "frequency": 5049,
+    "pos": [
+      "n",
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "象徵",
+        "transcriptions": {
+          "pinyin": "xiàng zhēng",
+          "numeric": "xiang4 zheng1",
+          "wadegiles": "hsiang⁴ cheng¹",
+          "bopomofo": "ㄒㄧㄤˋ ㄓㄥ",
+          "romatzyh": "shianq jeng"
+        },
+        "meanings": [
+          "emblem",
+          "symbol",
+          "token",
+          "badge",
+          "to symbolize",
+          "to signify",
+          "to stand for"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "像",
+    "radical": "亻",
+    "frequency": 151,
+    "pos": [
+      "v",
+      "p",
+      "n",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "像",
+        "transcriptions": {
+          "pinyin": "xiàng",
+          "numeric": "xiang4",
+          "wadegiles": "hsiang⁴",
+          "bopomofo": "ㄒㄧㄤˋ",
+          "romatzyh": "shianq"
+        },
+        "meanings": [
+          "to resemble",
+          "to be like",
+          "to look as if",
+          "such as",
+          "appearance",
+          "image",
+          "portrait",
+          "image under a mapping (math.)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "像样",
+    "radical": "亻",
+    "frequency": 14848,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "像樣",
+        "transcriptions": {
+          "pinyin": "xiàng yàng",
+          "numeric": "xiang4 yang4",
+          "wadegiles": "hsiang⁴ yang⁴",
+          "bopomofo": "ㄒㄧㄤˋ ㄧㄤˋ",
+          "romatzyh": "shianq yanq"
+        },
+        "meanings": [
+          "presentable",
+          "decent",
+          "up to par"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "橡胶",
+    "radical": "木",
+    "frequency": 7485,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "橡膠",
+        "transcriptions": {
+          "pinyin": "xiàng jiāo",
+          "numeric": "xiang4 jiao1",
+          "wadegiles": "hsiang⁴ chiao¹",
+          "bopomofo": "ㄒㄧㄤˋ ㄐㄧㄠ",
+          "romatzyh": "shianq jiau"
+        },
+        "meanings": [
+          "rubber",
+          "caoutchouc"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "橡皮",
+    "radical": "木",
+    "frequency": 17575,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "橡皮",
+        "transcriptions": {
+          "pinyin": "xiàng pí",
+          "numeric": "xiang4 pi2",
+          "wadegiles": "hsiang⁴ p'i²",
+          "bopomofo": "ㄒㄧㄤˋ ㄆㄧˊ",
+          "romatzyh": "shianq pyi"
+        },
+        "meanings": [
+          "rubber",
+          "an eraser"
+        ],
+        "classifiers": [
+          "块"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "消",
+    "radical": "氵",
+    "frequency": 5407,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "消",
+        "transcriptions": {
+          "pinyin": "xiāo",
+          "numeric": "xiao1",
+          "wadegiles": "hsiao¹",
+          "bopomofo": "ㄒㄧㄠ",
+          "romatzyh": "shiau"
+        },
+        "meanings": [
+          "to diminish; to subside",
+          "to consume; to reduce",
+          "to idle away (the time)",
+          "(after 不 or 只 or 何 etc) to need; to require; to take"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "消沉",
+    "radical": "氵",
+    "frequency": 18836,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "消沉",
+        "transcriptions": {
+          "pinyin": "xiāo chén",
+          "numeric": "xiao1 chen2",
+          "wadegiles": "hsiao¹ ch'en²",
+          "bopomofo": "ㄒㄧㄠ ㄔㄣˊ",
+          "romatzyh": "shiau chern"
+        },
+        "meanings": [
+          "depressed",
+          "bad mood",
+          "low spirit"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "消除",
+    "radical": "氵",
+    "frequency": 3789,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "消除",
+        "transcriptions": {
+          "pinyin": "xiāo chú",
+          "numeric": "xiao1 chu2",
+          "wadegiles": "hsiao¹ ch'u²",
+          "bopomofo": "ㄒㄧㄠ ㄔㄨˊ",
+          "romatzyh": "shiau chwu"
+        },
+        "meanings": [
+          "to eliminate",
+          "to remove"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "消毒",
+    "radical": "氵",
+    "frequency": 7069,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "消毒",
+        "transcriptions": {
+          "pinyin": "xiāo dú",
+          "numeric": "xiao1 du2",
+          "wadegiles": "hsiao¹ tu²",
+          "bopomofo": "ㄒㄧㄠ ㄉㄨˊ",
+          "romatzyh": "shiau dwu"
+        },
+        "meanings": [
+          "to disinfect; to sterilize"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "消防",
+    "radical": "氵",
+    "frequency": 3685,
+    "pos": [
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "消防",
+        "transcriptions": {
+          "pinyin": "xiāo fáng",
+          "numeric": "xiao1 fang2",
+          "wadegiles": "hsiao¹ fang²",
+          "bopomofo": "ㄒㄧㄠ ㄈㄤˊ",
+          "romatzyh": "shiau farng"
+        },
+        "meanings": [
+          "firefighting",
+          "fire control"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "消费",
+    "radical": "氵",
+    "frequency": 4382,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "消費",
+        "transcriptions": {
+          "pinyin": "xiāo fèi",
+          "numeric": "xiao1 fei4",
+          "wadegiles": "hsiao¹ fei⁴",
+          "bopomofo": "ㄒㄧㄠ ㄈㄟˋ",
+          "romatzyh": "shiau fey"
+        },
+        "meanings": [
+          "to consume",
+          "to spend"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "消费者",
+    "radical": "氵",
+    "frequency": 7354,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "消費者",
+        "transcriptions": {
+          "pinyin": "xiāo fèi zhě",
+          "numeric": "xiao1 fei4 zhe3",
+          "wadegiles": "hsiao¹ fei⁴ che³",
+          "bopomofo": "ㄒㄧㄠ ㄈㄟˋ ㄓㄜˇ",
+          "romatzyh": "shiau fey jee"
+        },
+        "meanings": [
+          "consumer"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "消耗",
+    "radical": "氵",
+    "frequency": 6744,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "消耗",
+        "transcriptions": {
+          "pinyin": "xiāo hào",
+          "numeric": "xiao1 hao4",
+          "wadegiles": "hsiao¹ hao⁴",
+          "bopomofo": "ㄒㄧㄠ ㄏㄠˋ",
+          "romatzyh": "shiau haw"
+        },
+        "meanings": [
+          "to use up",
+          "to consume"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "消化",
+    "radical": "氵",
+    "frequency": 5399,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "消化",
+        "transcriptions": {
+          "pinyin": "xiāo huà",
+          "numeric": "xiao1 hua4",
+          "wadegiles": "hsiao¹ hua⁴",
+          "bopomofo": "ㄒㄧㄠ ㄏㄨㄚˋ",
+          "romatzyh": "shiau huah"
+        },
+        "meanings": [
+          "to digest (food)",
+          "(fig.) to absorb (information etc); to assimilate; to process"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "消极",
+    "radical": "氵",
+    "frequency": 7959,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "消極",
+        "transcriptions": {
+          "pinyin": "xiāo jí",
+          "numeric": "xiao1 ji2",
+          "wadegiles": "hsiao¹ chi²",
+          "bopomofo": "ㄒㄧㄠ ㄐㄧˊ",
+          "romatzyh": "shiau jyi"
+        },
+        "meanings": [
+          "negative",
+          "passive",
+          "inactive"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "消灭",
+    "radical": "氵",
+    "frequency": 4105,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "消滅",
+        "transcriptions": {
+          "pinyin": "xiāo miè",
+          "numeric": "xiao1 mie4",
+          "wadegiles": "hsiao¹ mieh⁴",
+          "bopomofo": "ㄒㄧㄠ ㄇㄧㄝˋ",
+          "romatzyh": "shiau mieh"
+        },
+        "meanings": [
+          "to put an end to",
+          "to annihilate",
+          "to cause to perish",
+          "to perish",
+          "annihilation (in quantum field theory)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "消遣",
+    "radical": "氵",
+    "frequency": 15871,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "消遣",
+        "transcriptions": {
+          "pinyin": "xiāo qiǎn",
+          "numeric": "xiao1 qian3",
+          "wadegiles": "hsiao¹ ch'ien³",
+          "bopomofo": "ㄒㄧㄠ ㄑㄧㄢˇ",
+          "romatzyh": "shiau chean"
+        },
+        "meanings": [
+          "to while the time away",
+          "amusement",
+          "pastime",
+          "recreation",
+          "to make sport of"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "消失",
+    "radical": "氵",
+    "frequency": 1528,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "消失",
+        "transcriptions": {
+          "pinyin": "xiāo shī",
+          "numeric": "xiao1 shi1",
+          "wadegiles": "hsiao¹ shih¹",
+          "bopomofo": "ㄒㄧㄠ ㄕ",
+          "romatzyh": "shiau shy"
+        },
+        "meanings": [
+          "to disappear; to fade away"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "消息",
+    "radical": "氵",
+    "frequency": 448,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "消息",
+        "transcriptions": {
+          "pinyin": "xiāo xi",
+          "numeric": "xiao1 xi5",
+          "wadegiles": "hsiao¹ xi",
+          "bopomofo": "ㄒㄧㄠ xi",
+          "romatzyh": "shiau xi"
+        },
+        "meanings": [
+          "news",
+          "information"
+        ],
+        "classifiers": [
+          "条"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "萧条",
+    "radical": "艹",
+    "frequency": 16548,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "蕭條",
+        "transcriptions": {
+          "pinyin": "xiāo tiáo",
+          "numeric": "xiao1 tiao2",
+          "wadegiles": "hsiao¹ t'iao²",
+          "bopomofo": "ㄒㄧㄠ ㄊㄧㄠˊ",
+          "romatzyh": "shiau tyau"
+        },
+        "meanings": [
+          "bleak; desolate",
+          "(economics) in a slump; sluggish; depressed"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "销",
+    "radical": "钅",
+    "frequency": 11332,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "銷",
+        "transcriptions": {
+          "pinyin": "xiāo",
+          "numeric": "xiao1",
+          "wadegiles": "hsiao¹",
+          "bopomofo": "ㄒㄧㄠ",
+          "romatzyh": "shiau"
+        },
+        "meanings": [
+          "to melt (metal)",
+          "to cancel; to annul",
+          "to sell",
+          "to expend; to spend",
+          "pin; bolt",
+          "to fasten with a pin or bolt"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "销毁",
+    "radical": "钅",
+    "frequency": 9028,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "銷毀",
+        "transcriptions": {
+          "pinyin": "xiāo huǐ",
+          "numeric": "xiao1 hui3",
+          "wadegiles": "hsiao¹ hui³",
+          "bopomofo": "ㄒㄧㄠ ㄏㄨㄟˇ",
+          "romatzyh": "shiau hoei"
+        },
+        "meanings": [
+          "to destroy (by melting or burning)",
+          "to obliterate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "销量",
+    "radical": "钅",
+    "frequency": 6489,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "銷量",
+        "transcriptions": {
+          "pinyin": "xiāo liàng",
+          "numeric": "xiao1 liang4",
+          "wadegiles": "hsiao¹ liang⁴",
+          "bopomofo": "ㄒㄧㄠ ㄌㄧㄤˋ",
+          "romatzyh": "shiau lianq"
+        },
+        "meanings": [
+          "sales volume"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "销售",
+    "radical": "钅",
+    "frequency": 1999,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "銷售",
+        "transcriptions": {
+          "pinyin": "xiāo shòu",
+          "numeric": "xiao1 shou4",
+          "wadegiles": "hsiao¹ shou⁴",
+          "bopomofo": "ㄒㄧㄠ ㄕㄡˋ",
+          "romatzyh": "shiau show"
+        },
+        "meanings": [
+          "to sell",
+          "to market",
+          "sales (representative, agreement etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "潇洒",
+    "radical": "氵",
+    "frequency": 10096,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "瀟灑",
+        "transcriptions": {
+          "pinyin": "xiāo sǎ",
+          "numeric": "xiao1 sa3",
+          "wadegiles": "hsiao¹ sa³",
+          "bopomofo": "ㄒㄧㄠ ㄙㄚˇ",
+          "romatzyh": "shiau saa"
+        },
+        "meanings": [
+          "confident and at ease",
+          "free and easy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "小",
+    "radical": "小",
+    "frequency": 100,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "小",
+        "transcriptions": {
+          "pinyin": "xiǎo",
+          "numeric": "xiao3",
+          "wadegiles": "hsiao³",
+          "bopomofo": "ㄒㄧㄠˇ",
+          "romatzyh": "sheau"
+        },
+        "meanings": [
+          "small",
+          "tiny",
+          "few",
+          "young"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "小吃",
+    "radical": "小",
+    "frequency": 10263,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "小吃",
+        "transcriptions": {
+          "pinyin": "xiǎo chī",
+          "numeric": "xiao3 chi1",
+          "wadegiles": "hsiao³ ch'ih¹",
+          "bopomofo": "ㄒㄧㄠˇ ㄔ",
+          "romatzyh": "sheau chy"
+        },
+        "meanings": [
+          "snack",
+          "refreshments"
+        ],
+        "classifiers": [
+          "家"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "小丑",
+    "radical": "小",
+    "frequency": 10969,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "小丑",
+        "transcriptions": {
+          "pinyin": "xiǎo chǒu",
+          "numeric": "xiao3 chou3",
+          "wadegiles": "hsiao³ ch'ou³",
+          "bopomofo": "ㄒㄧㄠˇ ㄔㄡˇ",
+          "romatzyh": "sheau choou"
+        },
+        "meanings": [
+          "clown"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "小贩",
+    "radical": "小",
+    "frequency": 16732,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "小販",
+        "transcriptions": {
+          "pinyin": "xiǎo fàn",
+          "numeric": "xiao3 fan4",
+          "wadegiles": "hsiao³ fan⁴",
+          "bopomofo": "ㄒㄧㄠˇ ㄈㄢˋ",
+          "romatzyh": "sheau fann"
+        },
+        "meanings": [
+          "peddler",
+          "hawker"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "小费",
+    "radical": "小",
+    "frequency": 17358,
+    "pos": [
+      "nr",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "小費",
+        "transcriptions": {
+          "pinyin": "xiǎo fèi",
+          "numeric": "xiao3 fei4",
+          "wadegiles": "hsiao³ fei⁴",
+          "bopomofo": "ㄒㄧㄠˇ ㄈㄟˋ",
+          "romatzyh": "sheau fey"
+        },
+        "meanings": [
+          "tip",
+          "gratuity"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

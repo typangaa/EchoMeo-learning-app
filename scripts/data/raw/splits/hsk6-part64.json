@@ -1,0 +1,2189 @@
+[
+  {
+    "simplified": "有时",
+    "radical": "月",
+    "frequency": 1568,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "有時",
+        "transcriptions": {
+          "pinyin": "yǒu shí",
+          "numeric": "you3 shi2",
+          "wadegiles": "yu³ shih²",
+          "bopomofo": "ㄧㄡˇ ㄕˊ",
+          "romatzyh": "yeou shyr"
+        },
+        "meanings": [
+          "sometimes",
+          "now and then"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "有时候",
+    "radical": "月",
+    "frequency": 1725,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "有時候",
+        "transcriptions": {
+          "pinyin": "yǒu shí hou",
+          "numeric": "you3 shi2 hou5",
+          "wadegiles": "yu³ shih² hou",
+          "bopomofo": "ㄧㄡˇ ㄕˊ hou",
+          "romatzyh": "yeou shyr hou"
+        },
+        "meanings": [
+          "sometimes"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "有事",
+    "radical": "月",
+    "frequency": 6982,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "有事",
+        "transcriptions": {
+          "pinyin": "yǒu shì",
+          "numeric": "you3 shi4",
+          "wadegiles": "yu³ shih⁴",
+          "bopomofo": "ㄧㄡˇ ㄕˋ",
+          "romatzyh": "yeou shyh"
+        },
+        "meanings": [
+          "to be occupied with sth",
+          "to have sth on one's mind",
+          "there is something the matter"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "有限",
+    "radical": "月",
+    "frequency": 4159,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "有限",
+        "transcriptions": {
+          "pinyin": "yǒu xiàn",
+          "numeric": "you3 xian4",
+          "wadegiles": "yu³ hsien⁴",
+          "bopomofo": "ㄧㄡˇ ㄒㄧㄢˋ",
+          "romatzyh": "yeou shiann"
+        },
+        "meanings": [
+          "limited",
+          "finite"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "有效",
+    "radical": "月",
+    "frequency": 1379,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "有效",
+        "transcriptions": {
+          "pinyin": "yǒu xiào",
+          "numeric": "you3 xiao4",
+          "wadegiles": "yu³ hsiao⁴",
+          "bopomofo": "ㄧㄡˇ ㄒㄧㄠˋ",
+          "romatzyh": "yeou shiaw"
+        },
+        "meanings": [
+          "effective",
+          "in effect",
+          "valid"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "有些",
+    "radical": "月",
+    "frequency": 394,
+    "pos": [
+      "r"
+    ],
+    "forms": [
+      {
+        "traditional": "有些",
+        "transcriptions": {
+          "pinyin": "yǒu xiē",
+          "numeric": "you3 xie1",
+          "wadegiles": "yu³ hsieh¹",
+          "bopomofo": "ㄧㄡˇ ㄒㄧㄝ",
+          "romatzyh": "yeou shie"
+        },
+        "meanings": [
+          "some",
+          "somewhat"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "有些",
+    "radical": "月",
+    "frequency": 394,
+    "pos": [
+      "r"
+    ],
+    "forms": [
+      {
+        "traditional": "有些",
+        "transcriptions": {
+          "pinyin": "yǒu xiē",
+          "numeric": "you3 xie1",
+          "wadegiles": "yu³ hsieh¹",
+          "bopomofo": "ㄧㄡˇ ㄒㄧㄝ",
+          "romatzyh": "yeou shie"
+        },
+        "meanings": [
+          "some",
+          "somewhat"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "有一点儿",
+    "radical": "月",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "有一點兒",
+        "transcriptions": {
+          "pinyin": "yǒu yī diǎn r",
+          "numeric": "you3 yi1 dian3 r5",
+          "wadegiles": "yu³ i¹ tien³ r",
+          "bopomofo": "ㄧㄡˇ ㄧ ㄉㄧㄢˇ r",
+          "romatzyh": "yeou i dean r"
+        },
+        "meanings": [
+          "a bit",
+          "a little"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "有一些",
+    "radical": "月",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "有一些",
+        "transcriptions": {
+          "pinyin": "yǒu yī xiē",
+          "numeric": "you3 yi1 xie1",
+          "wadegiles": "yu³ i¹ hsieh¹",
+          "bopomofo": "ㄧㄡˇ ㄧ ㄒㄧㄝ",
+          "romatzyh": "yeou i shie"
+        },
+        "meanings": [
+          "somewhat",
+          "rather",
+          "some"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "有意思",
+    "radical": "月",
+    "frequency": 2983,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "有意思",
+        "transcriptions": {
+          "pinyin": "yǒu yì si",
+          "numeric": "you3 yi4 si5",
+          "wadegiles": "yu³ i⁴ si",
+          "bopomofo": "ㄧㄡˇ ㄧˋ si",
+          "romatzyh": "yeou yih si"
+        },
+        "meanings": [
+          "interesting",
+          "meaningful",
+          "enjoyable",
+          "fun"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "有用",
+    "radical": "月",
+    "frequency": 4834,
+    "pos": [
+      "a",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "有用",
+        "transcriptions": {
+          "pinyin": "yǒu yòng",
+          "numeric": "you3 yong4",
+          "wadegiles": "yu³ yung⁴",
+          "bopomofo": "ㄧㄡˇ ㄩㄥˋ",
+          "romatzyh": "yeou yonq"
+        },
+        "meanings": [
+          "useful"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "有着",
+    "radical": "月",
+    "frequency": 2225,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "有著",
+        "transcriptions": {
+          "pinyin": "yǒu zhe",
+          "numeric": "you3 zhe5",
+          "wadegiles": "yu³ zhe",
+          "bopomofo": "ㄧㄡˇ zhe",
+          "romatzyh": "yeou zhe"
+        },
+        "meanings": [
+          "to have",
+          "to possess"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "又",
+    "radical": "又",
+    "frequency": 91,
+    "pos": [
+      "d",
+      "c"
+    ],
+    "forms": [
+      {
+        "traditional": "又",
+        "transcriptions": {
+          "pinyin": "yòu",
+          "numeric": "you4",
+          "wadegiles": "yu⁴",
+          "bopomofo": "ㄧㄡˋ",
+          "romatzyh": "yow"
+        },
+        "meanings": [
+          "(once) again",
+          "also",
+          "both... and...",
+          "and yet",
+          "(used for emphasis) anyway"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "右",
+    "radical": "口",
+    "frequency": 1481,
+    "pos": [
+      "f",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "右",
+        "transcriptions": {
+          "pinyin": "yòu",
+          "numeric": "you4",
+          "wadegiles": "yu⁴",
+          "bopomofo": "ㄧㄡˋ",
+          "romatzyh": "yow"
+        },
+        "meanings": [
+          "(bound form) right; right-hand side",
+          "(bound form) (politics) right of center",
+          "(bound form) (old) west",
+          "(literary) the right side as the side of precedence"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "右边",
+    "radical": "口",
+    "frequency": 2906,
+    "pos": [
+      "f"
+    ],
+    "forms": [
+      {
+        "traditional": "右邊",
+        "transcriptions": {
+          "pinyin": "yòu bian",
+          "numeric": "you4 bian5",
+          "wadegiles": "yu⁴ bian",
+          "bopomofo": "ㄧㄡˋ bian",
+          "romatzyh": "yow bian"
+        },
+        "meanings": [
+          "right side",
+          "right, to the right"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "幼儿园",
+    "radical": "幺",
+    "frequency": 5893,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "幼兒園",
+        "transcriptions": {
+          "pinyin": "yòu ér yuán",
+          "numeric": "you4 er2 yuan2",
+          "wadegiles": "yu⁴ erh² yüan²",
+          "bopomofo": "ㄧㄡˋ ㄦˊ ㄩㄢˊ",
+          "romatzyh": "yow erl yuan"
+        },
+        "meanings": [
+          "kindergarten",
+          "nursery school"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "友好",
+    "radical": "又",
+    "frequency": 3210,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "友好",
+        "transcriptions": {
+          "pinyin": "Yǒu hǎo",
+          "numeric": "You3 hao3",
+          "wadegiles": "yu³ hao³",
+          "bopomofo": "ㄧㄡˇ ㄏㄠˇ",
+          "romatzyh": "yeou hao"
+        },
+        "meanings": [
+          "Youhao district of Yichun city 市, Heilongjiang"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "友好",
+        "transcriptions": {
+          "pinyin": "yǒu hǎo",
+          "numeric": "you3 hao3",
+          "wadegiles": "yu³ hao³",
+          "bopomofo": "ㄧㄡˇ ㄏㄠˇ",
+          "romatzyh": "yeou hao"
+        },
+        "meanings": [
+          "friendly; amicable",
+          "close friend"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "友谊",
+    "radical": "又",
+    "frequency": 3801,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "友誼",
+        "transcriptions": {
+          "pinyin": "yǒu yì",
+          "numeric": "you3 yi4",
+          "wadegiles": "yu³ i⁴",
+          "bopomofo": "ㄧㄡˇ ㄧˋ",
+          "romatzyh": "yeou yih"
+        },
+        "meanings": [
+          "companionship",
+          "fellowship",
+          "friendship"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "于",
+    "radical": "二",
+    "frequency": 246,
+    "pos": [
+      "p",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "于",
+        "transcriptions": {
+          "pinyin": "Yú",
+          "numeric": "Yu2",
+          "wadegiles": "yü²",
+          "bopomofo": "ㄩˊ",
+          "romatzyh": "yu"
+        },
+        "meanings": [
+          "surname Yu"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "于",
+        "transcriptions": {
+          "pinyin": "yú",
+          "numeric": "yu2",
+          "wadegiles": "yü²",
+          "bopomofo": "ㄩˊ",
+          "romatzyh": "yu"
+        },
+        "meanings": [
+          "to go",
+          "to take",
+          "sentence-final interrogative particle",
+          "variant of 于"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "於",
+        "transcriptions": {
+          "pinyin": "yú",
+          "numeric": "yu2",
+          "wadegiles": "yü²",
+          "bopomofo": "ㄩˊ",
+          "romatzyh": "yu"
+        },
+        "meanings": [
+          "(of time or place) in; at; on",
+          "(indicating any indirect relation) to; toward; vis-à-vis; with regard to; for",
+          "(indicating a source) from; out of",
+          "(used in comparison) than",
+          "(used in the passive voice) by"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "于是",
+    "radical": "二",
+    "frequency": 1151,
+    "pos": [
+      "cc"
+    ],
+    "forms": [
+      {
+        "traditional": "於是",
+        "transcriptions": {
+          "pinyin": "yú shì",
+          "numeric": "yu2 shi4",
+          "wadegiles": "yü² shih⁴",
+          "bopomofo": "ㄩˊ ㄕˋ",
+          "romatzyh": "yu shyh"
+        },
+        "meanings": [
+          "thereupon; as a result; consequently; thus; hence"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "鱼",
+    "radical": "鱼",
+    "frequency": 1189,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "魚",
+        "transcriptions": {
+          "pinyin": "Yú",
+          "numeric": "Yu2",
+          "wadegiles": "yü²",
+          "bopomofo": "ㄩˊ",
+          "romatzyh": "yu"
+        },
+        "meanings": [
+          "surname Yu"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "魚",
+        "transcriptions": {
+          "pinyin": "yú",
+          "numeric": "yu2",
+          "wadegiles": "yü²",
+          "bopomofo": "ㄩˊ",
+          "romatzyh": "yu"
+        },
+        "meanings": [
+          "fish"
+        ],
+        "classifiers": [
+          "条",
+          "尾"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "娱乐",
+    "radical": "女",
+    "frequency": 2283,
+    "pos": [
+      "vn",
+      "v",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "娛樂",
+        "transcriptions": {
+          "pinyin": "yú lè",
+          "numeric": "yu2 le4",
+          "wadegiles": "yü² le⁴",
+          "bopomofo": "ㄩˊ ㄌㄜˋ",
+          "romatzyh": "yu leh"
+        },
+        "meanings": [
+          "to entertain",
+          "to amuse",
+          "entertainment",
+          "recreation",
+          "amusement",
+          "hobby",
+          "fun",
+          "joy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "愉快",
+    "radical": "忄",
+    "frequency": 2823,
+    "pos": [
+      "a",
+      "ad",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "愉快",
+        "transcriptions": {
+          "pinyin": "yú kuài",
+          "numeric": "yu2 kuai4",
+          "wadegiles": "yü² k'uai⁴",
+          "bopomofo": "ㄩˊ ㄎㄨㄞˋ",
+          "romatzyh": "yu kuay"
+        },
+        "meanings": [
+          "cheerful",
+          "cheerily",
+          "delightful",
+          "pleasant",
+          "pleasantly",
+          "pleasing",
+          "happy",
+          "delighted"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "与",
+    "radical": "一",
+    "frequency": 147,
+    "pos": [
+      "p",
+      "cc"
+    ],
+    "forms": [
+      {
+        "traditional": "與",
+        "transcriptions": {
+          "pinyin": "yú",
+          "numeric": "yu2",
+          "wadegiles": "yü²",
+          "bopomofo": "ㄩˊ",
+          "romatzyh": "yu"
+        },
+        "meanings": [
+          "variant of 欤"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "與",
+        "transcriptions": {
+          "pinyin": "yǔ",
+          "numeric": "yu3",
+          "wadegiles": "yü³",
+          "bopomofo": "ㄩˇ",
+          "romatzyh": "yeu"
+        },
+        "meanings": [
+          "and",
+          "to give",
+          "together with"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "與",
+        "transcriptions": {
+          "pinyin": "yù",
+          "numeric": "yu4",
+          "wadegiles": "yü⁴",
+          "bopomofo": "ㄩˋ",
+          "romatzyh": "yuh"
+        },
+        "meanings": [
+          "to take part in"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "宇航员",
+    "radical": "宀",
+    "frequency": 9650,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "宇航員",
+        "transcriptions": {
+          "pinyin": "yǔ háng yuán",
+          "numeric": "yu3 hang2 yuan2",
+          "wadegiles": "yü³ hang² yüan²",
+          "bopomofo": "ㄩˇ ㄏㄤˊ ㄩㄢˊ",
+          "romatzyh": "yeu harng yuan"
+        },
+        "meanings": [
+          "astronaut"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "羽毛球",
+    "radical": "羽",
+    "frequency": 16966,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "羽毛球",
+        "transcriptions": {
+          "pinyin": "yǔ máo qiú",
+          "numeric": "yu3 mao2 qiu2",
+          "wadegiles": "yü³ mao² ch'iu²",
+          "bopomofo": "ㄩˇ ㄇㄠˊ ㄑㄧㄡˊ",
+          "romatzyh": "yeu mau chyou"
+        },
+        "meanings": [
+          "shuttlecock",
+          "badminton"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "羽绒服",
+    "radical": "羽",
+    "frequency": 37036,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "羽絨服",
+        "transcriptions": {
+          "pinyin": "yǔ róng fú",
+          "numeric": "yu3 rong2 fu2",
+          "wadegiles": "yü³ jung² fu²",
+          "bopomofo": "ㄩˇ ㄖㄨㄥˊ ㄈㄨˊ",
+          "romatzyh": "yeu rong fwu"
+        },
+        "meanings": [
+          "down-filled garment"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "雨",
+    "radical": "雨",
+    "frequency": 1929,
+    "pos": [
+      "n",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "雨",
+        "transcriptions": {
+          "pinyin": "yǔ",
+          "numeric": "yu3",
+          "wadegiles": "yü³",
+          "bopomofo": "ㄩˇ",
+          "romatzyh": "yeu"
+        },
+        "meanings": [
+          "rain"
+        ],
+        "classifiers": [
+          "阵",
+          "场"
+        ]
+      },
+      {
+        "traditional": "雨",
+        "transcriptions": {
+          "pinyin": "yù",
+          "numeric": "yu4",
+          "wadegiles": "yü⁴",
+          "bopomofo": "ㄩˋ",
+          "romatzyh": "yuh"
+        },
+        "meanings": [
+          "(literary) to rain",
+          "(of rain, snow etc) to fall",
+          "to precipitate",
+          "to wet"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "雨水",
+    "radical": "雨",
+    "frequency": 11013,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "雨水",
+        "transcriptions": {
+          "pinyin": "Yǔ shuǐ",
+          "numeric": "Yu3 shui3",
+          "wadegiles": "yü³ shui³",
+          "bopomofo": "ㄩˇ ㄕㄨㄟˇ",
+          "romatzyh": "yeu shoei"
+        },
+        "meanings": [
+          "Yushui or Rain Water, 2nd of the 24 solar terms 二十四节气 19th February-5th March"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "雨水",
+        "transcriptions": {
+          "pinyin": "yǔ shuǐ",
+          "numeric": "yu3 shui3",
+          "wadegiles": "yü³ shui³",
+          "bopomofo": "ㄩˇ ㄕㄨㄟˇ",
+          "romatzyh": "yeu shoei"
+        },
+        "meanings": [
+          "rainwater; rainfall; rain"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "雨衣",
+    "radical": "雨",
+    "frequency": 23626,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "雨衣",
+        "transcriptions": {
+          "pinyin": "yǔ yī",
+          "numeric": "yu3 yi1",
+          "wadegiles": "yü³ i¹",
+          "bopomofo": "ㄩˇ ㄧ",
+          "romatzyh": "yeu i"
+        },
+        "meanings": [
+          "raincoat"
+        ],
+        "classifiers": [
+          "件"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "语法",
+    "radical": "讠",
+    "frequency": 13430,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "語法",
+        "transcriptions": {
+          "pinyin": "yǔ fǎ",
+          "numeric": "yu3 fa3",
+          "wadegiles": "yü³ fa³",
+          "bopomofo": "ㄩˇ ㄈㄚˇ",
+          "romatzyh": "yeu faa"
+        },
+        "meanings": [
+          "grammar"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "语言",
+    "radical": "讠",
+    "frequency": 1948,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "語言",
+        "transcriptions": {
+          "pinyin": "yǔ yán",
+          "numeric": "yu3 yan2",
+          "wadegiles": "yü³ yan²",
+          "bopomofo": "ㄩˇ ㄧㄢˊ",
+          "romatzyh": "yeu yan"
+        },
+        "meanings": [
+          "language"
+        ],
+        "classifiers": [
+          "门",
+          "种"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "语音",
+    "radical": "讠",
+    "frequency": 6221,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "語音",
+        "transcriptions": {
+          "pinyin": "yǔ yīn",
+          "numeric": "yu3 yin1",
+          "wadegiles": "yü³ yin¹",
+          "bopomofo": "ㄩˇ ㄧㄣ",
+          "romatzyh": "yeu in"
+        },
+        "meanings": [
+          "speech sounds",
+          "pronunciation",
+          "colloquial (rather than literary) pronunciation of a Chinese character",
+          "phonetic",
+          "audio",
+          "voice",
+          "(Internet) to voice chat",
+          "voice message"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "玉",
+    "radical": "玉",
+    "frequency": 5296,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "玉",
+        "transcriptions": {
+          "pinyin": "yù",
+          "numeric": "yu4",
+          "wadegiles": "yü⁴",
+          "bopomofo": "ㄩˋ",
+          "romatzyh": "yuh"
+        },
+        "meanings": [
+          "jade"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "玉米",
+    "radical": "玉",
+    "frequency": 3314,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "玉米",
+        "transcriptions": {
+          "pinyin": "yù mǐ",
+          "numeric": "yu4 mi3",
+          "wadegiles": "yü⁴ mi³",
+          "bopomofo": "ㄩˋ ㄇㄧˇ",
+          "romatzyh": "yuh mii"
+        },
+        "meanings": [
+          "corn",
+          "maize"
+        ],
+        "classifiers": [
+          "粒"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "预报",
+    "radical": "页",
+    "frequency": 8603,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "預報",
+        "transcriptions": {
+          "pinyin": "yù bào",
+          "numeric": "yu4 bao4",
+          "wadegiles": "yü⁴ pao⁴",
+          "bopomofo": "ㄩˋ ㄅㄠˋ",
+          "romatzyh": "yuh baw"
+        },
+        "meanings": [
+          "forecast"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "预备",
+    "radical": "页",
+    "frequency": 7752,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "預備",
+        "transcriptions": {
+          "pinyin": "yù bèi",
+          "numeric": "yu4 bei4",
+          "wadegiles": "yü⁴ pei⁴",
+          "bopomofo": "ㄩˋ ㄅㄟˋ",
+          "romatzyh": "yuh bey"
+        },
+        "meanings": [
+          "to prepare",
+          "to make ready",
+          "preparation",
+          "preparatory"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "预测",
+    "radical": "页",
+    "frequency": 3092,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "預測",
+        "transcriptions": {
+          "pinyin": "yù cè",
+          "numeric": "yu4 ce4",
+          "wadegiles": "yü⁴ ts'e⁴",
+          "bopomofo": "ㄩˋ ㄘㄜˋ",
+          "romatzyh": "yuh tseh"
+        },
+        "meanings": [
+          "to forecast",
+          "to predict"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "预订",
+    "radical": "页",
+    "frequency": 6551,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "預訂",
+        "transcriptions": {
+          "pinyin": "yù dìng",
+          "numeric": "yu4 ding4",
+          "wadegiles": "yü⁴ ting⁴",
+          "bopomofo": "ㄩˋ ㄉㄧㄥˋ",
+          "romatzyh": "yuh dinq"
+        },
+        "meanings": [
+          "to place an order",
+          "to book ahead"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "预防",
+    "radical": "页",
+    "frequency": 5185,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "預防",
+        "transcriptions": {
+          "pinyin": "yù fáng",
+          "numeric": "yu4 fang2",
+          "wadegiles": "yü⁴ fang²",
+          "bopomofo": "ㄩˋ ㄈㄤˊ",
+          "romatzyh": "yuh farng"
+        },
+        "meanings": [
+          "to prevent",
+          "to take precautions against",
+          "to protect",
+          "to guard against",
+          "precautionary",
+          "prophylactic"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "预计",
+    "radical": "页",
+    "frequency": 3808,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "預計",
+        "transcriptions": {
+          "pinyin": "yù jì",
+          "numeric": "yu4 ji4",
+          "wadegiles": "yü⁴ chi⁴",
+          "bopomofo": "ㄩˋ ㄐㄧˋ",
+          "romatzyh": "yuh jih"
+        },
+        "meanings": [
+          "to forecast",
+          "to predict",
+          "to estimate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "预期",
+    "radical": "页",
+    "frequency": 4393,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "預期",
+        "transcriptions": {
+          "pinyin": "yù qī",
+          "numeric": "yu4 qi1",
+          "wadegiles": "yü⁴ ch'i¹",
+          "bopomofo": "ㄩˋ ㄑㄧ",
+          "romatzyh": "yuh chi"
+        },
+        "meanings": [
+          "to expect",
+          "to anticipate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "预习",
+    "radical": "页",
+    "frequency": 36044,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "預習",
+        "transcriptions": {
+          "pinyin": "yù xí",
+          "numeric": "yu4 xi2",
+          "wadegiles": "yü⁴ hsi²",
+          "bopomofo": "ㄩˋ ㄒㄧˊ",
+          "romatzyh": "yuh shyi"
+        },
+        "meanings": [
+          "to prepare a lesson"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "预约",
+    "radical": "页",
+    "frequency": 6574,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "預約",
+        "transcriptions": {
+          "pinyin": "yù yuē",
+          "numeric": "yu4 yue1",
+          "wadegiles": "yü⁴ yüeh¹",
+          "bopomofo": "ㄩˋ ㄩㄝ",
+          "romatzyh": "yuh iue"
+        },
+        "meanings": [
+          "booking",
+          "reservation",
+          "to book",
+          "to make an appointment"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "遇",
+    "radical": "辶",
+    "frequency": 2834,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "遇",
+        "transcriptions": {
+          "pinyin": "Yù",
+          "numeric": "Yu4",
+          "wadegiles": "yü⁴",
+          "bopomofo": "ㄩˋ",
+          "romatzyh": "yuh"
+        },
+        "meanings": [
+          "surname Yu"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "遇",
+        "transcriptions": {
+          "pinyin": "yù",
+          "numeric": "yu4",
+          "wadegiles": "yü⁴",
+          "bopomofo": "ㄩˋ",
+          "romatzyh": "yuh"
+        },
+        "meanings": [
+          "to meet",
+          "to encounter",
+          "to treat",
+          "to receive",
+          "opportunity",
+          "chance"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "遇到",
+    "radical": "辶",
+    "frequency": 1063,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "遇到",
+        "transcriptions": {
+          "pinyin": "yù dào",
+          "numeric": "yu4 dao4",
+          "wadegiles": "yü⁴ tao⁴",
+          "bopomofo": "ㄩˋ ㄉㄠˋ",
+          "romatzyh": "yuh daw"
+        },
+        "meanings": [
+          "to meet; to run into; to come across"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "遇见",
+    "radical": "辶",
+    "frequency": 3411,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "遇見",
+        "transcriptions": {
+          "pinyin": "yù jiàn",
+          "numeric": "yu4 jian4",
+          "wadegiles": "yü⁴ chien⁴",
+          "bopomofo": "ㄩˋ ㄐㄧㄢˋ",
+          "romatzyh": "yuh jiann"
+        },
+        "meanings": [
+          "to meet"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "元",
+    "radical": "儿",
+    "frequency": 744,
+    "pos": [
+      "q",
+      "tg"
+    ],
+    "forms": [
+      {
+        "traditional": "元",
+        "transcriptions": {
+          "pinyin": "Yuán",
+          "numeric": "Yuan2",
+          "wadegiles": "yüan²",
+          "bopomofo": "ㄩㄢˊ",
+          "romatzyh": "yuan"
+        },
+        "meanings": [
+          "surname Yuan",
+          "the Yuan or Mongol dynasty (1279-1368)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "元",
+        "transcriptions": {
+          "pinyin": "yuán",
+          "numeric": "yuan2",
+          "wadegiles": "yüan²",
+          "bopomofo": "ㄩㄢˊ",
+          "romatzyh": "yuan"
+        },
+        "meanings": [
+          "currency unit (esp. Chinese yuan)",
+          "first",
+          "original",
+          "primary",
+          "fundamental",
+          "constituent",
+          "part",
+          "era (of a reign)",
+          "meta- (prefix)",
+          "(math.) argument",
+          "variable",
+          "(Tw) (geology) eon"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "元旦",
+    "radical": "儿",
+    "frequency": 17634,
+    "pos": [
+      "t"
+    ],
+    "forms": [
+      {
+        "traditional": "元旦",
+        "transcriptions": {
+          "pinyin": "Yuán dàn",
+          "numeric": "Yuan2 dan4",
+          "wadegiles": "yüan² tan⁴",
+          "bopomofo": "ㄩㄢˊ ㄉㄢˋ",
+          "romatzyh": "yuan dann"
+        },
+        "meanings": [
+          "New Year's Day"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "元素",
+    "radical": "儿",
+    "frequency": 4636,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "元素",
+        "transcriptions": {
+          "pinyin": "yuán sù",
+          "numeric": "yuan2 su4",
+          "wadegiles": "yüan² su⁴",
+          "bopomofo": "ㄩㄢˊ ㄙㄨˋ",
+          "romatzyh": "yuan suh"
+        },
+        "meanings": [
+          "element (key component of sth)",
+          "(chemistry) element",
+          "(math.) element (member of a set)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "员",
+    "radical": "口",
+    "frequency": 1874,
+    "pos": [
+      "g",
+      "q",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "員",
+        "transcriptions": {
+          "pinyin": "yuán",
+          "numeric": "yuan2",
+          "wadegiles": "yüan²",
+          "bopomofo": "ㄩㄢˊ",
+          "romatzyh": "yuan"
+        },
+        "meanings": [
+          "person",
+          "employee",
+          "member"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "员",
+    "radical": "口",
+    "frequency": 1874,
+    "pos": [
+      "g",
+      "q",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "員",
+        "transcriptions": {
+          "pinyin": "yuán",
+          "numeric": "yuan2",
+          "wadegiles": "yüan²",
+          "bopomofo": "ㄩㄢˊ",
+          "romatzyh": "yuan"
+        },
+        "meanings": [
+          "person",
+          "employee",
+          "member"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "员工",
+    "radical": "口",
+    "frequency": 1852,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "員工",
+        "transcriptions": {
+          "pinyin": "yuán gōng",
+          "numeric": "yuan2 gong1",
+          "wadegiles": "yüan² kung¹",
+          "bopomofo": "ㄩㄢˊ ㄍㄨㄥ",
+          "romatzyh": "yuan gong"
+        },
+        "meanings": [
+          "staff",
+          "personnel",
+          "employee"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "园",
+    "radical": "囗",
+    "frequency": 4873,
+    "pos": [
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "園",
+        "transcriptions": {
+          "pinyin": "Yuán",
+          "numeric": "Yuan2",
+          "wadegiles": "yüan²",
+          "bopomofo": "ㄩㄢˊ",
+          "romatzyh": "yuan"
+        },
+        "meanings": [
+          "surname Yuan"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "園",
+        "transcriptions": {
+          "pinyin": "yuán",
+          "numeric": "yuan2",
+          "wadegiles": "yüan²",
+          "bopomofo": "ㄩㄢˊ",
+          "romatzyh": "yuan"
+        },
+        "meanings": [
+          "land used for growing plants",
+          "site used for public recreation",
+          "abbr. for a place ending in 园, such as a botanical garden 植物园, kindergarten 幼儿园 etc"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "园地",
+    "radical": "囗",
+    "frequency": 32332,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "園地",
+        "transcriptions": {
+          "pinyin": "yuán dì",
+          "numeric": "yuan2 di4",
+          "wadegiles": "yüan² ti⁴",
+          "bopomofo": "ㄩㄢˊ ㄉㄧˋ",
+          "romatzyh": "yuan dih"
+        },
+        "meanings": [
+          "garden area"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "园林",
+    "radical": "囗",
+    "frequency": 19734,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "園林",
+        "transcriptions": {
+          "pinyin": "yuán lín",
+          "numeric": "yuan2 lin2",
+          "wadegiles": "yüan² lin²",
+          "bopomofo": "ㄩㄢˊ ㄌㄧㄣˊ",
+          "romatzyh": "yuan lin"
+        },
+        "meanings": [
+          "gardens; park; landscape garden"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "原",
+    "radical": "厂",
+    "frequency": 1178,
+    "pos": [
+      "b",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "原",
+        "transcriptions": {
+          "pinyin": "Yuán",
+          "numeric": "Yuan2",
+          "wadegiles": "yüan²",
+          "bopomofo": "ㄩㄢˊ",
+          "romatzyh": "yuan"
+        },
+        "meanings": [
+          "surname Yuan",
+          "(Japanese surname) Hara"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "原",
+        "transcriptions": {
+          "pinyin": "yuán",
+          "numeric": "yuan2",
+          "wadegiles": "yüan²",
+          "bopomofo": "ㄩㄢˊ",
+          "romatzyh": "yuan"
+        },
+        "meanings": [
+          "former",
+          "original",
+          "primary",
+          "raw",
+          "level",
+          "cause",
+          "source"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "原告",
+    "radical": "厂",
+    "frequency": 6377,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "原告",
+        "transcriptions": {
+          "pinyin": "yuán gào",
+          "numeric": "yuan2 gao4",
+          "wadegiles": "yüan² kao⁴",
+          "bopomofo": "ㄩㄢˊ ㄍㄠˋ",
+          "romatzyh": "yuan gaw"
+        },
+        "meanings": [
+          "complainant",
+          "plaintiff"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "原来",
+    "radical": "厂",
+    "frequency": 790,
+    "pos": [
+      "d",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "原來",
+        "transcriptions": {
+          "pinyin": "yuán lái",
+          "numeric": "yuan2 lai2",
+          "wadegiles": "yüan² lai²",
+          "bopomofo": "ㄩㄢˊ ㄌㄞˊ",
+          "romatzyh": "yuan lai"
+        },
+        "meanings": [
+          "original",
+          "former",
+          "originally",
+          "formerly",
+          "at first",
+          "so, actually, as it turns out"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "原理",
+    "radical": "厂",
+    "frequency": 6978,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "原理",
+        "transcriptions": {
+          "pinyin": "yuán lǐ",
+          "numeric": "yuan2 li3",
+          "wadegiles": "yüan² li³",
+          "bopomofo": "ㄩㄢˊ ㄌㄧˇ",
+          "romatzyh": "yuan lii"
+        },
+        "meanings": [
+          "principle",
+          "theory"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "原谅",
+    "radical": "厂",
+    "frequency": 2754,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "原諒",
+        "transcriptions": {
+          "pinyin": "yuán liàng",
+          "numeric": "yuan2 liang4",
+          "wadegiles": "yüan² liang⁴",
+          "bopomofo": "ㄩㄢˊ ㄌㄧㄤˋ",
+          "romatzyh": "yuan lianq"
+        },
+        "meanings": [
+          "to excuse",
+          "to forgive",
+          "to pardon"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "原料",
+    "radical": "厂",
+    "frequency": 6634,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "原料",
+        "transcriptions": {
+          "pinyin": "yuán liào",
+          "numeric": "yuan2 liao4",
+          "wadegiles": "yüan² liao⁴",
+          "bopomofo": "ㄩㄢˊ ㄌㄧㄠˋ",
+          "romatzyh": "yuan liaw"
+        },
+        "meanings": [
+          "raw material"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "原始",
+    "radical": "厂",
+    "frequency": 4929,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "原始",
+        "transcriptions": {
+          "pinyin": "yuán shǐ",
+          "numeric": "yuan2 shi3",
+          "wadegiles": "yüan² shih³",
+          "bopomofo": "ㄩㄢˊ ㄕˇ",
+          "romatzyh": "yuan shyy"
+        },
+        "meanings": [
+          "first",
+          "original",
+          "primitive",
+          "original (document etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "原先",
+    "radical": "厂",
+    "frequency": 7083,
+    "pos": [
+      "d",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "原先",
+        "transcriptions": {
+          "pinyin": "yuán xiān",
+          "numeric": "yuan2 xian1",
+          "wadegiles": "yüan² hsien¹",
+          "bopomofo": "ㄩㄢˊ ㄒㄧㄢ",
+          "romatzyh": "yuan shian"
+        },
+        "meanings": [
+          "originally",
+          "original",
+          "former"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "原因",
+    "radical": "厂",
+    "frequency": 441,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "原因",
+        "transcriptions": {
+          "pinyin": "yuán yīn",
+          "numeric": "yuan2 yin1",
+          "wadegiles": "yüan² yin¹",
+          "bopomofo": "ㄩㄢˊ ㄧㄣ",
+          "romatzyh": "yuan in"
+        },
+        "meanings": [
+          "cause",
+          "origin",
+          "root cause",
+          "reason"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "原有",
+    "radical": "厂",
+    "frequency": 10932,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "原有",
+        "transcriptions": {
+          "pinyin": "yuán yǒu",
+          "numeric": "yuan2 you3",
+          "wadegiles": "yüan² yu³",
+          "bopomofo": "ㄩㄢˊ ㄧㄡˇ",
+          "romatzyh": "yuan yeou"
+        },
+        "meanings": [
+          "original",
+          "former"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "原则",
+    "radical": "厂",
+    "frequency": 2188,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "原則",
+        "transcriptions": {
+          "pinyin": "yuán zé",
+          "numeric": "yuan2 ze2",
+          "wadegiles": "yüan² tse²",
+          "bopomofo": "ㄩㄢˊ ㄗㄜˊ",
+          "romatzyh": "yuan tzer"
+        },
+        "meanings": [
+          "principle",
+          "doctrine"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "圆",
+    "radical": "囗",
+    "frequency": 2899,
+    "pos": [
+      "g",
+      "a",
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "圓",
+        "transcriptions": {
+          "pinyin": "yuán",
+          "numeric": "yuan2",
+          "wadegiles": "yüan²",
+          "bopomofo": "ㄩㄢˊ",
+          "romatzyh": "yuan"
+        },
+        "meanings": [
+          "circle",
+          "round",
+          "circular",
+          "spherical",
+          "(of the moon) full",
+          "unit of Chinese currency (yuan)",
+          "tactful",
+          "to make consistent and whole (the narrative of a dream or a lie)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "圆满",
+    "radical": "囗",
+    "frequency": 7745,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "圓滿",
+        "transcriptions": {
+          "pinyin": "yuán mǎn",
+          "numeric": "yuan2 man3",
+          "wadegiles": "yüan² man³",
+          "bopomofo": "ㄩㄢˊ ㄇㄢˇ",
+          "romatzyh": "yuan maan"
+        },
+        "meanings": [
+          "satisfactory",
+          "consummate",
+          "perfect"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "圆珠笔",
+    "radical": "囗",
+    "frequency": 28444,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "圓珠筆",
+        "transcriptions": {
+          "pinyin": "yuán zhū bǐ",
+          "numeric": "yuan2 zhu1 bi3",
+          "wadegiles": "yüan² chu¹ pi³",
+          "bopomofo": "ㄩㄢˊ ㄓㄨ ㄅㄧˇ",
+          "romatzyh": "yuan ju bii"
+        },
+        "meanings": [
+          "ballpoint pen"
+        ],
+        "classifiers": [
+          "支",
+          "枝"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "援助",
+    "radical": "扌",
+    "frequency": 4393,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "援助",
+        "transcriptions": {
+          "pinyin": "yuán zhù",
+          "numeric": "yuan2 zhu4",
+          "wadegiles": "yüan² chu⁴",
+          "bopomofo": "ㄩㄢˊ ㄓㄨˋ",
+          "romatzyh": "yuan juh"
+        },
+        "meanings": [
+          "to help",
+          "to support",
+          "to aid",
+          "aid",
+          "assistance"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "缘故",
+    "radical": "纟",
+    "frequency": 7942,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "緣故",
+        "transcriptions": {
+          "pinyin": "yuán gù",
+          "numeric": "yuan2 gu4",
+          "wadegiles": "yüan² ku⁴",
+          "bopomofo": "ㄩㄢˊ ㄍㄨˋ",
+          "romatzyh": "yuan guh"
+        },
+        "meanings": [
+          "reason",
+          "cause"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "远",
+    "radical": "辶",
+    "frequency": 635,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "遠",
+        "transcriptions": {
+          "pinyin": "yuǎn",
+          "numeric": "yuan3",
+          "wadegiles": "yüan³",
+          "bopomofo": "ㄩㄢˇ",
+          "romatzyh": "yeuan"
+        },
+        "meanings": [
+          "far",
+          "distant",
+          "remote",
+          "(intensifier in a comparison) by far",
+          "much (lower etc)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "遠",
+        "transcriptions": {
+          "pinyin": "yuàn",
+          "numeric": "yuan4",
+          "wadegiles": "yüan⁴",
+          "bopomofo": "ㄩㄢˋ",
+          "romatzyh": "yuann"
+        },
+        "meanings": [
+          "to distance oneself from (classical)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "远处",
+    "radical": "辶",
+    "frequency": 7573,
+    "pos": [
+      "s"
+    ],
+    "forms": [
+      {
+        "traditional": "遠處",
+        "transcriptions": {
+          "pinyin": "yuǎn chù",
+          "numeric": "yuan3 chu4",
+          "wadegiles": "yüan³ ch'u⁴",
+          "bopomofo": "ㄩㄢˇ ㄔㄨˋ",
+          "romatzyh": "yeuan chuh"
+        },
+        "meanings": [
+          "distant place"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "远方",
+    "radical": "辶",
+    "frequency": 10239,
+    "pos": [
+      "s"
+    ],
+    "forms": [
+      {
+        "traditional": "遠方",
+        "transcriptions": {
+          "pinyin": "yuǎn fāng",
+          "numeric": "yuan3 fang1",
+          "wadegiles": "yüan³ fang¹",
+          "bopomofo": "ㄩㄢˇ ㄈㄤ",
+          "romatzyh": "yeuan fang"
+        },
+        "meanings": [
+          "far away",
+          "a distant location"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

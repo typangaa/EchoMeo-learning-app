@@ -1,0 +1,2093 @@
+[
+  {
+    "simplified": "反击",
+    "radical": "又",
+    "frequency": 5503,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "反擊",
+        "transcriptions": {
+          "pinyin": "fǎn jī",
+          "numeric": "fan3 ji1",
+          "wadegiles": "fan³ chi¹",
+          "bopomofo": "ㄈㄢˇ ㄐㄧ",
+          "romatzyh": "faan ji"
+        },
+        "meanings": [
+          "to strike back",
+          "to beat back",
+          "to counterattack"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "反抗",
+    "radical": "又",
+    "frequency": 5287,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "反抗",
+        "transcriptions": {
+          "pinyin": "fǎn kàng",
+          "numeric": "fan3 kang4",
+          "wadegiles": "fan³ k'ang⁴",
+          "bopomofo": "ㄈㄢˇ ㄎㄤˋ",
+          "romatzyh": "faan kanq"
+        },
+        "meanings": [
+          "to resist",
+          "to rebel"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "反馈",
+    "radical": "又",
+    "frequency": 8624,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "反饋",
+        "transcriptions": {
+          "pinyin": "fǎn kuì",
+          "numeric": "fan3 kui4",
+          "wadegiles": "fan³ k'uei⁴",
+          "bopomofo": "ㄈㄢˇ ㄎㄨㄟˋ",
+          "romatzyh": "faan kuey"
+        },
+        "meanings": [
+          "to send back information",
+          "feedback"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "反面",
+    "radical": "又",
+    "frequency": 14058,
+    "pos": [
+      "n",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "反面",
+        "transcriptions": {
+          "pinyin": "fǎn miàn",
+          "numeric": "fan3 mian4",
+          "wadegiles": "fan³ mien⁴",
+          "bopomofo": "ㄈㄢˇ ㄇㄧㄢˋ",
+          "romatzyh": "faan miann"
+        },
+        "meanings": [
+          "reverse side",
+          "backside",
+          "the other side (of a problem etc)",
+          "negative",
+          "bad"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "反省",
+    "radical": "又",
+    "frequency": 10429,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "反省",
+        "transcriptions": {
+          "pinyin": "fǎn xǐng",
+          "numeric": "fan3 xing3",
+          "wadegiles": "fan³ hsing³",
+          "bopomofo": "ㄈㄢˇ ㄒㄧㄥˇ",
+          "romatzyh": "faan shiing"
+        },
+        "meanings": [
+          "to reflect upon oneself",
+          "to examine one's conscience",
+          "to question oneself",
+          "to search one's soul"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "反思",
+    "radical": "又",
+    "frequency": 12288,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "反思",
+        "transcriptions": {
+          "pinyin": "fǎn sī",
+          "numeric": "fan3 si1",
+          "wadegiles": "fan³ ssu¹",
+          "bopomofo": "ㄈㄢˇ ㄙ",
+          "romatzyh": "faan sy"
+        },
+        "meanings": [
+          "to think back over sth",
+          "to review",
+          "to revisit",
+          "to rethink",
+          "reflection",
+          "reassessment"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "反问",
+    "radical": "又",
+    "frequency": 17873,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "反問",
+        "transcriptions": {
+          "pinyin": "fǎn wèn",
+          "numeric": "fan3 wen4",
+          "wadegiles": "fan³ wen⁴",
+          "bopomofo": "ㄈㄢˇ ㄨㄣˋ",
+          "romatzyh": "faan wenn"
+        },
+        "meanings": [
+          "to ask (a question) in reply",
+          "to answer a question with a question",
+          "rhetorical question"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "反响",
+    "radical": "又",
+    "frequency": 11329,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "反響",
+        "transcriptions": {
+          "pinyin": "fǎn xiǎng",
+          "numeric": "fan3 xiang3",
+          "wadegiles": "fan³ hsiang³",
+          "bopomofo": "ㄈㄢˇ ㄒㄧㄤˇ",
+          "romatzyh": "faan sheang"
+        },
+        "meanings": [
+          "repercussions",
+          "reaction",
+          "echo"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "反应",
+    "radical": "又",
+    "frequency": 1118,
+    "pos": [
+      "vn",
+      "v",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "反應",
+        "transcriptions": {
+          "pinyin": "fǎn yìng",
+          "numeric": "fan3 ying4",
+          "wadegiles": "fan³ ying⁴",
+          "bopomofo": "ㄈㄢˇ ㄧㄥˋ",
+          "romatzyh": "faan yinq"
+        },
+        "meanings": [
+          "to react",
+          "to respond",
+          "reaction",
+          "response",
+          "reply",
+          "chemical reaction"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "反映",
+    "radical": "又",
+    "frequency": 3914,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "反映",
+        "transcriptions": {
+          "pinyin": "fǎn yìng",
+          "numeric": "fan3 ying4",
+          "wadegiles": "fan³ ying⁴",
+          "bopomofo": "ㄈㄢˇ ㄧㄥˋ",
+          "romatzyh": "faan yinq"
+        },
+        "meanings": [
+          "to mirror",
+          "to reflect",
+          "mirror image",
+          "reflection",
+          "(fig.) to report",
+          "to make known",
+          "to render"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "反正",
+    "radical": "又",
+    "frequency": 1968,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "反正",
+        "transcriptions": {
+          "pinyin": "fǎn zhèng",
+          "numeric": "fan3 zheng4",
+          "wadegiles": "fan³ cheng⁴",
+          "bopomofo": "ㄈㄢˇ ㄓㄥˋ",
+          "romatzyh": "faan jenq"
+        },
+        "meanings": [
+          "anyway",
+          "in any case",
+          "to come over from the enemy's side"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "返还",
+    "radical": "辶",
+    "frequency": 18090,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "返還",
+        "transcriptions": {
+          "pinyin": "fǎn huán",
+          "numeric": "fan3 huan2",
+          "wadegiles": "fan³ huan²",
+          "bopomofo": "ㄈㄢˇ ㄏㄨㄢˊ",
+          "romatzyh": "faan hwan"
+        },
+        "meanings": [
+          "restitution",
+          "return of something to its original owner",
+          "remittance"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "返回",
+    "radical": "辶",
+    "frequency": 3952,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "返回",
+        "transcriptions": {
+          "pinyin": "fǎn huí",
+          "numeric": "fan3 hui2",
+          "wadegiles": "fan³ hui²",
+          "bopomofo": "ㄈㄢˇ ㄏㄨㄟˊ",
+          "romatzyh": "faan hwei"
+        },
+        "meanings": [
+          "to return to",
+          "to come (or go) back"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "犯",
+    "radical": "犭",
+    "frequency": 1635,
+    "pos": [
+      "v",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "犯",
+        "transcriptions": {
+          "pinyin": "fàn",
+          "numeric": "fan4",
+          "wadegiles": "fan⁴",
+          "bopomofo": "ㄈㄢˋ",
+          "romatzyh": "fann"
+        },
+        "meanings": [
+          "to violate",
+          "to offend",
+          "to assault",
+          "criminal",
+          "crime",
+          "to make a mistake",
+          "recurrence (of mistake or sth bad)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "犯愁",
+    "radical": "犭",
+    "frequency": 38579,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "犯愁",
+        "transcriptions": {
+          "pinyin": "fàn chóu",
+          "numeric": "fan4 chou2",
+          "wadegiles": "fan⁴ ch'ou²",
+          "bopomofo": "ㄈㄢˋ ㄔㄡˊ",
+          "romatzyh": "fann chour"
+        },
+        "meanings": [
+          "to worry",
+          "to be anxious"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "犯规",
+    "radical": "犭",
+    "frequency": 6000,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "犯規",
+        "transcriptions": {
+          "pinyin": "fàn guī",
+          "numeric": "fan4 gui1",
+          "wadegiles": "fan⁴ kuei¹",
+          "bopomofo": "ㄈㄢˋ ㄍㄨㄟ",
+          "romatzyh": "fann guei"
+        },
+        "meanings": [
+          "to break the rules",
+          "an illegality",
+          "a foul"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "犯罪",
+    "radical": "犭",
+    "frequency": 1108,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "犯罪",
+        "transcriptions": {
+          "pinyin": "fàn zuì",
+          "numeric": "fan4 zui4",
+          "wadegiles": "fan⁴ tsui⁴",
+          "bopomofo": "ㄈㄢˋ ㄗㄨㄟˋ",
+          "romatzyh": "fann tzuey"
+        },
+        "meanings": [
+          "to commit a crime",
+          "crime; offense"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "泛滥",
+    "radical": "氵",
+    "frequency": 13426,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "泛濫",
+        "transcriptions": {
+          "pinyin": "fàn làn",
+          "numeric": "fan4 lan4",
+          "wadegiles": "fan⁴ lan⁴",
+          "bopomofo": "ㄈㄢˋ ㄌㄢˋ",
+          "romatzyh": "fann lann"
+        },
+        "meanings": [
+          "to be in flood",
+          "to overflow (the banks)",
+          "to inundate",
+          "to spread unchecked"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "饭",
+    "radical": "饣",
+    "frequency": 1529,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "飯",
+        "transcriptions": {
+          "pinyin": "fàn",
+          "numeric": "fan4",
+          "wadegiles": "fan⁴",
+          "bopomofo": "ㄈㄢˋ",
+          "romatzyh": "fann"
+        },
+        "meanings": [
+          "cooked rice",
+          "meal",
+          "(loanword) fan",
+          "devotee"
+        ],
+        "classifiers": [
+          "碗",
+          "顿"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "饭店",
+    "radical": "饣",
+    "frequency": 3998,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "飯店",
+        "transcriptions": {
+          "pinyin": "fàn diàn",
+          "numeric": "fan4 dian4",
+          "wadegiles": "fan⁴ tien⁴",
+          "bopomofo": "ㄈㄢˋ ㄉㄧㄢˋ",
+          "romatzyh": "fann diann"
+        },
+        "meanings": [
+          "restaurant",
+          "hotel"
+        ],
+        "classifiers": [
+          "家",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "饭馆",
+    "radical": "饣",
+    "frequency": 16449,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "飯館",
+        "transcriptions": {
+          "pinyin": "fàn guǎn",
+          "numeric": "fan4 guan3",
+          "wadegiles": "fan⁴ kuan³",
+          "bopomofo": "ㄈㄢˋ ㄍㄨㄢˇ",
+          "romatzyh": "fann goan"
+        },
+        "meanings": [
+          "restaurant"
+        ],
+        "classifiers": [
+          "家"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "饭碗",
+    "radical": "饣",
+    "frequency": 12261,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "飯碗",
+        "transcriptions": {
+          "pinyin": "fàn wǎn",
+          "numeric": "fan4 wan3",
+          "wadegiles": "fan⁴ wan³",
+          "bopomofo": "ㄈㄢˋ ㄨㄢˇ",
+          "romatzyh": "fann woan"
+        },
+        "meanings": [
+          "rice bowl",
+          "fig. livelihood",
+          "job",
+          "way of making a living"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "范畴",
+    "radical": "艹",
+    "frequency": 12483,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "範疇",
+        "transcriptions": {
+          "pinyin": "fàn chóu",
+          "numeric": "fan4 chou2",
+          "wadegiles": "fan⁴ ch'ou²",
+          "bopomofo": "ㄈㄢˋ ㄔㄡˊ",
+          "romatzyh": "fann chour"
+        },
+        "meanings": [
+          "category"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "范围",
+    "radical": "艹",
+    "frequency": 1325,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "範圍",
+        "transcriptions": {
+          "pinyin": "fàn wéi",
+          "numeric": "fan4 wei2",
+          "wadegiles": "fan⁴ wei²",
+          "bopomofo": "ㄈㄢˋ ㄨㄟˊ",
+          "romatzyh": "fann wei"
+        },
+        "meanings": [
+          "range",
+          "scope",
+          "limit",
+          "extent"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "贩卖",
+    "radical": "贝",
+    "frequency": 9252,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "販賣",
+        "transcriptions": {
+          "pinyin": "fàn mài",
+          "numeric": "fan4 mai4",
+          "wadegiles": "fan⁴ mai⁴",
+          "bopomofo": "ㄈㄢˋ ㄇㄞˋ",
+          "romatzyh": "fann may"
+        },
+        "meanings": [
+          "to sell",
+          "to peddle",
+          "to traffic"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "方",
+    "radical": "方",
+    "frequency": 1012,
+    "pos": [
+      "q",
+      "d",
+      "g",
+      "a",
+      "f",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "方",
+        "transcriptions": {
+          "pinyin": "Fāng",
+          "numeric": "Fang1",
+          "wadegiles": "fang¹",
+          "bopomofo": "ㄈㄤ",
+          "romatzyh": "fang"
+        },
+        "meanings": [
+          "surname Fang"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "方",
+        "transcriptions": {
+          "pinyin": "fāng",
+          "numeric": "fang1",
+          "wadegiles": "fang¹",
+          "bopomofo": "ㄈㄤ",
+          "romatzyh": "fang"
+        },
+        "meanings": [
+          "square",
+          "power or involution (math.)",
+          "upright",
+          "honest",
+          "fair and square",
+          "direction",
+          "side",
+          "party (to a contract, dispute etc)",
+          "place",
+          "method",
+          "prescription (medicine)",
+          "just when",
+          "only or just",
+          "classifier for square things",
+          "abbr. for square or cubic meter"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "方案",
+    "radical": "方",
+    "frequency": 2126,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "方案",
+        "transcriptions": {
+          "pinyin": "fāng àn",
+          "numeric": "fang1 an4",
+          "wadegiles": "fang¹ an⁴",
+          "bopomofo": "ㄈㄤ ㄢˋ",
+          "romatzyh": "fang ann"
+        },
+        "meanings": [
+          "plan",
+          "program (for action etc)",
+          "proposal",
+          "proposed bill"
+        ],
+        "classifiers": [
+          "个",
+          "套"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "方便",
+    "radical": "方",
+    "frequency": 2014,
+    "pos": [
+      "v",
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "方便",
+        "transcriptions": {
+          "pinyin": "fāng biàn",
+          "numeric": "fang1 bian4",
+          "wadegiles": "fang¹ pien⁴",
+          "bopomofo": "ㄈㄤ ㄅㄧㄢˋ",
+          "romatzyh": "fang biann"
+        },
+        "meanings": [
+          "convenient",
+          "suitable",
+          "to facilitate",
+          "to make things easy",
+          "having money to spare",
+          "(euphemism) to relieve oneself"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "方便面",
+    "radical": "方",
+    "frequency": 16225,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "方便麵",
+        "transcriptions": {
+          "pinyin": "fāng biàn miàn",
+          "numeric": "fang1 bian4 mian4",
+          "wadegiles": "fang¹ pien⁴ mien⁴",
+          "bopomofo": "ㄈㄤ ㄅㄧㄢˋ ㄇㄧㄢˋ",
+          "romatzyh": "fang biann miann"
+        },
+        "meanings": [
+          "instant noodles"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "方法",
+    "radical": "方",
+    "frequency": 577,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "方法",
+        "transcriptions": {
+          "pinyin": "fāng fǎ",
+          "numeric": "fang1 fa3",
+          "wadegiles": "fang¹ fa³",
+          "bopomofo": "ㄈㄤ ㄈㄚˇ",
+          "romatzyh": "fang faa"
+        },
+        "meanings": [
+          "method",
+          "way",
+          "means"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "方方面面",
+    "radical": "方",
+    "frequency": 18245,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "方方面面",
+        "transcriptions": {
+          "pinyin": "fāng fāng miàn miàn",
+          "numeric": "fang1 fang1 mian4 mian4",
+          "wadegiles": "fang¹ fang¹ mien⁴ mien⁴",
+          "bopomofo": "ㄈㄤ ㄈㄤ ㄇㄧㄢˋ ㄇㄧㄢˋ",
+          "romatzyh": "fang fang miann miann"
+        },
+        "meanings": [
+          "all sides; all aspects",
+          "multifaceted"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "方面",
+    "radical": "方",
+    "frequency": 601,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "方面",
+        "transcriptions": {
+          "pinyin": "fāng miàn",
+          "numeric": "fang1 mian4",
+          "wadegiles": "fang¹ mien⁴",
+          "bopomofo": "ㄈㄤ ㄇㄧㄢˋ",
+          "romatzyh": "fang miann"
+        },
+        "meanings": [
+          "respect",
+          "aspect",
+          "field",
+          "side"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "方式",
+    "radical": "方",
+    "frequency": 513,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "方式",
+        "transcriptions": {
+          "pinyin": "fāng shì",
+          "numeric": "fang1 shi4",
+          "wadegiles": "fang¹ shih⁴",
+          "bopomofo": "ㄈㄤ ㄕˋ",
+          "romatzyh": "fang shyh"
+        },
+        "meanings": [
+          "way; manner; style; mode; pattern"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "方向",
+    "radical": "方",
+    "frequency": 1183,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "方向",
+        "transcriptions": {
+          "pinyin": "fāng xiàng",
+          "numeric": "fang1 xiang4",
+          "wadegiles": "fang¹ hsiang⁴",
+          "bopomofo": "ㄈㄤ ㄒㄧㄤˋ",
+          "romatzyh": "fang shianq"
+        },
+        "meanings": [
+          "direction; orientation"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "方向盘",
+    "radical": "方",
+    "frequency": 11228,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "方向盤",
+        "transcriptions": {
+          "pinyin": "fāng xiàng pán",
+          "numeric": "fang1 xiang4 pan2",
+          "wadegiles": "fang¹ hsiang⁴ p'an²",
+          "bopomofo": "ㄈㄤ ㄒㄧㄤˋ ㄆㄢˊ",
+          "romatzyh": "fang shianq parn"
+        },
+        "meanings": [
+          "steering wheel"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "方言",
+    "radical": "方",
+    "frequency": 12942,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "方言",
+        "transcriptions": {
+          "pinyin": "Fāng yán",
+          "numeric": "Fang1 yan2",
+          "wadegiles": "fang¹ yan²",
+          "bopomofo": "ㄈㄤ ㄧㄢˊ",
+          "romatzyh": "fang yan"
+        },
+        "meanings": [
+          "the first Chinese dialect dictionary, edited by Yang Xiong 扬雄 in 1st century, containing over 9000 characters"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "方言",
+        "transcriptions": {
+          "pinyin": "fāng yán",
+          "numeric": "fang1 yan2",
+          "wadegiles": "fang¹ yan²",
+          "bopomofo": "ㄈㄤ ㄧㄢˊ",
+          "romatzyh": "fang yan"
+        },
+        "meanings": [
+          "topolect",
+          "dialect"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "方针",
+    "radical": "方",
+    "frequency": 10718,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "方針",
+        "transcriptions": {
+          "pinyin": "fāng zhēn",
+          "numeric": "fang1 zhen1",
+          "wadegiles": "fang¹ chen¹",
+          "bopomofo": "ㄈㄤ ㄓㄣ",
+          "romatzyh": "fang jen"
+        },
+        "meanings": [
+          "policy",
+          "guidelines"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "防",
+    "radical": "阝",
+    "frequency": 2008,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "防",
+        "transcriptions": {
+          "pinyin": "fáng",
+          "numeric": "fang2",
+          "wadegiles": "fang²",
+          "bopomofo": "ㄈㄤˊ",
+          "romatzyh": "farng"
+        },
+        "meanings": [
+          "to protect",
+          "to defend",
+          "to guard against",
+          "to prevent"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "防盗",
+    "radical": "阝",
+    "frequency": 17252,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "防盜",
+        "transcriptions": {
+          "pinyin": "fáng dào",
+          "numeric": "fang2 dao4",
+          "wadegiles": "fang² tao⁴",
+          "bopomofo": "ㄈㄤˊ ㄉㄠˋ",
+          "romatzyh": "farng daw"
+        },
+        "meanings": [
+          "to guard against theft",
+          "anti-theft"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "防盗门",
+    "radical": "阝",
+    "frequency": 33898,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "防盜門",
+        "transcriptions": {
+          "pinyin": "fáng dào mén",
+          "numeric": "fang2 dao4 men2",
+          "wadegiles": "fang² tao⁴ men²",
+          "bopomofo": "ㄈㄤˊ ㄉㄠˋ ㄇㄣˊ",
+          "romatzyh": "farng daw men"
+        },
+        "meanings": [
+          "security door"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "防范",
+    "radical": "阝",
+    "frequency": 7713,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "防範",
+        "transcriptions": {
+          "pinyin": "fáng fàn",
+          "numeric": "fang2 fan4",
+          "wadegiles": "fang² fan⁴",
+          "bopomofo": "ㄈㄤˊ ㄈㄢˋ",
+          "romatzyh": "farng fann"
+        },
+        "meanings": [
+          "to be on guard",
+          "wariness",
+          "to guard against",
+          "preventive"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "防护",
+    "radical": "阝",
+    "frequency": 6699,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "防護",
+        "transcriptions": {
+          "pinyin": "fáng hù",
+          "numeric": "fang2 hu4",
+          "wadegiles": "fang² hu⁴",
+          "bopomofo": "ㄈㄤˊ ㄏㄨˋ",
+          "romatzyh": "farng huh"
+        },
+        "meanings": [
+          "to defend",
+          "to protect"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "防火墙",
+    "radical": "阝",
+    "frequency": 13340,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "防火牆",
+        "transcriptions": {
+          "pinyin": "fáng huǒ qiáng",
+          "numeric": "fang2 huo3 qiang2",
+          "wadegiles": "fang² huo³ ch'iang²",
+          "bopomofo": "ㄈㄤˊ ㄏㄨㄛˇ ㄑㄧㄤˊ",
+          "romatzyh": "farng huoo chyang"
+        },
+        "meanings": [
+          "firewall"
+        ],
+        "classifiers": [
+          "堵"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "防守",
+    "radical": "阝",
+    "frequency": 3740,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "防守",
+        "transcriptions": {
+          "pinyin": "fáng shǒu",
+          "numeric": "fang2 shou3",
+          "wadegiles": "fang² shou³",
+          "bopomofo": "ㄈㄤˊ ㄕㄡˇ",
+          "romatzyh": "farng shoou"
+        },
+        "meanings": [
+          "to defend",
+          "to protect (against)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "防卫",
+    "radical": "阝",
+    "frequency": 10458,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "防衛",
+        "transcriptions": {
+          "pinyin": "fáng wèi",
+          "numeric": "fang2 wei4",
+          "wadegiles": "fang² wei⁴",
+          "bopomofo": "ㄈㄤˊ ㄨㄟˋ",
+          "romatzyh": "farng wey"
+        },
+        "meanings": [
+          "to defend",
+          "defensive",
+          "defense"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "防汛",
+    "radical": "阝",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "防汛",
+        "transcriptions": {
+          "pinyin": "fáng xùn",
+          "numeric": "fang2 xun4",
+          "wadegiles": "fang² hsün⁴",
+          "bopomofo": "ㄈㄤˊ ㄒㄩㄣˋ",
+          "romatzyh": "farng shiunn"
+        },
+        "meanings": [
+          "flood control",
+          "anti-flood (precautions)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "防疫",
+    "radical": "阝",
+    "frequency": 31623,
+    "pos": [
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "防疫",
+        "transcriptions": {
+          "pinyin": "fáng yì",
+          "numeric": "fang2 yi4",
+          "wadegiles": "fang² i⁴",
+          "bopomofo": "ㄈㄤˊ ㄧˋ",
+          "romatzyh": "farng yih"
+        },
+        "meanings": [
+          "to prevent epidemics"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "防御",
+    "radical": "阝",
+    "frequency": 5137,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "防禦",
+        "transcriptions": {
+          "pinyin": "fáng yù",
+          "numeric": "fang2 yu4",
+          "wadegiles": "fang² yü⁴",
+          "bopomofo": "ㄈㄤˊ ㄩˋ",
+          "romatzyh": "farng yuh"
+        },
+        "meanings": [
+          "defense",
+          "to defend"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "防止",
+    "radical": "阝",
+    "frequency": 3244,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "防止",
+        "transcriptions": {
+          "pinyin": "fáng zhǐ",
+          "numeric": "fang2 zhi3",
+          "wadegiles": "fang² chih³",
+          "bopomofo": "ㄈㄤˊ ㄓˇ",
+          "romatzyh": "farng jyy"
+        },
+        "meanings": [
+          "to prevent",
+          "to guard against",
+          "to take precautions"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "防治",
+    "radical": "阝",
+    "frequency": 16888,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "防治",
+        "transcriptions": {
+          "pinyin": "fáng zhì",
+          "numeric": "fang2 zhi4",
+          "wadegiles": "fang² chih⁴",
+          "bopomofo": "ㄈㄤˊ ㄓˋ",
+          "romatzyh": "farng jyh"
+        },
+        "meanings": [
+          "to prevent and cure",
+          "prevention and cure"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "妨碍",
+    "radical": "女",
+    "frequency": 6742,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "妨礙",
+        "transcriptions": {
+          "pinyin": "fáng ài",
+          "numeric": "fang2 ai4",
+          "wadegiles": "fang² ai⁴",
+          "bopomofo": "ㄈㄤˊ ㄞˋ",
+          "romatzyh": "farng ay"
+        },
+        "meanings": [
+          "to hinder",
+          "to obstruct"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "妨害",
+    "radical": "女",
+    "frequency": 29334,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "妨害",
+        "transcriptions": {
+          "pinyin": "fáng hài",
+          "numeric": "fang2 hai4",
+          "wadegiles": "fang² hai⁴",
+          "bopomofo": "ㄈㄤˊ ㄏㄞˋ",
+          "romatzyh": "farng hay"
+        },
+        "meanings": [
+          "to jeopardize",
+          "to be harmful to",
+          "to undermine"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "房地产",
+    "radical": "户",
+    "frequency": 3463,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "房地產",
+        "transcriptions": {
+          "pinyin": "fáng dì chǎn",
+          "numeric": "fang2 di4 chan3",
+          "wadegiles": "fang² ti⁴ ch'an³",
+          "bopomofo": "ㄈㄤˊ ㄉㄧˋ ㄔㄢˇ",
+          "romatzyh": "farng dih chaan"
+        },
+        "meanings": [
+          "real estate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "房东",
+    "radical": "户",
+    "frequency": 9478,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "房東",
+        "transcriptions": {
+          "pinyin": "fáng dōng",
+          "numeric": "fang2 dong1",
+          "wadegiles": "fang² tung¹",
+          "bopomofo": "ㄈㄤˊ ㄉㄨㄥ",
+          "romatzyh": "farng dong"
+        },
+        "meanings": [
+          "landlord"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "房价",
+    "radical": "户",
+    "frequency": 15046,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "房價",
+        "transcriptions": {
+          "pinyin": "fáng jià",
+          "numeric": "fang2 jia4",
+          "wadegiles": "fang² chia⁴",
+          "bopomofo": "ㄈㄤˊ ㄐㄧㄚˋ",
+          "romatzyh": "farng jiah"
+        },
+        "meanings": [
+          "house price",
+          "cost of housing"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "房间",
+    "radical": "户",
+    "frequency": 1357,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "房間",
+        "transcriptions": {
+          "pinyin": "fáng jiān",
+          "numeric": "fang2 jian1",
+          "wadegiles": "fang² chien¹",
+          "bopomofo": "ㄈㄤˊ ㄐㄧㄢ",
+          "romatzyh": "farng jian"
+        },
+        "meanings": [
+          "room"
+        ],
+        "classifiers": [
+          "间",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "房屋",
+    "radical": "户",
+    "frequency": 3692,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "房屋",
+        "transcriptions": {
+          "pinyin": "fáng wū",
+          "numeric": "fang2 wu1",
+          "wadegiles": "fang² wu¹",
+          "bopomofo": "ㄈㄤˊ ㄨ",
+          "romatzyh": "farng u"
+        },
+        "meanings": [
+          "house",
+          "building"
+        ],
+        "classifiers": [
+          "所",
+          "套"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "房子",
+    "radical": "户",
+    "frequency": 1027,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "房子",
+        "transcriptions": {
+          "pinyin": "fáng zi",
+          "numeric": "fang2 zi5",
+          "wadegiles": "fang² zi",
+          "bopomofo": "ㄈㄤˊ zi",
+          "romatzyh": "farng zi"
+        },
+        "meanings": [
+          "house",
+          "building (single- or two-story)",
+          "apartment",
+          "room"
+        ],
+        "classifiers": [
+          "栋",
+          "幢",
+          "座",
+          "套",
+          "间"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "房租",
+    "radical": "户",
+    "frequency": 9307,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "房租",
+        "transcriptions": {
+          "pinyin": "fáng zū",
+          "numeric": "fang2 zu1",
+          "wadegiles": "fang² tsu¹",
+          "bopomofo": "ㄈㄤˊ ㄗㄨ",
+          "romatzyh": "farng tzu"
+        },
+        "meanings": [
+          "rent for a room or house"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "仿",
+    "radical": "亻",
+    "frequency": 10541,
+    "pos": [
+      "v",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "仿",
+        "transcriptions": {
+          "pinyin": "fǎng",
+          "numeric": "fang3",
+          "wadegiles": "fang³",
+          "bopomofo": "ㄈㄤˇ",
+          "romatzyh": "faang"
+        },
+        "meanings": [
+          "to imitate",
+          "to copy"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "倣",
+        "transcriptions": {
+          "pinyin": "fǎng",
+          "numeric": "fang3",
+          "wadegiles": "fang³",
+          "bopomofo": "ㄈㄤˇ",
+          "romatzyh": "faang"
+        },
+        "meanings": [
+          "variant of 仿"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "彷",
+        "transcriptions": {
+          "pinyin": "fǎng",
+          "numeric": "fang3",
+          "wadegiles": "fang³",
+          "bopomofo": "ㄈㄤˇ",
+          "romatzyh": "faang"
+        },
+        "meanings": [
+          "seemingly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "仿佛",
+    "radical": "亻",
+    "frequency": 4286,
+    "pos": [
+      "d",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "仿佛",
+        "transcriptions": {
+          "pinyin": "fǎng fú",
+          "numeric": "fang3 fu2",
+          "wadegiles": "fang³ fu²",
+          "bopomofo": "ㄈㄤˇ ㄈㄨˊ",
+          "romatzyh": "faang fwu"
+        },
+        "meanings": [
+          "variant of 仿佛"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "彷彿",
+        "transcriptions": {
+          "pinyin": "fǎng fú",
+          "numeric": "fang3 fu2",
+          "wadegiles": "fang³ fu²",
+          "bopomofo": "ㄈㄤˇ ㄈㄨˊ",
+          "romatzyh": "faang fwu"
+        },
+        "meanings": [
+          "to seem",
+          "as if",
+          "alike",
+          "similar"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "仿制",
+    "radical": "亻",
+    "frequency": 22999,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "仿製",
+        "transcriptions": {
+          "pinyin": "fǎng zhì",
+          "numeric": "fang3 zhi4",
+          "wadegiles": "fang³ chih⁴",
+          "bopomofo": "ㄈㄤˇ ㄓˋ",
+          "romatzyh": "faang jyh"
+        },
+        "meanings": [
+          "to copy",
+          "to imitate",
+          "to make by imitating a model"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "访谈",
+    "radical": "讠",
+    "frequency": 9041,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "訪談",
+        "transcriptions": {
+          "pinyin": "fǎng tán",
+          "numeric": "fang3 tan2",
+          "wadegiles": "fang³ t'an²",
+          "bopomofo": "ㄈㄤˇ ㄊㄢˊ",
+          "romatzyh": "faang tarn"
+        },
+        "meanings": [
+          "to visit and discuss",
+          "to interview"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "访问",
+    "radical": "讠",
+    "frequency": 3182,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "訪問",
+        "transcriptions": {
+          "pinyin": "fǎng wèn",
+          "numeric": "fang3 wen4",
+          "wadegiles": "fang³ wen⁴",
+          "bopomofo": "ㄈㄤˇ ㄨㄣˋ",
+          "romatzyh": "faang wenn"
+        },
+        "meanings": [
+          "to visit",
+          "to call on",
+          "to interview"
+        ],
+        "classifiers": [
+          "次"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "纺织",
+    "radical": "纟",
+    "frequency": 15626,
+    "pos": [
+      "vn",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "紡織",
+        "transcriptions": {
+          "pinyin": "fǎng zhī",
+          "numeric": "fang3 zhi1",
+          "wadegiles": "fang³ chih¹",
+          "bopomofo": "ㄈㄤˇ ㄓ",
+          "romatzyh": "faang jy"
+        },
+        "meanings": [
+          "spinning and weaving"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "放",
+    "radical": "攵",
+    "frequency": 280,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "放",
+        "transcriptions": {
+          "pinyin": "fàng",
+          "numeric": "fang4",
+          "wadegiles": "fang⁴",
+          "bopomofo": "ㄈㄤˋ",
+          "romatzyh": "fanq"
+        },
+        "meanings": [
+          "to put",
+          "to place",
+          "to release",
+          "to free",
+          "to let go",
+          "to let out",
+          "to set off (fireworks)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "放大",
+    "radical": "攵",
+    "frequency": 5489,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "放大",
+        "transcriptions": {
+          "pinyin": "fàng dà",
+          "numeric": "fang4 da4",
+          "wadegiles": "fang⁴ ta⁴",
+          "bopomofo": "ㄈㄤˋ ㄉㄚˋ",
+          "romatzyh": "fanq dah"
+        },
+        "meanings": [
+          "to enlarge",
+          "to magnify"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "放到",
+    "radical": "攵",
+    "frequency": 3107,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "放到",
+        "transcriptions": {
+          "pinyin": "fàng dào",
+          "numeric": "fang4 dao4",
+          "wadegiles": "fang⁴ tao⁴",
+          "bopomofo": "ㄈㄤˋ ㄉㄠˋ",
+          "romatzyh": "fanq daw"
+        },
+        "meanings": [
+          "Put in"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "放过",
+    "radical": "攵",
+    "frequency": 6937,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "放過",
+        "transcriptions": {
+          "pinyin": "fàng guò",
+          "numeric": "fang4 guo4",
+          "wadegiles": "fang⁴ kuo⁴",
+          "bopomofo": "ㄈㄤˋ ㄍㄨㄛˋ",
+          "romatzyh": "fanq guoh"
+        },
+        "meanings": [
+          "to let off",
+          "to let slip by",
+          "to let sb get away with sth"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "放假",
+    "radical": "攵",
+    "frequency": 6177,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "放假",
+        "transcriptions": {
+          "pinyin": "fàng jià",
+          "numeric": "fang4 jia4",
+          "wadegiles": "fang⁴ chia⁴",
+          "bopomofo": "ㄈㄤˋ ㄐㄧㄚˋ",
+          "romatzyh": "fanq jiah"
+        },
+        "meanings": [
+          "to have a holiday or vacation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "放弃",
+    "radical": "攵",
+    "frequency": 994,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "放棄",
+        "transcriptions": {
+          "pinyin": "fàng qì",
+          "numeric": "fang4 qi4",
+          "wadegiles": "fang⁴ ch'i⁴",
+          "bopomofo": "ㄈㄤˋ ㄑㄧˋ",
+          "romatzyh": "fanq chih"
+        },
+        "meanings": [
+          "to renounce; to abandon; to give up"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "放水",
+    "radical": "攵",
+    "frequency": 18677,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "放水",
+        "transcriptions": {
+          "pinyin": "fàng shuǐ",
+          "numeric": "fang4 shui3",
+          "wadegiles": "fang⁴ shui³",
+          "bopomofo": "ㄈㄤˋ ㄕㄨㄟˇ",
+          "romatzyh": "fanq shoei"
+        },
+        "meanings": [
+          "to turn on the water",
+          "to let water out",
+          "(sports) to throw a game"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "放肆",
+    "radical": "攵",
+    "frequency": 17039,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "放肆",
+        "transcriptions": {
+          "pinyin": "fàng sì",
+          "numeric": "fang4 si4",
+          "wadegiles": "fang⁴ ssu⁴",
+          "bopomofo": "ㄈㄤˋ ㄙˋ",
+          "romatzyh": "fanq syh"
+        },
+        "meanings": [
+          "wanton",
+          "unbridled",
+          "presumptuous",
+          "impudent"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "放松",
+    "radical": "攵",
+    "frequency": 2311,
+    "pos": [
+      "v",
+      "vn",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "放鬆",
+        "transcriptions": {
+          "pinyin": "fàng sōng",
+          "numeric": "fang4 song1",
+          "wadegiles": "fang⁴ sung¹",
+          "bopomofo": "ㄈㄤˋ ㄙㄨㄥ",
+          "romatzyh": "fanq song"
+        },
+        "meanings": [
+          "to relax; to slacken; to loosen"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "放下",
+    "radical": "攵",
+    "frequency": 2179,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "放下",
+        "transcriptions": {
+          "pinyin": "fàng xià",
+          "numeric": "fang4 xia4",
+          "wadegiles": "fang⁴ hsia⁴",
+          "bopomofo": "ㄈㄤˋ ㄒㄧㄚˋ",
+          "romatzyh": "fanq shiah"
+        },
+        "meanings": [
+          "to lay down",
+          "to put down",
+          "to let go of",
+          "to relinquish",
+          "to set aside",
+          "to lower (the blinds etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

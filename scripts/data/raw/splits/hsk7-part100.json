@@ -1,0 +1,2010 @@
+[
+  {
+    "simplified": "摔跤",
+    "radical": "扌",
+    "frequency": 11555,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "摔跤",
+        "transcriptions": {
+          "pinyin": "shuāi jiāo",
+          "numeric": "shuai1 jiao1",
+          "wadegiles": "shuai¹ chiao¹",
+          "bopomofo": "ㄕㄨㄞ ㄐㄧㄠ",
+          "romatzyh": "shuai jiau"
+        },
+        "meanings": [
+          "to trip and fall",
+          "to wrestle",
+          "wrestling (sports)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "甩",
+    "radical": "用",
+    "frequency": 3672,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "甩",
+        "transcriptions": {
+          "pinyin": "shuǎi",
+          "numeric": "shuai3",
+          "wadegiles": "shuai³",
+          "bopomofo": "ㄕㄨㄞˇ",
+          "romatzyh": "shoai"
+        },
+        "meanings": [
+          "to throw",
+          "to fling",
+          "to swing",
+          "to leave behind",
+          "to throw off",
+          "to dump (sb)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "帅",
+    "radical": "巾",
+    "frequency": 1452,
+    "pos": [
+      "nr",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "帥",
+        "transcriptions": {
+          "pinyin": "Shuài",
+          "numeric": "Shuai4",
+          "wadegiles": "shuai⁴",
+          "bopomofo": "ㄕㄨㄞˋ",
+          "romatzyh": "shuay"
+        },
+        "meanings": [
+          "surname Shuai"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "帥",
+        "transcriptions": {
+          "pinyin": "shuài",
+          "numeric": "shuai4",
+          "wadegiles": "shuai⁴",
+          "bopomofo": "ㄕㄨㄞˋ",
+          "romatzyh": "shuay"
+        },
+        "meanings": [
+          "(bound form) commander-in-chief",
+          "(bound form) to lead; to command",
+          "handsome; graceful; dashing; elegant",
+          "(coll.) cool!; sweet!",
+          "(Chinese chess) general (on the red side, equivalent to a king in Western chess)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "帅哥",
+    "radical": "巾",
+    "frequency": 6378,
+    "pos": [
+      "nr"
+    ],
+    "forms": [
+      {
+        "traditional": "帥哥",
+        "transcriptions": {
+          "pinyin": "shuài gē",
+          "numeric": "shuai4 ge1",
+          "wadegiles": "shuai⁴ ko¹",
+          "bopomofo": "ㄕㄨㄞˋ ㄍㄜ",
+          "romatzyh": "shuay ge"
+        },
+        "meanings": [
+          "handsome guy",
+          "lady-killer",
+          "handsome (form of address)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "拴",
+    "radical": "扌",
+    "frequency": 13576,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "拴",
+        "transcriptions": {
+          "pinyin": "shuān",
+          "numeric": "shuan1",
+          "wadegiles": "shuan¹",
+          "bopomofo": "ㄕㄨㄢ",
+          "romatzyh": "shuan"
+        },
+        "meanings": [
+          "to tie up"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "涮",
+    "radical": "氵",
+    "frequency": 15007,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "涮",
+        "transcriptions": {
+          "pinyin": "shuàn",
+          "numeric": "shuan4",
+          "wadegiles": "shuan⁴",
+          "bopomofo": "ㄕㄨㄢˋ",
+          "romatzyh": "shuann"
+        },
+        "meanings": [
+          "to rinse",
+          "to trick",
+          "to fool sb",
+          "to cook by dipping finely sliced ingredients briefly in boiling water or soup (generally done at the dining table)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "双",
+    "radical": "又",
+    "frequency": 642,
+    "pos": [
+      "m",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "雙",
+        "transcriptions": {
+          "pinyin": "Shuāng",
+          "numeric": "Shuang1",
+          "wadegiles": "shuang¹",
+          "bopomofo": "ㄕㄨㄤ",
+          "romatzyh": "shuang"
+        },
+        "meanings": [
+          "surname Shuang"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "雙",
+        "transcriptions": {
+          "pinyin": "shuāng",
+          "numeric": "shuang1",
+          "wadegiles": "shuang¹",
+          "bopomofo": "ㄕㄨㄤ",
+          "romatzyh": "shuang"
+        },
+        "meanings": [
+          "two",
+          "double",
+          "pair",
+          "both",
+          "even (number)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "双胞胎",
+    "radical": "又",
+    "frequency": 8603,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "雙胞胎",
+        "transcriptions": {
+          "pinyin": "shuāng bāo tāi",
+          "numeric": "shuang1 bao1 tai1",
+          "wadegiles": "shuang¹ pao¹ t'ai¹",
+          "bopomofo": "ㄕㄨㄤ ㄅㄠ ㄊㄞ",
+          "romatzyh": "shuang bau tai"
+        },
+        "meanings": [
+          "twin"
+        ],
+        "classifiers": [
+          "对"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "双边",
+    "radical": "又",
+    "frequency": 20258,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "雙邊",
+        "transcriptions": {
+          "pinyin": "shuāng biān",
+          "numeric": "shuang1 bian1",
+          "wadegiles": "shuang¹ pien¹",
+          "bopomofo": "ㄕㄨㄤ ㄅㄧㄢ",
+          "romatzyh": "shuang bian"
+        },
+        "meanings": [
+          "bilateral"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "双打",
+    "radical": "又",
+    "frequency": 24817,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "雙打",
+        "transcriptions": {
+          "pinyin": "shuāng dǎ",
+          "numeric": "shuang1 da3",
+          "wadegiles": "shuang¹ ta³",
+          "bopomofo": "ㄕㄨㄤ ㄉㄚˇ",
+          "romatzyh": "shuang daa"
+        },
+        "meanings": [
+          "doubles (in sports)"
+        ],
+        "classifiers": [
+          "场"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "双方",
+    "radical": "又",
+    "frequency": 2714,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "雙方",
+        "transcriptions": {
+          "pinyin": "shuāng fāng",
+          "numeric": "shuang1 fang1",
+          "wadegiles": "shuang¹ fang¹",
+          "bopomofo": "ㄕㄨㄤ ㄈㄤ",
+          "romatzyh": "shuang fang"
+        },
+        "meanings": [
+          "bilateral",
+          "both sides",
+          "both parties involved"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "双手",
+    "radical": "又",
+    "frequency": 3719,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "雙手",
+        "transcriptions": {
+          "pinyin": "shuāng shǒu",
+          "numeric": "shuang1 shou3",
+          "wadegiles": "shuang¹ shou³",
+          "bopomofo": "ㄕㄨㄤ ㄕㄡˇ",
+          "romatzyh": "shuang shoou"
+        },
+        "meanings": [
+          "both hands"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "双向",
+    "radical": "又",
+    "frequency": 12505,
+    "pos": [
+      "b",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "雙向",
+        "transcriptions": {
+          "pinyin": "shuāng xiàng",
+          "numeric": "shuang1 xiang4",
+          "wadegiles": "shuang¹ hsiang⁴",
+          "bopomofo": "ㄕㄨㄤ ㄒㄧㄤˋ",
+          "romatzyh": "shuang shianq"
+        },
+        "meanings": [
+          "bidirectional",
+          "two-way",
+          "interactive"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "双赢",
+    "radical": "又",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "雙贏",
+        "transcriptions": {
+          "pinyin": "shuāng yíng",
+          "numeric": "shuang1 ying2",
+          "wadegiles": "shuang¹ ying²",
+          "bopomofo": "ㄕㄨㄤ ㄧㄥˊ",
+          "romatzyh": "shuang yng"
+        },
+        "meanings": [
+          "profitable to both sides",
+          "a win-win situation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "双重",
+    "radical": "又",
+    "frequency": 6239,
+    "pos": [
+      "b",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "雙重",
+        "transcriptions": {
+          "pinyin": "shuāng chóng",
+          "numeric": "shuang1 chong2",
+          "wadegiles": "shuang¹ ch'ung²",
+          "bopomofo": "ㄕㄨㄤ ㄔㄨㄥˊ",
+          "romatzyh": "shuang chorng"
+        },
+        "meanings": [
+          "double"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "霜",
+    "radical": "雨",
+    "frequency": 6485,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "霜",
+        "transcriptions": {
+          "pinyin": "shuāng",
+          "numeric": "shuang1",
+          "wadegiles": "shuang¹",
+          "bopomofo": "ㄕㄨㄤ",
+          "romatzyh": "shuang"
+        },
+        "meanings": [
+          "frost",
+          "white powder or cream spread over a surface",
+          "frosting",
+          "(skin) cream"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "爽",
+    "radical": "爻",
+    "frequency": 2263,
+    "pos": [
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "爽",
+        "transcriptions": {
+          "pinyin": "shuǎng",
+          "numeric": "shuang3",
+          "wadegiles": "shuang³",
+          "bopomofo": "ㄕㄨㄤˇ",
+          "romatzyh": "shoang"
+        },
+        "meanings": [
+          "bright",
+          "clear",
+          "crisp",
+          "open",
+          "frank",
+          "straightforward",
+          "to feel well",
+          "fine",
+          "pleasurable",
+          "invigorating",
+          "to deviate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "爽快",
+    "radical": "爻",
+    "frequency": 16589,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "爽快",
+        "transcriptions": {
+          "pinyin": "shuǎng kuai",
+          "numeric": "shuang3 kuai5",
+          "wadegiles": "shuang³ kuai",
+          "bopomofo": "ㄕㄨㄤˇ kuai",
+          "romatzyh": "shoang kuai"
+        },
+        "meanings": [
+          "refreshed",
+          "rejuvenated",
+          "frank and straightforward"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "谁",
+    "radical": "讠",
+    "frequency": 142,
+    "pos": [
+      "r"
+    ],
+    "forms": [
+      {
+        "traditional": "誰",
+        "transcriptions": {
+          "pinyin": "shéi",
+          "numeric": "shei2",
+          "wadegiles": "shei²",
+          "bopomofo": "ㄕㄟˊ",
+          "romatzyh": "sheir"
+        },
+        "meanings": [
+          "who",
+          "also pr. [shuí]"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "谁知道",
+    "radical": "讠",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "誰知道",
+        "transcriptions": {
+          "pinyin": "shéi zhī dào",
+          "numeric": "shei2 zhi1 dao4",
+          "wadegiles": "shei² chih¹ tao⁴",
+          "bopomofo": "ㄕㄟˊ ㄓ ㄉㄠˋ",
+          "romatzyh": "sheir jy daw"
+        },
+        "meanings": [
+          "God knows...",
+          "Who would have imagined...?"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水",
+    "radical": "水",
+    "frequency": 335,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水",
+        "transcriptions": {
+          "pinyin": "Shuǐ",
+          "numeric": "Shui3",
+          "wadegiles": "shui³",
+          "bopomofo": "ㄕㄨㄟˇ",
+          "romatzyh": "shoei"
+        },
+        "meanings": [
+          "surname Shui"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "水",
+        "transcriptions": {
+          "pinyin": "shuǐ",
+          "numeric": "shui3",
+          "wadegiles": "shui³",
+          "bopomofo": "ㄕㄨㄟˇ",
+          "romatzyh": "shoei"
+        },
+        "meanings": [
+          "water",
+          "river",
+          "liquid",
+          "beverage",
+          "additional charges or income",
+          "(of clothes) classifier for number of washes"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水槽",
+    "radical": "水",
+    "frequency": 22977,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水槽",
+        "transcriptions": {
+          "pinyin": "shuǐ cáo",
+          "numeric": "shui3 cao2",
+          "wadegiles": "shui³ ts'ao²",
+          "bopomofo": "ㄕㄨㄟˇ ㄘㄠˊ",
+          "romatzyh": "shoei tsaur"
+        },
+        "meanings": [
+          "sink"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水产品",
+    "radical": "水",
+    "frequency": 12812,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "水產品",
+        "transcriptions": {
+          "pinyin": "shuǐ chǎn pǐn",
+          "numeric": "shui3 chan3 pin3",
+          "wadegiles": "shui³ ch'an³ p'in³",
+          "bopomofo": "ㄕㄨㄟˇ ㄔㄢˇ ㄆㄧㄣˇ",
+          "romatzyh": "shoei chaan piin"
+        },
+        "meanings": [
+          "aquatic products (including fish, crabs, seaweed etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水稻",
+    "radical": "水",
+    "frequency": 29081,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水稻",
+        "transcriptions": {
+          "pinyin": "shuǐ dào",
+          "numeric": "shui3 dao4",
+          "wadegiles": "shui³ tao⁴",
+          "bopomofo": "ㄕㄨㄟˇ ㄉㄠˋ",
+          "romatzyh": "shoei daw"
+        },
+        "meanings": [
+          "rice",
+          "paddy"
+        ],
+        "classifiers": [
+          "株"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "水分",
+    "radical": "水",
+    "frequency": 10494,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水分",
+        "transcriptions": {
+          "pinyin": "shuǐ fèn",
+          "numeric": "shui3 fen4",
+          "wadegiles": "shui³ fen⁴",
+          "bopomofo": "ㄕㄨㄟˇ ㄈㄣˋ",
+          "romatzyh": "shoei fenn"
+        },
+        "meanings": [
+          "moisture content",
+          "(fig.) overstatement",
+          "padding"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水管",
+    "radical": "水",
+    "frequency": 9498,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水管",
+        "transcriptions": {
+          "pinyin": "shuǐ guǎn",
+          "numeric": "shui3 guan3",
+          "wadegiles": "shui³ kuan³",
+          "bopomofo": "ㄕㄨㄟˇ ㄍㄨㄢˇ",
+          "romatzyh": "shoei goan"
+        },
+        "meanings": [
+          "water pipe"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水果",
+    "radical": "水",
+    "frequency": 3271,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水果",
+        "transcriptions": {
+          "pinyin": "shuǐ guǒ",
+          "numeric": "shui3 guo3",
+          "wadegiles": "shui³ kuo³",
+          "bopomofo": "ㄕㄨㄟˇ ㄍㄨㄛˇ",
+          "romatzyh": "shoei guoo"
+        },
+        "meanings": [
+          "fruit"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "水壶",
+    "radical": "水",
+    "frequency": 17784,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水壺",
+        "transcriptions": {
+          "pinyin": "shuǐ hú",
+          "numeric": "shui3 hu2",
+          "wadegiles": "shui³ hu²",
+          "bopomofo": "ㄕㄨㄟˇ ㄏㄨˊ",
+          "romatzyh": "shoei hwu"
+        },
+        "meanings": [
+          "kettle",
+          "canteen",
+          "watering can"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水货",
+    "radical": "水",
+    "frequency": 37424,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水貨",
+        "transcriptions": {
+          "pinyin": "shuǐ huò",
+          "numeric": "shui3 huo4",
+          "wadegiles": "shui³ huo⁴",
+          "bopomofo": "ㄕㄨㄟˇ ㄏㄨㄛˋ",
+          "romatzyh": "shoei huoh"
+        },
+        "meanings": [
+          "smuggled goods",
+          "unauthorized goods"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水晶",
+    "radical": "水",
+    "frequency": 6229,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水晶",
+        "transcriptions": {
+          "pinyin": "shuǐ jīng",
+          "numeric": "shui3 jing1",
+          "wadegiles": "shui³ ching¹",
+          "bopomofo": "ㄕㄨㄟˇ ㄐㄧㄥ",
+          "romatzyh": "shoei jing"
+        },
+        "meanings": [
+          "crystal"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水库",
+    "radical": "水",
+    "frequency": 9803,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水庫",
+        "transcriptions": {
+          "pinyin": "shuǐ kù",
+          "numeric": "shui3 ku4",
+          "wadegiles": "shui³ k'u⁴",
+          "bopomofo": "ㄕㄨㄟˇ ㄎㄨˋ",
+          "romatzyh": "shoei kuh"
+        },
+        "meanings": [
+          "reservoir"
+        ],
+        "classifiers": [
+          "座"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "水利",
+    "radical": "水",
+    "frequency": 18333,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水利",
+        "transcriptions": {
+          "pinyin": "shuǐ lì",
+          "numeric": "shui3 li4",
+          "wadegiles": "shui³ li⁴",
+          "bopomofo": "ㄕㄨㄟˇ ㄌㄧˋ",
+          "romatzyh": "shoei lih"
+        },
+        "meanings": [
+          "water conservancy",
+          "irrigation works"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水灵灵",
+    "radical": "水",
+    "frequency": 57146,
+    "pos": [
+      "z"
+    ],
+    "forms": [
+      {
+        "traditional": "水靈靈",
+        "transcriptions": {
+          "pinyin": "shuǐ líng líng",
+          "numeric": "shui3 ling2 ling2",
+          "wadegiles": "shui³ ling² ling²",
+          "bopomofo": "ㄕㄨㄟˇ ㄌㄧㄥˊ ㄌㄧㄥˊ",
+          "romatzyh": "shoei ling ling"
+        },
+        "meanings": [
+          "see 水灵"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水龙头",
+    "radical": "水",
+    "frequency": 17310,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水龍頭",
+        "transcriptions": {
+          "pinyin": "shuǐ lóng tóu",
+          "numeric": "shui3 long2 tou2",
+          "wadegiles": "shui³ lung² t'ou²",
+          "bopomofo": "ㄕㄨㄟˇ ㄌㄨㄥˊ ㄊㄡˊ",
+          "romatzyh": "shoei long tour"
+        },
+        "meanings": [
+          "faucet",
+          "tap"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水落石出",
+    "radical": "水",
+    "frequency": 21841,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "水落石出",
+        "transcriptions": {
+          "pinyin": "shuǐ luò shí chū",
+          "numeric": "shui3 luo4 shi2 chu1",
+          "wadegiles": "shui³ lo⁴ shih² ch'u¹",
+          "bopomofo": "ㄕㄨㄟˇ ㄌㄨㄛˋ ㄕˊ ㄔㄨ",
+          "romatzyh": "shoei luoh shyr chu"
+        },
+        "meanings": [
+          "as the water recedes, the rocks appear (idiom)",
+          "the truth comes to light"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水面",
+    "radical": "水",
+    "frequency": 7177,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水面",
+        "transcriptions": {
+          "pinyin": "shuǐ miàn",
+          "numeric": "shui3 mian4",
+          "wadegiles": "shui³ mien⁴",
+          "bopomofo": "ㄕㄨㄟˇ ㄇㄧㄢˋ",
+          "romatzyh": "shoei miann"
+        },
+        "meanings": [
+          "water surface"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水泥",
+    "radical": "水",
+    "frequency": 5785,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水泥",
+        "transcriptions": {
+          "pinyin": "shuǐ ní",
+          "numeric": "shui3 ni2",
+          "wadegiles": "shui³ ni²",
+          "bopomofo": "ㄕㄨㄟˇ ㄋㄧˊ",
+          "romatzyh": "shoei ni"
+        },
+        "meanings": [
+          "cement"
+        ],
+        "classifiers": [
+          "袋"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "水平",
+    "radical": "水",
+    "frequency": 1490,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水平",
+        "transcriptions": {
+          "pinyin": "shuǐ píng",
+          "numeric": "shui3 ping2",
+          "wadegiles": "shui³ p'ing²",
+          "bopomofo": "ㄕㄨㄟˇ ㄆㄧㄥˊ",
+          "romatzyh": "shoei pyng"
+        },
+        "meanings": [
+          "level (of achievement etc)",
+          "standard",
+          "horizontal"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水手",
+    "radical": "水",
+    "frequency": 11321,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水手",
+        "transcriptions": {
+          "pinyin": "shuǐ shǒu",
+          "numeric": "shui3 shou3",
+          "wadegiles": "shui³ shou³",
+          "bopomofo": "ㄕㄨㄟˇ ㄕㄡˇ",
+          "romatzyh": "shoei shoou"
+        },
+        "meanings": [
+          "mariner",
+          "sailor",
+          "seaman"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水温",
+    "radical": "水",
+    "frequency": 24215,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水溫",
+        "transcriptions": {
+          "pinyin": "shuǐ wēn",
+          "numeric": "shui3 wen1",
+          "wadegiles": "shui³ wen¹",
+          "bopomofo": "ㄕㄨㄟˇ ㄨㄣ",
+          "romatzyh": "shoei uen"
+        },
+        "meanings": [
+          "water temperature"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水域",
+    "radical": "水",
+    "frequency": 13197,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水域",
+        "transcriptions": {
+          "pinyin": "shuǐ yù",
+          "numeric": "shui3 yu4",
+          "wadegiles": "shui³ yü⁴",
+          "bopomofo": "ㄕㄨㄟˇ ㄩˋ",
+          "romatzyh": "shoei yuh"
+        },
+        "meanings": [
+          "waters",
+          "body of water"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水源",
+    "radical": "水",
+    "frequency": 9615,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水源",
+        "transcriptions": {
+          "pinyin": "shuǐ yuán",
+          "numeric": "shui3 yuan2",
+          "wadegiles": "shui³ yüan²",
+          "bopomofo": "ㄕㄨㄟˇ ㄩㄢˊ",
+          "romatzyh": "shoei yuan"
+        },
+        "meanings": [
+          "water source",
+          "water supply",
+          "headwaters of a river"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水灾",
+    "radical": "水",
+    "frequency": 28359,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水災",
+        "transcriptions": {
+          "pinyin": "shuǐ zāi",
+          "numeric": "shui3 zai1",
+          "wadegiles": "shui³ tsai¹",
+          "bopomofo": "ㄕㄨㄟˇ ㄗㄞ",
+          "romatzyh": "shoei tzai"
+        },
+        "meanings": [
+          "flood",
+          "flood damage"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水涨船高",
+    "radical": "水",
+    "frequency": 40619,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "水漲船高",
+        "transcriptions": {
+          "pinyin": "shuǐ zhǎng chuán gāo",
+          "numeric": "shui3 zhang3 chuan2 gao1",
+          "wadegiles": "shui³ chang³ ch'uan² kao¹",
+          "bopomofo": "ㄕㄨㄟˇ ㄓㄤˇ ㄔㄨㄢˊ ㄍㄠ",
+          "romatzyh": "shoei jaang chwan gau"
+        },
+        "meanings": [
+          "the tide rises, the boat floats (idiom); fig. to change with the overall trend",
+          "to develop according to the situation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "水准",
+    "radical": "水",
+    "frequency": 7494,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "水準",
+        "transcriptions": {
+          "pinyin": "shuǐ zhǔn",
+          "numeric": "shui3 zhun3",
+          "wadegiles": "shui³ chun³",
+          "bopomofo": "ㄕㄨㄟˇ ㄓㄨㄣˇ",
+          "romatzyh": "shoei joen"
+        },
+        "meanings": [
+          "level (of achievement etc)",
+          "standard",
+          "level (surveying)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "税",
+    "radical": "禾",
+    "frequency": 3627,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "稅",
+        "transcriptions": {
+          "pinyin": "shuì",
+          "numeric": "shui4",
+          "wadegiles": "shui⁴",
+          "bopomofo": "ㄕㄨㄟˋ",
+          "romatzyh": "shuey"
+        },
+        "meanings": [
+          "taxes",
+          "duties"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "税收",
+    "radical": "禾",
+    "frequency": 7717,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "稅收",
+        "transcriptions": {
+          "pinyin": "shuì shōu",
+          "numeric": "shui4 shou1",
+          "wadegiles": "shui⁴ shou¹",
+          "bopomofo": "ㄕㄨㄟˋ ㄕㄡ",
+          "romatzyh": "shuey shou"
+        },
+        "meanings": [
+          "taxation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "税务",
+    "radical": "禾",
+    "frequency": 9952,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "稅務",
+        "transcriptions": {
+          "pinyin": "shuì wù",
+          "numeric": "shui4 wu4",
+          "wadegiles": "shui⁴ wu⁴",
+          "bopomofo": "ㄕㄨㄟˋ ㄨˋ",
+          "romatzyh": "shuey wuh"
+        },
+        "meanings": [
+          "taxation services",
+          "state revenue service"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "睡",
+    "radical": "目",
+    "frequency": 464,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "睡",
+        "transcriptions": {
+          "pinyin": "shuì",
+          "numeric": "shui4",
+          "wadegiles": "shui⁴",
+          "bopomofo": "ㄕㄨㄟˋ",
+          "romatzyh": "shuey"
+        },
+        "meanings": [
+          "to sleep",
+          "to lie down"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "睡袋",
+    "radical": "目",
+    "frequency": 23812,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "睡袋",
+        "transcriptions": {
+          "pinyin": "shuì dài",
+          "numeric": "shui4 dai4",
+          "wadegiles": "shui⁴ tai⁴",
+          "bopomofo": "ㄕㄨㄟˋ ㄉㄞˋ",
+          "romatzyh": "shuey day"
+        },
+        "meanings": [
+          "sleeping bag"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "睡觉",
+    "radical": "目",
+    "frequency": 944,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "睡覺",
+        "transcriptions": {
+          "pinyin": "shuì jiào",
+          "numeric": "shui4 jiao4",
+          "wadegiles": "shui⁴ chiao⁴",
+          "bopomofo": "ㄕㄨㄟˋ ㄐㄧㄠˋ",
+          "romatzyh": "shuey jiaw"
+        },
+        "meanings": [
+          "to go to bed",
+          "to sleep"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "睡眠",
+    "radical": "目",
+    "frequency": 4716,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "睡眠",
+        "transcriptions": {
+          "pinyin": "shuì mián",
+          "numeric": "shui4 mian2",
+          "wadegiles": "shui⁴ mien²",
+          "bopomofo": "ㄕㄨㄟˋ ㄇㄧㄢˊ",
+          "romatzyh": "shuey mian"
+        },
+        "meanings": [
+          "sleep",
+          "to sleep",
+          "(computing) to enter sleep mode"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "睡着",
+    "radical": "目",
+    "frequency": 2904,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "睡著",
+        "transcriptions": {
+          "pinyin": "shuì zháo",
+          "numeric": "shui4 zhao2",
+          "wadegiles": "shui⁴ chao²",
+          "bopomofo": "ㄕㄨㄟˋ ㄓㄠˊ",
+          "romatzyh": "shuey jaur"
+        },
+        "meanings": [
+          "to fall asleep"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "顺",
+    "radical": "页",
+    "frequency": 2780,
+    "pos": [
+      "v",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "順",
+        "transcriptions": {
+          "pinyin": "shùn",
+          "numeric": "shun4",
+          "wadegiles": "shun⁴",
+          "bopomofo": "ㄕㄨㄣˋ",
+          "romatzyh": "shuenn"
+        },
+        "meanings": [
+          "to obey",
+          "to follow",
+          "to arrange",
+          "to make reasonable",
+          "along",
+          "favorable"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "顺便",
+    "radical": "页",
+    "frequency": 3796,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "順便",
+        "transcriptions": {
+          "pinyin": "shùn biàn",
+          "numeric": "shun4 bian4",
+          "wadegiles": "shun⁴ pien⁴",
+          "bopomofo": "ㄕㄨㄣˋ ㄅㄧㄢˋ",
+          "romatzyh": "shuenn biann"
+        },
+        "meanings": [
+          "conveniently",
+          "in passing",
+          "without much extra effort"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "顺差",
+    "radical": "页",
+    "frequency": 54122,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "順差",
+        "transcriptions": {
+          "pinyin": "shùn chā",
+          "numeric": "shun4 cha1",
+          "wadegiles": "shun⁴ ch'a¹",
+          "bopomofo": "ㄕㄨㄣˋ ㄔㄚ",
+          "romatzyh": "shuenn cha"
+        },
+        "meanings": [
+          "(trade or budget) surplus"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "顺畅",
+    "radical": "页",
+    "frequency": 14501,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "順暢",
+        "transcriptions": {
+          "pinyin": "shùn chàng",
+          "numeric": "shun4 chang4",
+          "wadegiles": "shun⁴ ch'ang⁴",
+          "bopomofo": "ㄕㄨㄣˋ ㄔㄤˋ",
+          "romatzyh": "shuenn chanq"
+        },
+        "meanings": [
+          "smooth and unhindered",
+          "fluent"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "顺从",
+    "radical": "页",
+    "frequency": 17272,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "順從",
+        "transcriptions": {
+          "pinyin": "shùn cóng",
+          "numeric": "shun4 cong2",
+          "wadegiles": "shun⁴ ts'ung²",
+          "bopomofo": "ㄕㄨㄣˋ ㄘㄨㄥˊ",
+          "romatzyh": "shuenn tsorng"
+        },
+        "meanings": [
+          "obedient",
+          "to comply",
+          "to submit",
+          "to defer"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "顺理成章",
+    "radical": "页",
+    "frequency": 21854,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "順理成章",
+        "transcriptions": {
+          "pinyin": "shùn lǐ chéng zhāng",
+          "numeric": "shun4 li3 cheng2 zhang1",
+          "wadegiles": "shun⁴ li³ ch'eng² chang¹",
+          "bopomofo": "ㄕㄨㄣˋ ㄌㄧˇ ㄔㄥˊ ㄓㄤ",
+          "romatzyh": "shuenn lii cherng jang"
+        },
+        "meanings": [
+          "logical",
+          "only to be expected",
+          "rational and clearly structured (of text)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "顺利",
+    "radical": "页",
+    "frequency": 1475,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "順利",
+        "transcriptions": {
+          "pinyin": "shùn lì",
+          "numeric": "shun4 li4",
+          "wadegiles": "shun⁴ li⁴",
+          "bopomofo": "ㄕㄨㄣˋ ㄌㄧˋ",
+          "romatzyh": "shuenn lih"
+        },
+        "meanings": [
+          "smoothly; without a hitch"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "顺路",
+    "radical": "页",
+    "frequency": 20368,
+    "pos": [
+      "d",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "順路",
+        "transcriptions": {
+          "pinyin": "shùn lù",
+          "numeric": "shun4 lu4",
+          "wadegiles": "shun⁴ lu⁴",
+          "bopomofo": "ㄕㄨㄣˋ ㄌㄨˋ",
+          "romatzyh": "shuenn luh"
+        },
+        "meanings": [
+          "by the way",
+          "while out doing sth else",
+          "conveniently"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "顺其自然",
+    "radical": "页",
+    "frequency": 13447,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "順其自然",
+        "transcriptions": {
+          "pinyin": "shùn qí zì rán",
+          "numeric": "shun4 qi2 zi4 ran2",
+          "wadegiles": "shun⁴ ch'i² tzu⁴ jan²",
+          "bopomofo": "ㄕㄨㄣˋ ㄑㄧˊ ㄗˋ ㄖㄢˊ",
+          "romatzyh": "shuenn chyi tzyh ran"
+        },
+        "meanings": [
+          "to let nature take its course (idiom)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "顺势",
+    "radical": "页",
+    "frequency": 18662,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "順勢",
+        "transcriptions": {
+          "pinyin": "shùn shì",
+          "numeric": "shun4 shi4",
+          "wadegiles": "shun⁴ shih⁴",
+          "bopomofo": "ㄕㄨㄣˋ ㄕˋ",
+          "romatzyh": "shuenn shyh"
+        },
+        "meanings": [
+          "to take advantage",
+          "to seize an opportunity",
+          "in passing",
+          "without taking extra trouble",
+          "conveniently"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "顺手",
+    "radical": "页",
+    "frequency": 13485,
+    "pos": [
+      "d",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "順手",
+        "transcriptions": {
+          "pinyin": "shùn shǒu",
+          "numeric": "shun4 shou3",
+          "wadegiles": "shun⁴ shou³",
+          "bopomofo": "ㄕㄨㄣˋ ㄕㄡˇ",
+          "romatzyh": "shuenn shoou"
+        },
+        "meanings": [
+          "easily",
+          "without trouble",
+          "while one is at it",
+          "in passing",
+          "handy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "顺心",
+    "radical": "页",
+    "frequency": 16192,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "順心",
+        "transcriptions": {
+          "pinyin": "shùn xīn",
+          "numeric": "shun4 xin1",
+          "wadegiles": "shun⁴ hsin¹",
+          "bopomofo": "ㄕㄨㄣˋ ㄒㄧㄣ",
+          "romatzyh": "shuenn shin"
+        },
+        "meanings": [
+          "happy",
+          "satisfactory"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "顺序",
+    "radical": "页",
+    "frequency": 6178,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "順序",
+        "transcriptions": {
+          "pinyin": "shùn xù",
+          "numeric": "shun4 xu4",
+          "wadegiles": "shun⁴ hsü⁴",
+          "bopomofo": "ㄕㄨㄣˋ ㄒㄩˋ",
+          "romatzyh": "shuenn shiuh"
+        },
+        "meanings": [
+          "sequence",
+          "order"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "顺应",
+    "radical": "页",
+    "frequency": 22301,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "順應",
+        "transcriptions": {
+          "pinyin": "shùn yìng",
+          "numeric": "shun4 ying4",
+          "wadegiles": "shun⁴ ying⁴",
+          "bopomofo": "ㄕㄨㄣˋ ㄧㄥˋ",
+          "romatzyh": "shuenn yinq"
+        },
+        "meanings": [
+          "to comply; to conform to; in tune with; adapting to; to adjust to"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "顺着",
+    "radical": "页",
+    "frequency": 6046,
+    "pos": [
+      "p"
+    ],
+    "forms": [
+      {
+        "traditional": "順著",
+        "transcriptions": {
+          "pinyin": "shùn zhe",
+          "numeric": "shun4 zhe5",
+          "wadegiles": "shun⁴ zhe",
+          "bopomofo": "ㄕㄨㄣˋ zhe",
+          "romatzyh": "shuenn zhe"
+        },
+        "meanings": [
+          "to follow",
+          "following",
+          "along"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "瞬间",
+    "radical": "目",
+    "frequency": 3712,
+    "pos": [
+      "t",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "瞬間",
+        "transcriptions": {
+          "pinyin": "shùn jiān",
+          "numeric": "shun4 jian1",
+          "wadegiles": "shun⁴ chien¹",
+          "bopomofo": "ㄕㄨㄣˋ ㄐㄧㄢ",
+          "romatzyh": "shuenn jian"
+        },
+        "meanings": [
+          "in an instant",
+          "in a flash"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "说",
+    "radical": "讠",
+    "frequency": 19,
+    "pos": [
+      "v",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "說",
+        "transcriptions": {
+          "pinyin": "shuì",
+          "numeric": "shui4",
+          "wadegiles": "shui⁴",
+          "bopomofo": "ㄕㄨㄟˋ",
+          "romatzyh": "shuey"
+        },
+        "meanings": [
+          "to persuade"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "說",
+        "transcriptions": {
+          "pinyin": "shuō",
+          "numeric": "shuo1",
+          "wadegiles": "shuo¹",
+          "bopomofo": "ㄕㄨㄛ",
+          "romatzyh": "shuo"
+        },
+        "meanings": [
+          "to speak; to talk; to say",
+          "to explain; to comment",
+          "to scold; to tell off",
+          "(bound form) theory; doctrine"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "説",
+        "transcriptions": {
+          "pinyin": "shuō",
+          "numeric": "shuo1",
+          "wadegiles": "shuo¹",
+          "bopomofo": "ㄕㄨㄛ",
+          "romatzyh": "shuo"
+        },
+        "meanings": [
+          "variant of 说"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "说白了",
+    "radical": "讠",
+    "frequency": 22831,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "說白了",
+        "transcriptions": {
+          "pinyin": "shuō bái le",
+          "numeric": "shuo1 bai2 le5",
+          "wadegiles": "shuo¹ pai² le",
+          "bopomofo": "ㄕㄨㄛ ㄅㄞˊ le",
+          "romatzyh": "shuo bair le"
+        },
+        "meanings": [
+          "to speak frankly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "说不定",
+    "radical": "讠",
+    "frequency": 4677,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "說不定",
+        "transcriptions": {
+          "pinyin": "shuō bu dìng",
+          "numeric": "shuo1 bu5 ding4",
+          "wadegiles": "shuo¹ bu ting⁴",
+          "bopomofo": "ㄕㄨㄛ bu ㄉㄧㄥˋ",
+          "romatzyh": "shuo bu dinq"
+        },
+        "meanings": [
+          "can't say for sure",
+          "maybe"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "说不上",
+    "radical": "讠",
+    "frequency": 36064,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "說不上",
+        "transcriptions": {
+          "pinyin": "shuō bu shàng",
+          "numeric": "shuo1 bu5 shang4",
+          "wadegiles": "shuo¹ bu shang⁴",
+          "bopomofo": "ㄕㄨㄛ bu ㄕㄤˋ",
+          "romatzyh": "shuo bu shanq"
+        },
+        "meanings": [
+          "to be unable to say or tell",
+          "to not be worth mentioning"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "说到底",
+    "radical": "讠",
+    "frequency": 13616,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "說到底",
+        "transcriptions": {
+          "pinyin": "shuō dào dǐ",
+          "numeric": "shuo1 dao4 di3",
+          "wadegiles": "shuo¹ tao⁴ ti³",
+          "bopomofo": "ㄕㄨㄛ ㄉㄠˋ ㄉㄧˇ",
+          "romatzyh": "shuo daw dii"
+        },
+        "meanings": [
+          "in the final analysis",
+          "in the end"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "说道",
+    "radical": "讠",
+    "frequency": 6087,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "說道",
+        "transcriptions": {
+          "pinyin": "shuō dào",
+          "numeric": "shuo1 dao4",
+          "wadegiles": "shuo¹ tao⁴",
+          "bopomofo": "ㄕㄨㄛ ㄉㄠˋ",
+          "romatzyh": "shuo daw"
+        },
+        "meanings": [
+          "to state",
+          "to say (the quoted words)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "說道",
+        "transcriptions": {
+          "pinyin": "shuō dao",
+          "numeric": "shuo1 dao5",
+          "wadegiles": "shuo¹ dao",
+          "bopomofo": "ㄕㄨㄛ dao",
+          "romatzyh": "shuo dao"
+        },
+        "meanings": [
+          "to discuss",
+          "reason (behind sth)"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

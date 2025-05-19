@@ -1,0 +1,2032 @@
+[
+  {
+    "simplified": "议员",
+    "radical": "讠",
+    "frequency": 4299,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "議員",
+        "transcriptions": {
+          "pinyin": "yì yuán",
+          "numeric": "yi4 yuan2",
+          "wadegiles": "i⁴ yüan²",
+          "bopomofo": "ㄧˋ ㄩㄢˊ",
+          "romatzyh": "yih yuan"
+        },
+        "meanings": [
+          "member (of a legislative body)",
+          "representative"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "亦",
+    "radical": "亠",
+    "frequency": 3970,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "亦",
+        "transcriptions": {
+          "pinyin": "yì",
+          "numeric": "yi4",
+          "wadegiles": "i⁴",
+          "bopomofo": "ㄧˋ",
+          "romatzyh": "yih"
+        },
+        "meanings": [
+          "also"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "屹立",
+    "radical": "山",
+    "frequency": 21479,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "屹立",
+        "transcriptions": {
+          "pinyin": "yì lì",
+          "numeric": "yi4 li4",
+          "wadegiles": "i⁴ li⁴",
+          "bopomofo": "ㄧˋ ㄌㄧˋ",
+          "romatzyh": "yih lih"
+        },
+        "meanings": [
+          "to tower",
+          "to stand straight (of person's bearing)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "异常",
+    "radical": "廾",
+    "frequency": 2505,
+    "pos": [
+      "a",
+      "d",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "異常",
+        "transcriptions": {
+          "pinyin": "yì cháng",
+          "numeric": "yi4 chang2",
+          "wadegiles": "i⁴ ch'ang²",
+          "bopomofo": "ㄧˋ ㄔㄤˊ",
+          "romatzyh": "yih charng"
+        },
+        "meanings": [
+          "unusual; abnormal",
+          "extremely; exceptionally"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "异口同声",
+    "radical": "廾",
+    "frequency": 27668,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "異口同聲",
+        "transcriptions": {
+          "pinyin": "yì kǒu tóng shēng",
+          "numeric": "yi4 kou3 tong2 sheng1",
+          "wadegiles": "i⁴ k'ou³ t'ung² sheng¹",
+          "bopomofo": "ㄧˋ ㄎㄡˇ ㄊㄨㄥˊ ㄕㄥ",
+          "romatzyh": "yih koou torng sheng"
+        },
+        "meanings": [
+          "different mouths, same voice",
+          "to speak in unison (idiom)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "异想天开",
+    "radical": "廾",
+    "frequency": 27249,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "異想天開",
+        "transcriptions": {
+          "pinyin": "yì xiǎng tiān kāi",
+          "numeric": "yi4 xiang3 tian1 kai1",
+          "wadegiles": "i⁴ hsiang³ t'ien¹ k'ai¹",
+          "bopomofo": "ㄧˋ ㄒㄧㄤˇ ㄊㄧㄢ ㄎㄞ",
+          "romatzyh": "yih sheang tian kai"
+        },
+        "meanings": [
+          "to imagine the wildest thing",
+          "to indulge in fantasy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "异性",
+    "radical": "廾",
+    "frequency": 5644,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "異性",
+        "transcriptions": {
+          "pinyin": "yì xìng",
+          "numeric": "yi4 xing4",
+          "wadegiles": "i⁴ hsing⁴",
+          "bopomofo": "ㄧˋ ㄒㄧㄥˋ",
+          "romatzyh": "yih shinq"
+        },
+        "meanings": [
+          "the opposite sex",
+          "of the opposite sex",
+          "heterosexual",
+          "different in nature"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "异议",
+    "radical": "廾",
+    "frequency": 9182,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "異議",
+        "transcriptions": {
+          "pinyin": "yì yì",
+          "numeric": "yi4 yi4",
+          "wadegiles": "i⁴ i⁴",
+          "bopomofo": "ㄧˋ ㄧˋ",
+          "romatzyh": "yih yih"
+        },
+        "meanings": [
+          "objection",
+          "dissent"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "抑扬顿挫",
+    "radical": "扌",
+    "frequency": 55315,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "抑揚頓挫",
+        "transcriptions": {
+          "pinyin": "yì yáng dùn cuò",
+          "numeric": "yi4 yang2 dun4 cuo4",
+          "wadegiles": "i⁴ yang² tun⁴ ts'o⁴",
+          "bopomofo": "ㄧˋ ㄧㄤˊ ㄉㄨㄣˋ ㄘㄨㄛˋ",
+          "romatzyh": "yih yang duenn tsuoh"
+        },
+        "meanings": [
+          "see 顿挫抑扬"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "抑郁",
+    "radical": "扌",
+    "frequency": 8298,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "抑鬱",
+        "transcriptions": {
+          "pinyin": "yì yù",
+          "numeric": "yi4 yu4",
+          "wadegiles": "i⁴ yü⁴",
+          "bopomofo": "ㄧˋ ㄩˋ",
+          "romatzyh": "yih yuh"
+        },
+        "meanings": [
+          "depressed; despondent; gloomy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "抑郁症",
+    "radical": "扌",
+    "frequency": 13332,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "抑鬱症",
+        "transcriptions": {
+          "pinyin": "yì yù zhèng",
+          "numeric": "yi4 yu4 zheng4",
+          "wadegiles": "i⁴ yü⁴ cheng⁴",
+          "bopomofo": "ㄧˋ ㄩˋ ㄓㄥˋ",
+          "romatzyh": "yih yuh jenq"
+        },
+        "meanings": [
+          "clinical depression"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "抑制",
+    "radical": "扌",
+    "frequency": 5184,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "抑制",
+        "transcriptions": {
+          "pinyin": "yì zhì",
+          "numeric": "yi4 zhi4",
+          "wadegiles": "i⁴ chih⁴",
+          "bopomofo": "ㄧˋ ㄓˋ",
+          "romatzyh": "yih jyh"
+        },
+        "meanings": [
+          "to inhibit",
+          "to keep down",
+          "to suppress"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "译",
+    "radical": "讠",
+    "frequency": 12694,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "譯",
+        "transcriptions": {
+          "pinyin": "yì",
+          "numeric": "yi4",
+          "wadegiles": "i⁴",
+          "bopomofo": "ㄧˋ",
+          "romatzyh": "yih"
+        },
+        "meanings": [
+          "to translate",
+          "to interpret"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "易拉罐",
+    "radical": "日",
+    "frequency": 28228,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "易拉罐",
+        "transcriptions": {
+          "pinyin": "yì lā guàn",
+          "numeric": "yi4 la1 guan4",
+          "wadegiles": "i⁴ la¹ kuan⁴",
+          "bopomofo": "ㄧˋ ㄌㄚ ㄍㄨㄢˋ",
+          "romatzyh": "yih lha guann"
+        },
+        "meanings": [
+          "pull-top can",
+          "easy-open can (with ring-pull)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "疫苗",
+    "radical": "疒",
+    "frequency": 5922,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "疫苗",
+        "transcriptions": {
+          "pinyin": "yì miáo",
+          "numeric": "yi4 miao2",
+          "wadegiles": "i⁴ miao²",
+          "bopomofo": "ㄧˋ ㄇㄧㄠˊ",
+          "romatzyh": "yih miau"
+        },
+        "meanings": [
+          "vaccine"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "益处",
+    "radical": "皿",
+    "frequency": 18403,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "益處",
+        "transcriptions": {
+          "pinyin": "yì chu",
+          "numeric": "yi4 chu5",
+          "wadegiles": "i⁴ chu",
+          "bopomofo": "ㄧˋ chu",
+          "romatzyh": "yih chu"
+        },
+        "meanings": [
+          "benefit"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "意见",
+    "radical": "心",
+    "frequency": 995,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "意見",
+        "transcriptions": {
+          "pinyin": "yì jiàn",
+          "numeric": "yi4 jian4",
+          "wadegiles": "i⁴ chien⁴",
+          "bopomofo": "ㄧˋ ㄐㄧㄢˋ",
+          "romatzyh": "yih jiann"
+        },
+        "meanings": [
+          "idea",
+          "opinion",
+          "suggestion",
+          "objection",
+          "complaint"
+        ],
+        "classifiers": [
+          "点",
+          "条"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "意料",
+    "radical": "心",
+    "frequency": 10688,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "意料",
+        "transcriptions": {
+          "pinyin": "yì liào",
+          "numeric": "yi4 liao4",
+          "wadegiles": "i⁴ liao⁴",
+          "bopomofo": "ㄧˋ ㄌㄧㄠˋ",
+          "romatzyh": "yih liaw"
+        },
+        "meanings": [
+          "to anticipate; to expect",
+          "expectations"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "意料之外",
+    "radical": "心",
+    "frequency": 23162,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "意料之外",
+        "transcriptions": {
+          "pinyin": "yì liào zhī wài",
+          "numeric": "yi4 liao4 zhi1 wai4",
+          "wadegiles": "i⁴ liao⁴ chih¹ wai⁴",
+          "bopomofo": "ㄧˋ ㄌㄧㄠˋ ㄓ ㄨㄞˋ",
+          "romatzyh": "yih liaw jy way"
+        },
+        "meanings": [
+          "(idiom) contrary to expectation; unexpected"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "意识",
+    "radical": "心",
+    "frequency": 1263,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "意識",
+        "transcriptions": {
+          "pinyin": "yì shí",
+          "numeric": "yi4 shi2",
+          "wadegiles": "i⁴ shih²",
+          "bopomofo": "ㄧˋ ㄕˊ",
+          "romatzyh": "yih shyr"
+        },
+        "meanings": [
+          "consciousness",
+          "awareness",
+          "to be aware",
+          "to realize"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "意思",
+    "radical": "心",
+    "frequency": 988,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "意思",
+        "transcriptions": {
+          "pinyin": "yì si",
+          "numeric": "yi4 si5",
+          "wadegiles": "i⁴ si",
+          "bopomofo": "ㄧˋ si",
+          "romatzyh": "yih si"
+        },
+        "meanings": [
+          "idea",
+          "opinion",
+          "meaning",
+          "wish",
+          "desire",
+          "interest",
+          "fun",
+          "token of appreciation, affection etc",
+          "to give as a small token",
+          "to do sth as a gesture of goodwill etc"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "意图",
+    "radical": "心",
+    "frequency": 6740,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "意圖",
+        "transcriptions": {
+          "pinyin": "yì tú",
+          "numeric": "yi4 tu2",
+          "wadegiles": "i⁴ t'u²",
+          "bopomofo": "ㄧˋ ㄊㄨˊ",
+          "romatzyh": "yih twu"
+        },
+        "meanings": [
+          "intent",
+          "intention",
+          "to intend"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "意外",
+    "radical": "心",
+    "frequency": 1703,
+    "pos": [
+      "a",
+      "an",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "意外",
+        "transcriptions": {
+          "pinyin": "yì wài",
+          "numeric": "yi4 wai4",
+          "wadegiles": "i⁴ wai⁴",
+          "bopomofo": "ㄧˋ ㄨㄞˋ",
+          "romatzyh": "yih way"
+        },
+        "meanings": [
+          "unexpected",
+          "accident",
+          "mishap"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "意味着",
+    "radical": "心",
+    "frequency": 1594,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "意味著",
+        "transcriptions": {
+          "pinyin": "yì wèi zhe",
+          "numeric": "yi4 wei4 zhe5",
+          "wadegiles": "i⁴ wei⁴ zhe",
+          "bopomofo": "ㄧˋ ㄨㄟˋ zhe",
+          "romatzyh": "yih wey zhe"
+        },
+        "meanings": [
+          "to signify",
+          "to mean",
+          "to imply"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "意想不到",
+    "radical": "心",
+    "frequency": 10435,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "意想不到",
+        "transcriptions": {
+          "pinyin": "yì xiǎng bù dào",
+          "numeric": "yi4 xiang3 bu4 dao4",
+          "wadegiles": "i⁴ hsiang³ pu⁴ tao⁴",
+          "bopomofo": "ㄧˋ ㄒㄧㄤˇ ㄅㄨˋ ㄉㄠˋ",
+          "romatzyh": "yih sheang buh daw"
+        },
+        "meanings": [
+          "unexpected",
+          "previously unimagined"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "意向",
+    "radical": "心",
+    "frequency": 13480,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "意向",
+        "transcriptions": {
+          "pinyin": "yì xiàng",
+          "numeric": "yi4 xiang4",
+          "wadegiles": "i⁴ hsiang⁴",
+          "bopomofo": "ㄧˋ ㄒㄧㄤˋ",
+          "romatzyh": "yih shianq"
+        },
+        "meanings": [
+          "intention",
+          "purpose",
+          "intent",
+          "inclination",
+          "disposition"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "意义",
+    "radical": "心",
+    "frequency": 807,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "意義",
+        "transcriptions": {
+          "pinyin": "yì yì",
+          "numeric": "yi4 yi4",
+          "wadegiles": "i⁴ i⁴",
+          "bopomofo": "ㄧˋ ㄧˋ",
+          "romatzyh": "yih yih"
+        },
+        "meanings": [
+          "sense",
+          "meaning",
+          "significance",
+          "importance"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "意愿",
+    "radical": "心",
+    "frequency": 5947,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "意願",
+        "transcriptions": {
+          "pinyin": "yì yuàn",
+          "numeric": "yi4 yuan4",
+          "wadegiles": "i⁴ yüan⁴",
+          "bopomofo": "ㄧˋ ㄩㄢˋ",
+          "romatzyh": "yih yuann"
+        },
+        "meanings": [
+          "aspiration",
+          "wish (for)",
+          "desire"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "意志",
+    "radical": "心",
+    "frequency": 4774,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "意志",
+        "transcriptions": {
+          "pinyin": "yì zhì",
+          "numeric": "yi4 zhi4",
+          "wadegiles": "i⁴ chih⁴",
+          "bopomofo": "ㄧˋ ㄓˋ",
+          "romatzyh": "yih jyh"
+        },
+        "meanings": [
+          "will; willpower; determination"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "溢",
+    "radical": "氵",
+    "frequency": 13031,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "溢",
+        "transcriptions": {
+          "pinyin": "yì",
+          "numeric": "yi4",
+          "wadegiles": "i⁴",
+          "bopomofo": "ㄧˋ",
+          "romatzyh": "yih"
+        },
+        "meanings": [
+          "to overflow",
+          "(literary) excessive",
+          "old variant of 镒"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "毅力",
+    "radical": "殳",
+    "frequency": 15355,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "毅力",
+        "transcriptions": {
+          "pinyin": "yì lì",
+          "numeric": "yi4 li4",
+          "wadegiles": "i⁴ li⁴",
+          "bopomofo": "ㄧˋ ㄌㄧˋ",
+          "romatzyh": "yih lih"
+        },
+        "meanings": [
+          "perseverance",
+          "willpower"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "毅然",
+    "radical": "殳",
+    "frequency": 27444,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "毅然",
+        "transcriptions": {
+          "pinyin": "yì rán",
+          "numeric": "yi4 ran2",
+          "wadegiles": "i⁴ jan²",
+          "bopomofo": "ㄧˋ ㄖㄢˊ",
+          "romatzyh": "yih ran"
+        },
+        "meanings": [
+          "firmly",
+          "resolutely",
+          "without hesitation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "因",
+    "radical": "囗",
+    "frequency": 679,
+    "pos": [
+      "p",
+      "c",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "囙",
+        "transcriptions": {
+          "pinyin": "yīn",
+          "numeric": "yin1",
+          "wadegiles": "yin¹",
+          "bopomofo": "ㄧㄣ",
+          "romatzyh": "in"
+        },
+        "meanings": [
+          "old variant of 因"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "因",
+        "transcriptions": {
+          "pinyin": "yīn",
+          "numeric": "yin1",
+          "wadegiles": "yin¹",
+          "bopomofo": "ㄧㄣ",
+          "romatzyh": "in"
+        },
+        "meanings": [
+          "cause",
+          "reason",
+          "because"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "因此",
+    "radical": "囗",
+    "frequency": 668,
+    "pos": [
+      "c"
+    ],
+    "forms": [
+      {
+        "traditional": "因此",
+        "transcriptions": {
+          "pinyin": "yīn cǐ",
+          "numeric": "yin1 ci3",
+          "wadegiles": "yin¹ tz'u³",
+          "bopomofo": "ㄧㄣ ㄘˇ",
+          "romatzyh": "in tsyy"
+        },
+        "meanings": [
+          "thus; consequently; as a result"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "因而",
+    "radical": "囗",
+    "frequency": 8979,
+    "pos": [
+      "c"
+    ],
+    "forms": [
+      {
+        "traditional": "因而",
+        "transcriptions": {
+          "pinyin": "yīn ér",
+          "numeric": "yin1 er2",
+          "wadegiles": "yin¹ erh²",
+          "bopomofo": "ㄧㄣ ㄦˊ",
+          "romatzyh": "in erl"
+        },
+        "meanings": [
+          "therefore",
+          "as a result",
+          "thus",
+          "and as a result, ..."
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "因人而异",
+    "radical": "囗",
+    "frequency": 32691,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "因人而異",
+        "transcriptions": {
+          "pinyin": "yīn rén ér yì",
+          "numeric": "yin1 ren2 er2 yi4",
+          "wadegiles": "yin¹ jen² erh² i⁴",
+          "bopomofo": "ㄧㄣ ㄖㄣˊ ㄦˊ ㄧˋ",
+          "romatzyh": "in ren erl yih"
+        },
+        "meanings": [
+          "varying from person to person (idiom); different for each individual"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "因素",
+    "radical": "囗",
+    "frequency": 2704,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "因素",
+        "transcriptions": {
+          "pinyin": "yīn sù",
+          "numeric": "yin1 su4",
+          "wadegiles": "yin¹ su⁴",
+          "bopomofo": "ㄧㄣ ㄙㄨˋ",
+          "romatzyh": "in suh"
+        },
+        "meanings": [
+          "element",
+          "factor"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "因为",
+    "radical": "囗",
+    "frequency": 91,
+    "pos": [
+      "p",
+      "c"
+    ],
+    "forms": [
+      {
+        "traditional": "因為",
+        "transcriptions": {
+          "pinyin": "yīn wèi",
+          "numeric": "yin1 wei4",
+          "wadegiles": "yin¹ wei⁴",
+          "bopomofo": "ㄧㄣ ㄨㄟˋ",
+          "romatzyh": "in wey"
+        },
+        "meanings": [
+          "because",
+          "owing to",
+          "on account of"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "阴",
+    "radical": "阝",
+    "frequency": 4058,
+    "pos": [
+      "a",
+      "g",
+      "ad",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "陰",
+        "transcriptions": {
+          "pinyin": "Yīn",
+          "numeric": "Yin1",
+          "wadegiles": "yin¹",
+          "bopomofo": "ㄧㄣ",
+          "romatzyh": "in"
+        },
+        "meanings": [
+          "surname Yin"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "陰",
+        "transcriptions": {
+          "pinyin": "yīn",
+          "numeric": "yin1",
+          "wadegiles": "yin¹",
+          "bopomofo": "ㄧㄣ",
+          "romatzyh": "in"
+        },
+        "meanings": [
+          "overcast (weather)",
+          "cloudy",
+          "shady",
+          "Yin (the negative principle of Yin and Yang)",
+          "negative (electric.)",
+          "feminine",
+          "moon",
+          "implicit",
+          "hidden",
+          "genitalia"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "隂",
+        "transcriptions": {
+          "pinyin": "yīn",
+          "numeric": "yin1",
+          "wadegiles": "yin¹",
+          "bopomofo": "ㄧㄣ",
+          "romatzyh": "in"
+        },
+        "meanings": [
+          "variant of 阴"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "阴暗",
+    "radical": "阝",
+    "frequency": 12522,
+    "pos": [
+      "a",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "陰暗",
+        "transcriptions": {
+          "pinyin": "yīn àn",
+          "numeric": "yin1 an4",
+          "wadegiles": "yin¹ an⁴",
+          "bopomofo": "ㄧㄣ ㄢˋ",
+          "romatzyh": "in ann"
+        },
+        "meanings": [
+          "dim",
+          "dark",
+          "overcast",
+          "darkness",
+          "shadow",
+          "(fig.) dismal",
+          "gloomy",
+          "somber",
+          "murky",
+          "shadowy (side)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "阴谋",
+    "radical": "阝",
+    "frequency": 5006,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "陰謀",
+        "transcriptions": {
+          "pinyin": "yīn móu",
+          "numeric": "yin1 mou2",
+          "wadegiles": "yin¹ mou²",
+          "bopomofo": "ㄧㄣ ㄇㄡˊ",
+          "romatzyh": "in mou"
+        },
+        "meanings": [
+          "to conspire; to plot",
+          "a conspiracy; a plot"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "阴天",
+    "radical": "阝",
+    "frequency": 25274,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "陰天",
+        "transcriptions": {
+          "pinyin": "yīn tiān",
+          "numeric": "yin1 tian1",
+          "wadegiles": "yin¹ t'ien¹",
+          "bopomofo": "ㄧㄣ ㄊㄧㄢ",
+          "romatzyh": "in tian"
+        },
+        "meanings": [
+          "cloudy day; overcast sky"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "阴性",
+    "radical": "阝",
+    "frequency": 8426,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "陰性",
+        "transcriptions": {
+          "pinyin": "yīn xìng",
+          "numeric": "yin1 xing4",
+          "wadegiles": "yin¹ hsing⁴",
+          "bopomofo": "ㄧㄣ ㄒㄧㄥˋ",
+          "romatzyh": "in shinq"
+        },
+        "meanings": [
+          "negative",
+          "feminine"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "阴影",
+    "radical": "阝",
+    "frequency": 5588,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "陰影",
+        "transcriptions": {
+          "pinyin": "yīn yǐng",
+          "numeric": "yin1 ying3",
+          "wadegiles": "yin¹ ying³",
+          "bopomofo": "ㄧㄣ ㄧㄥˇ",
+          "romatzyh": "in yiing"
+        },
+        "meanings": [
+          "(lit. and fig.) shadow"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "音节",
+    "radical": "音",
+    "frequency": 20226,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "音節",
+        "transcriptions": {
+          "pinyin": "yīn jié",
+          "numeric": "yin1 jie2",
+          "wadegiles": "yin¹ chieh²",
+          "bopomofo": "ㄧㄣ ㄐㄧㄝˊ",
+          "romatzyh": "in jye"
+        },
+        "meanings": [
+          "syllable"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "音乐",
+    "radical": "音",
+    "frequency": 742,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "音樂",
+        "transcriptions": {
+          "pinyin": "yīn yuè",
+          "numeric": "yin1 yue4",
+          "wadegiles": "yin¹ yüeh⁴",
+          "bopomofo": "ㄧㄣ ㄩㄝˋ",
+          "romatzyh": "in yueh"
+        },
+        "meanings": [
+          "music"
+        ],
+        "classifiers": [
+          "张",
+          "曲",
+          "段"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "音乐会",
+    "radical": "音",
+    "frequency": 6465,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "音樂會",
+        "transcriptions": {
+          "pinyin": "yīn yuè huì",
+          "numeric": "yin1 yue4 hui4",
+          "wadegiles": "yin¹ yüeh⁴ hui⁴",
+          "bopomofo": "ㄧㄣ ㄩㄝˋ ㄏㄨㄟˋ",
+          "romatzyh": "in yueh huey"
+        },
+        "meanings": [
+          "concert"
+        ],
+        "classifiers": [
+          "场"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "音量",
+    "radical": "音",
+    "frequency": 13653,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "音量",
+        "transcriptions": {
+          "pinyin": "yīn liàng",
+          "numeric": "yin1 liang4",
+          "wadegiles": "yin¹ liang⁴",
+          "bopomofo": "ㄧㄣ ㄌㄧㄤˋ",
+          "romatzyh": "in lianq"
+        },
+        "meanings": [
+          "loudness",
+          "volume"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "音响",
+    "radical": "音",
+    "frequency": 8563,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "音響",
+        "transcriptions": {
+          "pinyin": "yīn xiǎng",
+          "numeric": "yin1 xiang3",
+          "wadegiles": "yin¹ hsiang³",
+          "bopomofo": "ㄧㄣ ㄒㄧㄤˇ",
+          "romatzyh": "in sheang"
+        },
+        "meanings": [
+          "sound",
+          "acoustics",
+          "audio",
+          "hi-fi system",
+          "stereo sound system",
+          "abbr. for 组合音响"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "音像",
+    "radical": "音",
+    "frequency": 14508,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "音像",
+        "transcriptions": {
+          "pinyin": "yīn xiàng",
+          "numeric": "yin1 xiang4",
+          "wadegiles": "yin¹ hsiang⁴",
+          "bopomofo": "ㄧㄣ ㄒㄧㄤˋ",
+          "romatzyh": "in shianq"
+        },
+        "meanings": [
+          "audio and video",
+          "audiovisual"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "殷勤",
+    "radical": "殳",
+    "frequency": 27419,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "殷勤",
+        "transcriptions": {
+          "pinyin": "yīn qín",
+          "numeric": "yin1 qin2",
+          "wadegiles": "yin¹ ch'in²",
+          "bopomofo": "ㄧㄣ ㄑㄧㄣˊ",
+          "romatzyh": "in chyn"
+        },
+        "meanings": [
+          "politely",
+          "solicitously",
+          "eagerly attentive"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "银",
+    "radical": "钅",
+    "frequency": 2564,
+    "pos": [
+      "b",
+      "g",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "銀",
+        "transcriptions": {
+          "pinyin": "yín",
+          "numeric": "yin2",
+          "wadegiles": "yin²",
+          "bopomofo": "ㄧㄣˊ",
+          "romatzyh": "yn"
+        },
+        "meanings": [
+          "silver",
+          "silver-colored",
+          "relating to money or currency"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "银幕",
+    "radical": "钅",
+    "frequency": 16291,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "銀幕",
+        "transcriptions": {
+          "pinyin": "yín mù",
+          "numeric": "yin2 mu4",
+          "wadegiles": "yin² mu⁴",
+          "bopomofo": "ㄧㄣˊ ㄇㄨˋ",
+          "romatzyh": "yn muh"
+        },
+        "meanings": [
+          "movie screen"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "银牌",
+    "radical": "钅",
+    "frequency": 21103,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "銀牌",
+        "transcriptions": {
+          "pinyin": "yín pái",
+          "numeric": "yin2 pai2",
+          "wadegiles": "yin² p'ai²",
+          "bopomofo": "ㄧㄣˊ ㄆㄞˊ",
+          "romatzyh": "yn pair"
+        },
+        "meanings": [
+          "silver medal"
+        ],
+        "classifiers": [
+          "枚"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "银行",
+    "radical": "钅",
+    "frequency": 769,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "銀行",
+        "transcriptions": {
+          "pinyin": "yín háng",
+          "numeric": "yin2 hang2",
+          "wadegiles": "yin² hang²",
+          "bopomofo": "ㄧㄣˊ ㄏㄤˊ",
+          "romatzyh": "yn harng"
+        },
+        "meanings": [
+          "bank"
+        ],
+        "classifiers": [
+          "家",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "银行卡",
+    "radical": "钅",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "銀行卡",
+        "transcriptions": {
+          "pinyin": "yín háng kǎ",
+          "numeric": "yin2 hang2 ka3",
+          "wadegiles": "yin² hang² k'a³",
+          "bopomofo": "ㄧㄣˊ ㄏㄤˊ ㄎㄚˇ",
+          "romatzyh": "yn harng kaa"
+        },
+        "meanings": [
+          "bank card",
+          "ATM card"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "引",
+    "radical": "弓",
+    "frequency": 2892,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "引",
+        "transcriptions": {
+          "pinyin": "yǐn",
+          "numeric": "yin3",
+          "wadegiles": "yin³",
+          "bopomofo": "ㄧㄣˇ",
+          "romatzyh": "yiin"
+        },
+        "meanings": [
+          "to draw (e.g. a bow)",
+          "to pull",
+          "to stretch sth",
+          "to extend",
+          "to lengthen",
+          "to involve or implicate in",
+          "to attract",
+          "to lead",
+          "to guide",
+          "to leave",
+          "to provide evidence or justification for",
+          "old unit of distance equal to 10 丈, one-thirtieth of a km or 33.33 meters"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "引导",
+    "radical": "弓",
+    "frequency": 3723,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "引導",
+        "transcriptions": {
+          "pinyin": "yǐn dǎo",
+          "numeric": "yin3 dao3",
+          "wadegiles": "yin³ tao³",
+          "bopomofo": "ㄧㄣˇ ㄉㄠˇ",
+          "romatzyh": "yiin dao"
+        },
+        "meanings": [
+          "to guide",
+          "to lead (around)",
+          "to conduct",
+          "to boot",
+          "introduction",
+          "primer"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "引发",
+    "radical": "弓",
+    "frequency": 3404,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "引發",
+        "transcriptions": {
+          "pinyin": "yǐn fā",
+          "numeric": "yin3 fa1",
+          "wadegiles": "yin³ fa¹",
+          "bopomofo": "ㄧㄣˇ ㄈㄚ",
+          "romatzyh": "yiin fa"
+        },
+        "meanings": [
+          "to lead to",
+          "to trigger",
+          "to initiate",
+          "to cause",
+          "to evoke (emotions)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "引进",
+    "radical": "弓",
+    "frequency": 8315,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "引進",
+        "transcriptions": {
+          "pinyin": "yǐn jìn",
+          "numeric": "yin3 jin4",
+          "wadegiles": "yin³ chin⁴",
+          "bopomofo": "ㄧㄣˇ ㄐㄧㄣˋ",
+          "romatzyh": "yiin jinn"
+        },
+        "meanings": [
+          "to recommend",
+          "to introduce (from outside)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "引经据典",
+    "radical": "弓",
+    "frequency": 49890,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "引經據典",
+        "transcriptions": {
+          "pinyin": "yǐn jīng jù diǎn",
+          "numeric": "yin3 jing1 ju4 dian3",
+          "wadegiles": "yin³ ching¹ chü⁴ tien³",
+          "bopomofo": "ㄧㄣˇ ㄐㄧㄥ ㄐㄩˋ ㄉㄧㄢˇ",
+          "romatzyh": "yiin jing jiuh dean"
+        },
+        "meanings": [
+          "lit. to quote the classics",
+          "to quote chapter and verse (idiom)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "引领",
+    "radical": "弓",
+    "frequency": 8946,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "引領",
+        "transcriptions": {
+          "pinyin": "yǐn lǐng",
+          "numeric": "yin3 ling3",
+          "wadegiles": "yin³ ling³",
+          "bopomofo": "ㄧㄣˇ ㄌㄧㄥˇ",
+          "romatzyh": "yiin liing"
+        },
+        "meanings": [
+          "to crane one's neck",
+          "to await eagerly",
+          "to lead",
+          "to show the way"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "引起",
+    "radical": "弓",
+    "frequency": 1216,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "引起",
+        "transcriptions": {
+          "pinyin": "yǐn qǐ",
+          "numeric": "yin3 qi3",
+          "wadegiles": "yin³ ch'i³",
+          "bopomofo": "ㄧㄣˇ ㄑㄧˇ",
+          "romatzyh": "yiin chii"
+        },
+        "meanings": [
+          "to give rise to; to lead to; to cause; to arouse"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "引擎",
+    "radical": "弓",
+    "frequency": 4502,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "引擎",
+        "transcriptions": {
+          "pinyin": "yǐn qíng",
+          "numeric": "yin3 qing2",
+          "wadegiles": "yin³ ch'ing²",
+          "bopomofo": "ㄧㄣˇ ㄑㄧㄥˊ",
+          "romatzyh": "yiin chyng"
+        },
+        "meanings": [
+          "engine (loanword)"
+        ],
+        "classifiers": [
+          "台"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "引人入胜",
+    "radical": "弓",
+    "frequency": 26589,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "引人入勝",
+        "transcriptions": {
+          "pinyin": "yǐn rén rù shèng",
+          "numeric": "yin3 ren2 ru4 sheng4",
+          "wadegiles": "yin³ jen² ju⁴ sheng⁴",
+          "bopomofo": "ㄧㄣˇ ㄖㄣˊ ㄖㄨˋ ㄕㄥˋ",
+          "romatzyh": "yiin ren ruh shenq"
+        },
+        "meanings": [
+          "to enchant",
+          "fascinating"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "引人注目",
+    "radical": "弓",
+    "frequency": 9290,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "引人注目",
+        "transcriptions": {
+          "pinyin": "yǐn rén zhù mù",
+          "numeric": "yin3 ren2 zhu4 mu4",
+          "wadegiles": "yin³ jen² chu⁴ mu⁴",
+          "bopomofo": "ㄧㄣˇ ㄖㄣˊ ㄓㄨˋ ㄇㄨˋ",
+          "romatzyh": "yiin ren juh muh"
+        },
+        "meanings": [
+          "to attract attention",
+          "eye-catching",
+          "conspicuous"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "引入",
+    "radical": "弓",
+    "frequency": 9959,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "引入",
+        "transcriptions": {
+          "pinyin": "yǐn rù",
+          "numeric": "yin3 ru4",
+          "wadegiles": "yin³ ju⁴",
+          "bopomofo": "ㄧㄣˇ ㄖㄨˋ",
+          "romatzyh": "yiin ruh"
+        },
+        "meanings": [
+          "to draw into",
+          "to pull into",
+          "to introduce"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "引用",
+    "radical": "弓",
+    "frequency": 7851,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "引用",
+        "transcriptions": {
+          "pinyin": "yǐn yòng",
+          "numeric": "yin3 yong4",
+          "wadegiles": "yin³ yung⁴",
+          "bopomofo": "ㄧㄣˇ ㄩㄥˋ",
+          "romatzyh": "yiin yonq"
+        },
+        "meanings": [
+          "to quote",
+          "to cite",
+          "to recommend",
+          "to appoint",
+          "(computing) reference"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "引诱",
+    "radical": "弓",
+    "frequency": 11617,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "引誘",
+        "transcriptions": {
+          "pinyin": "yǐn yòu",
+          "numeric": "yin3 you4",
+          "wadegiles": "yin³ yu⁴",
+          "bopomofo": "ㄧㄣˇ ㄧㄡˋ",
+          "romatzyh": "yiin yow"
+        },
+        "meanings": [
+          "to coerce (sb into doing sth bad)",
+          "to lure (into a trap)",
+          "to seduce"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "饮料",
+    "radical": "饣",
+    "frequency": 3463,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "飲料",
+        "transcriptions": {
+          "pinyin": "yǐn liào",
+          "numeric": "yin3 liao4",
+          "wadegiles": "yin³ liao⁴",
+          "bopomofo": "ㄧㄣˇ ㄌㄧㄠˋ",
+          "romatzyh": "yiin liaw"
+        },
+        "meanings": [
+          "drink",
+          "beverage"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "饮食",
+    "radical": "饣",
+    "frequency": 5648,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "飲食",
+        "transcriptions": {
+          "pinyin": "yǐn shí",
+          "numeric": "yin3 shi2",
+          "wadegiles": "yin³ shih²",
+          "bopomofo": "ㄧㄣˇ ㄕˊ",
+          "romatzyh": "yiin shyr"
+        },
+        "meanings": [
+          "eating and drinking",
+          "food and drink; diet"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "饮水",
+    "radical": "饣",
+    "frequency": 13870,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "飲水",
+        "transcriptions": {
+          "pinyin": "yǐn shuǐ",
+          "numeric": "yin3 shui3",
+          "wadegiles": "yin³ shui³",
+          "bopomofo": "ㄧㄣˇ ㄕㄨㄟˇ",
+          "romatzyh": "yiin shoei"
+        },
+        "meanings": [
+          "drinking water"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "饮用水",
+    "radical": "饣",
+    "frequency": 17077,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "飲用水",
+        "transcriptions": {
+          "pinyin": "yǐn yòng shuǐ",
+          "numeric": "yin3 yong4 shui3",
+          "wadegiles": "yin³ yung⁴ shui³",
+          "bopomofo": "ㄧㄣˇ ㄩㄥˋ ㄕㄨㄟˇ",
+          "romatzyh": "yiin yonq shoei"
+        },
+        "meanings": [
+          "drinking water",
+          "potable water"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "隐蔽",
+    "radical": "阝",
+    "frequency": 9346,
+    "pos": [
+      "a",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "隱蔽",
+        "transcriptions": {
+          "pinyin": "yǐn bì",
+          "numeric": "yin3 bi4",
+          "wadegiles": "yin³ pi⁴",
+          "bopomofo": "ㄧㄣˇ ㄅㄧˋ",
+          "romatzyh": "yiin bih"
+        },
+        "meanings": [
+          "to conceal",
+          "to hide",
+          "covert",
+          "under cover"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "隐藏",
+    "radical": "阝",
+    "frequency": 3821,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "隱藏",
+        "transcriptions": {
+          "pinyin": "yǐn cáng",
+          "numeric": "yin3 cang2",
+          "wadegiles": "yin³ ts'ang²",
+          "bopomofo": "ㄧㄣˇ ㄘㄤˊ",
+          "romatzyh": "yiin tsarng"
+        },
+        "meanings": [
+          "to hide",
+          "to conceal",
+          "to mask",
+          "to shelter",
+          "to harbor (i.e. keep sth hidden)",
+          "to hide oneself",
+          "to lie low",
+          "to nestle",
+          "hidden",
+          "implicit",
+          "private",
+          "covert",
+          "recessed (lighting)"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

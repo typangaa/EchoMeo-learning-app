@@ -1,0 +1,2132 @@
+[
+  {
+    "simplified": "吗",
+    "radical": "口",
+    "frequency": 83,
+    "pos": [
+      "y"
+    ],
+    "forms": [
+      {
+        "traditional": "嗎",
+        "transcriptions": {
+          "pinyin": "má",
+          "numeric": "ma2",
+          "wadegiles": "ma²",
+          "bopomofo": "ㄇㄚˊ",
+          "romatzyh": "ma"
+        },
+        "meanings": [
+          "(coll.) what?"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "嗎",
+        "transcriptions": {
+          "pinyin": "mǎ",
+          "numeric": "ma3",
+          "wadegiles": "ma³",
+          "bopomofo": "ㄇㄚˇ",
+          "romatzyh": "maa"
+        },
+        "meanings": [
+          "used in 吗啡"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "嗎",
+        "transcriptions": {
+          "pinyin": "ma",
+          "numeric": "ma5",
+          "wadegiles": "ma",
+          "bopomofo": "ma",
+          "romatzyh": "ma"
+        },
+        "meanings": [
+          "(question particle for \"yes-no\" questions)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "嘛",
+    "radical": "口",
+    "frequency": 614,
+    "pos": [
+      "y"
+    ],
+    "forms": [
+      {
+        "traditional": "嘛",
+        "transcriptions": {
+          "pinyin": "má",
+          "numeric": "ma2",
+          "wadegiles": "ma²",
+          "bopomofo": "ㄇㄚˊ",
+          "romatzyh": "ma"
+        },
+        "meanings": [
+          "used in 吽",
+          "(Tw) (coll.) what?"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "嘛",
+        "transcriptions": {
+          "pinyin": "ma",
+          "numeric": "ma5",
+          "wadegiles": "ma",
+          "bopomofo": "ma",
+          "romatzyh": "ma"
+        },
+        "meanings": [
+          "modal particle indicating that sth is obvious",
+          "particle indicating a pause for emphasis"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "埋",
+    "radical": "土",
+    "frequency": 2776,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "埋",
+        "transcriptions": {
+          "pinyin": "mái",
+          "numeric": "mai2",
+          "wadegiles": "mai²",
+          "bopomofo": "ㄇㄞˊ",
+          "romatzyh": "mai"
+        },
+        "meanings": [
+          "to bury"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "埋",
+        "transcriptions": {
+          "pinyin": "mán",
+          "numeric": "man2",
+          "wadegiles": "man²",
+          "bopomofo": "ㄇㄢˊ",
+          "romatzyh": "man"
+        },
+        "meanings": [
+          "used in 怨"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "埋藏",
+    "radical": "土",
+    "frequency": 14710,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "埋藏",
+        "transcriptions": {
+          "pinyin": "mái cáng",
+          "numeric": "mai2 cang2",
+          "wadegiles": "mai² ts'ang²",
+          "bopomofo": "ㄇㄞˊ ㄘㄤˊ",
+          "romatzyh": "mai tsarng"
+        },
+        "meanings": [
+          "to bury",
+          "to hide by burying",
+          "hidden"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "埋伏",
+    "radical": "土",
+    "frequency": 11612,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "埋伏",
+        "transcriptions": {
+          "pinyin": "mái fú",
+          "numeric": "mai2 fu2",
+          "wadegiles": "mai² fu²",
+          "bopomofo": "ㄇㄞˊ ㄈㄨˊ",
+          "romatzyh": "mai fwu"
+        },
+        "meanings": [
+          "to ambush",
+          "to lie in wait for",
+          "to lie low",
+          "ambush"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "埋没",
+    "radical": "土",
+    "frequency": 25479,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "埋沒",
+        "transcriptions": {
+          "pinyin": "mái mò",
+          "numeric": "mai2 mo4",
+          "wadegiles": "mai² mo⁴",
+          "bopomofo": "ㄇㄞˊ ㄇㄛˋ",
+          "romatzyh": "mai moh"
+        },
+        "meanings": [
+          "to engulf",
+          "to bury",
+          "to overlook",
+          "to stifle",
+          "to neglect",
+          "to fall into oblivion"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "埋怨",
+    "radical": "土",
+    "frequency": 10938,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "埋怨",
+        "transcriptions": {
+          "pinyin": "mán yuàn",
+          "numeric": "man2 yuan4",
+          "wadegiles": "man² yüan⁴",
+          "bopomofo": "ㄇㄢˊ ㄩㄢˋ",
+          "romatzyh": "man yuann"
+        },
+        "meanings": [
+          "to complain",
+          "to grumble (about)",
+          "to reproach",
+          "to blame"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "买",
+    "radical": "大",
+    "frequency": 240,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "買",
+        "transcriptions": {
+          "pinyin": "mǎi",
+          "numeric": "mai3",
+          "wadegiles": "mai³",
+          "bopomofo": "ㄇㄞˇ",
+          "romatzyh": "mae"
+        },
+        "meanings": [
+          "to buy",
+          "to purchase"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "买不起",
+    "radical": "大",
+    "frequency": 14630,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "買不起",
+        "transcriptions": {
+          "pinyin": "mǎi bu qǐ",
+          "numeric": "mai3 bu5 qi3",
+          "wadegiles": "mai³ bu ch'i³",
+          "bopomofo": "ㄇㄞˇ bu ㄑㄧˇ",
+          "romatzyh": "mae bu chii"
+        },
+        "meanings": [
+          "cannot afford",
+          "can't afford buying"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "买卖",
+    "radical": "大",
+    "frequency": 3721,
+    "pos": [
+      "vn",
+      "v",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "買賣",
+        "transcriptions": {
+          "pinyin": "mǎi mài",
+          "numeric": "mai3 mai4",
+          "wadegiles": "mai³ mai⁴",
+          "bopomofo": "ㄇㄞˇ ㄇㄞˋ",
+          "romatzyh": "mae may"
+        },
+        "meanings": [
+          "buying and selling",
+          "business",
+          "business transactions"
+        ],
+        "classifiers": [
+          "桩",
+          "次"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "迈",
+    "radical": "辶",
+    "frequency": 5964,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "邁",
+        "transcriptions": {
+          "pinyin": "mài",
+          "numeric": "mai4",
+          "wadegiles": "mai⁴",
+          "bopomofo": "ㄇㄞˋ",
+          "romatzyh": "may"
+        },
+        "meanings": [
+          "to take a step",
+          "to stride"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "迈进",
+    "radical": "辶",
+    "frequency": 14127,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "邁進",
+        "transcriptions": {
+          "pinyin": "mài jìn",
+          "numeric": "mai4 jin4",
+          "wadegiles": "mai⁴ chin⁴",
+          "bopomofo": "ㄇㄞˋ ㄐㄧㄣˋ",
+          "romatzyh": "may jinn"
+        },
+        "meanings": [
+          "to step in",
+          "to stride forward",
+          "to forge ahead"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "卖",
+    "radical": "十",
+    "frequency": 590,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "賣",
+        "transcriptions": {
+          "pinyin": "mài",
+          "numeric": "mai4",
+          "wadegiles": "mai⁴",
+          "bopomofo": "ㄇㄞˋ",
+          "romatzyh": "may"
+        },
+        "meanings": [
+          "to sell",
+          "to betray",
+          "to spare no effort",
+          "to show off or flaunt"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "卖弄",
+    "radical": "十",
+    "frequency": 22135,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "賣弄",
+        "transcriptions": {
+          "pinyin": "mài nong",
+          "numeric": "mai4 nong5",
+          "wadegiles": "mai⁴ nong",
+          "bopomofo": "ㄇㄞˋ nong",
+          "romatzyh": "may nong"
+        },
+        "meanings": [
+          "to show off",
+          "to make a display of"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "脉搏",
+    "radical": "⺼",
+    "frequency": 11767,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "脈搏",
+        "transcriptions": {
+          "pinyin": "mài bó",
+          "numeric": "mai4 bo2",
+          "wadegiles": "mai⁴ po²",
+          "bopomofo": "ㄇㄞˋ ㄅㄛˊ",
+          "romatzyh": "may bor"
+        },
+        "meanings": [
+          "pulse (both medical and figurative)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "脉络",
+    "radical": "⺼",
+    "frequency": 38592,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "脈絡",
+        "transcriptions": {
+          "pinyin": "mài luò",
+          "numeric": "mai4 luo4",
+          "wadegiles": "mai⁴ lo⁴",
+          "bopomofo": "ㄇㄞˋ ㄌㄨㄛˋ",
+          "romatzyh": "may luoh"
+        },
+        "meanings": [
+          "arteries and veins",
+          "network of blood vessels",
+          "vascular system (of a plant or animal)",
+          "(fig.) fabric (i.e. underlying structure, as in \"social fabric\")",
+          "overall context"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "蛮",
+    "radical": "虫",
+    "frequency": 3353,
+    "pos": [
+      "d",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "蠻",
+        "transcriptions": {
+          "pinyin": "mán",
+          "numeric": "man2",
+          "wadegiles": "man²",
+          "bopomofo": "ㄇㄢˊ",
+          "romatzyh": "man"
+        },
+        "meanings": [
+          "barbarian",
+          "bullying",
+          "very",
+          "quite",
+          "rough",
+          "reckless"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "馒头",
+    "radical": "饣",
+    "frequency": 16507,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "饅頭",
+        "transcriptions": {
+          "pinyin": "mán tou",
+          "numeric": "man2 tou5",
+          "wadegiles": "man² tou",
+          "bopomofo": "ㄇㄢˊ tou",
+          "romatzyh": "man tou"
+        },
+        "meanings": [
+          "steamed roll",
+          "steamed bun",
+          "steamed bread"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "瞒",
+    "radical": "目",
+    "frequency": 6855,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "瞞",
+        "transcriptions": {
+          "pinyin": "mán",
+          "numeric": "man2",
+          "wadegiles": "man²",
+          "bopomofo": "ㄇㄢˊ",
+          "romatzyh": "man"
+        },
+        "meanings": [
+          "to conceal from",
+          "to keep (sb) in the dark"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "满",
+    "radical": "氵",
+    "frequency": 961,
+    "pos": [
+      "a",
+      "v",
+      "d",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "滿",
+        "transcriptions": {
+          "pinyin": "Mǎn",
+          "numeric": "Man3",
+          "wadegiles": "man³",
+          "bopomofo": "ㄇㄢˇ",
+          "romatzyh": "maan"
+        },
+        "meanings": [
+          "Manchu ethnic group"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "滿",
+        "transcriptions": {
+          "pinyin": "mǎn",
+          "numeric": "man3",
+          "wadegiles": "man³",
+          "bopomofo": "ㄇㄢˇ",
+          "romatzyh": "maan"
+        },
+        "meanings": [
+          "to fill",
+          "full",
+          "filled",
+          "packed",
+          "fully",
+          "completely",
+          "quite",
+          "to reach the limit",
+          "to satisfy",
+          "satisfied",
+          "contented"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "满怀",
+    "radical": "氵",
+    "frequency": 11120,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "滿懷",
+        "transcriptions": {
+          "pinyin": "mǎn huái",
+          "numeric": "man3 huai2",
+          "wadegiles": "man³ huai²",
+          "bopomofo": "ㄇㄢˇ ㄏㄨㄞˊ",
+          "romatzyh": "maan hwai"
+        },
+        "meanings": [
+          "to have one's heart filled with",
+          "(to collide) full on",
+          "(of farm animals) heavy with young"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "满意",
+    "radical": "氵",
+    "frequency": 1761,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "滿意",
+        "transcriptions": {
+          "pinyin": "mǎn yì",
+          "numeric": "man3 yi4",
+          "wadegiles": "man³ i⁴",
+          "bopomofo": "ㄇㄢˇ ㄧˋ",
+          "romatzyh": "maan yih"
+        },
+        "meanings": [
+          "satisfied",
+          "pleased",
+          "to one's satisfaction"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "满足",
+    "radical": "氵",
+    "frequency": 1555,
+    "pos": [
+      "v",
+      "an",
+      "a",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "滿足",
+        "transcriptions": {
+          "pinyin": "mǎn zú",
+          "numeric": "man3 zu2",
+          "wadegiles": "man³ tsu²",
+          "bopomofo": "ㄇㄢˇ ㄗㄨˊ",
+          "romatzyh": "maan tzwu"
+        },
+        "meanings": [
+          "to satisfy",
+          "to meet (the needs of)",
+          "satisfied",
+          "content"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "慢",
+    "radical": "忄",
+    "frequency": 1770,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "慢",
+        "transcriptions": {
+          "pinyin": "màn",
+          "numeric": "man4",
+          "wadegiles": "man⁴",
+          "bopomofo": "ㄇㄢˋ",
+          "romatzyh": "mann"
+        },
+        "meanings": [
+          "slow"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "慢车",
+    "radical": "忄",
+    "frequency": 52449,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "慢車",
+        "transcriptions": {
+          "pinyin": "màn chē",
+          "numeric": "man4 che1",
+          "wadegiles": "man⁴ ch'e¹",
+          "bopomofo": "ㄇㄢˋ ㄔㄜ",
+          "romatzyh": "mann che"
+        },
+        "meanings": [
+          "local bus or train",
+          "slow train with many stops"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "慢慢",
+    "radical": "忄",
+    "frequency": 1664,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "慢慢",
+        "transcriptions": {
+          "pinyin": "màn màn",
+          "numeric": "man4 man4",
+          "wadegiles": "man⁴ man⁴",
+          "bopomofo": "ㄇㄢˋ ㄇㄢˋ",
+          "romatzyh": "mann mann"
+        },
+        "meanings": [
+          "slowly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "慢慢来",
+    "radical": "忄",
+    "frequency": 14319,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "慢慢來",
+        "transcriptions": {
+          "pinyin": "màn màn lái",
+          "numeric": "man4 man4 lai2",
+          "wadegiles": "man⁴ man⁴ lai²",
+          "bopomofo": "ㄇㄢˋ ㄇㄢˋ ㄌㄞˊ",
+          "romatzyh": "mann mann lai"
+        },
+        "meanings": [
+          "take your time",
+          "take it easy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "慢性",
+    "radical": "忄",
+    "frequency": 9266,
+    "pos": [
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "慢性",
+        "transcriptions": {
+          "pinyin": "màn xìng",
+          "numeric": "man4 xing4",
+          "wadegiles": "man⁴ hsing⁴",
+          "bopomofo": "ㄇㄢˋ ㄒㄧㄥˋ",
+          "romatzyh": "mann shinq"
+        },
+        "meanings": [
+          "slow and patient",
+          "chronic (disease)",
+          "slow to take effect (e.g. a slow poison)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "漫",
+    "radical": "氵",
+    "frequency": 7395,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "漫",
+        "transcriptions": {
+          "pinyin": "màn",
+          "numeric": "man4",
+          "wadegiles": "man⁴",
+          "bopomofo": "ㄇㄢˋ",
+          "romatzyh": "mann"
+        },
+        "meanings": [
+          "free",
+          "unrestrained",
+          "to inundate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "漫画",
+    "radical": "氵",
+    "frequency": 4509,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "漫畫",
+        "transcriptions": {
+          "pinyin": "màn huà",
+          "numeric": "man4 hua4",
+          "wadegiles": "man⁴ hua⁴",
+          "bopomofo": "ㄇㄢˋ ㄏㄨㄚˋ",
+          "romatzyh": "mann huah"
+        },
+        "meanings": [
+          "caricature",
+          "cartoon",
+          "Japanese manga"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "漫游",
+    "radical": "氵",
+    "frequency": 14554,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "漫遊",
+        "transcriptions": {
+          "pinyin": "màn yóu",
+          "numeric": "man4 you2",
+          "wadegiles": "man⁴ yu²",
+          "bopomofo": "ㄇㄢˋ ㄧㄡˊ",
+          "romatzyh": "mann you"
+        },
+        "meanings": [
+          "to travel around",
+          "to roam",
+          "(mobile telephony) roaming"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "漫长",
+    "radical": "氵",
+    "frequency": 5704,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "漫長",
+        "transcriptions": {
+          "pinyin": "màn cháng",
+          "numeric": "man4 chang2",
+          "wadegiles": "man⁴ ch'ang²",
+          "bopomofo": "ㄇㄢˋ ㄔㄤˊ",
+          "romatzyh": "mann charng"
+        },
+        "meanings": [
+          "very long",
+          "endless"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "蔓延",
+    "radical": "艹",
+    "frequency": 7609,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "蔓延",
+        "transcriptions": {
+          "pinyin": "màn yán",
+          "numeric": "man4 yan2",
+          "wadegiles": "man⁴ yan²",
+          "bopomofo": "ㄇㄢˋ ㄧㄢˊ",
+          "romatzyh": "mann yan"
+        },
+        "meanings": [
+          "to extend",
+          "to spread"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "忙",
+    "radical": "忄",
+    "frequency": 859,
+    "pos": [
+      "v",
+      "a",
+      "ad",
+      "g",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "忙",
+        "transcriptions": {
+          "pinyin": "máng",
+          "numeric": "mang2",
+          "wadegiles": "mang²",
+          "bopomofo": "ㄇㄤˊ",
+          "romatzyh": "mang"
+        },
+        "meanings": [
+          "busy",
+          "hurriedly",
+          "to hurry",
+          "to rush"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "忙活",
+    "radical": "忄",
+    "frequency": 15465,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "忙活",
+        "transcriptions": {
+          "pinyin": "máng huo",
+          "numeric": "mang2 huo5",
+          "wadegiles": "mang² huo",
+          "bopomofo": "ㄇㄤˊ huo",
+          "romatzyh": "mang huo"
+        },
+        "meanings": [
+          "to be really busy",
+          "pressing business"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "忙碌",
+    "radical": "忄",
+    "frequency": 6465,
+    "pos": [
+      "a",
+      "v",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "忙碌",
+        "transcriptions": {
+          "pinyin": "máng lù",
+          "numeric": "mang2 lu4",
+          "wadegiles": "mang² lu⁴",
+          "bopomofo": "ㄇㄤˊ ㄌㄨˋ",
+          "romatzyh": "mang luh"
+        },
+        "meanings": [
+          "busy; bustling"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "忙乱",
+    "radical": "忄",
+    "frequency": 33607,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "忙亂",
+        "transcriptions": {
+          "pinyin": "máng luàn",
+          "numeric": "mang2 luan4",
+          "wadegiles": "mang² luan⁴",
+          "bopomofo": "ㄇㄤˊ ㄌㄨㄢˋ",
+          "romatzyh": "mang luann"
+        },
+        "meanings": [
+          "rushed and muddled"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "盲目",
+    "radical": "目",
+    "frequency": 6842,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "盲目",
+        "transcriptions": {
+          "pinyin": "máng mù",
+          "numeric": "mang2 mu4",
+          "wadegiles": "mang² mu⁴",
+          "bopomofo": "ㄇㄤˊ ㄇㄨˋ",
+          "romatzyh": "mang muh"
+        },
+        "meanings": [
+          "blind",
+          "blindly",
+          "ignorant",
+          "lacking understanding"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "盲人",
+    "radical": "目",
+    "frequency": 11792,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "盲人",
+        "transcriptions": {
+          "pinyin": "máng rén",
+          "numeric": "mang2 ren2",
+          "wadegiles": "mang² jen²",
+          "bopomofo": "ㄇㄤˊ ㄖㄣˊ",
+          "romatzyh": "mang ren"
+        },
+        "meanings": [
+          "blind person"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "茫然",
+    "radical": "艹",
+    "frequency": 13636,
+    "pos": [
+      "a",
+      "an",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "茫然",
+        "transcriptions": {
+          "pinyin": "máng rán",
+          "numeric": "mang2 ran2",
+          "wadegiles": "mang² jan²",
+          "bopomofo": "ㄇㄤˊ ㄖㄢˊ",
+          "romatzyh": "mang ran"
+        },
+        "meanings": [
+          "blankly",
+          "vacantly",
+          "at a loss"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "猫",
+    "radical": "犭",
+    "frequency": 1150,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "貓",
+        "transcriptions": {
+          "pinyin": "māo",
+          "numeric": "mao1",
+          "wadegiles": "mao¹",
+          "bopomofo": "ㄇㄠ",
+          "romatzyh": "mhau"
+        },
+        "meanings": [
+          "cat",
+          "(dialect) to hide oneself",
+          "(coll.) modem"
+        ],
+        "classifiers": [
+          "只"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "毛",
+    "radical": "毛",
+    "frequency": 1319,
+    "pos": [
+      "nr",
+      "n",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "毛",
+        "transcriptions": {
+          "pinyin": "Máo",
+          "numeric": "Mao2",
+          "wadegiles": "mao²",
+          "bopomofo": "ㄇㄠˊ",
+          "romatzyh": "mau"
+        },
+        "meanings": [
+          "surname Mao"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "毛",
+        "transcriptions": {
+          "pinyin": "máo",
+          "numeric": "mao2",
+          "wadegiles": "mao²",
+          "bopomofo": "ㄇㄠˊ",
+          "romatzyh": "mau"
+        },
+        "meanings": [
+          "hair",
+          "feather",
+          "down",
+          "wool",
+          "mildew",
+          "mold",
+          "coarse or semifinished",
+          "young",
+          "raw",
+          "careless",
+          "unthinking",
+          "nervous",
+          "scared",
+          "(of currency) to devalue or depreciate",
+          "classifier for Chinese fractional monetary unit ( = 角 , = one-tenth of a yuan or 10 fen 分)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "毛笔",
+    "radical": "毛",
+    "frequency": 37393,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "毛筆",
+        "transcriptions": {
+          "pinyin": "máo bǐ",
+          "numeric": "mao2 bi3",
+          "wadegiles": "mao² pi³",
+          "bopomofo": "ㄇㄠˊ ㄅㄧˇ",
+          "romatzyh": "mau bii"
+        },
+        "meanings": [
+          "writing brush"
+        ],
+        "classifiers": [
+          "枝",
+          "管"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "毛病",
+    "radical": "毛",
+    "frequency": 4966,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "毛病",
+        "transcriptions": {
+          "pinyin": "máo bìng",
+          "numeric": "mao2 bing4",
+          "wadegiles": "mao² ping⁴",
+          "bopomofo": "ㄇㄠˊ ㄅㄧㄥˋ",
+          "romatzyh": "mau binq"
+        },
+        "meanings": [
+          "fault",
+          "defect",
+          "shortcomings",
+          "ailment"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "毛巾",
+    "radical": "毛",
+    "frequency": 6574,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "毛巾",
+        "transcriptions": {
+          "pinyin": "máo jīn",
+          "numeric": "mao2 jin1",
+          "wadegiles": "mao² chin¹",
+          "bopomofo": "ㄇㄠˊ ㄐㄧㄣ",
+          "romatzyh": "mau jin"
+        },
+        "meanings": [
+          "towel"
+        ],
+        "classifiers": [
+          "条"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "毛衣",
+    "radical": "毛",
+    "frequency": 5546,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "毛衣",
+        "transcriptions": {
+          "pinyin": "máo yī",
+          "numeric": "mao2 yi1",
+          "wadegiles": "mao² i¹",
+          "bopomofo": "ㄇㄠˊ ㄧ",
+          "romatzyh": "mau i"
+        },
+        "meanings": [
+          "(wool) sweater"
+        ],
+        "classifiers": [
+          "件"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "矛盾",
+    "radical": "矛",
+    "frequency": 2794,
+    "pos": [
+      "an",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "矛盾",
+        "transcriptions": {
+          "pinyin": "máo dùn",
+          "numeric": "mao2 dun4",
+          "wadegiles": "mao² tun⁴",
+          "bopomofo": "ㄇㄠˊ ㄉㄨㄣˋ",
+          "romatzyh": "mau duenn"
+        },
+        "meanings": [
+          "contradiction",
+          "conflicting views",
+          "contradictory"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "矛头",
+    "radical": "矛",
+    "frequency": 17616,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "矛頭",
+        "transcriptions": {
+          "pinyin": "máo tóu",
+          "numeric": "mao2 tou2",
+          "wadegiles": "mao² t'ou²",
+          "bopomofo": "ㄇㄠˊ ㄊㄡˊ",
+          "romatzyh": "mau tour"
+        },
+        "meanings": [
+          "spearhead",
+          "barb",
+          "an attack or criticism"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "茅台",
+    "radical": "艹",
+    "frequency": 12959,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "茅臺",
+        "transcriptions": {
+          "pinyin": "Máo tái",
+          "numeric": "Mao2 tai2",
+          "wadegiles": "mao² t'ai²",
+          "bopomofo": "ㄇㄠˊ ㄊㄞˊ",
+          "romatzyh": "mau tair"
+        },
+        "meanings": [
+          "Maotai town in Renhuai county, Guizhou",
+          "Maotai liquor 茅台酒"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "茅台",
+    "radical": "艹",
+    "frequency": 12959,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "茅臺",
+        "transcriptions": {
+          "pinyin": "Máo tái",
+          "numeric": "Mao2 tai2",
+          "wadegiles": "mao² t'ai²",
+          "bopomofo": "ㄇㄠˊ ㄊㄞˊ",
+          "romatzyh": "mau tair"
+        },
+        "meanings": [
+          "Maotai town in Renhuai county, Guizhou",
+          "Maotai liquor 茅台酒"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "茅台酒",
+    "radical": "艹",
+    "frequency": 24755,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "茅臺酒",
+        "transcriptions": {
+          "pinyin": "máo tái jiǔ",
+          "numeric": "mao2 tai2 jiu3",
+          "wadegiles": "mao² t'ai² chiu³",
+          "bopomofo": "ㄇㄠˊ ㄊㄞˊ ㄐㄧㄡˇ",
+          "romatzyh": "mau tair jeou"
+        },
+        "meanings": [
+          "maotai (a Chinese liquor)"
+        ],
+        "classifiers": [
+          "杯",
+          "瓶"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "茂密",
+    "radical": "艹",
+    "frequency": 30360,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "茂密",
+        "transcriptions": {
+          "pinyin": "mào mì",
+          "numeric": "mao4 mi4",
+          "wadegiles": "mao⁴ mi⁴",
+          "bopomofo": "ㄇㄠˋ ㄇㄧˋ",
+          "romatzyh": "maw mih"
+        },
+        "meanings": [
+          "dense (of plant growth)",
+          "lush"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "茂盛",
+    "radical": "艹",
+    "frequency": 28450,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "茂盛",
+        "transcriptions": {
+          "pinyin": "mào shèng",
+          "numeric": "mao4 sheng4",
+          "wadegiles": "mao⁴ sheng⁴",
+          "bopomofo": "ㄇㄠˋ ㄕㄥˋ",
+          "romatzyh": "maw shenq"
+        },
+        "meanings": [
+          "lush"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "冒",
+    "radical": "冂",
+    "frequency": 2381,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "冐",
+        "transcriptions": {
+          "pinyin": "mào",
+          "numeric": "mao4",
+          "wadegiles": "mao⁴",
+          "bopomofo": "ㄇㄠˋ",
+          "romatzyh": "maw"
+        },
+        "meanings": [
+          "old variant of 冒"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "冒",
+        "transcriptions": {
+          "pinyin": "Mào",
+          "numeric": "Mao4",
+          "wadegiles": "mao⁴",
+          "bopomofo": "ㄇㄠˋ",
+          "romatzyh": "maw"
+        },
+        "meanings": [
+          "surname Mao"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "冒",
+        "transcriptions": {
+          "pinyin": "mào",
+          "numeric": "mao4",
+          "wadegiles": "mao⁴",
+          "bopomofo": "ㄇㄠˋ",
+          "romatzyh": "maw"
+        },
+        "meanings": [
+          "to emit",
+          "to give off",
+          "to send out (or up, forth)",
+          "to brave",
+          "to face",
+          "reckless",
+          "to falsely adopt (sb's identity etc)",
+          "to feign",
+          "(literary) to cover"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "冒充",
+    "radical": "冂",
+    "frequency": 11187,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "冒充",
+        "transcriptions": {
+          "pinyin": "mào chōng",
+          "numeric": "mao4 chong1",
+          "wadegiles": "mao⁴ ch'ung¹",
+          "bopomofo": "ㄇㄠˋ ㄔㄨㄥ",
+          "romatzyh": "maw chong"
+        },
+        "meanings": [
+          "to feign",
+          "to pretend to be",
+          "to pass oneself off as"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "冒犯",
+    "radical": "冂",
+    "frequency": 14861,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "冒犯",
+        "transcriptions": {
+          "pinyin": "mào fàn",
+          "numeric": "mao4 fan4",
+          "wadegiles": "mao⁴ fan⁴",
+          "bopomofo": "ㄇㄠˋ ㄈㄢˋ",
+          "romatzyh": "maw fann"
+        },
+        "meanings": [
+          "to offend"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "冒昧",
+    "radical": "冂",
+    "frequency": 24924,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "冒昧",
+        "transcriptions": {
+          "pinyin": "mào mèi",
+          "numeric": "mao4 mei4",
+          "wadegiles": "mao⁴ mei⁴",
+          "bopomofo": "ㄇㄠˋ ㄇㄟˋ",
+          "romatzyh": "maw mey"
+        },
+        "meanings": [
+          "bold",
+          "presumptuous",
+          "to take the liberty of"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "冒险",
+    "radical": "冂",
+    "frequency": 3841,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "冒險",
+        "transcriptions": {
+          "pinyin": "mào xiǎn",
+          "numeric": "mao4 xian3",
+          "wadegiles": "mao⁴ hsien³",
+          "bopomofo": "ㄇㄠˋ ㄒㄧㄢˇ",
+          "romatzyh": "maw shean"
+        },
+        "meanings": [
+          "to take risks",
+          "to take chances",
+          "foray",
+          "adventure"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "贸易",
+    "radical": "贝",
+    "frequency": 4129,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "貿易",
+        "transcriptions": {
+          "pinyin": "mào yì",
+          "numeric": "mao4 yi4",
+          "wadegiles": "mao⁴ i⁴",
+          "bopomofo": "ㄇㄠˋ ㄧˋ",
+          "romatzyh": "maw yih"
+        },
+        "meanings": [
+          "(commercial) trade"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "帽子",
+    "radical": "巾",
+    "frequency": 3553,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "帽子",
+        "transcriptions": {
+          "pinyin": "mào zi",
+          "numeric": "mao4 zi5",
+          "wadegiles": "mao⁴ zi",
+          "bopomofo": "ㄇㄠˋ zi",
+          "romatzyh": "maw zi"
+        },
+        "meanings": [
+          "hat",
+          "cap",
+          "(fig.) label",
+          "bad name"
+        ],
+        "classifiers": [
+          "顶"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "没",
+    "radical": "氵",
+    "frequency": 63,
+    "pos": [
+      "d",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "沒",
+        "transcriptions": {
+          "pinyin": "méi",
+          "numeric": "mei2",
+          "wadegiles": "mei²",
+          "bopomofo": "ㄇㄟˊ",
+          "romatzyh": "mei"
+        },
+        "meanings": [
+          "(negative prefix for verbs) have not; not"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "沒",
+        "transcriptions": {
+          "pinyin": "mò",
+          "numeric": "mo4",
+          "wadegiles": "mo⁴",
+          "bopomofo": "ㄇㄛˋ",
+          "romatzyh": "moh"
+        },
+        "meanings": [
+          "drowned",
+          "to end",
+          "to die",
+          "to inundate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "没错",
+    "radical": "氵",
+    "frequency": 5245,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "沒錯",
+        "transcriptions": {
+          "pinyin": "méi cuò",
+          "numeric": "mei2 cuo4",
+          "wadegiles": "mei² ts'o⁴",
+          "bopomofo": "ㄇㄟˊ ㄘㄨㄛˋ",
+          "romatzyh": "mei tsuoh"
+        },
+        "meanings": [
+          "that's right",
+          "sure!",
+          "rest assured!",
+          "that's good",
+          "can't go wrong"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "没法儿",
+    "radical": "氵",
+    "frequency": 41071,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "沒法兒",
+        "transcriptions": {
+          "pinyin": "méifǎr5",
+          "numeric": "méifǎr5",
+          "wadegiles": "méifǎr5",
+          "bopomofo": "méifǎr5",
+          "romatzyh": "méifǎr5"
+        },
+        "meanings": [
+          "Can't"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "没关系",
+    "radical": "氵",
+    "frequency": 3541,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "沒關係",
+        "transcriptions": {
+          "pinyin": "méi guān xi",
+          "numeric": "mei2 guan1 xi5",
+          "wadegiles": "mei² kuan¹ xi",
+          "bopomofo": "ㄇㄟˊ ㄍㄨㄢ xi",
+          "romatzyh": "mei guan xi"
+        },
+        "meanings": [
+          "it doesn't matter"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "没劲",
+    "radical": "氵",
+    "frequency": 14775,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "沒勁",
+        "transcriptions": {
+          "pinyin": "méi jìn",
+          "numeric": "mei2 jin4",
+          "wadegiles": "mei² chin⁴",
+          "bopomofo": "ㄇㄟˊ ㄐㄧㄣˋ",
+          "romatzyh": "mei jinn"
+        },
+        "meanings": [
+          "to have no strength",
+          "to feel weak",
+          "exhausted",
+          "feeling listless",
+          "boring",
+          "of no interest"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "没落",
+    "radical": "氵",
+    "frequency": 21378,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "沒落",
+        "transcriptions": {
+          "pinyin": "mò luò",
+          "numeric": "mo4 luo4",
+          "wadegiles": "mo⁴ lo⁴",
+          "bopomofo": "ㄇㄛˋ ㄌㄨㄛˋ",
+          "romatzyh": "moh luoh"
+        },
+        "meanings": [
+          "to decline",
+          "to wane"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "没什么",
+    "radical": "氵",
+    "frequency": 1659,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "沒什麼",
+        "transcriptions": {
+          "pinyin": "méi shén me",
+          "numeric": "mei2 shen2 me5",
+          "wadegiles": "mei² shen² me",
+          "bopomofo": "ㄇㄟˊ ㄕㄣˊ me",
+          "romatzyh": "mei shern me"
+        },
+        "meanings": [
+          "nothing",
+          "it doesn't matter",
+          "it's nothing",
+          "never mind"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "没事儿",
+    "radical": "氵",
+    "frequency": 11421,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "沒事兒",
+        "transcriptions": {
+          "pinyin": "méi shì r",
+          "numeric": "mei2 shi4 r5",
+          "wadegiles": "mei² shih⁴ r",
+          "bopomofo": "ㄇㄟˊ ㄕˋ r",
+          "romatzyh": "mei shyh r"
+        },
+        "meanings": [
+          "to have spare time",
+          "free from work",
+          "it's not important",
+          "it's nothing",
+          "never mind"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "没收",
+    "radical": "氵",
+    "frequency": 6509,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "沒收",
+        "transcriptions": {
+          "pinyin": "mò shōu",
+          "numeric": "mo4 shou1",
+          "wadegiles": "mo⁴ shou¹",
+          "bopomofo": "ㄇㄛˋ ㄕㄡ",
+          "romatzyh": "moh shou"
+        },
+        "meanings": [
+          "to confiscate",
+          "to seize"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "没说的",
+    "radical": "氵",
+    "frequency": 54259,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "沒說的",
+        "transcriptions": {
+          "pinyin": "méi shuō de",
+          "numeric": "mei2 shuo1 de5",
+          "wadegiles": "mei² shuo¹ de",
+          "bopomofo": "ㄇㄟˊ ㄕㄨㄛ de",
+          "romatzyh": "mei shuo de"
+        },
+        "meanings": [
+          "nothing to pick on",
+          "really good",
+          "nothing to discuss",
+          "settled matter",
+          "no problem"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "没完没了",
+    "radical": "氵",
+    "frequency": 14136,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "沒完沒了",
+        "transcriptions": {
+          "pinyin": "méi wán méi liǎo",
+          "numeric": "mei2 wan2 mei2 liao3",
+          "wadegiles": "mei² wan² mei² liao³",
+          "bopomofo": "ㄇㄟˊ ㄨㄢˊ ㄇㄟˊ ㄌㄧㄠˇ",
+          "romatzyh": "mei wan mei leau"
+        },
+        "meanings": [
+          "without end",
+          "incessantly",
+          "on and on"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "没想到",
+    "radical": "氵",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "沒想到",
+        "transcriptions": {
+          "pinyin": "méi xiǎng dào",
+          "numeric": "mei2 xiang3 dao4",
+          "wadegiles": "mei² hsiang³ tao⁴",
+          "bopomofo": "ㄇㄟˊ ㄒㄧㄤˇ ㄉㄠˋ",
+          "romatzyh": "mei sheang daw"
+        },
+        "meanings": [
+          "didn't expect"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "没意思",
+    "radical": "氵",
+    "frequency": 11321,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "沒意思",
+        "transcriptions": {
+          "pinyin": "méi yì si",
+          "numeric": "mei2 yi4 si5",
+          "wadegiles": "mei² i⁴ si",
+          "bopomofo": "ㄇㄟˊ ㄧˋ si",
+          "romatzyh": "mei yih si"
+        },
+        "meanings": [
+          "boring",
+          "of no interest"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "没用",
+    "radical": "氵",
+    "frequency": 4841,
+    "pos": [
+      "v",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "沒用",
+        "transcriptions": {
+          "pinyin": "méi yòng",
+          "numeric": "mei2 yong4",
+          "wadegiles": "mei² yung⁴",
+          "bopomofo": "ㄇㄟˊ ㄩㄥˋ",
+          "romatzyh": "mei yonq"
+        },
+        "meanings": [
+          "useless"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "没有",
+    "radical": "氵",
+    "frequency": 46,
+    "pos": [
+      "v",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "沒有",
+        "transcriptions": {
+          "pinyin": "méi yǒu",
+          "numeric": "mei2 you3",
+          "wadegiles": "mei² yu³",
+          "bopomofo": "ㄇㄟˊ ㄧㄡˇ",
+          "romatzyh": "mei yeou"
+        },
+        "meanings": [
+          "haven't",
+          "hasn't",
+          "doesn't exist",
+          "to not have",
+          "to not be"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

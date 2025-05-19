@@ -1,0 +1,2131 @@
+[
+  {
+    "simplified": "正在",
+    "radical": "止",
+    "frequency": 420,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "正在",
+        "transcriptions": {
+          "pinyin": "zhèng zài",
+          "numeric": "zheng4 zai4",
+          "wadegiles": "cheng⁴ tsai⁴",
+          "bopomofo": "ㄓㄥˋ ㄗㄞˋ",
+          "romatzyh": "jenq tzay"
+        },
+        "meanings": [
+          "just at (that time)",
+          "right in (that place)",
+          "right in the middle of (doing sth)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "证",
+    "radical": "讠",
+    "frequency": 1605,
+    "pos": [
+      "n",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "証",
+        "transcriptions": {
+          "pinyin": "zhèng",
+          "numeric": "zheng4",
+          "wadegiles": "cheng⁴",
+          "bopomofo": "ㄓㄥˋ",
+          "romatzyh": "jenq"
+        },
+        "meanings": [
+          "to admonish",
+          "variant of 证"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "證",
+        "transcriptions": {
+          "pinyin": "zhèng",
+          "numeric": "zheng4",
+          "wadegiles": "cheng⁴",
+          "bopomofo": "ㄓㄥˋ",
+          "romatzyh": "jenq"
+        },
+        "meanings": [
+          "certificate",
+          "proof",
+          "to prove",
+          "to demonstrate",
+          "to confirm",
+          "variant of 症"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "证件",
+    "radical": "讠",
+    "frequency": 5876,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "證件",
+        "transcriptions": {
+          "pinyin": "zhèng jiàn",
+          "numeric": "zheng4 jian4",
+          "wadegiles": "cheng⁴ chien⁴",
+          "bopomofo": "ㄓㄥˋ ㄐㄧㄢˋ",
+          "romatzyh": "jenq jiann"
+        },
+        "meanings": [
+          "certificate; papers; credentials; document; ID"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "证据",
+    "radical": "讠",
+    "frequency": 1826,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "證據",
+        "transcriptions": {
+          "pinyin": "zhèng jù",
+          "numeric": "zheng4 ju4",
+          "wadegiles": "cheng⁴ chü⁴",
+          "bopomofo": "ㄓㄥˋ ㄐㄩˋ",
+          "romatzyh": "jenq jiuh"
+        },
+        "meanings": [
+          "evidence",
+          "proof",
+          "testimony"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "证明",
+    "radical": "讠",
+    "frequency": 838,
+    "pos": [
+      "v",
+      "n",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "證明",
+        "transcriptions": {
+          "pinyin": "zhèng míng",
+          "numeric": "zheng4 ming2",
+          "wadegiles": "cheng⁴ ming²",
+          "bopomofo": "ㄓㄥˋ ㄇㄧㄥˊ",
+          "romatzyh": "jenq ming"
+        },
+        "meanings": [
+          "proof",
+          "certificate",
+          "identification",
+          "testimonial",
+          "to prove",
+          "to testify",
+          "to confirm the truth of"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "证实",
+    "radical": "讠",
+    "frequency": 2449,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "證實",
+        "transcriptions": {
+          "pinyin": "zhèng shí",
+          "numeric": "zheng4 shi2",
+          "wadegiles": "cheng⁴ shih²",
+          "bopomofo": "ㄓㄥˋ ㄕˊ",
+          "romatzyh": "jenq shyr"
+        },
+        "meanings": [
+          "to confirm (sth to be true)",
+          "to verify"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "证书",
+    "radical": "讠",
+    "frequency": 6390,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "證書",
+        "transcriptions": {
+          "pinyin": "zhèng shū",
+          "numeric": "zheng4 shu1",
+          "wadegiles": "cheng⁴ shu¹",
+          "bopomofo": "ㄓㄥˋ ㄕㄨ",
+          "romatzyh": "jenq shu"
+        },
+        "meanings": [
+          "credentials",
+          "certificate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "政策",
+    "radical": "攵",
+    "frequency": 2305,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "政策",
+        "transcriptions": {
+          "pinyin": "zhèng cè",
+          "numeric": "zheng4 ce4",
+          "wadegiles": "cheng⁴ ts'e⁴",
+          "bopomofo": "ㄓㄥˋ ㄘㄜˋ",
+          "romatzyh": "jenq tseh"
+        },
+        "meanings": [
+          "policy"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "政党",
+    "radical": "攵",
+    "frequency": 12675,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "政黨",
+        "transcriptions": {
+          "pinyin": "zhèng dǎng",
+          "numeric": "zheng4 dang3",
+          "wadegiles": "cheng⁴ tang³",
+          "bopomofo": "ㄓㄥˋ ㄉㄤˇ",
+          "romatzyh": "jenq daang"
+        },
+        "meanings": [
+          "political party"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "政府",
+    "radical": "攵",
+    "frequency": 527,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "政府",
+        "transcriptions": {
+          "pinyin": "zhèng fǔ",
+          "numeric": "zheng4 fu3",
+          "wadegiles": "cheng⁴ fu³",
+          "bopomofo": "ㄓㄥˋ ㄈㄨˇ",
+          "romatzyh": "jenq fuu"
+        },
+        "meanings": [
+          "government"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "政权",
+    "radical": "攵",
+    "frequency": 7321,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "政權",
+        "transcriptions": {
+          "pinyin": "zhèng quán",
+          "numeric": "zheng4 quan2",
+          "wadegiles": "cheng⁴ ch'üan²",
+          "bopomofo": "ㄓㄥˋ ㄑㄩㄢˊ",
+          "romatzyh": "jenq chyuan"
+        },
+        "meanings": [
+          "regime",
+          "political power"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "政治",
+    "radical": "攵",
+    "frequency": 1320,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "政治",
+        "transcriptions": {
+          "pinyin": "zhèng zhì",
+          "numeric": "zheng4 zhi4",
+          "wadegiles": "cheng⁴ chih⁴",
+          "bopomofo": "ㄓㄥˋ ㄓˋ",
+          "romatzyh": "jenq jyh"
+        },
+        "meanings": [
+          "politics",
+          "political"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "症状",
+    "radical": "疒",
+    "frequency": 2536,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "症狀",
+        "transcriptions": {
+          "pinyin": "zhèng zhuàng",
+          "numeric": "zheng4 zhuang4",
+          "wadegiles": "cheng⁴ chuang⁴",
+          "bopomofo": "ㄓㄥˋ ㄓㄨㄤˋ",
+          "romatzyh": "jenq juanq"
+        },
+        "meanings": [
+          "symptom (of an illness)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "之后",
+    "radical": "丿",
+    "frequency": 303,
+    "pos": [
+      "f",
+      "t"
+    ],
+    "forms": [
+      {
+        "traditional": "之後",
+        "transcriptions": {
+          "pinyin": "zhī hòu",
+          "numeric": "zhi1 hou4",
+          "wadegiles": "chih¹ hou⁴",
+          "bopomofo": "ㄓ ㄏㄡˋ",
+          "romatzyh": "jy how"
+        },
+        "meanings": [
+          "after; behind",
+          "(at the beginning of a sentence) afterwards; since then"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "之间",
+    "radical": "丿",
+    "frequency": 476,
+    "pos": [
+      "f"
+    ],
+    "forms": [
+      {
+        "traditional": "之間",
+        "transcriptions": {
+          "pinyin": "zhī jiān",
+          "numeric": "zhi1 jian1",
+          "wadegiles": "chih¹ chien¹",
+          "bopomofo": "ㄓ ㄐㄧㄢ",
+          "romatzyh": "jy jian"
+        },
+        "meanings": [
+          "(after a noun) between; among; amid",
+          "(used after certain bisyllabic words to form expressions indicating a short period of time, e.g. 弹指之间)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "之类",
+    "radical": "丿",
+    "frequency": 1380,
+    "pos": [
+      "r"
+    ],
+    "forms": [
+      {
+        "traditional": "之類",
+        "transcriptions": {
+          "pinyin": "zhī lèi",
+          "numeric": "zhi1 lei4",
+          "wadegiles": "chih¹ lei⁴",
+          "bopomofo": "ㄓ ㄌㄟˋ",
+          "romatzyh": "jy ley"
+        },
+        "meanings": [
+          "and so on",
+          "and such"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "之内",
+    "radical": "丿",
+    "frequency": 3090,
+    "pos": [
+      "f"
+    ],
+    "forms": [
+      {
+        "traditional": "之內",
+        "transcriptions": {
+          "pinyin": "zhī nèi",
+          "numeric": "zhi1 nei4",
+          "wadegiles": "chih¹ nei⁴",
+          "bopomofo": "ㄓ ㄋㄟˋ",
+          "romatzyh": "jy ney"
+        },
+        "meanings": [
+          "inside",
+          "within"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "之前",
+    "radical": "丿",
+    "frequency": 479,
+    "pos": [
+      "f"
+    ],
+    "forms": [
+      {
+        "traditional": "之前",
+        "transcriptions": {
+          "pinyin": "zhī qián",
+          "numeric": "zhi1 qian2",
+          "wadegiles": "chih¹ ch'ien²",
+          "bopomofo": "ㄓ ㄑㄧㄢˊ",
+          "romatzyh": "jy chyan"
+        },
+        "meanings": [
+          "before",
+          "prior to",
+          "ago",
+          "previously",
+          "beforehand"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "之外",
+    "radical": "丿",
+    "frequency": 2066,
+    "pos": [
+      "f"
+    ],
+    "forms": [
+      {
+        "traditional": "之外",
+        "transcriptions": {
+          "pinyin": "zhī wài",
+          "numeric": "zhi1 wai4",
+          "wadegiles": "chih¹ wai⁴",
+          "bopomofo": "ㄓ ㄨㄞˋ",
+          "romatzyh": "jy way"
+        },
+        "meanings": [
+          "outside",
+          "excluding"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "之下",
+    "radical": "丿",
+    "frequency": 2749,
+    "pos": [
+      "f"
+    ],
+    "forms": [
+      {
+        "traditional": "之下",
+        "transcriptions": {
+          "pinyin": "zhī xià",
+          "numeric": "zhi1 xia4",
+          "wadegiles": "chih¹ hsia⁴",
+          "bopomofo": "ㄓ ㄒㄧㄚˋ",
+          "romatzyh": "jy shiah"
+        },
+        "meanings": [
+          "under",
+          "beneath",
+          "less than"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "之一",
+    "radical": "丿",
+    "frequency": 893,
+    "pos": [
+      "r"
+    ],
+    "forms": [
+      {
+        "traditional": "之一",
+        "transcriptions": {
+          "pinyin": "zhī yī",
+          "numeric": "zhi1 yi1",
+          "wadegiles": "chih¹ i¹",
+          "bopomofo": "ㄓ ㄧ",
+          "romatzyh": "jy i"
+        },
+        "meanings": [
+          "one of (sth)",
+          "one out of a multitude",
+          "one (third, quarter, percent etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "之中",
+    "radical": "丿",
+    "frequency": 1618,
+    "pos": [
+      "f"
+    ],
+    "forms": [
+      {
+        "traditional": "之中",
+        "transcriptions": {
+          "pinyin": "zhī zhōng",
+          "numeric": "zhi1 zhong1",
+          "wadegiles": "chih¹ chung¹",
+          "bopomofo": "ㄓ ㄓㄨㄥ",
+          "romatzyh": "jy jong"
+        },
+        "meanings": [
+          "inside",
+          "among",
+          "in the midst of (doing sth)",
+          "during"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "支",
+    "radical": "支",
+    "frequency": 915,
+    "pos": [
+      "q",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "支",
+        "transcriptions": {
+          "pinyin": "Zhī",
+          "numeric": "Zhi1",
+          "wadegiles": "chih¹",
+          "bopomofo": "ㄓ",
+          "romatzyh": "jy"
+        },
+        "meanings": [
+          "surname Zhi"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "支",
+        "transcriptions": {
+          "pinyin": "zhī",
+          "numeric": "zhi1",
+          "wadegiles": "chih¹",
+          "bopomofo": "ㄓ",
+          "romatzyh": "jy"
+        },
+        "meanings": [
+          "to support",
+          "to sustain",
+          "to erect",
+          "to raise",
+          "branch",
+          "division",
+          "to draw money",
+          "classifier for rods such as pens and guns, for army divisions and for songs or compositions"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "支撑",
+    "radical": "支",
+    "frequency": 4627,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "支撐",
+        "transcriptions": {
+          "pinyin": "zhī chēng",
+          "numeric": "zhi1 cheng1",
+          "wadegiles": "chih¹ ch'eng¹",
+          "bopomofo": "ㄓ ㄔㄥ",
+          "romatzyh": "jy cheng"
+        },
+        "meanings": [
+          "to prop up",
+          "to support",
+          "strut",
+          "brace"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "支持",
+    "radical": "支",
+    "frequency": 546,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "支持",
+        "transcriptions": {
+          "pinyin": "zhī chí",
+          "numeric": "zhi1 chi2",
+          "wadegiles": "chih¹ ch'ih²",
+          "bopomofo": "ㄓ ㄔˊ",
+          "romatzyh": "jy chyr"
+        },
+        "meanings": [
+          "to be in favor of",
+          "to support",
+          "to back",
+          "support",
+          "backing",
+          "to stand by"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "支出",
+    "radical": "支",
+    "frequency": 8039,
+    "pos": [
+      "n",
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "支出",
+        "transcriptions": {
+          "pinyin": "zhī chū",
+          "numeric": "zhi1 chu1",
+          "wadegiles": "chih¹ ch'u¹",
+          "bopomofo": "ㄓ ㄔㄨ",
+          "romatzyh": "jy chu"
+        },
+        "meanings": [
+          "to spend; to pay out",
+          "expenses; expenditure"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "支付",
+    "radical": "支",
+    "frequency": 2724,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "支付",
+        "transcriptions": {
+          "pinyin": "zhī fù",
+          "numeric": "zhi1 fu4",
+          "wadegiles": "chih¹ fu⁴",
+          "bopomofo": "ㄓ ㄈㄨˋ",
+          "romatzyh": "jy fuh"
+        },
+        "meanings": [
+          "to pay (money)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "支配",
+    "radical": "支",
+    "frequency": 8015,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "支配",
+        "transcriptions": {
+          "pinyin": "zhī pèi",
+          "numeric": "zhi1 pei4",
+          "wadegiles": "chih¹ p'ei⁴",
+          "bopomofo": "ㄓ ㄆㄟˋ",
+          "romatzyh": "jy pey"
+        },
+        "meanings": [
+          "to control",
+          "to dominate",
+          "to allocate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "支援",
+    "radical": "支",
+    "frequency": 4069,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "支援",
+        "transcriptions": {
+          "pinyin": "zhī yuán",
+          "numeric": "zhi1 yuan2",
+          "wadegiles": "chih¹ yüan²",
+          "bopomofo": "ㄓ ㄩㄢˊ",
+          "romatzyh": "jy yuan"
+        },
+        "meanings": [
+          "to provide assistance",
+          "to support",
+          "to back"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "枝",
+    "radical": "木",
+    "frequency": 7489,
+    "pos": [
+      "q",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "枝",
+        "transcriptions": {
+          "pinyin": "zhī",
+          "numeric": "zhi1",
+          "wadegiles": "chih¹",
+          "bopomofo": "ㄓ",
+          "romatzyh": "jy"
+        },
+        "meanings": [
+          "branch",
+          "classifier for sticks, rods, pencils etc"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "知道",
+    "radical": "矢",
+    "frequency": 105,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "知道",
+        "transcriptions": {
+          "pinyin": "zhī dào",
+          "numeric": "zhi1 dao4",
+          "wadegiles": "chih¹ tao⁴",
+          "bopomofo": "ㄓ ㄉㄠˋ",
+          "romatzyh": "jy daw"
+        },
+        "meanings": [
+          "to know; to become aware of",
+          "also pr. [zhī dao]"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "知名",
+    "radical": "矢",
+    "frequency": 4410,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "知名",
+        "transcriptions": {
+          "pinyin": "zhī míng",
+          "numeric": "zhi1 ming2",
+          "wadegiles": "chih¹ ming²",
+          "bopomofo": "ㄓ ㄇㄧㄥˊ",
+          "romatzyh": "jy ming"
+        },
+        "meanings": [
+          "well-known; famous"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "知识",
+    "radical": "矢",
+    "frequency": 2284,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "知識",
+        "transcriptions": {
+          "pinyin": "zhī shi",
+          "numeric": "zhi1 shi5",
+          "wadegiles": "chih¹ shi",
+          "bopomofo": "ㄓ shi",
+          "romatzyh": "jy shi"
+        },
+        "meanings": [
+          "knowledge",
+          "intellectual"
+        ],
+        "classifiers": [
+          "门"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "织",
+    "radical": "纟",
+    "frequency": 5952,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "織",
+        "transcriptions": {
+          "pinyin": "zhī",
+          "numeric": "zhi1",
+          "wadegiles": "chih¹",
+          "bopomofo": "ㄓ",
+          "romatzyh": "jy"
+        },
+        "meanings": [
+          "to weave"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "执行",
+    "radical": "扌",
+    "frequency": 1328,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "執行",
+        "transcriptions": {
+          "pinyin": "zhí xíng",
+          "numeric": "zhi2 xing2",
+          "wadegiles": "chih² hsing²",
+          "bopomofo": "ㄓˊ ㄒㄧㄥˊ",
+          "romatzyh": "jyr shyng"
+        },
+        "meanings": [
+          "to implement",
+          "to carry out",
+          "to execute",
+          "to run"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "直",
+    "radical": "目",
+    "frequency": 1420,
+    "pos": [
+      "d",
+      "a",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "直",
+        "transcriptions": {
+          "pinyin": "Zhí",
+          "numeric": "Zhi2",
+          "wadegiles": "chih²",
+          "bopomofo": "ㄓˊ",
+          "romatzyh": "jyr"
+        },
+        "meanings": [
+          "surname Zhi",
+          "Zhi (c. 2000 BC), fifth of the legendary Flame Emperors 帝 descended from Shennong 神农 Farmer God"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "直",
+        "transcriptions": {
+          "pinyin": "zhí",
+          "numeric": "zhi2",
+          "wadegiles": "chih²",
+          "bopomofo": "ㄓˊ",
+          "romatzyh": "jyr"
+        },
+        "meanings": [
+          "straight",
+          "to straighten",
+          "fair and reasonable",
+          "frank",
+          "straightforward",
+          "(indicates continuing motion or action)",
+          "vertical",
+          "vertical downward stroke in Chinese characters"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "直播",
+    "radical": "目",
+    "frequency": 3374,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "直播",
+        "transcriptions": {
+          "pinyin": "zhí bō",
+          "numeric": "zhi2 bo1",
+          "wadegiles": "chih² po¹",
+          "bopomofo": "ㄓˊ ㄅㄛ",
+          "romatzyh": "jyr bo"
+        },
+        "meanings": [
+          "(TV, radio) to broadcast live",
+          "live broadcast",
+          "(Internet) to livestream",
+          "(agriculture) direct seeding"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "直到",
+    "radical": "目",
+    "frequency": 1292,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "直到",
+        "transcriptions": {
+          "pinyin": "zhí dào",
+          "numeric": "zhi2 dao4",
+          "wadegiles": "chih² tao⁴",
+          "bopomofo": "ㄓˊ ㄉㄠˋ",
+          "romatzyh": "jyr daw"
+        },
+        "meanings": [
+          "until"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "直接",
+    "radical": "目",
+    "frequency": 588,
+    "pos": [
+      "ad",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "直接",
+        "transcriptions": {
+          "pinyin": "zhí jiē",
+          "numeric": "zhi2 jie1",
+          "wadegiles": "chih² chieh¹",
+          "bopomofo": "ㄓˊ ㄐㄧㄝ",
+          "romatzyh": "jyr jie"
+        },
+        "meanings": [
+          "direct (opposite: indirect 间接)",
+          "immediate",
+          "straightforward"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "直升机",
+    "radical": "目",
+    "frequency": 4657,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "直升機",
+        "transcriptions": {
+          "pinyin": "zhí shēng jī",
+          "numeric": "zhi2 sheng1 ji1",
+          "wadegiles": "chih² sheng¹ chi¹",
+          "bopomofo": "ㄓˊ ㄕㄥ ㄐㄧ",
+          "romatzyh": "jyr sheng ji"
+        },
+        "meanings": [
+          "helicopter"
+        ],
+        "classifiers": [
+          "架"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "直线",
+    "radical": "目",
+    "frequency": 8100,
+    "pos": [
+      "n",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "直線",
+        "transcriptions": {
+          "pinyin": "zhí xiàn",
+          "numeric": "zhi2 xian4",
+          "wadegiles": "chih² hsien⁴",
+          "bopomofo": "ㄓˊ ㄒㄧㄢˋ",
+          "romatzyh": "jyr shiann"
+        },
+        "meanings": [
+          "straight line",
+          "sharply (rise or fall)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "值",
+    "radical": "亻",
+    "frequency": 1322,
+    "pos": [
+      "v",
+      "n",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "值",
+        "transcriptions": {
+          "pinyin": "zhí",
+          "numeric": "zhi2",
+          "wadegiles": "chih²",
+          "bopomofo": "ㄓˊ",
+          "romatzyh": "jyr"
+        },
+        "meanings": [
+          "value",
+          "(to be) worth",
+          "to happen to",
+          "to be on duty"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "值班",
+    "radical": "亻",
+    "frequency": 7266,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "值班",
+        "transcriptions": {
+          "pinyin": "zhí bān",
+          "numeric": "zhi2 ban1",
+          "wadegiles": "chih² pan¹",
+          "bopomofo": "ㄓˊ ㄅㄢ",
+          "romatzyh": "jyr ban"
+        },
+        "meanings": [
+          "to work a shift",
+          "on duty"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "值得",
+    "radical": "亻",
+    "frequency": 1037,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "值得",
+        "transcriptions": {
+          "pinyin": "zhí de",
+          "numeric": "zhi2 de5",
+          "wadegiles": "chih² de",
+          "bopomofo": "ㄓˊ de",
+          "romatzyh": "jyr de"
+        },
+        "meanings": [
+          "to be worth",
+          "to deserve"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "职工",
+    "radical": "耳",
+    "frequency": 8810,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "職工",
+        "transcriptions": {
+          "pinyin": "zhí gōng",
+          "numeric": "zhi2 gong1",
+          "wadegiles": "chih² kung¹",
+          "bopomofo": "ㄓˊ ㄍㄨㄥ",
+          "romatzyh": "jyr gong"
+        },
+        "meanings": [
+          "workers; staff"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "职能",
+    "radical": "耳",
+    "frequency": 15427,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "職能",
+        "transcriptions": {
+          "pinyin": "zhí néng",
+          "numeric": "zhi2 neng2",
+          "wadegiles": "chih² neng²",
+          "bopomofo": "ㄓˊ ㄋㄥˊ",
+          "romatzyh": "jyr neng"
+        },
+        "meanings": [
+          "function",
+          "role"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "职位",
+    "radical": "耳",
+    "frequency": 4431,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "職位",
+        "transcriptions": {
+          "pinyin": "zhí wèi",
+          "numeric": "zhi2 wei4",
+          "wadegiles": "chih² wei⁴",
+          "bopomofo": "ㄓˊ ㄨㄟˋ",
+          "romatzyh": "jyr wey"
+        },
+        "meanings": [
+          "position; post; job"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "职务",
+    "radical": "耳",
+    "frequency": 5790,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "職務",
+        "transcriptions": {
+          "pinyin": "zhí wù",
+          "numeric": "zhi2 wu4",
+          "wadegiles": "chih² wu⁴",
+          "bopomofo": "ㄓˊ ㄨˋ",
+          "romatzyh": "jyr wuh"
+        },
+        "meanings": [
+          "post",
+          "position",
+          "job",
+          "duties"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "职业",
+    "radical": "耳",
+    "frequency": 1317,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "職業",
+        "transcriptions": {
+          "pinyin": "zhí yè",
+          "numeric": "zhi2 ye4",
+          "wadegiles": "chih² yeh⁴",
+          "bopomofo": "ㄓˊ ㄧㄝˋ",
+          "romatzyh": "jyr yeh"
+        },
+        "meanings": [
+          "occupation; profession; vocation",
+          "professional"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "职责",
+    "radical": "耳",
+    "frequency": 3326,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "職責",
+        "transcriptions": {
+          "pinyin": "zhí zé",
+          "numeric": "zhi2 ze2",
+          "wadegiles": "chih² tse²",
+          "bopomofo": "ㄓˊ ㄗㄜˊ",
+          "romatzyh": "jyr tzer"
+        },
+        "meanings": [
+          "duty",
+          "responsibility",
+          "obligation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "植物",
+    "radical": "木",
+    "frequency": 3915,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "植物",
+        "transcriptions": {
+          "pinyin": "zhí wù",
+          "numeric": "zhi2 wu4",
+          "wadegiles": "chih² wu⁴",
+          "bopomofo": "ㄓˊ ㄨˋ",
+          "romatzyh": "jyr wuh"
+        },
+        "meanings": [
+          "plant",
+          "vegetation"
+        ],
+        "classifiers": [
+          "种"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "止",
+    "radical": "止",
+    "frequency": 3025,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "止",
+        "transcriptions": {
+          "pinyin": "zhǐ",
+          "numeric": "zhi3",
+          "wadegiles": "chih³",
+          "bopomofo": "ㄓˇ",
+          "romatzyh": "jyy"
+        },
+        "meanings": [
+          "to stop",
+          "to prohibit",
+          "until",
+          "only"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "只",
+    "radical": "口",
+    "frequency": 98,
+    "pos": [
+      "d",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "只",
+        "transcriptions": {
+          "pinyin": "zhǐ",
+          "numeric": "zhi3",
+          "wadegiles": "chih³",
+          "bopomofo": "ㄓˇ",
+          "romatzyh": "jyy"
+        },
+        "meanings": [
+          "only",
+          "merely",
+          "just",
+          "but"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "祇",
+        "transcriptions": {
+          "pinyin": "zhǐ",
+          "numeric": "zhi3",
+          "wadegiles": "chih³",
+          "bopomofo": "ㄓˇ",
+          "romatzyh": "jyy"
+        },
+        "meanings": [
+          "variant of 只"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "秖",
+        "transcriptions": {
+          "pinyin": "zhī",
+          "numeric": "zhi1",
+          "wadegiles": "chih¹",
+          "bopomofo": "ㄓ",
+          "romatzyh": "jy"
+        },
+        "meanings": [
+          "grain that has begun to ripen"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "衹",
+        "transcriptions": {
+          "pinyin": "zhǐ",
+          "numeric": "zhi3",
+          "wadegiles": "chih³",
+          "bopomofo": "ㄓˇ",
+          "romatzyh": "jyy"
+        },
+        "meanings": [
+          "variant of 只"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "隻",
+        "transcriptions": {
+          "pinyin": "zhī",
+          "numeric": "zhi1",
+          "wadegiles": "chih¹",
+          "bopomofo": "ㄓ",
+          "romatzyh": "jy"
+        },
+        "meanings": [
+          "classifier for birds and certain animals, one of a pair, some utensils, vessels etc"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "只不过",
+    "radical": "口",
+    "frequency": 2500,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "只不過",
+        "transcriptions": {
+          "pinyin": "zhǐ bu guò",
+          "numeric": "zhi3 bu5 guo4",
+          "wadegiles": "chih³ bu kuo⁴",
+          "bopomofo": "ㄓˇ bu ㄍㄨㄛˋ",
+          "romatzyh": "jyy bu guoh"
+        },
+        "meanings": [
+          "only",
+          "merely",
+          "nothing but",
+          "no more than",
+          "it's just that ..."
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "只得",
+    "radical": "口",
+    "frequency": 15228,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "只得",
+        "transcriptions": {
+          "pinyin": "zhǐ dé",
+          "numeric": "zhi3 de2",
+          "wadegiles": "chih³ te²",
+          "bopomofo": "ㄓˇ ㄉㄜˊ",
+          "romatzyh": "jyy der"
+        },
+        "meanings": [
+          "to have no alternative but to; to be obliged to"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "只顾",
+    "radical": "口",
+    "frequency": 13620,
+    "pos": [
+      "v",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "只顧",
+        "transcriptions": {
+          "pinyin": "zhǐ gù",
+          "numeric": "zhi3 gu4",
+          "wadegiles": "chih³ ku⁴",
+          "bopomofo": "ㄓˇ ㄍㄨˋ",
+          "romatzyh": "jyy guh"
+        },
+        "meanings": [
+          "solely preoccupied (with one thing)",
+          "engrossed",
+          "focusing (on sth)",
+          "to look after only one aspect"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "只管",
+    "radical": "口",
+    "frequency": 15701,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "只管",
+        "transcriptions": {
+          "pinyin": "zhǐ guǎn",
+          "numeric": "zhi3 guan3",
+          "wadegiles": "chih³ kuan³",
+          "bopomofo": "ㄓˇ ㄍㄨㄢˇ",
+          "romatzyh": "jyy goan"
+        },
+        "meanings": [
+          "solely engrossed in one thing",
+          "just (one thing, no need to worry about the rest)",
+          "simply",
+          "by all means",
+          "please feel free",
+          "do not hesitate (to ask for sth)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "只好",
+    "radical": "口",
+    "frequency": 3132,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "只好",
+        "transcriptions": {
+          "pinyin": "zhǐ hǎo",
+          "numeric": "zhi3 hao3",
+          "wadegiles": "chih³ hao³",
+          "bopomofo": "ㄓˇ ㄏㄠˇ",
+          "romatzyh": "jyy hao"
+        },
+        "meanings": [
+          "to have no other option but to ...; to have to; to be forced to"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "只见",
+    "radical": "口",
+    "frequency": 31932,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "只見",
+        "transcriptions": {
+          "pinyin": "zhǐ jiàn",
+          "numeric": "zhi3 jian4",
+          "wadegiles": "chih³ chien⁴",
+          "bopomofo": "ㄓˇ ㄐㄧㄢˋ",
+          "romatzyh": "jyy jiann"
+        },
+        "meanings": [
+          "to see (the same thing) over and over again",
+          "to see, to one's surprise, (sth happen suddenly)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "只能",
+    "radical": "口",
+    "frequency": 874,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "只能",
+        "transcriptions": {
+          "pinyin": "zhǐ néng",
+          "numeric": "zhi3 neng2",
+          "wadegiles": "chih³ neng²",
+          "bopomofo": "ㄓˇ ㄋㄥˊ",
+          "romatzyh": "jyy neng"
+        },
+        "meanings": [
+          "can only",
+          "obliged to do sth",
+          "to have no other choice"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "只是",
+    "radical": "口",
+    "frequency": 236,
+    "pos": [
+      "d",
+      "c",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "只是",
+        "transcriptions": {
+          "pinyin": "zhǐ shì",
+          "numeric": "zhi3 shi4",
+          "wadegiles": "chih³ shih⁴",
+          "bopomofo": "ㄓˇ ㄕˋ",
+          "romatzyh": "jyy shyh"
+        },
+        "meanings": [
+          "merely; only; just; nothing but",
+          "simply",
+          "but; however"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "只要",
+    "radical": "口",
+    "frequency": 452,
+    "pos": [
+      "c"
+    ],
+    "forms": [
+      {
+        "traditional": "只要",
+        "transcriptions": {
+          "pinyin": "zhǐ yào",
+          "numeric": "zhi3 yao4",
+          "wadegiles": "chih³ yao⁴",
+          "bopomofo": "ㄓˇ ㄧㄠˋ",
+          "romatzyh": "jyy yaw"
+        },
+        "meanings": [
+          "if only",
+          "so long as"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "只有",
+    "radical": "口",
+    "frequency": 374,
+    "pos": [
+      "c",
+      "d",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "只有",
+        "transcriptions": {
+          "pinyin": "zhǐ yǒu",
+          "numeric": "zhi3 you3",
+          "wadegiles": "chih³ yu³",
+          "bopomofo": "ㄓˇ ㄧㄡˇ",
+          "romatzyh": "jyy yeou"
+        },
+        "meanings": [
+          "only have ...",
+          "there is only ...",
+          "(used in combination with 才) it is only if one ... (that one can ...) (Example: 只有通过治疗才能痊愈 \"the only way to cure it is with therapy\")",
+          "it is only ... (who ...) (Example: 要 \"only men would have such a requirement\")",
+          "(used to indicate that one has no alternative) one can only (do a certain thing) (Example: 服 \"the only thing you can do is give in\")"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "纸",
+    "radical": "纟",
+    "frequency": 1621,
+    "pos": [
+      "n",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "帋",
+        "transcriptions": {
+          "pinyin": "zhǐ",
+          "numeric": "zhi3",
+          "wadegiles": "chih³",
+          "bopomofo": "ㄓˇ",
+          "romatzyh": "jyy"
+        },
+        "meanings": [
+          "variant of 纸"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "紙",
+        "transcriptions": {
+          "pinyin": "zhǐ",
+          "numeric": "zhi3",
+          "wadegiles": "chih³",
+          "bopomofo": "ㄓˇ",
+          "romatzyh": "jyy"
+        },
+        "meanings": [
+          "paper",
+          "classifier for documents, letter etc"
+        ],
+        "classifiers": [
+          "张",
+          "沓"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "指",
+    "radical": "扌",
+    "frequency": 639,
+    "pos": [
+      "v",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "指",
+        "transcriptions": {
+          "pinyin": "zhǐ",
+          "numeric": "zhi3",
+          "wadegiles": "chih³",
+          "bopomofo": "ㄓˇ",
+          "romatzyh": "jyy"
+        },
+        "meanings": [
+          "finger",
+          "to point at or to",
+          "to indicate or refer to",
+          "to depend on",
+          "to count on",
+          "(of hair) to stand on end"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "指标",
+    "radical": "扌",
+    "frequency": 8982,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "指標",
+        "transcriptions": {
+          "pinyin": "zhǐ biāo",
+          "numeric": "zhi3 biao1",
+          "wadegiles": "chih³ piao¹",
+          "bopomofo": "ㄓˇ ㄅㄧㄠ",
+          "romatzyh": "jyy biau"
+        },
+        "meanings": [
+          "(production) target",
+          "quota",
+          "index",
+          "indicator",
+          "sign",
+          "signpost",
+          "(computing) pointer"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "指出",
+    "radical": "扌",
+    "frequency": 2661,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "指出",
+        "transcriptions": {
+          "pinyin": "zhǐ chū",
+          "numeric": "zhi3 chu1",
+          "wadegiles": "chih³ ch'u¹",
+          "bopomofo": "ㄓˇ ㄔㄨ",
+          "romatzyh": "jyy chu"
+        },
+        "meanings": [
+          "to indicate",
+          "to point out"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "指导",
+    "radical": "扌",
+    "frequency": 2171,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "指導",
+        "transcriptions": {
+          "pinyin": "zhǐ dǎo",
+          "numeric": "zhi3 dao3",
+          "wadegiles": "chih³ tao³",
+          "bopomofo": "ㄓˇ ㄉㄠˇ",
+          "romatzyh": "jyy dao"
+        },
+        "meanings": [
+          "to guide",
+          "to give directions",
+          "to direct",
+          "to coach",
+          "guidance",
+          "tuition"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "指定",
+    "radical": "扌",
+    "frequency": 4756,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "指定",
+        "transcriptions": {
+          "pinyin": "zhǐ dìng",
+          "numeric": "zhi3 ding4",
+          "wadegiles": "chih³ ting⁴",
+          "bopomofo": "ㄓˇ ㄉㄧㄥˋ",
+          "romatzyh": "jyy dinq"
+        },
+        "meanings": [
+          "to appoint",
+          "to assign",
+          "to indicate clearly and with certainty",
+          "designated"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "指挥",
+    "radical": "扌",
+    "frequency": 2687,
+    "pos": [
+      "v",
+      "vn",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "指揮",
+        "transcriptions": {
+          "pinyin": "zhǐ huī",
+          "numeric": "zhi3 hui1",
+          "wadegiles": "chih³ hui¹",
+          "bopomofo": "ㄓˇ ㄏㄨㄟ",
+          "romatzyh": "jyy huei"
+        },
+        "meanings": [
+          "to conduct",
+          "to command",
+          "to direct",
+          "conductor (of an orchestra)"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "指甲",
+    "radical": "扌",
+    "frequency": 6131,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "指甲",
+        "transcriptions": {
+          "pinyin": "zhǐ jia",
+          "numeric": "zhi3 jia5",
+          "wadegiles": "chih³ jia",
+          "bopomofo": "ㄓˇ jia",
+          "romatzyh": "jyy jia"
+        },
+        "meanings": [
+          "fingernail"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "指示",
+    "radical": "扌",
+    "frequency": 3699,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "指示",
+        "transcriptions": {
+          "pinyin": "zhǐ shì",
+          "numeric": "zhi3 shi4",
+          "wadegiles": "chih³ shih⁴",
+          "bopomofo": "ㄓˇ ㄕˋ",
+          "romatzyh": "jyy shyh"
+        },
+        "meanings": [
+          "to point out",
+          "to indicate",
+          "to instruct",
+          "directives",
+          "instructions"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "指数",
+    "radical": "扌",
+    "frequency": 5185,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "指數",
+        "transcriptions": {
+          "pinyin": "zhǐ shù",
+          "numeric": "zhi3 shu4",
+          "wadegiles": "chih³ shu⁴",
+          "bopomofo": "ㄓˇ ㄕㄨˋ",
+          "romatzyh": "jyy shuh"
+        },
+        "meanings": [
+          "(numerical, statistical) index",
+          "(math.) exponent",
+          "index",
+          "exponential (function, growth)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "指头",
+    "radical": "扌",
+    "frequency": 15618,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "指頭",
+        "transcriptions": {
+          "pinyin": "zhǐ tou",
+          "numeric": "zhi3 tou5",
+          "wadegiles": "chih³ tou",
+          "bopomofo": "ㄓˇ tou",
+          "romatzyh": "jyy tou"
+        },
+        "meanings": [
+          "finger",
+          "toe"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "指责",
+    "radical": "扌",
+    "frequency": 4694,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "指責",
+        "transcriptions": {
+          "pinyin": "zhǐ zé",
+          "numeric": "zhi3 ze2",
+          "wadegiles": "chih³ tse²",
+          "bopomofo": "ㄓˇ ㄗㄜˊ",
+          "romatzyh": "jyy tzer"
+        },
+        "meanings": [
+          "to criticize",
+          "to find fault with",
+          "to denounce"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

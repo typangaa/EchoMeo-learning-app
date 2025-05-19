@@ -1,6 +1,8 @@
 import { useState, useEffect, useCallback } from 'react';
 import { ReadingPassage, VocabularyItem } from '../../../types';
 import VocabPopover from './VocabPopover';
+import AudioButton from '../../common/AudioButton';
+import audioService from '../../../utils/audioService';
 
 interface PassageDetailProps {
   passage: ReadingPassage;
@@ -13,6 +15,7 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
   const [popoverPosition, setPopoverPosition] = useState({ top: 0, left: 0 });
   const [layoutMode, setLayoutMode] = useState<LayoutMode>('parallel');
   const [showPinyin, setShowPinyin] = useState(true);
+  const [currentlyPlayingIndex, setCurrentlyPlayingIndex] = useState<number | null>(null);
   
   // Function to handle word click and display vocabulary popover
   const handleWordClick = useCallback((vocabItem: VocabularyItem, event: React.MouseEvent) => {
@@ -232,6 +235,34 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
     return result;
   }, [passage.vocabulary, handleWordClick]);
 
+  // Play a paragraph audio
+  const playParagraph = (index: number, language: 'vietnamese' | 'chinese') => {
+    if (currentlyPlayingIndex !== null) {
+      // Stop current audio if playing
+      audioService.stop();
+    }
+    
+    setCurrentlyPlayingIndex(index);
+    
+    // Play audio for the paragraph
+    audioService.playPassageParagraph(passage.id, index, language)
+      .then(() => {
+        setCurrentlyPlayingIndex(null);
+      })
+      .catch(error => {
+        console.error(`Error playing ${language} paragraph ${index}:`, error);
+        setCurrentlyPlayingIndex(null);
+      });
+  };
+
+  // Play the title audio
+  const playTitle = (language: 'vietnamese' | 'chinese') => {
+    audioService.playPassageTitle(passage.id, language)
+      .catch(error => {
+        console.error(`Error playing ${language} title:`, error);
+      });
+  };
+  
   // Toggle between parallel and alternating layouts
   const toggleLayout = () => {
     setLayoutMode(prevMode => prevMode === 'parallel' ? 'alternating' : 'parallel');
@@ -246,24 +277,64 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
   const renderParallelLayout = () => (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
       <div className="space-y-4">
-        <h3 className="font-medium text-lg border-b pb-2 vietnamese-text">Tiếng Việt</h3>
+        <h3 className="font-medium text-lg border-b pb-2 flex items-center vietnamese-text">
+          Tiếng Việt
+          <AudioButton 
+            text={passage.title.vietnamese}
+            language="vietnamese"
+            className="ml-2" 
+            size="sm" 
+            onPlayStart={() => setCurrentlyPlayingIndex(-1)}
+            onPlayEnd={() => setCurrentlyPlayingIndex(null)}
+          />
+        </h3>
         {passage.paragraphs.map((para, index) => (
-          <p 
-            key={`vn-${index}`} 
-            className="leading-relaxed vietnamese-text" 
+          <div 
+            key={`vn-${index}`}
+            className="group flex items-start"
           >
-            {processVietnameseText(para.vietnamese)}
-          </p>
+            <p className="leading-relaxed vietnamese-text flex-grow">
+              {processVietnameseText(para.vietnamese)}
+            </p>
+            <AudioButton 
+              text={para.vietnamese}
+              language="vietnamese"
+              className={`ml-2 self-start mt-1 ${currentlyPlayingIndex === index ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`}
+              size="sm"
+              onPlayStart={() => setCurrentlyPlayingIndex(index)}
+              onPlayEnd={() => setCurrentlyPlayingIndex(null)}
+            />
+          </div>
         ))}
       </div>
       
       <div className="space-y-4">
-        <h3 className="font-medium text-lg border-b pb-2 chinese-text">中文</h3>
+        <h3 className="font-medium text-lg border-b pb-2 flex items-center chinese-text">
+          中文
+          <AudioButton 
+            text={passage.title.chinese}
+            language="chinese"
+            className="ml-2" 
+            size="sm"
+            onPlayStart={() => setCurrentlyPlayingIndex(-1)}
+            onPlayEnd={() => setCurrentlyPlayingIndex(null)}
+          />
+        </h3>
         {passage.paragraphs.map((para, index) => (
-          <div key={`cn-${index}`} className="mb-4">
-            <p className="leading-relaxed chinese-text">
-              {processChineseText(para.chinese)}
-            </p>
+          <div key={`cn-${index}`} className="mb-4 group">
+            <div className="flex items-start">
+              <p className="leading-relaxed chinese-text flex-grow">
+                {processChineseText(para.chinese)}
+              </p>
+              <AudioButton 
+                text={para.chinese}
+                language="chinese"
+                className={`ml-2 self-start mt-1 ${currentlyPlayingIndex === (index + 100) ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`}
+                size="sm"
+                onPlayStart={() => setCurrentlyPlayingIndex(index + 100)}
+                onPlayEnd={() => setCurrentlyPlayingIndex(null)}
+              />
+            </div>
             {showPinyin && para.pinyin && (
               <p className="text-xs text-gray-500 dark:text-gray-400 mt-1 leading-relaxed">
                 {para.pinyin}
@@ -280,13 +351,33 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
     <div className="space-y-6 mb-6">
       {passage.paragraphs.map((para, index) => (
         <div key={`alt-${index}`} className="border-b dark:border-gray-700 pb-4">
-          <p className="leading-relaxed vietnamese-text mb-2">
-            {processVietnameseText(para.vietnamese)}
-          </p>
-          <div className="pl-4 border-l-4 border-gray-200 dark:border-gray-700">
-            <p className="leading-relaxed chinese-text">
-              {processChineseText(para.chinese)}
+          <div className="flex items-start group mb-2">
+            <p className="leading-relaxed vietnamese-text flex-grow">
+              {processVietnameseText(para.vietnamese)}
             </p>
+            <AudioButton 
+              text={para.vietnamese}
+              language="vietnamese"
+              className={`ml-2 self-start mt-1 ${currentlyPlayingIndex === index ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`}
+              size="sm"
+              onPlayStart={() => setCurrentlyPlayingIndex(index)}
+              onPlayEnd={() => setCurrentlyPlayingIndex(null)}
+            />
+          </div>
+          <div className="pl-4 border-l-4 border-gray-200 dark:border-gray-700">
+            <div className="flex items-start group">
+              <p className="leading-relaxed chinese-text flex-grow">
+                {processChineseText(para.chinese)}
+              </p>
+              <AudioButton 
+                text={para.chinese}
+                language="chinese"
+                className={`ml-2 self-start mt-1 ${currentlyPlayingIndex === (index + 100) ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`}
+                size="sm"
+                onPlayStart={() => setCurrentlyPlayingIndex(index + 100)}
+                onPlayEnd={() => setCurrentlyPlayingIndex(null)}
+              />
+            </div>
             {showPinyin && para.pinyin && (
               <p className="text-xs text-gray-500 dark:text-gray-400 mt-1 leading-relaxed">
                 {para.pinyin}
@@ -301,8 +392,26 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
       <div className="mb-6">
-        <h1 className="text-2xl font-bold mb-2 vietnamese-text">{passage.title.vietnamese}</h1>
-        <h2 className="text-xl mb-1 chinese-text">{passage.title.chinese}</h2>
+        <div className="flex items-center mb-2">
+          <h1 className="text-2xl font-bold vietnamese-text mr-2">{passage.title.vietnamese}</h1>
+          <AudioButton 
+            text={passage.title.vietnamese}
+            language="vietnamese"
+            size="md"
+            onPlayStart={() => setCurrentlyPlayingIndex(-1)}
+            onPlayEnd={() => setCurrentlyPlayingIndex(null)}
+          />
+        </div>
+        <div className="flex items-center mb-1">
+          <h2 className="text-xl chinese-text mr-2">{passage.title.chinese}</h2>
+          <AudioButton 
+            text={passage.title.chinese}
+            language="chinese"
+            size="md"
+            onPlayStart={() => setCurrentlyPlayingIndex(-2)}
+            onPlayEnd={() => setCurrentlyPlayingIndex(null)}
+          />
+        </div>
         {showPinyin && passage.title.pinyin && (
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
             {passage.title.pinyin}
@@ -342,7 +451,7 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
       )}
       
       <div className="mt-8 border-t pt-4 text-sm text-gray-600 dark:text-gray-400">
-        <p>Hover over vocabulary words and click to see translations and details.</p>
+        <p>Hover over vocabulary words and click to see translations and details. Hover over paragraphs to reveal audio buttons.</p>
       </div>
     </div>
   );

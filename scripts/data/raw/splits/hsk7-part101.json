@@ -1,0 +1,1988 @@
+[
+  {
+    "simplified": "说法",
+    "radical": "讠",
+    "frequency": 2350,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "說法",
+        "transcriptions": {
+          "pinyin": "shuō fǎ",
+          "numeric": "shuo1 fa3",
+          "wadegiles": "shuo¹ fa³",
+          "bopomofo": "ㄕㄨㄛ ㄈㄚˇ",
+          "romatzyh": "shuo faa"
+        },
+        "meanings": [
+          "to expound Buddhist teachings"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "說法",
+        "transcriptions": {
+          "pinyin": "shuō fa",
+          "numeric": "shuo1 fa5",
+          "wadegiles": "shuo¹ fa",
+          "bopomofo": "ㄕㄨㄛ fa",
+          "romatzyh": "shuo fa"
+        },
+        "meanings": [
+          "way of speaking",
+          "wording",
+          "formulation",
+          "one's version (of events)",
+          "statement",
+          "theory",
+          "hypothesis",
+          "interpretation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "说服",
+    "radical": "讠",
+    "frequency": 4892,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "說服",
+        "transcriptions": {
+          "pinyin": "shuō fú",
+          "numeric": "shuo1 fu2",
+          "wadegiles": "shuo¹ fu²",
+          "bopomofo": "ㄕㄨㄛ ㄈㄨˊ",
+          "romatzyh": "shuo fwu"
+        },
+        "meanings": [
+          "to persuade",
+          "to convince",
+          "to talk sb over",
+          "Taiwan pr. [shuì fú]"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "说干就干",
+    "radical": "讠",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "說幹就幹",
+        "transcriptions": {
+          "pinyin": "shuō gàn jiù gàn",
+          "numeric": "shuo1 gan4 jiu4 gan4",
+          "wadegiles": "shuo¹ kan⁴ chiu⁴ kan⁴",
+          "bopomofo": "ㄕㄨㄛ ㄍㄢˋ ㄐㄧㄡˋ ㄍㄢˋ",
+          "romatzyh": "shuo gann jiow gann"
+        },
+        "meanings": [
+          "to do what needs to be done, without delay"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "说话",
+    "radical": "讠",
+    "frequency": 880,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "說話",
+        "transcriptions": {
+          "pinyin": "shuō huà",
+          "numeric": "shuo1 hua4",
+          "wadegiles": "shuo¹ hua⁴",
+          "bopomofo": "ㄕㄨㄛ ㄏㄨㄚˋ",
+          "romatzyh": "shuo huah"
+        },
+        "meanings": [
+          "to speak",
+          "to say",
+          "to talk",
+          "to gossip",
+          "to tell stories",
+          "talk",
+          "word"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "说谎",
+    "radical": "讠",
+    "frequency": 6776,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "說謊",
+        "transcriptions": {
+          "pinyin": "shuō huǎng",
+          "numeric": "shuo1 huang3",
+          "wadegiles": "shuo¹ huang³",
+          "bopomofo": "ㄕㄨㄛ ㄏㄨㄤˇ",
+          "romatzyh": "shuo hoang"
+        },
+        "meanings": [
+          "to lie",
+          "to tell an untruth"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "说老实话",
+    "radical": "讠",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "說老實話",
+        "transcriptions": {
+          "pinyin": "shuō lǎo shi huà",
+          "numeric": "shuo1 lao3 shi5 hua4",
+          "wadegiles": "shuo¹ lao³ shi hua⁴",
+          "bopomofo": "ㄕㄨㄛ ㄌㄠˇ shi ㄏㄨㄚˋ",
+          "romatzyh": "shuo lao shi huah"
+        },
+        "meanings": [
+          "to be honest",
+          "to tell the truth",
+          "to be frank"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "说明",
+    "radical": "讠",
+    "frequency": 968,
+    "pos": [
+      "v",
+      "vn",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "說明",
+        "transcriptions": {
+          "pinyin": "shuō míng",
+          "numeric": "shuo1 ming2",
+          "wadegiles": "shuo¹ ming²",
+          "bopomofo": "ㄕㄨㄛ ㄇㄧㄥˊ",
+          "romatzyh": "shuo ming"
+        },
+        "meanings": [
+          "to explain",
+          "to illustrate",
+          "to indicate",
+          "to show",
+          "to prove",
+          "explanation",
+          "directions",
+          "caption"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "说明书",
+    "radical": "讠",
+    "frequency": 10577,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "說明書",
+        "transcriptions": {
+          "pinyin": "shuō míng shū",
+          "numeric": "shuo1 ming2 shu1",
+          "wadegiles": "shuo¹ ming² shu¹",
+          "bopomofo": "ㄕㄨㄛ ㄇㄧㄥˊ ㄕㄨ",
+          "romatzyh": "shuo ming shu"
+        },
+        "meanings": [
+          "(technical) manual",
+          "(book of) directions",
+          "synopsis (of a play or film)",
+          "specification (patent)"
+        ],
+        "classifiers": [
+          "本"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "说起来",
+    "radical": "讠",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "說起來",
+        "transcriptions": {
+          "pinyin": "shuō qǐlái",
+          "numeric": "shuo1 qǐlái",
+          "wadegiles": "shuo¹ qǐlái",
+          "bopomofo": "ㄕㄨㄛ qǐlái",
+          "romatzyh": "shuo qǐlái"
+        },
+        "meanings": [
+          "Say"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "说情",
+    "radical": "讠",
+    "frequency": 36421,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "說情",
+        "transcriptions": {
+          "pinyin": "shuō qíng",
+          "numeric": "shuo1 qing2",
+          "wadegiles": "shuo¹ ch'ing²",
+          "bopomofo": "ㄕㄨㄛ ㄑㄧㄥˊ",
+          "romatzyh": "shuo chyng"
+        },
+        "meanings": [
+          "to intercede",
+          "to plead for sb else"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "说实话",
+    "radical": "讠",
+    "frequency": 1740,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "說實話",
+        "transcriptions": {
+          "pinyin": "shuō shí huà",
+          "numeric": "shuo1 shi2 hua4",
+          "wadegiles": "shuo¹ shih² hua⁴",
+          "bopomofo": "ㄕㄨㄛ ㄕˊ ㄏㄨㄚˋ",
+          "romatzyh": "shuo shyr huah"
+        },
+        "meanings": [
+          "to speak the truth",
+          "truth to tell",
+          "frankly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "说闲话",
+    "radical": "讠",
+    "frequency": 41546,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "說閒話",
+        "transcriptions": {
+          "pinyin": "shuō xián huà",
+          "numeric": "shuo1 xian2 hua4",
+          "wadegiles": "shuo¹ hsien² hua⁴",
+          "bopomofo": "ㄕㄨㄛ ㄒㄧㄢˊ ㄏㄨㄚˋ",
+          "romatzyh": "shuo shyan huah"
+        },
+        "meanings": [
+          "to chat",
+          "to gossip"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "说真的",
+    "radical": "讠",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "說真的",
+        "transcriptions": {
+          "pinyin": "shuō zhēn de",
+          "numeric": "shuo1 zhen1 de5",
+          "wadegiles": "shuo¹ chen¹ de",
+          "bopomofo": "ㄕㄨㄛ ㄓㄣ de",
+          "romatzyh": "shuo jen de"
+        },
+        "meanings": [
+          "to tell the truth",
+          "honestly",
+          "in fact"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "硕果",
+    "radical": "石",
+    "frequency": 34691,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "碩果",
+        "transcriptions": {
+          "pinyin": "shuò guǒ",
+          "numeric": "shuo4 guo3",
+          "wadegiles": "shuo⁴ kuo³",
+          "bopomofo": "ㄕㄨㄛˋ ㄍㄨㄛˇ",
+          "romatzyh": "shuoh guoo"
+        },
+        "meanings": [
+          "major achievement",
+          "great work",
+          "triumphant success"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "硕士",
+    "radical": "石",
+    "frequency": 9229,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "碩士",
+        "transcriptions": {
+          "pinyin": "shuò shì",
+          "numeric": "shuo4 shi4",
+          "wadegiles": "shuo⁴ shih⁴",
+          "bopomofo": "ㄕㄨㄛˋ ㄕˋ",
+          "romatzyh": "shuoh shyh"
+        },
+        "meanings": [
+          "master's degree",
+          "person who has a master's degree",
+          "learned person"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "丝",
+    "radical": "一",
+    "frequency": 1558,
+    "pos": [
+      "n",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "絲",
+        "transcriptions": {
+          "pinyin": "sī",
+          "numeric": "si1",
+          "wadegiles": "ssu¹",
+          "bopomofo": "ㄙ",
+          "romatzyh": "sy"
+        },
+        "meanings": [
+          "silk",
+          "thread",
+          "trace",
+          "(cuisine) shreds or julienne strips",
+          "classifier: a thread (of cloud, smoke etc), a bit, an iota, a hint (of sth) etc"
+        ],
+        "classifiers": [
+          "条"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "丝绸",
+    "radical": "一",
+    "frequency": 12230,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "絲綢",
+        "transcriptions": {
+          "pinyin": "sī chóu",
+          "numeric": "si1 chou2",
+          "wadegiles": "ssu¹ ch'ou²",
+          "bopomofo": "ㄙ ㄔㄡˊ",
+          "romatzyh": "sy chour"
+        },
+        "meanings": [
+          "silk cloth",
+          "silk"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "丝毫",
+    "radical": "一",
+    "frequency": 5484,
+    "pos": [
+      "m",
+      "a",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "絲毫",
+        "transcriptions": {
+          "pinyin": "sī háo",
+          "numeric": "si1 hao2",
+          "wadegiles": "ssu¹ hao²",
+          "bopomofo": "ㄙ ㄏㄠˊ",
+          "romatzyh": "sy haur"
+        },
+        "meanings": [
+          "the slightest amount or degree",
+          "a bit"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "司法",
+    "radical": "口",
+    "frequency": 3845,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "司法",
+        "transcriptions": {
+          "pinyin": "sī fǎ",
+          "numeric": "si1 fa3",
+          "wadegiles": "ssu¹ fa³",
+          "bopomofo": "ㄙ ㄈㄚˇ",
+          "romatzyh": "sy faa"
+        },
+        "meanings": [
+          "judicial",
+          "(administration of) justice"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "司机",
+    "radical": "口",
+    "frequency": 1804,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "司機",
+        "transcriptions": {
+          "pinyin": "sī jī",
+          "numeric": "si1 ji1",
+          "wadegiles": "ssu¹ chi¹",
+          "bopomofo": "ㄙ ㄐㄧ",
+          "romatzyh": "sy ji"
+        },
+        "meanings": [
+          "chauffeur; driver"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "司空见惯",
+    "radical": "口",
+    "frequency": 26048,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "司空見慣",
+        "transcriptions": {
+          "pinyin": "sī kōng jiàn guàn",
+          "numeric": "si1 kong1 jian4 guan4",
+          "wadegiles": "ssu¹ k'ung¹ chien⁴ kuan⁴",
+          "bopomofo": "ㄙ ㄎㄨㄥ ㄐㄧㄢˋ ㄍㄨㄢˋ",
+          "romatzyh": "sy kong jiann guann"
+        },
+        "meanings": [
+          "a common occurrence (idiom)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "司令",
+    "radical": "口",
+    "frequency": 10296,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "司令",
+        "transcriptions": {
+          "pinyin": "sī lìng",
+          "numeric": "si1 ling4",
+          "wadegiles": "ssu¹ ling⁴",
+          "bopomofo": "ㄙ ㄌㄧㄥˋ",
+          "romatzyh": "sy linq"
+        },
+        "meanings": [
+          "commanding officer"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "司长",
+    "radical": "口",
+    "frequency": 31027,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "司長",
+        "transcriptions": {
+          "pinyin": "sī zhǎng",
+          "numeric": "si1 zhang3",
+          "wadegiles": "ssu¹ chang³",
+          "bopomofo": "ㄙ ㄓㄤˇ",
+          "romatzyh": "sy jaang"
+        },
+        "meanings": [
+          "bureau chief"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "私房钱",
+    "radical": "禾",
+    "frequency": 42411,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "私房錢",
+        "transcriptions": {
+          "pinyin": "sī fáng qián",
+          "numeric": "si1 fang2 qian2",
+          "wadegiles": "ssu¹ fang² ch'ien²",
+          "bopomofo": "ㄙ ㄈㄤˊ ㄑㄧㄢˊ",
+          "romatzyh": "sy farng chyan"
+        },
+        "meanings": [
+          "secret purse",
+          "secret stash of money"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "私家车",
+    "radical": "禾",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "私家車",
+        "transcriptions": {
+          "pinyin": "sī jiā chē",
+          "numeric": "si1 jia1 che1",
+          "wadegiles": "ssu¹ chia¹ ch'e¹",
+          "bopomofo": "ㄙ ㄐㄧㄚ ㄔㄜ",
+          "romatzyh": "sy jia che"
+        },
+        "meanings": [
+          "private car"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "私立",
+    "radical": "禾",
+    "frequency": 14918,
+    "pos": [
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "私立",
+        "transcriptions": {
+          "pinyin": "sī lì",
+          "numeric": "si1 li4",
+          "wadegiles": "ssu¹ li⁴",
+          "bopomofo": "ㄙ ㄌㄧˋ",
+          "romatzyh": "sy lih"
+        },
+        "meanings": [
+          "private (company, school etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "私人",
+    "radical": "禾",
+    "frequency": 2449,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "私人",
+        "transcriptions": {
+          "pinyin": "sī rén",
+          "numeric": "si1 ren2",
+          "wadegiles": "ssu¹ jen²",
+          "bopomofo": "ㄙ ㄖㄣˊ",
+          "romatzyh": "sy ren"
+        },
+        "meanings": [
+          "private",
+          "personal",
+          "interpersonal",
+          "sb with whom one has a close personal relationship",
+          "a member of one's clique"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "私事",
+    "radical": "禾",
+    "frequency": 17057,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "私事",
+        "transcriptions": {
+          "pinyin": "sī shì",
+          "numeric": "si1 shi4",
+          "wadegiles": "ssu¹ shih⁴",
+          "bopomofo": "ㄙ ㄕˋ",
+          "romatzyh": "sy shyh"
+        },
+        "meanings": [
+          "personal matters"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "私下",
+    "radical": "禾",
+    "frequency": 7490,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "私下",
+        "transcriptions": {
+          "pinyin": "sī xià",
+          "numeric": "si1 xia4",
+          "wadegiles": "ssu¹ hsia⁴",
+          "bopomofo": "ㄙ ㄒㄧㄚˋ",
+          "romatzyh": "sy shiah"
+        },
+        "meanings": [
+          "in private"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "私营",
+    "radical": "禾",
+    "frequency": 14930,
+    "pos": [
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "私營",
+        "transcriptions": {
+          "pinyin": "sī yíng",
+          "numeric": "si1 ying2",
+          "wadegiles": "ssu¹ ying²",
+          "bopomofo": "ㄙ ㄧㄥˊ",
+          "romatzyh": "sy yng"
+        },
+        "meanings": [
+          "privately-owned",
+          "private"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "私有",
+    "radical": "禾",
+    "frequency": 19459,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "私有",
+        "transcriptions": {
+          "pinyin": "sī yǒu",
+          "numeric": "si1 you3",
+          "wadegiles": "ssu¹ yu³",
+          "bopomofo": "ㄙ ㄧㄡˇ",
+          "romatzyh": "sy yeou"
+        },
+        "meanings": [
+          "private",
+          "privately-owned"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "私自",
+    "radical": "禾",
+    "frequency": 13196,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "私自",
+        "transcriptions": {
+          "pinyin": "sī zì",
+          "numeric": "si1 zi4",
+          "wadegiles": "ssu¹ tzu⁴",
+          "bopomofo": "ㄙ ㄗˋ",
+          "romatzyh": "sy tzyh"
+        },
+        "meanings": [
+          "private; personal",
+          "secretly; without explicit approval"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "思考",
+    "radical": "心",
+    "frequency": 2231,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "思考",
+        "transcriptions": {
+          "pinyin": "sī kǎo",
+          "numeric": "si1 kao3",
+          "wadegiles": "ssu¹ k'ao³",
+          "bopomofo": "ㄙ ㄎㄠˇ",
+          "romatzyh": "sy kao"
+        },
+        "meanings": [
+          "to reflect on",
+          "to ponder over"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "思路",
+    "radical": "心",
+    "frequency": 5855,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "思路",
+        "transcriptions": {
+          "pinyin": "sī lù",
+          "numeric": "si1 lu4",
+          "wadegiles": "ssu¹ lu⁴",
+          "bopomofo": "ㄙ ㄌㄨˋ",
+          "romatzyh": "sy luh"
+        },
+        "meanings": [
+          "line of thought; way of thinking"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "思念",
+    "radical": "心",
+    "frequency": 6960,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "思念",
+        "transcriptions": {
+          "pinyin": "sī niàn",
+          "numeric": "si1 nian4",
+          "wadegiles": "ssu¹ nien⁴",
+          "bopomofo": "ㄙ ㄋㄧㄢˋ",
+          "romatzyh": "sy niann"
+        },
+        "meanings": [
+          "to think of",
+          "to long for",
+          "to miss"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "思前想后",
+    "radical": "心",
+    "frequency": 48743,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "思前想後",
+        "transcriptions": {
+          "pinyin": "sī qián xiǎng hòu",
+          "numeric": "si1 qian2 xiang3 hou4",
+          "wadegiles": "ssu¹ ch'ien² hsiang³ hou⁴",
+          "bopomofo": "ㄙ ㄑㄧㄢˊ ㄒㄧㄤˇ ㄏㄡˋ",
+          "romatzyh": "sy chyan sheang how"
+        },
+        "meanings": [
+          "to consider past cause and future effect (idiom); to think over the past and future",
+          "to ponder over reasons and connection"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "思索",
+    "radical": "心",
+    "frequency": 13129,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "思索",
+        "transcriptions": {
+          "pinyin": "sī suǒ",
+          "numeric": "si1 suo3",
+          "wadegiles": "ssu¹ so³",
+          "bopomofo": "ㄙ ㄙㄨㄛˇ",
+          "romatzyh": "sy suoo"
+        },
+        "meanings": [
+          "to think deeply",
+          "to ponder"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "思维",
+    "radical": "心",
+    "frequency": 3914,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "思維",
+        "transcriptions": {
+          "pinyin": "sī wéi",
+          "numeric": "si1 wei2",
+          "wadegiles": "ssu¹ wei²",
+          "bopomofo": "ㄙ ㄨㄟˊ",
+          "romatzyh": "sy wei"
+        },
+        "meanings": [
+          "(line of) thought",
+          "thinking"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "思想",
+    "radical": "心",
+    "frequency": 1525,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "思想",
+        "transcriptions": {
+          "pinyin": "sī xiǎng",
+          "numeric": "si1 xiang3",
+          "wadegiles": "ssu¹ hsiang³",
+          "bopomofo": "ㄙ ㄒㄧㄤˇ",
+          "romatzyh": "sy sheang"
+        },
+        "meanings": [
+          "thought",
+          "thinking",
+          "idea",
+          "ideology"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "撕",
+    "radical": "扌",
+    "frequency": 5814,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "撕",
+        "transcriptions": {
+          "pinyin": "sī",
+          "numeric": "si1",
+          "wadegiles": "ssu¹",
+          "bopomofo": "ㄙ",
+          "romatzyh": "sy"
+        },
+        "meanings": [
+          "to tear"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "死",
+    "radical": "歹",
+    "frequency": 177,
+    "pos": [
+      "v",
+      "a",
+      "vn",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "死",
+        "transcriptions": {
+          "pinyin": "sǐ",
+          "numeric": "si3",
+          "wadegiles": "ssu³",
+          "bopomofo": "ㄙˇ",
+          "romatzyh": "syy"
+        },
+        "meanings": [
+          "to die",
+          "impassable",
+          "uncrossable",
+          "inflexible",
+          "rigid",
+          "extremely",
+          "damned"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "死亡",
+    "radical": "歹",
+    "frequency": 956,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "死亡",
+        "transcriptions": {
+          "pinyin": "sǐ wáng",
+          "numeric": "si3 wang2",
+          "wadegiles": "ssu³ wang²",
+          "bopomofo": "ㄙˇ ㄨㄤˊ",
+          "romatzyh": "syy wang"
+        },
+        "meanings": [
+          "to die",
+          "death"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "死心",
+    "radical": "歹",
+    "frequency": 18782,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "死心",
+        "transcriptions": {
+          "pinyin": "sǐ xīn",
+          "numeric": "si3 xin1",
+          "wadegiles": "ssu³ hsin¹",
+          "bopomofo": "ㄙˇ ㄒㄧㄣ",
+          "romatzyh": "syy shin"
+        },
+        "meanings": [
+          "to give up",
+          "to admit failure",
+          "to drop the matter",
+          "to reconcile oneself to loss",
+          "to have no more illusions about"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "死心塌地",
+    "radical": "歹",
+    "frequency": 31068,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "死心塌地",
+        "transcriptions": {
+          "pinyin": "sǐ xīn tā dì",
+          "numeric": "si3 xin1 ta1 di4",
+          "wadegiles": "ssu³ hsin¹ t'a¹ ti⁴",
+          "bopomofo": "ㄙˇ ㄒㄧㄣ ㄊㄚ ㄉㄧˋ",
+          "romatzyh": "syy shin ta dih"
+        },
+        "meanings": [
+          "to be hell-bent on",
+          "dead set on sth",
+          "unswerving"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "四",
+    "radical": "囗",
+    "frequency": 481,
+    "pos": [
+      "m",
+      "t"
+    ],
+    "forms": [
+      {
+        "traditional": "四",
+        "transcriptions": {
+          "pinyin": "sì",
+          "numeric": "si4",
+          "wadegiles": "ssu⁴",
+          "bopomofo": "ㄙˋ",
+          "romatzyh": "syh"
+        },
+        "meanings": [
+          "four",
+          "4"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "四处",
+    "radical": "囗",
+    "frequency": 4649,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "四處",
+        "transcriptions": {
+          "pinyin": "sì chù",
+          "numeric": "si4 chu4",
+          "wadegiles": "ssu⁴ ch'u⁴",
+          "bopomofo": "ㄙˋ ㄔㄨˋ",
+          "romatzyh": "syh chuh"
+        },
+        "meanings": [
+          "all over the place",
+          "everywhere and all directions"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "四合院",
+    "radical": "囗",
+    "frequency": 48844,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "四合院",
+        "transcriptions": {
+          "pinyin": "sì hé yuàn",
+          "numeric": "si4 he2 yuan4",
+          "wadegiles": "ssu⁴ ho² yüan⁴",
+          "bopomofo": "ㄙˋ ㄏㄜˊ ㄩㄢˋ",
+          "romatzyh": "syh her yuann"
+        },
+        "meanings": [
+          "courtyard house with a fully enclosed courtyard (type of Chinese residence)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "四季",
+    "radical": "囗",
+    "frequency": 12112,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "四季",
+        "transcriptions": {
+          "pinyin": "sì jì",
+          "numeric": "si4 ji4",
+          "wadegiles": "ssu⁴ chi⁴",
+          "bopomofo": "ㄙˋ ㄐㄧˋ",
+          "romatzyh": "syh jih"
+        },
+        "meanings": [
+          "four seasons, namely: spring 春, summer 夏, autumn 秋 and winter 冬"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "四面八方",
+    "radical": "囗",
+    "frequency": 19629,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "四面八方",
+        "transcriptions": {
+          "pinyin": "sì miàn bā fāng",
+          "numeric": "si4 mian4 ba1 fang1",
+          "wadegiles": "ssu⁴ mien⁴ pa¹ fang¹",
+          "bopomofo": "ㄙˋ ㄇㄧㄢˋ ㄅㄚ ㄈㄤ",
+          "romatzyh": "syh miann ba fang"
+        },
+        "meanings": [
+          "in all directions",
+          "all around",
+          "far and near"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "四周",
+    "radical": "囗",
+    "frequency": 5269,
+    "pos": [
+      "f",
+      "s"
+    ],
+    "forms": [
+      {
+        "traditional": "四周",
+        "transcriptions": {
+          "pinyin": "sì zhōu",
+          "numeric": "si4 zhou1",
+          "wadegiles": "ssu⁴ chou¹",
+          "bopomofo": "ㄙˋ ㄓㄡ",
+          "romatzyh": "syh jou"
+        },
+        "meanings": [
+          "all around"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "寺",
+    "radical": "寸",
+    "frequency": 7938,
+    "pos": [
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "寺",
+        "transcriptions": {
+          "pinyin": "sì",
+          "numeric": "si4",
+          "wadegiles": "ssu⁴",
+          "bopomofo": "ㄙˋ",
+          "romatzyh": "syh"
+        },
+        "meanings": [
+          "Buddhist temple",
+          "mosque",
+          "government office (old)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "寺庙",
+    "radical": "寸",
+    "frequency": 14797,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "寺廟",
+        "transcriptions": {
+          "pinyin": "sì miào",
+          "numeric": "si4 miao4",
+          "wadegiles": "ssu⁴ miao⁴",
+          "bopomofo": "ㄙˋ ㄇㄧㄠˋ",
+          "romatzyh": "syh miaw"
+        },
+        "meanings": [
+          "temple",
+          "monastery",
+          "shrine"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "饲料",
+    "radical": "饣",
+    "frequency": 11074,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "飼料",
+        "transcriptions": {
+          "pinyin": "sì liào",
+          "numeric": "si4 liao4",
+          "wadegiles": "ssu⁴ liao⁴",
+          "bopomofo": "ㄙˋ ㄌㄧㄠˋ",
+          "romatzyh": "syh liaw"
+        },
+        "meanings": [
+          "feed",
+          "fodder"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "饲养",
+    "radical": "饣",
+    "frequency": 12011,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "飼養",
+        "transcriptions": {
+          "pinyin": "sì yǎng",
+          "numeric": "si4 yang3",
+          "wadegiles": "ssu⁴ yang³",
+          "bopomofo": "ㄙˋ ㄧㄤˇ",
+          "romatzyh": "syh yeang"
+        },
+        "meanings": [
+          "to raise",
+          "to rear"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "松",
+    "radical": "木",
+    "frequency": 2768,
+    "pos": [
+      "v",
+      "a",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "松",
+        "transcriptions": {
+          "pinyin": "Sōng",
+          "numeric": "Song1",
+          "wadegiles": "sung¹",
+          "bopomofo": "ㄙㄨㄥ",
+          "romatzyh": "song"
+        },
+        "meanings": [
+          "surname Song"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "松",
+        "transcriptions": {
+          "pinyin": "sōng",
+          "numeric": "song1",
+          "wadegiles": "sung¹",
+          "bopomofo": "ㄙㄨㄥ",
+          "romatzyh": "song"
+        },
+        "meanings": [
+          "pine"
+        ],
+        "classifiers": [
+          "棵"
+        ]
+      },
+      {
+        "traditional": "鬆",
+        "transcriptions": {
+          "pinyin": "sōng",
+          "numeric": "song1",
+          "wadegiles": "sung¹",
+          "bopomofo": "ㄙㄨㄥ",
+          "romatzyh": "song"
+        },
+        "meanings": [
+          "loose",
+          "to loosen",
+          "to relax",
+          "floss (dry, fluffy food product made from shredded, seasoned meat or fish, used as a topping or filling)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "松绑",
+    "radical": "木",
+    "frequency": 26251,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "鬆綁",
+        "transcriptions": {
+          "pinyin": "sōng bǎng",
+          "numeric": "song1 bang3",
+          "wadegiles": "sung¹ pang³",
+          "bopomofo": "ㄙㄨㄥ ㄅㄤˇ",
+          "romatzyh": "song baang"
+        },
+        "meanings": [
+          "to untie",
+          "(fig.) to ease restrictions"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "松弛",
+    "radical": "木",
+    "frequency": 15782,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "鬆弛",
+        "transcriptions": {
+          "pinyin": "sōng chí",
+          "numeric": "song1 chi2",
+          "wadegiles": "sung¹ ch'ih²",
+          "bopomofo": "ㄙㄨㄥ ㄔˊ",
+          "romatzyh": "song chyr"
+        },
+        "meanings": [
+          "to relax",
+          "relaxed",
+          "limp",
+          "lax"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "松树",
+    "radical": "木",
+    "frequency": 19425,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "松樹",
+        "transcriptions": {
+          "pinyin": "sōng shù",
+          "numeric": "song1 shu4",
+          "wadegiles": "sung¹ shu⁴",
+          "bopomofo": "ㄙㄨㄥ ㄕㄨˋ",
+          "romatzyh": "song shuh"
+        },
+        "meanings": [
+          "pine",
+          "pine tree"
+        ],
+        "classifiers": [
+          "棵"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "耸立",
+    "radical": "耳",
+    "frequency": 31433,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "聳立",
+        "transcriptions": {
+          "pinyin": "sǒng lì",
+          "numeric": "song3 li4",
+          "wadegiles": "sung³ li⁴",
+          "bopomofo": "ㄙㄨㄥˇ ㄌㄧˋ",
+          "romatzyh": "soong lih"
+        },
+        "meanings": [
+          "to stand tall",
+          "to tower aloft"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "送",
+    "radical": "辶",
+    "frequency": 370,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "送",
+        "transcriptions": {
+          "pinyin": "sòng",
+          "numeric": "song4",
+          "wadegiles": "sung⁴",
+          "bopomofo": "ㄙㄨㄥˋ",
+          "romatzyh": "sonq"
+        },
+        "meanings": [
+          "to send; to deliver; to transmit",
+          "to give (as a present)",
+          "to see (sb) off",
+          "to accompany; to go along with"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "送别",
+    "radical": "辶",
+    "frequency": 23101,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "送別",
+        "transcriptions": {
+          "pinyin": "sòng bié",
+          "numeric": "song4 bie2",
+          "wadegiles": "sung⁴ pieh²",
+          "bopomofo": "ㄙㄨㄥˋ ㄅㄧㄝˊ",
+          "romatzyh": "sonq bye"
+        },
+        "meanings": [
+          "to farewell"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "送到",
+    "radical": "辶",
+    "frequency": 8114,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "送到",
+        "transcriptions": {
+          "pinyin": "sòng dào",
+          "numeric": "song4 dao4",
+          "wadegiles": "sung⁴ tao⁴",
+          "bopomofo": "ㄙㄨㄥˋ ㄉㄠˋ",
+          "romatzyh": "sonq daw"
+        },
+        "meanings": [
+          "Deliver"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "送给",
+    "radical": "辶",
+    "frequency": 2733,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "送給",
+        "transcriptions": {
+          "pinyin": "sòng gěi",
+          "numeric": "song4 gei3",
+          "wadegiles": "sung⁴ kei³",
+          "bopomofo": "ㄙㄨㄥˋ ㄍㄟˇ",
+          "romatzyh": "sonq geei"
+        },
+        "meanings": [
+          "to send",
+          "to give as a present"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "送礼",
+    "radical": "辶",
+    "frequency": 14079,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "送禮",
+        "transcriptions": {
+          "pinyin": "sòng lǐ",
+          "numeric": "song4 li3",
+          "wadegiles": "sung⁴ li³",
+          "bopomofo": "ㄙㄨㄥˋ ㄌㄧˇ",
+          "romatzyh": "sonq lii"
+        },
+        "meanings": [
+          "to give a present"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "送行",
+    "radical": "辶",
+    "frequency": 20004,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "送行",
+        "transcriptions": {
+          "pinyin": "sòng xíng",
+          "numeric": "song4 xing2",
+          "wadegiles": "sung⁴ hsing²",
+          "bopomofo": "ㄙㄨㄥˋ ㄒㄧㄥˊ",
+          "romatzyh": "sonq shyng"
+        },
+        "meanings": [
+          "to see someone off",
+          "to throw someone a send-off party"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "搜",
+    "radical": "扌",
+    "frequency": 3653,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "搜",
+        "transcriptions": {
+          "pinyin": "sōu",
+          "numeric": "sou1",
+          "wadegiles": "sou¹",
+          "bopomofo": "ㄙㄡ",
+          "romatzyh": "sou"
+        },
+        "meanings": [
+          "to search"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "搜查",
+    "radical": "扌",
+    "frequency": 7999,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "搜查",
+        "transcriptions": {
+          "pinyin": "sōu chá",
+          "numeric": "sou1 cha2",
+          "wadegiles": "sou¹ ch'a²",
+          "bopomofo": "ㄙㄡ ㄔㄚˊ",
+          "romatzyh": "sou char"
+        },
+        "meanings": [
+          "to search"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "搜集",
+    "radical": "扌",
+    "frequency": 8392,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "搜集",
+        "transcriptions": {
+          "pinyin": "sōu jí",
+          "numeric": "sou1 ji2",
+          "wadegiles": "sou¹ chi²",
+          "bopomofo": "ㄙㄡ ㄐㄧˊ",
+          "romatzyh": "sou jyi"
+        },
+        "meanings": [
+          "to gather",
+          "to collect"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "搜救",
+    "radical": "扌",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "搜救",
+        "transcriptions": {
+          "pinyin": "sōu jiù",
+          "numeric": "sou1 jiu4",
+          "wadegiles": "sou¹ chiu⁴",
+          "bopomofo": "ㄙㄡ ㄐㄧㄡˋ",
+          "romatzyh": "sou jiow"
+        },
+        "meanings": [
+          "search and rescue"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "搜索",
+    "radical": "扌",
+    "frequency": 3062,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "搜索",
+        "transcriptions": {
+          "pinyin": "sōu suǒ",
+          "numeric": "sou1 suo3",
+          "wadegiles": "sou¹ so³",
+          "bopomofo": "ㄙㄡ ㄙㄨㄛˇ",
+          "romatzyh": "sou suoo"
+        },
+        "meanings": [
+          "to search (a place)",
+          "to search (a database)",
+          "to search for (sth)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "搜寻",
+    "radical": "扌",
+    "frequency": 8349,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "搜尋",
+        "transcriptions": {
+          "pinyin": "sōu xún",
+          "numeric": "sou1 xun2",
+          "wadegiles": "sou¹ hsün²",
+          "bopomofo": "ㄙㄡ ㄒㄩㄣˊ",
+          "romatzyh": "sou shyun"
+        },
+        "meanings": [
+          "to search",
+          "to look for"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "艘",
+    "radical": "舟",
+    "frequency": 2548,
+    "pos": [
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "艘",
+        "transcriptions": {
+          "pinyin": "sōu",
+          "numeric": "sou1",
+          "wadegiles": "sou¹",
+          "bopomofo": "ㄙㄡ",
+          "romatzyh": "sou"
+        },
+        "meanings": [
+          "classifier for ships",
+          "Taiwan pr. [sāo]"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "苏醒",
+    "radical": "艹",
+    "frequency": 11918,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "甦醒",
+        "transcriptions": {
+          "pinyin": "sū xǐng",
+          "numeric": "su1 xing3",
+          "wadegiles": "su¹ hsing³",
+          "bopomofo": "ㄙㄨ ㄒㄧㄥˇ",
+          "romatzyh": "su shiing"
+        },
+        "meanings": [
+          "to come to",
+          "to awaken",
+          "to regain consciousness"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "酥",
+    "radical": "酉",
+    "frequency": 10489,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "酥",
+        "transcriptions": {
+          "pinyin": "sū",
+          "numeric": "su1",
+          "wadegiles": "su¹",
+          "bopomofo": "ㄙㄨ",
+          "romatzyh": "su"
+        },
+        "meanings": [
+          "flaky pastry",
+          "crunchy",
+          "limp",
+          "soft",
+          "silky"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "俗",
+    "radical": "亻",
+    "frequency": 8279,
+    "pos": [
+      "a",
+      "ad",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "俗",
+        "transcriptions": {
+          "pinyin": "sú",
+          "numeric": "su2",
+          "wadegiles": "su²",
+          "bopomofo": "ㄙㄨˊ",
+          "romatzyh": "swu"
+        },
+        "meanings": [
+          "custom",
+          "convention",
+          "popular",
+          "common",
+          "coarse",
+          "vulgar",
+          "secular"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

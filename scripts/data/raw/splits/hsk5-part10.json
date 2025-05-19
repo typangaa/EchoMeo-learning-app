@@ -1,0 +1,2226 @@
+[
+  {
+    "simplified": "地震",
+    "radical": "土",
+    "frequency": 3938,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "地震",
+        "transcriptions": {
+          "pinyin": "dì zhèn",
+          "numeric": "di4 zhen4",
+          "wadegiles": "ti⁴ chen⁴",
+          "bopomofo": "ㄉㄧˋ ㄓㄣˋ",
+          "romatzyh": "dih jenn"
+        },
+        "meanings": [
+          "earthquake"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "地址",
+    "radical": "土",
+    "frequency": 1067,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "地址",
+        "transcriptions": {
+          "pinyin": "dì zhǐ",
+          "numeric": "di4 zhi3",
+          "wadegiles": "ti⁴ chih³",
+          "bopomofo": "ㄉㄧˋ ㄓˇ",
+          "romatzyh": "dih jyy"
+        },
+        "meanings": [
+          "address"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "的",
+    "radical": "白",
+    "frequency": 1,
+    "pos": [
+      "u",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "的",
+        "transcriptions": {
+          "pinyin": "de",
+          "numeric": "de5",
+          "wadegiles": "de",
+          "bopomofo": "de",
+          "romatzyh": "de"
+        },
+        "meanings": [
+          "of; ~'s (possessive particle)",
+          "(used after an attribute)",
+          "(used to form a nominal expression)",
+          "(used at the end of a declarative sentence for emphasis)",
+          "also pr. [dì] or [di] in poetry and songs"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "的",
+        "transcriptions": {
+          "pinyin": "dī",
+          "numeric": "di1",
+          "wadegiles": "ti¹",
+          "bopomofo": "ㄉㄧ",
+          "romatzyh": "di"
+        },
+        "meanings": [
+          "a taxi; a cab (abbr. for 士)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "的",
+        "transcriptions": {
+          "pinyin": "dí",
+          "numeric": "di2",
+          "wadegiles": "ti²",
+          "bopomofo": "ㄉㄧˊ",
+          "romatzyh": "dyi"
+        },
+        "meanings": [
+          "really and truly"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "的",
+        "transcriptions": {
+          "pinyin": "dì",
+          "numeric": "di4",
+          "wadegiles": "ti⁴",
+          "bopomofo": "ㄉㄧˋ",
+          "romatzyh": "dih"
+        },
+        "meanings": [
+          "(bound form) bull's-eye; target"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "的话",
+    "radical": "白",
+    "frequency": 2226,
+    "pos": [
+      "u"
+    ],
+    "forms": [
+      {
+        "traditional": "的話",
+        "transcriptions": {
+          "pinyin": "de huà",
+          "numeric": "de5 hua4",
+          "wadegiles": "de hua⁴",
+          "bopomofo": "de ㄏㄨㄚˋ",
+          "romatzyh": "de huah"
+        },
+        "meanings": [
+          "if (coming after a conditional clause)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "的确",
+    "radical": "白",
+    "frequency": 1392,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "的確",
+        "transcriptions": {
+          "pinyin": "dí què",
+          "numeric": "di2 que4",
+          "wadegiles": "ti² ch'üeh⁴",
+          "bopomofo": "ㄉㄧˊ ㄑㄩㄝˋ",
+          "romatzyh": "dyi chiueh"
+        },
+        "meanings": [
+          "really",
+          "indeed"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "得",
+    "radical": "彳",
+    "frequency": 58,
+    "pos": [
+      "u",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "得",
+        "transcriptions": {
+          "pinyin": "dé",
+          "numeric": "de2",
+          "wadegiles": "te²",
+          "bopomofo": "ㄉㄜˊ",
+          "romatzyh": "der"
+        },
+        "meanings": [
+          "to obtain",
+          "to get",
+          "to gain",
+          "to catch (a disease)",
+          "proper",
+          "suitable",
+          "proud",
+          "contented",
+          "to allow",
+          "to permit",
+          "ready",
+          "finished"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "得",
+        "transcriptions": {
+          "pinyin": "de",
+          "numeric": "de5",
+          "wadegiles": "de",
+          "bopomofo": "de",
+          "romatzyh": "de"
+        },
+        "meanings": [
+          "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "得",
+        "transcriptions": {
+          "pinyin": "děi",
+          "numeric": "dei3",
+          "wadegiles": "tei³",
+          "bopomofo": "ㄉㄟˇ",
+          "romatzyh": "deei"
+        },
+        "meanings": [
+          "to have to",
+          "must",
+          "ought to",
+          "to need to"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "得出",
+    "radical": "彳",
+    "frequency": 5401,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "得出",
+        "transcriptions": {
+          "pinyin": "dé chū",
+          "numeric": "de2 chu1",
+          "wadegiles": "te² ch'u¹",
+          "bopomofo": "ㄉㄜˊ ㄔㄨ",
+          "romatzyh": "der chu"
+        },
+        "meanings": [
+          "to obtain (a result); to arrive at (a conclusion)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "得到",
+    "radical": "彳",
+    "frequency": 308,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "得到",
+        "transcriptions": {
+          "pinyin": "dé dào",
+          "numeric": "de2 dao4",
+          "wadegiles": "te² tao⁴",
+          "bopomofo": "ㄉㄜˊ ㄉㄠˋ",
+          "romatzyh": "der daw"
+        },
+        "meanings": [
+          "to get",
+          "to obtain",
+          "to receive"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "得分",
+    "radical": "彳",
+    "frequency": 3694,
+    "pos": [
+      "v",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "得分",
+        "transcriptions": {
+          "pinyin": "dé fēn",
+          "numeric": "de2 fen1",
+          "wadegiles": "te² fen¹",
+          "bopomofo": "ㄉㄜˊ ㄈㄣ",
+          "romatzyh": "der fen"
+        },
+        "meanings": [
+          "to score"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "得了",
+    "radical": "彳",
+    "frequency": 3720,
+    "pos": [
+      "v",
+      "y"
+    ],
+    "forms": [
+      {
+        "traditional": "得了",
+        "transcriptions": {
+          "pinyin": "dé le",
+          "numeric": "de2 le5",
+          "wadegiles": "te² le",
+          "bopomofo": "ㄉㄜˊ le",
+          "romatzyh": "der le"
+        },
+        "meanings": [
+          "all right!",
+          "that's enough!"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "得了",
+        "transcriptions": {
+          "pinyin": "dé liǎo",
+          "numeric": "de2 liao3",
+          "wadegiles": "te² liao³",
+          "bopomofo": "ㄉㄜˊ ㄌㄧㄠˇ",
+          "romatzyh": "der leau"
+        },
+        "meanings": [
+          "(emphatically, in rhetorical questions) possible"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "得以",
+    "radical": "彳",
+    "frequency": 5437,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "得以",
+        "transcriptions": {
+          "pinyin": "dé yǐ",
+          "numeric": "de2 yi3",
+          "wadegiles": "te² i³",
+          "bopomofo": "ㄉㄜˊ ㄧˇ",
+          "romatzyh": "der yii"
+        },
+        "meanings": [
+          "able to",
+          "so that sb can",
+          "enabling",
+          "in order to",
+          "finally in a position to",
+          "with sth in view"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "得意",
+    "radical": "彳",
+    "frequency": 6279,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "得意",
+        "transcriptions": {
+          "pinyin": "dé yì",
+          "numeric": "de2 yi4",
+          "wadegiles": "te² i⁴",
+          "bopomofo": "ㄉㄜˊ ㄧˋ",
+          "romatzyh": "der yih"
+        },
+        "meanings": [
+          "proud of oneself",
+          "pleased with oneself",
+          "complacent"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "灯",
+    "radical": "火",
+    "frequency": 2001,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "燈",
+        "transcriptions": {
+          "pinyin": "dēng",
+          "numeric": "deng1",
+          "wadegiles": "teng¹",
+          "bopomofo": "ㄉㄥ",
+          "romatzyh": "deng"
+        },
+        "meanings": [
+          "lamp",
+          "light",
+          "lantern"
+        ],
+        "classifiers": [
+          "盏"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "灯光",
+    "radical": "火",
+    "frequency": 4731,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "燈光",
+        "transcriptions": {
+          "pinyin": "dēng guāng",
+          "numeric": "deng1 guang1",
+          "wadegiles": "teng¹ kuang¹",
+          "bopomofo": "ㄉㄥ ㄍㄨㄤ",
+          "romatzyh": "deng guang"
+        },
+        "meanings": [
+          "(stage) lighting",
+          "light"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "登",
+    "radical": "癶",
+    "frequency": 2782,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "登",
+        "transcriptions": {
+          "pinyin": "dēng",
+          "numeric": "deng1",
+          "wadegiles": "teng¹",
+          "bopomofo": "ㄉㄥ",
+          "romatzyh": "deng"
+        },
+        "meanings": [
+          "to scale (a height)",
+          "to ascend",
+          "to mount",
+          "to publish or record",
+          "to enter (e.g. in a register)",
+          "to press down with the foot",
+          "to step or tread on",
+          "to put on (shoes or trousers) (dialect)",
+          "to be gathered and taken to the threshing ground (old)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "登记",
+    "radical": "癶",
+    "frequency": 2377,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "登記",
+        "transcriptions": {
+          "pinyin": "dēng jì",
+          "numeric": "deng1 ji4",
+          "wadegiles": "teng¹ chi⁴",
+          "bopomofo": "ㄉㄥ ㄐㄧˋ",
+          "romatzyh": "deng jih"
+        },
+        "meanings": [
+          "to register (one's name)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "登录",
+    "radical": "癶",
+    "frequency": 6988,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "登錄",
+        "transcriptions": {
+          "pinyin": "dēng lù",
+          "numeric": "deng1 lu4",
+          "wadegiles": "teng¹ lu⁴",
+          "bopomofo": "ㄉㄥ ㄌㄨˋ",
+          "romatzyh": "deng luh"
+        },
+        "meanings": [
+          "to register",
+          "to log in"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "登山",
+    "radical": "癶",
+    "frequency": 11767,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "登山",
+        "transcriptions": {
+          "pinyin": "dēng shān",
+          "numeric": "deng1 shan1",
+          "wadegiles": "teng¹ shan¹",
+          "bopomofo": "ㄉㄥ ㄕㄢ",
+          "romatzyh": "deng shan"
+        },
+        "meanings": [
+          "to climb a mountain",
+          "climbing",
+          "mountaineering"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "等",
+    "radical": "⺮",
+    "frequency": 83,
+    "pos": [
+      "v",
+      "u"
+    ],
+    "forms": [
+      {
+        "traditional": "等",
+        "transcriptions": {
+          "pinyin": "děng",
+          "numeric": "deng3",
+          "wadegiles": "teng³",
+          "bopomofo": "ㄉㄥˇ",
+          "romatzyh": "deeng"
+        },
+        "meanings": [
+          "class",
+          "rank",
+          "grade",
+          "equal to",
+          "same as",
+          "to wait for",
+          "to await",
+          "et cetera",
+          "and so on",
+          "et al. (and other authors)",
+          "after",
+          "as soon as",
+          "once"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "等待",
+    "radical": "⺮",
+    "frequency": 1567,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "等待",
+        "transcriptions": {
+          "pinyin": "děng dài",
+          "numeric": "deng3 dai4",
+          "wadegiles": "teng³ tai⁴",
+          "bopomofo": "ㄉㄥˇ ㄉㄞˋ",
+          "romatzyh": "deeng day"
+        },
+        "meanings": [
+          "to wait; to wait for"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "等到",
+    "radical": "⺮",
+    "frequency": 4305,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "等到",
+        "transcriptions": {
+          "pinyin": "děng dào",
+          "numeric": "deng3 dao4",
+          "wadegiles": "teng³ tao⁴",
+          "bopomofo": "ㄉㄥˇ ㄉㄠˋ",
+          "romatzyh": "deeng daw"
+        },
+        "meanings": [
+          "to wait until",
+          "by the time when (sth is ready etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "等候",
+    "radical": "⺮",
+    "frequency": 6248,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "等候",
+        "transcriptions": {
+          "pinyin": "děng hòu",
+          "numeric": "deng3 hou4",
+          "wadegiles": "teng³ hou⁴",
+          "bopomofo": "ㄉㄥˇ ㄏㄡˋ",
+          "romatzyh": "deeng how"
+        },
+        "meanings": [
+          "to wait",
+          "to wait for"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "等级",
+    "radical": "⺮",
+    "frequency": 5289,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "等級",
+        "transcriptions": {
+          "pinyin": "děng jí",
+          "numeric": "deng3 ji2",
+          "wadegiles": "teng³ chi²",
+          "bopomofo": "ㄉㄥˇ ㄐㄧˊ",
+          "romatzyh": "deeng jyi"
+        },
+        "meanings": [
+          "grade",
+          "rank",
+          "status"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "等于",
+    "radical": "⺮",
+    "frequency": 3464,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "等於",
+        "transcriptions": {
+          "pinyin": "děng yú",
+          "numeric": "deng3 yu2",
+          "wadegiles": "teng³ yü²",
+          "bopomofo": "ㄉㄥˇ ㄩˊ",
+          "romatzyh": "deeng yu"
+        },
+        "meanings": [
+          "to equal",
+          "to be tantamount to"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "低",
+    "radical": "亻",
+    "frequency": 951,
+    "pos": [
+      "a",
+      "ad",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "低",
+        "transcriptions": {
+          "pinyin": "dī",
+          "numeric": "di1",
+          "wadegiles": "ti¹",
+          "bopomofo": "ㄉㄧ",
+          "romatzyh": "di"
+        },
+        "meanings": [
+          "low",
+          "beneath",
+          "to lower (one's head)",
+          "to let droop",
+          "to hang down",
+          "to incline"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "低于",
+    "radical": "亻",
+    "frequency": 6208,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "低於",
+        "transcriptions": {
+          "pinyin": "dī yú",
+          "numeric": "di1 yu2",
+          "wadegiles": "ti¹ yü²",
+          "bopomofo": "ㄉㄧ ㄩˊ",
+          "romatzyh": "di yu"
+        },
+        "meanings": [
+          "to be lower than"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "敌人",
+    "radical": "舌",
+    "frequency": 1731,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "敵人",
+        "transcriptions": {
+          "pinyin": "dí rén",
+          "numeric": "di2 ren2",
+          "wadegiles": "ti² jen²",
+          "bopomofo": "ㄉㄧˊ ㄖㄣˊ",
+          "romatzyh": "dyi ren"
+        },
+        "meanings": [
+          "enemy"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "底",
+    "radical": "广",
+    "frequency": 849,
+    "pos": [
+      "f",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "底",
+        "transcriptions": {
+          "pinyin": "de",
+          "numeric": "de5",
+          "wadegiles": "de",
+          "bopomofo": "de",
+          "romatzyh": "de"
+        },
+        "meanings": [
+          "(equivalent to 的 as possessive particle)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "底",
+        "transcriptions": {
+          "pinyin": "dǐ",
+          "numeric": "di3",
+          "wadegiles": "ti³",
+          "bopomofo": "ㄉㄧˇ",
+          "romatzyh": "dii"
+        },
+        "meanings": [
+          "background",
+          "bottom",
+          "base",
+          "end (of the month, year etc)",
+          "remnants",
+          "(math.) radix",
+          "base"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "底下",
+    "radical": "广",
+    "frequency": 5997,
+    "pos": [
+      "f"
+    ],
+    "forms": [
+      {
+        "traditional": "底下",
+        "transcriptions": {
+          "pinyin": "dǐ xia",
+          "numeric": "di3 xia5",
+          "wadegiles": "ti³ xia",
+          "bopomofo": "ㄉㄧˇ xia",
+          "romatzyh": "dii xia"
+        },
+        "meanings": [
+          "the location below sth",
+          "afterwards"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "弟",
+    "radical": "弓",
+    "frequency": 6568,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "弟",
+        "transcriptions": {
+          "pinyin": "dì",
+          "numeric": "di4",
+          "wadegiles": "ti⁴",
+          "bopomofo": "ㄉㄧˋ",
+          "romatzyh": "dih"
+        },
+        "meanings": [
+          "younger brother",
+          "junior male",
+          "I (modest word in letter)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "弟",
+        "transcriptions": {
+          "pinyin": "tì",
+          "numeric": "ti4",
+          "wadegiles": "t'i⁴",
+          "bopomofo": "ㄊㄧˋ",
+          "romatzyh": "tih"
+        },
+        "meanings": [
+          "variant of 悌"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "弟弟",
+    "radical": "弓",
+    "frequency": 2424,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "弟弟",
+        "transcriptions": {
+          "pinyin": "dì di",
+          "numeric": "di4 di5",
+          "wadegiles": "ti⁴ di",
+          "bopomofo": "ㄉㄧˋ di",
+          "romatzyh": "dih di"
+        },
+        "meanings": [
+          "younger brother"
+        ],
+        "classifiers": [
+          "个",
+          "位"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "递",
+    "radical": "辶",
+    "frequency": 7319,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "遞",
+        "transcriptions": {
+          "pinyin": "dì",
+          "numeric": "di4",
+          "wadegiles": "ti⁴",
+          "bopomofo": "ㄉㄧˋ",
+          "romatzyh": "dih"
+        },
+        "meanings": [
+          "to hand over; to pass on; to deliver",
+          "(bound form) progressively; in the proper order"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "递给",
+    "radical": "辶",
+    "frequency": 8159,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "遞給",
+        "transcriptions": {
+          "pinyin": "dì gěi",
+          "numeric": "di4 gei3",
+          "wadegiles": "ti⁴ kei³",
+          "bopomofo": "ㄉㄧˋ ㄍㄟˇ",
+          "romatzyh": "dih geei"
+        },
+        "meanings": [
+          "to hand it (i.e. the aforementioned item) to (sb)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "第",
+    "radical": "⺮",
+    "frequency": 962,
+    "pos": [
+      "m"
+    ],
+    "forms": [
+      {
+        "traditional": "第",
+        "transcriptions": {
+          "pinyin": "dì",
+          "numeric": "di4",
+          "wadegiles": "ti⁴",
+          "bopomofo": "ㄉㄧˋ",
+          "romatzyh": "dih"
+        },
+        "meanings": [
+          "(prefix indicating ordinal number, as in 六 \"sixth\")",
+          "(literary) grades in which successful candidates in the imperial examinations were placed",
+          "(old) residence of a high official",
+          "(literary) but; however",
+          "(literary) only; just"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "第",
+    "radical": "⺮",
+    "frequency": 962,
+    "pos": [
+      "m"
+    ],
+    "forms": [
+      {
+        "traditional": "第",
+        "transcriptions": {
+          "pinyin": "dì",
+          "numeric": "di4",
+          "wadegiles": "ti⁴",
+          "bopomofo": "ㄉㄧˋ",
+          "romatzyh": "dih"
+        },
+        "meanings": [
+          "(prefix indicating ordinal number, as in 六 \"sixth\")",
+          "(literary) grades in which successful candidates in the imperial examinations were placed",
+          "(old) residence of a high official",
+          "(literary) but; however",
+          "(literary) only; just"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "第二",
+    "radical": "⺮",
+    "frequency": 527,
+    "pos": [
+      "m"
+    ],
+    "forms": [
+      {
+        "traditional": "第二",
+        "transcriptions": {
+          "pinyin": "dì èr",
+          "numeric": "di4 er4",
+          "wadegiles": "ti⁴ erh⁴",
+          "bopomofo": "ㄉㄧˋ ㄦˋ",
+          "romatzyh": "dih ell"
+        },
+        "meanings": [
+          "second",
+          "number two",
+          "next",
+          "secondary"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "典礼",
+    "radical": "八",
+    "frequency": 5455,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "典禮",
+        "transcriptions": {
+          "pinyin": "diǎn lǐ",
+          "numeric": "dian3 li3",
+          "wadegiles": "tien³ li³",
+          "bopomofo": "ㄉㄧㄢˇ ㄌㄧˇ",
+          "romatzyh": "dean lii"
+        },
+        "meanings": [
+          "celebration",
+          "ceremony"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "典型",
+    "radical": "八",
+    "frequency": 3251,
+    "pos": [
+      "n",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "典型",
+        "transcriptions": {
+          "pinyin": "diǎn xíng",
+          "numeric": "dian3 xing2",
+          "wadegiles": "tien³ hsing²",
+          "bopomofo": "ㄉㄧㄢˇ ㄒㄧㄥˊ",
+          "romatzyh": "dean shyng"
+        },
+        "meanings": [
+          "model",
+          "typical case",
+          "archetype",
+          "typical",
+          "representative"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "点",
+    "radical": "灬",
+    "frequency": 58,
+    "pos": [
+      "qt",
+      "n",
+      "t",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "點",
+        "transcriptions": {
+          "pinyin": "diǎn",
+          "numeric": "dian3",
+          "wadegiles": "tien³",
+          "bopomofo": "ㄉㄧㄢˇ",
+          "romatzyh": "dean"
+        },
+        "meanings": [
+          "point",
+          "dot",
+          "drop",
+          "speck",
+          "o'clock",
+          "point (in space or time)",
+          "to draw a dot",
+          "to check on a list",
+          "to choose",
+          "to order (food in a restaurant)",
+          "to touch briefly",
+          "to hint",
+          "to light",
+          "to ignite",
+          "to pour a liquid drop by drop",
+          "(old) one fifth of a two-hour watch 更",
+          "dot stroke in Chinese characters",
+          "classifier for items"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "点名",
+    "radical": "灬",
+    "frequency": 11424,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "點名",
+        "transcriptions": {
+          "pinyin": "diǎn míng",
+          "numeric": "dian3 ming2",
+          "wadegiles": "tien³ ming²",
+          "bopomofo": "ㄉㄧㄢˇ ㄇㄧㄥˊ",
+          "romatzyh": "dean ming"
+        },
+        "meanings": [
+          "roll call",
+          "to mention sb by name",
+          "(to call or praise or criticize sb) by name"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "点燃",
+    "radical": "灬",
+    "frequency": 6958,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "點燃",
+        "transcriptions": {
+          "pinyin": "diǎn rán",
+          "numeric": "dian3 ran2",
+          "wadegiles": "tien³ jan²",
+          "bopomofo": "ㄉㄧㄢˇ ㄖㄢˊ",
+          "romatzyh": "dean ran"
+        },
+        "meanings": [
+          "to ignite",
+          "to set on fire",
+          "aflame"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "点头",
+    "radical": "灬",
+    "frequency": 6136,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "點頭",
+        "transcriptions": {
+          "pinyin": "diǎn tóu",
+          "numeric": "dian3 tou2",
+          "wadegiles": "tien³ t'ou²",
+          "bopomofo": "ㄉㄧㄢˇ ㄊㄡˊ",
+          "romatzyh": "dean tour"
+        },
+        "meanings": [
+          "to nod"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "电",
+    "radical": "曰",
+    "frequency": 1027,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "電",
+        "transcriptions": {
+          "pinyin": "diàn",
+          "numeric": "dian4",
+          "wadegiles": "tien⁴",
+          "bopomofo": "ㄉㄧㄢˋ",
+          "romatzyh": "diann"
+        },
+        "meanings": [
+          "lightning",
+          "electricity",
+          "electric (bound form)",
+          "to get (or give) an electric shock",
+          "phone call or telegram etc",
+          "to send via telephone or telegram etc"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "电池",
+    "radical": "曰",
+    "frequency": 3997,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "電池",
+        "transcriptions": {
+          "pinyin": "diàn chí",
+          "numeric": "dian4 chi2",
+          "wadegiles": "tien⁴ ch'ih²",
+          "bopomofo": "ㄉㄧㄢˋ ㄔˊ",
+          "romatzyh": "diann chyr"
+        },
+        "meanings": [
+          "battery"
+        ],
+        "classifiers": [
+          "节",
+          "组"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "电灯",
+    "radical": "曰",
+    "frequency": 20337,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "電燈",
+        "transcriptions": {
+          "pinyin": "diàn dēng",
+          "numeric": "dian4 deng1",
+          "wadegiles": "tien⁴ teng¹",
+          "bopomofo": "ㄉㄧㄢˋ ㄉㄥ",
+          "romatzyh": "diann deng"
+        },
+        "meanings": [
+          "electric light"
+        ],
+        "classifiers": [
+          "盏"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "电动车",
+    "radical": "曰",
+    "frequency": 26291,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "電動車",
+        "transcriptions": {
+          "pinyin": "diàndòngchē",
+          "numeric": "diàndòngchē",
+          "wadegiles": "diàndòngchē",
+          "bopomofo": "diàndòngchē",
+          "romatzyh": "diàndòngchē"
+        },
+        "meanings": [
+          "Electric vehicle"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "电饭锅",
+    "radical": "曰",
+    "frequency": 88712,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "電飯鍋",
+        "transcriptions": {
+          "pinyin": "diàn fàn guō",
+          "numeric": "dian4 fan4 guo1",
+          "wadegiles": "tien⁴ fan⁴ kuo¹",
+          "bopomofo": "ㄉㄧㄢˋ ㄈㄢˋ ㄍㄨㄛ",
+          "romatzyh": "diann fann guo"
+        },
+        "meanings": [
+          "electric rice cooker"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "电话",
+    "radical": "曰",
+    "frequency": 359,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "電話",
+        "transcriptions": {
+          "pinyin": "diàn huà",
+          "numeric": "dian4 hua4",
+          "wadegiles": "tien⁴ hua⁴",
+          "bopomofo": "ㄉㄧㄢˋ ㄏㄨㄚˋ",
+          "romatzyh": "diann huah"
+        },
+        "meanings": [
+          "telephone",
+          "phone call",
+          "phone number"
+        ],
+        "classifiers": [
+          "部",
+          "通"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "电脑",
+    "radical": "曰",
+    "frequency": 946,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "電腦",
+        "transcriptions": {
+          "pinyin": "diàn nǎo",
+          "numeric": "dian4 nao3",
+          "wadegiles": "tien⁴ nao³",
+          "bopomofo": "ㄉㄧㄢˋ ㄋㄠˇ",
+          "romatzyh": "diann nao"
+        },
+        "meanings": [
+          "computer"
+        ],
+        "classifiers": [
+          "台"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "电视",
+    "radical": "曰",
+    "frequency": 779,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "電視",
+        "transcriptions": {
+          "pinyin": "diàn shì",
+          "numeric": "dian4 shi4",
+          "wadegiles": "tien⁴ shih⁴",
+          "bopomofo": "ㄉㄧㄢˋ ㄕˋ",
+          "romatzyh": "diann shyh"
+        },
+        "meanings": [
+          "television; TV"
+        ],
+        "classifiers": [
+          "台",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "电视机",
+    "radical": "曰",
+    "frequency": 6649,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "電視機",
+        "transcriptions": {
+          "pinyin": "diàn shì jī",
+          "numeric": "dian4 shi4 ji1",
+          "wadegiles": "tien⁴ shih⁴ chi¹",
+          "bopomofo": "ㄉㄧㄢˋ ㄕˋ ㄐㄧ",
+          "romatzyh": "diann shyh ji"
+        },
+        "meanings": [
+          "television set"
+        ],
+        "classifiers": [
+          "台"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "电视剧",
+    "radical": "曰",
+    "frequency": 4222,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "電視劇",
+        "transcriptions": {
+          "pinyin": "diàn shì jù",
+          "numeric": "dian4 shi4 ju4",
+          "wadegiles": "tien⁴ shih⁴ chü⁴",
+          "bopomofo": "ㄉㄧㄢˋ ㄕˋ ㄐㄩˋ",
+          "romatzyh": "diann shyh jiuh"
+        },
+        "meanings": [
+          "TV series",
+          "TV drama"
+        ],
+        "classifiers": [
+          "部"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "电视台",
+    "radical": "曰",
+    "frequency": 3940,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "電視臺",
+        "transcriptions": {
+          "pinyin": "diàn shì tái",
+          "numeric": "dian4 shi4 tai2",
+          "wadegiles": "tien⁴ shih⁴ t'ai²",
+          "bopomofo": "ㄉㄧㄢˋ ㄕˋ ㄊㄞˊ",
+          "romatzyh": "diann shyh tair"
+        },
+        "meanings": [
+          "television station"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "电台",
+    "radical": "曰",
+    "frequency": 5542,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "電臺",
+        "transcriptions": {
+          "pinyin": "diàn tái",
+          "numeric": "dian4 tai2",
+          "wadegiles": "tien⁴ t'ai²",
+          "bopomofo": "ㄉㄧㄢˋ ㄊㄞˊ",
+          "romatzyh": "diann tair"
+        },
+        "meanings": [
+          "transmitter-receiver",
+          "broadcasting station",
+          "radio station"
+        ],
+        "classifiers": [
+          "个",
+          "家"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "电梯",
+    "radical": "曰",
+    "frequency": 3894,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "電梯",
+        "transcriptions": {
+          "pinyin": "diàn tī",
+          "numeric": "dian4 ti1",
+          "wadegiles": "tien⁴ t'i¹",
+          "bopomofo": "ㄉㄧㄢˋ ㄊㄧ",
+          "romatzyh": "diann ti"
+        },
+        "meanings": [
+          "elevator",
+          "escalator"
+        ],
+        "classifiers": [
+          "台",
+          "部"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "电影",
+    "radical": "曰",
+    "frequency": 546,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "電影",
+        "transcriptions": {
+          "pinyin": "diàn yǐng",
+          "numeric": "dian4 ying3",
+          "wadegiles": "tien⁴ ying³",
+          "bopomofo": "ㄉㄧㄢˋ ㄧㄥˇ",
+          "romatzyh": "diann yiing"
+        },
+        "meanings": [
+          "movie; film"
+        ],
+        "classifiers": [
+          "部",
+          "片",
+          "幕",
+          "场"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "电影院",
+    "radical": "曰",
+    "frequency": 7945,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "電影院",
+        "transcriptions": {
+          "pinyin": "diàn yǐng yuàn",
+          "numeric": "dian4 ying3 yuan4",
+          "wadegiles": "tien⁴ ying³ yüan⁴",
+          "bopomofo": "ㄉㄧㄢˋ ㄧㄥˇ ㄩㄢˋ",
+          "romatzyh": "diann yiing yuann"
+        },
+        "meanings": [
+          "cinema; movie theater"
+        ],
+        "classifiers": [
+          "家",
+          "座"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "电源",
+    "radical": "曰",
+    "frequency": 6030,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "電源",
+        "transcriptions": {
+          "pinyin": "diàn yuán",
+          "numeric": "dian4 yuan2",
+          "wadegiles": "tien⁴ yüan²",
+          "bopomofo": "ㄉㄧㄢˋ ㄩㄢˊ",
+          "romatzyh": "diann yuan"
+        },
+        "meanings": [
+          "electric power source"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "电子版",
+    "radical": "曰",
+    "frequency": 48366,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "電子版",
+        "transcriptions": {
+          "pinyin": "diàn zǐ bǎn",
+          "numeric": "dian4 zi3 ban3",
+          "wadegiles": "tien⁴ tzu³ pan³",
+          "bopomofo": "ㄉㄧㄢˋ ㄗˇ ㄅㄢˇ",
+          "romatzyh": "diann tzyy baan"
+        },
+        "meanings": [
+          "electronic edition",
+          "digital version"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "电子邮件",
+    "radical": "曰",
+    "frequency": 9822,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "電子郵件",
+        "transcriptions": {
+          "pinyin": "diàn zǐ yóu jiàn",
+          "numeric": "dian4 zi3 you2 jian4",
+          "wadegiles": "tien⁴ tzu³ yu² chien⁴",
+          "bopomofo": "ㄉㄧㄢˋ ㄗˇ ㄧㄡˊ ㄐㄧㄢˋ",
+          "romatzyh": "diann tzyy you jiann"
+        },
+        "meanings": [
+          "email"
+        ],
+        "classifiers": [
+          "封",
+          "份"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "店",
+    "radical": "广",
+    "frequency": 732,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "店",
+        "transcriptions": {
+          "pinyin": "diàn",
+          "numeric": "dian4",
+          "wadegiles": "tien⁴",
+          "bopomofo": "ㄉㄧㄢˋ",
+          "romatzyh": "diann"
+        },
+        "meanings": [
+          "inn; old-style hotel",
+          "(bound form) shop; store"
+        ],
+        "classifiers": [
+          "家"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "调",
+    "radical": "讠",
+    "frequency": 1481,
+    "pos": [
+      "v",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "調",
+        "transcriptions": {
+          "pinyin": "diào",
+          "numeric": "diao4",
+          "wadegiles": "tiao⁴",
+          "bopomofo": "ㄉㄧㄠˋ",
+          "romatzyh": "diaw"
+        },
+        "meanings": [
+          "to transfer",
+          "to move (troops or cadres)",
+          "to investigate",
+          "to enquire into",
+          "accent",
+          "view",
+          "argument",
+          "key (in music)",
+          "mode (music)",
+          "tune",
+          "tone",
+          "melody"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "調",
+        "transcriptions": {
+          "pinyin": "tiáo",
+          "numeric": "tiao2",
+          "wadegiles": "t'iao²",
+          "bopomofo": "ㄊㄧㄠˊ",
+          "romatzyh": "tyau"
+        },
+        "meanings": [
+          "to harmonize",
+          "to reconcile",
+          "to blend",
+          "to suit well",
+          "to adjust",
+          "to regulate",
+          "to season (food)",
+          "to provoke",
+          "to incite"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "调查",
+    "radical": "讠",
+    "frequency": 512,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "調查",
+        "transcriptions": {
+          "pinyin": "diào chá",
+          "numeric": "diao4 cha2",
+          "wadegiles": "tiao⁴ ch'a²",
+          "bopomofo": "ㄉㄧㄠˋ ㄔㄚˊ",
+          "romatzyh": "diaw char"
+        },
+        "meanings": [
+          "investigation",
+          "inquiry",
+          "to investigate",
+          "to survey",
+          "survey",
+          "(opinion) poll"
+        ],
+        "classifiers": [
+          "项",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "调动",
+    "radical": "讠",
+    "frequency": 7622,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "調動",
+        "transcriptions": {
+          "pinyin": "diào dòng",
+          "numeric": "diao4 dong4",
+          "wadegiles": "tiao⁴ tung⁴",
+          "bopomofo": "ㄉㄧㄠˋ ㄉㄨㄥˋ",
+          "romatzyh": "diaw donq"
+        },
+        "meanings": [
+          "to transfer",
+          "to maneuver (troops etc)",
+          "movement of personnel",
+          "to mobilize",
+          "to bring into play"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "调节",
+    "radical": "讠",
+    "frequency": 6641,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "調節",
+        "transcriptions": {
+          "pinyin": "tiáo jié",
+          "numeric": "tiao2 jie2",
+          "wadegiles": "t'iao² chieh²",
+          "bopomofo": "ㄊㄧㄠˊ ㄐㄧㄝˊ",
+          "romatzyh": "tyau jye"
+        },
+        "meanings": [
+          "to adjust",
+          "to regulate",
+          "to harmonize",
+          "to reconcile (accountancy etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "调解",
+    "radical": "讠",
+    "frequency": 10413,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "調解",
+        "transcriptions": {
+          "pinyin": "tiáo jiě",
+          "numeric": "tiao2 jie3",
+          "wadegiles": "t'iao² chieh³",
+          "bopomofo": "ㄊㄧㄠˊ ㄐㄧㄝˇ",
+          "romatzyh": "tyau jiee"
+        },
+        "meanings": [
+          "to mediate",
+          "to bring parties to an agreement"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "调皮",
+    "radical": "讠",
+    "frequency": 12299,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "調皮",
+        "transcriptions": {
+          "pinyin": "tiáo pí",
+          "numeric": "tiao2 pi2",
+          "wadegiles": "t'iao² p'i²",
+          "bopomofo": "ㄊㄧㄠˊ ㄆㄧˊ",
+          "romatzyh": "tyau pyi"
+        },
+        "meanings": [
+          "naughty",
+          "mischievous",
+          "unruly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "调整",
+    "radical": "讠",
+    "frequency": 2032,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "調整",
+        "transcriptions": {
+          "pinyin": "tiáo zhěng",
+          "numeric": "tiao2 zheng3",
+          "wadegiles": "t'iao² cheng³",
+          "bopomofo": "ㄊㄧㄠˊ ㄓㄥˇ",
+          "romatzyh": "tyau jeeng"
+        },
+        "meanings": [
+          "to adjust",
+          "adjustment",
+          "revision"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "掉",
+    "radical": "扌",
+    "frequency": 549,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "掉",
+        "transcriptions": {
+          "pinyin": "diào",
+          "numeric": "diao4",
+          "wadegiles": "tiao⁴",
+          "bopomofo": "ㄉㄧㄠˋ",
+          "romatzyh": "diaw"
+        },
+        "meanings": [
+          "to fall",
+          "to drop",
+          "to lag behind",
+          "to lose",
+          "to go missing",
+          "to reduce",
+          "fall (in prices)",
+          "to lose (value, weight etc)",
+          "to wag",
+          "to swing",
+          "to turn",
+          "to change",
+          "to exchange",
+          "to swap",
+          "to show off",
+          "to shed (hair)",
+          "(used after certain verbs to express completion, fulfillment, removal etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "顶",
+    "radical": "页",
+    "frequency": 1623,
+    "pos": [
+      "v",
+      "q",
+      "g",
+      "f"
+    ],
+    "forms": [
+      {
+        "traditional": "頂",
+        "transcriptions": {
+          "pinyin": "dǐng",
+          "numeric": "ding3",
+          "wadegiles": "ting³",
+          "bopomofo": "ㄉㄧㄥˇ",
+          "romatzyh": "diing"
+        },
+        "meanings": [
+          "apex",
+          "crown of the head",
+          "top",
+          "roof",
+          "most",
+          "to carry on the head",
+          "to push to the top",
+          "to go against",
+          "to replace",
+          "to substitute",
+          "to be subjected to (an aerial bombing, hailstorm etc)",
+          "(slang) to \"bump\" a forum thread to raise its profile",
+          "classifier for headwear, hats, veils etc"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "订",
+    "radical": "讠",
+    "frequency": 2991,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "訂",
+        "transcriptions": {
+          "pinyin": "dìng",
+          "numeric": "ding4",
+          "wadegiles": "ting⁴",
+          "bopomofo": "ㄉㄧㄥˋ",
+          "romatzyh": "dinq"
+        },
+        "meanings": [
+          "to agree",
+          "to conclude",
+          "to draw up",
+          "to subscribe to (a newspaper etc)",
+          "to order"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "定",
+    "radical": "宀",
+    "frequency": 586,
+    "pos": [
+      "v",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "定",
+        "transcriptions": {
+          "pinyin": "dìng",
+          "numeric": "ding4",
+          "wadegiles": "ting⁴",
+          "bopomofo": "ㄉㄧㄥˋ",
+          "romatzyh": "dinq"
+        },
+        "meanings": [
+          "to set",
+          "to fix",
+          "to determine",
+          "to decide",
+          "to order"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "定期",
+    "radical": "宀",
+    "frequency": 7535,
+    "pos": [
+      "d",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "定期",
+        "transcriptions": {
+          "pinyin": "dìng qī",
+          "numeric": "ding4 qi1",
+          "wadegiles": "ting⁴ ch'i¹",
+          "bopomofo": "ㄉㄧㄥˋ ㄑㄧ",
+          "romatzyh": "dinq chi"
+        },
+        "meanings": [
+          "at set dates",
+          "at regular intervals",
+          "periodic",
+          "limited to a fixed period of time",
+          "fixed term"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "丢",
+    "radical": "一",
+    "frequency": 1655,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "丟",
+        "transcriptions": {
+          "pinyin": "diū",
+          "numeric": "diu1",
+          "wadegiles": "tiu¹",
+          "bopomofo": "ㄉㄧㄡ",
+          "romatzyh": "diou"
+        },
+        "meanings": [
+          "to lose",
+          "to put aside",
+          "to throw"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "东",
+    "radical": "一",
+    "frequency": 1509,
+    "pos": [
+      "f",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "東",
+        "transcriptions": {
+          "pinyin": "Dōng",
+          "numeric": "Dong1",
+          "wadegiles": "tung¹",
+          "bopomofo": "ㄉㄨㄥ",
+          "romatzyh": "dong"
+        },
+        "meanings": [
+          "surname Dong"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "東",
+        "transcriptions": {
+          "pinyin": "dōng",
+          "numeric": "dong1",
+          "wadegiles": "tung¹",
+          "bopomofo": "ㄉㄨㄥ",
+          "romatzyh": "dong"
+        },
+        "meanings": [
+          "east",
+          "host (i.e. sitting on east side of guest)",
+          "landlord"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

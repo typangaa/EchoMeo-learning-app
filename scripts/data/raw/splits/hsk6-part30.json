@@ -1,0 +1,2174 @@
+[
+  {
+    "simplified": "据说",
+    "radical": "扌",
+    "frequency": 3486,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "據說",
+        "transcriptions": {
+          "pinyin": "jù shuō",
+          "numeric": "ju4 shuo1",
+          "wadegiles": "chü⁴ shuo¹",
+          "bopomofo": "ㄐㄩˋ ㄕㄨㄛ",
+          "romatzyh": "jiuh shuo"
+        },
+        "meanings": [
+          "it is said that; reportedly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "距离",
+    "radical": "足",
+    "frequency": 1725,
+    "pos": [
+      "n",
+      "p"
+    ],
+    "forms": [
+      {
+        "traditional": "距離",
+        "transcriptions": {
+          "pinyin": "jù lí",
+          "numeric": "ju4 li2",
+          "wadegiles": "chü⁴ li²",
+          "bopomofo": "ㄐㄩˋ ㄌㄧˊ",
+          "romatzyh": "jiuh li"
+        },
+        "meanings": [
+          "distance",
+          "to be apart from"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "聚",
+    "radical": "耳",
+    "frequency": 3213,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "聚",
+        "transcriptions": {
+          "pinyin": "jù",
+          "numeric": "ju4",
+          "wadegiles": "chü⁴",
+          "bopomofo": "ㄐㄩˋ",
+          "romatzyh": "jiuh"
+        },
+        "meanings": [
+          "to congregate",
+          "to assemble",
+          "to mass",
+          "to gather together",
+          "to amass",
+          "to polymerize"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "聚会",
+    "radical": "耳",
+    "frequency": 3191,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "聚會",
+        "transcriptions": {
+          "pinyin": "jù huì",
+          "numeric": "ju4 hui4",
+          "wadegiles": "chü⁴ hui⁴",
+          "bopomofo": "ㄐㄩˋ ㄏㄨㄟˋ",
+          "romatzyh": "jiuh huey"
+        },
+        "meanings": [
+          "party",
+          "gathering",
+          "to meet",
+          "to get together"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "捐",
+    "radical": "扌",
+    "frequency": 4602,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "捐",
+        "transcriptions": {
+          "pinyin": "juān",
+          "numeric": "juan1",
+          "wadegiles": "chüan¹",
+          "bopomofo": "ㄐㄩㄢ",
+          "romatzyh": "jiuan"
+        },
+        "meanings": [
+          "to relinquish; to abandon",
+          "to contribute; to donate",
+          "(bound form) tax; levy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "捐款",
+    "radical": "扌",
+    "frequency": 6397,
+    "pos": [
+      "v",
+      "n",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "捐款",
+        "transcriptions": {
+          "pinyin": "juān kuǎn",
+          "numeric": "juan1 kuan3",
+          "wadegiles": "chüan¹ k'uan³",
+          "bopomofo": "ㄐㄩㄢ ㄎㄨㄢˇ",
+          "romatzyh": "jiuan koan"
+        },
+        "meanings": [
+          "to donate money",
+          "to contribute funds",
+          "donation",
+          "contribution (of money)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "捐赠",
+    "radical": "扌",
+    "frequency": 5227,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "捐贈",
+        "transcriptions": {
+          "pinyin": "juān zèng",
+          "numeric": "juan1 zeng4",
+          "wadegiles": "chüan¹ tseng⁴",
+          "bopomofo": "ㄐㄩㄢ ㄗㄥˋ",
+          "romatzyh": "jiuan tzenq"
+        },
+        "meanings": [
+          "to contribute (as a gift)",
+          "to donate",
+          "benefaction"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "捐助",
+    "radical": "扌",
+    "frequency": 11302,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "捐助",
+        "transcriptions": {
+          "pinyin": "juān zhù",
+          "numeric": "juan1 zhu4",
+          "wadegiles": "chüan¹ chu⁴",
+          "bopomofo": "ㄐㄩㄢ ㄓㄨˋ",
+          "romatzyh": "jiuan juh"
+        },
+        "meanings": [
+          "to donate",
+          "to offer (aid)",
+          "contribution",
+          "donation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "卷",
+    "radical": "㔾",
+    "frequency": 2089,
+    "pos": [
+      "q",
+      "v",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "卷",
+        "transcriptions": {
+          "pinyin": "juǎn",
+          "numeric": "juan3",
+          "wadegiles": "chüan³",
+          "bopomofo": "ㄐㄩㄢˇ",
+          "romatzyh": "jeuan"
+        },
+        "meanings": [
+          "to roll up",
+          "roll",
+          "classifier for small rolled things (wad of paper money, movie reel etc)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "卷",
+        "transcriptions": {
+          "pinyin": "juàn",
+          "numeric": "juan4",
+          "wadegiles": "chüan⁴",
+          "bopomofo": "ㄐㄩㄢˋ",
+          "romatzyh": "jiuann"
+        },
+        "meanings": [
+          "scroll",
+          "book",
+          "volume",
+          "chapter",
+          "examination paper",
+          "classifier for books, paintings: volume, scroll"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "捲",
+        "transcriptions": {
+          "pinyin": "juǎn",
+          "numeric": "juan3",
+          "wadegiles": "chüan³",
+          "bopomofo": "ㄐㄩㄢˇ",
+          "romatzyh": "jeuan"
+        },
+        "meanings": [
+          "to roll up",
+          "to sweep up; to carry along",
+          "a roll",
+          "classifier for rolls, spools etc"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "决不",
+    "radical": "冫",
+    "frequency": 4618,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "決不",
+        "transcriptions": {
+          "pinyin": "jué bù",
+          "numeric": "jue2 bu4",
+          "wadegiles": "chüeh² pu⁴",
+          "bopomofo": "ㄐㄩㄝˊ ㄅㄨˋ",
+          "romatzyh": "jyue buh"
+        },
+        "meanings": [
+          "not at all",
+          "simply (can) not"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "决策",
+    "radical": "冫",
+    "frequency": 6070,
+    "pos": [
+      "n",
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "決策",
+        "transcriptions": {
+          "pinyin": "jué cè",
+          "numeric": "jue2 ce4",
+          "wadegiles": "chüeh² ts'e⁴",
+          "bopomofo": "ㄐㄩㄝˊ ㄘㄜˋ",
+          "romatzyh": "jyue tseh"
+        },
+        "meanings": [
+          "strategic decision",
+          "decision-making",
+          "policy decision",
+          "to determine policy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "决定",
+    "radical": "冫",
+    "frequency": 366,
+    "pos": [
+      "v",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "決定",
+        "transcriptions": {
+          "pinyin": "jué dìng",
+          "numeric": "jue2 ding4",
+          "wadegiles": "chüeh² ting⁴",
+          "bopomofo": "ㄐㄩㄝˊ ㄉㄧㄥˋ",
+          "romatzyh": "jyue dinq"
+        },
+        "meanings": [
+          "to decide (to do something)",
+          "to resolve",
+          "decision",
+          "certainly"
+        ],
+        "classifiers": [
+          "个",
+          "项"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "决赛",
+    "radical": "冫",
+    "frequency": 2326,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "決賽",
+        "transcriptions": {
+          "pinyin": "jué sài",
+          "numeric": "jue2 sai4",
+          "wadegiles": "chüeh² sai⁴",
+          "bopomofo": "ㄐㄩㄝˊ ㄙㄞˋ",
+          "romatzyh": "jyue say"
+        },
+        "meanings": [
+          "finals (of a competition)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "决心",
+    "radical": "冫",
+    "frequency": 4092,
+    "pos": [
+      "n",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "決心",
+        "transcriptions": {
+          "pinyin": "jué xīn",
+          "numeric": "jue2 xin1",
+          "wadegiles": "chüeh² hsin¹",
+          "bopomofo": "ㄐㄩㄝˊ ㄒㄧㄣ",
+          "romatzyh": "jyue shin"
+        },
+        "meanings": [
+          "determination",
+          "resolution",
+          "determined",
+          "firm and resolute",
+          "to make up one's mind"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "绝",
+    "radical": "纟",
+    "frequency": 2597,
+    "pos": [
+      "d",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "絕",
+        "transcriptions": {
+          "pinyin": "jué",
+          "numeric": "jue2",
+          "wadegiles": "chüeh²",
+          "bopomofo": "ㄐㄩㄝˊ",
+          "romatzyh": "jyue"
+        },
+        "meanings": [
+          "to cut short",
+          "extinct",
+          "to disappear",
+          "to vanish",
+          "absolutely",
+          "by no means"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "絶",
+        "transcriptions": {
+          "pinyin": "jué",
+          "numeric": "jue2",
+          "wadegiles": "chüeh²",
+          "bopomofo": "ㄐㄩㄝˊ",
+          "romatzyh": "jyue"
+        },
+        "meanings": [
+          "variant of 绝"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "绝大多数",
+    "radical": "纟",
+    "frequency": 7627,
+    "pos": [
+      "m"
+    ],
+    "forms": [
+      {
+        "traditional": "絕大多數",
+        "transcriptions": {
+          "pinyin": "jué dà duō shù",
+          "numeric": "jue2 da4 duo1 shu4",
+          "wadegiles": "chüeh² ta⁴ to¹ shu⁴",
+          "bopomofo": "ㄐㄩㄝˊ ㄉㄚˋ ㄉㄨㄛ ㄕㄨˋ",
+          "romatzyh": "jyue dah duo shuh"
+        },
+        "meanings": [
+          "the vast majority"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "绝对",
+    "radical": "纟",
+    "frequency": 744,
+    "pos": [
+      "d",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "絕對",
+        "transcriptions": {
+          "pinyin": "jué duì",
+          "numeric": "jue2 dui4",
+          "wadegiles": "chüeh² tui⁴",
+          "bopomofo": "ㄐㄩㄝˊ ㄉㄨㄟˋ",
+          "romatzyh": "jyue duey"
+        },
+        "meanings": [
+          "absolute",
+          "unconditional"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "绝望",
+    "radical": "纟",
+    "frequency": 4430,
+    "pos": [
+      "a",
+      "an",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "絕望",
+        "transcriptions": {
+          "pinyin": "jué wàng",
+          "numeric": "jue2 wang4",
+          "wadegiles": "chüeh² wang⁴",
+          "bopomofo": "ㄐㄩㄝˊ ㄨㄤˋ",
+          "romatzyh": "jyue wanq"
+        },
+        "meanings": [
+          "to despair",
+          "to give up all hope",
+          "desperate",
+          "desperation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "觉",
+    "radical": "见",
+    "frequency": 1983,
+    "pos": [
+      "v",
+      "g",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "覺",
+        "transcriptions": {
+          "pinyin": "jiào",
+          "numeric": "jiao4",
+          "wadegiles": "chiao⁴",
+          "bopomofo": "ㄐㄧㄠˋ",
+          "romatzyh": "jiaw"
+        },
+        "meanings": [
+          "a nap",
+          "a sleep"
+        ],
+        "classifiers": [
+          "场"
+        ]
+      },
+      {
+        "traditional": "覺",
+        "transcriptions": {
+          "pinyin": "jué",
+          "numeric": "jue2",
+          "wadegiles": "chüeh²",
+          "bopomofo": "ㄐㄩㄝˊ",
+          "romatzyh": "jyue"
+        },
+        "meanings": [
+          "to feel",
+          "to find that",
+          "thinking",
+          "awake",
+          "aware"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "觉得",
+    "radical": "见",
+    "frequency": 161,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "覺得",
+        "transcriptions": {
+          "pinyin": "jué de",
+          "numeric": "jue2 de5",
+          "wadegiles": "chüeh² de",
+          "bopomofo": "ㄐㄩㄝˊ de",
+          "romatzyh": "jyue de"
+        },
+        "meanings": [
+          "to think that ...; to feel that ...",
+          "to feel (uncomfortable etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "觉悟",
+    "radical": "见",
+    "frequency": 13487,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "覺悟",
+        "transcriptions": {
+          "pinyin": "jué wù",
+          "numeric": "jue2 wu4",
+          "wadegiles": "chüeh² wu⁴",
+          "bopomofo": "ㄐㄩㄝˊ ㄨˋ",
+          "romatzyh": "jyue wuh"
+        },
+        "meanings": [
+          "to come to understand",
+          "to realize",
+          "consciousness",
+          "awareness",
+          "Buddhist enlightenment (Sanskrit: cittotpāda)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "军队",
+    "radical": "车",
+    "frequency": 1868,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "軍隊",
+        "transcriptions": {
+          "pinyin": "jūn duì",
+          "numeric": "jun1 dui4",
+          "wadegiles": "chün¹ tui⁴",
+          "bopomofo": "ㄐㄩㄣ ㄉㄨㄟˋ",
+          "romatzyh": "jiun duey"
+        },
+        "meanings": [
+          "armed forces; troops"
+        ],
+        "classifiers": [
+          "支",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "军舰",
+    "radical": "车",
+    "frequency": 16028,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "軍艦",
+        "transcriptions": {
+          "pinyin": "jūn jiàn",
+          "numeric": "jun1 jian4",
+          "wadegiles": "chün¹ chien⁴",
+          "bopomofo": "ㄐㄩㄣ ㄐㄧㄢˋ",
+          "romatzyh": "jiun jiann"
+        },
+        "meanings": [
+          "warship",
+          "military naval vessel"
+        ],
+        "classifiers": [
+          "艘"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "军人",
+    "radical": "车",
+    "frequency": 4817,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "軍人",
+        "transcriptions": {
+          "pinyin": "jūn rén",
+          "numeric": "jun1 ren2",
+          "wadegiles": "chün¹ jen²",
+          "bopomofo": "ㄐㄩㄣ ㄖㄣˊ",
+          "romatzyh": "jiun ren"
+        },
+        "meanings": [
+          "serviceman",
+          "soldier",
+          "military personnel"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "军事",
+    "radical": "车",
+    "frequency": 2560,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "軍事",
+        "transcriptions": {
+          "pinyin": "jūn shì",
+          "numeric": "jun1 shi4",
+          "wadegiles": "chün¹ shih⁴",
+          "bopomofo": "ㄐㄩㄣ ㄕˋ",
+          "romatzyh": "jiun shyh"
+        },
+        "meanings": [
+          "military affairs",
+          "(attributive) military"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "咖啡",
+    "radical": "口",
+    "frequency": 1698,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "咖啡",
+        "transcriptions": {
+          "pinyin": "kā fēi",
+          "numeric": "ka1 fei1",
+          "wadegiles": "k'a¹ fei¹",
+          "bopomofo": "ㄎㄚ ㄈㄟ",
+          "romatzyh": "ka fei"
+        },
+        "meanings": [
+          "coffee (loanword)"
+        ],
+        "classifiers": [
+          "杯"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "卡",
+    "radical": "卜",
+    "frequency": 670,
+    "pos": [
+      "n",
+      "v",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "卡",
+        "transcriptions": {
+          "pinyin": "kǎ",
+          "numeric": "ka3",
+          "wadegiles": "k'a³",
+          "bopomofo": "ㄎㄚˇ",
+          "romatzyh": "kaa"
+        },
+        "meanings": [
+          "to stop",
+          "to block",
+          "(computing) (coll.) slow",
+          "(loanword) card",
+          "truck (from \"car\")",
+          "calorie (abbr. for 里)",
+          "cassette"
+        ],
+        "classifiers": [
+          "张",
+          "片"
+        ]
+      },
+      {
+        "traditional": "卡",
+        "transcriptions": {
+          "pinyin": "qiǎ",
+          "numeric": "qia3",
+          "wadegiles": "ch'ia³",
+          "bopomofo": "ㄑㄧㄚˇ",
+          "romatzyh": "chea"
+        },
+        "meanings": [
+          "to block",
+          "to be stuck",
+          "to be wedged",
+          "customs station",
+          "a clip",
+          "a fastener",
+          "a checkpost",
+          "Taiwan pr. [kǎ]"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开",
+    "radical": "廾",
+    "frequency": 195,
+    "pos": [
+      "v",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "開",
+        "transcriptions": {
+          "pinyin": "kāi",
+          "numeric": "kai1",
+          "wadegiles": "k'ai¹",
+          "bopomofo": "ㄎㄞ",
+          "romatzyh": "kai"
+        },
+        "meanings": [
+          "to open (transitive or intransitive)",
+          "(of ships, vehicles, troops etc) to start",
+          "to turn on; to put in operation; to operate; to run",
+          "to boil",
+          "to write out (a prescription, check, invoice etc)",
+          "(directional complement) away; off",
+          "carat (gold)",
+          "abbr. for Kelvin, 开尔文",
+          "abbr. for 开本, book format"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开车",
+    "radical": "廾",
+    "frequency": 2670,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "開車",
+        "transcriptions": {
+          "pinyin": "kāi chē",
+          "numeric": "kai1 che1",
+          "wadegiles": "k'ai¹ ch'e¹",
+          "bopomofo": "ㄎㄞ ㄔㄜ",
+          "romatzyh": "kai che"
+        },
+        "meanings": [
+          "to drive a car"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开创",
+    "radical": "廾",
+    "frequency": 9699,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "開創",
+        "transcriptions": {
+          "pinyin": "kāi chuàng",
+          "numeric": "kai1 chuang4",
+          "wadegiles": "k'ai¹ ch'uang⁴",
+          "bopomofo": "ㄎㄞ ㄔㄨㄤˋ",
+          "romatzyh": "kai chuanq"
+        },
+        "meanings": [
+          "to initiate",
+          "to start",
+          "to found"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开发",
+    "radical": "廾",
+    "frequency": 2981,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "開發",
+        "transcriptions": {
+          "pinyin": "kāi fā",
+          "numeric": "kai1 fa1",
+          "wadegiles": "k'ai¹ fa¹",
+          "bopomofo": "ㄎㄞ ㄈㄚ",
+          "romatzyh": "kai fa"
+        },
+        "meanings": [
+          "to exploit (a resource)",
+          "to open up (for development)",
+          "to develop"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开放",
+    "radical": "廾",
+    "frequency": 3036,
+    "pos": [
+      "v",
+      "vn",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "開放",
+        "transcriptions": {
+          "pinyin": "kāi fàng",
+          "numeric": "kai1 fang4",
+          "wadegiles": "k'ai¹ fang⁴",
+          "bopomofo": "ㄎㄞ ㄈㄤˋ",
+          "romatzyh": "kai fanq"
+        },
+        "meanings": [
+          "to bloom",
+          "to open",
+          "to be open (to the public)",
+          "to open up (to the outside)",
+          "to be open-minded",
+          "unrestrained by convention",
+          "unconstrained in one's sexuality"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开关",
+    "radical": "廾",
+    "frequency": 7738,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "開關",
+        "transcriptions": {
+          "pinyin": "kāi guān",
+          "numeric": "kai1 guan1",
+          "wadegiles": "k'ai¹ kuan¹",
+          "bopomofo": "ㄎㄞ ㄍㄨㄢ",
+          "romatzyh": "kai guan"
+        },
+        "meanings": [
+          "power switch",
+          "gas valve",
+          "to open the city (or frontier) gate",
+          "to open and close",
+          "to switch on and off"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开花",
+    "radical": "廾",
+    "frequency": 11764,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "開花",
+        "transcriptions": {
+          "pinyin": "kāi huā",
+          "numeric": "kai1 hua1",
+          "wadegiles": "k'ai¹ hua¹",
+          "bopomofo": "ㄎㄞ ㄏㄨㄚ",
+          "romatzyh": "kai hua"
+        },
+        "meanings": [
+          "to bloom; to blossom; to flower",
+          "(fig.) to burst; to split open",
+          "(fig.) to burst with joy",
+          "(fig.) to spring up everywhere; to flourish"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开会",
+    "radical": "廾",
+    "frequency": 4398,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "開會",
+        "transcriptions": {
+          "pinyin": "kāi huì",
+          "numeric": "kai1 hui4",
+          "wadegiles": "k'ai¹ hui⁴",
+          "bopomofo": "ㄎㄞ ㄏㄨㄟˋ",
+          "romatzyh": "kai huey"
+        },
+        "meanings": [
+          "to hold a meeting",
+          "to attend a meeting"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开机",
+    "radical": "廾",
+    "frequency": 12848,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "開機",
+        "transcriptions": {
+          "pinyin": "kāi jī",
+          "numeric": "kai1 ji1",
+          "wadegiles": "k'ai¹ chi¹",
+          "bopomofo": "ㄎㄞ ㄐㄧ",
+          "romatzyh": "kai ji"
+        },
+        "meanings": [
+          "to start an engine",
+          "to boot up (a computer)",
+          "to press Ctrl-Alt-Delete",
+          "to begin shooting a film or TV show"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开幕",
+    "radical": "廾",
+    "frequency": 9221,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "開幕",
+        "transcriptions": {
+          "pinyin": "kāi mù",
+          "numeric": "kai1 mu4",
+          "wadegiles": "k'ai¹ mu⁴",
+          "bopomofo": "ㄎㄞ ㄇㄨˋ",
+          "romatzyh": "kai muh"
+        },
+        "meanings": [
+          "to open (a conference)",
+          "to inaugurate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开幕式",
+    "radical": "廾",
+    "frequency": 9329,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "開幕式",
+        "transcriptions": {
+          "pinyin": "kāi mù shì",
+          "numeric": "kai1 mu4 shi4",
+          "wadegiles": "k'ai¹ mu⁴ shih⁴",
+          "bopomofo": "ㄎㄞ ㄇㄨˋ ㄕˋ",
+          "romatzyh": "kai muh shyh"
+        },
+        "meanings": [
+          "opening ceremony"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开设",
+    "radical": "廾",
+    "frequency": 10675,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "開設",
+        "transcriptions": {
+          "pinyin": "kāi shè",
+          "numeric": "kai1 she4",
+          "wadegiles": "k'ai¹ she⁴",
+          "bopomofo": "ㄎㄞ ㄕㄜˋ",
+          "romatzyh": "kai sheh"
+        },
+        "meanings": [
+          "to offer (goods or services)",
+          "to open (for business etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开始",
+    "radical": "廾",
+    "frequency": 132,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "開始",
+        "transcriptions": {
+          "pinyin": "kāi shǐ",
+          "numeric": "kai1 shi3",
+          "wadegiles": "k'ai¹ shih³",
+          "bopomofo": "ㄎㄞ ㄕˇ",
+          "romatzyh": "kai shyy"
+        },
+        "meanings": [
+          "to begin",
+          "beginning",
+          "to start",
+          "initial"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "开水",
+    "radical": "廾",
+    "frequency": 16321,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "開水",
+        "transcriptions": {
+          "pinyin": "kāi shuǐ",
+          "numeric": "kai1 shui3",
+          "wadegiles": "k'ai¹ shui³",
+          "bopomofo": "ㄎㄞ ㄕㄨㄟˇ",
+          "romatzyh": "kai shoei"
+        },
+        "meanings": [
+          "boiled water",
+          "boiling water"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开通",
+    "radical": "廾",
+    "frequency": 4644,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "開通",
+        "transcriptions": {
+          "pinyin": "kāi tōng",
+          "numeric": "kai1 tong1",
+          "wadegiles": "k'ai¹ t'ung¹",
+          "bopomofo": "ㄎㄞ ㄊㄨㄥ",
+          "romatzyh": "kai tong"
+        },
+        "meanings": [
+          "to open (a new road or railway line); to set up (a hotline); to launch (a service); to subscribe to (a members-only service)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "開通",
+        "transcriptions": {
+          "pinyin": "kāi tong",
+          "numeric": "kai1 tong5",
+          "wadegiles": "k'ai¹ tong",
+          "bopomofo": "ㄎㄞ tong",
+          "romatzyh": "kai tong"
+        },
+        "meanings": [
+          "open-minded"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开头",
+    "radical": "廾",
+    "frequency": 7063,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "開頭",
+        "transcriptions": {
+          "pinyin": "kāi tóu",
+          "numeric": "kai1 tou2",
+          "wadegiles": "k'ai¹ t'ou²",
+          "bopomofo": "ㄎㄞ ㄊㄡˊ",
+          "romatzyh": "kai tour"
+        },
+        "meanings": [
+          "beginning",
+          "to start"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开玩笑",
+    "radical": "廾",
+    "frequency": 3878,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "開玩笑",
+        "transcriptions": {
+          "pinyin": "kāi wán xiào",
+          "numeric": "kai1 wan2 xiao4",
+          "wadegiles": "k'ai¹ wan² hsiao⁴",
+          "bopomofo": "ㄎㄞ ㄨㄢˊ ㄒㄧㄠˋ",
+          "romatzyh": "kai wan shiaw"
+        },
+        "meanings": [
+          "to play a joke",
+          "to make fun of",
+          "to joke"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开心",
+    "radical": "廾",
+    "frequency": 667,
+    "pos": [
+      "a",
+      "v",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "開心",
+        "transcriptions": {
+          "pinyin": "kāi xīn",
+          "numeric": "kai1 xin1",
+          "wadegiles": "k'ai¹ hsin¹",
+          "bopomofo": "ㄎㄞ ㄒㄧㄣ",
+          "romatzyh": "kai shin"
+        },
+        "meanings": [
+          "to feel happy",
+          "to rejoice",
+          "to have a great time",
+          "to make fun of sb"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开学",
+    "radical": "廾",
+    "frequency": 10160,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "開學",
+        "transcriptions": {
+          "pinyin": "kāi xué",
+          "numeric": "kai1 xue2",
+          "wadegiles": "k'ai¹ hsüeh²",
+          "bopomofo": "ㄎㄞ ㄒㄩㄝˊ",
+          "romatzyh": "kai shyue"
+        },
+        "meanings": [
+          "foundation of a University or College",
+          "school opening",
+          "the start of a new term"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开业",
+    "radical": "廾",
+    "frequency": 7802,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "開業",
+        "transcriptions": {
+          "pinyin": "kāi yè",
+          "numeric": "kai1 ye4",
+          "wadegiles": "k'ai¹ yeh⁴",
+          "bopomofo": "ㄎㄞ ㄧㄝˋ",
+          "romatzyh": "kai yeh"
+        },
+        "meanings": [
+          "to open a business",
+          "to open a practice",
+          "open (for business)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开夜车",
+    "radical": "廾",
+    "frequency": 49510,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "開夜車",
+        "transcriptions": {
+          "pinyin": "kāi yè chē",
+          "numeric": "kai1 ye4 che1",
+          "wadegiles": "k'ai¹ yeh⁴ ch'e¹",
+          "bopomofo": "ㄎㄞ ㄧㄝˋ ㄔㄜ",
+          "romatzyh": "kai yeh che"
+        },
+        "meanings": [
+          "to burn the midnight oil",
+          "to work late into the night"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "开展",
+    "radical": "廾",
+    "frequency": 6041,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "開展",
+        "transcriptions": {
+          "pinyin": "kāi zhǎn",
+          "numeric": "kai1 zhan3",
+          "wadegiles": "k'ai¹ chan³",
+          "bopomofo": "ㄎㄞ ㄓㄢˇ",
+          "romatzyh": "kai jaan"
+        },
+        "meanings": [
+          "to launch",
+          "to develop",
+          "to unfold",
+          "(of an exhibition etc) to open"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "看",
+    "radical": "目",
+    "frequency": 52,
+    "pos": [
+      "v",
+      "u"
+    ],
+    "forms": [
+      {
+        "traditional": "看",
+        "transcriptions": {
+          "pinyin": "kān",
+          "numeric": "kan1",
+          "wadegiles": "k'an¹",
+          "bopomofo": "ㄎㄢ",
+          "romatzyh": "kan"
+        },
+        "meanings": [
+          "to look after",
+          "to take care of",
+          "to watch",
+          "to guard"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "看",
+        "transcriptions": {
+          "pinyin": "kàn",
+          "numeric": "kan4",
+          "wadegiles": "k'an⁴",
+          "bopomofo": "ㄎㄢˋ",
+          "romatzyh": "kann"
+        },
+        "meanings": [
+          "to see; to look at",
+          "to read",
+          "to watch",
+          "to visit; to call on",
+          "to consider; to regard as",
+          "to look after",
+          "to treat (a patient or illness)",
+          "to depend on",
+          "to feel (that)",
+          "(after a verb) to give it a try",
+          "to watch out for"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "看病",
+    "radical": "目",
+    "frequency": 7705,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "看病",
+        "transcriptions": {
+          "pinyin": "kàn bìng",
+          "numeric": "kan4 bing4",
+          "wadegiles": "k'an⁴ ping⁴",
+          "bopomofo": "ㄎㄢˋ ㄅㄧㄥˋ",
+          "romatzyh": "kann binq"
+        },
+        "meanings": [
+          "to visit a doctor",
+          "to see a patient"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "看不起",
+    "radical": "目",
+    "frequency": 15152,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "看不起",
+        "transcriptions": {
+          "pinyin": "kàn bu qǐ",
+          "numeric": "kan4 bu5 qi3",
+          "wadegiles": "k'an⁴ bu ch'i³",
+          "bopomofo": "ㄎㄢˋ bu ㄑㄧˇ",
+          "romatzyh": "kann bu chii"
+        },
+        "meanings": [
+          "to look down upon",
+          "to despise"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "看成",
+    "radical": "目",
+    "frequency": 7773,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "看成",
+        "transcriptions": {
+          "pinyin": "kàn chéng",
+          "numeric": "kan4 cheng2",
+          "wadegiles": "k'an⁴ ch'eng²",
+          "bopomofo": "ㄎㄢˋ ㄔㄥˊ",
+          "romatzyh": "kann cherng"
+        },
+        "meanings": [
+          "to regard as"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "看出",
+    "radical": "目",
+    "frequency": 3549,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "看出",
+        "transcriptions": {
+          "pinyin": "kàn chū",
+          "numeric": "kan4 chu1",
+          "wadegiles": "k'an⁴ ch'u¹",
+          "bopomofo": "ㄎㄢˋ ㄔㄨ",
+          "romatzyh": "kann chu"
+        },
+        "meanings": [
+          "to make out",
+          "to see"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "看待",
+    "radical": "目",
+    "frequency": 5407,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "看待",
+        "transcriptions": {
+          "pinyin": "kàn dài",
+          "numeric": "kan4 dai4",
+          "wadegiles": "k'an⁴ tai⁴",
+          "bopomofo": "ㄎㄢˋ ㄉㄞˋ",
+          "romatzyh": "kann day"
+        },
+        "meanings": [
+          "to look upon; to regard"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "看到",
+    "radical": "目",
+    "frequency": 169,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "看到",
+        "transcriptions": {
+          "pinyin": "kàn dào",
+          "numeric": "kan4 dao4",
+          "wadegiles": "k'an⁴ tao⁴",
+          "bopomofo": "ㄎㄢˋ ㄉㄠˋ",
+          "romatzyh": "kann daw"
+        },
+        "meanings": [
+          "to see"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "看得见",
+    "radical": "目",
+    "frequency": 13107,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "看得見",
+        "transcriptions": {
+          "pinyin": "kàn dé jiàn",
+          "numeric": "kan4 de2 jian4",
+          "wadegiles": "k'an⁴ te² chien⁴",
+          "bopomofo": "ㄎㄢˋ ㄉㄜˊ ㄐㄧㄢˋ",
+          "romatzyh": "kann der jiann"
+        },
+        "meanings": [
+          "can see",
+          "visible"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "看得起",
+    "radical": "目",
+    "frequency": 42625,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "看得起",
+        "transcriptions": {
+          "pinyin": "kàn de qǐ",
+          "numeric": "kan4 de5 qi3",
+          "wadegiles": "k'an⁴ de ch'i³",
+          "bopomofo": "ㄎㄢˋ de ㄑㄧˇ",
+          "romatzyh": "kann de chii"
+        },
+        "meanings": [
+          "to show respect for",
+          "to think highly of"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "看法",
+    "radical": "目",
+    "frequency": 2435,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "看法",
+        "transcriptions": {
+          "pinyin": "kàn fǎ",
+          "numeric": "kan4 fa3",
+          "wadegiles": "k'an⁴ fa³",
+          "bopomofo": "ㄎㄢˋ ㄈㄚˇ",
+          "romatzyh": "kann faa"
+        },
+        "meanings": [
+          "way of looking at a thing",
+          "view",
+          "opinion"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "看管",
+    "radical": "目",
+    "frequency": 15697,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "看管",
+        "transcriptions": {
+          "pinyin": "kān guǎn",
+          "numeric": "kan1 guan3",
+          "wadegiles": "k'an¹ kuan³",
+          "bopomofo": "ㄎㄢ ㄍㄨㄢˇ",
+          "romatzyh": "kan goan"
+        },
+        "meanings": [
+          "to look after"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "看好",
+    "radical": "目",
+    "frequency": 5015,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "看好",
+        "transcriptions": {
+          "pinyin": "kān hǎo",
+          "numeric": "kan1 hao3",
+          "wadegiles": "k'an¹ hao³",
+          "bopomofo": "ㄎㄢ ㄏㄠˇ",
+          "romatzyh": "kan hao"
+        },
+        "meanings": [
+          "to keep an eye on"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "看好",
+        "transcriptions": {
+          "pinyin": "kàn hǎo",
+          "numeric": "kan4 hao3",
+          "wadegiles": "k'an⁴ hao³",
+          "bopomofo": "ㄎㄢˋ ㄏㄠˇ",
+          "romatzyh": "kann hao"
+        },
+        "meanings": [
+          "to regard as having good prospects"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "看见",
+    "radical": "目",
+    "frequency": 870,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "看見",
+        "transcriptions": {
+          "pinyin": "kàn jiàn",
+          "numeric": "kan4 jian4",
+          "wadegiles": "k'an⁴ chien⁴",
+          "bopomofo": "ㄎㄢˋ ㄐㄧㄢˋ",
+          "romatzyh": "kann jiann"
+        },
+        "meanings": [
+          "to see",
+          "to catch sight of"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "看来",
+    "radical": "目",
+    "frequency": 774,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "看來",
+        "transcriptions": {
+          "pinyin": "kàn lai",
+          "numeric": "kan4 lai5",
+          "wadegiles": "k'an⁴ lai",
+          "bopomofo": "ㄎㄢˋ lai",
+          "romatzyh": "kann lai"
+        },
+        "meanings": [
+          "apparently",
+          "it seems that"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "看起来",
+    "radical": "目",
+    "frequency": 3085,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "看起來",
+        "transcriptions": {
+          "pinyin": "kàn qǐ lai",
+          "numeric": "kan4 qi3 lai5",
+          "wadegiles": "k'an⁴ ch'i³ lai",
+          "bopomofo": "ㄎㄢˋ ㄑㄧˇ lai",
+          "romatzyh": "kann chii lai"
+        },
+        "meanings": [
+          "seemingly",
+          "apparently",
+          "looks as if",
+          "appear to be",
+          "gives the impression that",
+          "seems on the face of it to be"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "看上去",
+    "radical": "目",
+    "frequency": 2674,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "看上去",
+        "transcriptions": {
+          "pinyin": "kàn shang qu",
+          "numeric": "kan4 shang5 qu5",
+          "wadegiles": "k'an⁴ shang qu",
+          "bopomofo": "ㄎㄢˋ shang qu",
+          "romatzyh": "kann shang qu"
+        },
+        "meanings": [
+          "it would appear",
+          "it seems (that)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "看望",
+    "radical": "目",
+    "frequency": 8053,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "看望",
+        "transcriptions": {
+          "pinyin": "kàn wàng",
+          "numeric": "kan4 wang4",
+          "wadegiles": "k'an⁴ wang⁴",
+          "bopomofo": "ㄎㄢˋ ㄨㄤˋ",
+          "romatzyh": "kann wanq"
+        },
+        "meanings": [
+          "to pay a visit to; to see (sb)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "看作",
+    "radical": "目",
+    "frequency": 7737,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "看作",
+        "transcriptions": {
+          "pinyin": "kàn zuò",
+          "numeric": "kan4 zuo4",
+          "wadegiles": "k'an⁴ tso⁴",
+          "bopomofo": "ㄎㄢˋ ㄗㄨㄛˋ",
+          "romatzyh": "kann tzuoh"
+        },
+        "meanings": [
+          "to look upon as",
+          "to regard as"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "康复",
+    "radical": "广",
+    "frequency": 4482,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "康復",
+        "transcriptions": {
+          "pinyin": "kāng fù",
+          "numeric": "kang1 fu4",
+          "wadegiles": "k'ang¹ fu⁴",
+          "bopomofo": "ㄎㄤ ㄈㄨˋ",
+          "romatzyh": "kang fuh"
+        },
+        "meanings": [
+          "to recuperate",
+          "to recover (health)",
+          "to convalesce"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "抗议",
+    "radical": "扌",
+    "frequency": 4910,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "抗議",
+        "transcriptions": {
+          "pinyin": "kàng yì",
+          "numeric": "kang4 yi4",
+          "wadegiles": "k'ang⁴ i⁴",
+          "bopomofo": "ㄎㄤˋ ㄧˋ",
+          "romatzyh": "kanq yih"
+        },
+        "meanings": [
+          "to protest",
+          "protest"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "考",
+    "radical": "耂",
+    "frequency": 2030,
+    "pos": [
+      "v",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "攷",
+        "transcriptions": {
+          "pinyin": "kǎo",
+          "numeric": "kao3",
+          "wadegiles": "k'ao³",
+          "bopomofo": "ㄎㄠˇ",
+          "romatzyh": "kao"
+        },
+        "meanings": [
+          "to beat",
+          "to hit",
+          "variant of 考",
+          "to inspect",
+          "to test",
+          "to take an exam"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "考",
+        "transcriptions": {
+          "pinyin": "kǎo",
+          "numeric": "kao3",
+          "wadegiles": "k'ao³",
+          "bopomofo": "ㄎㄠˇ",
+          "romatzyh": "kao"
+        },
+        "meanings": [
+          "to check",
+          "to verify",
+          "to test",
+          "to examine",
+          "to take an exam",
+          "to take an entrance exam for",
+          "deceased father"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "考察",
+    "radical": "耂",
+    "frequency": 6038,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "考察",
+        "transcriptions": {
+          "pinyin": "kǎo chá",
+          "numeric": "kao3 cha2",
+          "wadegiles": "k'ao³ ch'a²",
+          "bopomofo": "ㄎㄠˇ ㄔㄚˊ",
+          "romatzyh": "kao char"
+        },
+        "meanings": [
+          "to inspect",
+          "to observe and study",
+          "on-the-spot investigation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "考场",
+    "radical": "耂",
+    "frequency": 28097,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "考場",
+        "transcriptions": {
+          "pinyin": "kǎo chǎng",
+          "numeric": "kao3 chang3",
+          "wadegiles": "k'ao³ ch'ang³",
+          "bopomofo": "ㄎㄠˇ ㄔㄤˇ",
+          "romatzyh": "kao chaang"
+        },
+        "meanings": [
+          "exam room"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "考核",
+    "radical": "耂",
+    "frequency": 12382,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "考核",
+        "transcriptions": {
+          "pinyin": "kǎo hé",
+          "numeric": "kao3 he2",
+          "wadegiles": "k'ao³ ho²",
+          "bopomofo": "ㄎㄠˇ ㄏㄜˊ",
+          "romatzyh": "kao her"
+        },
+        "meanings": [
+          "to examine",
+          "to check up on",
+          "to assess",
+          "to review",
+          "appraisal",
+          "review",
+          "evaluation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "考虑",
+    "radical": "耂",
+    "frequency": 607,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "考慮",
+        "transcriptions": {
+          "pinyin": "kǎo lu:4",
+          "numeric": "kao3 lü4",
+          "wadegiles": "k'ao³ lu:4",
+          "bopomofo": "ㄎㄠˇ lu:4",
+          "romatzyh": "kao lu:4"
+        },
+        "meanings": [
+          "to think over",
+          "to consider",
+          "consideration"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "考生",
+    "radical": "耂",
+    "frequency": 26644,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "考生",
+        "transcriptions": {
+          "pinyin": "kǎo shēng",
+          "numeric": "kao3 sheng1",
+          "wadegiles": "k'ao³ sheng¹",
+          "bopomofo": "ㄎㄠˇ ㄕㄥ",
+          "romatzyh": "kao sheng"
+        },
+        "meanings": [
+          "exam candidate",
+          "student whose name has been put forward for an exam"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

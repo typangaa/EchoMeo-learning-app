@@ -1,0 +1,2016 @@
+[
+  {
+    "simplified": "卸",
+    "radical": "卩",
+    "frequency": 8077,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "卸",
+        "transcriptions": {
+          "pinyin": "xiè",
+          "numeric": "xie4",
+          "wadegiles": "hsieh⁴",
+          "bopomofo": "ㄒㄧㄝˋ",
+          "romatzyh": "shieh"
+        },
+        "meanings": [
+          "to unload",
+          "to unhitch",
+          "to remove or strip",
+          "to get rid of"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "谢谢",
+    "radical": "讠",
+    "frequency": 520,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "謝謝",
+        "transcriptions": {
+          "pinyin": "xiè xie",
+          "numeric": "xie4 xie5",
+          "wadegiles": "hsieh⁴ xie",
+          "bopomofo": "ㄒㄧㄝˋ xie",
+          "romatzyh": "shieh xie"
+        },
+        "meanings": [
+          "to thank",
+          "thanks",
+          "thank you"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心",
+    "radical": "心",
+    "frequency": 291,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心",
+        "transcriptions": {
+          "pinyin": "xīn",
+          "numeric": "xin1",
+          "wadegiles": "hsin¹",
+          "bopomofo": "ㄒㄧㄣ",
+          "romatzyh": "shin"
+        },
+        "meanings": [
+          "heart",
+          "mind",
+          "intention",
+          "center",
+          "core"
+        ],
+        "classifiers": [
+          "颗",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "心爱",
+    "radical": "心",
+    "frequency": 7587,
+    "pos": [
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "心愛",
+        "transcriptions": {
+          "pinyin": "xīn ài",
+          "numeric": "xin1 ai4",
+          "wadegiles": "hsin¹ ai⁴",
+          "bopomofo": "ㄒㄧㄣ ㄞˋ",
+          "romatzyh": "shin ay"
+        },
+        "meanings": [
+          "beloved"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心安理得",
+    "radical": "心",
+    "frequency": 25820,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "心安理得",
+        "transcriptions": {
+          "pinyin": "xīn ān lǐ dé",
+          "numeric": "xin1 an1 li3 de2",
+          "wadegiles": "hsin¹ an¹ li³ te²",
+          "bopomofo": "ㄒㄧㄣ ㄢ ㄌㄧˇ ㄉㄜˊ",
+          "romatzyh": "shin an lii der"
+        },
+        "meanings": [
+          "to have a clear conscience",
+          "to have no qualms about sth"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心病",
+    "radical": "心",
+    "frequency": 27340,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心病",
+        "transcriptions": {
+          "pinyin": "xīn bìng",
+          "numeric": "xin1 bing4",
+          "wadegiles": "hsin¹ ping⁴",
+          "bopomofo": "ㄒㄧㄣ ㄅㄧㄥˋ",
+          "romatzyh": "shin binq"
+        },
+        "meanings": [
+          "anxiety",
+          "sore point",
+          "secret worry",
+          "mental disorder",
+          "heart disease (medicine)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心肠",
+    "radical": "心",
+    "frequency": 17817,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心腸",
+        "transcriptions": {
+          "pinyin": "xīn cháng",
+          "numeric": "xin1 chang2",
+          "wadegiles": "hsin¹ ch'ang²",
+          "bopomofo": "ㄒㄧㄣ ㄔㄤˊ",
+          "romatzyh": "shin charng"
+        },
+        "meanings": [
+          "heart",
+          "intention",
+          "one's inclination",
+          "state of mind",
+          "to have the heart for sth",
+          "mood"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心得",
+    "radical": "心",
+    "frequency": 14908,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心得",
+        "transcriptions": {
+          "pinyin": "xīn dé",
+          "numeric": "xin1 de2",
+          "wadegiles": "hsin¹ te²",
+          "bopomofo": "ㄒㄧㄣ ㄉㄜˊ",
+          "romatzyh": "shin der"
+        },
+        "meanings": [
+          "what one has learned (through experience, reading etc)",
+          "knowledge",
+          "insight",
+          "understanding",
+          "tips"
+        ],
+        "classifiers": [
+          "项",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "心慌",
+    "radical": "心",
+    "frequency": 27384,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "心慌",
+        "transcriptions": {
+          "pinyin": "xīn huāng",
+          "numeric": "xin1 huang1",
+          "wadegiles": "hsin¹ huang¹",
+          "bopomofo": "ㄒㄧㄣ ㄏㄨㄤ",
+          "romatzyh": "shin huang"
+        },
+        "meanings": [
+          "to be flustered",
+          "(dialect) irregular heart-beat"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心急如焚",
+    "radical": "心",
+    "frequency": 32937,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "心急如焚",
+        "transcriptions": {
+          "pinyin": "xīn jí rú fén",
+          "numeric": "xin1 ji2 ru2 fen2",
+          "wadegiles": "hsin¹ chi² ju² fen²",
+          "bopomofo": "ㄒㄧㄣ ㄐㄧˊ ㄖㄨˊ ㄈㄣˊ",
+          "romatzyh": "shin jyi ru fern"
+        },
+        "meanings": [
+          "to burn with impatience",
+          "torn with anxiety"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心里",
+    "radical": "心",
+    "frequency": 1214,
+    "pos": [
+      "s"
+    ],
+    "forms": [
+      {
+        "traditional": "心裡",
+        "transcriptions": {
+          "pinyin": "xīn li",
+          "numeric": "xin1 li5",
+          "wadegiles": "hsin¹ li",
+          "bopomofo": "ㄒㄧㄣ li",
+          "romatzyh": "shin li"
+        },
+        "meanings": [
+          "chest",
+          "heart",
+          "mind"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心里话",
+    "radical": "心",
+    "frequency": 16506,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心裡話",
+        "transcriptions": {
+          "pinyin": "xīn li huà",
+          "numeric": "xin1 li5 hua4",
+          "wadegiles": "hsin¹ li hua⁴",
+          "bopomofo": "ㄒㄧㄣ li ㄏㄨㄚˋ",
+          "romatzyh": "shin li huah"
+        },
+        "meanings": [
+          "(to express one's) true feelings",
+          "what is on one's mind",
+          "secret mind"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心理",
+    "radical": "心",
+    "frequency": 1160,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心理",
+        "transcriptions": {
+          "pinyin": "xīn lǐ",
+          "numeric": "xin1 li3",
+          "wadegiles": "hsin¹ li³",
+          "bopomofo": "ㄒㄧㄣ ㄌㄧˇ",
+          "romatzyh": "shin lii"
+        },
+        "meanings": [
+          "psychology",
+          "mentality"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心灵",
+    "radical": "心",
+    "frequency": 3168,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心靈",
+        "transcriptions": {
+          "pinyin": "xīn líng",
+          "numeric": "xin1 ling2",
+          "wadegiles": "hsin¹ ling²",
+          "bopomofo": "ㄒㄧㄣ ㄌㄧㄥˊ",
+          "romatzyh": "shin ling"
+        },
+        "meanings": [
+          "bright",
+          "smart",
+          "quick-witted",
+          "heart",
+          "thoughts",
+          "spirit"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心灵手巧",
+    "radical": "心",
+    "frequency": 44403,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "心靈手巧",
+        "transcriptions": {
+          "pinyin": "xīn líng shǒu qiǎo",
+          "numeric": "xin1 ling2 shou3 qiao3",
+          "wadegiles": "hsin¹ ling² shou³ ch'iao³",
+          "bopomofo": "ㄒㄧㄣ ㄌㄧㄥˊ ㄕㄡˇ ㄑㄧㄠˇ",
+          "romatzyh": "shin ling shoou cheau"
+        },
+        "meanings": [
+          "capable",
+          "clever",
+          "dexterous"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心目",
+    "radical": "心",
+    "frequency": 7322,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心目",
+        "transcriptions": {
+          "pinyin": "xīn mù",
+          "numeric": "xin1 mu4",
+          "wadegiles": "hsin¹ mu⁴",
+          "bopomofo": "ㄒㄧㄣ ㄇㄨˋ",
+          "romatzyh": "shin muh"
+        },
+        "meanings": [
+          "mind"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心情",
+    "radical": "心",
+    "frequency": 1302,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心情",
+        "transcriptions": {
+          "pinyin": "xīn qíng",
+          "numeric": "xin1 qing2",
+          "wadegiles": "hsin¹ ch'ing²",
+          "bopomofo": "ㄒㄧㄣ ㄑㄧㄥˊ",
+          "romatzyh": "shin chyng"
+        },
+        "meanings": [
+          "mood; frame of mind"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "心声",
+    "radical": "心",
+    "frequency": 8599,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心聲",
+        "transcriptions": {
+          "pinyin": "xīn shēng",
+          "numeric": "xin1 sheng1",
+          "wadegiles": "hsin¹ sheng¹",
+          "bopomofo": "ㄒㄧㄣ ㄕㄥ",
+          "romatzyh": "shin sheng"
+        },
+        "meanings": [
+          "thoughts",
+          "feelings",
+          "aspirations",
+          "heartfelt wishes",
+          "inner voice"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心事",
+    "radical": "心",
+    "frequency": 9447,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心事",
+        "transcriptions": {
+          "pinyin": "xīn shì",
+          "numeric": "xin1 shi4",
+          "wadegiles": "hsin¹ shih⁴",
+          "bopomofo": "ㄒㄧㄣ ㄕˋ",
+          "romatzyh": "shin shyh"
+        },
+        "meanings": [
+          "a load on one's mind",
+          "worry"
+        ],
+        "classifiers": [
+          "宗",
+          "桩"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "心思",
+    "radical": "心",
+    "frequency": 5582,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心思",
+        "transcriptions": {
+          "pinyin": "xīn si",
+          "numeric": "xin1 si5",
+          "wadegiles": "hsin¹ si",
+          "bopomofo": "ㄒㄧㄣ si",
+          "romatzyh": "shin si"
+        },
+        "meanings": [
+          "mind",
+          "thoughts",
+          "inclination",
+          "mood"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心酸",
+    "radical": "心",
+    "frequency": 20160,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "心酸",
+        "transcriptions": {
+          "pinyin": "xīn suān",
+          "numeric": "xin1 suan1",
+          "wadegiles": "hsin¹ suan¹",
+          "bopomofo": "ㄒㄧㄣ ㄙㄨㄢ",
+          "romatzyh": "shin suan"
+        },
+        "meanings": [
+          "to feel sad"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心态",
+    "radical": "心",
+    "frequency": 6962,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心態",
+        "transcriptions": {
+          "pinyin": "xīn tài",
+          "numeric": "xin1 tai4",
+          "wadegiles": "hsin¹ t'ai⁴",
+          "bopomofo": "ㄒㄧㄣ ㄊㄞˋ",
+          "romatzyh": "shin tay"
+        },
+        "meanings": [
+          "attitude (of the heart)",
+          "state of one's psyche",
+          "way of thinking",
+          "mentality"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心疼",
+    "radical": "心",
+    "frequency": 14175,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "心疼",
+        "transcriptions": {
+          "pinyin": "xīn téng",
+          "numeric": "xin1 teng2",
+          "wadegiles": "hsin¹ t'eng²",
+          "bopomofo": "ㄒㄧㄣ ㄊㄥˊ",
+          "romatzyh": "shin terng"
+        },
+        "meanings": [
+          "to love dearly",
+          "to feel sorry for sb",
+          "to regret",
+          "to grudge",
+          "to be distressed"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心想事成",
+    "radical": "心",
+    "frequency": 17746,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "心想事成",
+        "transcriptions": {
+          "pinyin": "xīn xiǎng shì chéng",
+          "numeric": "xin1 xiang3 shi4 cheng2",
+          "wadegiles": "hsin¹ hsiang³ shih⁴ ch'eng²",
+          "bopomofo": "ㄒㄧㄣ ㄒㄧㄤˇ ㄕˋ ㄔㄥˊ",
+          "romatzyh": "shin sheang shyh cherng"
+        },
+        "meanings": [
+          "to have one's wishes come true",
+          "wish you the best!"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心胸",
+    "radical": "心",
+    "frequency": 14296,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心胸",
+        "transcriptions": {
+          "pinyin": "xīn xiōng",
+          "numeric": "xin1 xiong1",
+          "wadegiles": "hsin¹ hsiung¹",
+          "bopomofo": "ㄒㄧㄣ ㄒㄩㄥ",
+          "romatzyh": "shin shiong"
+        },
+        "meanings": [
+          "heart",
+          "mind",
+          "ambition",
+          "aspiration"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心血",
+    "radical": "心",
+    "frequency": 10451,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心血",
+        "transcriptions": {
+          "pinyin": "xīn xuè",
+          "numeric": "xin1 xue4",
+          "wadegiles": "hsin¹ hsüeh⁴",
+          "bopomofo": "ㄒㄧㄣ ㄒㄩㄝˋ",
+          "romatzyh": "shin shiueh"
+        },
+        "meanings": [
+          "heart's blood",
+          "expenditure (for some project)",
+          "meticulous care"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心眼儿",
+    "radical": "心",
+    "frequency": 55439,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "心眼兒",
+        "transcriptions": {
+          "pinyin": "xīn yǎn r",
+          "numeric": "xin1 yan3 r5",
+          "wadegiles": "hsin¹ yan³ r",
+          "bopomofo": "ㄒㄧㄣ ㄧㄢˇ r",
+          "romatzyh": "shin yean r"
+        },
+        "meanings": [
+          "one's thoughts",
+          "mind",
+          "intention",
+          "willingness to accept new ideas",
+          "baseless suspicions"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心意",
+    "radical": "心",
+    "frequency": 7619,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心意",
+        "transcriptions": {
+          "pinyin": "xīn yì",
+          "numeric": "xin1 yi4",
+          "wadegiles": "hsin¹ i⁴",
+          "bopomofo": "ㄒㄧㄣ ㄧˋ",
+          "romatzyh": "shin yih"
+        },
+        "meanings": [
+          "intention",
+          "regard; kindly feelings"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心愿",
+    "radical": "心",
+    "frequency": 7950,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心願",
+        "transcriptions": {
+          "pinyin": "xīn yuàn",
+          "numeric": "xin1 yuan4",
+          "wadegiles": "hsin¹ yüan⁴",
+          "bopomofo": "ㄒㄧㄣ ㄩㄢˋ",
+          "romatzyh": "shin yuann"
+        },
+        "meanings": [
+          "cherished desire",
+          "dream",
+          "craving",
+          "wish",
+          "aspiration"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心脏",
+    "radical": "心",
+    "frequency": 2663,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心臟",
+        "transcriptions": {
+          "pinyin": "xīn zàng",
+          "numeric": "xin1 zang4",
+          "wadegiles": "hsin¹ tsang⁴",
+          "bopomofo": "ㄒㄧㄣ ㄗㄤˋ",
+          "romatzyh": "shin tzanq"
+        },
+        "meanings": [
+          "heart"
+        ],
+        "classifiers": [
+          "颗",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "心脏病",
+    "radical": "心",
+    "frequency": 5722,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "心臟病",
+        "transcriptions": {
+          "pinyin": "xīn zàng bìng",
+          "numeric": "xin1 zang4 bing4",
+          "wadegiles": "hsin¹ tsang⁴ ping⁴",
+          "bopomofo": "ㄒㄧㄣ ㄗㄤˋ ㄅㄧㄥˋ",
+          "romatzyh": "shin tzanq binq"
+        },
+        "meanings": [
+          "heart disease"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "心中",
+    "radical": "心",
+    "frequency": 1983,
+    "pos": [
+      "s"
+    ],
+    "forms": [
+      {
+        "traditional": "心中",
+        "transcriptions": {
+          "pinyin": "xīn zhōng",
+          "numeric": "xin1 zhong1",
+          "wadegiles": "hsin¹ chung¹",
+          "bopomofo": "ㄒㄧㄣ ㄓㄨㄥ",
+          "romatzyh": "shin jong"
+        },
+        "meanings": [
+          "central point",
+          "in one's thoughts",
+          "in one's heart"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "芯片",
+    "radical": "艹",
+    "frequency": 4335,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "芯片",
+        "transcriptions": {
+          "pinyin": "xīn piàn",
+          "numeric": "xin1 pian4",
+          "wadegiles": "hsin¹ p'ien⁴",
+          "bopomofo": "ㄒㄧㄣ ㄆㄧㄢˋ",
+          "romatzyh": "shin piann"
+        },
+        "meanings": [
+          "computer chip",
+          "microchip"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "辛苦",
+    "radical": "辛",
+    "frequency": 2449,
+    "pos": [
+      "a",
+      "v",
+      "ad",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "辛苦",
+        "transcriptions": {
+          "pinyin": "xīn kǔ",
+          "numeric": "xin1 ku3",
+          "wadegiles": "hsin¹ k'u³",
+          "bopomofo": "ㄒㄧㄣ ㄎㄨˇ",
+          "romatzyh": "shin kuu"
+        },
+        "meanings": [
+          "exhausting",
+          "hard",
+          "tough",
+          "arduous",
+          "to work hard",
+          "to go to a lot of trouble",
+          "hardship(s)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "辛勤",
+    "radical": "辛",
+    "frequency": 11878,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "辛勤",
+        "transcriptions": {
+          "pinyin": "xīn qín",
+          "numeric": "xin1 qin2",
+          "wadegiles": "hsin¹ ch'in²",
+          "bopomofo": "ㄒㄧㄣ ㄑㄧㄣˊ",
+          "romatzyh": "shin chyn"
+        },
+        "meanings": [
+          "hardworking",
+          "industrious"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "辛酸",
+    "radical": "辛",
+    "frequency": 26445,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "辛酸",
+        "transcriptions": {
+          "pinyin": "xīn suān",
+          "numeric": "xin1 suan1",
+          "wadegiles": "hsin¹ suan¹",
+          "bopomofo": "ㄒㄧㄣ ㄙㄨㄢ",
+          "romatzyh": "shin suan"
+        },
+        "meanings": [
+          "pungent (taste)",
+          "bitter",
+          "fig. sad",
+          "miserable"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "欣赏",
+    "radical": "欠",
+    "frequency": 2305,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "欣賞",
+        "transcriptions": {
+          "pinyin": "xīn shǎng",
+          "numeric": "xin1 shang3",
+          "wadegiles": "hsin¹ shang³",
+          "bopomofo": "ㄒㄧㄣ ㄕㄤˇ",
+          "romatzyh": "shin shaang"
+        },
+        "meanings": [
+          "to appreciate; to enjoy; to admire"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "欣慰",
+    "radical": "欠",
+    "frequency": 8454,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "欣慰",
+        "transcriptions": {
+          "pinyin": "xīn wèi",
+          "numeric": "xin1 wei4",
+          "wadegiles": "hsin¹ wei⁴",
+          "bopomofo": "ㄒㄧㄣ ㄨㄟˋ",
+          "romatzyh": "shin wey"
+        },
+        "meanings": [
+          "to be gratified"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "欣喜",
+    "radical": "欠",
+    "frequency": 13520,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "欣喜",
+        "transcriptions": {
+          "pinyin": "xīn xǐ",
+          "numeric": "xin1 xi3",
+          "wadegiles": "hsin¹ hsi³",
+          "bopomofo": "ㄒㄧㄣ ㄒㄧˇ",
+          "romatzyh": "shin shii"
+        },
+        "meanings": [
+          "happy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "欣欣向荣",
+    "radical": "欠",
+    "frequency": 32921,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "欣欣向榮",
+        "transcriptions": {
+          "pinyin": "xīn xīn xiàng róng",
+          "numeric": "xin1 xin1 xiang4 rong2",
+          "wadegiles": "hsin¹ hsin¹ hsiang⁴ jung²",
+          "bopomofo": "ㄒㄧㄣ ㄒㄧㄣ ㄒㄧㄤˋ ㄖㄨㄥˊ",
+          "romatzyh": "shin shin shianq rong"
+        },
+        "meanings": [
+          "(idiom) flourishing",
+          "thriving"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "新",
+    "radical": "斤",
+    "frequency": 150,
+    "pos": [
+      "a",
+      "d",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "新",
+        "transcriptions": {
+          "pinyin": "Xīn",
+          "numeric": "Xin1",
+          "wadegiles": "hsin¹",
+          "bopomofo": "ㄒㄧㄣ",
+          "romatzyh": "shin"
+        },
+        "meanings": [
+          "abbr. for Xinjiang 疆 or Singapore 坡",
+          "surname Xin"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "新",
+        "transcriptions": {
+          "pinyin": "xīn",
+          "numeric": "xin1",
+          "wadegiles": "hsin¹",
+          "bopomofo": "ㄒㄧㄣ",
+          "romatzyh": "shin"
+        },
+        "meanings": [
+          "new",
+          "newly",
+          "meso- (chemistry)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "新潮",
+    "radical": "斤",
+    "frequency": 17692,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "新潮",
+        "transcriptions": {
+          "pinyin": "xīn cháo",
+          "numeric": "xin1 chao2",
+          "wadegiles": "hsin¹ ch'ao²",
+          "bopomofo": "ㄒㄧㄣ ㄔㄠˊ",
+          "romatzyh": "shin chaur"
+        },
+        "meanings": [
+          "modern",
+          "fashionable"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "新陈代谢",
+    "radical": "斤",
+    "frequency": 16136,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "新陳代謝",
+        "transcriptions": {
+          "pinyin": "xīn chén dài xiè",
+          "numeric": "xin1 chen2 dai4 xie4",
+          "wadegiles": "hsin¹ ch'en² tai⁴ hsieh⁴",
+          "bopomofo": "ㄒㄧㄣ ㄔㄣˊ ㄉㄞˋ ㄒㄧㄝˋ",
+          "romatzyh": "shin chern day shieh"
+        },
+        "meanings": [
+          "metabolism (biology)",
+          "the new replaces the old (idiom)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "新房",
+    "radical": "斤",
+    "frequency": 15052,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "新房",
+        "transcriptions": {
+          "pinyin": "xīn fáng",
+          "numeric": "xin1 fang2",
+          "wadegiles": "hsin¹ fang²",
+          "bopomofo": "ㄒㄧㄣ ㄈㄤˊ",
+          "romatzyh": "shin farng"
+        },
+        "meanings": [
+          "brand new house",
+          "bridal chamber"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "新款",
+    "radical": "斤",
+    "frequency": 14970,
+    "pos": [
+      "b",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "新款",
+        "transcriptions": {
+          "pinyin": "xīn kuǎn",
+          "numeric": "xin1 kuan3",
+          "wadegiles": "hsin¹ k'uan³",
+          "bopomofo": "ㄒㄧㄣ ㄎㄨㄢˇ",
+          "romatzyh": "shin koan"
+        },
+        "meanings": [
+          "new style",
+          "latest fashion",
+          "new model"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "新郎",
+    "radical": "斤",
+    "frequency": 8652,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "新郎",
+        "transcriptions": {
+          "pinyin": "xīn láng",
+          "numeric": "xin1 lang2",
+          "wadegiles": "hsin¹ lang²",
+          "bopomofo": "ㄒㄧㄣ ㄌㄤˊ",
+          "romatzyh": "shin lang"
+        },
+        "meanings": [
+          "bridegroom",
+          "groom"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "新年",
+    "radical": "斤",
+    "frequency": 3160,
+    "pos": [
+      "t"
+    ],
+    "forms": [
+      {
+        "traditional": "新年",
+        "transcriptions": {
+          "pinyin": "xīn nián",
+          "numeric": "xin1 nian2",
+          "wadegiles": "hsin¹ nien²",
+          "bopomofo": "ㄒㄧㄣ ㄋㄧㄢˊ",
+          "romatzyh": "shin nian"
+        },
+        "meanings": [
+          "New Year"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "新娘",
+    "radical": "斤",
+    "frequency": 4498,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "新娘",
+        "transcriptions": {
+          "pinyin": "xīn niáng",
+          "numeric": "xin1 niang2",
+          "wadegiles": "hsin¹ niang²",
+          "bopomofo": "ㄒㄧㄣ ㄋㄧㄤˊ",
+          "romatzyh": "shin niang"
+        },
+        "meanings": [
+          "bride"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "新奇",
+    "radical": "斤",
+    "frequency": 13235,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "新奇",
+        "transcriptions": {
+          "pinyin": "xīn qí",
+          "numeric": "xin1 qi2",
+          "wadegiles": "hsin¹ ch'i²",
+          "bopomofo": "ㄒㄧㄣ ㄑㄧˊ",
+          "romatzyh": "shin chyi"
+        },
+        "meanings": [
+          "novel; new; exotic"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "新人",
+    "radical": "斤",
+    "frequency": 4775,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "新人",
+        "transcriptions": {
+          "pinyin": "xīn rén",
+          "numeric": "xin1 ren2",
+          "wadegiles": "hsin¹ jen²",
+          "bopomofo": "ㄒㄧㄣ ㄖㄣˊ",
+          "romatzyh": "shin ren"
+        },
+        "meanings": [
+          "newcomer",
+          "fresh talent",
+          "newlywed, esp. new bride",
+          "bride and groom",
+          "(paleoanthropology) Homo sapiens"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "新生",
+    "radical": "斤",
+    "frequency": 6116,
+    "pos": [
+      "n",
+      "nr",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "新生",
+        "transcriptions": {
+          "pinyin": "xīn shēng",
+          "numeric": "xin1 sheng1",
+          "wadegiles": "hsin¹ sheng¹",
+          "bopomofo": "ㄒㄧㄣ ㄕㄥ",
+          "romatzyh": "shin sheng"
+        },
+        "meanings": [
+          "new",
+          "newborn",
+          "emerging",
+          "nascent",
+          "rebirth",
+          "regeneration",
+          "new life",
+          "new student"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "新式",
+    "radical": "斤",
+    "frequency": 15606,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "新式",
+        "transcriptions": {
+          "pinyin": "xīn shì",
+          "numeric": "xin1 shi4",
+          "wadegiles": "hsin¹ shih⁴",
+          "bopomofo": "ㄒㄧㄣ ㄕˋ",
+          "romatzyh": "shin shyh"
+        },
+        "meanings": [
+          "new style",
+          "latest type"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "新手",
+    "radical": "斤",
+    "frequency": 10247,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "新手",
+        "transcriptions": {
+          "pinyin": "xīn shǒu",
+          "numeric": "xin1 shou3",
+          "wadegiles": "hsin¹ shou³",
+          "bopomofo": "ㄒㄧㄣ ㄕㄡˇ",
+          "romatzyh": "shin shoou"
+        },
+        "meanings": [
+          "new hand",
+          "novice",
+          "raw recruit"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "新闻",
+    "radical": "斤",
+    "frequency": 805,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "新聞",
+        "transcriptions": {
+          "pinyin": "xīn wén",
+          "numeric": "xin1 wen2",
+          "wadegiles": "hsin¹ wen²",
+          "bopomofo": "ㄒㄧㄣ ㄨㄣˊ",
+          "romatzyh": "shin wen"
+        },
+        "meanings": [
+          "news"
+        ],
+        "classifiers": [
+          "条",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "新鲜",
+    "radical": "斤",
+    "frequency": 2651,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "新鮮",
+        "transcriptions": {
+          "pinyin": "xīn xiān",
+          "numeric": "xin1 xian1",
+          "wadegiles": "hsin¹ hsien¹",
+          "bopomofo": "ㄒㄧㄣ ㄒㄧㄢ",
+          "romatzyh": "shin shian"
+        },
+        "meanings": [
+          "fresh (experience, food etc)",
+          "freshness",
+          "novel",
+          "uncommon"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "新型",
+    "radical": "斤",
+    "frequency": 7169,
+    "pos": [
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "新型",
+        "transcriptions": {
+          "pinyin": "xīn xíng",
+          "numeric": "xin1 xing2",
+          "wadegiles": "hsin¹ hsing²",
+          "bopomofo": "ㄒㄧㄣ ㄒㄧㄥˊ",
+          "romatzyh": "shin shyng"
+        },
+        "meanings": [
+          "new type; new kind"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "新兴",
+    "radical": "斤",
+    "frequency": 17047,
+    "pos": [
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "新興",
+        "transcriptions": {
+          "pinyin": "Xīn xīng",
+          "numeric": "Xin1 xing1",
+          "wadegiles": "hsin¹ hsing¹",
+          "bopomofo": "ㄒㄧㄣ ㄒㄧㄥ",
+          "romatzyh": "shin shing"
+        },
+        "meanings": [
+          "Xinxing county in Yunfu 云浮, Guangdong",
+          "Xinxing or Hsinhsing district of Kaohsiung city 市, south Taiwan"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "新興",
+        "transcriptions": {
+          "pinyin": "xīn xīng",
+          "numeric": "xin1 xing1",
+          "wadegiles": "hsin¹ hsing¹",
+          "bopomofo": "ㄒㄧㄣ ㄒㄧㄥ",
+          "romatzyh": "shin shing"
+        },
+        "meanings": [
+          "(of markets, industries, infectious diseases etc) rising",
+          "emerging",
+          "in the ascendant"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "新颖",
+    "radical": "斤",
+    "frequency": 15260,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "新穎",
+        "transcriptions": {
+          "pinyin": "xīn yǐng",
+          "numeric": "xin1 ying3",
+          "wadegiles": "hsin¹ ying³",
+          "bopomofo": "ㄒㄧㄣ ㄧㄥˇ",
+          "romatzyh": "shin yiing"
+        },
+        "meanings": [
+          "lit. new bud",
+          "fig. new and original"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "薪水",
+    "radical": "艹",
+    "frequency": 7554,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "薪水",
+        "transcriptions": {
+          "pinyin": "xīn shuǐ",
+          "numeric": "xin1 shui3",
+          "wadegiles": "hsin¹ shui³",
+          "bopomofo": "ㄒㄧㄣ ㄕㄨㄟˇ",
+          "romatzyh": "shin shoei"
+        },
+        "meanings": [
+          "salary",
+          "wage"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "信",
+    "radical": "亻",
+    "frequency": 419,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "信",
+        "transcriptions": {
+          "pinyin": "xìn",
+          "numeric": "xin4",
+          "wadegiles": "hsin⁴",
+          "bopomofo": "ㄒㄧㄣˋ",
+          "romatzyh": "shinn"
+        },
+        "meanings": [
+          "letter",
+          "mail",
+          "to trust",
+          "to believe",
+          "to profess faith in",
+          "truthful",
+          "confidence",
+          "trust",
+          "at will",
+          "at random"
+        ],
+        "classifiers": [
+          "封"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "信贷",
+    "radical": "亻",
+    "frequency": 12373,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "信貸",
+        "transcriptions": {
+          "pinyin": "xìn dài",
+          "numeric": "xin4 dai4",
+          "wadegiles": "hsin⁴ tai⁴",
+          "bopomofo": "ㄒㄧㄣˋ ㄉㄞˋ",
+          "romatzyh": "shinn day"
+        },
+        "meanings": [
+          "credit",
+          "borrowed money"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "信封",
+    "radical": "亻",
+    "frequency": 10268,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "信封",
+        "transcriptions": {
+          "pinyin": "xìn fēng",
+          "numeric": "xin4 feng1",
+          "wadegiles": "hsin⁴ feng¹",
+          "bopomofo": "ㄒㄧㄣˋ ㄈㄥ",
+          "romatzyh": "shinn feng"
+        },
+        "meanings": [
+          "envelope"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "信号",
+    "radical": "亻",
+    "frequency": 1815,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "信號",
+        "transcriptions": {
+          "pinyin": "xìn hào",
+          "numeric": "xin4 hao4",
+          "wadegiles": "hsin⁴ hao⁴",
+          "bopomofo": "ㄒㄧㄣˋ ㄏㄠˋ",
+          "romatzyh": "shinn haw"
+        },
+        "meanings": [
+          "signal"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "信件",
+    "radical": "亻",
+    "frequency": 9107,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "信件",
+        "transcriptions": {
+          "pinyin": "xìn jiàn",
+          "numeric": "xin4 jian4",
+          "wadegiles": "hsin⁴ chien⁴",
+          "bopomofo": "ㄒㄧㄣˋ ㄐㄧㄢˋ",
+          "romatzyh": "shinn jiann"
+        },
+        "meanings": [
+          "letter (sent by mail)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "信赖",
+    "radical": "亻",
+    "frequency": 8119,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "信賴",
+        "transcriptions": {
+          "pinyin": "xìn lài",
+          "numeric": "xin4 lai4",
+          "wadegiles": "hsin⁴ lai⁴",
+          "bopomofo": "ㄒㄧㄣˋ ㄌㄞˋ",
+          "romatzyh": "shinn lay"
+        },
+        "meanings": [
+          "to trust",
+          "to have confidence in",
+          "to have faith in",
+          "to rely on"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "信念",
+    "radical": "亻",
+    "frequency": 5379,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "信念",
+        "transcriptions": {
+          "pinyin": "xìn niàn",
+          "numeric": "xin4 nian4",
+          "wadegiles": "hsin⁴ nien⁴",
+          "bopomofo": "ㄒㄧㄣˋ ㄋㄧㄢˋ",
+          "romatzyh": "shinn niann"
+        },
+        "meanings": [
+          "faith",
+          "belief",
+          "conviction"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "信任",
+    "radical": "亻",
+    "frequency": 1963,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "信任",
+        "transcriptions": {
+          "pinyin": "xìn rèn",
+          "numeric": "xin4 ren4",
+          "wadegiles": "hsin⁴ jen⁴",
+          "bopomofo": "ㄒㄧㄣˋ ㄖㄣˋ",
+          "romatzyh": "shinn renn"
+        },
+        "meanings": [
+          "to trust",
+          "to have confidence in"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "信息",
+    "radical": "亻",
+    "frequency": 612,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "信息",
+        "transcriptions": {
+          "pinyin": "xìn xī",
+          "numeric": "xin4 xi1",
+          "wadegiles": "hsin⁴ hsi¹",
+          "bopomofo": "ㄒㄧㄣˋ ㄒㄧ",
+          "romatzyh": "shinn shi"
+        },
+        "meanings": [
+          "information",
+          "news",
+          "message"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "信箱",
+    "radical": "亻",
+    "frequency": 10392,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "信箱",
+        "transcriptions": {
+          "pinyin": "xìn xiāng",
+          "numeric": "xin4 xiang1",
+          "wadegiles": "hsin⁴ hsiang¹",
+          "bopomofo": "ㄒㄧㄣˋ ㄒㄧㄤ",
+          "romatzyh": "shinn shiang"
+        },
+        "meanings": [
+          "mailbox",
+          "post office box"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "信心",
+    "radical": "亻",
+    "frequency": 2405,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "信心",
+        "transcriptions": {
+          "pinyin": "xìn xīn",
+          "numeric": "xin4 xin1",
+          "wadegiles": "hsin⁴ hsin¹",
+          "bopomofo": "ㄒㄧㄣˋ ㄒㄧㄣ",
+          "romatzyh": "shinn shin"
+        },
+        "meanings": [
+          "confidence",
+          "faith (in sb or sth)"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "信仰",
+    "radical": "亻",
+    "frequency": 3912,
+    "pos": [
+      "vn",
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "信仰",
+        "transcriptions": {
+          "pinyin": "xìn yǎng",
+          "numeric": "xin4 yang3",
+          "wadegiles": "hsin⁴ yang³",
+          "bopomofo": "ㄒㄧㄣˋ ㄧㄤˇ",
+          "romatzyh": "shinn yeang"
+        },
+        "meanings": [
+          "to believe in (a religion)",
+          "firm belief",
+          "conviction"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "信用",
+    "radical": "亻",
+    "frequency": 5789,
+    "pos": [
+      "n",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "信用",
+        "transcriptions": {
+          "pinyin": "xìn yòng",
+          "numeric": "xin4 yong4",
+          "wadegiles": "hsin⁴ yung⁴",
+          "bopomofo": "ㄒㄧㄣˋ ㄩㄥˋ",
+          "romatzyh": "shinn yonq"
+        },
+        "meanings": [
+          "trustworthiness",
+          "(commerce) credit",
+          "(literary) to trust and appoint"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "信用卡",
+    "radical": "亻",
+    "frequency": 3960,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "信用卡",
+        "transcriptions": {
+          "pinyin": "xìn yòng kǎ",
+          "numeric": "xin4 yong4 ka3",
+          "wadegiles": "hsin⁴ yung⁴ k'a³",
+          "bopomofo": "ㄒㄧㄣˋ ㄩㄥˋ ㄎㄚˇ",
+          "romatzyh": "shinn yonq kaa"
+        },
+        "meanings": [
+          "credit card"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "信誉",
+    "radical": "亻",
+    "frequency": 10182,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "信譽",
+        "transcriptions": {
+          "pinyin": "xìn yù",
+          "numeric": "xin4 yu4",
+          "wadegiles": "hsin⁴ yü⁴",
+          "bopomofo": "ㄒㄧㄣˋ ㄩˋ",
+          "romatzyh": "shinn yuh"
+        },
+        "meanings": [
+          "prestige",
+          "distinction",
+          "reputation",
+          "trust"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "星期",
+    "radical": "日",
+    "frequency": 1956,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "星期",
+        "transcriptions": {
+          "pinyin": "xīng qī",
+          "numeric": "xing1 qi1",
+          "wadegiles": "hsing¹ ch'i¹",
+          "bopomofo": "ㄒㄧㄥ ㄑㄧ",
+          "romatzyh": "shing chi"
+        },
+        "meanings": [
+          "week",
+          "day of the week",
+          "Sunday"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,2307 @@
+[
+  {
+    "simplified": "排队",
+    "radical": "扌",
+    "frequency": 4300,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "排隊",
+        "transcriptions": {
+          "pinyin": "pái duì",
+          "numeric": "pai2 dui4",
+          "wadegiles": "p'ai² tui⁴",
+          "bopomofo": "ㄆㄞˊ ㄉㄨㄟˋ",
+          "romatzyh": "pair duey"
+        },
+        "meanings": [
+          "to line up"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "排列",
+    "radical": "扌",
+    "frequency": 8340,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "排列",
+        "transcriptions": {
+          "pinyin": "pái liè",
+          "numeric": "pai2 lie4",
+          "wadegiles": "p'ai² lieh⁴",
+          "bopomofo": "ㄆㄞˊ ㄌㄧㄝˋ",
+          "romatzyh": "pair lieh"
+        },
+        "meanings": [
+          "to arrange in order",
+          "(math.) permutation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "排名",
+    "radical": "扌",
+    "frequency": 4870,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "排名",
+        "transcriptions": {
+          "pinyin": "pái míng",
+          "numeric": "pai2 ming2",
+          "wadegiles": "p'ai² ming²",
+          "bopomofo": "ㄆㄞˊ ㄇㄧㄥˊ",
+          "romatzyh": "pair ming"
+        },
+        "meanings": [
+          "to rank (1st, 2nd etc)",
+          "ranking"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "排球",
+    "radical": "扌",
+    "frequency": 13985,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "排球",
+        "transcriptions": {
+          "pinyin": "pái qiú",
+          "numeric": "pai2 qiu2",
+          "wadegiles": "p'ai² ch'iu²",
+          "bopomofo": "ㄆㄞˊ ㄑㄧㄡˊ",
+          "romatzyh": "pair chyou"
+        },
+        "meanings": [
+          "volleyball"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "排行榜",
+    "radical": "扌",
+    "frequency": 12201,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "排行榜",
+        "transcriptions": {
+          "pinyin": "pái háng bǎng",
+          "numeric": "pai2 hang2 bang3",
+          "wadegiles": "p'ai² hang² pang³",
+          "bopomofo": "ㄆㄞˊ ㄏㄤˊ ㄅㄤˇ",
+          "romatzyh": "pair harng baang"
+        },
+        "meanings": [
+          "the charts (of best-sellers)",
+          "table of ranking"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "牌",
+    "radical": "片",
+    "frequency": 1416,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "牌",
+        "transcriptions": {
+          "pinyin": "pái",
+          "numeric": "pai2",
+          "wadegiles": "p'ai²",
+          "bopomofo": "ㄆㄞˊ",
+          "romatzyh": "pair"
+        },
+        "meanings": [
+          "mahjong tile",
+          "playing card",
+          "game pieces",
+          "signboard",
+          "plate",
+          "tablet",
+          "medal"
+        ],
+        "classifiers": [
+          "片",
+          "个",
+          "块"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "牌子",
+    "radical": "片",
+    "frequency": 5484,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "牌子",
+        "transcriptions": {
+          "pinyin": "pái zi",
+          "numeric": "pai2 zi5",
+          "wadegiles": "p'ai² zi",
+          "bopomofo": "ㄆㄞˊ zi",
+          "romatzyh": "pair zi"
+        },
+        "meanings": [
+          "sign",
+          "trademark",
+          "brand"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "派",
+    "radical": "氵",
+    "frequency": 751,
+    "pos": [
+      "v",
+      "n",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "派",
+        "transcriptions": {
+          "pinyin": "pài",
+          "numeric": "pai4",
+          "wadegiles": "p'ai⁴",
+          "bopomofo": "ㄆㄞˋ",
+          "romatzyh": "pay"
+        },
+        "meanings": [
+          "clique",
+          "school",
+          "group",
+          "faction",
+          "to dispatch",
+          "to send",
+          "to assign",
+          "to appoint",
+          "pi (Greek letter Ππ)",
+          "the circular ratio pi = 3.1415926",
+          "(loanword) pie"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "派出",
+    "radical": "氵",
+    "frequency": 5914,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "派出",
+        "transcriptions": {
+          "pinyin": "pài chū",
+          "numeric": "pai4 chu1",
+          "wadegiles": "p'ai⁴ ch'u¹",
+          "bopomofo": "ㄆㄞˋ ㄔㄨ",
+          "romatzyh": "pay chu"
+        },
+        "meanings": [
+          "to send",
+          "to dispatch"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "盘",
+    "radical": "皿",
+    "frequency": 1363,
+    "pos": [
+      "qv",
+      "g",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "盤",
+        "transcriptions": {
+          "pinyin": "pán",
+          "numeric": "pan2",
+          "wadegiles": "p'an²",
+          "bopomofo": "ㄆㄢˊ",
+          "romatzyh": "parn"
+        },
+        "meanings": [
+          "plate",
+          "dish",
+          "tray",
+          "board",
+          "hard drive (computing)",
+          "to build",
+          "to coil",
+          "to check",
+          "to examine",
+          "to transfer (property)",
+          "to make over",
+          "classifier for food: dish, helping",
+          "to coil",
+          "classifier for coils of wire",
+          "classifier for games of chess"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "盘子",
+    "radical": "皿",
+    "frequency": 9039,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "盤子",
+        "transcriptions": {
+          "pinyin": "pán zi",
+          "numeric": "pan2 zi5",
+          "wadegiles": "p'an² zi",
+          "bopomofo": "ㄆㄢˊ zi",
+          "romatzyh": "parn zi"
+        },
+        "meanings": [
+          "tray",
+          "plate",
+          "dish"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "判",
+    "radical": "刂",
+    "frequency": 3453,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "判",
+        "transcriptions": {
+          "pinyin": "pàn",
+          "numeric": "pan4",
+          "wadegiles": "p'an⁴",
+          "bopomofo": "ㄆㄢˋ",
+          "romatzyh": "pann"
+        },
+        "meanings": [
+          "to judge",
+          "to sentence",
+          "to discriminate",
+          "to discern",
+          "clearly distinguishable"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "判断",
+    "radical": "刂",
+    "frequency": 2480,
+    "pos": [
+      "v",
+      "vn",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "判斷",
+        "transcriptions": {
+          "pinyin": "pàn duàn",
+          "numeric": "pan4 duan4",
+          "wadegiles": "p'an⁴ tuan⁴",
+          "bopomofo": "ㄆㄢˋ ㄉㄨㄢˋ",
+          "romatzyh": "pann duann"
+        },
+        "meanings": [
+          "to judge",
+          "to determine",
+          "judgment"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "盼望",
+    "radical": "目",
+    "frequency": 10303,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "盼望",
+        "transcriptions": {
+          "pinyin": "pàn wàng",
+          "numeric": "pan4 wang4",
+          "wadegiles": "p'an⁴ wang⁴",
+          "bopomofo": "ㄆㄢˋ ㄨㄤˋ",
+          "romatzyh": "pann wanq"
+        },
+        "meanings": [
+          "to hope for; to look forward to"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "旁",
+    "radical": "方",
+    "frequency": 2873,
+    "pos": [
+      "f",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "旁",
+        "transcriptions": {
+          "pinyin": "páng",
+          "numeric": "pang2",
+          "wadegiles": "p'ang²",
+          "bopomofo": "ㄆㄤˊ",
+          "romatzyh": "parng"
+        },
+        "meanings": [
+          "one side",
+          "other",
+          "different",
+          "lateral component of a Chinese character (such as 刂, 亻 etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "旁边",
+    "radical": "方",
+    "frequency": 1815,
+    "pos": [
+      "f"
+    ],
+    "forms": [
+      {
+        "traditional": "旁邊",
+        "transcriptions": {
+          "pinyin": "páng biān",
+          "numeric": "pang2 bian1",
+          "wadegiles": "p'ang² pien¹",
+          "bopomofo": "ㄆㄤˊ ㄅㄧㄢ",
+          "romatzyh": "parng bian"
+        },
+        "meanings": [
+          "side; adjacent place"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "胖",
+    "radical": "⺼",
+    "frequency": 2396,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "胖",
+        "transcriptions": {
+          "pinyin": "pán",
+          "numeric": "pan2",
+          "wadegiles": "p'an²",
+          "bopomofo": "ㄆㄢˊ",
+          "romatzyh": "parn"
+        },
+        "meanings": [
+          "healthy",
+          "at ease"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "胖",
+        "transcriptions": {
+          "pinyin": "pàng",
+          "numeric": "pang4",
+          "wadegiles": "p'ang⁴",
+          "bopomofo": "ㄆㄤˋ",
+          "romatzyh": "panq"
+        },
+        "meanings": [
+          "fat",
+          "plump"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "胖子",
+    "radical": "⺼",
+    "frequency": 4309,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "胖子",
+        "transcriptions": {
+          "pinyin": "pàng zi",
+          "numeric": "pang4 zi5",
+          "wadegiles": "p'ang⁴ zi",
+          "bopomofo": "ㄆㄤˋ zi",
+          "romatzyh": "panq zi"
+        },
+        "meanings": [
+          "fat person",
+          "fatty"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "跑",
+    "radical": "足",
+    "frequency": 553,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "跑",
+        "transcriptions": {
+          "pinyin": "páo",
+          "numeric": "pao2",
+          "wadegiles": "p'ao²",
+          "bopomofo": "ㄆㄠˊ",
+          "romatzyh": "paur"
+        },
+        "meanings": [
+          "(of an animal) to paw (the ground)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "跑",
+        "transcriptions": {
+          "pinyin": "pǎo",
+          "numeric": "pao3",
+          "wadegiles": "p'ao³",
+          "bopomofo": "ㄆㄠˇ",
+          "romatzyh": "pao"
+        },
+        "meanings": [
+          "to run",
+          "to run away",
+          "to escape",
+          "to run around (on errands etc)",
+          "(of a gas or liquid) to leak or evaporate",
+          "(verb complement) away",
+          "off"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "跑步",
+    "radical": "足",
+    "frequency": 7199,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "跑步",
+        "transcriptions": {
+          "pinyin": "pǎo bù",
+          "numeric": "pao3 bu4",
+          "wadegiles": "p'ao³ pu⁴",
+          "bopomofo": "ㄆㄠˇ ㄅㄨˋ",
+          "romatzyh": "pao buh"
+        },
+        "meanings": [
+          "to run",
+          "to jog",
+          "(military) to march at the double"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "泡",
+    "radical": "氵",
+    "frequency": 2258,
+    "pos": [
+      "v",
+      "n",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "泡",
+        "transcriptions": {
+          "pinyin": "pāo",
+          "numeric": "pao1",
+          "wadegiles": "p'ao¹",
+          "bopomofo": "ㄆㄠ",
+          "romatzyh": "pau"
+        },
+        "meanings": [
+          "puffed; swollen; spongy",
+          "small lake (esp. in place names)",
+          "classifier for urine or feces"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "泡",
+        "transcriptions": {
+          "pinyin": "pào",
+          "numeric": "pao4",
+          "wadegiles": "p'ao⁴",
+          "bopomofo": "ㄆㄠˋ",
+          "romatzyh": "paw"
+        },
+        "meanings": [
+          "bubble; foam",
+          "blister",
+          "to soak; to steep; to infuse",
+          "to dawdle; to loiter",
+          "to pick up (a girl)",
+          "to get off with (a sexual partner)",
+          "classifier for occurrences of an action",
+          "classifier for number of infusions"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "炮",
+    "radical": "火",
+    "frequency": 5592,
+    "pos": [
+      "n",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "炮",
+        "transcriptions": {
+          "pinyin": "bāo",
+          "numeric": "bao1",
+          "wadegiles": "pao¹",
+          "bopomofo": "ㄅㄠ",
+          "romatzyh": "bau"
+        },
+        "meanings": [
+          "to sauté",
+          "to fry",
+          "to dry by heating"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "炮",
+        "transcriptions": {
+          "pinyin": "páo",
+          "numeric": "pao2",
+          "wadegiles": "p'ao²",
+          "bopomofo": "ㄆㄠˊ",
+          "romatzyh": "paur"
+        },
+        "meanings": [
+          "to prepare herbal medicine by roasting or parching (in a pan)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "炮",
+        "transcriptions": {
+          "pinyin": "pào",
+          "numeric": "pao4",
+          "wadegiles": "p'ao⁴",
+          "bopomofo": "ㄆㄠˋ",
+          "romatzyh": "paw"
+        },
+        "meanings": [
+          "cannon",
+          "firecracker"
+        ],
+        "classifiers": [
+          "座"
+        ]
+      },
+      {
+        "traditional": "砲",
+        "transcriptions": {
+          "pinyin": "pào",
+          "numeric": "pao4",
+          "wadegiles": "p'ao⁴",
+          "bopomofo": "ㄆㄠˋ",
+          "romatzyh": "paw"
+        },
+        "meanings": [
+          "variant of 炮"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "陪",
+    "radical": "阝",
+    "frequency": 1090,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "陪",
+        "transcriptions": {
+          "pinyin": "péi",
+          "numeric": "pei2",
+          "wadegiles": "p'ei²",
+          "bopomofo": "ㄆㄟˊ",
+          "romatzyh": "peir"
+        },
+        "meanings": [
+          "to accompany",
+          "to keep sb company",
+          "to assist",
+          "old variant of 赔"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "陪同",
+    "radical": "阝",
+    "frequency": 8559,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "陪同",
+        "transcriptions": {
+          "pinyin": "péi tóng",
+          "numeric": "pei2 tong2",
+          "wadegiles": "p'ei² t'ung²",
+          "bopomofo": "ㄆㄟˊ ㄊㄨㄥˊ",
+          "romatzyh": "peir torng"
+        },
+        "meanings": [
+          "to accompany"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "培训",
+    "radical": "土",
+    "frequency": 3619,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "培訓",
+        "transcriptions": {
+          "pinyin": "péi xùn",
+          "numeric": "pei2 xun4",
+          "wadegiles": "p'ei² hsün⁴",
+          "bopomofo": "ㄆㄟˊ ㄒㄩㄣˋ",
+          "romatzyh": "peir shiunn"
+        },
+        "meanings": [
+          "to cultivate",
+          "to train",
+          "to groom",
+          "training"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "培训班",
+    "radical": "土",
+    "frequency": 15281,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "培訓班",
+        "transcriptions": {
+          "pinyin": "péi xùn bān",
+          "numeric": "pei2 xun4 ban1",
+          "wadegiles": "p'ei² hsün⁴ pan¹",
+          "bopomofo": "ㄆㄟˊ ㄒㄩㄣˋ ㄅㄢ",
+          "romatzyh": "peir shiunn ban"
+        },
+        "meanings": [
+          "training class"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "培养",
+    "radical": "土",
+    "frequency": 3133,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "培養",
+        "transcriptions": {
+          "pinyin": "péi yǎng",
+          "numeric": "pei2 yang3",
+          "wadegiles": "p'ei² yang³",
+          "bopomofo": "ㄆㄟˊ ㄧㄤˇ",
+          "romatzyh": "peir yeang"
+        },
+        "meanings": [
+          "to cultivate",
+          "to breed",
+          "to foster",
+          "to nurture",
+          "to educate",
+          "to groom (for a position)",
+          "education",
+          "fostering",
+          "culture (biology)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "培育",
+    "radical": "土",
+    "frequency": 10156,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "培育",
+        "transcriptions": {
+          "pinyin": "péi yù",
+          "numeric": "pei2 yu4",
+          "wadegiles": "p'ei² yü⁴",
+          "bopomofo": "ㄆㄟˊ ㄩˋ",
+          "romatzyh": "peir yuh"
+        },
+        "meanings": [
+          "to train",
+          "to breed"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "赔",
+    "radical": "贝",
+    "frequency": 5207,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "賠",
+        "transcriptions": {
+          "pinyin": "péi",
+          "numeric": "pei2",
+          "wadegiles": "p'ei²",
+          "bopomofo": "ㄆㄟˊ",
+          "romatzyh": "peir"
+        },
+        "meanings": [
+          "to compensate for loss",
+          "to indemnify",
+          "to suffer a financial loss"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "赔偿",
+    "radical": "贝",
+    "frequency": 3939,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "賠償",
+        "transcriptions": {
+          "pinyin": "péi cháng",
+          "numeric": "pei2 chang2",
+          "wadegiles": "p'ei² ch'ang²",
+          "bopomofo": "ㄆㄟˊ ㄔㄤˊ",
+          "romatzyh": "peir charng"
+        },
+        "meanings": [
+          "to compensate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "配",
+    "radical": "酉",
+    "frequency": 1557,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "配",
+        "transcriptions": {
+          "pinyin": "pèi",
+          "numeric": "pei4",
+          "wadegiles": "p'ei⁴",
+          "bopomofo": "ㄆㄟˋ",
+          "romatzyh": "pey"
+        },
+        "meanings": [
+          "to join",
+          "to fit",
+          "to mate",
+          "to mix",
+          "to match",
+          "to deserve",
+          "to make up (a prescription)",
+          "to allocate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "配备",
+    "radical": "酉",
+    "frequency": 8427,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "配備",
+        "transcriptions": {
+          "pinyin": "pèi bèi",
+          "numeric": "pei4 bei4",
+          "wadegiles": "p'ei⁴ pei⁴",
+          "bopomofo": "ㄆㄟˋ ㄅㄟˋ",
+          "romatzyh": "pey bey"
+        },
+        "meanings": [
+          "to allocate",
+          "to provide",
+          "to outfit with"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "配合",
+    "radical": "酉",
+    "frequency": 2349,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "配合",
+        "transcriptions": {
+          "pinyin": "pèi hé",
+          "numeric": "pei4 he2",
+          "wadegiles": "p'ei⁴ ho²",
+          "bopomofo": "ㄆㄟˋ ㄏㄜˊ",
+          "romatzyh": "pey her"
+        },
+        "meanings": [
+          "matching",
+          "fitting in with",
+          "compatible with",
+          "to correspond",
+          "to fit",
+          "to conform to",
+          "rapport",
+          "to coordinate with",
+          "to act in concert with",
+          "to cooperate",
+          "to become man and wife",
+          "to combine parts of machine"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "配套",
+    "radical": "酉",
+    "frequency": 10472,
+    "pos": [
+      "a",
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "配套",
+        "transcriptions": {
+          "pinyin": "pèi tào",
+          "numeric": "pei4 tao4",
+          "wadegiles": "p'ei⁴ t'ao⁴",
+          "bopomofo": "ㄆㄟˋ ㄊㄠˋ",
+          "romatzyh": "pey taw"
+        },
+        "meanings": [
+          "to form a complete set",
+          "compatible",
+          "matching",
+          "complementary"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "配置",
+    "radical": "酉",
+    "frequency": 10372,
+    "pos": [
+      "v",
+      "vn",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "配置",
+        "transcriptions": {
+          "pinyin": "pèi zhì",
+          "numeric": "pei4 zhi4",
+          "wadegiles": "p'ei⁴ chih⁴",
+          "bopomofo": "ㄆㄟˋ ㄓˋ",
+          "romatzyh": "pey jyh"
+        },
+        "meanings": [
+          "to deploy",
+          "to allocate",
+          "configuration",
+          "allocation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "喷",
+    "radical": "口",
+    "frequency": 3321,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "噴",
+        "transcriptions": {
+          "pinyin": "pēn",
+          "numeric": "pen1",
+          "wadegiles": "p'en¹",
+          "bopomofo": "ㄆㄣ",
+          "romatzyh": "pen"
+        },
+        "meanings": [
+          "to puff",
+          "to spout",
+          "to spray",
+          "to spurt"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "噴",
+        "transcriptions": {
+          "pinyin": "pèn",
+          "numeric": "pen4",
+          "wadegiles": "p'en⁴",
+          "bopomofo": "ㄆㄣˋ",
+          "romatzyh": "penn"
+        },
+        "meanings": [
+          "(of a smell) strong",
+          "peak season (of a crop)",
+          "(classifier for the ordinal number of a crop, in the context of multiple harvests)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "盆",
+    "radical": "皿",
+    "frequency": 6022,
+    "pos": [
+      "n",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "盆",
+        "transcriptions": {
+          "pinyin": "pén",
+          "numeric": "pen2",
+          "wadegiles": "p'en²",
+          "bopomofo": "ㄆㄣˊ",
+          "romatzyh": "pern"
+        },
+        "meanings": [
+          "basin",
+          "flower pot",
+          "unit of volume equal to 12 斗 and 8 升, approx 128 liters"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "朋友",
+    "radical": "月",
+    "frequency": 280,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "朋友",
+        "transcriptions": {
+          "pinyin": "péng you",
+          "numeric": "peng2 you5",
+          "wadegiles": "p'eng² you",
+          "bopomofo": "ㄆㄥˊ you",
+          "romatzyh": "perng you"
+        },
+        "meanings": [
+          "friend"
+        ],
+        "classifiers": [
+          "个",
+          "位"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "碰",
+    "radical": "石",
+    "frequency": 2829,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "掽",
+        "transcriptions": {
+          "pinyin": "pèng",
+          "numeric": "peng4",
+          "wadegiles": "p'eng⁴",
+          "bopomofo": "ㄆㄥˋ",
+          "romatzyh": "penq"
+        },
+        "meanings": [
+          "variant of 碰"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "碰",
+        "transcriptions": {
+          "pinyin": "pèng",
+          "numeric": "peng4",
+          "wadegiles": "p'eng⁴",
+          "bopomofo": "ㄆㄥˋ",
+          "romatzyh": "penq"
+        },
+        "meanings": [
+          "to touch",
+          "to meet with",
+          "to bump"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "踫",
+        "transcriptions": {
+          "pinyin": "pèng",
+          "numeric": "peng4",
+          "wadegiles": "p'eng⁴",
+          "bopomofo": "ㄆㄥˋ",
+          "romatzyh": "penq"
+        },
+        "meanings": [
+          "old variant of 碰"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "碰到",
+    "radical": "石",
+    "frequency": 2877,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "碰到",
+        "transcriptions": {
+          "pinyin": "pèng dào",
+          "numeric": "peng4 dao4",
+          "wadegiles": "p'eng⁴ tao⁴",
+          "bopomofo": "ㄆㄥˋ ㄉㄠˋ",
+          "romatzyh": "penq daw"
+        },
+        "meanings": [
+          "to come across",
+          "to run into",
+          "to meet",
+          "to hit"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "碰见",
+    "radical": "石",
+    "frequency": 13656,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "碰見",
+        "transcriptions": {
+          "pinyin": "pèng jiàn",
+          "numeric": "peng4 jian4",
+          "wadegiles": "p'eng⁴ chien⁴",
+          "bopomofo": "ㄆㄥˋ ㄐㄧㄢˋ",
+          "romatzyh": "penq jiann"
+        },
+        "meanings": [
+          "to run into",
+          "to meet (unexpectedly)",
+          "to bump into"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "批",
+    "radical": "扌",
+    "frequency": 2398,
+    "pos": [
+      "q",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "批",
+        "transcriptions": {
+          "pinyin": "pī",
+          "numeric": "pi1",
+          "wadegiles": "p'i¹",
+          "bopomofo": "ㄆㄧ",
+          "romatzyh": "pi"
+        },
+        "meanings": [
+          "to ascertain",
+          "to act on",
+          "to criticize",
+          "to pass on",
+          "classifier for batches, lots, military flights",
+          "tier (for the ranking of universities and colleges)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "批评",
+    "radical": "扌",
+    "frequency": 3504,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "批評",
+        "transcriptions": {
+          "pinyin": "pī píng",
+          "numeric": "pi1 ping2",
+          "wadegiles": "p'i¹ p'ing²",
+          "bopomofo": "ㄆㄧ ㄆㄧㄥˊ",
+          "romatzyh": "pi pyng"
+        },
+        "meanings": [
+          "to criticize; criticism"
+        ],
+        "classifiers": [
+          "次",
+          "番"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "批准",
+    "radical": "扌",
+    "frequency": 2614,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "批准",
+        "transcriptions": {
+          "pinyin": "pī zhǔn",
+          "numeric": "pi1 zhun3",
+          "wadegiles": "p'i¹ chun³",
+          "bopomofo": "ㄆㄧ ㄓㄨㄣˇ",
+          "romatzyh": "pi joen"
+        },
+        "meanings": [
+          "to approve; to ratify"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "披",
+    "radical": "扌",
+    "frequency": 5845,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "披",
+        "transcriptions": {
+          "pinyin": "pī",
+          "numeric": "pi1",
+          "wadegiles": "p'i¹",
+          "bopomofo": "ㄆㄧ",
+          "romatzyh": "pi"
+        },
+        "meanings": [
+          "to drape over one's shoulders",
+          "to open",
+          "to unroll",
+          "to split open",
+          "to spread out"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "皮",
+    "radical": "皮",
+    "frequency": 1409,
+    "pos": [
+      "n",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "皮",
+        "transcriptions": {
+          "pinyin": "Pí",
+          "numeric": "Pi2",
+          "wadegiles": "p'i²",
+          "bopomofo": "ㄆㄧˊ",
+          "romatzyh": "pyi"
+        },
+        "meanings": [
+          "surname Pi"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "皮",
+        "transcriptions": {
+          "pinyin": "pí",
+          "numeric": "pi2",
+          "wadegiles": "p'i²",
+          "bopomofo": "ㄆㄧˊ",
+          "romatzyh": "pyi"
+        },
+        "meanings": [
+          "leather",
+          "skin",
+          "fur",
+          "pico- (one trillionth)",
+          "naughty"
+        ],
+        "classifiers": [
+          "张"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "皮包",
+    "radical": "皮",
+    "frequency": 14469,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "皮包",
+        "transcriptions": {
+          "pinyin": "pí bāo",
+          "numeric": "pi2 bao1",
+          "wadegiles": "p'i² pao¹",
+          "bopomofo": "ㄆㄧˊ ㄅㄠ",
+          "romatzyh": "pyi bau"
+        },
+        "meanings": [
+          "handbag",
+          "briefcase"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "皮肤",
+    "radical": "皮",
+    "frequency": 1922,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "皮膚",
+        "transcriptions": {
+          "pinyin": "pí fū",
+          "numeric": "pi2 fu1",
+          "wadegiles": "p'i² fu¹",
+          "bopomofo": "ㄆㄧˊ ㄈㄨ",
+          "romatzyh": "pyi fu"
+        },
+        "meanings": [
+          "skin"
+        ],
+        "classifiers": [
+          "层",
+          "块"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "皮球",
+    "radical": "皮",
+    "frequency": 18764,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "皮球",
+        "transcriptions": {
+          "pinyin": "pí qiú",
+          "numeric": "pi2 qiu2",
+          "wadegiles": "p'i² ch'iu²",
+          "bopomofo": "ㄆㄧˊ ㄑㄧㄡˊ",
+          "romatzyh": "pyi chyou"
+        },
+        "meanings": [
+          "ball (made of rubber, leather etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "皮鞋",
+    "radical": "皮",
+    "frequency": 11265,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "皮鞋",
+        "transcriptions": {
+          "pinyin": "pí xié",
+          "numeric": "pi2 xie2",
+          "wadegiles": "p'i² hsieh²",
+          "bopomofo": "ㄆㄧˊ ㄒㄧㄝˊ",
+          "romatzyh": "pyi shye"
+        },
+        "meanings": [
+          "leather shoes"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "啤酒",
+    "radical": "口",
+    "frequency": 2622,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "啤酒",
+        "transcriptions": {
+          "pinyin": "pí jiǔ",
+          "numeric": "pi2 jiu3",
+          "wadegiles": "p'i² chiu³",
+          "bopomofo": "ㄆㄧˊ ㄐㄧㄡˇ",
+          "romatzyh": "pyi jeou"
+        },
+        "meanings": [
+          "beer (loanword)"
+        ],
+        "classifiers": [
+          "杯",
+          "瓶",
+          "罐",
+          "桶",
+          "缸"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "脾气",
+    "radical": "⺼",
+    "frequency": 4017,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "脾氣",
+        "transcriptions": {
+          "pinyin": "pí qi",
+          "numeric": "pi2 qi5",
+          "wadegiles": "p'i² qi",
+          "bopomofo": "ㄆㄧˊ qi",
+          "romatzyh": "pyi qi"
+        },
+        "meanings": [
+          "character",
+          "temperament",
+          "disposition",
+          "bad temper"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "匹",
+    "radical": "匸",
+    "frequency": 3794,
+    "pos": [
+      "q",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "匹",
+        "transcriptions": {
+          "pinyin": "pī",
+          "numeric": "pi1",
+          "wadegiles": "p'i¹",
+          "bopomofo": "ㄆㄧ",
+          "romatzyh": "pi"
+        },
+        "meanings": [
+          "mate",
+          "one of a pair"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "匹",
+        "transcriptions": {
+          "pinyin": "pǐ",
+          "numeric": "pi3",
+          "wadegiles": "p'i³",
+          "bopomofo": "ㄆㄧˇ",
+          "romatzyh": "pii"
+        },
+        "meanings": [
+          "classifier for horses, mules etc",
+          "Taiwan pr. [pī]",
+          "ordinary person",
+          "classifier for cloth: bolt",
+          "horsepower"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "疋",
+        "transcriptions": {
+          "pinyin": "pǐ",
+          "numeric": "pi3",
+          "wadegiles": "p'i³",
+          "bopomofo": "ㄆㄧˇ",
+          "romatzyh": "pii"
+        },
+        "meanings": [
+          "variant of 匹",
+          "classifier for cloth: bolt"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "偏",
+    "radical": "亻",
+    "frequency": 3051,
+    "pos": [
+      "d",
+      "a",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "偏",
+        "transcriptions": {
+          "pinyin": "piān",
+          "numeric": "pian1",
+          "wadegiles": "p'ien¹",
+          "bopomofo": "ㄆㄧㄢ",
+          "romatzyh": "pian"
+        },
+        "meanings": [
+          "to lean",
+          "to slant",
+          "oblique",
+          "prejudiced",
+          "to deviate from average",
+          "to stray from the intended line",
+          "stubbornly",
+          "contrary to expectations"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "篇",
+    "radical": "⺮",
+    "frequency": 1691,
+    "pos": [
+      "q",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "篇",
+        "transcriptions": {
+          "pinyin": "piān",
+          "numeric": "pian1",
+          "wadegiles": "p'ien¹",
+          "bopomofo": "ㄆㄧㄢ",
+          "romatzyh": "pian"
+        },
+        "meanings": [
+          "sheet",
+          "piece of writing",
+          "bound set of bamboo slips used for record keeping (old)",
+          "classifier for written items: chapter, article"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "片",
+    "radical": "片",
+    "frequency": 560,
+    "pos": [
+      "q",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "片",
+        "transcriptions": {
+          "pinyin": "piān",
+          "numeric": "pian1",
+          "wadegiles": "p'ien¹",
+          "bopomofo": "ㄆㄧㄢ",
+          "romatzyh": "pian"
+        },
+        "meanings": [
+          "disk",
+          "sheet"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "片",
+        "transcriptions": {
+          "pinyin": "piàn",
+          "numeric": "pian4",
+          "wadegiles": "p'ien⁴",
+          "bopomofo": "ㄆㄧㄢˋ",
+          "romatzyh": "piann"
+        },
+        "meanings": [
+          "thin piece",
+          "flake",
+          "a slice",
+          "film",
+          "TV play",
+          "to slice",
+          "to carve thin",
+          "partial",
+          "incomplete",
+          "one-sided",
+          "classifier for slices, tablets, tract of land, area of water",
+          "classifier for CDs, movies, DVDs etc",
+          "used with numeral 一: classifier for scenario, scene, feeling, atmosphere, sound etc",
+          "Kangxi radical 91"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "片面",
+    "radical": "片",
+    "frequency": 16993,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "片面",
+        "transcriptions": {
+          "pinyin": "piàn miàn",
+          "numeric": "pian4 mian4",
+          "wadegiles": "p'ien⁴ mien⁴",
+          "bopomofo": "ㄆㄧㄢˋ ㄇㄧㄢˋ",
+          "romatzyh": "piann miann"
+        },
+        "meanings": [
+          "unilateral",
+          "one-sided"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "骗",
+    "radical": "马",
+    "frequency": 1935,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "騙",
+        "transcriptions": {
+          "pinyin": "piàn",
+          "numeric": "pian4",
+          "wadegiles": "p'ien⁴",
+          "bopomofo": "ㄆㄧㄢˋ",
+          "romatzyh": "piann"
+        },
+        "meanings": [
+          "to cheat",
+          "to swindle",
+          "to deceive",
+          "to get on (a horse etc) by swinging one leg over"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "骗子",
+    "radical": "马",
+    "frequency": 4446,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "騙子",
+        "transcriptions": {
+          "pinyin": "piàn zi",
+          "numeric": "pian4 zi5",
+          "wadegiles": "p'ien⁴ zi",
+          "bopomofo": "ㄆㄧㄢˋ zi",
+          "romatzyh": "piann zi"
+        },
+        "meanings": [
+          "swindler",
+          "a cheat"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "票",
+    "radical": "示",
+    "frequency": 956,
+    "pos": [
+      "n",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "票",
+        "transcriptions": {
+          "pinyin": "piào",
+          "numeric": "piao4",
+          "wadegiles": "p'iao⁴",
+          "bopomofo": "ㄆㄧㄠˋ",
+          "romatzyh": "piaw"
+        },
+        "meanings": [
+          "ticket",
+          "ballot",
+          "banknote",
+          "person held for ransom",
+          "amateur performance of Chinese opera",
+          "classifier for groups, batches, business transactions"
+        ],
+        "classifiers": [
+          "张"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "票价",
+    "radical": "示",
+    "frequency": 13687,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "票價",
+        "transcriptions": {
+          "pinyin": "piào jià",
+          "numeric": "piao4 jia4",
+          "wadegiles": "p'iao⁴ chia⁴",
+          "bopomofo": "ㄆㄧㄠˋ ㄐㄧㄚˋ",
+          "romatzyh": "piaw jiah"
+        },
+        "meanings": [
+          "ticket price; fare; admission fee"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "漂亮",
+    "radical": "氵",
+    "frequency": 915,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "漂亮",
+        "transcriptions": {
+          "pinyin": "piào liang",
+          "numeric": "piao4 liang5",
+          "wadegiles": "p'iao⁴ liang",
+          "bopomofo": "ㄆㄧㄠˋ liang",
+          "romatzyh": "piaw liang"
+        },
+        "meanings": [
+          "pretty",
+          "beautiful"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "拼",
+    "radical": "扌",
+    "frequency": 2461,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "拼",
+        "transcriptions": {
+          "pinyin": "pīn",
+          "numeric": "pin1",
+          "wadegiles": "p'in¹",
+          "bopomofo": "ㄆㄧㄣ",
+          "romatzyh": "pin"
+        },
+        "meanings": [
+          "to piece together",
+          "to join together",
+          "to stake all",
+          "adventurous",
+          "at the risk of one's life",
+          "to spell"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "贫困",
+    "radical": "贝",
+    "frequency": 6107,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "貧困",
+        "transcriptions": {
+          "pinyin": "pín kùn",
+          "numeric": "pin2 kun4",
+          "wadegiles": "p'in² k'un⁴",
+          "bopomofo": "ㄆㄧㄣˊ ㄎㄨㄣˋ",
+          "romatzyh": "pyn kuenn"
+        },
+        "meanings": [
+          "impoverished",
+          "poverty"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "频道",
+    "radical": "页",
+    "frequency": 2941,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "頻道",
+        "transcriptions": {
+          "pinyin": "pín dào",
+          "numeric": "pin2 dao4",
+          "wadegiles": "p'in² tao⁴",
+          "bopomofo": "ㄆㄧㄣˊ ㄉㄠˋ",
+          "romatzyh": "pyn daw"
+        },
+        "meanings": [
+          "frequency",
+          "(television) channel"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "频繁",
+    "radical": "页",
+    "frequency": 6642,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "頻繁",
+        "transcriptions": {
+          "pinyin": "pín fán",
+          "numeric": "pin2 fan2",
+          "wadegiles": "p'in² fan²",
+          "bopomofo": "ㄆㄧㄣˊ ㄈㄢˊ",
+          "romatzyh": "pyn farn"
+        },
+        "meanings": [
+          "frequently",
+          "often"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "品",
+    "radical": "口",
+    "frequency": 2922,
+    "pos": [
+      "g",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "品",
+        "transcriptions": {
+          "pinyin": "pǐn",
+          "numeric": "pin3",
+          "wadegiles": "p'in³",
+          "bopomofo": "ㄆㄧㄣˇ",
+          "romatzyh": "piin"
+        },
+        "meanings": [
+          "(bound form) article; commodity; product; goods",
+          "(bound form) grade; rank",
+          "kind; type; variety",
+          "character; disposition; nature; temperament",
+          "to taste sth; to sample",
+          "to criticize; to comment; to judge; to size up",
+          "fret (on a guitar or lute)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "品",
+    "radical": "口",
+    "frequency": 2922,
+    "pos": [
+      "g",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "品",
+        "transcriptions": {
+          "pinyin": "pǐn",
+          "numeric": "pin3",
+          "wadegiles": "p'in³",
+          "bopomofo": "ㄆㄧㄣˇ",
+          "romatzyh": "piin"
+        },
+        "meanings": [
+          "(bound form) article; commodity; product; goods",
+          "(bound form) grade; rank",
+          "kind; type; variety",
+          "character; disposition; nature; temperament",
+          "to taste sth; to sample",
+          "to criticize; to comment; to judge; to size up",
+          "fret (on a guitar or lute)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "品牌",
+    "radical": "口",
+    "frequency": 2178,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "品牌",
+        "transcriptions": {
+          "pinyin": "pǐn pái",
+          "numeric": "pin3 pai2",
+          "wadegiles": "p'in³ p'ai²",
+          "bopomofo": "ㄆㄧㄣˇ ㄆㄞˊ",
+          "romatzyh": "piin pair"
+        },
+        "meanings": [
+          "brand name",
+          "trademark"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "品质",
+    "radical": "口",
+    "frequency": 5177,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "品質",
+        "transcriptions": {
+          "pinyin": "pǐn zhì",
+          "numeric": "pin3 zhi4",
+          "wadegiles": "p'in³ chih⁴",
+          "bopomofo": "ㄆㄧㄣˇ ㄓˋ",
+          "romatzyh": "piin jyh"
+        },
+        "meanings": [
+          "character",
+          "intrinsic quality (of a person)",
+          "quality (of a product or service, or as in \"quality of life\", \"air quality\" etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "品种",
+    "radical": "口",
+    "frequency": 6332,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "品種",
+        "transcriptions": {
+          "pinyin": "pǐn zhǒng",
+          "numeric": "pin3 zhong3",
+          "wadegiles": "p'in³ chung³",
+          "bopomofo": "ㄆㄧㄣˇ ㄓㄨㄥˇ",
+          "romatzyh": "piin joong"
+        },
+        "meanings": [
+          "breed",
+          "variety"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "聘请",
+    "radical": "耳",
+    "frequency": 9178,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "聘請",
+        "transcriptions": {
+          "pinyin": "pìn qǐng",
+          "numeric": "pin4 qing3",
+          "wadegiles": "p'in⁴ ch'ing³",
+          "bopomofo": "ㄆㄧㄣˋ ㄑㄧㄥˇ",
+          "romatzyh": "pinn chiing"
+        },
+        "meanings": [
+          "to engage",
+          "to hire (a lawyer etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "平",
+    "radical": "广",
+    "frequency": 1707,
+    "pos": [
+      "a",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "平",
+        "transcriptions": {
+          "pinyin": "Píng",
+          "numeric": "Ping2",
+          "wadegiles": "p'ing²",
+          "bopomofo": "ㄆㄧㄥˊ",
+          "romatzyh": "pyng"
+        },
+        "meanings": [
+          "surname Ping"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "平",
+        "transcriptions": {
+          "pinyin": "píng",
+          "numeric": "ping2",
+          "wadegiles": "p'ing²",
+          "bopomofo": "ㄆㄧㄥˊ",
+          "romatzyh": "pyng"
+        },
+        "meanings": [
+          "flat",
+          "level",
+          "equal",
+          "to tie (make the same score)",
+          "to draw (score)",
+          "calm",
+          "peaceful",
+          "abbr. for 平声"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "平安",
+    "radical": "广",
+    "frequency": 3137,
+    "pos": [
+      "a",
+      "an",
+      "ad",
+      "n",
+      "nz"
+    ],
+    "forms": [
+      {
+        "traditional": "平安",
+        "transcriptions": {
+          "pinyin": "píng ān",
+          "numeric": "ping2 an1",
+          "wadegiles": "p'ing² an¹",
+          "bopomofo": "ㄆㄧㄥˊ ㄢ",
+          "romatzyh": "pyng an"
+        },
+        "meanings": [
+          "safe and sound",
+          "well",
+          "without mishap",
+          "quiet and safe",
+          "at peace"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "平常",
+    "radical": "广",
+    "frequency": 4153,
+    "pos": [
+      "a",
+      "d",
+      "t",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "平常",
+        "transcriptions": {
+          "pinyin": "píng cháng",
+          "numeric": "ping2 chang2",
+          "wadegiles": "p'ing² ch'ang²",
+          "bopomofo": "ㄆㄧㄥˊ ㄔㄤˊ",
+          "romatzyh": "pyng charng"
+        },
+        "meanings": [
+          "ordinary",
+          "common",
+          "usually",
+          "ordinarily"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

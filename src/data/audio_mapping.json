@@ -1,0 +1,32 @@
+{
+  "vocabulary": {
+    "vietnamese": {
+      "hai": "vi/a1/hai_42810cb0.mp3"
+    },
+    "chinese": {}
+  },
+  "passages": {
+    "vietnamese": {
+      "titles": {
+        "a1-01": "vi/a1/title_a1-01.mp3"
+      },
+      "paragraphs": {
+        "a1-01": {
+          "0": "vi/a1/a1-01_para_0.mp3",
+          "1": "vi/a1/a1-01_para_1.mp3"
+        }
+      }
+    },
+    "chinese": {
+      "titles": {
+        "a1-01": "ch/a1/title_a1-01.mp3"
+      },
+      "paragraphs": {
+        "a1-01": {
+          "0": "ch/a1/a1-01_para_0.mp3",
+          "1": "ch/a1/a1-01_para_1.mp3"
+        }
+      }
+    }
+  }
+}

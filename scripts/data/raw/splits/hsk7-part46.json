@@ -1,0 +1,2220 @@
+[
+  {
+    "simplified": "护",
+    "radical": "扌",
+    "frequency": 2909,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "護",
+        "transcriptions": {
+          "pinyin": "hù",
+          "numeric": "hu4",
+          "wadegiles": "hu⁴",
+          "bopomofo": "ㄏㄨˋ",
+          "romatzyh": "huh"
+        },
+        "meanings": [
+          "to protect"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "护理",
+    "radical": "扌",
+    "frequency": 4882,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "護理",
+        "transcriptions": {
+          "pinyin": "hù lǐ",
+          "numeric": "hu4 li3",
+          "wadegiles": "hu⁴ li³",
+          "bopomofo": "ㄏㄨˋ ㄌㄧˇ",
+          "romatzyh": "huh lii"
+        },
+        "meanings": [
+          "to nurse",
+          "to tend and protect"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "护士",
+    "radical": "扌",
+    "frequency": 3782,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "護士",
+        "transcriptions": {
+          "pinyin": "hù shi",
+          "numeric": "hu4 shi5",
+          "wadegiles": "hu⁴ shi",
+          "bopomofo": "ㄏㄨˋ shi",
+          "romatzyh": "huh shi"
+        },
+        "meanings": [
+          "nurse"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "护照",
+    "radical": "扌",
+    "frequency": 7152,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "護照",
+        "transcriptions": {
+          "pinyin": "hù zhào",
+          "numeric": "hu4 zhao4",
+          "wadegiles": "hu⁴ chao⁴",
+          "bopomofo": "ㄏㄨˋ ㄓㄠˋ",
+          "romatzyh": "huh jaw"
+        },
+        "meanings": [
+          "passport"
+        ],
+        "classifiers": [
+          "本",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "糊",
+    "radical": "米",
+    "frequency": 9351,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "䊀",
+        "transcriptions": {
+          "pinyin": "hú",
+          "numeric": "hu2",
+          "wadegiles": "hu²",
+          "bopomofo": "ㄏㄨˊ",
+          "romatzyh": "hwu"
+        },
+        "meanings": [
+          "variant of 糊"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "糊",
+        "transcriptions": {
+          "pinyin": "hú",
+          "numeric": "hu2",
+          "wadegiles": "hu²",
+          "bopomofo": "ㄏㄨˊ",
+          "romatzyh": "hwu"
+        },
+        "meanings": [
+          "muddled",
+          "paste",
+          "scorched"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "糊",
+        "transcriptions": {
+          "pinyin": "hù",
+          "numeric": "hu4",
+          "wadegiles": "hu⁴",
+          "bopomofo": "ㄏㄨˋ",
+          "romatzyh": "huh"
+        },
+        "meanings": [
+          "paste",
+          "cream"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "餬",
+        "transcriptions": {
+          "pinyin": "hú",
+          "numeric": "hu2",
+          "wadegiles": "hu²",
+          "bopomofo": "ㄏㄨˊ",
+          "romatzyh": "hwu"
+        },
+        "meanings": [
+          "congee",
+          "making a living"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "糊涂",
+    "radical": "米",
+    "frequency": 6397,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "糊塗",
+        "transcriptions": {
+          "pinyin": "hú tu",
+          "numeric": "hu2 tu5",
+          "wadegiles": "hu² tu",
+          "bopomofo": "ㄏㄨˊ tu",
+          "romatzyh": "hwu tu"
+        },
+        "meanings": [
+          "muddled",
+          "silly",
+          "confused"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "花",
+    "radical": "艹",
+    "frequency": 435,
+    "pos": [
+      "v",
+      "n",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "花",
+        "transcriptions": {
+          "pinyin": "Huā",
+          "numeric": "Hua1",
+          "wadegiles": "hua¹",
+          "bopomofo": "ㄏㄨㄚ",
+          "romatzyh": "hua"
+        },
+        "meanings": [
+          "surname Hua"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "花",
+        "transcriptions": {
+          "pinyin": "huā",
+          "numeric": "hua1",
+          "wadegiles": "hua¹",
+          "bopomofo": "ㄏㄨㄚ",
+          "romatzyh": "hua"
+        },
+        "meanings": [
+          "flower",
+          "blossom",
+          "fancy pattern",
+          "florid",
+          "to spend (money, time)",
+          "(coll.) lecherous",
+          "lustful"
+        ],
+        "classifiers": [
+          "朵",
+          "支",
+          "束",
+          "把",
+          "盆",
+          "簇"
+        ]
+      },
+      {
+        "traditional": "芲",
+        "transcriptions": {
+          "pinyin": "huā",
+          "numeric": "hua1",
+          "wadegiles": "hua¹",
+          "bopomofo": "ㄏㄨㄚ",
+          "romatzyh": "hua"
+        },
+        "meanings": [
+          "old variant of 花"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "蘤",
+        "transcriptions": {
+          "pinyin": "huā",
+          "numeric": "hua1",
+          "wadegiles": "hua¹",
+          "bopomofo": "ㄏㄨㄚ",
+          "romatzyh": "hua"
+        },
+        "meanings": [
+          "variant of 花",
+          "flower",
+          "blossom",
+          "also pr. [wěi]"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "花瓣",
+    "radical": "艹",
+    "frequency": 13753,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "花瓣",
+        "transcriptions": {
+          "pinyin": "huā bàn",
+          "numeric": "hua1 ban4",
+          "wadegiles": "hua¹ pan⁴",
+          "bopomofo": "ㄏㄨㄚ ㄅㄢˋ",
+          "romatzyh": "hua bann"
+        },
+        "meanings": [
+          "petal"
+        ],
+        "classifiers": [
+          "片"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "花费",
+    "radical": "艹",
+    "frequency": 5505,
+    "pos": [
+      "v",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "花費",
+        "transcriptions": {
+          "pinyin": "huā fèi",
+          "numeric": "hua1 fei4",
+          "wadegiles": "hua¹ fei⁴",
+          "bopomofo": "ㄏㄨㄚ ㄈㄟˋ",
+          "romatzyh": "hua fey"
+        },
+        "meanings": [
+          "expense",
+          "cost",
+          "to spend (time or money)",
+          "expenditure"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "花卉",
+    "radical": "艹",
+    "frequency": 17806,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "花卉",
+        "transcriptions": {
+          "pinyin": "huā huì",
+          "numeric": "hua1 hui4",
+          "wadegiles": "hua¹ hui⁴",
+          "bopomofo": "ㄏㄨㄚ ㄏㄨㄟˋ",
+          "romatzyh": "hua huey"
+        },
+        "meanings": [
+          "flowers and plants"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "花瓶",
+    "radical": "艹",
+    "frequency": 11183,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "花瓶",
+        "transcriptions": {
+          "pinyin": "huā píng",
+          "numeric": "hua1 ping2",
+          "wadegiles": "hua¹ p'ing²",
+          "bopomofo": "ㄏㄨㄚ ㄆㄧㄥˊ",
+          "romatzyh": "hua pyng"
+        },
+        "meanings": [
+          "flower vase",
+          "(fig.) female employee considered to be just a pretty face (attractive but not very competent)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "花生",
+    "radical": "艹",
+    "frequency": 6750,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "花生",
+        "transcriptions": {
+          "pinyin": "huā shēng",
+          "numeric": "hua1 sheng1",
+          "wadegiles": "hua¹ sheng¹",
+          "bopomofo": "ㄏㄨㄚ ㄕㄥ",
+          "romatzyh": "hua sheng"
+        },
+        "meanings": [
+          "peanut",
+          "groundnut"
+        ],
+        "classifiers": [
+          "粒"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "花纹",
+    "radical": "艹",
+    "frequency": 14786,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "花紋",
+        "transcriptions": {
+          "pinyin": "huā wén",
+          "numeric": "hua1 wen2",
+          "wadegiles": "hua¹ wen²",
+          "bopomofo": "ㄏㄨㄚ ㄨㄣˊ",
+          "romatzyh": "hua wen"
+        },
+        "meanings": [
+          "decorative design"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "花样",
+    "radical": "艹",
+    "frequency": 6638,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "花樣",
+        "transcriptions": {
+          "pinyin": "huā yàng",
+          "numeric": "hua1 yang4",
+          "wadegiles": "hua¹ yang⁴",
+          "bopomofo": "ㄏㄨㄚ ㄧㄤˋ",
+          "romatzyh": "hua yanq"
+        },
+        "meanings": [
+          "pattern",
+          "way of doing sth",
+          "trick",
+          "ruse",
+          "fancy-style (as in 花样滑冰 figure skating)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "花园",
+    "radical": "艹",
+    "frequency": 3403,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "花園",
+        "transcriptions": {
+          "pinyin": "huā yuán",
+          "numeric": "hua1 yuan2",
+          "wadegiles": "hua¹ yüan²",
+          "bopomofo": "ㄏㄨㄚ ㄩㄢˊ",
+          "romatzyh": "hua yuan"
+        },
+        "meanings": [
+          "garden"
+        ],
+        "classifiers": [
+          "座",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "哗变",
+    "radical": "口",
+    "frequency": 62759,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "嘩變",
+        "transcriptions": {
+          "pinyin": "huá biàn",
+          "numeric": "hua2 bian4",
+          "wadegiles": "hua² pien⁴",
+          "bopomofo": "ㄏㄨㄚˊ ㄅㄧㄢˋ",
+          "romatzyh": "hwa biann"
+        },
+        "meanings": [
+          "mutiny",
+          "rebellion"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "哗然",
+    "radical": "口",
+    "frequency": 33564,
+    "pos": [
+      "z"
+    ],
+    "forms": [
+      {
+        "traditional": "嘩然",
+        "transcriptions": {
+          "pinyin": "huá rán",
+          "numeric": "hua2 ran2",
+          "wadegiles": "hua² jan²",
+          "bopomofo": "ㄏㄨㄚˊ ㄖㄢˊ",
+          "romatzyh": "hwa ran"
+        },
+        "meanings": [
+          "in uproar",
+          "commotion",
+          "causing a storm of protest",
+          "tumultuous"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "譁然",
+        "transcriptions": {
+          "pinyin": "huá rán",
+          "numeric": "hua2 ran2",
+          "wadegiles": "hua² jan²",
+          "bopomofo": "ㄏㄨㄚˊ ㄖㄢˊ",
+          "romatzyh": "hwa ran"
+        },
+        "meanings": [
+          "variant of 哗然"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "华丽",
+    "radical": "十",
+    "frequency": 6294,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "華麗",
+        "transcriptions": {
+          "pinyin": "huá lì",
+          "numeric": "hua2 li4",
+          "wadegiles": "hua² li⁴",
+          "bopomofo": "ㄏㄨㄚˊ ㄌㄧˋ",
+          "romatzyh": "hwa lih"
+        },
+        "meanings": [
+          "gorgeous"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "华侨",
+    "radical": "十",
+    "frequency": 40806,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "華僑",
+        "transcriptions": {
+          "pinyin": "Huá qiáo",
+          "numeric": "Hua2 qiao2",
+          "wadegiles": "hua² ch'iao²",
+          "bopomofo": "ㄏㄨㄚˊ ㄑㄧㄠˊ",
+          "romatzyh": "hwa chyau"
+        },
+        "meanings": [
+          "overseas Chinese",
+          "(in a restricted sense) Chinese emigrant who still retains Chinese nationality"
+        ],
+        "classifiers": [
+          "个",
+          "位",
+          "名"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "华人",
+    "radical": "十",
+    "frequency": 14189,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "華人",
+        "transcriptions": {
+          "pinyin": "Huá rén",
+          "numeric": "Hua2 ren2",
+          "wadegiles": "hua² jen²",
+          "bopomofo": "ㄏㄨㄚˊ ㄖㄣˊ",
+          "romatzyh": "hwa ren"
+        },
+        "meanings": [
+          "ethnic Chinese person or people"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "华裔",
+    "radical": "十",
+    "frequency": 23110,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "華裔",
+        "transcriptions": {
+          "pinyin": "Huá yì",
+          "numeric": "Hua2 yi4",
+          "wadegiles": "hua² i⁴",
+          "bopomofo": "ㄏㄨㄚˊ ㄧˋ",
+          "romatzyh": "hwa yih"
+        },
+        "meanings": [
+          "ethnic Chinese",
+          "non-Chinese citizen of Chinese ancestry"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "华语",
+    "radical": "十",
+    "frequency": 13368,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "華語",
+        "transcriptions": {
+          "pinyin": "Huá yǔ",
+          "numeric": "Hua2 yu3",
+          "wadegiles": "hua² yü³",
+          "bopomofo": "ㄏㄨㄚˊ ㄩˇ",
+          "romatzyh": "hwa yeu"
+        },
+        "meanings": [
+          "Chinese language"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "滑",
+    "radical": "氵",
+    "frequency": 2639,
+    "pos": [
+      "v",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "滑",
+        "transcriptions": {
+          "pinyin": "Huá",
+          "numeric": "Hua2",
+          "wadegiles": "hua²",
+          "bopomofo": "ㄏㄨㄚˊ",
+          "romatzyh": "hwa"
+        },
+        "meanings": [
+          "surname Hua"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "滑",
+        "transcriptions": {
+          "pinyin": "huá",
+          "numeric": "hua2",
+          "wadegiles": "hua²",
+          "bopomofo": "ㄏㄨㄚˊ",
+          "romatzyh": "hwa"
+        },
+        "meanings": [
+          "to slip; to slide",
+          "slippery; smooth",
+          "sly; slippery; not to be trusted"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "滑冰",
+    "radical": "氵",
+    "frequency": 11501,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "滑冰",
+        "transcriptions": {
+          "pinyin": "huá bīng",
+          "numeric": "hua2 bing1",
+          "wadegiles": "hua² ping¹",
+          "bopomofo": "ㄏㄨㄚˊ ㄅㄧㄥ",
+          "romatzyh": "hwa bing"
+        },
+        "meanings": [
+          "to skate",
+          "skating"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "滑稽",
+    "radical": "氵",
+    "frequency": 10569,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "滑稽",
+        "transcriptions": {
+          "pinyin": "huá jī",
+          "numeric": "hua2 ji1",
+          "wadegiles": "hua² chi¹",
+          "bopomofo": "ㄏㄨㄚˊ ㄐㄧ",
+          "romatzyh": "hwa ji"
+        },
+        "meanings": [
+          "comical; funny; amusing (old pr. [gǔ jī])",
+          "huaji, a form of comedy performance popular in Shanghai, Jiangsu and Zhejiang"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "滑梯",
+    "radical": "氵",
+    "frequency": 31034,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "滑梯",
+        "transcriptions": {
+          "pinyin": "huá tī",
+          "numeric": "hua2 ti1",
+          "wadegiles": "hua² t'i¹",
+          "bopomofo": "ㄏㄨㄚˊ ㄊㄧ",
+          "romatzyh": "hwa ti"
+        },
+        "meanings": [
+          "(children's) sliding board",
+          "a slide"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "滑雪",
+    "radical": "氵",
+    "frequency": 7323,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "滑雪",
+        "transcriptions": {
+          "pinyin": "huá xuě",
+          "numeric": "hua2 xue3",
+          "wadegiles": "hua² hsüeh³",
+          "bopomofo": "ㄏㄨㄚˊ ㄒㄩㄝˇ",
+          "romatzyh": "hwa sheue"
+        },
+        "meanings": [
+          "to ski",
+          "skiing"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "化",
+    "radical": "匕",
+    "frequency": 2027,
+    "pos": [
+      "v",
+      "k",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "化",
+        "transcriptions": {
+          "pinyin": "huā",
+          "numeric": "hua1",
+          "wadegiles": "hua¹",
+          "bopomofo": "ㄏㄨㄚ",
+          "romatzyh": "hua"
+        },
+        "meanings": [
+          "variant of 花"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "化",
+        "transcriptions": {
+          "pinyin": "huà",
+          "numeric": "hua4",
+          "wadegiles": "hua⁴",
+          "bopomofo": "ㄏㄨㄚˋ",
+          "romatzyh": "huah"
+        },
+        "meanings": [
+          "to make into",
+          "to change into",
+          "-ization",
+          "to ... -ize",
+          "to transform",
+          "abbr. for 化学"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "化",
+    "radical": "匕",
+    "frequency": 2027,
+    "pos": [
+      "v",
+      "k",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "化",
+        "transcriptions": {
+          "pinyin": "huā",
+          "numeric": "hua1",
+          "wadegiles": "hua¹",
+          "bopomofo": "ㄏㄨㄚ",
+          "romatzyh": "hua"
+        },
+        "meanings": [
+          "variant of 花"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "化",
+        "transcriptions": {
+          "pinyin": "huà",
+          "numeric": "hua4",
+          "wadegiles": "hua⁴",
+          "bopomofo": "ㄏㄨㄚˋ",
+          "romatzyh": "huah"
+        },
+        "meanings": [
+          "to make into",
+          "to change into",
+          "-ization",
+          "to ... -ize",
+          "to transform",
+          "abbr. for 化学"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "化肥",
+    "radical": "匕",
+    "frequency": 19371,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "化肥",
+        "transcriptions": {
+          "pinyin": "huà féi",
+          "numeric": "hua4 fei2",
+          "wadegiles": "hua⁴ fei²",
+          "bopomofo": "ㄏㄨㄚˋ ㄈㄟˊ",
+          "romatzyh": "huah feir"
+        },
+        "meanings": [
+          "fertilizer"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "化解",
+    "radical": "匕",
+    "frequency": 12188,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "化解",
+        "transcriptions": {
+          "pinyin": "huà jiě",
+          "numeric": "hua4 jie3",
+          "wadegiles": "hua⁴ chieh³",
+          "bopomofo": "ㄏㄨㄚˋ ㄐㄧㄝˇ",
+          "romatzyh": "huah jiee"
+        },
+        "meanings": [
+          "to dissolve",
+          "to resolve (contradictions)",
+          "to dispel (doubts)",
+          "to iron out (difficulties)",
+          "to defuse (conflicts)",
+          "to neutralize (fears)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "化身",
+    "radical": "匕",
+    "frequency": 10558,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "化身",
+        "transcriptions": {
+          "pinyin": "huà shēn",
+          "numeric": "hua4 shen1",
+          "wadegiles": "hua⁴ shen¹",
+          "bopomofo": "ㄏㄨㄚˋ ㄕㄣ",
+          "romatzyh": "huah shen"
+        },
+        "meanings": [
+          "incarnation",
+          "reincarnation",
+          "embodiment (of abstract idea)",
+          "personification"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "化石",
+    "radical": "匕",
+    "frequency": 14429,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "化石",
+        "transcriptions": {
+          "pinyin": "huà shí",
+          "numeric": "hua4 shi2",
+          "wadegiles": "hua⁴ shih²",
+          "bopomofo": "ㄏㄨㄚˋ ㄕˊ",
+          "romatzyh": "huah shyr"
+        },
+        "meanings": [
+          "fossil"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "化纤",
+    "radical": "匕",
+    "frequency": 35059,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "化纖",
+        "transcriptions": {
+          "pinyin": "huà xiān",
+          "numeric": "hua4 xian1",
+          "wadegiles": "hua⁴ hsien¹",
+          "bopomofo": "ㄏㄨㄚˋ ㄒㄧㄢ",
+          "romatzyh": "huah shian"
+        },
+        "meanings": [
+          "synthetic fiber"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "化险为夷",
+    "radical": "匕",
+    "frequency": 35462,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "化險為夷",
+        "transcriptions": {
+          "pinyin": "huà xiǎn wéi yí",
+          "numeric": "hua4 xian3 wei2 yi2",
+          "wadegiles": "hua⁴ hsien³ wei² i²",
+          "bopomofo": "ㄏㄨㄚˋ ㄒㄧㄢˇ ㄨㄟˊ ㄧˊ",
+          "romatzyh": "huah shean wei yi"
+        },
+        "meanings": [
+          "to turn peril into safety (idiom); to avert disaster"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "化验",
+    "radical": "匕",
+    "frequency": 9962,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "化驗",
+        "transcriptions": {
+          "pinyin": "huà yàn",
+          "numeric": "hua4 yan4",
+          "wadegiles": "hua⁴ yan⁴",
+          "bopomofo": "ㄏㄨㄚˋ ㄧㄢˋ",
+          "romatzyh": "huah yann"
+        },
+        "meanings": [
+          "chemical examination",
+          "to do a lab test"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "化妆",
+    "radical": "匕",
+    "frequency": 4444,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "化妝",
+        "transcriptions": {
+          "pinyin": "huà zhuāng",
+          "numeric": "hua4 zhuang1",
+          "wadegiles": "hua⁴ chuang¹",
+          "bopomofo": "ㄏㄨㄚˋ ㄓㄨㄤ",
+          "romatzyh": "huah juang"
+        },
+        "meanings": [
+          "to put on makeup"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "划",
+    "radical": "刂",
+    "frequency": 2993,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "划",
+        "transcriptions": {
+          "pinyin": "huá",
+          "numeric": "hua2",
+          "wadegiles": "hua²",
+          "bopomofo": "ㄏㄨㄚˊ",
+          "romatzyh": "hwa"
+        },
+        "meanings": [
+          "to row",
+          "to paddle",
+          "profitable",
+          "worth (the effort)",
+          "it pays (to do sth)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "劃",
+        "transcriptions": {
+          "pinyin": "huá",
+          "numeric": "hua2",
+          "wadegiles": "hua²",
+          "bopomofo": "ㄏㄨㄚˊ",
+          "romatzyh": "hwa"
+        },
+        "meanings": [
+          "to cut",
+          "to slash",
+          "to scratch (cut into the surface of sth)",
+          "to strike (a match)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "劃",
+        "transcriptions": {
+          "pinyin": "huà",
+          "numeric": "hua4",
+          "wadegiles": "hua⁴",
+          "bopomofo": "ㄏㄨㄚˋ",
+          "romatzyh": "huah"
+        },
+        "meanings": [
+          "to delimit",
+          "to transfer",
+          "to assign",
+          "to plan",
+          "to draw (a line)",
+          "stroke of a Chinese character"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "划船",
+    "radical": "刂",
+    "frequency": 21694,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "划船",
+        "transcriptions": {
+          "pinyin": "huá chuán",
+          "numeric": "hua2 chuan2",
+          "wadegiles": "hua² ch'uan²",
+          "bopomofo": "ㄏㄨㄚˊ ㄔㄨㄢˊ",
+          "romatzyh": "hwa chwan"
+        },
+        "meanings": [
+          "to row a boat",
+          "rowing boat",
+          "rowing (sport)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "划分",
+    "radical": "刂",
+    "frequency": 10875,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "劃分",
+        "transcriptions": {
+          "pinyin": "huà fēn",
+          "numeric": "hua4 fen1",
+          "wadegiles": "hua⁴ fen¹",
+          "bopomofo": "ㄏㄨㄚˋ ㄈㄣ",
+          "romatzyh": "huah fen"
+        },
+        "meanings": [
+          "to divide up",
+          "to partition",
+          "to differentiate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "划时代",
+    "radical": "刂",
+    "frequency": 32601,
+    "pos": [
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "劃時代",
+        "transcriptions": {
+          "pinyin": "huà shí dài",
+          "numeric": "hua4 shi2 dai4",
+          "wadegiles": "hua⁴ shih² tai⁴",
+          "bopomofo": "ㄏㄨㄚˋ ㄕˊ ㄉㄞˋ",
+          "romatzyh": "huah shyr day"
+        },
+        "meanings": [
+          "epoch-marking"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "划算",
+    "radical": "刂",
+    "frequency": 12808,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "划算",
+        "transcriptions": {
+          "pinyin": "huá suàn",
+          "numeric": "hua2 suan4",
+          "wadegiles": "hua² suan⁴",
+          "bopomofo": "ㄏㄨㄚˊ ㄙㄨㄢˋ",
+          "romatzyh": "hwa suann"
+        },
+        "meanings": [
+          "to calculate",
+          "to weigh (pros and cons)",
+          "to view as profitable",
+          "worthwhile",
+          "value for money",
+          "cost-effective"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "画",
+    "radical": "田",
+    "frequency": 1119,
+    "pos": [
+      "n",
+      "v",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "畫",
+        "transcriptions": {
+          "pinyin": "huà",
+          "numeric": "hua4",
+          "wadegiles": "hua⁴",
+          "bopomofo": "ㄏㄨㄚˋ",
+          "romatzyh": "huah"
+        },
+        "meanings": [
+          "to draw; to paint",
+          "picture; painting",
+          "to draw (a line) (variant of 划)",
+          "stroke of a Chinese character (variant of 划)",
+          "(calligraphy) horizontal stroke (variant of 划)"
+        ],
+        "classifiers": [
+          "幅",
+          "张"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "画册",
+    "radical": "田",
+    "frequency": 22582,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "畫冊",
+        "transcriptions": {
+          "pinyin": "huà cè",
+          "numeric": "hua4 ce4",
+          "wadegiles": "hua⁴ ts'e⁴",
+          "bopomofo": "ㄏㄨㄚˋ ㄘㄜˋ",
+          "romatzyh": "huah tseh"
+        },
+        "meanings": [
+          "picture album"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "画儿",
+    "radical": "田",
+    "frequency": 69994,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "畫兒",
+        "transcriptions": {
+          "pinyin": "huà r",
+          "numeric": "hua4 r5",
+          "wadegiles": "hua⁴ r",
+          "bopomofo": "ㄏㄨㄚˋ r",
+          "romatzyh": "huah r"
+        },
+        "meanings": [
+          "picture",
+          "drawing",
+          "painting"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "画家",
+    "radical": "田",
+    "frequency": 7217,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "畫家",
+        "transcriptions": {
+          "pinyin": "huà jiā",
+          "numeric": "hua4 jia1",
+          "wadegiles": "hua⁴ chia¹",
+          "bopomofo": "ㄏㄨㄚˋ ㄐㄧㄚ",
+          "romatzyh": "huah jia"
+        },
+        "meanings": [
+          "painter"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "画龙点睛",
+    "radical": "田",
+    "frequency": 46401,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "畫龍點睛",
+        "transcriptions": {
+          "pinyin": "huà lóng diǎn jīng",
+          "numeric": "hua4 long2 dian3 jing1",
+          "wadegiles": "hua⁴ lung² tien³ ching¹",
+          "bopomofo": "ㄏㄨㄚˋ ㄌㄨㄥˊ ㄉㄧㄢˇ ㄐㄧㄥ",
+          "romatzyh": "huah long dean jing"
+        },
+        "meanings": [
+          "to paint a dragon and dot in the eyes (idiom); fig. to add the vital finishing touch",
+          "the crucial point that brings the subject to life",
+          "a few words to clinch the point"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "画面",
+    "radical": "田",
+    "frequency": 3453,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "畫面",
+        "transcriptions": {
+          "pinyin": "huà miàn",
+          "numeric": "hua4 mian4",
+          "wadegiles": "hua⁴ mien⁴",
+          "bopomofo": "ㄏㄨㄚˋ ㄇㄧㄢˋ",
+          "romatzyh": "huah miann"
+        },
+        "meanings": [
+          "scene",
+          "tableau",
+          "picture",
+          "image",
+          "screen (displayed by a computer)",
+          "(motion picture) frame",
+          "field of view"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "画蛇添足",
+    "radical": "田",
+    "frequency": 47111,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "畫蛇添足",
+        "transcriptions": {
+          "pinyin": "huà shé tiān zú",
+          "numeric": "hua4 she2 tian1 zu2",
+          "wadegiles": "hua⁴ she² t'ien¹ tsu²",
+          "bopomofo": "ㄏㄨㄚˋ ㄕㄜˊ ㄊㄧㄢ ㄗㄨˊ",
+          "romatzyh": "huah sher tian tzwu"
+        },
+        "meanings": [
+          "lit. draw legs on a snake (idiom); fig. to ruin the effect by adding sth superfluous",
+          "to overdo it"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "画展",
+    "radical": "田",
+    "frequency": 20576,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "畫展",
+        "transcriptions": {
+          "pinyin": "huà zhǎn",
+          "numeric": "hua4 zhan3",
+          "wadegiles": "hua⁴ chan³",
+          "bopomofo": "ㄏㄨㄚˋ ㄓㄢˇ",
+          "romatzyh": "huah jaan"
+        },
+        "meanings": [
+          "art exhibition"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "话",
+    "radical": "讠",
+    "frequency": 157,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "話",
+        "transcriptions": {
+          "pinyin": "huà",
+          "numeric": "hua4",
+          "wadegiles": "hua⁴",
+          "bopomofo": "ㄏㄨㄚˋ",
+          "romatzyh": "huah"
+        },
+        "meanings": [
+          "dialect",
+          "language",
+          "spoken words",
+          "speech",
+          "talk",
+          "words",
+          "conversation",
+          "what sb said"
+        ],
+        "classifiers": [
+          "种",
+          "席",
+          "句",
+          "口",
+          "番"
+        ]
+      },
+      {
+        "traditional": "諙",
+        "transcriptions": {
+          "pinyin": "huà",
+          "numeric": "hua4",
+          "wadegiles": "hua⁴",
+          "bopomofo": "ㄏㄨㄚˋ",
+          "romatzyh": "huah"
+        },
+        "meanings": [
+          "old variant of 话"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "话费",
+    "radical": "讠",
+    "frequency": 23912,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "話費",
+        "transcriptions": {
+          "pinyin": "huà fèi",
+          "numeric": "hua4 fei4",
+          "wadegiles": "hua⁴ fei⁴",
+          "bopomofo": "ㄏㄨㄚˋ ㄈㄟˋ",
+          "romatzyh": "huah fey"
+        },
+        "meanings": [
+          "call charge"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "话剧",
+    "radical": "讠",
+    "frequency": 11486,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "話劇",
+        "transcriptions": {
+          "pinyin": "huà jù",
+          "numeric": "hua4 ju4",
+          "wadegiles": "hua⁴ chü⁴",
+          "bopomofo": "ㄏㄨㄚˋ ㄐㄩˋ",
+          "romatzyh": "huah jiuh"
+        },
+        "meanings": [
+          "stage play",
+          "modern drama"
+        ],
+        "classifiers": [
+          "台",
+          "部"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "话题",
+    "radical": "讠",
+    "frequency": 2557,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "話題",
+        "transcriptions": {
+          "pinyin": "huà tí",
+          "numeric": "hua4 ti2",
+          "wadegiles": "hua⁴ t'i²",
+          "bopomofo": "ㄏㄨㄚˋ ㄊㄧˊ",
+          "romatzyh": "huah tyi"
+        },
+        "meanings": [
+          "subject (of a talk or conversation)",
+          "topic"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "话筒",
+    "radical": "讠",
+    "frequency": 12761,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "話筒",
+        "transcriptions": {
+          "pinyin": "huà tǒng",
+          "numeric": "hua4 tong3",
+          "wadegiles": "hua⁴ t'ung³",
+          "bopomofo": "ㄏㄨㄚˋ ㄊㄨㄥˇ",
+          "romatzyh": "huah toong"
+        },
+        "meanings": [
+          "microphone",
+          "(telephone) receiver",
+          "handset"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "话语",
+    "radical": "讠",
+    "frequency": 7946,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "話語",
+        "transcriptions": {
+          "pinyin": "huà yǔ",
+          "numeric": "hua4 yu3",
+          "wadegiles": "hua⁴ yü³",
+          "bopomofo": "ㄏㄨㄚˋ ㄩˇ",
+          "romatzyh": "huah yeu"
+        },
+        "meanings": [
+          "words",
+          "speech",
+          "utterance",
+          "discourse"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "怀抱",
+    "radical": "忄",
+    "frequency": 9613,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "懷抱",
+        "transcriptions": {
+          "pinyin": "huái bào",
+          "numeric": "huai2 bao4",
+          "wadegiles": "huai² pao⁴",
+          "bopomofo": "ㄏㄨㄞˊ ㄅㄠˋ",
+          "romatzyh": "hwai baw"
+        },
+        "meanings": [
+          "to hug",
+          "to cherish",
+          "within the bosom (of the family)",
+          "to embrace (also fig. an ideal, aspiration etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "怀旧",
+    "radical": "忄",
+    "frequency": 11833,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "懷舊",
+        "transcriptions": {
+          "pinyin": "huái jiù",
+          "numeric": "huai2 jiu4",
+          "wadegiles": "huai² chiu⁴",
+          "bopomofo": "ㄏㄨㄞˊ ㄐㄧㄡˋ",
+          "romatzyh": "hwai jiow"
+        },
+        "meanings": [
+          "to feel nostalgic",
+          "nostalgia"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "怀里",
+    "radical": "忄",
+    "frequency": 8879,
+    "pos": [
+      "s"
+    ],
+    "forms": [
+      {
+        "traditional": "懷裡",
+        "transcriptions": {
+          "pinyin": "huái lǐ",
+          "numeric": "huai2 li3",
+          "wadegiles": "huai² li³",
+          "bopomofo": "ㄏㄨㄞˊ ㄌㄧˇ",
+          "romatzyh": "hwai lii"
+        },
+        "meanings": [
+          "embrace",
+          "bosom"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "怀念",
+    "radical": "忄",
+    "frequency": 3668,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "懷念",
+        "transcriptions": {
+          "pinyin": "huái niàn",
+          "numeric": "huai2 nian4",
+          "wadegiles": "huai² nien⁴",
+          "bopomofo": "ㄏㄨㄞˊ ㄋㄧㄢˋ",
+          "romatzyh": "hwai niann"
+        },
+        "meanings": [
+          "to cherish the memory of",
+          "to think of",
+          "to reminisce"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "怀疑",
+    "radical": "忄",
+    "frequency": 1763,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "懷疑",
+        "transcriptions": {
+          "pinyin": "huái yí",
+          "numeric": "huai2 yi2",
+          "wadegiles": "huai² i²",
+          "bopomofo": "ㄏㄨㄞˊ ㄧˊ",
+          "romatzyh": "hwai yi"
+        },
+        "meanings": [
+          "to doubt (sth)",
+          "to be skeptical of",
+          "to have one's doubts",
+          "to harbor suspicions",
+          "to suspect that"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "怀孕",
+    "radical": "忄",
+    "frequency": 3299,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "懷孕",
+        "transcriptions": {
+          "pinyin": "huái yùn",
+          "numeric": "huai2 yun4",
+          "wadegiles": "huai² yün⁴",
+          "bopomofo": "ㄏㄨㄞˊ ㄩㄣˋ",
+          "romatzyh": "hwai yunn"
+        },
+        "meanings": [
+          "pregnant",
+          "to have conceived",
+          "gestation",
+          "pregnancy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "怀着",
+    "radical": "忄",
+    "frequency": 7193,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "懷著",
+        "transcriptions": {
+          "pinyin": "huáizhe",
+          "numeric": "huáizhe",
+          "wadegiles": "huáizhe",
+          "bopomofo": "huáizhe",
+          "romatzyh": "huáizhe"
+        },
+        "meanings": [
+          "Be with"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "槐树",
+    "radical": "木",
+    "frequency": 61916,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "槐樹",
+        "transcriptions": {
+          "pinyin": "huái shù",
+          "numeric": "huai2 shu4",
+          "wadegiles": "huai² shu⁴",
+          "bopomofo": "ㄏㄨㄞˊ ㄕㄨˋ",
+          "romatzyh": "hwai shuh"
+        },
+        "meanings": [
+          "locust tree (Sophora japonica)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "坏",
+    "radical": "土",
+    "frequency": 1239,
+    "pos": [
+      "a",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "壞",
+        "transcriptions": {
+          "pinyin": "huài",
+          "numeric": "huai4",
+          "wadegiles": "huai⁴",
+          "bopomofo": "ㄏㄨㄞˋ",
+          "romatzyh": "huay"
+        },
+        "meanings": [
+          "bad",
+          "spoiled",
+          "broken",
+          "to break down",
+          "(suffix) to the utmost"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "坏处",
+    "radical": "土",
+    "frequency": 18345,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "壞處",
+        "transcriptions": {
+          "pinyin": "huài chu",
+          "numeric": "huai4 chu5",
+          "wadegiles": "huai⁴ chu",
+          "bopomofo": "ㄏㄨㄞˋ chu",
+          "romatzyh": "huay chu"
+        },
+        "meanings": [
+          "harm",
+          "troubles"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "坏人",
+    "radical": "土",
+    "frequency": 5700,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "壞人",
+        "transcriptions": {
+          "pinyin": "huài rén",
+          "numeric": "huai4 ren2",
+          "wadegiles": "huai⁴ jen²",
+          "bopomofo": "ㄏㄨㄞˋ ㄖㄣˊ",
+          "romatzyh": "huay ren"
+        },
+        "meanings": [
+          "bad person",
+          "villain"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "坏事",
+    "radical": "土",
+    "frequency": 5994,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "壞事",
+        "transcriptions": {
+          "pinyin": "huài shì",
+          "numeric": "huai4 shi4",
+          "wadegiles": "huai⁴ shih⁴",
+          "bopomofo": "ㄏㄨㄞˋ ㄕˋ",
+          "romatzyh": "huay shyh"
+        },
+        "meanings": [
+          "bad thing; misdeed",
+          "to ruin things"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "环",
+    "radical": "王",
+    "frequency": 2712,
+    "pos": [
+      "n",
+      "v",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "環",
+        "transcriptions": {
+          "pinyin": "Huán",
+          "numeric": "Huan2",
+          "wadegiles": "huan²",
+          "bopomofo": "ㄏㄨㄢˊ",
+          "romatzyh": "hwan"
+        },
+        "meanings": [
+          "surname Huan"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "環",
+        "transcriptions": {
+          "pinyin": "huán",
+          "numeric": "huan2",
+          "wadegiles": "huan²",
+          "bopomofo": "ㄏㄨㄢˊ",
+          "romatzyh": "hwan"
+        },
+        "meanings": [
+          "ring",
+          "hoop",
+          "loop",
+          "(chain) link",
+          "classifier for scores in archery etc",
+          "to surround",
+          "to encircle",
+          "to hem in"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "环保",
+    "radical": "王",
+    "frequency": 4327,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "環保",
+        "transcriptions": {
+          "pinyin": "huán bǎo",
+          "numeric": "huan2 bao3",
+          "wadegiles": "huan² pao³",
+          "bopomofo": "ㄏㄨㄢˊ ㄅㄠˇ",
+          "romatzyh": "hwan bao"
+        },
+        "meanings": [
+          "environmental protection",
+          "environmentally friendly",
+          "abbr. for 环境保护"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "环节",
+    "radical": "王",
+    "frequency": 3149,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "環節",
+        "transcriptions": {
+          "pinyin": "huán jié",
+          "numeric": "huan2 jie2",
+          "wadegiles": "huan² chieh²",
+          "bopomofo": "ㄏㄨㄢˊ ㄐㄧㄝˊ",
+          "romatzyh": "hwan jye"
+        },
+        "meanings": [
+          "(zoology) segment (of the body of a worm, centipede etc)",
+          "(fig.) a part of an integrated whole: aspect (of a project), element (of a policy), sector (of the economy), stage (of a process) etc"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "环境",
+    "radical": "王",
+    "frequency": 1171,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "環境",
+        "transcriptions": {
+          "pinyin": "huán jìng",
+          "numeric": "huan2 jing4",
+          "wadegiles": "huan² ching⁴",
+          "bopomofo": "ㄏㄨㄢˊ ㄐㄧㄥˋ",
+          "romatzyh": "hwan jinq"
+        },
+        "meanings": [
+          "environment",
+          "circumstances",
+          "surroundings",
+          "ambient"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "环球",
+    "radical": "王",
+    "frequency": 6667,
+    "pos": [
+      "n",
+      "nz"
+    ],
+    "forms": [
+      {
+        "traditional": "環球",
+        "transcriptions": {
+          "pinyin": "huán qiú",
+          "numeric": "huan2 qiu2",
+          "wadegiles": "huan² ch'iu²",
+          "bopomofo": "ㄏㄨㄢˊ ㄑㄧㄡˊ",
+          "romatzyh": "hwan chyou"
+        },
+        "meanings": [
+          "around the world",
+          "worldwide"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "环绕",
+    "radical": "王",
+    "frequency": 10875,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "環繞",
+        "transcriptions": {
+          "pinyin": "huán rào",
+          "numeric": "huan2 rao4",
+          "wadegiles": "huan² jao⁴",
+          "bopomofo": "ㄏㄨㄢˊ ㄖㄠˋ",
+          "romatzyh": "hwan raw"
+        },
+        "meanings": [
+          "to surround",
+          "to circle",
+          "to revolve around"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "缓",
+    "radical": "纟",
+    "frequency": 7310,
+    "pos": [
+      "v",
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "緩",
+        "transcriptions": {
+          "pinyin": "huǎn",
+          "numeric": "huan3",
+          "wadegiles": "huan³",
+          "bopomofo": "ㄏㄨㄢˇ",
+          "romatzyh": "hoan"
+        },
+        "meanings": [
+          "slow",
+          "unhurried",
+          "sluggish",
+          "gradual",
+          "not tense",
+          "relaxed",
+          "to postpone",
+          "to defer",
+          "to stall",
+          "to stave off",
+          "to revive",
+          "to recuperate"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

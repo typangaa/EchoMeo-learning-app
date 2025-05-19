@@ -1,0 +1,2061 @@
+[
+  {
+    "simplified": "祈祷",
+    "radical": "礻",
+    "frequency": 4534,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "祈禱",
+        "transcriptions": {
+          "pinyin": "qí dǎo",
+          "numeric": "qi2 dao3",
+          "wadegiles": "ch'i² tao³",
+          "bopomofo": "ㄑㄧˊ ㄉㄠˇ",
+          "romatzyh": "chyi dao"
+        },
+        "meanings": [
+          "to pray",
+          "to say one's prayers",
+          "prayer"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "骑",
+    "radical": "马",
+    "frequency": 2231,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "騎",
+        "transcriptions": {
+          "pinyin": "jì",
+          "numeric": "ji4",
+          "wadegiles": "chi⁴",
+          "bopomofo": "ㄐㄧˋ",
+          "romatzyh": "jih"
+        },
+        "meanings": [
+          "(Tw) saddle horse",
+          "mounted soldier"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "騎",
+        "transcriptions": {
+          "pinyin": "qí",
+          "numeric": "qi2",
+          "wadegiles": "ch'i²",
+          "bopomofo": "ㄑㄧˊ",
+          "romatzyh": "chyi"
+        },
+        "meanings": [
+          "to sit astride",
+          "to ride (a horse, bike etc)",
+          "classifier for saddle horses"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "骑车",
+    "radical": "马",
+    "frequency": 7235,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "騎車",
+        "transcriptions": {
+          "pinyin": "qí chē",
+          "numeric": "qi2 che1",
+          "wadegiles": "ch'i² ch'e¹",
+          "bopomofo": "ㄑㄧˊ ㄔㄜ",
+          "romatzyh": "chyi che"
+        },
+        "meanings": [
+          "to ride a bike (motorbike or bicycle)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "棋",
+    "radical": "木",
+    "frequency": 7604,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "棊",
+        "transcriptions": {
+          "pinyin": "qí",
+          "numeric": "qi2",
+          "wadegiles": "ch'i²",
+          "bopomofo": "ㄑㄧˊ",
+          "romatzyh": "chyi"
+        },
+        "meanings": [
+          "variant of 棋"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "棋",
+        "transcriptions": {
+          "pinyin": "qí",
+          "numeric": "qi2",
+          "wadegiles": "ch'i²",
+          "bopomofo": "ㄑㄧˊ",
+          "romatzyh": "chyi"
+        },
+        "meanings": [
+          "chess",
+          "chess-like game",
+          "a game of chess",
+          "chess piece"
+        ],
+        "classifiers": [
+          "盘",
+          "个",
+          "颗"
+        ]
+      },
+      {
+        "traditional": "碁",
+        "transcriptions": {
+          "pinyin": "qí",
+          "numeric": "qi2",
+          "wadegiles": "ch'i²",
+          "bopomofo": "ㄑㄧˊ",
+          "romatzyh": "chyi"
+        },
+        "meanings": [
+          "variant of 棋"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "棋子",
+    "radical": "木",
+    "frequency": 16454,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "棋子",
+        "transcriptions": {
+          "pinyin": "qí zǐ",
+          "numeric": "qi2 zi3",
+          "wadegiles": "ch'i² tzu³",
+          "bopomofo": "ㄑㄧˊ ㄗˇ",
+          "romatzyh": "chyi tzyy"
+        },
+        "meanings": [
+          "chess piece",
+          "(fig.) a pawn (used by others for their own purposes)"
+        ],
+        "classifiers": [
+          "个",
+          "颗"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "旗袍",
+    "radical": "方",
+    "frequency": 36388,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "旗袍",
+        "transcriptions": {
+          "pinyin": "qí páo",
+          "numeric": "qi2 pao2",
+          "wadegiles": "ch'i² p'ao²",
+          "bopomofo": "ㄑㄧˊ ㄆㄠˊ",
+          "romatzyh": "chyi paur"
+        },
+        "meanings": [
+          "Chinese-style dress",
+          "cheongsam"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "旗帜",
+    "radical": "方",
+    "frequency": 7492,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "旗幟",
+        "transcriptions": {
+          "pinyin": "qí zhì",
+          "numeric": "qi2 zhi4",
+          "wadegiles": "ch'i² chih⁴",
+          "bopomofo": "ㄑㄧˊ ㄓˋ",
+          "romatzyh": "chyi jyh"
+        },
+        "meanings": [
+          "ensign",
+          "flag"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "乞丐",
+    "radical": "乙",
+    "frequency": 11171,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "乞丐",
+        "transcriptions": {
+          "pinyin": "qǐ gài",
+          "numeric": "qi3 gai4",
+          "wadegiles": "ch'i³ kai⁴",
+          "bopomofo": "ㄑㄧˇ ㄍㄞˋ",
+          "romatzyh": "chii gay"
+        },
+        "meanings": [
+          "beggar"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "乞求",
+    "radical": "乙",
+    "frequency": 19132,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "乞求",
+        "transcriptions": {
+          "pinyin": "qǐ qiú",
+          "numeric": "qi3 qiu2",
+          "wadegiles": "ch'i³ ch'iu²",
+          "bopomofo": "ㄑㄧˇ ㄑㄧㄡˊ",
+          "romatzyh": "chii chyou"
+        },
+        "meanings": [
+          "to beg"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "乞讨",
+    "radical": "乙",
+    "frequency": 15251,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "乞討",
+        "transcriptions": {
+          "pinyin": "qǐ tǎo",
+          "numeric": "qi3 tao3",
+          "wadegiles": "ch'i³ t'ao³",
+          "bopomofo": "ㄑㄧˇ ㄊㄠˇ",
+          "romatzyh": "chii tao"
+        },
+        "meanings": [
+          "to beg",
+          "to go begging"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "企图",
+    "radical": "人",
+    "frequency": 4499,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "企圖",
+        "transcriptions": {
+          "pinyin": "qǐ tú",
+          "numeric": "qi3 tu2",
+          "wadegiles": "ch'i³ t'u²",
+          "bopomofo": "ㄑㄧˇ ㄊㄨˊ",
+          "romatzyh": "chii twu"
+        },
+        "meanings": [
+          "to attempt",
+          "to try",
+          "attempt"
+        ],
+        "classifiers": [
+          "种"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "企业",
+    "radical": "人",
+    "frequency": 2296,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "企業",
+        "transcriptions": {
+          "pinyin": "qǐ yè",
+          "numeric": "qi3 ye4",
+          "wadegiles": "ch'i³ yeh⁴",
+          "bopomofo": "ㄑㄧˇ ㄧㄝˋ",
+          "romatzyh": "chii yeh"
+        },
+        "meanings": [
+          "company; firm; enterprise; corporation"
+        ],
+        "classifiers": [
+          "家"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "岂有此理",
+    "radical": "山",
+    "frequency": 46100,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "豈有此理",
+        "transcriptions": {
+          "pinyin": "qǐ yǒu cǐ lǐ",
+          "numeric": "qi3 you3 ci3 li3",
+          "wadegiles": "ch'i³ yu³ tz'u³ li³",
+          "bopomofo": "ㄑㄧˇ ㄧㄡˇ ㄘˇ ㄌㄧˇ",
+          "romatzyh": "chii yeou tsyy lii"
+        },
+        "meanings": [
+          "how can this be so? (idiom); preposterous",
+          "ridiculous",
+          "absurd"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "启迪",
+    "radical": "口",
+    "frequency": 20510,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "啟迪",
+        "transcriptions": {
+          "pinyin": "qǐ dí",
+          "numeric": "qi3 di2",
+          "wadegiles": "ch'i³ ti²",
+          "bopomofo": "ㄑㄧˇ ㄉㄧˊ",
+          "romatzyh": "chii dyi"
+        },
+        "meanings": [
+          "to edify",
+          "enlightenment"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "启动",
+    "radical": "口",
+    "frequency": 2012,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "啟動",
+        "transcriptions": {
+          "pinyin": "qǐ dòng",
+          "numeric": "qi3 dong4",
+          "wadegiles": "ch'i³ tung⁴",
+          "bopomofo": "ㄑㄧˇ ㄉㄨㄥˋ",
+          "romatzyh": "chii donq"
+        },
+        "meanings": [
+          "to start (a machine)",
+          "(fig.) to set in motion",
+          "to launch (an operation)",
+          "to activate (a plan)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "启发",
+    "radical": "口",
+    "frequency": 7784,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "啟發",
+        "transcriptions": {
+          "pinyin": "qǐ fā",
+          "numeric": "qi3 fa1",
+          "wadegiles": "ch'i³ fa¹",
+          "bopomofo": "ㄑㄧˇ ㄈㄚ",
+          "romatzyh": "chii fa"
+        },
+        "meanings": [
+          "to enlighten",
+          "to explain (a text etc)",
+          "to stimulate (a mental attitude)",
+          "enlightenment",
+          "revelation",
+          "motivation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "启蒙",
+    "radical": "口",
+    "frequency": 20648,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "啟矇",
+        "transcriptions": {
+          "pinyin": "qǐ méng",
+          "numeric": "qi3 meng2",
+          "wadegiles": "ch'i³ meng²",
+          "bopomofo": "ㄑㄧˇ ㄇㄥˊ",
+          "romatzyh": "chii meng"
+        },
+        "meanings": [
+          "variant of 启蒙",
+          "to instruct the young"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "啟蒙",
+        "transcriptions": {
+          "pinyin": "qǐ méng",
+          "numeric": "qi3 meng2",
+          "wadegiles": "ch'i³ meng²",
+          "bopomofo": "ㄑㄧˇ ㄇㄥˊ",
+          "romatzyh": "chii meng"
+        },
+        "meanings": [
+          "to instruct the young",
+          "to initiate",
+          "to awake sb from ignorance",
+          "to free sb from prejudice or superstition",
+          "primer",
+          "enlightened",
+          "the Enlightenment",
+          "Western learning from the late Qing dynasty"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "启示",
+    "radical": "口",
+    "frequency": 9723,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "啟示",
+        "transcriptions": {
+          "pinyin": "qǐ shì",
+          "numeric": "qi3 shi4",
+          "wadegiles": "ch'i³ shih⁴",
+          "bopomofo": "ㄑㄧˇ ㄕˋ",
+          "romatzyh": "chii shyh"
+        },
+        "meanings": [
+          "to reveal",
+          "to enlighten",
+          "enlightenment",
+          "revelation",
+          "illumination",
+          "moral (of a story etc)",
+          "lesson"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "启事",
+    "radical": "口",
+    "frequency": 20158,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "啟事",
+        "transcriptions": {
+          "pinyin": "qǐ shì",
+          "numeric": "qi3 shi4",
+          "wadegiles": "ch'i³ shih⁴",
+          "bopomofo": "ㄑㄧˇ ㄕˋ",
+          "romatzyh": "chii shyh"
+        },
+        "meanings": [
+          "announcement (written, on billboard, letter, newspaper or website)",
+          "to post information",
+          "a notice"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "起",
+    "radical": "走",
+    "frequency": 174,
+    "pos": [
+      "v",
+      "q",
+      "f"
+    ],
+    "forms": [
+      {
+        "traditional": "起",
+        "transcriptions": {
+          "pinyin": "qǐ",
+          "numeric": "qi3",
+          "wadegiles": "ch'i³",
+          "bopomofo": "ㄑㄧˇ",
+          "romatzyh": "chii"
+        },
+        "meanings": [
+          "to rise",
+          "to raise",
+          "to get up",
+          "to set out",
+          "to start",
+          "to appear",
+          "to launch",
+          "to initiate (action)",
+          "to draft",
+          "to establish",
+          "to get (from a depot or counter)",
+          "verb suffix, to start",
+          "starting from (a time, place, price etc)",
+          "classifier for occurrences or unpredictable events: case, instance",
+          "classifier for groups: batch, group"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "起步",
+    "radical": "走",
+    "frequency": 8720,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "起步",
+        "transcriptions": {
+          "pinyin": "qǐ bù",
+          "numeric": "qi3 bu4",
+          "wadegiles": "ch'i³ pu⁴",
+          "bopomofo": "ㄑㄧˇ ㄅㄨˋ",
+          "romatzyh": "chii buh"
+        },
+        "meanings": [
+          "to set out",
+          "to set in motion",
+          "the start (of some activity)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "起草",
+    "radical": "走",
+    "frequency": 9562,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "起草",
+        "transcriptions": {
+          "pinyin": "qǐ cǎo",
+          "numeric": "qi3 cao3",
+          "wadegiles": "ch'i³ ts'ao³",
+          "bopomofo": "ㄑㄧˇ ㄘㄠˇ",
+          "romatzyh": "chii tsao"
+        },
+        "meanings": [
+          "to make a draft",
+          "to draw up (plans)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "起程",
+    "radical": "走",
+    "frequency": 31328,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "起程",
+        "transcriptions": {
+          "pinyin": "qǐ chéng",
+          "numeric": "qi3 cheng2",
+          "wadegiles": "ch'i³ ch'eng²",
+          "bopomofo": "ㄑㄧˇ ㄔㄥˊ",
+          "romatzyh": "chii cherng"
+        },
+        "meanings": [
+          "to set out",
+          "to leave"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "起初",
+    "radical": "走",
+    "frequency": 8773,
+    "pos": [
+      "d",
+      "t"
+    ],
+    "forms": [
+      {
+        "traditional": "起初",
+        "transcriptions": {
+          "pinyin": "qǐ chū",
+          "numeric": "qi3 chu1",
+          "wadegiles": "ch'i³ ch'u¹",
+          "bopomofo": "ㄑㄧˇ ㄔㄨ",
+          "romatzyh": "chii chu"
+        },
+        "meanings": [
+          "originally",
+          "at first",
+          "at the outset"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "起床",
+    "radical": "走",
+    "frequency": 2645,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "起床",
+        "transcriptions": {
+          "pinyin": "qǐ chuáng",
+          "numeric": "qi3 chuang2",
+          "wadegiles": "ch'i³ ch'uang²",
+          "bopomofo": "ㄑㄧˇ ㄔㄨㄤˊ",
+          "romatzyh": "chii chwang"
+        },
+        "meanings": [
+          "to get out of bed",
+          "to get up"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "起到",
+    "radical": "走",
+    "frequency": 25234,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "起到",
+        "transcriptions": {
+          "pinyin": "qǐ dào",
+          "numeric": "qi3 dao4",
+          "wadegiles": "ch'i³ tao⁴",
+          "bopomofo": "ㄑㄧˇ ㄉㄠˋ",
+          "romatzyh": "chii daw"
+        },
+        "meanings": [
+          "(in an expression of the form 起到…用) to have (a (motivating etc) effect); to play (a (stabilizing etc) role)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "起点",
+    "radical": "走",
+    "frequency": 6901,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "起點",
+        "transcriptions": {
+          "pinyin": "qǐ diǎn",
+          "numeric": "qi3 dian3",
+          "wadegiles": "ch'i³ tien³",
+          "bopomofo": "ㄑㄧˇ ㄉㄧㄢˇ",
+          "romatzyh": "chii dean"
+        },
+        "meanings": [
+          "starting point"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "起飞",
+    "radical": "走",
+    "frequency": 5419,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "起飛",
+        "transcriptions": {
+          "pinyin": "qǐ fēi",
+          "numeric": "qi3 fei1",
+          "wadegiles": "ch'i³ fei¹",
+          "bopomofo": "ㄑㄧˇ ㄈㄟ",
+          "romatzyh": "chii fei"
+        },
+        "meanings": [
+          "(of an aircraft) to take off"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "起伏",
+    "radical": "走",
+    "frequency": 9804,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "起伏",
+        "transcriptions": {
+          "pinyin": "qǐ fú",
+          "numeric": "qi3 fu2",
+          "wadegiles": "ch'i³ fu²",
+          "bopomofo": "ㄑㄧˇ ㄈㄨˊ",
+          "romatzyh": "chii fwu"
+        },
+        "meanings": [
+          "to move up and down",
+          "to undulate",
+          "ups and downs"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "起劲",
+    "radical": "走",
+    "frequency": 22948,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "起勁",
+        "transcriptions": {
+          "pinyin": "qǐ jìn",
+          "numeric": "qi3 jin4",
+          "wadegiles": "ch'i³ chin⁴",
+          "bopomofo": "ㄑㄧˇ ㄐㄧㄣˋ",
+          "romatzyh": "chii jinn"
+        },
+        "meanings": [
+          "energetic; vigorous; enthusiastic"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "起来",
+    "radical": "走",
+    "frequency": 172,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "起來",
+        "transcriptions": {
+          "pinyin": "qǐ lai",
+          "numeric": "qi3 lai5",
+          "wadegiles": "ch'i³ lai",
+          "bopomofo": "ㄑㄧˇ lai",
+          "romatzyh": "chii lai"
+        },
+        "meanings": [
+          "to stand up",
+          "to get up",
+          "also pr. [qǐ lái]"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "起來",
+        "transcriptions": {
+          "pinyin": "qi lai",
+          "numeric": "qi5 lai5",
+          "wadegiles": "qi lai",
+          "bopomofo": "qi lai",
+          "romatzyh": "qi lai"
+        },
+        "meanings": [
+          "(after a verb) indicating the beginning and continuation of an action or a state",
+          "indicating an upward movement (e.g. after 站)",
+          "indicating completion",
+          "(after a perception verb, e.g. 看) expressing preliminary judgment",
+          "also pr. [qǐ lai]"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "起码",
+    "radical": "走",
+    "frequency": 4041,
+    "pos": [
+      "d",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "起碼",
+        "transcriptions": {
+          "pinyin": "qǐ mǎ",
+          "numeric": "qi3 ma3",
+          "wadegiles": "ch'i³ ma³",
+          "bopomofo": "ㄑㄧˇ ㄇㄚˇ",
+          "romatzyh": "chii maa"
+        },
+        "meanings": [
+          "at the minimum",
+          "at the very least"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "起跑线",
+    "radical": "走",
+    "frequency": 21839,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "起跑線",
+        "transcriptions": {
+          "pinyin": "qǐ pǎo xiàn",
+          "numeric": "qi3 pao3 xian4",
+          "wadegiles": "ch'i³ p'ao³ hsien⁴",
+          "bopomofo": "ㄑㄧˇ ㄆㄠˇ ㄒㄧㄢˋ",
+          "romatzyh": "chii pao shiann"
+        },
+        "meanings": [
+          "the starting line (of a race)",
+          "scratch line (in a relay race)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "起诉",
+    "radical": "走",
+    "frequency": 3235,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "起訴",
+        "transcriptions": {
+          "pinyin": "qǐ sù",
+          "numeric": "qi3 su4",
+          "wadegiles": "ch'i³ su⁴",
+          "bopomofo": "ㄑㄧˇ ㄙㄨˋ",
+          "romatzyh": "chii suh"
+        },
+        "meanings": [
+          "to sue",
+          "to bring a lawsuit against",
+          "to prosecute"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "起源",
+    "radical": "走",
+    "frequency": 11950,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "起源",
+        "transcriptions": {
+          "pinyin": "qǐ yuán",
+          "numeric": "qi3 yuan2",
+          "wadegiles": "ch'i³ yüan²",
+          "bopomofo": "ㄑㄧˇ ㄩㄢˊ",
+          "romatzyh": "chii yuan"
+        },
+        "meanings": [
+          "origin",
+          "to originate",
+          "to come from"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "气",
+    "radical": "气",
+    "frequency": 772,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "氣",
+        "transcriptions": {
+          "pinyin": "qì",
+          "numeric": "qi4",
+          "wadegiles": "ch'i⁴",
+          "bopomofo": "ㄑㄧˋ",
+          "romatzyh": "chih"
+        },
+        "meanings": [
+          "gas; air",
+          "smell",
+          "weather",
+          "to make angry; to annoy; to get angry",
+          "vital energy; qi"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "气氛",
+    "radical": "气",
+    "frequency": 3160,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "氣氛",
+        "transcriptions": {
+          "pinyin": "qì fēn",
+          "numeric": "qi4 fen1",
+          "wadegiles": "ch'i⁴ fen¹",
+          "bopomofo": "ㄑㄧˋ ㄈㄣ",
+          "romatzyh": "chih fen"
+        },
+        "meanings": [
+          "atmosphere; mood"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "气愤",
+    "radical": "气",
+    "frequency": 9895,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "氣憤",
+        "transcriptions": {
+          "pinyin": "qì fèn",
+          "numeric": "qi4 fen4",
+          "wadegiles": "ch'i⁴ fen⁴",
+          "bopomofo": "ㄑㄧˋ ㄈㄣˋ",
+          "romatzyh": "chih fenn"
+        },
+        "meanings": [
+          "indignant",
+          "furious"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "气管",
+    "radical": "气",
+    "frequency": 10974,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "氣管",
+        "transcriptions": {
+          "pinyin": "qì guǎn",
+          "numeric": "qi4 guan3",
+          "wadegiles": "ch'i⁴ kuan³",
+          "bopomofo": "ㄑㄧˋ ㄍㄨㄢˇ",
+          "romatzyh": "chih goan"
+        },
+        "meanings": [
+          "windpipe",
+          "trachea",
+          "respiratory tract",
+          "air duct",
+          "gas pipe"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "气候",
+    "radical": "气",
+    "frequency": 6570,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "氣候",
+        "transcriptions": {
+          "pinyin": "qì hòu",
+          "numeric": "qi4 hou4",
+          "wadegiles": "ch'i⁴ hou⁴",
+          "bopomofo": "ㄑㄧˋ ㄏㄡˋ",
+          "romatzyh": "chih how"
+        },
+        "meanings": [
+          "(meteorology) climate",
+          "(fig.) climate; prevailing conditions (in human affairs)"
+        ],
+        "classifiers": [
+          "种"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "气馁",
+    "radical": "气",
+    "frequency": 21983,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "氣餒",
+        "transcriptions": {
+          "pinyin": "qì něi",
+          "numeric": "qi4 nei3",
+          "wadegiles": "ch'i⁴ nei³",
+          "bopomofo": "ㄑㄧˋ ㄋㄟˇ",
+          "romatzyh": "chih neei"
+        },
+        "meanings": [
+          "to be discouraged"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "气派",
+    "radical": "气",
+    "frequency": 19011,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "氣派",
+        "transcriptions": {
+          "pinyin": "qì pài",
+          "numeric": "qi4 pai4",
+          "wadegiles": "ch'i⁴ p'ai⁴",
+          "bopomofo": "ㄑㄧˋ ㄆㄞˋ",
+          "romatzyh": "chih pay"
+        },
+        "meanings": [
+          "impressive",
+          "stylish",
+          "magnificent",
+          "imposing manner",
+          "dignified air"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "气泡",
+    "radical": "气",
+    "frequency": 17227,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "氣泡",
+        "transcriptions": {
+          "pinyin": "qì pào",
+          "numeric": "qi4 pao4",
+          "wadegiles": "ch'i⁴ p'ao⁴",
+          "bopomofo": "ㄑㄧˋ ㄆㄠˋ",
+          "romatzyh": "chih paw"
+        },
+        "meanings": [
+          "bubble",
+          "blister (in metal)",
+          "(of beverages) sparkling",
+          "carbonated"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "气魄",
+    "radical": "气",
+    "frequency": 26408,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "氣魄",
+        "transcriptions": {
+          "pinyin": "qì pò",
+          "numeric": "qi4 po4",
+          "wadegiles": "ch'i⁴ p'o⁴",
+          "bopomofo": "ㄑㄧˋ ㄆㄛˋ",
+          "romatzyh": "chih poh"
+        },
+        "meanings": [
+          "spirit",
+          "boldness",
+          "positive outlook",
+          "imposing attitude"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "气球",
+    "radical": "气",
+    "frequency": 9459,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "氣球",
+        "transcriptions": {
+          "pinyin": "qì qiú",
+          "numeric": "qi4 qiu2",
+          "wadegiles": "ch'i⁴ ch'iu²",
+          "bopomofo": "ㄑㄧˋ ㄑㄧㄡˊ",
+          "romatzyh": "chih chyou"
+        },
+        "meanings": [
+          "balloon"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "气势",
+    "radical": "气",
+    "frequency": 9469,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "氣勢",
+        "transcriptions": {
+          "pinyin": "qì shì",
+          "numeric": "qi4 shi4",
+          "wadegiles": "ch'i⁴ shih⁴",
+          "bopomofo": "ㄑㄧˋ ㄕˋ",
+          "romatzyh": "chih shyh"
+        },
+        "meanings": [
+          "imposing manner",
+          "loftiness",
+          "grandeur",
+          "energetic looks",
+          "vigor"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "气体",
+    "radical": "气",
+    "frequency": 6140,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "氣體",
+        "transcriptions": {
+          "pinyin": "qì tǐ",
+          "numeric": "qi4 ti3",
+          "wadegiles": "ch'i⁴ t'i³",
+          "bopomofo": "ㄑㄧˋ ㄊㄧˇ",
+          "romatzyh": "chih tii"
+        },
+        "meanings": [
+          "gas (i.e. gaseous substance)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "气味",
+    "radical": "气",
+    "frequency": 6948,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "氣味",
+        "transcriptions": {
+          "pinyin": "qì wèi",
+          "numeric": "qi4 wei4",
+          "wadegiles": "ch'i⁴ wei⁴",
+          "bopomofo": "ㄑㄧˋ ㄨㄟˋ",
+          "romatzyh": "chih wey"
+        },
+        "meanings": [
+          "odor; scent"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "气温",
+    "radical": "气",
+    "frequency": 7200,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "氣溫",
+        "transcriptions": {
+          "pinyin": "qì wēn",
+          "numeric": "qi4 wen1",
+          "wadegiles": "ch'i⁴ wen¹",
+          "bopomofo": "ㄑㄧˋ ㄨㄣ",
+          "romatzyh": "chih uen"
+        },
+        "meanings": [
+          "air temperature"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "气息",
+    "radical": "气",
+    "frequency": 5417,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "氣息",
+        "transcriptions": {
+          "pinyin": "qì xī",
+          "numeric": "qi4 xi1",
+          "wadegiles": "ch'i⁴ hsi¹",
+          "bopomofo": "ㄑㄧˋ ㄒㄧ",
+          "romatzyh": "chih shi"
+        },
+        "meanings": [
+          "breath",
+          "smell",
+          "odor",
+          "flavor"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "气象",
+    "radical": "气",
+    "frequency": 7203,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "氣象",
+        "transcriptions": {
+          "pinyin": "qì xiàng",
+          "numeric": "qi4 xiang4",
+          "wadegiles": "ch'i⁴ hsiang⁴",
+          "bopomofo": "ㄑㄧˋ ㄒㄧㄤˋ",
+          "romatzyh": "chih shianq"
+        },
+        "meanings": [
+          "meteorological feature",
+          "meteorology",
+          "atmosphere",
+          "ambience",
+          "scene"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "气质",
+    "radical": "气",
+    "frequency": 5505,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "氣質",
+        "transcriptions": {
+          "pinyin": "qì zhì",
+          "numeric": "qi4 zhi4",
+          "wadegiles": "ch'i⁴ chih⁴",
+          "bopomofo": "ㄑㄧˋ ㄓˋ",
+          "romatzyh": "chih jyh"
+        },
+        "meanings": [
+          "temperament",
+          "personality traits",
+          "manners"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "迄今",
+    "radical": "辶",
+    "frequency": 13667,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "迄今",
+        "transcriptions": {
+          "pinyin": "qì jīn",
+          "numeric": "qi4 jin1",
+          "wadegiles": "ch'i⁴ chin¹",
+          "bopomofo": "ㄑㄧˋ ㄐㄧㄣ",
+          "romatzyh": "chih jin"
+        },
+        "meanings": [
+          "so far",
+          "to date",
+          "until now"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "迄今为止",
+    "radical": "辶",
+    "frequency": 9179,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "迄今為止",
+        "transcriptions": {
+          "pinyin": "qì jīn wéi zhǐ",
+          "numeric": "qi4 jin1 wei2 zhi3",
+          "wadegiles": "ch'i⁴ chin¹ wei² chih³",
+          "bopomofo": "ㄑㄧˋ ㄐㄧㄣ ㄨㄟˊ ㄓˇ",
+          "romatzyh": "chih jin wei jyy"
+        },
+        "meanings": [
+          "so far",
+          "up to now",
+          "still (not)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "汽车",
+    "radical": "氵",
+    "frequency": 898,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "汽車",
+        "transcriptions": {
+          "pinyin": "qì chē",
+          "numeric": "qi4 che1",
+          "wadegiles": "ch'i⁴ ch'e¹",
+          "bopomofo": "ㄑㄧˋ ㄔㄜ",
+          "romatzyh": "chih che"
+        },
+        "meanings": [
+          "car",
+          "automobile",
+          "bus"
+        ],
+        "classifiers": [
+          "辆"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "汽水",
+    "radical": "氵",
+    "frequency": 15548,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "汽水",
+        "transcriptions": {
+          "pinyin": "qì shuǐ",
+          "numeric": "qi4 shui3",
+          "wadegiles": "ch'i⁴ shui³",
+          "bopomofo": "ㄑㄧˋ ㄕㄨㄟˇ",
+          "romatzyh": "chih shoei"
+        },
+        "meanings": [
+          "soda pop; carbonated soft drink"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "汽油",
+    "radical": "氵",
+    "frequency": 4939,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "汽油",
+        "transcriptions": {
+          "pinyin": "qì yóu",
+          "numeric": "qi4 you2",
+          "wadegiles": "ch'i⁴ yu²",
+          "bopomofo": "ㄑㄧˋ ㄧㄡˊ",
+          "romatzyh": "chih you"
+        },
+        "meanings": [
+          "gasoline"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "契机",
+    "radical": "大",
+    "frequency": 17262,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "契機",
+        "transcriptions": {
+          "pinyin": "qì jī",
+          "numeric": "qi4 ji1",
+          "wadegiles": "ch'i⁴ chi¹",
+          "bopomofo": "ㄑㄧˋ ㄐㄧ",
+          "romatzyh": "chih ji"
+        },
+        "meanings": [
+          "opportunity",
+          "turning point",
+          "juncture"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "契约",
+    "radical": "大",
+    "frequency": 9421,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "契約",
+        "transcriptions": {
+          "pinyin": "qì yuē",
+          "numeric": "qi4 yue1",
+          "wadegiles": "ch'i⁴ yüeh¹",
+          "bopomofo": "ㄑㄧˋ ㄩㄝ",
+          "romatzyh": "chih iue"
+        },
+        "meanings": [
+          "agreement",
+          "contract"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "器材",
+    "radical": "口",
+    "frequency": 9537,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "器材",
+        "transcriptions": {
+          "pinyin": "qì cái",
+          "numeric": "qi4 cai2",
+          "wadegiles": "ch'i⁴ ts'ai²",
+          "bopomofo": "ㄑㄧˋ ㄘㄞˊ",
+          "romatzyh": "chih tsair"
+        },
+        "meanings": [
+          "equipment",
+          "material"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "器官",
+    "radical": "口",
+    "frequency": 4857,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "器官",
+        "transcriptions": {
+          "pinyin": "qì guān",
+          "numeric": "qi4 guan1",
+          "wadegiles": "ch'i⁴ kuan¹",
+          "bopomofo": "ㄑㄧˋ ㄍㄨㄢ",
+          "romatzyh": "chih guan"
+        },
+        "meanings": [
+          "(physiology) organ; apparatus"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "器械",
+    "radical": "口",
+    "frequency": 10160,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "器械",
+        "transcriptions": {
+          "pinyin": "qì xiè",
+          "numeric": "qi4 xie4",
+          "wadegiles": "ch'i⁴ hsieh⁴",
+          "bopomofo": "ㄑㄧˋ ㄒㄧㄝˋ",
+          "romatzyh": "chih shieh"
+        },
+        "meanings": [
+          "apparatus",
+          "instrument",
+          "equipment",
+          "weapon"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "掐",
+    "radical": "扌",
+    "frequency": 7287,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "掐",
+        "transcriptions": {
+          "pinyin": "qiā",
+          "numeric": "qia1",
+          "wadegiles": "ch'ia¹",
+          "bopomofo": "ㄑㄧㄚ",
+          "romatzyh": "chia"
+        },
+        "meanings": [
+          "to pick (flowers)",
+          "to pinch",
+          "to nip",
+          "to pinch off",
+          "to clutch",
+          "(slang) to fight"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "恰当",
+    "radical": "忄",
+    "frequency": 7676,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "恰當",
+        "transcriptions": {
+          "pinyin": "qià dàng",
+          "numeric": "qia4 dang4",
+          "wadegiles": "ch'ia⁴ tang⁴",
+          "bopomofo": "ㄑㄧㄚˋ ㄉㄤˋ",
+          "romatzyh": "chiah danq"
+        },
+        "meanings": [
+          "appropriate",
+          "suitable"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "恰到好处",
+    "radical": "忄",
+    "frequency": 14885,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "恰到好處",
+        "transcriptions": {
+          "pinyin": "qià dào hǎo chù",
+          "numeric": "qia4 dao4 hao3 chu4",
+          "wadegiles": "ch'ia⁴ tao⁴ hao³ ch'u⁴",
+          "bopomofo": "ㄑㄧㄚˋ ㄉㄠˋ ㄏㄠˇ ㄔㄨˋ",
+          "romatzyh": "chiah daw hao chuh"
+        },
+        "meanings": [
+          "it's just perfect",
+          "it's just right"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "恰好",
+    "radical": "忄",
+    "frequency": 7876,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "恰好",
+        "transcriptions": {
+          "pinyin": "qià hǎo",
+          "numeric": "qia4 hao3",
+          "wadegiles": "ch'ia⁴ hao³",
+          "bopomofo": "ㄑㄧㄚˋ ㄏㄠˇ",
+          "romatzyh": "chiah hao"
+        },
+        "meanings": [
+          "as it turns out",
+          "by lucky coincidence",
+          "(of number, time, size etc) just right"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "恰恰",
+    "radical": "忄",
+    "frequency": 6523,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "恰恰",
+        "transcriptions": {
+          "pinyin": "qià qià",
+          "numeric": "qia4 qia4",
+          "wadegiles": "ch'ia⁴ ch'ia⁴",
+          "bopomofo": "ㄑㄧㄚˋ ㄑㄧㄚˋ",
+          "romatzyh": "chiah chiah"
+        },
+        "meanings": [
+          "exactly",
+          "just",
+          "precisely"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "恰恰相反",
+    "radical": "忄",
+    "frequency": 10439,
+    "pos": [
+      "c"
+    ],
+    "forms": [
+      {
+        "traditional": "恰恰相反",
+        "transcriptions": {
+          "pinyin": "qià qià xiāng fǎn",
+          "numeric": "qia4 qia4 xiang1 fan3",
+          "wadegiles": "ch'ia⁴ ch'ia⁴ hsiang¹ fan³",
+          "bopomofo": "ㄑㄧㄚˋ ㄑㄧㄚˋ ㄒㄧㄤ ㄈㄢˇ",
+          "romatzyh": "chiah chiah shiang faan"
+        },
+        "meanings": [
+          "just the opposite"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "恰巧",
+    "radical": "忄",
+    "frequency": 16400,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "恰巧",
+        "transcriptions": {
+          "pinyin": "qià qiǎo",
+          "numeric": "qia4 qiao3",
+          "wadegiles": "ch'ia⁴ ch'iao³",
+          "bopomofo": "ㄑㄧㄚˋ ㄑㄧㄠˇ",
+          "romatzyh": "chiah cheau"
+        },
+        "meanings": [
+          "by chance; as chance would have it"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "恰如其分",
+    "radical": "忄",
+    "frequency": 30471,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "恰如其分",
+        "transcriptions": {
+          "pinyin": "qià rú qí fèn",
+          "numeric": "qia4 ru2 qi2 fen4",
+          "wadegiles": "ch'ia⁴ ju² ch'i² fen⁴",
+          "bopomofo": "ㄑㄧㄚˋ ㄖㄨˊ ㄑㄧˊ ㄈㄣˋ",
+          "romatzyh": "chiah ru chyi fenn"
+        },
+        "meanings": [
+          "(idiom) appropriate",
+          "apt",
+          "just right"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "洽谈",
+    "radical": "氵",
+    "frequency": 18806,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "洽談",
+        "transcriptions": {
+          "pinyin": "qià tán",
+          "numeric": "qia4 tan2",
+          "wadegiles": "ch'ia⁴ t'an²",
+          "bopomofo": "ㄑㄧㄚˋ ㄊㄢˊ",
+          "romatzyh": "chiah tarn"
+        },
+        "meanings": [
+          "to discuss"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "千",
+    "radical": "十",
+    "frequency": 1728,
+    "pos": [
+      "m",
+      "t"
+    ],
+    "forms": [
+      {
+        "traditional": "千",
+        "transcriptions": {
+          "pinyin": "qiān",
+          "numeric": "qian1",
+          "wadegiles": "ch'ien¹",
+          "bopomofo": "ㄑㄧㄢ",
+          "romatzyh": "chian"
+        },
+        "meanings": [
+          "thousand"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "韆",
+        "transcriptions": {
+          "pinyin": "qiān",
+          "numeric": "qian1",
+          "wadegiles": "ch'ien¹",
+          "bopomofo": "ㄑㄧㄢ",
+          "romatzyh": "chian"
+        },
+        "meanings": [
+          "see 秋千"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "千变万化",
+    "radical": "十",
+    "frequency": 35836,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "千變萬化",
+        "transcriptions": {
+          "pinyin": "qiān biàn wàn huà",
+          "numeric": "qian1 bian4 wan4 hua4",
+          "wadegiles": "ch'ien¹ pien⁴ wan⁴ hua⁴",
+          "bopomofo": "ㄑㄧㄢ ㄅㄧㄢˋ ㄨㄢˋ ㄏㄨㄚˋ",
+          "romatzyh": "chian biann wann huah"
+        },
+        "meanings": [
+          "countless changes",
+          "constant permutation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "千方百计",
+    "radical": "十",
+    "frequency": 16008,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "千方百計",
+        "transcriptions": {
+          "pinyin": "qiān fāng bǎi jì",
+          "numeric": "qian1 fang1 bai3 ji4",
+          "wadegiles": "ch'ien¹ fang¹ pai³ chi⁴",
+          "bopomofo": "ㄑㄧㄢ ㄈㄤ ㄅㄞˇ ㄐㄧˋ",
+          "romatzyh": "chian fang bae jih"
+        },
+        "meanings": [
+          "lit. thousand ways, a hundred plans (idiom); by every possible means"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "千家万户",
+    "radical": "十",
+    "frequency": 33124,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "千家萬戶",
+        "transcriptions": {
+          "pinyin": "qiān jiā wàn hù",
+          "numeric": "qian1 jia1 wan4 hu4",
+          "wadegiles": "ch'ien¹ chia¹ wan⁴ hu⁴",
+          "bopomofo": "ㄑㄧㄢ ㄐㄧㄚ ㄨㄢˋ ㄏㄨˋ",
+          "romatzyh": "chian jia wann huh"
+        },
+        "meanings": [
+          "every family (idiom)"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

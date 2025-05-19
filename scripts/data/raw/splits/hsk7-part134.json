@@ -1,0 +1,2163 @@
+[
+  {
+    "simplified": "运行",
+    "radical": "辶",
+    "frequency": 3506,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "運行",
+        "transcriptions": {
+          "pinyin": "yùn xíng",
+          "numeric": "yun4 xing2",
+          "wadegiles": "yün⁴ hsing²",
+          "bopomofo": "ㄩㄣˋ ㄒㄧㄥˊ",
+          "romatzyh": "yunn shyng"
+        },
+        "meanings": [
+          "to move along one's course (of celestial bodies etc)",
+          "(fig.) to function; to be in operation",
+          "(of a train service etc) to operate; to run",
+          "(of a computer) to run"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "运营",
+    "radical": "辶",
+    "frequency": 7293,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "運營",
+        "transcriptions": {
+          "pinyin": "yùn yíng",
+          "numeric": "yun4 ying2",
+          "wadegiles": "yün⁴ ying²",
+          "bopomofo": "ㄩㄣˋ ㄧㄥˊ",
+          "romatzyh": "yunn yng"
+        },
+        "meanings": [
+          "to be in operation",
+          "to do business",
+          "(of train, bus etc) to be in service",
+          "operation",
+          "service"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "运用",
+    "radical": "辶",
+    "frequency": 3345,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "運用",
+        "transcriptions": {
+          "pinyin": "yùn yòng",
+          "numeric": "yun4 yong4",
+          "wadegiles": "yün⁴ yung⁴",
+          "bopomofo": "ㄩㄣˋ ㄩㄥˋ",
+          "romatzyh": "yunn yonq"
+        },
+        "meanings": [
+          "to use",
+          "to put to use"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "运转",
+    "radical": "辶",
+    "frequency": 6506,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "運轉",
+        "transcriptions": {
+          "pinyin": "yùn zhuǎn",
+          "numeric": "yun4 zhuan3",
+          "wadegiles": "yün⁴ chuan³",
+          "bopomofo": "ㄩㄣˋ ㄓㄨㄢˇ",
+          "romatzyh": "yunn joan"
+        },
+        "meanings": [
+          "to work",
+          "to operate",
+          "to revolve",
+          "to turn around"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "运作",
+    "radical": "辶",
+    "frequency": 3448,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "運作",
+        "transcriptions": {
+          "pinyin": "yùn zuò",
+          "numeric": "yun4 zuo4",
+          "wadegiles": "yün⁴ tso⁴",
+          "bopomofo": "ㄩㄣˋ ㄗㄨㄛˋ",
+          "romatzyh": "yunn tzuoh"
+        },
+        "meanings": [
+          "to operate",
+          "operations",
+          "workings",
+          "activities (usu. of an organization)",
+          "thread (computing)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "酝酿",
+    "radical": "酉",
+    "frequency": 11059,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "醞釀",
+        "transcriptions": {
+          "pinyin": "yùn niàng",
+          "numeric": "yun4 niang4",
+          "wadegiles": "yün⁴ niang⁴",
+          "bopomofo": "ㄩㄣˋ ㄋㄧㄤˋ",
+          "romatzyh": "yunn nianq"
+        },
+        "meanings": [
+          "(of alcohol) to ferment",
+          "(of a crisis) to be brewing",
+          "to mull over (an issue)",
+          "to hold exploratory discussions"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "韵味",
+    "radical": "音",
+    "frequency": 20325,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "韻味",
+        "transcriptions": {
+          "pinyin": "yùn wèi",
+          "numeric": "yun4 wei4",
+          "wadegiles": "yün⁴ wei⁴",
+          "bopomofo": "ㄩㄣˋ ㄨㄟˋ",
+          "romatzyh": "yunn wey"
+        },
+        "meanings": [
+          "implicit charm in rhyme or sound",
+          "hinted appeal",
+          "interest"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "蕴藏",
+    "radical": "艹",
+    "frequency": 20995,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "蘊藏",
+        "transcriptions": {
+          "pinyin": "yùn cáng",
+          "numeric": "yun4 cang2",
+          "wadegiles": "yün⁴ ts'ang²",
+          "bopomofo": "ㄩㄣˋ ㄘㄤˊ",
+          "romatzyh": "yunn tsarng"
+        },
+        "meanings": [
+          "to hold in store",
+          "to contain (untapped reserves etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "蕴涵",
+    "radical": "艹",
+    "frequency": 32795,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "蘊涵",
+        "transcriptions": {
+          "pinyin": "yùn hán",
+          "numeric": "yun4 han2",
+          "wadegiles": "yün⁴ han²",
+          "bopomofo": "ㄩㄣˋ ㄏㄢˊ",
+          "romatzyh": "yunn harn"
+        },
+        "meanings": [
+          "to contain",
+          "to accumulate",
+          "to embrace",
+          "implicit condition",
+          "implication",
+          "entailment"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "杂",
+    "radical": "木",
+    "frequency": 6202,
+    "pos": [
+      "a",
+      "ad",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "襍",
+        "transcriptions": {
+          "pinyin": "zá",
+          "numeric": "za2",
+          "wadegiles": "tsa²",
+          "bopomofo": "ㄗㄚˊ",
+          "romatzyh": "tzar"
+        },
+        "meanings": [
+          "variant of 杂"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "雜",
+        "transcriptions": {
+          "pinyin": "zá",
+          "numeric": "za2",
+          "wadegiles": "tsa²",
+          "bopomofo": "ㄗㄚˊ",
+          "romatzyh": "tzar"
+        },
+        "meanings": [
+          "mixed",
+          "miscellaneous",
+          "various",
+          "to mix"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "杂技",
+    "radical": "木",
+    "frequency": 15170,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "雜技",
+        "transcriptions": {
+          "pinyin": "zá jì",
+          "numeric": "za2 ji4",
+          "wadegiles": "tsa² chi⁴",
+          "bopomofo": "ㄗㄚˊ ㄐㄧˋ",
+          "romatzyh": "tzar jih"
+        },
+        "meanings": [
+          "acrobatics"
+        ],
+        "classifiers": [
+          "场"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "杂交",
+    "radical": "木",
+    "frequency": 14159,
+    "pos": [
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "雜交",
+        "transcriptions": {
+          "pinyin": "zá jiāo",
+          "numeric": "za2 jiao1",
+          "wadegiles": "tsa² chiao¹",
+          "bopomofo": "ㄗㄚˊ ㄐㄧㄠ",
+          "romatzyh": "tzar jiau"
+        },
+        "meanings": [
+          "to hybridize",
+          "to crossbreed",
+          "promiscuity"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "杂乱无章",
+    "radical": "木",
+    "frequency": 34808,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "雜亂無章",
+        "transcriptions": {
+          "pinyin": "zá luàn wú zhāng",
+          "numeric": "za2 luan4 wu2 zhang1",
+          "wadegiles": "tsa² luan⁴ wu² chang¹",
+          "bopomofo": "ㄗㄚˊ ㄌㄨㄢˋ ㄨˊ ㄓㄤ",
+          "romatzyh": "tzar luann wu jang"
+        },
+        "meanings": [
+          "disordered and in a mess (idiom); all mixed up and chaotic"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "杂志",
+    "radical": "木",
+    "frequency": 1627,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "雜誌",
+        "transcriptions": {
+          "pinyin": "zá zhì",
+          "numeric": "za2 zhi4",
+          "wadegiles": "tsa² chih⁴",
+          "bopomofo": "ㄗㄚˊ ㄓˋ",
+          "romatzyh": "tzar jyh"
+        },
+        "meanings": [
+          "magazine"
+        ],
+        "classifiers": [
+          "本",
+          "份",
+          "期"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "砸",
+    "radical": "石",
+    "frequency": 2037,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "砸",
+        "transcriptions": {
+          "pinyin": "zá",
+          "numeric": "za2",
+          "wadegiles": "tsa²",
+          "bopomofo": "ㄗㄚˊ",
+          "romatzyh": "tzar"
+        },
+        "meanings": [
+          "to smash",
+          "to pound",
+          "to fail",
+          "to muck up",
+          "to bungle"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "灾",
+    "radical": "火",
+    "frequency": 8756,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "災",
+        "transcriptions": {
+          "pinyin": "zāi",
+          "numeric": "zai1",
+          "wadegiles": "tsai¹",
+          "bopomofo": "ㄗㄞ",
+          "romatzyh": "tzai"
+        },
+        "meanings": [
+          "disaster",
+          "calamity"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "烖",
+        "transcriptions": {
+          "pinyin": "zāi",
+          "numeric": "zai1",
+          "wadegiles": "tsai¹",
+          "bopomofo": "ㄗㄞ",
+          "romatzyh": "tzai"
+        },
+        "meanings": [
+          "variant of 灾"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "菑",
+        "transcriptions": {
+          "pinyin": "zāi",
+          "numeric": "zai1",
+          "wadegiles": "tsai¹",
+          "bopomofo": "ㄗㄞ",
+          "romatzyh": "tzai"
+        },
+        "meanings": [
+          "old variant of 灾"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "灾害",
+    "radical": "火",
+    "frequency": 13624,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "災害",
+        "transcriptions": {
+          "pinyin": "zāi hài",
+          "numeric": "zai1 hai4",
+          "wadegiles": "tsai¹ hai⁴",
+          "bopomofo": "ㄗㄞ ㄏㄞˋ",
+          "romatzyh": "tzai hay"
+        },
+        "meanings": [
+          "calamity",
+          "disaster"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "灾难",
+    "radical": "火",
+    "frequency": 4796,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "災難",
+        "transcriptions": {
+          "pinyin": "zāi nàn",
+          "numeric": "zai1 nan4",
+          "wadegiles": "tsai¹ nan⁴",
+          "bopomofo": "ㄗㄞ ㄋㄢˋ",
+          "romatzyh": "tzai nann"
+        },
+        "meanings": [
+          "disaster; catastrophe"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "灾区",
+    "radical": "火",
+    "frequency": 19915,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "災區",
+        "transcriptions": {
+          "pinyin": "zāi qū",
+          "numeric": "zai1 qu1",
+          "wadegiles": "tsai¹ ch'ü¹",
+          "bopomofo": "ㄗㄞ ㄑㄩ",
+          "romatzyh": "tzai chiu"
+        },
+        "meanings": [
+          "disaster area",
+          "stricken region"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "栽",
+    "radical": "木",
+    "frequency": 8512,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "栽",
+        "transcriptions": {
+          "pinyin": "zāi",
+          "numeric": "zai1",
+          "wadegiles": "tsai¹",
+          "bopomofo": "ㄗㄞ",
+          "romatzyh": "tzai"
+        },
+        "meanings": [
+          "to plant; to grow",
+          "to insert; to erect (e.g. a bus stop sign)",
+          "to impose sth on sb",
+          "to stumble; to fall down"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "栽培",
+    "radical": "木",
+    "frequency": 15725,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "栽培",
+        "transcriptions": {
+          "pinyin": "zāi péi",
+          "numeric": "zai1 pei2",
+          "wadegiles": "tsai¹ p'ei²",
+          "bopomofo": "ㄗㄞ ㄆㄟˊ",
+          "romatzyh": "tzai peir"
+        },
+        "meanings": [
+          "to grow",
+          "to cultivate",
+          "to train",
+          "to educate",
+          "to patronize"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "宰",
+    "radical": "宀",
+    "frequency": 5527,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "宰",
+        "transcriptions": {
+          "pinyin": "zǎi",
+          "numeric": "zai3",
+          "wadegiles": "tsai³",
+          "bopomofo": "ㄗㄞˇ",
+          "romatzyh": "tzae"
+        },
+        "meanings": [
+          "to slaughter; to butcher; to kill (animals etc)",
+          "(coll.) to fleece; to rip off; to overcharge",
+          "(bound form) to govern; to rule",
+          "(bound form) (a title for certain government officials in ancient China)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "再",
+    "radical": "冂",
+    "frequency": 91,
+    "pos": [
+      "d",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "再",
+        "transcriptions": {
+          "pinyin": "zài",
+          "numeric": "zai4",
+          "wadegiles": "tsai⁴",
+          "bopomofo": "ㄗㄞˋ",
+          "romatzyh": "tzay"
+        },
+        "meanings": [
+          "again; once more; re-",
+          "second; another",
+          "then (after sth, and not until then)",
+          "no matter how ... (followed by an adjective or verb, and then (usually) 也 or 都 for emphasis)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "再次",
+    "radical": "冂",
+    "frequency": 983,
+    "pos": [
+      "d",
+      "c"
+    ],
+    "forms": [
+      {
+        "traditional": "再次",
+        "transcriptions": {
+          "pinyin": "zài cì",
+          "numeric": "zai4 ci4",
+          "wadegiles": "tsai⁴ tz'u⁴",
+          "bopomofo": "ㄗㄞˋ ㄘˋ",
+          "romatzyh": "tzay tsyh"
+        },
+        "meanings": [
+          "one more time",
+          "again",
+          "one more",
+          "once again"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "再度",
+    "radical": "冂",
+    "frequency": 5508,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "再度",
+        "transcriptions": {
+          "pinyin": "zài dù",
+          "numeric": "zai4 du4",
+          "wadegiles": "tsai⁴ tu⁴",
+          "bopomofo": "ㄗㄞˋ ㄉㄨˋ",
+          "romatzyh": "tzay duh"
+        },
+        "meanings": [
+          "once more; once again; one more time"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "再见",
+    "radical": "冂",
+    "frequency": 2487,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "再見",
+        "transcriptions": {
+          "pinyin": "zài jiàn",
+          "numeric": "zai4 jian4",
+          "wadegiles": "tsai⁴ chien⁴",
+          "bopomofo": "ㄗㄞˋ ㄐㄧㄢˋ",
+          "romatzyh": "tzay jiann"
+        },
+        "meanings": [
+          "goodbye",
+          "see you again later"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "再三",
+    "radical": "冂",
+    "frequency": 13301,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "再三",
+        "transcriptions": {
+          "pinyin": "zài sān",
+          "numeric": "zai4 san1",
+          "wadegiles": "tsai⁴ san¹",
+          "bopomofo": "ㄗㄞˋ ㄙㄢ",
+          "romatzyh": "tzay san"
+        },
+        "meanings": [
+          "over and over again",
+          "again and again"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "再生",
+    "radical": "冂",
+    "frequency": 7384,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "再生",
+        "transcriptions": {
+          "pinyin": "zài shēng",
+          "numeric": "zai4 sheng1",
+          "wadegiles": "tsai⁴ sheng¹",
+          "bopomofo": "ㄗㄞˋ ㄕㄥ",
+          "romatzyh": "tzay sheng"
+        },
+        "meanings": [
+          "to be reborn",
+          "to regenerate",
+          "to be a second so-and-so (famous dead person)",
+          "recycling",
+          "regeneration"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "再说",
+    "radical": "冂",
+    "frequency": 2395,
+    "pos": [
+      "v",
+      "c"
+    ],
+    "forms": [
+      {
+        "traditional": "再說",
+        "transcriptions": {
+          "pinyin": "zài shuō",
+          "numeric": "zai4 shuo1",
+          "wadegiles": "tsai⁴ shuo¹",
+          "bopomofo": "ㄗㄞˋ ㄕㄨㄛ",
+          "romatzyh": "tzay shuo"
+        },
+        "meanings": [
+          "to say again",
+          "to put off a discussion until later",
+          "moreover",
+          "what's more",
+          "besides"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "再现",
+    "radical": "冂",
+    "frequency": 10909,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "再現",
+        "transcriptions": {
+          "pinyin": "zài xiàn",
+          "numeric": "zai4 xian4",
+          "wadegiles": "tsai⁴ hsien⁴",
+          "bopomofo": "ㄗㄞˋ ㄒㄧㄢˋ",
+          "romatzyh": "tzay shiann"
+        },
+        "meanings": [
+          "to recreate",
+          "to reconstruct (a historical relic)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "再也",
+    "radical": "冂",
+    "frequency": 6773,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "再也",
+        "transcriptions": {
+          "pinyin": "zài yě",
+          "numeric": "zai4 ye3",
+          "wadegiles": "tsai⁴ yeh³",
+          "bopomofo": "ㄗㄞˋ ㄧㄝˇ",
+          "romatzyh": "tzay yee"
+        },
+        "meanings": [
+          "(not) any more"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "在",
+    "radical": "土",
+    "frequency": 5,
+    "pos": [
+      "p",
+      "v",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "在",
+        "transcriptions": {
+          "pinyin": "zài",
+          "numeric": "zai4",
+          "wadegiles": "tsai⁴",
+          "bopomofo": "ㄗㄞˋ",
+          "romatzyh": "tzay"
+        },
+        "meanings": [
+          "to exist; to be alive",
+          "(of sb or sth) to be (located) at",
+          "(used before a verb to indicate an action in progress)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "在场",
+    "radical": "土",
+    "frequency": 3230,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "在場",
+        "transcriptions": {
+          "pinyin": "zài chǎng",
+          "numeric": "zai4 chang3",
+          "wadegiles": "tsai⁴ ch'ang³",
+          "bopomofo": "ㄗㄞˋ ㄔㄤˇ",
+          "romatzyh": "tzay chaang"
+        },
+        "meanings": [
+          "to be present",
+          "to be on the scene"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "在乎",
+    "radical": "土",
+    "frequency": 2833,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "在乎",
+        "transcriptions": {
+          "pinyin": "zài hu",
+          "numeric": "zai4 hu5",
+          "wadegiles": "tsai⁴ hu",
+          "bopomofo": "ㄗㄞˋ hu",
+          "romatzyh": "tzay hu"
+        },
+        "meanings": [
+          "to care about",
+          "equivalent of 在于"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "在家",
+    "radical": "土",
+    "frequency": 2444,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "在家",
+        "transcriptions": {
+          "pinyin": "zài jiā",
+          "numeric": "zai4 jia1",
+          "wadegiles": "tsai⁴ chia¹",
+          "bopomofo": "ㄗㄞˋ ㄐㄧㄚ",
+          "romatzyh": "tzay jia"
+        },
+        "meanings": [
+          "to be at home",
+          "(at a workplace) to be in (as opposed to being away on official business 差)",
+          "(Buddhism etc) to remain a layman (as opposed to becoming a monk or a nun 家)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "在内",
+    "radical": "土",
+    "frequency": 5311,
+    "pos": [
+      "u",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "在內",
+        "transcriptions": {
+          "pinyin": "zài nèi",
+          "numeric": "zai4 nei4",
+          "wadegiles": "tsai⁴ nei⁴",
+          "bopomofo": "ㄗㄞˋ ㄋㄟˋ",
+          "romatzyh": "tzay ney"
+        },
+        "meanings": [
+          "(included) in it",
+          "among them"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "在线",
+    "radical": "土",
+    "frequency": 8993,
+    "pos": [
+      "vn",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "在線",
+        "transcriptions": {
+          "pinyin": "zài xiàn",
+          "numeric": "zai4 xian4",
+          "wadegiles": "tsai⁴ hsien⁴",
+          "bopomofo": "ㄗㄞˋ ㄒㄧㄢˋ",
+          "romatzyh": "tzay shiann"
+        },
+        "meanings": [
+          "online"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "在意",
+    "radical": "土",
+    "frequency": 4370,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "在意",
+        "transcriptions": {
+          "pinyin": "zài yì",
+          "numeric": "zai4 yi4",
+          "wadegiles": "tsai⁴ i⁴",
+          "bopomofo": "ㄗㄞˋ ㄧˋ",
+          "romatzyh": "tzay yih"
+        },
+        "meanings": [
+          "to care about",
+          "to mind"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "在于",
+    "radical": "土",
+    "frequency": 1868,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "在於",
+        "transcriptions": {
+          "pinyin": "zài yú",
+          "numeric": "zai4 yu2",
+          "wadegiles": "tsai⁴ yü²",
+          "bopomofo": "ㄗㄞˋ ㄩˊ",
+          "romatzyh": "tzay yu"
+        },
+        "meanings": [
+          "to be in",
+          "to lie in",
+          "to consist in",
+          "to depend on",
+          "to rest with"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "在职",
+    "radical": "土",
+    "frequency": 16273,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "在職",
+        "transcriptions": {
+          "pinyin": "zài zhí",
+          "numeric": "zai4 zhi2",
+          "wadegiles": "tsai⁴ chih²",
+          "bopomofo": "ㄗㄞˋ ㄓˊ",
+          "romatzyh": "tzay jyr"
+        },
+        "meanings": [
+          "to be employed",
+          "to be in post",
+          "on-the-job"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "载体",
+    "radical": "戈",
+    "frequency": 18861,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "載體",
+        "transcriptions": {
+          "pinyin": "zài tǐ",
+          "numeric": "zai4 ti3",
+          "wadegiles": "tsai⁴ t'i³",
+          "bopomofo": "ㄗㄞˋ ㄊㄧˇ",
+          "romatzyh": "tzay tii"
+        },
+        "meanings": [
+          "carrier (chemistry)",
+          "vector (epidemiology)",
+          "vehicle or medium"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "咱",
+    "radical": "口",
+    "frequency": 3116,
+    "pos": [
+      "r"
+    ],
+    "forms": [
+      {
+        "traditional": "偺",
+        "transcriptions": {
+          "pinyin": "zán",
+          "numeric": "zan2",
+          "wadegiles": "tsan²",
+          "bopomofo": "ㄗㄢˊ",
+          "romatzyh": "tzarn"
+        },
+        "meanings": [
+          "variant of 咱"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "咱",
+        "transcriptions": {
+          "pinyin": "zá",
+          "numeric": "za2",
+          "wadegiles": "tsa²",
+          "bopomofo": "ㄗㄚˊ",
+          "romatzyh": "tzar"
+        },
+        "meanings": [
+          "see 咱"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "咱",
+        "transcriptions": {
+          "pinyin": "zán",
+          "numeric": "zan2",
+          "wadegiles": "tsan²",
+          "bopomofo": "ㄗㄢˊ",
+          "romatzyh": "tzarn"
+        },
+        "meanings": [
+          "I or me",
+          "we (including both the speaker and the person spoken to)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "喒",
+        "transcriptions": {
+          "pinyin": "zán",
+          "numeric": "zan2",
+          "wadegiles": "tsan²",
+          "bopomofo": "ㄗㄢˊ",
+          "romatzyh": "tzarn"
+        },
+        "meanings": [
+          "variant of 咱"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "咱们",
+    "radical": "口",
+    "frequency": 1405,
+    "pos": [
+      "r"
+    ],
+    "forms": [
+      {
+        "traditional": "咱們",
+        "transcriptions": {
+          "pinyin": "zán men",
+          "numeric": "zan2 men5",
+          "wadegiles": "tsan² men",
+          "bopomofo": "ㄗㄢˊ men",
+          "romatzyh": "tzarn men"
+        },
+        "meanings": [
+          "we or us (including both the speaker and the person(s) spoken to)",
+          "(dialect) I or me",
+          "(dialect) (in a coaxing or familiar way) you",
+          "also pr. [zá men]"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "攒",
+    "radical": "扌",
+    "frequency": 11208,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "攢",
+        "transcriptions": {
+          "pinyin": "cuán",
+          "numeric": "cuan2",
+          "wadegiles": "ts'uan²",
+          "bopomofo": "ㄘㄨㄢˊ",
+          "romatzyh": "tswan"
+        },
+        "meanings": [
+          "to bring together"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "攢",
+        "transcriptions": {
+          "pinyin": "zǎn",
+          "numeric": "zan3",
+          "wadegiles": "tsan³",
+          "bopomofo": "ㄗㄢˇ",
+          "romatzyh": "tzaan"
+        },
+        "meanings": [
+          "to collect",
+          "to hoard",
+          "to accumulate",
+          "to save"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "暂",
+    "radical": "日",
+    "frequency": 8838,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "暫",
+        "transcriptions": {
+          "pinyin": "zàn",
+          "numeric": "zan4",
+          "wadegiles": "tsan⁴",
+          "bopomofo": "ㄗㄢˋ",
+          "romatzyh": "tzann"
+        },
+        "meanings": [
+          "temporary",
+          "Taiwan pr. [zhàn]"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "蹔",
+        "transcriptions": {
+          "pinyin": "zàn",
+          "numeric": "zan4",
+          "wadegiles": "tsan⁴",
+          "bopomofo": "ㄗㄢˋ",
+          "romatzyh": "tzann"
+        },
+        "meanings": [
+          "to scurry",
+          "variant of 暂"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "暂时",
+    "radical": "日",
+    "frequency": 2209,
+    "pos": [
+      "d",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "暫時",
+        "transcriptions": {
+          "pinyin": "zàn shí",
+          "numeric": "zan4 shi2",
+          "wadegiles": "tsan⁴ shih²",
+          "bopomofo": "ㄗㄢˋ ㄕˊ",
+          "romatzyh": "tzann shyr"
+        },
+        "meanings": [
+          "temporary",
+          "provisional",
+          "for the time being"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "暂停",
+    "radical": "日",
+    "frequency": 4545,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "暫停",
+        "transcriptions": {
+          "pinyin": "zàn tíng",
+          "numeric": "zan4 ting2",
+          "wadegiles": "tsan⁴ t'ing²",
+          "bopomofo": "ㄗㄢˋ ㄊㄧㄥˊ",
+          "romatzyh": "tzann tyng"
+        },
+        "meanings": [
+          "to suspend",
+          "time-out (e.g. in sports)",
+          "stoppage",
+          "pause (media player)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "赞不绝口",
+    "radical": "贝",
+    "frequency": 24518,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "讚不絕口",
+        "transcriptions": {
+          "pinyin": "zàn bù jué kǒu",
+          "numeric": "zan4 bu4 jue2 kou3",
+          "wadegiles": "tsan⁴ pu⁴ chüeh² k'ou³",
+          "bopomofo": "ㄗㄢˋ ㄅㄨˋ ㄐㄩㄝˊ ㄎㄡˇ",
+          "romatzyh": "tzann buh jyue koou"
+        },
+        "meanings": [
+          "to praise without cease (idiom); praise sb to high heaven"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "贊不絕口",
+        "transcriptions": {
+          "pinyin": "zàn bù jué kǒu",
+          "numeric": "zan4 bu4 jue2 kou3",
+          "wadegiles": "tsan⁴ pu⁴ chüeh² k'ou³",
+          "bopomofo": "ㄗㄢˋ ㄅㄨˋ ㄐㄩㄝˊ ㄎㄡˇ",
+          "romatzyh": "tzann buh jyue koou"
+        },
+        "meanings": [
+          "to praise without cease (idiom); praise sb to high heaven"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "赞成",
+    "radical": "贝",
+    "frequency": 5381,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "贊成",
+        "transcriptions": {
+          "pinyin": "zàn chéng",
+          "numeric": "zan4 cheng2",
+          "wadegiles": "tsan⁴ ch'eng²",
+          "bopomofo": "ㄗㄢˋ ㄔㄥˊ",
+          "romatzyh": "tzann cherng"
+        },
+        "meanings": [
+          "to approve",
+          "to endorse",
+          "(literary) to assist"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "赞美",
+    "radical": "贝",
+    "frequency": 7340,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "讚美",
+        "transcriptions": {
+          "pinyin": "zàn měi",
+          "numeric": "zan4 mei3",
+          "wadegiles": "tsan⁴ mei³",
+          "bopomofo": "ㄗㄢˋ ㄇㄟˇ",
+          "romatzyh": "tzann meei"
+        },
+        "meanings": [
+          "to admire",
+          "to praise",
+          "to eulogize"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "赞赏",
+    "radical": "贝",
+    "frequency": 9507,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "讚賞",
+        "transcriptions": {
+          "pinyin": "zàn shǎng",
+          "numeric": "zan4 shang3",
+          "wadegiles": "tsan⁴ shang³",
+          "bopomofo": "ㄗㄢˋ ㄕㄤˇ",
+          "romatzyh": "tzann shaang"
+        },
+        "meanings": [
+          "to admire",
+          "to praise",
+          "to appreciate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "赞叹",
+    "radical": "贝",
+    "frequency": 16824,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "讚嘆",
+        "transcriptions": {
+          "pinyin": "zàn tàn",
+          "numeric": "zan4 tan4",
+          "wadegiles": "tsan⁴ t'an⁴",
+          "bopomofo": "ㄗㄢˋ ㄊㄢˋ",
+          "romatzyh": "tzann tann"
+        },
+        "meanings": [
+          "to exclaim in admiration"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "赞叹不已",
+    "radical": "贝",
+    "frequency": 51147,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "贊嘆不已",
+        "transcriptions": {
+          "pinyin": "zàn tàn bù yǐ",
+          "numeric": "zan4 tan4 bu4 yi3",
+          "wadegiles": "tsan⁴ t'an⁴ pu⁴ i³",
+          "bopomofo": "ㄗㄢˋ ㄊㄢˋ ㄅㄨˋ ㄧˇ",
+          "romatzyh": "tzann tann buh yii"
+        },
+        "meanings": [
+          "to be full of praise (idiom)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "赞同",
+    "radical": "贝",
+    "frequency": 5974,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "讚同",
+        "transcriptions": {
+          "pinyin": "zàn tóng",
+          "numeric": "zan4 tong2",
+          "wadegiles": "tsan⁴ t'ung²",
+          "bopomofo": "ㄗㄢˋ ㄊㄨㄥˊ",
+          "romatzyh": "tzann torng"
+        },
+        "meanings": [
+          "to approve of",
+          "to endorse",
+          "(vote) in favor"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "贊同",
+        "transcriptions": {
+          "pinyin": "zàn tóng",
+          "numeric": "zan4 tong2",
+          "wadegiles": "tsan⁴ t'ung²",
+          "bopomofo": "ㄗㄢˋ ㄊㄨㄥˊ",
+          "romatzyh": "tzann torng"
+        },
+        "meanings": [
+          "to approve of",
+          "to endorse",
+          "(vote) in favor"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "赞许",
+    "radical": "贝",
+    "frequency": 24179,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "讚許",
+        "transcriptions": {
+          "pinyin": "zàn xǔ",
+          "numeric": "zan4 xu3",
+          "wadegiles": "tsan⁴ hsü³",
+          "bopomofo": "ㄗㄢˋ ㄒㄩˇ",
+          "romatzyh": "tzann sheu"
+        },
+        "meanings": [
+          "to praise",
+          "to laud"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "赞扬",
+    "radical": "贝",
+    "frequency": 9387,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "讚揚",
+        "transcriptions": {
+          "pinyin": "zàn yáng",
+          "numeric": "zan4 yang2",
+          "wadegiles": "tsan⁴ yang²",
+          "bopomofo": "ㄗㄢˋ ㄧㄤˊ",
+          "romatzyh": "tzann yang"
+        },
+        "meanings": [
+          "to praise",
+          "to approve of",
+          "to show approval"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "赞助",
+    "radical": "贝",
+    "frequency": 5290,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "贊助",
+        "transcriptions": {
+          "pinyin": "zàn zhù",
+          "numeric": "zan4 zhu4",
+          "wadegiles": "tsan⁴ chu⁴",
+          "bopomofo": "ㄗㄢˋ ㄓㄨˋ",
+          "romatzyh": "tzann juh"
+        },
+        "meanings": [
+          "to support",
+          "to assist",
+          "to sponsor"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "脏",
+    "radical": "⺼",
+    "frequency": 4623,
+    "pos": [
+      "a",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "臟",
+        "transcriptions": {
+          "pinyin": "zàng",
+          "numeric": "zang4",
+          "wadegiles": "tsang⁴",
+          "bopomofo": "ㄗㄤˋ",
+          "romatzyh": "tzanq"
+        },
+        "meanings": [
+          "viscera",
+          "(anatomy) organ"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "髒",
+        "transcriptions": {
+          "pinyin": "zāng",
+          "numeric": "zang1",
+          "wadegiles": "tsang¹",
+          "bopomofo": "ㄗㄤ",
+          "romatzyh": "tzang"
+        },
+        "meanings": [
+          "dirty",
+          "filthy",
+          "to get (sth) dirty"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "葬",
+    "radical": "艹",
+    "frequency": 11836,
+    "pos": [
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "塟",
+        "transcriptions": {
+          "pinyin": "zàng",
+          "numeric": "zang4",
+          "wadegiles": "tsang⁴",
+          "bopomofo": "ㄗㄤˋ",
+          "romatzyh": "tzanq"
+        },
+        "meanings": [
+          "old variant of 葬"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "葬",
+        "transcriptions": {
+          "pinyin": "zàng",
+          "numeric": "zang4",
+          "wadegiles": "tsang⁴",
+          "bopomofo": "ㄗㄤˋ",
+          "romatzyh": "tzanq"
+        },
+        "meanings": [
+          "to bury (the dead)",
+          "to inter"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "葬礼",
+    "radical": "艹",
+    "frequency": 9283,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "葬禮",
+        "transcriptions": {
+          "pinyin": "zàng lǐ",
+          "numeric": "zang4 li3",
+          "wadegiles": "tsang⁴ li³",
+          "bopomofo": "ㄗㄤˋ ㄌㄧˇ",
+          "romatzyh": "tzanq lii"
+        },
+        "meanings": [
+          "burial",
+          "funeral"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "遭到",
+    "radical": "辶",
+    "frequency": 3320,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "遭到",
+        "transcriptions": {
+          "pinyin": "zāo dào",
+          "numeric": "zao1 dao4",
+          "wadegiles": "tsao¹ tao⁴",
+          "bopomofo": "ㄗㄠ ㄉㄠˋ",
+          "romatzyh": "tzau daw"
+        },
+        "meanings": [
+          "to suffer",
+          "to meet with (sth unfortunate)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "遭受",
+    "radical": "辶",
+    "frequency": 4480,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "遭受",
+        "transcriptions": {
+          "pinyin": "zāo shòu",
+          "numeric": "zao1 shou4",
+          "wadegiles": "tsao¹ shou⁴",
+          "bopomofo": "ㄗㄠ ㄕㄡˋ",
+          "romatzyh": "tzau show"
+        },
+        "meanings": [
+          "to suffer; to sustain (loss, misfortune)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "遭殃",
+    "radical": "辶",
+    "frequency": 21901,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "遭殃",
+        "transcriptions": {
+          "pinyin": "zāo yāng",
+          "numeric": "zao1 yang1",
+          "wadegiles": "tsao¹ yang¹",
+          "bopomofo": "ㄗㄠ ㄧㄤ",
+          "romatzyh": "tzau iang"
+        },
+        "meanings": [
+          "to suffer a calamity"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "遭遇",
+    "radical": "辶",
+    "frequency": 3395,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "遭遇",
+        "transcriptions": {
+          "pinyin": "zāo yù",
+          "numeric": "zao1 yu4",
+          "wadegiles": "tsao¹ yü⁴",
+          "bopomofo": "ㄗㄠ ㄩˋ",
+          "romatzyh": "tzau yuh"
+        },
+        "meanings": [
+          "to meet with",
+          "to encounter",
+          "(bitter) experience"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "糟",
+    "radical": "米",
+    "frequency": 5229,
+    "pos": [
+      "a",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "糟",
+        "transcriptions": {
+          "pinyin": "zāo",
+          "numeric": "zao1",
+          "wadegiles": "tsao¹",
+          "bopomofo": "ㄗㄠ",
+          "romatzyh": "tzau"
+        },
+        "meanings": [
+          "dregs",
+          "draff",
+          "pickled in wine",
+          "rotten",
+          "messy",
+          "ruined"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "糟糕",
+    "radical": "米",
+    "frequency": 3403,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "糟糕",
+        "transcriptions": {
+          "pinyin": "zāo gāo",
+          "numeric": "zao1 gao1",
+          "wadegiles": "tsao¹ kao¹",
+          "bopomofo": "ㄗㄠ ㄍㄠ",
+          "romatzyh": "tzau gau"
+        },
+        "meanings": [
+          "too bad",
+          "how terrible",
+          "what bad luck",
+          "terrible",
+          "bad"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "凿",
+    "radical": "凵",
+    "frequency": 17288,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "鑿",
+        "transcriptions": {
+          "pinyin": "záo",
+          "numeric": "zao2",
+          "wadegiles": "tsao²",
+          "bopomofo": "ㄗㄠˊ",
+          "romatzyh": "tzaur"
+        },
+        "meanings": [
+          "chisel",
+          "to bore a hole",
+          "to chisel or dig",
+          "(literary) (bound form) certain",
+          "authentic",
+          "irrefutable",
+          "also pr. [zuò]"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "早",
+    "radical": "日",
+    "frequency": 445,
+    "pos": [
+      "ad",
+      "a",
+      "tg"
+    ],
+    "forms": [
+      {
+        "traditional": "早",
+        "transcriptions": {
+          "pinyin": "zǎo",
+          "numeric": "zao3",
+          "wadegiles": "tsao³",
+          "bopomofo": "ㄗㄠˇ",
+          "romatzyh": "tzao"
+        },
+        "meanings": [
+          "early",
+          "morning",
+          "Good morning!",
+          "long ago",
+          "prematurely"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "早餐",
+    "radical": "日",
+    "frequency": 2932,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "早餐",
+        "transcriptions": {
+          "pinyin": "zǎo cān",
+          "numeric": "zao3 can1",
+          "wadegiles": "tsao³ ts'an¹",
+          "bopomofo": "ㄗㄠˇ ㄘㄢ",
+          "romatzyh": "tzao tsan"
+        },
+        "meanings": [
+          "breakfast"
+        ],
+        "classifiers": [
+          "份",
+          "顿",
+          "次"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "早晨",
+    "radical": "日",
+    "frequency": 2994,
+    "pos": [
+      "t"
+    ],
+    "forms": [
+      {
+        "traditional": "早晨",
+        "transcriptions": {
+          "pinyin": "zǎo chén",
+          "numeric": "zao3 chen2",
+          "wadegiles": "tsao³ ch'en²",
+          "bopomofo": "ㄗㄠˇ ㄔㄣˊ",
+          "romatzyh": "tzao chern"
+        },
+        "meanings": [
+          "early morning",
+          "also pr. [zǎo chen]"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "早饭",
+    "radical": "日",
+    "frequency": 6748,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "早飯",
+        "transcriptions": {
+          "pinyin": "zǎo fàn",
+          "numeric": "zao3 fan4",
+          "wadegiles": "tsao³ fan⁴",
+          "bopomofo": "ㄗㄠˇ ㄈㄢˋ",
+          "romatzyh": "tzao fann"
+        },
+        "meanings": [
+          "breakfast"
+        ],
+        "classifiers": [
+          "份",
+          "顿",
+          "次",
+          "餐"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "早就",
+    "radical": "日",
+    "frequency": 2223,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "早就",
+        "transcriptions": {
+          "pinyin": "zǎo jiù",
+          "numeric": "zao3 jiu4",
+          "wadegiles": "tsao³ chiu⁴",
+          "bopomofo": "ㄗㄠˇ ㄐㄧㄡˋ",
+          "romatzyh": "tzao jiow"
+        },
+        "meanings": [
+          "already at an earlier time"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "早年",
+    "radical": "日",
+    "frequency": 17977,
+    "pos": [
+      "t"
+    ],
+    "forms": [
+      {
+        "traditional": "早年",
+        "transcriptions": {
+          "pinyin": "zǎo nián",
+          "numeric": "zao3 nian2",
+          "wadegiles": "tsao³ nien²",
+          "bopomofo": "ㄗㄠˇ ㄋㄧㄢˊ",
+          "romatzyh": "tzao nian"
+        },
+        "meanings": [
+          "many years ago; in the past",
+          "in one's early years"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "早期",
+    "radical": "日",
+    "frequency": 5122,
+    "pos": [
+      "t",
+      "f"
+    ],
+    "forms": [
+      {
+        "traditional": "早期",
+        "transcriptions": {
+          "pinyin": "zǎo qī",
+          "numeric": "zao3 qi1",
+          "wadegiles": "tsao³ ch'i¹",
+          "bopomofo": "ㄗㄠˇ ㄑㄧ",
+          "romatzyh": "tzao chi"
+        },
+        "meanings": [
+          "early period; early phase; early stage"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "早日",
+    "radical": "日",
+    "frequency": 8155,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "早日",
+        "transcriptions": {
+          "pinyin": "zǎo rì",
+          "numeric": "zao3 ri4",
+          "wadegiles": "tsao³ jih⁴",
+          "bopomofo": "ㄗㄠˇ ㄖˋ",
+          "romatzyh": "tzao ryh"
+        },
+        "meanings": [
+          "soon; at an early date",
+          "the early days; the past"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

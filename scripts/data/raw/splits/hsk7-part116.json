@@ -1,0 +1,2004 @@
+[
+  {
+    "simplified": "显",
+    "radical": "日",
+    "frequency": 3543,
+    "pos": [
+      "v",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "顯",
+        "transcriptions": {
+          "pinyin": "xiǎn",
+          "numeric": "xian3",
+          "wadegiles": "hsien³",
+          "bopomofo": "ㄒㄧㄢˇ",
+          "romatzyh": "shean"
+        },
+        "meanings": [
+          "to make visible",
+          "to reveal",
+          "prominent",
+          "conspicuous",
+          "(prefix) phanero-"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "显出",
+    "radical": "日",
+    "frequency": 14141,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "顯出",
+        "transcriptions": {
+          "pinyin": "xiǎn chū",
+          "numeric": "xian3 chu1",
+          "wadegiles": "hsien³ ch'u¹",
+          "bopomofo": "ㄒㄧㄢˇ ㄔㄨ",
+          "romatzyh": "shean chu"
+        },
+        "meanings": [
+          "to express",
+          "to exhibit"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "显得",
+    "radical": "日",
+    "frequency": 2352,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "顯得",
+        "transcriptions": {
+          "pinyin": "xiǎn de",
+          "numeric": "xian3 de5",
+          "wadegiles": "hsien³ de",
+          "bopomofo": "ㄒㄧㄢˇ de",
+          "romatzyh": "shean de"
+        },
+        "meanings": [
+          "to seem",
+          "to look",
+          "to appear"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "显而易见",
+    "radical": "日",
+    "frequency": 10457,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "顯而易見",
+        "transcriptions": {
+          "pinyin": "xiǎn ér yì jiàn",
+          "numeric": "xian3 er2 yi4 jian4",
+          "wadegiles": "hsien³ erh² i⁴ chien⁴",
+          "bopomofo": "ㄒㄧㄢˇ ㄦˊ ㄧˋ ㄐㄧㄢˋ",
+          "romatzyh": "shean erl yih jiann"
+        },
+        "meanings": [
+          "clearly and easy to see (idiom); obviously",
+          "clearly",
+          "it goes without saying"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "显赫",
+    "radical": "日",
+    "frequency": 18526,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "顯赫",
+        "transcriptions": {
+          "pinyin": "xiǎn hè",
+          "numeric": "xian3 he4",
+          "wadegiles": "hsien³ ho⁴",
+          "bopomofo": "ㄒㄧㄢˇ ㄏㄜˋ",
+          "romatzyh": "shean heh"
+        },
+        "meanings": [
+          "illustrious",
+          "celebrated"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "显然",
+    "radical": "日",
+    "frequency": 1345,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "顯然",
+        "transcriptions": {
+          "pinyin": "xiǎn rán",
+          "numeric": "xian3 ran2",
+          "wadegiles": "hsien³ jan²",
+          "bopomofo": "ㄒㄧㄢˇ ㄖㄢˊ",
+          "romatzyh": "shean ran"
+        },
+        "meanings": [
+          "clearly; evidently; obviously"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "显示",
+    "radical": "日",
+    "frequency": 1030,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "顯示",
+        "transcriptions": {
+          "pinyin": "xiǎn shì",
+          "numeric": "xian3 shi4",
+          "wadegiles": "hsien³ shih⁴",
+          "bopomofo": "ㄒㄧㄢˇ ㄕˋ",
+          "romatzyh": "shean shyh"
+        },
+        "meanings": [
+          "to show",
+          "to illustrate",
+          "to display",
+          "to demonstrate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "显示器",
+    "radical": "日",
+    "frequency": 11588,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "顯示器",
+        "transcriptions": {
+          "pinyin": "xiǎn shì qì",
+          "numeric": "xian3 shi4 qi4",
+          "wadegiles": "hsien³ shih⁴ ch'i⁴",
+          "bopomofo": "ㄒㄧㄢˇ ㄕˋ ㄑㄧˋ",
+          "romatzyh": "shean shyh chih"
+        },
+        "meanings": [
+          "monitor (computer)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "显现",
+    "radical": "日",
+    "frequency": 8581,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "顯現",
+        "transcriptions": {
+          "pinyin": "xiǎn xiàn",
+          "numeric": "xian3 xian4",
+          "wadegiles": "hsien³ hsien⁴",
+          "bopomofo": "ㄒㄧㄢˇ ㄒㄧㄢˋ",
+          "romatzyh": "shean shiann"
+        },
+        "meanings": [
+          "appearance",
+          "to appear"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "显眼",
+    "radical": "日",
+    "frequency": 13517,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "顯眼",
+        "transcriptions": {
+          "pinyin": "xiǎn yǎn",
+          "numeric": "xian3 yan3",
+          "wadegiles": "hsien³ yan³",
+          "bopomofo": "ㄒㄧㄢˇ ㄧㄢˇ",
+          "romatzyh": "shean yean"
+        },
+        "meanings": [
+          "conspicuous",
+          "eye-catching",
+          "glamorous"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "显著",
+    "radical": "日",
+    "frequency": 1981,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "顯著",
+        "transcriptions": {
+          "pinyin": "xiǎn zhù",
+          "numeric": "xian3 zhu4",
+          "wadegiles": "hsien³ chu⁴",
+          "bopomofo": "ㄒㄧㄢˇ ㄓㄨˋ",
+          "romatzyh": "shean juh"
+        },
+        "meanings": [
+          "outstanding",
+          "notable",
+          "remarkable",
+          "statistically significant"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "险",
+    "radical": "阝",
+    "frequency": 3419,
+    "pos": [
+      "a",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "險",
+        "transcriptions": {
+          "pinyin": "xiǎn",
+          "numeric": "xian3",
+          "wadegiles": "hsien³",
+          "bopomofo": "ㄒㄧㄢˇ",
+          "romatzyh": "shean"
+        },
+        "meanings": [
+          "danger",
+          "dangerous",
+          "rugged"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "县",
+    "radical": "厶",
+    "frequency": 3513,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "縣",
+        "transcriptions": {
+          "pinyin": "xiàn",
+          "numeric": "xian4",
+          "wadegiles": "hsien⁴",
+          "bopomofo": "ㄒㄧㄢˋ",
+          "romatzyh": "shiann"
+        },
+        "meanings": [
+          "county"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "现场",
+    "radical": "王",
+    "frequency": 627,
+    "pos": [
+      "s"
+    ],
+    "forms": [
+      {
+        "traditional": "現場",
+        "transcriptions": {
+          "pinyin": "xiàn chǎng",
+          "numeric": "xian4 chang3",
+          "wadegiles": "hsien⁴ ch'ang³",
+          "bopomofo": "ㄒㄧㄢˋ ㄔㄤˇ",
+          "romatzyh": "shiann chaang"
+        },
+        "meanings": [
+          "the scene (of a crime, accident etc)",
+          "(on) the spot",
+          "(at) the site"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "现成",
+    "radical": "王",
+    "frequency": 16759,
+    "pos": [
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "現成",
+        "transcriptions": {
+          "pinyin": "xiàn chéng",
+          "numeric": "xian4 cheng2",
+          "wadegiles": "hsien⁴ ch'eng²",
+          "bopomofo": "ㄒㄧㄢˋ ㄔㄥˊ",
+          "romatzyh": "shiann cherng"
+        },
+        "meanings": [
+          "ready-made",
+          "readily available"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "现代",
+    "radical": "王",
+    "frequency": 2512,
+    "pos": [
+      "t"
+    ],
+    "forms": [
+      {
+        "traditional": "現代",
+        "transcriptions": {
+          "pinyin": "Xiàn dài",
+          "numeric": "Xian4 dai4",
+          "wadegiles": "hsien⁴ tai⁴",
+          "bopomofo": "ㄒㄧㄢˋ ㄉㄞˋ",
+          "romatzyh": "shiann day"
+        },
+        "meanings": [
+          "Hyundai, South Korean company"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "現代",
+        "transcriptions": {
+          "pinyin": "xiàn dài",
+          "numeric": "xian4 dai4",
+          "wadegiles": "hsien⁴ tai⁴",
+          "bopomofo": "ㄒㄧㄢˋ ㄉㄞˋ",
+          "romatzyh": "shiann day"
+        },
+        "meanings": [
+          "modern times",
+          "modern age",
+          "modern era"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "现代化",
+    "radical": "王",
+    "frequency": 10626,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "現代化",
+        "transcriptions": {
+          "pinyin": "xiàn dài huà",
+          "numeric": "xian4 dai4 hua4",
+          "wadegiles": "hsien⁴ tai⁴ hua⁴",
+          "bopomofo": "ㄒㄧㄢˋ ㄉㄞˋ ㄏㄨㄚˋ",
+          "romatzyh": "shiann day huah"
+        },
+        "meanings": [
+          "modernization"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "现金",
+    "radical": "王",
+    "frequency": 2030,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "現金",
+        "transcriptions": {
+          "pinyin": "xiàn jīn",
+          "numeric": "xian4 jin1",
+          "wadegiles": "hsien⁴ chin¹",
+          "bopomofo": "ㄒㄧㄢˋ ㄐㄧㄣ",
+          "romatzyh": "shiann jin"
+        },
+        "meanings": [
+          "cash"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "现任",
+    "radical": "王",
+    "frequency": 10005,
+    "pos": [
+      "b",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "現任",
+        "transcriptions": {
+          "pinyin": "xiàn rèn",
+          "numeric": "xian4 ren4",
+          "wadegiles": "hsien⁴ jen⁴",
+          "bopomofo": "ㄒㄧㄢˋ ㄖㄣˋ",
+          "romatzyh": "shiann renn"
+        },
+        "meanings": [
+          "to occupy a post currently",
+          "current (president etc)",
+          "incumbent",
+          "(coll.) current boyfriend (girlfriend, spouse)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "现实",
+    "radical": "王",
+    "frequency": 1237,
+    "pos": [
+      "n",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "現實",
+        "transcriptions": {
+          "pinyin": "xiàn shí",
+          "numeric": "xian4 shi2",
+          "wadegiles": "hsien⁴ shih²",
+          "bopomofo": "ㄒㄧㄢˋ ㄕˊ",
+          "romatzyh": "shiann shyr"
+        },
+        "meanings": [
+          "reality",
+          "actuality",
+          "real",
+          "actual",
+          "realistic",
+          "pragmatic",
+          "materialistic",
+          "self-interested"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "现象",
+    "radical": "王",
+    "frequency": 2440,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "現象",
+        "transcriptions": {
+          "pinyin": "xiàn xiàng",
+          "numeric": "xian4 xiang4",
+          "wadegiles": "hsien⁴ hsiang⁴",
+          "bopomofo": "ㄒㄧㄢˋ ㄒㄧㄤˋ",
+          "romatzyh": "shiann shianq"
+        },
+        "meanings": [
+          "phenomenon",
+          "appearance"
+        ],
+        "classifiers": [
+          "个",
+          "种"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "现行",
+    "radical": "王",
+    "frequency": 11397,
+    "pos": [
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "現行",
+        "transcriptions": {
+          "pinyin": "xiàn xíng",
+          "numeric": "xian4 xing2",
+          "wadegiles": "hsien⁴ hsing²",
+          "bopomofo": "ㄒㄧㄢˋ ㄒㄧㄥˊ",
+          "romatzyh": "shiann shyng"
+        },
+        "meanings": [
+          "to be in effect",
+          "in force",
+          "current"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "现有",
+    "radical": "王",
+    "frequency": 5606,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "現有",
+        "transcriptions": {
+          "pinyin": "xiàn yǒu",
+          "numeric": "xian4 you3",
+          "wadegiles": "hsien⁴ yu³",
+          "bopomofo": "ㄒㄧㄢˋ ㄧㄡˇ",
+          "romatzyh": "shiann yeou"
+        },
+        "meanings": [
+          "currently existing",
+          "currently available"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "现在",
+    "radical": "王",
+    "frequency": 77,
+    "pos": [
+      "t"
+    ],
+    "forms": [
+      {
+        "traditional": "現在",
+        "transcriptions": {
+          "pinyin": "xiàn zài",
+          "numeric": "xian4 zai4",
+          "wadegiles": "hsien⁴ tsai⁴",
+          "bopomofo": "ㄒㄧㄢˋ ㄗㄞˋ",
+          "romatzyh": "shiann tzay"
+        },
+        "meanings": [
+          "now",
+          "at present",
+          "at the moment",
+          "modern",
+          "current",
+          "nowadays"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "现状",
+    "radical": "王",
+    "frequency": 5540,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "現狀",
+        "transcriptions": {
+          "pinyin": "xiàn zhuàng",
+          "numeric": "xian4 zhuang4",
+          "wadegiles": "hsien⁴ chuang⁴",
+          "bopomofo": "ㄒㄧㄢˋ ㄓㄨㄤˋ",
+          "romatzyh": "shiann juanq"
+        },
+        "meanings": [
+          "current situation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "线",
+    "radical": "纟",
+    "frequency": 679,
+    "pos": [
+      "n",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "綫",
+        "transcriptions": {
+          "pinyin": "xiàn",
+          "numeric": "xian4",
+          "wadegiles": "hsien⁴",
+          "bopomofo": "ㄒㄧㄢˋ",
+          "romatzyh": "shiann"
+        },
+        "meanings": [
+          "variant of 线"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "線",
+        "transcriptions": {
+          "pinyin": "xiàn",
+          "numeric": "xian4",
+          "wadegiles": "hsien⁴",
+          "bopomofo": "ㄒㄧㄢˋ",
+          "romatzyh": "shiann"
+        },
+        "meanings": [
+          "thread",
+          "string",
+          "wire",
+          "line",
+          "(after a number) tier (unofficial ranking of a Chinese city)"
+        ],
+        "classifiers": [
+          "条",
+          "股",
+          "根"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "线路",
+    "radical": "纟",
+    "frequency": 4070,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "線路",
+        "transcriptions": {
+          "pinyin": "xiàn lù",
+          "numeric": "xian4 lu4",
+          "wadegiles": "hsien⁴ lu⁴",
+          "bopomofo": "ㄒㄧㄢˋ ㄌㄨˋ",
+          "romatzyh": "shiann luh"
+        },
+        "meanings": [
+          "(electricity) line; circuit; wire",
+          "(traffic) road; track; route"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "线索",
+    "radical": "纟",
+    "frequency": 2891,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "線索",
+        "transcriptions": {
+          "pinyin": "xiàn suǒ",
+          "numeric": "xian4 suo3",
+          "wadegiles": "hsien⁴ so³",
+          "bopomofo": "ㄒㄧㄢˋ ㄙㄨㄛˇ",
+          "romatzyh": "shiann suoo"
+        },
+        "meanings": [
+          "trail",
+          "clues",
+          "thread (of a story)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "线条",
+    "radical": "纟",
+    "frequency": 8512,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "線條",
+        "transcriptions": {
+          "pinyin": "xiàn tiáo",
+          "numeric": "xian4 tiao2",
+          "wadegiles": "hsien⁴ t'iao²",
+          "bopomofo": "ㄒㄧㄢˋ ㄊㄧㄠˊ",
+          "romatzyh": "shiann tyau"
+        },
+        "meanings": [
+          "line (in drawing, calligraphy etc)",
+          "the lines or contours of a three-dimensional object (hairstyle, clothing, car etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "限",
+    "radical": "阝",
+    "frequency": 5564,
+    "pos": [
+      "v",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "限",
+        "transcriptions": {
+          "pinyin": "xiàn",
+          "numeric": "xian4",
+          "wadegiles": "hsien⁴",
+          "bopomofo": "ㄒㄧㄢˋ",
+          "romatzyh": "shiann"
+        },
+        "meanings": [
+          "to limit",
+          "to restrict",
+          "(bound form) limit",
+          "bound"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "限定",
+    "radical": "阝",
+    "frequency": 16505,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "限定",
+        "transcriptions": {
+          "pinyin": "xiàn dìng",
+          "numeric": "xian4 ding4",
+          "wadegiles": "hsien⁴ ting⁴",
+          "bopomofo": "ㄒㄧㄢˋ ㄉㄧㄥˋ",
+          "romatzyh": "shiann dinq"
+        },
+        "meanings": [
+          "to restrict to",
+          "to limit"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "限度",
+    "radical": "阝",
+    "frequency": 11462,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "限度",
+        "transcriptions": {
+          "pinyin": "xiàn dù",
+          "numeric": "xian4 du4",
+          "wadegiles": "hsien⁴ tu⁴",
+          "bopomofo": "ㄒㄧㄢˋ ㄉㄨˋ",
+          "romatzyh": "shiann duh"
+        },
+        "meanings": [
+          "limitation",
+          "limit"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "限于",
+    "radical": "阝",
+    "frequency": 9451,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "限於",
+        "transcriptions": {
+          "pinyin": "xiàn yú",
+          "numeric": "xian4 yu2",
+          "wadegiles": "hsien⁴ yü²",
+          "bopomofo": "ㄒㄧㄢˋ ㄩˊ",
+          "romatzyh": "shiann yu"
+        },
+        "meanings": [
+          "to be limited to",
+          "to be confined to"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "限制",
+    "radical": "阝",
+    "frequency": 2479,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "限制",
+        "transcriptions": {
+          "pinyin": "xiàn zhì",
+          "numeric": "xian4 zhi4",
+          "wadegiles": "hsien⁴ chih⁴",
+          "bopomofo": "ㄒㄧㄢˋ ㄓˋ",
+          "romatzyh": "shiann jyh"
+        },
+        "meanings": [
+          "to restrict",
+          "to limit",
+          "to confine",
+          "restriction",
+          "limit"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "宪法",
+    "radical": "宀",
+    "frequency": 5123,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "憲法",
+        "transcriptions": {
+          "pinyin": "xiàn fǎ",
+          "numeric": "xian4 fa3",
+          "wadegiles": "hsien⁴ fa³",
+          "bopomofo": "ㄒㄧㄢˋ ㄈㄚˇ",
+          "romatzyh": "shiann faa"
+        },
+        "meanings": [
+          "constitution (of a country)"
+        ],
+        "classifiers": [
+          "部"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "陷",
+    "radical": "阝",
+    "frequency": 6466,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "陷",
+        "transcriptions": {
+          "pinyin": "xiàn",
+          "numeric": "xian4",
+          "wadegiles": "hsien⁴",
+          "bopomofo": "ㄒㄧㄢˋ",
+          "romatzyh": "shiann"
+        },
+        "meanings": [
+          "pitfall",
+          "trap",
+          "to get stuck",
+          "to sink",
+          "to cave in",
+          "to frame (false charge)",
+          "to capture (a city in battle)",
+          "to fall (to the enemy)",
+          "defect"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "陷阱",
+    "radical": "阝",
+    "frequency": 6271,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "陷阱",
+        "transcriptions": {
+          "pinyin": "xiàn jǐng",
+          "numeric": "xian4 jing3",
+          "wadegiles": "hsien⁴ ching³",
+          "bopomofo": "ㄒㄧㄢˋ ㄐㄧㄥˇ",
+          "romatzyh": "shiann jiing"
+        },
+        "meanings": [
+          "pitfall",
+          "snare",
+          "trap"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "陷入",
+    "radical": "阝",
+    "frequency": 3109,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "陷入",
+        "transcriptions": {
+          "pinyin": "xiàn rù",
+          "numeric": "xian4 ru4",
+          "wadegiles": "hsien⁴ ju⁴",
+          "bopomofo": "ㄒㄧㄢˋ ㄖㄨˋ",
+          "romatzyh": "shiann ruh"
+        },
+        "meanings": [
+          "to sink into",
+          "to get caught up in",
+          "to land in (a predicament)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "馅儿",
+    "radical": "饣",
+    "frequency": 52762,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "餡兒",
+        "transcriptions": {
+          "pinyin": "xiàn r",
+          "numeric": "xian4 r5",
+          "wadegiles": "hsien⁴ r",
+          "bopomofo": "ㄒㄧㄢˋ r",
+          "romatzyh": "shiann r"
+        },
+        "meanings": [
+          "erhua variant of 馅"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "羡慕",
+    "radical": "羊",
+    "frequency": 4551,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "羨慕",
+        "transcriptions": {
+          "pinyin": "xiàn mù",
+          "numeric": "xian4 mu4",
+          "wadegiles": "hsien⁴ mu⁴",
+          "bopomofo": "ㄒㄧㄢˋ ㄇㄨˋ",
+          "romatzyh": "shiann muh"
+        },
+        "meanings": [
+          "to envy",
+          "to admire"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "献",
+    "radical": "犬",
+    "frequency": 4768,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "獻",
+        "transcriptions": {
+          "pinyin": "xiàn",
+          "numeric": "xian4",
+          "wadegiles": "hsien⁴",
+          "bopomofo": "ㄒㄧㄢˋ",
+          "romatzyh": "shiann"
+        },
+        "meanings": [
+          "to offer",
+          "to present",
+          "to dedicate",
+          "to donate",
+          "to show",
+          "to put on display",
+          "worthy person (old)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "献血",
+    "radical": "犬",
+    "frequency": 14055,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "獻血",
+        "transcriptions": {
+          "pinyin": "xiàn xuè",
+          "numeric": "xian4 xue4",
+          "wadegiles": "hsien⁴ hsüeh⁴",
+          "bopomofo": "ㄒㄧㄢˋ ㄒㄩㄝˋ",
+          "romatzyh": "shiann shiueh"
+        },
+        "meanings": [
+          "to donate blood"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "腺",
+    "radical": "⺼",
+    "frequency": 13774,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "腺",
+        "transcriptions": {
+          "pinyin": "xiàn",
+          "numeric": "xian4",
+          "wadegiles": "hsien⁴",
+          "bopomofo": "ㄒㄧㄢˋ",
+          "romatzyh": "shiann"
+        },
+        "meanings": [
+          "gland"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "仙鹤",
+    "radical": "亻",
+    "frequency": 42178,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "仙鶴",
+        "transcriptions": {
+          "pinyin": "xiān hè",
+          "numeric": "xian1 he4",
+          "wadegiles": "hsien¹ ho⁴",
+          "bopomofo": "ㄒㄧㄢ ㄏㄜˋ",
+          "romatzyh": "shian heh"
+        },
+        "meanings": [
+          "red-crowned crane (Grus japonensis)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "仙女",
+    "radical": "亻",
+    "frequency": 11436,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "仙女",
+        "transcriptions": {
+          "pinyin": "xiān nu:3",
+          "numeric": "xian1 nü3",
+          "wadegiles": "hsien¹ nu:3",
+          "bopomofo": "ㄒㄧㄢ nu:3",
+          "romatzyh": "shian nu:3"
+        },
+        "meanings": [
+          "fairy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "乡",
+    "radical": "幺",
+    "frequency": 5793,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "鄉",
+        "transcriptions": {
+          "pinyin": "xiāng",
+          "numeric": "xiang1",
+          "wadegiles": "hsiang¹",
+          "bopomofo": "ㄒㄧㄤ",
+          "romatzyh": "shiang"
+        },
+        "meanings": [
+          "country or countryside",
+          "native place",
+          "home village or town",
+          "township (PRC administrative unit)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "乡村",
+    "radical": "幺",
+    "frequency": 4094,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "鄉村",
+        "transcriptions": {
+          "pinyin": "xiāng cūn",
+          "numeric": "xiang1 cun1",
+          "wadegiles": "hsiang¹ ts'un¹",
+          "bopomofo": "ㄒㄧㄤ ㄘㄨㄣ",
+          "romatzyh": "shiang tsuen"
+        },
+        "meanings": [
+          "rustic",
+          "village",
+          "countryside"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "乡亲",
+    "radical": "幺",
+    "frequency": 21178,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "鄉親",
+        "transcriptions": {
+          "pinyin": "xiāng qīn",
+          "numeric": "xiang1 qin1",
+          "wadegiles": "hsiang¹ ch'in¹",
+          "bopomofo": "ㄒㄧㄤ ㄑㄧㄣ",
+          "romatzyh": "shiang chin"
+        },
+        "meanings": [
+          "fellow countryman (from the same village)",
+          "local people",
+          "villager",
+          "the folks back home"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "乡下",
+    "radical": "幺",
+    "frequency": 9308,
+    "pos": [
+      "s"
+    ],
+    "forms": [
+      {
+        "traditional": "鄉下",
+        "transcriptions": {
+          "pinyin": "xiāng xia",
+          "numeric": "xiang1 xia5",
+          "wadegiles": "hsiang¹ xia",
+          "bopomofo": "ㄒㄧㄤ xia",
+          "romatzyh": "shiang xia"
+        },
+        "meanings": [
+          "countryside",
+          "rural area"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "相伴",
+    "radical": "目",
+    "frequency": 9989,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "相伴",
+        "transcriptions": {
+          "pinyin": "xiāng bàn",
+          "numeric": "xiang1 ban4",
+          "wadegiles": "hsiang¹ pan⁴",
+          "bopomofo": "ㄒㄧㄤ ㄅㄢˋ",
+          "romatzyh": "shiang bann"
+        },
+        "meanings": [
+          "to accompany sb",
+          "to accompany each other"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相比",
+    "radical": "目",
+    "frequency": 2934,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "相比",
+        "transcriptions": {
+          "pinyin": "xiāng bǐ",
+          "numeric": "xiang1 bi3",
+          "wadegiles": "hsiang¹ pi³",
+          "bopomofo": "ㄒㄧㄤ ㄅㄧˇ",
+          "romatzyh": "shiang bii"
+        },
+        "meanings": [
+          "to compare"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相比之下",
+    "radical": "目",
+    "frequency": 21165,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "相比之下",
+        "transcriptions": {
+          "pinyin": "xiāng bǐ zhī xià",
+          "numeric": "xiang1 bi3 zhi1 xia4",
+          "wadegiles": "hsiang¹ pi³ chih¹ hsia⁴",
+          "bopomofo": "ㄒㄧㄤ ㄅㄧˇ ㄓ ㄒㄧㄚˋ",
+          "romatzyh": "shiang bii jy shiah"
+        },
+        "meanings": [
+          "by comparison"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相差",
+    "radical": "目",
+    "frequency": 11680,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "相差",
+        "transcriptions": {
+          "pinyin": "xiāng chà",
+          "numeric": "xiang1 cha4",
+          "wadegiles": "hsiang¹ ch'a⁴",
+          "bopomofo": "ㄒㄧㄤ ㄔㄚˋ",
+          "romatzyh": "shiang chah"
+        },
+        "meanings": [
+          "to differ",
+          "discrepancy between"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相处",
+    "radical": "目",
+    "frequency": 3898,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "相處",
+        "transcriptions": {
+          "pinyin": "xiāng chǔ",
+          "numeric": "xiang1 chu3",
+          "wadegiles": "hsiang¹ ch'u³",
+          "bopomofo": "ㄒㄧㄤ ㄔㄨˇ",
+          "romatzyh": "shiang chuu"
+        },
+        "meanings": [
+          "to be in contact (with sb)",
+          "to associate",
+          "to interact",
+          "to get along (well, poorly)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相传",
+    "radical": "目",
+    "frequency": 22657,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "相傳",
+        "transcriptions": {
+          "pinyin": "xiāng chuán",
+          "numeric": "xiang1 chuan2",
+          "wadegiles": "hsiang¹ ch'uan²",
+          "bopomofo": "ㄒㄧㄤ ㄔㄨㄢˊ",
+          "romatzyh": "shiang chwan"
+        },
+        "meanings": [
+          "to pass on",
+          "to hand down",
+          "tradition has it that ...",
+          "according to legend"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相当",
+    "radical": "目",
+    "frequency": 1139,
+    "pos": [
+      "d",
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "相當",
+        "transcriptions": {
+          "pinyin": "xiāng dāng",
+          "numeric": "xiang1 dang1",
+          "wadegiles": "hsiang¹ tang¹",
+          "bopomofo": "ㄒㄧㄤ ㄉㄤ",
+          "romatzyh": "shiang dang"
+        },
+        "meanings": [
+          "equivalent to",
+          "appropriate",
+          "considerably",
+          "to a certain extent",
+          "fairly",
+          "quite"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相当于",
+    "radical": "目",
+    "frequency": 14927,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "相當於",
+        "transcriptions": {
+          "pinyin": "xiāng dāng yú",
+          "numeric": "xiang1 dang1 yu2",
+          "wadegiles": "hsiang¹ tang¹ yü²",
+          "bopomofo": "ㄒㄧㄤ ㄉㄤ ㄩˊ",
+          "romatzyh": "shiang dang yu"
+        },
+        "meanings": [
+          "equivalent to"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相等",
+    "radical": "目",
+    "frequency": 20539,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "相等",
+        "transcriptions": {
+          "pinyin": "xiāng děng",
+          "numeric": "xiang1 deng3",
+          "wadegiles": "hsiang¹ teng³",
+          "bopomofo": "ㄒㄧㄤ ㄉㄥˇ",
+          "romatzyh": "shiang deeng"
+        },
+        "meanings": [
+          "equal",
+          "equally",
+          "equivalent"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相对",
+    "radical": "目",
+    "frequency": 3673,
+    "pos": [
+      "d",
+      "v",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "相對",
+        "transcriptions": {
+          "pinyin": "xiāng duì",
+          "numeric": "xiang1 dui4",
+          "wadegiles": "hsiang¹ tui⁴",
+          "bopomofo": "ㄒㄧㄤ ㄉㄨㄟˋ",
+          "romatzyh": "shiang duey"
+        },
+        "meanings": [
+          "relatively",
+          "opposite",
+          "to resist",
+          "to oppose",
+          "relative",
+          "vis-a-vis",
+          "counterpart"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相对而言",
+    "radical": "目",
+    "frequency": 28925,
+    "pos": [
+      "c"
+    ],
+    "forms": [
+      {
+        "traditional": "相對而言",
+        "transcriptions": {
+          "pinyin": "xiāng duì ér yán",
+          "numeric": "xiang1 dui4 er2 yan2",
+          "wadegiles": "hsiang¹ tui⁴ erh² yan²",
+          "bopomofo": "ㄒㄧㄤ ㄉㄨㄟˋ ㄦˊ ㄧㄢˊ",
+          "romatzyh": "shiang duey erl yan"
+        },
+        "meanings": [
+          "relatively speaking",
+          "comparatively speaking"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相反",
+    "radical": "目",
+    "frequency": 3525,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "相反",
+        "transcriptions": {
+          "pinyin": "xiāng fǎn",
+          "numeric": "xiang1 fan3",
+          "wadegiles": "hsiang¹ fan³",
+          "bopomofo": "ㄒㄧㄤ ㄈㄢˇ",
+          "romatzyh": "shiang faan"
+        },
+        "meanings": [
+          "opposite",
+          "contrary"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相辅相成",
+    "radical": "目",
+    "frequency": 39443,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "相輔相成",
+        "transcriptions": {
+          "pinyin": "xiāng fǔ xiāng chéng",
+          "numeric": "xiang1 fu3 xiang1 cheng2",
+          "wadegiles": "hsiang¹ fu³ hsiang¹ ch'eng²",
+          "bopomofo": "ㄒㄧㄤ ㄈㄨˇ ㄒㄧㄤ ㄔㄥˊ",
+          "romatzyh": "shiang fuu shiang cherng"
+        },
+        "meanings": [
+          "to complement one another (idiom)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相关",
+    "radical": "目",
+    "frequency": 1782,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "相關",
+        "transcriptions": {
+          "pinyin": "xiāng guān",
+          "numeric": "xiang1 guan1",
+          "wadegiles": "hsiang¹ kuan¹",
+          "bopomofo": "ㄒㄧㄤ ㄍㄨㄢ",
+          "romatzyh": "shiang guan"
+        },
+        "meanings": [
+          "related",
+          "relevant",
+          "pertinent",
+          "to be interrelated",
+          "(statistics) correlation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相互",
+    "radical": "目",
+    "frequency": 2492,
+    "pos": [
+      "d",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "相互",
+        "transcriptions": {
+          "pinyin": "xiāng hù",
+          "numeric": "xiang1 hu4",
+          "wadegiles": "hsiang¹ hu⁴",
+          "bopomofo": "ㄒㄧㄤ ㄏㄨˋ",
+          "romatzyh": "shiang huh"
+        },
+        "meanings": [
+          "each other",
+          "mutual"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相机",
+    "radical": "目",
+    "frequency": 3401,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "相機",
+        "transcriptions": {
+          "pinyin": "xiàng jī",
+          "numeric": "xiang4 ji1",
+          "wadegiles": "hsiang⁴ chi¹",
+          "bopomofo": "ㄒㄧㄤˋ ㄐㄧ",
+          "romatzyh": "shianq ji"
+        },
+        "meanings": [
+          "camera (abbr. for 照相机)",
+          "at the opportune moment",
+          "as the circumstances allow"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相继",
+    "radical": "目",
+    "frequency": 13859,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "相繼",
+        "transcriptions": {
+          "pinyin": "xiāng jì",
+          "numeric": "xiang1 ji4",
+          "wadegiles": "hsiang¹ chi⁴",
+          "bopomofo": "ㄒㄧㄤ ㄐㄧˋ",
+          "romatzyh": "shiang jih"
+        },
+        "meanings": [
+          "in succession",
+          "following closely"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相连",
+    "radical": "目",
+    "frequency": 9446,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "相連",
+        "transcriptions": {
+          "pinyin": "xiāng lián",
+          "numeric": "xiang1 lian2",
+          "wadegiles": "hsiang¹ lien²",
+          "bopomofo": "ㄒㄧㄤ ㄌㄧㄢˊ",
+          "romatzyh": "shiang lian"
+        },
+        "meanings": [
+          "to link",
+          "to join",
+          "link",
+          "connection"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相片",
+    "radical": "目",
+    "frequency": 9258,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "相片",
+        "transcriptions": {
+          "pinyin": "xiàng piàn",
+          "numeric": "xiang4 pian4",
+          "wadegiles": "hsiang⁴ p'ien⁴",
+          "bopomofo": "ㄒㄧㄤˋ ㄆㄧㄢˋ",
+          "romatzyh": "shianq piann"
+        },
+        "meanings": [
+          "image",
+          "photograph"
+        ],
+        "classifiers": [
+          "张"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "相声",
+    "radical": "目",
+    "frequency": 16761,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "相聲",
+        "transcriptions": {
+          "pinyin": "xiàng sheng",
+          "numeric": "xiang4 sheng5",
+          "wadegiles": "hsiang⁴ sheng",
+          "bopomofo": "ㄒㄧㄤˋ sheng",
+          "romatzyh": "shianq sheng"
+        },
+        "meanings": [
+          "comic dialogue",
+          "sketch",
+          "crosstalk"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相似",
+    "radical": "目",
+    "frequency": 4024,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "相似",
+        "transcriptions": {
+          "pinyin": "xiāng sì",
+          "numeric": "xiang1 si4",
+          "wadegiles": "hsiang¹ ssu⁴",
+          "bopomofo": "ㄒㄧㄤ ㄙˋ",
+          "romatzyh": "shiang syh"
+        },
+        "meanings": [
+          "similar; alike"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相识",
+    "radical": "目",
+    "frequency": 8658,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "相識",
+        "transcriptions": {
+          "pinyin": "xiāng shí",
+          "numeric": "xiang1 shi2",
+          "wadegiles": "hsiang¹ shih²",
+          "bopomofo": "ㄒㄧㄤ ㄕˊ",
+          "romatzyh": "shiang shyr"
+        },
+        "meanings": [
+          "to get to know each other",
+          "acquaintance"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相提并论",
+    "radical": "目",
+    "frequency": 17200,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "相提並論",
+        "transcriptions": {
+          "pinyin": "xiāng tí bìng lùn",
+          "numeric": "xiang1 ti2 bing4 lun4",
+          "wadegiles": "hsiang¹ t'i² ping⁴ lun⁴",
+          "bopomofo": "ㄒㄧㄤ ㄊㄧˊ ㄅㄧㄥˋ ㄌㄨㄣˋ",
+          "romatzyh": "shiang tyi binq luenn"
+        },
+        "meanings": [
+          "to discuss two disparate things together (idiom); to mention on equal terms",
+          "to place on a par with",
+          "(often with negatives: impossible to mention X in the same breath as Y)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相通",
+    "radical": "目",
+    "frequency": 15457,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "相通",
+        "transcriptions": {
+          "pinyin": "xiāng tōng",
+          "numeric": "xiang1 tong1",
+          "wadegiles": "hsiang¹ t'ung¹",
+          "bopomofo": "ㄒㄧㄤ ㄊㄨㄥ",
+          "romatzyh": "shiang tong"
+        },
+        "meanings": [
+          "interlinked",
+          "connected",
+          "communicating",
+          "in communication",
+          "accommodating"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相同",
+    "radical": "目",
+    "frequency": 2110,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "相同",
+        "transcriptions": {
+          "pinyin": "xiāng tóng",
+          "numeric": "xiang1 tong2",
+          "wadegiles": "hsiang¹ t'ung²",
+          "bopomofo": "ㄒㄧㄤ ㄊㄨㄥˊ",
+          "romatzyh": "shiang torng"
+        },
+        "meanings": [
+          "identical",
+          "same"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "相信",
+    "radical": "目",
+    "frequency": 431,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "相信",
+        "transcriptions": {
+          "pinyin": "xiāng xìn",
+          "numeric": "xiang1 xin4",
+          "wadegiles": "hsiang¹ hsin⁴",
+          "bopomofo": "ㄒㄧㄤ ㄒㄧㄣˋ",
+          "romatzyh": "shiang shinn"
+        },
+        "meanings": [
+          "to be convinced (that sth is true); to believe; to accept sth as true"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

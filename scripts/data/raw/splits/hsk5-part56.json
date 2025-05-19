@@ -1,0 +1,2204 @@
+[
+  {
+    "simplified": "注射",
+    "radical": "氵",
+    "frequency": 3225,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "注射",
+        "transcriptions": {
+          "pinyin": "zhù shè",
+          "numeric": "zhu4 she4",
+          "wadegiles": "chu⁴ she⁴",
+          "bopomofo": "ㄓㄨˋ ㄕㄜˋ",
+          "romatzyh": "juh sheh"
+        },
+        "meanings": [
+          "injection",
+          "to inject"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "注视",
+    "radical": "氵",
+    "frequency": 7687,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "注視",
+        "transcriptions": {
+          "pinyin": "zhù shì",
+          "numeric": "zhu4 shi4",
+          "wadegiles": "chu⁴ shih⁴",
+          "bopomofo": "ㄓㄨˋ ㄕˋ",
+          "romatzyh": "juh shyh"
+        },
+        "meanings": [
+          "to look attentively at; to closely watch; to gaze at"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "注意",
+    "radical": "氵",
+    "frequency": 547,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "注意",
+        "transcriptions": {
+          "pinyin": "zhù yì",
+          "numeric": "zhu4 yi4",
+          "wadegiles": "chu⁴ i⁴",
+          "bopomofo": "ㄓㄨˋ ㄧˋ",
+          "romatzyh": "juh yih"
+        },
+        "meanings": [
+          "to take note of; to pay attention to"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "注重",
+    "radical": "氵",
+    "frequency": 6231,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "注重",
+        "transcriptions": {
+          "pinyin": "zhù zhòng",
+          "numeric": "zhu4 zhong4",
+          "wadegiles": "chu⁴ chung⁴",
+          "bopomofo": "ㄓㄨˋ ㄓㄨㄥˋ",
+          "romatzyh": "juh jonq"
+        },
+        "meanings": [
+          "to pay attention to",
+          "to emphasize"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "祝",
+    "radical": "礻",
+    "frequency": 1197,
+    "pos": [
+      "v",
+      "nr"
+    ],
+    "forms": [
+      {
+        "traditional": "祝",
+        "transcriptions": {
+          "pinyin": "Zhù",
+          "numeric": "Zhu4",
+          "wadegiles": "chu⁴",
+          "bopomofo": "ㄓㄨˋ",
+          "romatzyh": "juh"
+        },
+        "meanings": [
+          "surname Zhu"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "祝",
+        "transcriptions": {
+          "pinyin": "zhù",
+          "numeric": "zhu4",
+          "wadegiles": "chu⁴",
+          "bopomofo": "ㄓㄨˋ",
+          "romatzyh": "juh"
+        },
+        "meanings": [
+          "to pray for",
+          "to wish (sb bon voyage, happy birthday etc)",
+          "person who invokes the spirits during sacrificial ceremonies"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "祝福",
+    "radical": "礻",
+    "frequency": 2756,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "祝福",
+        "transcriptions": {
+          "pinyin": "zhù fú",
+          "numeric": "zhu4 fu2",
+          "wadegiles": "chu⁴ fu²",
+          "bopomofo": "ㄓㄨˋ ㄈㄨˊ",
+          "romatzyh": "juh fwu"
+        },
+        "meanings": [
+          "blessings",
+          "to wish sb well"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "祝贺",
+    "radical": "礻",
+    "frequency": 3501,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "祝賀",
+        "transcriptions": {
+          "pinyin": "zhù hè",
+          "numeric": "zhu4 he4",
+          "wadegiles": "chu⁴ ho⁴",
+          "bopomofo": "ㄓㄨˋ ㄏㄜˋ",
+          "romatzyh": "juh heh"
+        },
+        "meanings": [
+          "to congratulate",
+          "congratulations"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "抓",
+    "radical": "扌",
+    "frequency": 797,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "抓",
+        "transcriptions": {
+          "pinyin": "zhuā",
+          "numeric": "zhua1",
+          "wadegiles": "chua¹",
+          "bopomofo": "ㄓㄨㄚ",
+          "romatzyh": "jua"
+        },
+        "meanings": [
+          "to grab",
+          "to catch",
+          "to arrest",
+          "to snatch",
+          "to scratch"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "抓紧",
+    "radical": "扌",
+    "frequency": 3896,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "抓緊",
+        "transcriptions": {
+          "pinyin": "zhuā jǐn",
+          "numeric": "zhua1 jin3",
+          "wadegiles": "chua¹ chin³",
+          "bopomofo": "ㄓㄨㄚ ㄐㄧㄣˇ",
+          "romatzyh": "jua jiin"
+        },
+        "meanings": [
+          "to keep a firm grip on",
+          "to pay close attention to",
+          "to lose no time in (doing sth)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "抓住",
+    "radical": "扌",
+    "frequency": 1500,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "抓住",
+        "transcriptions": {
+          "pinyin": "zhuā zhù",
+          "numeric": "zhua1 zhu4",
+          "wadegiles": "chua¹ chu⁴",
+          "bopomofo": "ㄓㄨㄚ ㄓㄨˋ",
+          "romatzyh": "jua juh"
+        },
+        "meanings": [
+          "to grab hold of; to capture"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "专辑",
+    "radical": "一",
+    "frequency": 3299,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "專輯",
+        "transcriptions": {
+          "pinyin": "zhuān jí",
+          "numeric": "zhuan1 ji2",
+          "wadegiles": "chuan¹ chi²",
+          "bopomofo": "ㄓㄨㄢ ㄐㄧˊ",
+          "romatzyh": "juan jyi"
+        },
+        "meanings": [
+          "album",
+          "record (music)",
+          "special collection of printed or broadcast material"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "专家",
+    "radical": "一",
+    "frequency": 1096,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "專家",
+        "transcriptions": {
+          "pinyin": "zhuān jiā",
+          "numeric": "zhuan1 jia1",
+          "wadegiles": "chuan¹ chia¹",
+          "bopomofo": "ㄓㄨㄢ ㄐㄧㄚ",
+          "romatzyh": "juan jia"
+        },
+        "meanings": [
+          "expert; specialist"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "专利",
+    "radical": "一",
+    "frequency": 6388,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "專利",
+        "transcriptions": {
+          "pinyin": "zhuān lì",
+          "numeric": "zhuan1 li4",
+          "wadegiles": "chuan¹ li⁴",
+          "bopomofo": "ㄓㄨㄢ ㄌㄧˋ",
+          "romatzyh": "juan lih"
+        },
+        "meanings": [
+          "patent",
+          "sth uniquely enjoyed (or possessed etc) by a certain group of people",
+          "monopoly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "专门",
+    "radical": "一",
+    "frequency": 2288,
+    "pos": [
+      "d",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "專門",
+        "transcriptions": {
+          "pinyin": "zhuān mén",
+          "numeric": "zhuan1 men2",
+          "wadegiles": "chuan¹ men²",
+          "bopomofo": "ㄓㄨㄢ ㄇㄣˊ",
+          "romatzyh": "juan men"
+        },
+        "meanings": [
+          "specialist",
+          "specialized",
+          "customized"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "专题",
+    "radical": "一",
+    "frequency": 10707,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "專題",
+        "transcriptions": {
+          "pinyin": "zhuān tí",
+          "numeric": "zhuan1 ti2",
+          "wadegiles": "chuan¹ t'i²",
+          "bopomofo": "ㄓㄨㄢ ㄊㄧˊ",
+          "romatzyh": "juan tyi"
+        },
+        "meanings": [
+          "specific topic (addressed by a book, lecture, TV program etc)",
+          "article, report or program etc on a specific topic"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "专心",
+    "radical": "一",
+    "frequency": 8032,
+    "pos": [
+      "ad",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "專心",
+        "transcriptions": {
+          "pinyin": "zhuān xīn",
+          "numeric": "zhuan1 xin1",
+          "wadegiles": "chuan¹ hsin¹",
+          "bopomofo": "ㄓㄨㄢ ㄒㄧㄣ",
+          "romatzyh": "juan shin"
+        },
+        "meanings": [
+          "to focus one's attention; to concentrate on (doing sth)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "专业",
+    "radical": "一",
+    "frequency": 1146,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "專業",
+        "transcriptions": {
+          "pinyin": "zhuān yè",
+          "numeric": "zhuan1 ye4",
+          "wadegiles": "chuan¹ yeh⁴",
+          "bopomofo": "ㄓㄨㄢ ㄧㄝˋ",
+          "romatzyh": "juan yeh"
+        },
+        "meanings": [
+          "specialty",
+          "specialized field",
+          "main field of study (at university)",
+          "major",
+          "professional"
+        ],
+        "classifiers": [
+          "门",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "转",
+    "radical": "车",
+    "frequency": 508,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "轉",
+        "transcriptions": {
+          "pinyin": "zhuǎi",
+          "numeric": "zhuai3",
+          "wadegiles": "chuai³",
+          "bopomofo": "ㄓㄨㄞˇ",
+          "romatzyh": "joai"
+        },
+        "meanings": [
+          "see 转文"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "轉",
+        "transcriptions": {
+          "pinyin": "zhuǎn",
+          "numeric": "zhuan3",
+          "wadegiles": "chuan³",
+          "bopomofo": "ㄓㄨㄢˇ",
+          "romatzyh": "joan"
+        },
+        "meanings": [
+          "to turn",
+          "to change direction",
+          "to transfer",
+          "to forward (mail)",
+          "(Internet) to share (sb else's content)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "轉",
+        "transcriptions": {
+          "pinyin": "zhuàn",
+          "numeric": "zhuan4",
+          "wadegiles": "chuan⁴",
+          "bopomofo": "ㄓㄨㄢˋ",
+          "romatzyh": "juann"
+        },
+        "meanings": [
+          "to revolve",
+          "to turn",
+          "to circle about",
+          "to walk about",
+          "classifier for revolutions (per minute etc): revs, rpm",
+          "classifier for repeated actions"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "转变",
+    "radical": "车",
+    "frequency": 3151,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "轉變",
+        "transcriptions": {
+          "pinyin": "zhuǎn biàn",
+          "numeric": "zhuan3 bian4",
+          "wadegiles": "chuan³ pien⁴",
+          "bopomofo": "ㄓㄨㄢˇ ㄅㄧㄢˋ",
+          "romatzyh": "joan biann"
+        },
+        "meanings": [
+          "to change",
+          "to transform",
+          "shift",
+          "transformation"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "转动",
+    "radical": "车",
+    "frequency": 8802,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "轉動",
+        "transcriptions": {
+          "pinyin": "zhuǎn dòng",
+          "numeric": "zhuan3 dong4",
+          "wadegiles": "chuan³ tung⁴",
+          "bopomofo": "ㄓㄨㄢˇ ㄉㄨㄥˋ",
+          "romatzyh": "joan donq"
+        },
+        "meanings": [
+          "to turn sth around",
+          "to swivel"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "轉動",
+        "transcriptions": {
+          "pinyin": "zhuàn dòng",
+          "numeric": "zhuan4 dong4",
+          "wadegiles": "chuan⁴ tung⁴",
+          "bopomofo": "ㄓㄨㄢˋ ㄉㄨㄥˋ",
+          "romatzyh": "juann donq"
+        },
+        "meanings": [
+          "to rotate (about an axis)",
+          "to revolve",
+          "to turn",
+          "to move in a circle",
+          "to gyrate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "转告",
+    "radical": "车",
+    "frequency": 12234,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "轉告",
+        "transcriptions": {
+          "pinyin": "zhuǎn gào",
+          "numeric": "zhuan3 gao4",
+          "wadegiles": "chuan³ kao⁴",
+          "bopomofo": "ㄓㄨㄢˇ ㄍㄠˋ",
+          "romatzyh": "joan gaw"
+        },
+        "meanings": [
+          "to pass on",
+          "to communicate",
+          "to transmit"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "转化",
+    "radical": "车",
+    "frequency": 7786,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "轉化",
+        "transcriptions": {
+          "pinyin": "zhuǎn huà",
+          "numeric": "zhuan3 hua4",
+          "wadegiles": "chuan³ hua⁴",
+          "bopomofo": "ㄓㄨㄢˇ ㄏㄨㄚˋ",
+          "romatzyh": "joan huah"
+        },
+        "meanings": [
+          "to change",
+          "to transform",
+          "isomerization (chemistry)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "转换",
+    "radical": "车",
+    "frequency": 4951,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "轉換",
+        "transcriptions": {
+          "pinyin": "zhuǎn huàn",
+          "numeric": "zhuan3 huan4",
+          "wadegiles": "chuan³ huan⁴",
+          "bopomofo": "ㄓㄨㄢˇ ㄏㄨㄢˋ",
+          "romatzyh": "joan huann"
+        },
+        "meanings": [
+          "to change",
+          "to switch",
+          "to convert",
+          "to transform"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "转让",
+    "radical": "车",
+    "frequency": 10032,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "轉讓",
+        "transcriptions": {
+          "pinyin": "zhuǎn ràng",
+          "numeric": "zhuan3 rang4",
+          "wadegiles": "chuan³ jang⁴",
+          "bopomofo": "ㄓㄨㄢˇ ㄖㄤˋ",
+          "romatzyh": "joan ranq"
+        },
+        "meanings": [
+          "to transfer (ownership, rights etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "转身",
+    "radical": "车",
+    "frequency": 3933,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "轉身",
+        "transcriptions": {
+          "pinyin": "zhuǎn shēn",
+          "numeric": "zhuan3 shen1",
+          "wadegiles": "chuan³ shen¹",
+          "bopomofo": "ㄓㄨㄢˇ ㄕㄣ",
+          "romatzyh": "joan shen"
+        },
+        "meanings": [
+          "(of a person) to turn round",
+          "to face about",
+          "(of a widow) to remarry (archaic)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "转弯",
+    "radical": "车",
+    "frequency": 10633,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "轉彎",
+        "transcriptions": {
+          "pinyin": "zhuǎn wān",
+          "numeric": "zhuan3 wan1",
+          "wadegiles": "chuan³ wan¹",
+          "bopomofo": "ㄓㄨㄢˇ ㄨㄢ",
+          "romatzyh": "joan uan"
+        },
+        "meanings": [
+          "to turn",
+          "to go around a corner"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "转向",
+    "radical": "车",
+    "frequency": 5484,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "轉向",
+        "transcriptions": {
+          "pinyin": "zhuǎn xiàng",
+          "numeric": "zhuan3 xiang4",
+          "wadegiles": "chuan³ hsiang⁴",
+          "bopomofo": "ㄓㄨㄢˇ ㄒㄧㄤˋ",
+          "romatzyh": "joan shianq"
+        },
+        "meanings": [
+          "to change direction",
+          "fig. to change one's stance"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "轉向",
+        "transcriptions": {
+          "pinyin": "zhuàn xiàng",
+          "numeric": "zhuan4 xiang4",
+          "wadegiles": "chuan⁴ hsiang⁴",
+          "bopomofo": "ㄓㄨㄢˋ ㄒㄧㄤˋ",
+          "romatzyh": "juann shianq"
+        },
+        "meanings": [
+          "to get lost",
+          "to lose one's way"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "转移",
+    "radical": "车",
+    "frequency": 2080,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "轉移",
+        "transcriptions": {
+          "pinyin": "zhuǎn yí",
+          "numeric": "zhuan3 yi2",
+          "wadegiles": "chuan³ i²",
+          "bopomofo": "ㄓㄨㄢˇ ㄧˊ",
+          "romatzyh": "joan yi"
+        },
+        "meanings": [
+          "to shift; to relocate; to transfer",
+          "(fig.) to shift (attention); to change (the subject etc)",
+          "(medicine) to metastasize"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "装",
+    "radical": "衣",
+    "frequency": 741,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "裝",
+        "transcriptions": {
+          "pinyin": "zhuāng",
+          "numeric": "zhuang1",
+          "wadegiles": "chuang¹",
+          "bopomofo": "ㄓㄨㄤ",
+          "romatzyh": "juang"
+        },
+        "meanings": [
+          "adornment",
+          "to adorn",
+          "dress",
+          "clothing",
+          "costume (of an actor in a play)",
+          "to play a role",
+          "to pretend",
+          "to install",
+          "to fix",
+          "to wrap (sth in a bag)",
+          "to load",
+          "to pack"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "装饰",
+    "radical": "衣",
+    "frequency": 3810,
+    "pos": [
+      "n",
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "裝飾",
+        "transcriptions": {
+          "pinyin": "zhuāng shì",
+          "numeric": "zhuang1 shi4",
+          "wadegiles": "chuang¹ shih⁴",
+          "bopomofo": "ㄓㄨㄤ ㄕˋ",
+          "romatzyh": "juang shyh"
+        },
+        "meanings": [
+          "to decorate",
+          "decoration",
+          "decorative",
+          "ornamental"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "装修",
+    "radical": "衣",
+    "frequency": 4138,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "裝修",
+        "transcriptions": {
+          "pinyin": "zhuāng xiū",
+          "numeric": "zhuang1 xiu1",
+          "wadegiles": "chuang¹ hsiu¹",
+          "bopomofo": "ㄓㄨㄤ ㄒㄧㄡ",
+          "romatzyh": "juang shiou"
+        },
+        "meanings": [
+          "to decorate",
+          "interior decoration",
+          "to fit up",
+          "to renovate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "装置",
+    "radical": "衣",
+    "frequency": 2991,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "裝置",
+        "transcriptions": {
+          "pinyin": "zhuāng zhì",
+          "numeric": "zhuang1 zhi4",
+          "wadegiles": "chuang¹ chih⁴",
+          "bopomofo": "ㄓㄨㄤ ㄓˋ",
+          "romatzyh": "juang jyh"
+        },
+        "meanings": [
+          "to install",
+          "installation",
+          "equipment",
+          "system",
+          "unit",
+          "device"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "状况",
+    "radical": "犬",
+    "frequency": 1372,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "狀況",
+        "transcriptions": {
+          "pinyin": "zhuàng kuàng",
+          "numeric": "zhuang4 kuang4",
+          "wadegiles": "chuang⁴ k'uang⁴",
+          "bopomofo": "ㄓㄨㄤˋ ㄎㄨㄤˋ",
+          "romatzyh": "juanq kuanq"
+        },
+        "meanings": [
+          "condition; state; situation"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "状态",
+    "radical": "犬",
+    "frequency": 1158,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "狀態",
+        "transcriptions": {
+          "pinyin": "zhuàng tài",
+          "numeric": "zhuang4 tai4",
+          "wadegiles": "chuang⁴ t'ai⁴",
+          "bopomofo": "ㄓㄨㄤˋ ㄊㄞˋ",
+          "romatzyh": "juanq tay"
+        },
+        "meanings": [
+          "condition; state; state of affairs"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "撞",
+    "radical": "扌",
+    "frequency": 2075,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "撞",
+        "transcriptions": {
+          "pinyin": "zhuàng",
+          "numeric": "zhuang4",
+          "wadegiles": "chuang⁴",
+          "bopomofo": "ㄓㄨㄤˋ",
+          "romatzyh": "juanq"
+        },
+        "meanings": [
+          "to knock against",
+          "to bump into",
+          "to run into",
+          "to meet by accident"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "追",
+    "radical": "辶",
+    "frequency": 1265,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "追",
+        "transcriptions": {
+          "pinyin": "duī",
+          "numeric": "dui1",
+          "wadegiles": "tui¹",
+          "bopomofo": "ㄉㄨㄟ",
+          "romatzyh": "duei"
+        },
+        "meanings": [
+          "to sculpt",
+          "to carve",
+          "musical instrument (old)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "追",
+        "transcriptions": {
+          "pinyin": "zhuī",
+          "numeric": "zhui1",
+          "wadegiles": "chui¹",
+          "bopomofo": "ㄓㄨㄟ",
+          "romatzyh": "juei"
+        },
+        "meanings": [
+          "to chase",
+          "to pursue",
+          "to look into",
+          "to investigate",
+          "to reminisce",
+          "to recall",
+          "to court (one's beloved)",
+          "to binge-watch (a TV drama)",
+          "retroactively",
+          "posthumously"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "追求",
+    "radical": "辶",
+    "frequency": 2302,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "追求",
+        "transcriptions": {
+          "pinyin": "zhuī qiú",
+          "numeric": "zhui1 qiu2",
+          "wadegiles": "chui¹ ch'iu²",
+          "bopomofo": "ㄓㄨㄟ ㄑㄧㄡˊ",
+          "romatzyh": "juei chyou"
+        },
+        "meanings": [
+          "to pursue (a goal etc) stubbornly",
+          "to seek after",
+          "to woo"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "准",
+    "radical": "冫",
+    "frequency": 1396,
+    "pos": [
+      "a",
+      "d",
+      "h",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "准",
+        "transcriptions": {
+          "pinyin": "zhǔn",
+          "numeric": "zhun3",
+          "wadegiles": "chun³",
+          "bopomofo": "ㄓㄨㄣˇ",
+          "romatzyh": "joen"
+        },
+        "meanings": [
+          "to allow",
+          "to grant",
+          "in accordance with",
+          "in the light of"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "準",
+        "transcriptions": {
+          "pinyin": "zhǔn",
+          "numeric": "zhun3",
+          "wadegiles": "chun³",
+          "bopomofo": "ㄓㄨㄣˇ",
+          "romatzyh": "joen"
+        },
+        "meanings": [
+          "accurate",
+          "standard",
+          "definitely",
+          "certainly",
+          "about to become (bride, son-in-law etc)",
+          "quasi-",
+          "para-"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "准备",
+    "radical": "冫",
+    "frequency": 333,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "準備",
+        "transcriptions": {
+          "pinyin": "zhǔn bèi",
+          "numeric": "zhun3 bei4",
+          "wadegiles": "chun³ pei⁴",
+          "bopomofo": "ㄓㄨㄣˇ ㄅㄟˋ",
+          "romatzyh": "joen bey"
+        },
+        "meanings": [
+          "preparation",
+          "to prepare",
+          "to intend",
+          "to be about to",
+          "reserve (fund)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "准确",
+    "radical": "冫",
+    "frequency": 2864,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "準確",
+        "transcriptions": {
+          "pinyin": "zhǔn què",
+          "numeric": "zhun3 que4",
+          "wadegiles": "chun³ ch'üeh⁴",
+          "bopomofo": "ㄓㄨㄣˇ ㄑㄩㄝˋ",
+          "romatzyh": "joen chiueh"
+        },
+        "meanings": [
+          "accurate; exact; precise"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "准时",
+    "radical": "冫",
+    "frequency": 6248,
+    "pos": [
+      "ad",
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "準時",
+        "transcriptions": {
+          "pinyin": "zhǔn shí",
+          "numeric": "zhun3 shi2",
+          "wadegiles": "chun³ shih²",
+          "bopomofo": "ㄓㄨㄣˇ ㄕˊ",
+          "romatzyh": "joen shyr"
+        },
+        "meanings": [
+          "on time",
+          "punctual",
+          "on schedule"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "桌子",
+    "radical": "木",
+    "frequency": 3639,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "桌子",
+        "transcriptions": {
+          "pinyin": "zhuō zi",
+          "numeric": "zhuo1 zi5",
+          "wadegiles": "cho¹ zi",
+          "bopomofo": "ㄓㄨㄛ zi",
+          "romatzyh": "juo zi"
+        },
+        "meanings": [
+          "table",
+          "desk"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "桌子",
+    "radical": "木",
+    "frequency": 3639,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "桌子",
+        "transcriptions": {
+          "pinyin": "zhuō zi",
+          "numeric": "zhuo1 zi5",
+          "wadegiles": "cho¹ zi",
+          "bopomofo": "ㄓㄨㄛ zi",
+          "romatzyh": "juo zi"
+        },
+        "meanings": [
+          "table",
+          "desk"
+        ],
+        "classifiers": [
+          "张",
+          "套"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "资本",
+    "radical": "贝",
+    "frequency": 6830,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "資本",
+        "transcriptions": {
+          "pinyin": "zī běn",
+          "numeric": "zi1 ben3",
+          "wadegiles": "tzu¹ pen³",
+          "bopomofo": "ㄗ ㄅㄣˇ",
+          "romatzyh": "tzy been"
+        },
+        "meanings": [
+          "capital (economics)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "资产",
+    "radical": "贝",
+    "frequency": 3495,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "資產",
+        "transcriptions": {
+          "pinyin": "zī chǎn",
+          "numeric": "zi1 chan3",
+          "wadegiles": "tzu¹ ch'an³",
+          "bopomofo": "ㄗ ㄔㄢˇ",
+          "romatzyh": "tzy chaan"
+        },
+        "meanings": [
+          "property",
+          "assets"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "资格",
+    "radical": "贝",
+    "frequency": 2290,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "資格",
+        "transcriptions": {
+          "pinyin": "zī gé",
+          "numeric": "zi1 ge2",
+          "wadegiles": "tzu¹ ko²",
+          "bopomofo": "ㄗ ㄍㄜˊ",
+          "romatzyh": "tzy ger"
+        },
+        "meanings": [
+          "qualifications",
+          "seniority"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "资金",
+    "radical": "贝",
+    "frequency": 1851,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "資金",
+        "transcriptions": {
+          "pinyin": "zī jīn",
+          "numeric": "zi1 jin1",
+          "wadegiles": "tzu¹ chin¹",
+          "bopomofo": "ㄗ ㄐㄧㄣ",
+          "romatzyh": "tzy jin"
+        },
+        "meanings": [
+          "funds; capital"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "资料",
+    "radical": "贝",
+    "frequency": 1130,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "資料",
+        "transcriptions": {
+          "pinyin": "zī liào",
+          "numeric": "zi1 liao4",
+          "wadegiles": "tzu¹ liao⁴",
+          "bopomofo": "ㄗ ㄌㄧㄠˋ",
+          "romatzyh": "tzy liaw"
+        },
+        "meanings": [
+          "material",
+          "resources",
+          "data",
+          "information",
+          "profile (Internet)"
+        ],
+        "classifiers": [
+          "份",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "资源",
+    "radical": "贝",
+    "frequency": 2319,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "資源",
+        "transcriptions": {
+          "pinyin": "Zī yuán",
+          "numeric": "Zi1 yuan2",
+          "wadegiles": "tzu¹ yüan²",
+          "bopomofo": "ㄗ ㄩㄢˊ",
+          "romatzyh": "tzy yuan"
+        },
+        "meanings": [
+          "Ziyuan county in Guilin 林, Guangxi"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "資源",
+        "transcriptions": {
+          "pinyin": "zī yuán",
+          "numeric": "zi1 yuan2",
+          "wadegiles": "tzu¹ yüan²",
+          "bopomofo": "ㄗ ㄩㄢˊ",
+          "romatzyh": "tzy yuan"
+        },
+        "meanings": [
+          "natural resource (such as water or minerals)",
+          "resource (such as manpower or tourism)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "资助",
+    "radical": "贝",
+    "frequency": 5290,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "資助",
+        "transcriptions": {
+          "pinyin": "zī zhù",
+          "numeric": "zi1 zhu4",
+          "wadegiles": "tzu¹ chu⁴",
+          "bopomofo": "ㄗ ㄓㄨˋ",
+          "romatzyh": "tzy juh"
+        },
+        "meanings": [
+          "to subsidize",
+          "to provide financial aid",
+          "subsidy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "仔细",
+    "radical": "亻",
+    "frequency": 2274,
+    "pos": [
+      "ad",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "仔細",
+        "transcriptions": {
+          "pinyin": "zǐ xì",
+          "numeric": "zi3 xi4",
+          "wadegiles": "tzu³ hsi⁴",
+          "bopomofo": "ㄗˇ ㄒㄧˋ",
+          "romatzyh": "tzyy shih"
+        },
+        "meanings": [
+          "careful; attentive; cautious",
+          "to be careful; to look out"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "紫",
+    "radical": "糸",
+    "frequency": 6061,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "紫",
+        "transcriptions": {
+          "pinyin": "zǐ",
+          "numeric": "zi3",
+          "wadegiles": "tzu³",
+          "bopomofo": "ㄗˇ",
+          "romatzyh": "tzyy"
+        },
+        "meanings": [
+          "purple",
+          "violet"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "字",
+    "radical": "子",
+    "frequency": 913,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "字",
+        "transcriptions": {
+          "pinyin": "zì",
+          "numeric": "zi4",
+          "wadegiles": "tzu⁴",
+          "bopomofo": "ㄗˋ",
+          "romatzyh": "tzyh"
+        },
+        "meanings": [
+          "letter",
+          "symbol",
+          "character",
+          "word",
+          "courtesy or style name traditionally given to males aged 20 in dynastic China"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "字典",
+    "radical": "子",
+    "frequency": 13961,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "字典",
+        "transcriptions": {
+          "pinyin": "zì diǎn",
+          "numeric": "zi4 dian3",
+          "wadegiles": "tzu⁴ tien³",
+          "bopomofo": "ㄗˋ ㄉㄧㄢˇ",
+          "romatzyh": "tzyh dean"
+        },
+        "meanings": [
+          "Chinese character dictionary (containing entries for single characters, contrasted with a 词典, which has entries for words of one or more characters)",
+          "(coll.) dictionary"
+        ],
+        "classifiers": [
+          "本"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "字母",
+    "radical": "子",
+    "frequency": 6456,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "字母",
+        "transcriptions": {
+          "pinyin": "zì mǔ",
+          "numeric": "zi4 mu3",
+          "wadegiles": "tzu⁴ mu³",
+          "bopomofo": "ㄗˋ ㄇㄨˇ",
+          "romatzyh": "tzyh muu"
+        },
+        "meanings": [
+          "letter (of the alphabet)"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "自",
+    "radical": "自",
+    "frequency": 566,
+    "pos": [
+      "p",
+      "r",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "自",
+        "transcriptions": {
+          "pinyin": "zì",
+          "numeric": "zi4",
+          "wadegiles": "tzu⁴",
+          "bopomofo": "ㄗˋ",
+          "romatzyh": "tzyh"
+        },
+        "meanings": [
+          "self",
+          "oneself",
+          "from",
+          "since",
+          "naturally",
+          "surely"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "自从",
+    "radical": "自",
+    "frequency": 2256,
+    "pos": [
+      "p"
+    ],
+    "forms": [
+      {
+        "traditional": "自從",
+        "transcriptions": {
+          "pinyin": "zì cóng",
+          "numeric": "zi4 cong2",
+          "wadegiles": "tzu⁴ ts'ung²",
+          "bopomofo": "ㄗˋ ㄘㄨㄥˊ",
+          "romatzyh": "tzyh tsorng"
+        },
+        "meanings": [
+          "since (a time)",
+          "ever since"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "自动",
+    "radical": "自",
+    "frequency": 2365,
+    "pos": [
+      "d",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "自動",
+        "transcriptions": {
+          "pinyin": "zì dòng",
+          "numeric": "zi4 dong4",
+          "wadegiles": "tzu⁴ tung⁴",
+          "bopomofo": "ㄗˋ ㄉㄨㄥˋ",
+          "romatzyh": "tzyh donq"
+        },
+        "meanings": [
+          "automatic",
+          "voluntarily"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "自豪",
+    "radical": "自",
+    "frequency": 4682,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "自豪",
+        "transcriptions": {
+          "pinyin": "zì háo",
+          "numeric": "zi4 hao2",
+          "wadegiles": "tzu⁴ hao²",
+          "bopomofo": "ㄗˋ ㄏㄠˊ",
+          "romatzyh": "tzyh haur"
+        },
+        "meanings": [
+          "proud (of one's achievements etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "自己",
+    "radical": "自",
+    "frequency": 56,
+    "pos": [
+      "r",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "自己",
+        "transcriptions": {
+          "pinyin": "zì jǐ",
+          "numeric": "zi4 ji3",
+          "wadegiles": "tzu⁴ chi³",
+          "bopomofo": "ㄗˋ ㄐㄧˇ",
+          "romatzyh": "tzyh jii"
+        },
+        "meanings": [
+          "oneself",
+          "one's own"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "自觉",
+    "radical": "自",
+    "frequency": 7977,
+    "pos": [
+      "a",
+      "ad",
+      "v",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "自覺",
+        "transcriptions": {
+          "pinyin": "zì jué",
+          "numeric": "zi4 jue2",
+          "wadegiles": "tzu⁴ chüeh²",
+          "bopomofo": "ㄗˋ ㄐㄩㄝˊ",
+          "romatzyh": "tzyh jyue"
+        },
+        "meanings": [
+          "conscious",
+          "aware",
+          "on one's own initiative",
+          "conscientious"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "自然",
+    "radical": "自",
+    "frequency": 929,
+    "pos": [
+      "n",
+      "d",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "自然",
+        "transcriptions": {
+          "pinyin": "zì rán",
+          "numeric": "zi4 ran2",
+          "wadegiles": "tzu⁴ jan²",
+          "bopomofo": "ㄗˋ ㄖㄢˊ",
+          "romatzyh": "tzyh ran"
+        },
+        "meanings": [
+          "nature",
+          "natural",
+          "naturally"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "自杀",
+    "radical": "自",
+    "frequency": 2864,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "自殺",
+        "transcriptions": {
+          "pinyin": "zì shā",
+          "numeric": "zi4 sha1",
+          "wadegiles": "tzu⁴ sha¹",
+          "bopomofo": "ㄗˋ ㄕㄚ",
+          "romatzyh": "tzyh sha"
+        },
+        "meanings": [
+          "to kill oneself",
+          "to commit suicide",
+          "to attempt suicide"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "自身",
+    "radical": "自",
+    "frequency": 3490,
+    "pos": [
+      "r"
+    ],
+    "forms": [
+      {
+        "traditional": "自身",
+        "transcriptions": {
+          "pinyin": "zì shēn",
+          "numeric": "zi4 shen1",
+          "wadegiles": "tzu⁴ shen¹",
+          "bopomofo": "ㄗˋ ㄕㄣ",
+          "romatzyh": "tzyh shen"
+        },
+        "meanings": [
+          "itself",
+          "oneself",
+          "one's own"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "自信",
+    "radical": "自",
+    "frequency": 2610,
+    "pos": [
+      "v",
+      "an",
+      "a",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "自信",
+        "transcriptions": {
+          "pinyin": "zì xìn",
+          "numeric": "zi4 xin4",
+          "wadegiles": "tzu⁴ hsin⁴",
+          "bopomofo": "ㄗˋ ㄒㄧㄣˋ",
+          "romatzyh": "tzyh shinn"
+        },
+        "meanings": [
+          "to have confidence in oneself",
+          "self-confidence"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "自行车",
+    "radical": "自",
+    "frequency": 3400,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "自行車",
+        "transcriptions": {
+          "pinyin": "zì xíng chē",
+          "numeric": "zi4 xing2 che1",
+          "wadegiles": "tzu⁴ hsing² ch'e¹",
+          "bopomofo": "ㄗˋ ㄒㄧㄥˊ ㄔㄜ",
+          "romatzyh": "tzyh shyng che"
+        },
+        "meanings": [
+          "bicycle; bike"
+        ],
+        "classifiers": [
+          "辆"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "自由",
+    "radical": "自",
+    "frequency": 1067,
+    "pos": [
+      "a",
+      "an",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "自由",
+        "transcriptions": {
+          "pinyin": "zì yóu",
+          "numeric": "zi4 you2",
+          "wadegiles": "tzu⁴ yu²",
+          "bopomofo": "ㄗˋ ㄧㄡˊ",
+          "romatzyh": "tzyh you"
+        },
+        "meanings": [
+          "freedom; liberty",
+          "free; unrestricted"
+        ],
+        "classifiers": [
+          "种"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "自愿",
+    "radical": "自",
+    "frequency": 4902,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "自願",
+        "transcriptions": {
+          "pinyin": "zì yuàn",
+          "numeric": "zi4 yuan4",
+          "wadegiles": "tzu⁴ yüan⁴",
+          "bopomofo": "ㄗˋ ㄩㄢˋ",
+          "romatzyh": "tzyh yuann"
+        },
+        "meanings": [
+          "voluntary"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "自主",
+    "radical": "自",
+    "frequency": 6858,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "自主",
+        "transcriptions": {
+          "pinyin": "zì zhǔ",
+          "numeric": "zi4 zhu3",
+          "wadegiles": "tzu⁴ chu³",
+          "bopomofo": "ㄗˋ ㄓㄨˇ",
+          "romatzyh": "tzyh juu"
+        },
+        "meanings": [
+          "independent",
+          "to act for oneself",
+          "autonomous"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "子",
+    "radical": "子",
+    "frequency": 627,
+    "pos": [
+      "g",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "子",
+        "transcriptions": {
+          "pinyin": "zǐ",
+          "numeric": "zi3",
+          "wadegiles": "tzu³",
+          "bopomofo": "ㄗˇ",
+          "romatzyh": "tzyy"
+        },
+        "meanings": [
+          "son",
+          "child",
+          "seed",
+          "egg",
+          "small thing",
+          "1st earthly branch: 11 p.m.-1 a.m., midnight, 11th solar month (7th December to 5th January), year of the Rat",
+          "Viscount, fourth of five orders of nobility 位",
+          "ancient Chinese compass point: 0° (north)",
+          "subsidiary",
+          "subordinate",
+          "sub-"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "子",
+        "transcriptions": {
+          "pinyin": "zi",
+          "numeric": "zi5",
+          "wadegiles": "zi",
+          "bopomofo": "zi",
+          "romatzyh": "zi"
+        },
+        "meanings": [
+          "(noun suffix)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "子",
+    "radical": "子",
+    "frequency": 627,
+    "pos": [
+      "g",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "子",
+        "transcriptions": {
+          "pinyin": "zǐ",
+          "numeric": "zi3",
+          "wadegiles": "tzu³",
+          "bopomofo": "ㄗˇ",
+          "romatzyh": "tzyy"
+        },
+        "meanings": [
+          "son",
+          "child",
+          "seed",
+          "egg",
+          "small thing",
+          "1st earthly branch: 11 p.m.-1 a.m., midnight, 11th solar month (7th December to 5th January), year of the Rat",
+          "Viscount, fourth of five orders of nobility 位",
+          "ancient Chinese compass point: 0° (north)",
+          "subsidiary",
+          "subordinate",
+          "sub-"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "子",
+        "transcriptions": {
+          "pinyin": "zi",
+          "numeric": "zi5",
+          "wadegiles": "zi",
+          "bopomofo": "zi",
+          "romatzyh": "zi"
+        },
+        "meanings": [
+          "(noun suffix)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "子弹",
+    "radical": "子",
+    "frequency": 4136,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "子彈",
+        "transcriptions": {
+          "pinyin": "zǐ dàn",
+          "numeric": "zi3 dan4",
+          "wadegiles": "tzu³ tan⁴",
+          "bopomofo": "ㄗˇ ㄉㄢˋ",
+          "romatzyh": "tzyy dann"
+        },
+        "meanings": [
+          "bullet"
+        ],
+        "classifiers": [
+          "粒",
+          "颗",
+          "发"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "子女",
+    "radical": "子",
+    "frequency": 7337,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "子女",
+        "transcriptions": {
+          "pinyin": "zǐ nu:3",
+          "numeric": "zi3 nü3",
+          "wadegiles": "tzu³ nu:3",
+          "bopomofo": "ㄗˇ nu:3",
+          "romatzyh": "tzyy nu:3"
+        },
+        "meanings": [
+          "children; sons and daughters"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "综合",
+    "radical": "纟",
+    "frequency": 4226,
+    "pos": [
+      "vn",
+      "v",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "綜合",
+        "transcriptions": {
+          "pinyin": "zōng hé",
+          "numeric": "zong1 he2",
+          "wadegiles": "tsung¹ ho²",
+          "bopomofo": "ㄗㄨㄥ ㄏㄜˊ",
+          "romatzyh": "tzong her"
+        },
+        "meanings": [
+          "comprehensive",
+          "composite",
+          "synthesized",
+          "mixed",
+          "to sum up",
+          "to integrate",
+          "to synthesize"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "总",
+    "radical": "心",
+    "frequency": 335,
+    "pos": [
+      "d",
+      "b",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "總",
+        "transcriptions": {
+          "pinyin": "zǒng",
+          "numeric": "zong3",
+          "wadegiles": "tsung³",
+          "bopomofo": "ㄗㄨㄥˇ",
+          "romatzyh": "tzoong"
+        },
+        "meanings": [
+          "general; overall",
+          "to sum up",
+          "in every case; always; invariably",
+          "anyway; after all; eventually; sooner or later",
+          "surely",
+          "(after a person's name) abbr. for 总经理 or 总编 etc"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

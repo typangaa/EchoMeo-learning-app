@@ -15,7 +15,7 @@ const HomePage = () => {
         <UserProfile />
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
           <h2 className="text-xl font-semibold mb-4">
             <span className="vietnamese-text">Từ vựng</span> - <span className="chinese-text">词汇</span>
@@ -26,6 +26,19 @@ const HomePage = () => {
             className="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors"
           >
             Browse Vocabulary
+          </Link>
+        </div>
+        
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+          <h2 className="text-xl font-semibold mb-4">
+            <span className="chinese-text">HSK 词汇</span> - <span className="vietnamese-text">Từ vựng HSK</span>
+          </h2>
+          <p className="mb-4">Study Chinese vocabulary from HSK levels 1-7 with translations, pinyin, and detailed information.</p>
+          <Link 
+            to="/hsk" 
+            className="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors"
+          >
+            HSK Vocabulary
           </Link>
         </div>
         

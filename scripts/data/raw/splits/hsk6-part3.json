@@ -1,0 +1,2249 @@
+[
+  {
+    "simplified": "被子",
+    "radical": "衤",
+    "frequency": 8179,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "被子",
+        "transcriptions": {
+          "pinyin": "bèi zi",
+          "numeric": "bei4 zi5",
+          "wadegiles": "pei⁴ zi",
+          "bopomofo": "ㄅㄟˋ zi",
+          "romatzyh": "bey zi"
+        },
+        "meanings": [
+          "quilt"
+        ],
+        "classifiers": [
+          "床"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "辈",
+    "radical": "非",
+    "frequency": 10523,
+    "pos": [
+      "n",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "輩",
+        "transcriptions": {
+          "pinyin": "bèi",
+          "numeric": "bei4",
+          "wadegiles": "pei⁴",
+          "bopomofo": "ㄅㄟˋ",
+          "romatzyh": "bey"
+        },
+        "meanings": [
+          "lifetime",
+          "generation",
+          "group of people",
+          "class",
+          "classifier for generations",
+          "(literary) classifier for people"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "奔跑",
+    "radical": "大",
+    "frequency": 9573,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "奔跑",
+        "transcriptions": {
+          "pinyin": "bēn pǎo",
+          "numeric": "ben1 pao3",
+          "wadegiles": "pen¹ p'ao³",
+          "bopomofo": "ㄅㄣ ㄆㄠˇ",
+          "romatzyh": "ben pao"
+        },
+        "meanings": [
+          "to run"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "本",
+    "radical": "木",
+    "frequency": 222,
+    "pos": [
+      "r",
+      "q",
+      "d",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "本",
+        "transcriptions": {
+          "pinyin": "běn",
+          "numeric": "ben3",
+          "wadegiles": "pen³",
+          "bopomofo": "ㄅㄣˇ",
+          "romatzyh": "been"
+        },
+        "meanings": [
+          "root",
+          "stem",
+          "origin",
+          "source",
+          "this",
+          "the current",
+          "original",
+          "inherent",
+          "originally",
+          "classifier for books, periodicals, files etc"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "本地",
+    "radical": "木",
+    "frequency": 3477,
+    "pos": [
+      "r"
+    ],
+    "forms": [
+      {
+        "traditional": "本地",
+        "transcriptions": {
+          "pinyin": "běn dì",
+          "numeric": "ben3 di4",
+          "wadegiles": "pen³ ti⁴",
+          "bopomofo": "ㄅㄣˇ ㄉㄧˋ",
+          "romatzyh": "been dih"
+        },
+        "meanings": [
+          "local",
+          "this locality"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "本科",
+    "radical": "木",
+    "frequency": 16998,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "本科",
+        "transcriptions": {
+          "pinyin": "běn kē",
+          "numeric": "ben3 ke1",
+          "wadegiles": "pen³ k'o¹",
+          "bopomofo": "ㄅㄣˇ ㄎㄜ",
+          "romatzyh": "been ke"
+        },
+        "meanings": [
+          "undergraduate course",
+          "undergraduate (attributive)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "本来",
+    "radical": "木",
+    "frequency": 1093,
+    "pos": [
+      "d",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "本來",
+        "transcriptions": {
+          "pinyin": "běn lái",
+          "numeric": "ben3 lai2",
+          "wadegiles": "pen³ lai²",
+          "bopomofo": "ㄅㄣˇ ㄌㄞˊ",
+          "romatzyh": "been lai"
+        },
+        "meanings": [
+          "original",
+          "originally",
+          "at first",
+          "it goes without saying",
+          "of course"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "本领",
+    "radical": "木",
+    "frequency": 10811,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "本領",
+        "transcriptions": {
+          "pinyin": "běn lǐng",
+          "numeric": "ben3 ling3",
+          "wadegiles": "pen³ ling³",
+          "bopomofo": "ㄅㄣˇ ㄌㄧㄥˇ",
+          "romatzyh": "been liing"
+        },
+        "meanings": [
+          "skill",
+          "ability",
+          "capability"
+        ],
+        "classifiers": [
+          "项",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "本期",
+    "radical": "木",
+    "frequency": 20997,
+    "pos": [
+      "r"
+    ],
+    "forms": [
+      {
+        "traditional": "本期",
+        "transcriptions": {
+          "pinyin": "běn qī",
+          "numeric": "ben3 qi1",
+          "wadegiles": "pen³ ch'i¹",
+          "bopomofo": "ㄅㄣˇ ㄑㄧ",
+          "romatzyh": "been chi"
+        },
+        "meanings": [
+          "the current period",
+          "this term (usually in finance)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "本人",
+    "radical": "木",
+    "frequency": 2656,
+    "pos": [
+      "r"
+    ],
+    "forms": [
+      {
+        "traditional": "本人",
+        "transcriptions": {
+          "pinyin": "běn rén",
+          "numeric": "ben3 ren2",
+          "wadegiles": "pen³ jen²",
+          "bopomofo": "ㄅㄣˇ ㄖㄣˊ",
+          "romatzyh": "been ren"
+        },
+        "meanings": [
+          "I; me; myself",
+          "oneself; yourself; himself; herself; the person concerned"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "本身",
+    "radical": "木",
+    "frequency": 2405,
+    "pos": [
+      "r"
+    ],
+    "forms": [
+      {
+        "traditional": "本身",
+        "transcriptions": {
+          "pinyin": "běn shēn",
+          "numeric": "ben3 shen1",
+          "wadegiles": "pen³ shen¹",
+          "bopomofo": "ㄅㄣˇ ㄕㄣ",
+          "romatzyh": "been shen"
+        },
+        "meanings": [
+          "itself",
+          "in itself",
+          "per se"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "本事",
+    "radical": "木",
+    "frequency": 5333,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "本事",
+        "transcriptions": {
+          "pinyin": "běn shì",
+          "numeric": "ben3 shi4",
+          "wadegiles": "pen³ shih⁴",
+          "bopomofo": "ㄅㄣˇ ㄕˋ",
+          "romatzyh": "been shyh"
+        },
+        "meanings": [
+          "source material",
+          "original story"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "本事",
+        "transcriptions": {
+          "pinyin": "běn shi",
+          "numeric": "ben3 shi5",
+          "wadegiles": "pen³ shi",
+          "bopomofo": "ㄅㄣˇ shi",
+          "romatzyh": "been shi"
+        },
+        "meanings": [
+          "ability",
+          "skill"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "本土",
+    "radical": "木",
+    "frequency": 7660,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "本土",
+        "transcriptions": {
+          "pinyin": "běn tǔ",
+          "numeric": "ben3 tu3",
+          "wadegiles": "pen³ t'u³",
+          "bopomofo": "ㄅㄣˇ ㄊㄨˇ",
+          "romatzyh": "been tuu"
+        },
+        "meanings": [
+          "one's native country",
+          "native",
+          "local",
+          "metropolitan territory"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "本质",
+    "radical": "木",
+    "frequency": 5084,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "本質",
+        "transcriptions": {
+          "pinyin": "běn zhì",
+          "numeric": "ben3 zhi4",
+          "wadegiles": "pen³ chih⁴",
+          "bopomofo": "ㄅㄣˇ ㄓˋ",
+          "romatzyh": "been jyh"
+        },
+        "meanings": [
+          "essence",
+          "nature",
+          "innate character",
+          "intrinsic quality"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "本子",
+    "radical": "木",
+    "frequency": 12849,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "本子",
+        "transcriptions": {
+          "pinyin": "běn zi",
+          "numeric": "ben3 zi5",
+          "wadegiles": "pen³ zi",
+          "bopomofo": "ㄅㄣˇ zi",
+          "romatzyh": "been zi"
+        },
+        "meanings": [
+          "book",
+          "notebook",
+          "Japanese-style self-published comic (esp. an erotic one), aka \"dōjinshi\"",
+          "edition"
+        ],
+        "classifiers": [
+          "本"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "笨",
+    "radical": "⺮",
+    "frequency": 3806,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "笨",
+        "transcriptions": {
+          "pinyin": "bèn",
+          "numeric": "ben4",
+          "wadegiles": "pen⁴",
+          "bopomofo": "ㄅㄣˋ",
+          "romatzyh": "benn"
+        },
+        "meanings": [
+          "stupid",
+          "foolish",
+          "silly",
+          "slow-witted",
+          "clumsy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "逼",
+    "radical": "辶",
+    "frequency": 1122,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "偪",
+        "transcriptions": {
+          "pinyin": "bī",
+          "numeric": "bi1",
+          "wadegiles": "pi¹",
+          "bopomofo": "ㄅㄧ",
+          "romatzyh": "bi"
+        },
+        "meanings": [
+          "variant of 逼",
+          "to compel",
+          "to pressure"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "逼",
+        "transcriptions": {
+          "pinyin": "bī",
+          "numeric": "bi1",
+          "wadegiles": "pi¹",
+          "bopomofo": "ㄅㄧ",
+          "romatzyh": "bi"
+        },
+        "meanings": [
+          "to force (sb to do sth)",
+          "to compel",
+          "to press for",
+          "to extort",
+          "to press on towards",
+          "to press up to",
+          "to close in on",
+          "euphemistic variant of 屄"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "鼻子",
+    "radical": "鼻",
+    "frequency": 3484,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "鼻子",
+        "transcriptions": {
+          "pinyin": "bí zi",
+          "numeric": "bi2 zi5",
+          "wadegiles": "pi² zi",
+          "bopomofo": "ㄅㄧˊ zi",
+          "romatzyh": "byi zi"
+        },
+        "meanings": [
+          "nose"
+        ],
+        "classifiers": [
+          "个",
+          "只"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "比",
+    "radical": "比",
+    "frequency": 155,
+    "pos": [
+      "p",
+      "v",
+      "n",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "比",
+        "transcriptions": {
+          "pinyin": "Bǐ",
+          "numeric": "Bi3",
+          "wadegiles": "pi³",
+          "bopomofo": "ㄅㄧˇ",
+          "romatzyh": "bii"
+        },
+        "meanings": [
+          "Belgium",
+          "Belgian",
+          "abbr. for 比利时"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "比",
+        "transcriptions": {
+          "pinyin": "bī",
+          "numeric": "bi1",
+          "wadegiles": "pi¹",
+          "bopomofo": "ㄅㄧ",
+          "romatzyh": "bi"
+        },
+        "meanings": [
+          "euphemistic variant of 屄"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "比",
+        "transcriptions": {
+          "pinyin": "bǐ",
+          "numeric": "bi3",
+          "wadegiles": "pi³",
+          "bopomofo": "ㄅㄧˇ",
+          "romatzyh": "bii"
+        },
+        "meanings": [
+          "to compare",
+          "(followed by a noun and adjective) more {adj.} than {noun}",
+          "ratio",
+          "to gesture",
+          "(Taiwan pr. [bì] in some compounds derived from Classical Chinese)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "比方",
+    "radical": "比",
+    "frequency": 11193,
+    "pos": [
+      "v",
+      "n",
+      "c"
+    ],
+    "forms": [
+      {
+        "traditional": "比方",
+        "transcriptions": {
+          "pinyin": "bǐ fang",
+          "numeric": "bi3 fang5",
+          "wadegiles": "pi³ fang",
+          "bopomofo": "ㄅㄧˇ fang",
+          "romatzyh": "bii fang"
+        },
+        "meanings": [
+          "analogy",
+          "instance",
+          "for instance"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "比分",
+    "radical": "比",
+    "frequency": 4795,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "比分",
+        "transcriptions": {
+          "pinyin": "bǐ fēn",
+          "numeric": "bi3 fen1",
+          "wadegiles": "pi³ fen¹",
+          "bopomofo": "ㄅㄧˇ ㄈㄣ",
+          "romatzyh": "bii fen"
+        },
+        "meanings": [
+          "score"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "比较",
+    "radical": "比",
+    "frequency": 607,
+    "pos": [
+      "d",
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "比較",
+        "transcriptions": {
+          "pinyin": "bǐ jiào",
+          "numeric": "bi3 jiao4",
+          "wadegiles": "pi³ chiao⁴",
+          "bopomofo": "ㄅㄧˇ ㄐㄧㄠˋ",
+          "romatzyh": "bii jiaw"
+        },
+        "meanings": [
+          "to compare",
+          "to contrast",
+          "comparatively",
+          "relatively",
+          "quite",
+          "comparison"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "比例",
+    "radical": "比",
+    "frequency": 4723,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "比例",
+        "transcriptions": {
+          "pinyin": "bǐ lì",
+          "numeric": "bi3 li4",
+          "wadegiles": "pi³ li⁴",
+          "bopomofo": "ㄅㄧˇ ㄌㄧˋ",
+          "romatzyh": "bii lih"
+        },
+        "meanings": [
+          "proportion",
+          "scale"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "比如",
+    "radical": "比",
+    "frequency": 1051,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "比如",
+        "transcriptions": {
+          "pinyin": "bǐ rú",
+          "numeric": "bi3 ru2",
+          "wadegiles": "pi³ ju²",
+          "bopomofo": "ㄅㄧˇ ㄖㄨˊ",
+          "romatzyh": "bii ru"
+        },
+        "meanings": [
+          "for example",
+          "for instance",
+          "such as"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "比如说",
+    "radical": "比",
+    "frequency": 2785,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "比如說",
+        "transcriptions": {
+          "pinyin": "bǐ rú shuō",
+          "numeric": "bi3 ru2 shuo1",
+          "wadegiles": "pi³ ju² shuo¹",
+          "bopomofo": "ㄅㄧˇ ㄖㄨˊ ㄕㄨㄛ",
+          "romatzyh": "bii ru shuo"
+        },
+        "meanings": [
+          "for example"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "比赛",
+    "radical": "比",
+    "frequency": 275,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "比賽",
+        "transcriptions": {
+          "pinyin": "bǐ sài",
+          "numeric": "bi3 sai4",
+          "wadegiles": "pi³ sai⁴",
+          "bopomofo": "ㄅㄧˇ ㄙㄞˋ",
+          "romatzyh": "bii say"
+        },
+        "meanings": [
+          "competition (sports etc)",
+          "match",
+          "to compete"
+        ],
+        "classifiers": [
+          "场",
+          "次"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "比重",
+    "radical": "比",
+    "frequency": 20691,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "比重",
+        "transcriptions": {
+          "pinyin": "bǐ zhòng",
+          "numeric": "bi3 zhong4",
+          "wadegiles": "pi³ chung⁴",
+          "bopomofo": "ㄅㄧˇ ㄓㄨㄥˋ",
+          "romatzyh": "bii jonq"
+        },
+        "meanings": [
+          "proportion",
+          "specific gravity"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "彼此",
+    "radical": "彳",
+    "frequency": 2165,
+    "pos": [
+      "r"
+    ],
+    "forms": [
+      {
+        "traditional": "彼此",
+        "transcriptions": {
+          "pinyin": "bǐ cǐ",
+          "numeric": "bi3 ci3",
+          "wadegiles": "pi³ tz'u³",
+          "bopomofo": "ㄅㄧˇ ㄘˇ",
+          "romatzyh": "bii tsyy"
+        },
+        "meanings": [
+          "each other; one another"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "笔",
+    "radical": "⺮",
+    "frequency": 1245,
+    "pos": [
+      "q",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "筆",
+        "transcriptions": {
+          "pinyin": "bǐ",
+          "numeric": "bi3",
+          "wadegiles": "pi³",
+          "bopomofo": "ㄅㄧˇ",
+          "romatzyh": "bii"
+        },
+        "meanings": [
+          "pen",
+          "pencil",
+          "writing brush",
+          "to write or compose",
+          "the strokes of Chinese characters",
+          "classifier for sums of money, deals"
+        ],
+        "classifiers": [
+          "支",
+          "枝"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "笔记",
+    "radical": "⺮",
+    "frequency": 7920,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "筆記",
+        "transcriptions": {
+          "pinyin": "bǐ jì",
+          "numeric": "bi3 ji4",
+          "wadegiles": "pi³ chi⁴",
+          "bopomofo": "ㄅㄧˇ ㄐㄧˋ",
+          "romatzyh": "bii jih"
+        },
+        "meanings": [
+          "to take down (in writing)",
+          "notes",
+          "a type of literature consisting mainly of short sketches"
+        ],
+        "classifiers": [
+          "本"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "笔记本",
+    "radical": "⺮",
+    "frequency": 3935,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "筆記本",
+        "transcriptions": {
+          "pinyin": "bǐ jì běn",
+          "numeric": "bi3 ji4 ben3",
+          "wadegiles": "pi³ chi⁴ pen³",
+          "bopomofo": "ㄅㄧˇ ㄐㄧˋ ㄅㄣˇ",
+          "romatzyh": "bii jih been"
+        },
+        "meanings": [
+          "notebook (stationery)",
+          "notebook (computing)"
+        ],
+        "classifiers": [
+          "本"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "笔试",
+    "radical": "⺮",
+    "frequency": 25608,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "筆試",
+        "transcriptions": {
+          "pinyin": "bǐ shì",
+          "numeric": "bi3 shi4",
+          "wadegiles": "pi³ shih⁴",
+          "bopomofo": "ㄅㄧˇ ㄕˋ",
+          "romatzyh": "bii shyh"
+        },
+        "meanings": [
+          "written examination",
+          "paper test (for an applicant)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "必",
+    "radical": "心",
+    "frequency": 2532,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "必",
+        "transcriptions": {
+          "pinyin": "bì",
+          "numeric": "bi4",
+          "wadegiles": "pi⁴",
+          "bopomofo": "ㄅㄧˋ",
+          "romatzyh": "bih"
+        },
+        "meanings": [
+          "certainly",
+          "must",
+          "will",
+          "necessarily"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "必将",
+    "radical": "心",
+    "frequency": 10072,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "必將",
+        "transcriptions": {
+          "pinyin": "bì jiāng",
+          "numeric": "bi4 jiang1",
+          "wadegiles": "pi⁴ chiang¹",
+          "bopomofo": "ㄅㄧˋ ㄐㄧㄤ",
+          "romatzyh": "bih jiang"
+        },
+        "meanings": [
+          "inevitably"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "必然",
+    "radical": "心",
+    "frequency": 5199,
+    "pos": [
+      "d",
+      "b",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "必然",
+        "transcriptions": {
+          "pinyin": "bì rán",
+          "numeric": "bi4 ran2",
+          "wadegiles": "pi⁴ jan²",
+          "bopomofo": "ㄅㄧˋ ㄖㄢˊ",
+          "romatzyh": "bih ran"
+        },
+        "meanings": [
+          "inevitable",
+          "certain",
+          "necessity"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "必修",
+    "radical": "心",
+    "frequency": 39363,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "必修",
+        "transcriptions": {
+          "pinyin": "bì xiū",
+          "numeric": "bi4 xiu1",
+          "wadegiles": "pi⁴ hsiu¹",
+          "bopomofo": "ㄅㄧˋ ㄒㄧㄡ",
+          "romatzyh": "bih shiou"
+        },
+        "meanings": [
+          "(of an academic course) required",
+          "compulsory"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "必须",
+    "radical": "心",
+    "frequency": 241,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "必須",
+        "transcriptions": {
+          "pinyin": "bì xū",
+          "numeric": "bi4 xu1",
+          "wadegiles": "pi⁴ hsü¹",
+          "bopomofo": "ㄅㄧˋ ㄒㄩ",
+          "romatzyh": "bih shiu"
+        },
+        "meanings": [
+          "to have to",
+          "must",
+          "compulsory",
+          "necessarily"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "必需",
+    "radical": "心",
+    "frequency": 7251,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "必需",
+        "transcriptions": {
+          "pinyin": "bì xū",
+          "numeric": "bi4 xu1",
+          "wadegiles": "pi⁴ hsü¹",
+          "bopomofo": "ㄅㄧˋ ㄒㄩ",
+          "romatzyh": "bih shiu"
+        },
+        "meanings": [
+          "to need",
+          "to require",
+          "essential",
+          "indispensable"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "必要",
+    "radical": "心",
+    "frequency": 1191,
+    "pos": [
+      "a",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "必要",
+        "transcriptions": {
+          "pinyin": "bì yào",
+          "numeric": "bi4 yao4",
+          "wadegiles": "pi⁴ yao⁴",
+          "bopomofo": "ㄅㄧˋ ㄧㄠˋ",
+          "romatzyh": "bih yaw"
+        },
+        "meanings": [
+          "necessary",
+          "essential",
+          "indispensable",
+          "required"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "毕竟",
+    "radical": "比",
+    "frequency": 2477,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "畢竟",
+        "transcriptions": {
+          "pinyin": "bì jìng",
+          "numeric": "bi4 jing4",
+          "wadegiles": "pi⁴ ching⁴",
+          "bopomofo": "ㄅㄧˋ ㄐㄧㄥˋ",
+          "romatzyh": "bih jinq"
+        },
+        "meanings": [
+          "after all",
+          "all in all",
+          "when all is said and done",
+          "in the final analysis"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "毕业",
+    "radical": "比",
+    "frequency": 1755,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "畢業",
+        "transcriptions": {
+          "pinyin": "bì yè",
+          "numeric": "bi4 ye4",
+          "wadegiles": "pi⁴ yeh⁴",
+          "bopomofo": "ㄅㄧˋ ㄧㄝˋ",
+          "romatzyh": "bih yeh"
+        },
+        "meanings": [
+          "graduation",
+          "to graduate",
+          "to finish school"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "毕业生",
+    "radical": "比",
+    "frequency": 6344,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "畢業生",
+        "transcriptions": {
+          "pinyin": "bì yè shēng",
+          "numeric": "bi4 ye4 sheng1",
+          "wadegiles": "pi⁴ yeh⁴ sheng¹",
+          "bopomofo": "ㄅㄧˋ ㄧㄝˋ ㄕㄥ",
+          "romatzyh": "bih yeh sheng"
+        },
+        "meanings": [
+          "graduate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "闭",
+    "radical": "门",
+    "frequency": 2503,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "閉",
+        "transcriptions": {
+          "pinyin": "bì",
+          "numeric": "bi4",
+          "wadegiles": "pi⁴",
+          "bopomofo": "ㄅㄧˋ",
+          "romatzyh": "bih"
+        },
+        "meanings": [
+          "to close",
+          "to stop up",
+          "to shut",
+          "to obstruct"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "闭幕",
+    "radical": "门",
+    "frequency": 26178,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "閉幕",
+        "transcriptions": {
+          "pinyin": "bì mù",
+          "numeric": "bi4 mu4",
+          "wadegiles": "pi⁴ mu⁴",
+          "bopomofo": "ㄅㄧˋ ㄇㄨˋ",
+          "romatzyh": "bih muh"
+        },
+        "meanings": [
+          "the curtain falls",
+          "lower the curtain",
+          "to come to an end (of a meeting)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "闭幕式",
+    "radical": "门",
+    "frequency": 34114,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "閉幕式",
+        "transcriptions": {
+          "pinyin": "bì mù shì",
+          "numeric": "bi4 mu4 shi4",
+          "wadegiles": "pi⁴ mu⁴ shih⁴",
+          "bopomofo": "ㄅㄧˋ ㄇㄨˋ ㄕˋ",
+          "romatzyh": "bih muh shyh"
+        },
+        "meanings": [
+          "closing ceremony"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "避",
+    "radical": "辶",
+    "frequency": 6063,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "避",
+        "transcriptions": {
+          "pinyin": "bì",
+          "numeric": "bi4",
+          "wadegiles": "pi⁴",
+          "bopomofo": "ㄅㄧˋ",
+          "romatzyh": "bih"
+        },
+        "meanings": [
+          "to avoid",
+          "to shun",
+          "to flee",
+          "to escape",
+          "to keep away from",
+          "to leave",
+          "to hide from"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "避免",
+    "radical": "辶",
+    "frequency": 2140,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "避免",
+        "transcriptions": {
+          "pinyin": "bì miǎn",
+          "numeric": "bi4 mian3",
+          "wadegiles": "pi⁴ mien³",
+          "bopomofo": "ㄅㄧˋ ㄇㄧㄢˇ",
+          "romatzyh": "bih mean"
+        },
+        "meanings": [
+          "to avert",
+          "to prevent",
+          "to avoid",
+          "to refrain from"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "边",
+    "radical": "辶",
+    "frequency": 803,
+    "pos": [
+      "k",
+      "d",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "邊",
+        "transcriptions": {
+          "pinyin": "biān",
+          "numeric": "bian1",
+          "wadegiles": "pien¹",
+          "bopomofo": "ㄅㄧㄢ",
+          "romatzyh": "bian"
+        },
+        "meanings": [
+          "side",
+          "edge",
+          "margin",
+          "border",
+          "boundary",
+          "simultaneously"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      },
+      {
+        "traditional": "邊",
+        "transcriptions": {
+          "pinyin": "bian",
+          "numeric": "bian5",
+          "wadegiles": "bian",
+          "bopomofo": "bian",
+          "romatzyh": "bian"
+        },
+        "meanings": [
+          "suffix of a noun of locality"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "边境",
+    "radical": "辶",
+    "frequency": 5914,
+    "pos": [
+      "s"
+    ],
+    "forms": [
+      {
+        "traditional": "邊境",
+        "transcriptions": {
+          "pinyin": "biān jìng",
+          "numeric": "bian1 jing4",
+          "wadegiles": "pien¹ ching⁴",
+          "bopomofo": "ㄅㄧㄢ ㄐㄧㄥˋ",
+          "romatzyh": "bian jinq"
+        },
+        "meanings": [
+          "frontier; border"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "边缘",
+    "radical": "辶",
+    "frequency": 4635,
+    "pos": [
+      "n",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "邊緣",
+        "transcriptions": {
+          "pinyin": "biān yuán",
+          "numeric": "bian1 yuan2",
+          "wadegiles": "pien¹ yüan²",
+          "bopomofo": "ㄅㄧㄢ ㄩㄢˊ",
+          "romatzyh": "bian yuan"
+        },
+        "meanings": [
+          "edge; fringe; verge; brink; periphery",
+          "marginal; borderline"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "编",
+    "radical": "纟",
+    "frequency": 1875,
+    "pos": [
+      "v",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "編",
+        "transcriptions": {
+          "pinyin": "biān",
+          "numeric": "bian1",
+          "wadegiles": "pien¹",
+          "bopomofo": "ㄅㄧㄢ",
+          "romatzyh": "bian"
+        },
+        "meanings": [
+          "to weave",
+          "to plait",
+          "to organize",
+          "to group",
+          "to arrange",
+          "to edit",
+          "to compile",
+          "to write",
+          "to compose",
+          "to fabricate",
+          "to make up"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "编辑",
+    "radical": "纟",
+    "frequency": 2447,
+    "pos": [
+      "n",
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "編輯",
+        "transcriptions": {
+          "pinyin": "biān jí",
+          "numeric": "bian1 ji2",
+          "wadegiles": "pien¹ chi²",
+          "bopomofo": "ㄅㄧㄢ ㄐㄧˊ",
+          "romatzyh": "bian jyi"
+        },
+        "meanings": [
+          "to edit",
+          "to compile",
+          "editor",
+          "compiler"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "编制",
+    "radical": "纟",
+    "frequency": 12038,
+    "pos": [
+      "n",
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "編制",
+        "transcriptions": {
+          "pinyin": "biān zhì",
+          "numeric": "bian1 zhi4",
+          "wadegiles": "pien¹ chih⁴",
+          "bopomofo": "ㄅㄧㄢ ㄓˋ",
+          "romatzyh": "bian jyh"
+        },
+        "meanings": [
+          "to establish (a unit or department)",
+          "staffing structure (excluding temporary and casual staff)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "編製",
+        "transcriptions": {
+          "pinyin": "biān zhì",
+          "numeric": "bian1 zhi4",
+          "wadegiles": "pien¹ chih⁴",
+          "bopomofo": "ㄅㄧㄢ ㄓˋ",
+          "romatzyh": "bian jyh"
+        },
+        "meanings": [
+          "to weave",
+          "to plait",
+          "to compile",
+          "to put together (a lesson plan, budget etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "扁",
+    "radical": "户",
+    "frequency": 5218,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "扁",
+        "transcriptions": {
+          "pinyin": "Piān",
+          "numeric": "Pian1",
+          "wadegiles": "p'ien¹",
+          "bopomofo": "ㄆㄧㄢ",
+          "romatzyh": "pian"
+        },
+        "meanings": [
+          "surname Pian"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "扁",
+        "transcriptions": {
+          "pinyin": "biǎn",
+          "numeric": "bian3",
+          "wadegiles": "pien³",
+          "bopomofo": "ㄅㄧㄢˇ",
+          "romatzyh": "bean"
+        },
+        "meanings": [
+          "flat",
+          "(coll.) to beat (sb) up",
+          "old variant of 匾"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "扁",
+        "transcriptions": {
+          "pinyin": "piān",
+          "numeric": "pian1",
+          "wadegiles": "p'ien¹",
+          "bopomofo": "ㄆㄧㄢ",
+          "romatzyh": "pian"
+        },
+        "meanings": [
+          "small boat"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "变",
+    "radical": "又",
+    "frequency": 501,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "變",
+        "transcriptions": {
+          "pinyin": "biàn",
+          "numeric": "bian4",
+          "wadegiles": "pien⁴",
+          "bopomofo": "ㄅㄧㄢˋ",
+          "romatzyh": "biann"
+        },
+        "meanings": [
+          "to change",
+          "to become different",
+          "to transform",
+          "to vary",
+          "rebellion"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "变成",
+    "radical": "又",
+    "frequency": 853,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "變成",
+        "transcriptions": {
+          "pinyin": "biàn chéng",
+          "numeric": "bian4 cheng2",
+          "wadegiles": "pien⁴ ch'eng²",
+          "bopomofo": "ㄅㄧㄢˋ ㄔㄥˊ",
+          "romatzyh": "biann cherng"
+        },
+        "meanings": [
+          "to change into",
+          "to turn into",
+          "to become"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "变动",
+    "radical": "又",
+    "frequency": 7124,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "變動",
+        "transcriptions": {
+          "pinyin": "biàn dòng",
+          "numeric": "bian4 dong4",
+          "wadegiles": "pien⁴ tung⁴",
+          "bopomofo": "ㄅㄧㄢˋ ㄉㄨㄥˋ",
+          "romatzyh": "biann donq"
+        },
+        "meanings": [
+          "to change",
+          "to fluctuate",
+          "change",
+          "fluctuation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "变更",
+    "radical": "又",
+    "frequency": 10372,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "變更",
+        "transcriptions": {
+          "pinyin": "biàn gēng",
+          "numeric": "bian4 geng1",
+          "wadegiles": "pien⁴ keng¹",
+          "bopomofo": "ㄅㄧㄢˋ ㄍㄥ",
+          "romatzyh": "biann geng"
+        },
+        "meanings": [
+          "to change",
+          "to alter",
+          "to modify"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "变化",
+    "radical": "又",
+    "frequency": 1262,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "變化",
+        "transcriptions": {
+          "pinyin": "biàn huà",
+          "numeric": "bian4 hua4",
+          "wadegiles": "pien⁴ hua⁴",
+          "bopomofo": "ㄅㄧㄢˋ ㄏㄨㄚˋ",
+          "romatzyh": "biann huah"
+        },
+        "meanings": [
+          "(intransitive) to change; to vary",
+          "change; variation"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "变换",
+    "radical": "又",
+    "frequency": 10769,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "變換",
+        "transcriptions": {
+          "pinyin": "biàn huàn",
+          "numeric": "bian4 huan4",
+          "wadegiles": "pien⁴ huan⁴",
+          "bopomofo": "ㄅㄧㄢˋ ㄏㄨㄢˋ",
+          "romatzyh": "biann huann"
+        },
+        "meanings": [
+          "to transform",
+          "to convert",
+          "to vary",
+          "to alternate",
+          "a transformation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "变为",
+    "radical": "又",
+    "frequency": 8495,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "變為",
+        "transcriptions": {
+          "pinyin": "biàn wéi",
+          "numeric": "bian4 wei2",
+          "wadegiles": "pien⁴ wei²",
+          "bopomofo": "ㄅㄧㄢˋ ㄨㄟˊ",
+          "romatzyh": "biann wei"
+        },
+        "meanings": [
+          "to change into"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "变形",
+    "radical": "又",
+    "frequency": 6036,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "變形",
+        "transcriptions": {
+          "pinyin": "biàn xíng",
+          "numeric": "bian4 xing2",
+          "wadegiles": "pien⁴ hsing²",
+          "bopomofo": "ㄅㄧㄢˋ ㄒㄧㄥˊ",
+          "romatzyh": "biann shyng"
+        },
+        "meanings": [
+          "to become deformed; to change shape; to morph"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "便",
+    "radical": "亻",
+    "frequency": 811,
+    "pos": [
+      "d",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "便",
+        "transcriptions": {
+          "pinyin": "biàn",
+          "numeric": "bian4",
+          "wadegiles": "pien⁴",
+          "bopomofo": "ㄅㄧㄢˋ",
+          "romatzyh": "biann"
+        },
+        "meanings": [
+          "plain",
+          "informal",
+          "suitable",
+          "convenient",
+          "opportune",
+          "to urinate or defecate",
+          "equivalent to 就: then",
+          "in that case",
+          "even if",
+          "soon afterwards"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "便",
+        "transcriptions": {
+          "pinyin": "pián",
+          "numeric": "pian2",
+          "wadegiles": "p'ien²",
+          "bopomofo": "ㄆㄧㄢˊ",
+          "romatzyh": "pyan"
+        },
+        "meanings": [
+          "used in 便宜",
+          "used in 便",
+          "used in 嬛"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "便利",
+    "radical": "亻",
+    "frequency": 5991,
+    "pos": [
+      "a",
+      "an",
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "便利",
+        "transcriptions": {
+          "pinyin": "biàn lì",
+          "numeric": "bian4 li4",
+          "wadegiles": "pien⁴ li⁴",
+          "bopomofo": "ㄅㄧㄢˋ ㄌㄧˋ",
+          "romatzyh": "biann lih"
+        },
+        "meanings": [
+          "convenient",
+          "easy",
+          "to facilitate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "便是",
+    "radical": "亻",
+    "frequency": 7899,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "便是",
+        "transcriptions": {
+          "pinyin": "biàn shì",
+          "numeric": "bian4 shi4",
+          "wadegiles": "pien⁴ shih⁴",
+          "bopomofo": "ㄅㄧㄢˋ ㄕˋ",
+          "romatzyh": "biann shyh"
+        },
+        "meanings": [
+          "(emphasizes that sth is precisely or exactly as stated)",
+          "precisely",
+          "exactly",
+          "even",
+          "if",
+          "just like",
+          "in the same way as"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "便条",
+    "radical": "亻",
+    "frequency": 33655,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "便條",
+        "transcriptions": {
+          "pinyin": "biàn tiáo",
+          "numeric": "bian4 tiao2",
+          "wadegiles": "pien⁴ t'iao²",
+          "bopomofo": "ㄅㄧㄢˋ ㄊㄧㄠˊ",
+          "romatzyh": "biann tyau"
+        },
+        "meanings": [
+          "(informal) note"
+        ],
+        "classifiers": [
+          "张",
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "便宜",
+    "radical": "亻",
+    "frequency": 2814,
+    "pos": [
+      "a",
+      "v",
+      "an"
+    ],
+    "forms": [
+      {
+        "traditional": "便宜",
+        "transcriptions": {
+          "pinyin": "biàn yí",
+          "numeric": "bian4 yi2",
+          "wadegiles": "pien⁴ i²",
+          "bopomofo": "ㄅㄧㄢˋ ㄧˊ",
+          "romatzyh": "biann yi"
+        },
+        "meanings": [
+          "convenient"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "便宜",
+        "transcriptions": {
+          "pinyin": "pián yi",
+          "numeric": "pian2 yi5",
+          "wadegiles": "p'ien² yi",
+          "bopomofo": "ㄆㄧㄢˊ yi",
+          "romatzyh": "pyan yi"
+        },
+        "meanings": [
+          "cheap",
+          "inexpensive",
+          "small advantages",
+          "to let sb off lightly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "便于",
+    "radical": "亻",
+    "frequency": 13646,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "便於",
+        "transcriptions": {
+          "pinyin": "biàn yú",
+          "numeric": "bian4 yu2",
+          "wadegiles": "pien⁴ yü²",
+          "bopomofo": "ㄅㄧㄢˋ ㄩˊ",
+          "romatzyh": "biann yu"
+        },
+        "meanings": [
+          "easy to; convenient for"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "遍",
+    "radical": "辶",
+    "frequency": 1358,
+    "pos": [
+      "qv",
+      "v",
+      "d",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "徧",
+        "transcriptions": {
+          "pinyin": "biàn",
+          "numeric": "bian4",
+          "wadegiles": "pien⁴",
+          "bopomofo": "ㄅㄧㄢˋ",
+          "romatzyh": "biann"
+        },
+        "meanings": [
+          "variant of 遍"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "遍",
+        "transcriptions": {
+          "pinyin": "biàn",
+          "numeric": "bian4",
+          "wadegiles": "pien⁴",
+          "bopomofo": "ㄅㄧㄢˋ",
+          "romatzyh": "biann"
+        },
+        "meanings": [
+          "everywhere",
+          "all over",
+          "classifier for actions: one time"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "遍地",
+    "radical": "辶",
+    "frequency": 18679,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "遍地",
+        "transcriptions": {
+          "pinyin": "biàn dì",
+          "numeric": "bian4 di4",
+          "wadegiles": "pien⁴ ti⁴",
+          "bopomofo": "ㄅㄧㄢˋ ㄉㄧˋ",
+          "romatzyh": "biann dih"
+        },
+        "meanings": [
+          "everywhere",
+          "all over"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "辩论",
+    "radical": "辛",
+    "frequency": 7547,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "辯論",
+        "transcriptions": {
+          "pinyin": "biàn lùn",
+          "numeric": "bian4 lun4",
+          "wadegiles": "pien⁴ lun⁴",
+          "bopomofo": "ㄅㄧㄢˋ ㄌㄨㄣˋ",
+          "romatzyh": "biann luenn"
+        },
+        "meanings": [
+          "debate",
+          "argument",
+          "to argue over"
+        ],
+        "classifiers": [
+          "场",
+          "次"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "标题",
+    "radical": "木",
+    "frequency": 8578,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "標題",
+        "transcriptions": {
+          "pinyin": "biāo tí",
+          "numeric": "biao1 ti2",
+          "wadegiles": "piao¹ t'i²",
+          "bopomofo": "ㄅㄧㄠ ㄊㄧˊ",
+          "romatzyh": "biau tyi"
+        },
+        "meanings": [
+          "title",
+          "heading",
+          "headline",
+          "caption",
+          "subject"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "标志",
+    "radical": "木",
+    "frequency": 2653,
+    "pos": [
+      "n",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "標誌",
+        "transcriptions": {
+          "pinyin": "biāo zhì",
+          "numeric": "biao1 zhi4",
+          "wadegiles": "piao¹ chih⁴",
+          "bopomofo": "ㄅㄧㄠ ㄓˋ",
+          "romatzyh": "biau jyh"
+        },
+        "meanings": [
+          "sign",
+          "mark",
+          "symbol",
+          "logo",
+          "to symbolize",
+          "to indicate",
+          "to mark"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "标准",
+    "radical": "木",
+    "frequency": 1317,
+    "pos": [
+      "n",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "標準",
+        "transcriptions": {
+          "pinyin": "biāo zhǔn",
+          "numeric": "biao1 zhun3",
+          "wadegiles": "piao¹ chun³",
+          "bopomofo": "ㄅㄧㄠ ㄓㄨㄣˇ",
+          "romatzyh": "biau joen"
+        },
+        "meanings": [
+          "standard; norm; criterion",
+          "(adjective) standard",
+          "good; correct; conforming to a standard"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "表",
+    "radical": "衣",
+    "frequency": 1344,
+    "pos": [
+      "n",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "表",
+        "transcriptions": {
+          "pinyin": "biǎo",
+          "numeric": "biao3",
+          "wadegiles": "piao³",
+          "bopomofo": "ㄅㄧㄠˇ",
+          "romatzyh": "beau"
+        },
+        "meanings": [
+          "exterior surface",
+          "family relationship via females",
+          "to show (one's opinion)",
+          "a model",
+          "a table (listing information)",
+          "a form",
+          "a meter (measuring sth)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "錶",
+        "transcriptions": {
+          "pinyin": "biǎo",
+          "numeric": "biao3",
+          "wadegiles": "piao³",
+          "bopomofo": "ㄅㄧㄠˇ",
+          "romatzyh": "beau"
+        },
+        "meanings": [
+          "watch (timepiece)",
+          "meter; gauge"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

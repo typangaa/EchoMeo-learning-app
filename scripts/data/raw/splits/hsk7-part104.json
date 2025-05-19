@@ -1,0 +1,2048 @@
+[
+  {
+    "simplified": "倘若",
+    "radical": "亻",
+    "frequency": 15613,
+    "pos": [
+      "c"
+    ],
+    "forms": [
+      {
+        "traditional": "倘若",
+        "transcriptions": {
+          "pinyin": "tǎng ruò",
+          "numeric": "tang3 ruo4",
+          "wadegiles": "t'ang³ jo⁴",
+          "bopomofo": "ㄊㄤˇ ㄖㄨㄛˋ",
+          "romatzyh": "taang ruoh"
+        },
+        "meanings": [
+          "if; supposing; in case"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "淌",
+    "radical": "氵",
+    "frequency": 16569,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "淌",
+        "transcriptions": {
+          "pinyin": "tǎng",
+          "numeric": "tang3",
+          "wadegiles": "t'ang³",
+          "bopomofo": "ㄊㄤˇ",
+          "romatzyh": "taang"
+        },
+        "meanings": [
+          "to drip",
+          "to trickle",
+          "to shed (tears)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "躺",
+    "radical": "身",
+    "frequency": 1892,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "躺",
+        "transcriptions": {
+          "pinyin": "tǎng",
+          "numeric": "tang3",
+          "wadegiles": "t'ang³",
+          "bopomofo": "ㄊㄤˇ",
+          "romatzyh": "taang"
+        },
+        "meanings": [
+          "to recline",
+          "to lie down"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "烫",
+    "radical": "火",
+    "frequency": 4676,
+    "pos": [
+      "v",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "燙",
+        "transcriptions": {
+          "pinyin": "tàng",
+          "numeric": "tang4",
+          "wadegiles": "t'ang⁴",
+          "bopomofo": "ㄊㄤˋ",
+          "romatzyh": "tanq"
+        },
+        "meanings": [
+          "to scald",
+          "to burn (by scalding)",
+          "to blanch (cooking)",
+          "to heat (sth) up in hot water",
+          "to perm",
+          "to iron",
+          "scalding hot"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "趟",
+    "radical": "走",
+    "frequency": 3174,
+    "pos": [
+      "qv",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "䠀",
+        "transcriptions": {
+          "pinyin": "tāng",
+          "numeric": "tang1",
+          "wadegiles": "t'ang¹",
+          "bopomofo": "ㄊㄤ",
+          "romatzyh": "tang"
+        },
+        "meanings": [
+          "old variant of 趟"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "趟",
+        "transcriptions": {
+          "pinyin": "tāng",
+          "numeric": "tang1",
+          "wadegiles": "t'ang¹",
+          "bopomofo": "ㄊㄤ",
+          "romatzyh": "tang"
+        },
+        "meanings": [
+          "to wade",
+          "to trample",
+          "to turn the soil"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "趟",
+        "transcriptions": {
+          "pinyin": "tàng",
+          "numeric": "tang4",
+          "wadegiles": "t'ang⁴",
+          "bopomofo": "ㄊㄤˋ",
+          "romatzyh": "tanq"
+        },
+        "meanings": [
+          "classifier for times, round trips or rows",
+          "a time",
+          "a trip"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "掏",
+    "radical": "扌",
+    "frequency": 5068,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "掏",
+        "transcriptions": {
+          "pinyin": "tāo",
+          "numeric": "tao1",
+          "wadegiles": "t'ao¹",
+          "bopomofo": "ㄊㄠ",
+          "romatzyh": "tau"
+        },
+        "meanings": [
+          "to fish out (from pocket)",
+          "to scoop"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "搯",
+        "transcriptions": {
+          "pinyin": "tāo",
+          "numeric": "tao1",
+          "wadegiles": "t'ao¹",
+          "bopomofo": "ㄊㄠ",
+          "romatzyh": "tau"
+        },
+        "meanings": [
+          "variant of 掏"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "掏钱",
+    "radical": "扌",
+    "frequency": 12130,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "掏錢",
+        "transcriptions": {
+          "pinyin": "tāo qián",
+          "numeric": "tao1 qian2",
+          "wadegiles": "t'ao¹ ch'ien²",
+          "bopomofo": "ㄊㄠ ㄑㄧㄢˊ",
+          "romatzyh": "tau chyan"
+        },
+        "meanings": [
+          "to pay",
+          "to spend money",
+          "to fork out"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "滔滔不绝",
+    "radical": "氵",
+    "frequency": 19862,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "滔滔不絕",
+        "transcriptions": {
+          "pinyin": "tāo tāo bù jué",
+          "numeric": "tao1 tao1 bu4 jue2",
+          "wadegiles": "t'ao¹ t'ao¹ pu⁴ chüeh²",
+          "bopomofo": "ㄊㄠ ㄊㄠ ㄅㄨˋ ㄐㄩㄝˊ",
+          "romatzyh": "tau tau buh jyue"
+        },
+        "meanings": [
+          "unceasing torrent (idiom)",
+          "talking non-stop",
+          "gabbling forty to the dozen"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "逃",
+    "radical": "辶",
+    "frequency": 2056,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "逃",
+        "transcriptions": {
+          "pinyin": "táo",
+          "numeric": "tao2",
+          "wadegiles": "t'ao²",
+          "bopomofo": "ㄊㄠˊ",
+          "romatzyh": "taur"
+        },
+        "meanings": [
+          "to escape",
+          "to run away",
+          "to flee"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "逃避",
+    "radical": "辶",
+    "frequency": 4735,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "逃避",
+        "transcriptions": {
+          "pinyin": "táo bì",
+          "numeric": "tao2 bi4",
+          "wadegiles": "t'ao² pi⁴",
+          "bopomofo": "ㄊㄠˊ ㄅㄧˋ",
+          "romatzyh": "taur bih"
+        },
+        "meanings": [
+          "to escape",
+          "to evade",
+          "to avoid",
+          "to shirk"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "逃跑",
+    "radical": "辶",
+    "frequency": 4877,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "逃跑",
+        "transcriptions": {
+          "pinyin": "táo pǎo",
+          "numeric": "tao2 pao3",
+          "wadegiles": "t'ao² p'ao³",
+          "bopomofo": "ㄊㄠˊ ㄆㄠˇ",
+          "romatzyh": "taur pao"
+        },
+        "meanings": [
+          "to flee from sth",
+          "to run away",
+          "to escape"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "逃生",
+    "radical": "辶",
+    "frequency": 11935,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "逃生",
+        "transcriptions": {
+          "pinyin": "táo shēng",
+          "numeric": "tao2 sheng1",
+          "wadegiles": "t'ao² sheng¹",
+          "bopomofo": "ㄊㄠˊ ㄕㄥ",
+          "romatzyh": "taur sheng"
+        },
+        "meanings": [
+          "to flee for one's life"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "逃亡",
+    "radical": "辶",
+    "frequency": 11837,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "逃亡",
+        "transcriptions": {
+          "pinyin": "táo wáng",
+          "numeric": "tao2 wang2",
+          "wadegiles": "t'ao² wang²",
+          "bopomofo": "ㄊㄠˊ ㄨㄤˊ",
+          "romatzyh": "taur wang"
+        },
+        "meanings": [
+          "to flee",
+          "flight (from danger)",
+          "fugitive"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "逃走",
+    "radical": "辶",
+    "frequency": 7231,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "逃走",
+        "transcriptions": {
+          "pinyin": "táo zǒu",
+          "numeric": "tao2 zou3",
+          "wadegiles": "t'ao² tsou³",
+          "bopomofo": "ㄊㄠˊ ㄗㄡˇ",
+          "romatzyh": "taur tzoou"
+        },
+        "meanings": [
+          "to escape",
+          "to flee",
+          "to run away"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "桃",
+    "radical": "木",
+    "frequency": 6265,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "桃",
+        "transcriptions": {
+          "pinyin": "táo",
+          "numeric": "tao2",
+          "wadegiles": "t'ao²",
+          "bopomofo": "ㄊㄠˊ",
+          "romatzyh": "taur"
+        },
+        "meanings": [
+          "peach"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "桃花",
+    "radical": "木",
+    "frequency": 17500,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "桃花",
+        "transcriptions": {
+          "pinyin": "táo huā",
+          "numeric": "tao2 hua1",
+          "wadegiles": "t'ao² hua¹",
+          "bopomofo": "ㄊㄠˊ ㄏㄨㄚ",
+          "romatzyh": "taur hua"
+        },
+        "meanings": [
+          "peach blossom",
+          "(fig.) love affair"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "桃树",
+    "radical": "木",
+    "frequency": 35576,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "桃樹",
+        "transcriptions": {
+          "pinyin": "táo shù",
+          "numeric": "tao2 shu4",
+          "wadegiles": "t'ao² shu⁴",
+          "bopomofo": "ㄊㄠˊ ㄕㄨˋ",
+          "romatzyh": "taur shuh"
+        },
+        "meanings": [
+          "peach tree"
+        ],
+        "classifiers": [
+          "株"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "陶瓷",
+    "radical": "阝",
+    "frequency": 10494,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "陶瓷",
+        "transcriptions": {
+          "pinyin": "táo cí",
+          "numeric": "tao2 ci2",
+          "wadegiles": "t'ao² tz'u²",
+          "bopomofo": "ㄊㄠˊ ㄘˊ",
+          "romatzyh": "taur tsyr"
+        },
+        "meanings": [
+          "pottery and porcelain",
+          "ceramics"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "陶冶",
+    "radical": "阝",
+    "frequency": 65189,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "陶冶",
+        "transcriptions": {
+          "pinyin": "táo yě",
+          "numeric": "tao2 ye3",
+          "wadegiles": "t'ao² yeh³",
+          "bopomofo": "ㄊㄠˊ ㄧㄝˇ",
+          "romatzyh": "taur yee"
+        },
+        "meanings": [
+          "lit. to fire pots and smelt metal",
+          "fig. to educate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "陶醉",
+    "radical": "阝",
+    "frequency": 13282,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "陶醉",
+        "transcriptions": {
+          "pinyin": "táo zuì",
+          "numeric": "tao2 zui4",
+          "wadegiles": "t'ao² tsui⁴",
+          "bopomofo": "ㄊㄠˊ ㄗㄨㄟˋ",
+          "romatzyh": "taur tzuey"
+        },
+        "meanings": [
+          "to be infatuated with; to be drunk with; to be enchanted with; to revel in"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "淘",
+    "radical": "氵",
+    "frequency": 8224,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "淘",
+        "transcriptions": {
+          "pinyin": "táo",
+          "numeric": "tao2",
+          "wadegiles": "t'ao²",
+          "bopomofo": "ㄊㄠˊ",
+          "romatzyh": "taur"
+        },
+        "meanings": [
+          "to wash",
+          "to clean out",
+          "to cleanse",
+          "to eliminate",
+          "to dredge"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "淘气",
+    "radical": "氵",
+    "frequency": 14473,
+    "pos": [
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "淘氣",
+        "transcriptions": {
+          "pinyin": "táo qì",
+          "numeric": "tao2 qi4",
+          "wadegiles": "t'ao² ch'i⁴",
+          "bopomofo": "ㄊㄠˊ ㄑㄧˋ",
+          "romatzyh": "taur chih"
+        },
+        "meanings": [
+          "naughty",
+          "mischievous"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "淘汰",
+    "radical": "氵",
+    "frequency": 2620,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "淘汰",
+        "transcriptions": {
+          "pinyin": "táo tài",
+          "numeric": "tao2 tai4",
+          "wadegiles": "t'ao² t'ai⁴",
+          "bopomofo": "ㄊㄠˊ ㄊㄞˋ",
+          "romatzyh": "taur tay"
+        },
+        "meanings": [
+          "to wash out",
+          "(fig.) to cull",
+          "to weed out",
+          "to eliminate",
+          "to die out",
+          "to phase out"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "讨",
+    "radical": "讠",
+    "frequency": 4393,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "討",
+        "transcriptions": {
+          "pinyin": "tǎo",
+          "numeric": "tao3",
+          "wadegiles": "t'ao³",
+          "bopomofo": "ㄊㄠˇ",
+          "romatzyh": "tao"
+        },
+        "meanings": [
+          "to invite",
+          "to provoke",
+          "to demand or ask for",
+          "to send armed forces to suppress",
+          "to denounce or condemn",
+          "to marry (a woman)",
+          "to discuss or study"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "讨好",
+    "radical": "讠",
+    "frequency": 10495,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "討好",
+        "transcriptions": {
+          "pinyin": "tǎo hǎo",
+          "numeric": "tao3 hao3",
+          "wadegiles": "t'ao³ hao³",
+          "bopomofo": "ㄊㄠˇ ㄏㄠˇ",
+          "romatzyh": "tao hao"
+        },
+        "meanings": [
+          "to get the desired outcome",
+          "to win favor by fawning on sb",
+          "to curry favor with",
+          "a fruitful outcome to reward one's labor"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "讨价还价",
+    "radical": "讠",
+    "frequency": 12869,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "討價還價",
+        "transcriptions": {
+          "pinyin": "tǎo jià huán jià",
+          "numeric": "tao3 jia4 huan2 jia4",
+          "wadegiles": "t'ao³ chia⁴ huan² chia⁴",
+          "bopomofo": "ㄊㄠˇ ㄐㄧㄚˋ ㄏㄨㄢˊ ㄐㄧㄚˋ",
+          "romatzyh": "tao jiah hwan jiah"
+        },
+        "meanings": [
+          "to haggle over price",
+          "to bargain"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "讨论",
+    "radical": "讠",
+    "frequency": 1047,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "討論",
+        "transcriptions": {
+          "pinyin": "tǎo lùn",
+          "numeric": "tao3 lun4",
+          "wadegiles": "t'ao³ lun⁴",
+          "bopomofo": "ㄊㄠˇ ㄌㄨㄣˋ",
+          "romatzyh": "tao luenn"
+        },
+        "meanings": [
+          "to discuss; to talk over"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "讨人喜欢",
+    "radical": "讠",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "討人喜歡",
+        "transcriptions": {
+          "pinyin": "tǎo rén xǐ huan",
+          "numeric": "tao3 ren2 xi3 huan5",
+          "wadegiles": "t'ao³ jen² hsi³ huan",
+          "bopomofo": "ㄊㄠˇ ㄖㄣˊ ㄒㄧˇ huan",
+          "romatzyh": "tao ren shii huan"
+        },
+        "meanings": [
+          "to attract people's affection",
+          "charming",
+          "delightful"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "讨厌",
+    "radical": "讠",
+    "frequency": 1401,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "討厭",
+        "transcriptions": {
+          "pinyin": "tǎo yàn",
+          "numeric": "tao3 yan4",
+          "wadegiles": "t'ao³ yan⁴",
+          "bopomofo": "ㄊㄠˇ ㄧㄢˋ",
+          "romatzyh": "tao yann"
+        },
+        "meanings": [
+          "to dislike",
+          "to loathe",
+          "disagreeable",
+          "troublesome",
+          "annoying"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "套",
+    "radical": "大",
+    "frequency": 715,
+    "pos": [
+      "q",
+      "v",
+      "g"
+    ],
+    "forms": [
+      {
+        "traditional": "套",
+        "transcriptions": {
+          "pinyin": "tào",
+          "numeric": "tao4",
+          "wadegiles": "t'ao⁴",
+          "bopomofo": "ㄊㄠˋ",
+          "romatzyh": "taw"
+        },
+        "meanings": [
+          "to cover",
+          "to encase",
+          "cover",
+          "sheath",
+          "to overlap",
+          "to interleave",
+          "to model after",
+          "to copy",
+          "formula",
+          "harness",
+          "loop of rope",
+          "(fig.) to fish for",
+          "to obtain slyly",
+          "classifier for sets, collections",
+          "bend (of a river or mountain range, in place names)",
+          "tau (Greek letter Ττ)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "套餐",
+    "radical": "大",
+    "frequency": 12344,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "套餐",
+        "transcriptions": {
+          "pinyin": "tào cān",
+          "numeric": "tao4 can1",
+          "wadegiles": "t'ao⁴ ts'an¹",
+          "bopomofo": "ㄊㄠˋ ㄘㄢ",
+          "romatzyh": "taw tsan"
+        },
+        "meanings": [
+          "set meal",
+          "(fig.) product or service package (e.g. for a cell phone subscription)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特",
+    "radical": "牛",
+    "frequency": 695,
+    "pos": [
+      "g",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "特",
+        "transcriptions": {
+          "pinyin": "tè",
+          "numeric": "te4",
+          "wadegiles": "t'e⁴",
+          "bopomofo": "ㄊㄜˋ",
+          "romatzyh": "teh"
+        },
+        "meanings": [
+          "special",
+          "unique",
+          "distinguished",
+          "especially",
+          "unusual",
+          "very",
+          "abbr. for 斯, tex"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特别",
+    "radical": "牛",
+    "frequency": 541,
+    "pos": [
+      "d",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "特別",
+        "transcriptions": {
+          "pinyin": "tè bié",
+          "numeric": "te4 bie2",
+          "wadegiles": "t'e⁴ pieh²",
+          "bopomofo": "ㄊㄜˋ ㄅㄧㄝˊ",
+          "romatzyh": "teh bye"
+        },
+        "meanings": [
+          "unusual; special",
+          "very; especially; particularly",
+          "expressly; for a specific purpose",
+          "(often followed by 是) in particular"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特产",
+    "radical": "牛",
+    "frequency": 21019,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "特產",
+        "transcriptions": {
+          "pinyin": "tè chǎn",
+          "numeric": "te4 chan3",
+          "wadegiles": "t'e⁴ ch'an³",
+          "bopomofo": "ㄊㄜˋ ㄔㄢˇ",
+          "romatzyh": "teh chaan"
+        },
+        "meanings": [
+          "special local product",
+          "(regional) specialty"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特大",
+    "radical": "牛",
+    "frequency": 9243,
+    "pos": [
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "特大",
+        "transcriptions": {
+          "pinyin": "tè dà",
+          "numeric": "te4 da4",
+          "wadegiles": "t'e⁴ ta⁴",
+          "bopomofo": "ㄊㄜˋ ㄉㄚˋ",
+          "romatzyh": "teh dah"
+        },
+        "meanings": [
+          "exceptionally big"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特地",
+    "radical": "牛",
+    "frequency": 8288,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "特地",
+        "transcriptions": {
+          "pinyin": "tè dì",
+          "numeric": "te4 di4",
+          "wadegiles": "t'e⁴ ti⁴",
+          "bopomofo": "ㄊㄜˋ ㄉㄧˋ",
+          "romatzyh": "teh dih"
+        },
+        "meanings": [
+          "specially",
+          "for a special purpose"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特点",
+    "radical": "牛",
+    "frequency": 4039,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "特點",
+        "transcriptions": {
+          "pinyin": "tè diǎn",
+          "numeric": "te4 dian3",
+          "wadegiles": "t'e⁴ tien³",
+          "bopomofo": "ㄊㄜˋ ㄉㄧㄢˇ",
+          "romatzyh": "teh dean"
+        },
+        "meanings": [
+          "characteristic (feature)",
+          "trait",
+          "feature"
+        ],
+        "classifiers": [
+          "个"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "特定",
+    "radical": "牛",
+    "frequency": 5385,
+    "pos": [
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "特定",
+        "transcriptions": {
+          "pinyin": "tè dìng",
+          "numeric": "te4 ding4",
+          "wadegiles": "t'e⁴ ting⁴",
+          "bopomofo": "ㄊㄜˋ ㄉㄧㄥˋ",
+          "romatzyh": "teh dinq"
+        },
+        "meanings": [
+          "special",
+          "specific",
+          "designated",
+          "particular"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特价",
+    "radical": "牛",
+    "frequency": 10340,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "特價",
+        "transcriptions": {
+          "pinyin": "tè jià",
+          "numeric": "te4 jia4",
+          "wadegiles": "t'e⁴ chia⁴",
+          "bopomofo": "ㄊㄜˋ ㄐㄧㄚˋ",
+          "romatzyh": "teh jiah"
+        },
+        "meanings": [
+          "special price"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特快",
+    "radical": "牛",
+    "frequency": 19517,
+    "pos": [
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "特快",
+        "transcriptions": {
+          "pinyin": "tè kuài",
+          "numeric": "te4 kuai4",
+          "wadegiles": "t'e⁴ k'uai⁴",
+          "bopomofo": "ㄊㄜˋ ㄎㄨㄞˋ",
+          "romatzyh": "teh kuay"
+        },
+        "meanings": [
+          "express (train, delivery etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特例",
+    "radical": "牛",
+    "frequency": 25371,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "特例",
+        "transcriptions": {
+          "pinyin": "tè lì",
+          "numeric": "te4 li4",
+          "wadegiles": "t'e⁴ li⁴",
+          "bopomofo": "ㄊㄜˋ ㄌㄧˋ",
+          "romatzyh": "teh lih"
+        },
+        "meanings": [
+          "special case",
+          "isolated example"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特权",
+    "radical": "牛",
+    "frequency": 8533,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "特權",
+        "transcriptions": {
+          "pinyin": "tè quán",
+          "numeric": "te4 quan2",
+          "wadegiles": "t'e⁴ ch'üan²",
+          "bopomofo": "ㄊㄜˋ ㄑㄩㄢˊ",
+          "romatzyh": "teh chyuan"
+        },
+        "meanings": [
+          "prerogative",
+          "privilege",
+          "privileged"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特色",
+    "radical": "牛",
+    "frequency": 4212,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "特色",
+        "transcriptions": {
+          "pinyin": "tè sè",
+          "numeric": "te4 se4",
+          "wadegiles": "t'e⁴ se⁴",
+          "bopomofo": "ㄊㄜˋ ㄙㄜˋ",
+          "romatzyh": "teh seh"
+        },
+        "meanings": [
+          "characteristic",
+          "distinguishing feature or quality"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特殊",
+    "radical": "牛",
+    "frequency": 1632,
+    "pos": [
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "特殊",
+        "transcriptions": {
+          "pinyin": "tè shū",
+          "numeric": "te4 shu1",
+          "wadegiles": "t'e⁴ shu¹",
+          "bopomofo": "ㄊㄜˋ ㄕㄨ",
+          "romatzyh": "teh shu"
+        },
+        "meanings": [
+          "special",
+          "particular",
+          "unusual",
+          "extraordinary"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特性",
+    "radical": "牛",
+    "frequency": 8741,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "特性",
+        "transcriptions": {
+          "pinyin": "tè xìng",
+          "numeric": "te4 xing4",
+          "wadegiles": "t'e⁴ hsing⁴",
+          "bopomofo": "ㄊㄜˋ ㄒㄧㄥˋ",
+          "romatzyh": "teh shinq"
+        },
+        "meanings": [
+          "property",
+          "characteristic"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特邀",
+    "radical": "牛",
+    "frequency": 19944,
+    "pos": [
+      "vn",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "特邀",
+        "transcriptions": {
+          "pinyin": "tè yāo",
+          "numeric": "te4 yao1",
+          "wadegiles": "t'e⁴ yao¹",
+          "bopomofo": "ㄊㄜˋ ㄧㄠ",
+          "romatzyh": "teh iau"
+        },
+        "meanings": [
+          "special invitation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特意",
+    "radical": "牛",
+    "frequency": 6391,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "特意",
+        "transcriptions": {
+          "pinyin": "tè yì",
+          "numeric": "te4 yi4",
+          "wadegiles": "t'e⁴ i⁴",
+          "bopomofo": "ㄊㄜˋ ㄧˋ",
+          "romatzyh": "teh yih"
+        },
+        "meanings": [
+          "specially",
+          "intentionally"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特有",
+    "radical": "牛",
+    "frequency": 9336,
+    "pos": [
+      "b",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "特有",
+        "transcriptions": {
+          "pinyin": "tè yǒu",
+          "numeric": "te4 you3",
+          "wadegiles": "t'e⁴ yu³",
+          "bopomofo": "ㄊㄜˋ ㄧㄡˇ",
+          "romatzyh": "teh yeou"
+        },
+        "meanings": [
+          "specific (to)",
+          "characteristic (of)",
+          "distinctive"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特长",
+    "radical": "牛",
+    "frequency": 10629,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "特長",
+        "transcriptions": {
+          "pinyin": "tè cháng",
+          "numeric": "te4 chang2",
+          "wadegiles": "t'e⁴ ch'ang²",
+          "bopomofo": "ㄊㄜˋ ㄔㄤˊ",
+          "romatzyh": "teh charng"
+        },
+        "meanings": [
+          "personal strength",
+          "one's special ability or strong points"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特征",
+    "radical": "牛",
+    "frequency": 3497,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "特徵",
+        "transcriptions": {
+          "pinyin": "tè zhēng",
+          "numeric": "te4 zheng1",
+          "wadegiles": "t'e⁴ cheng¹",
+          "bopomofo": "ㄊㄜˋ ㄓㄥ",
+          "romatzyh": "teh jeng"
+        },
+        "meanings": [
+          "characteristic",
+          "diagnostic property",
+          "distinctive feature",
+          "trait"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特制",
+    "radical": "牛",
+    "frequency": 12498,
+    "pos": [
+      "b",
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "特制",
+        "transcriptions": {
+          "pinyin": "tè zhì",
+          "numeric": "te4 zhi4",
+          "wadegiles": "t'e⁴ chih⁴",
+          "bopomofo": "ㄊㄜˋ ㄓˋ",
+          "romatzyh": "teh jyh"
+        },
+        "meanings": [
+          "special",
+          "unique"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "特质",
+    "radical": "牛",
+    "frequency": 9755,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "特質",
+        "transcriptions": {
+          "pinyin": "tè zhì",
+          "numeric": "te4 zhi4",
+          "wadegiles": "t'e⁴ chih⁴",
+          "bopomofo": "ㄊㄜˋ ㄓˋ",
+          "romatzyh": "teh jyh"
+        },
+        "meanings": [
+          "characteristic",
+          "special quality"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "疼",
+    "radical": "疒",
+    "frequency": 1641,
+    "pos": [
+      "v",
+      "a"
+    ],
+    "forms": [
+      {
+        "traditional": "疼",
+        "transcriptions": {
+          "pinyin": "téng",
+          "numeric": "teng2",
+          "wadegiles": "t'eng²",
+          "bopomofo": "ㄊㄥˊ",
+          "romatzyh": "terng"
+        },
+        "meanings": [
+          "(it) hurts; sore",
+          "to love dearly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "疼痛",
+    "radical": "疒",
+    "frequency": 3944,
+    "pos": [
+      "an",
+      "a",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "疼痛",
+        "transcriptions": {
+          "pinyin": "téng tòng",
+          "numeric": "teng2 tong4",
+          "wadegiles": "t'eng² t'ung⁴",
+          "bopomofo": "ㄊㄥˊ ㄊㄨㄥˋ",
+          "romatzyh": "terng tonq"
+        },
+        "meanings": [
+          "pain",
+          "(of a body part) to be painful; to be sore; to hurt",
+          "(of a person) to be in pain"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "腾",
+    "radical": "⺼",
+    "frequency": 8009,
+    "pos": [
+      "v",
+      "o"
+    ],
+    "forms": [
+      {
+        "traditional": "騰",
+        "transcriptions": {
+          "pinyin": "téng",
+          "numeric": "teng2",
+          "wadegiles": "t'eng²",
+          "bopomofo": "ㄊㄥˊ",
+          "romatzyh": "terng"
+        },
+        "meanings": [
+          "(bound form) to gallop; to prance",
+          "(bound form) to soar; to hover",
+          "to make room; to clear out; to vacate",
+          "(verb suffix indicating repeated action)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "藤椅",
+    "radical": "艹",
+    "frequency": 55380,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "藤椅",
+        "transcriptions": {
+          "pinyin": "téng yǐ",
+          "numeric": "teng2 yi3",
+          "wadegiles": "t'eng² i³",
+          "bopomofo": "ㄊㄥˊ ㄧˇ",
+          "romatzyh": "terng yii"
+        },
+        "meanings": [
+          "rattan chair"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "剔除",
+    "radical": "刂",
+    "frequency": 19717,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "剔除",
+        "transcriptions": {
+          "pinyin": "tī chú",
+          "numeric": "ti1 chu2",
+          "wadegiles": "t'i¹ ch'u²",
+          "bopomofo": "ㄊㄧ ㄔㄨˊ",
+          "romatzyh": "ti chwu"
+        },
+        "meanings": [
+          "to reject",
+          "to discard",
+          "to get rid of"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "梯子",
+    "radical": "木",
+    "frequency": 15634,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "梯子",
+        "transcriptions": {
+          "pinyin": "tī zi",
+          "numeric": "ti1 zi5",
+          "wadegiles": "t'i¹ zi",
+          "bopomofo": "ㄊㄧ zi",
+          "romatzyh": "ti zi"
+        },
+        "meanings": [
+          "ladder",
+          "stepladder"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "踢",
+    "radical": "足",
+    "frequency": 2330,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "踢",
+        "transcriptions": {
+          "pinyin": "tī",
+          "numeric": "ti1",
+          "wadegiles": "t'i¹",
+          "bopomofo": "ㄊㄧ",
+          "romatzyh": "ti"
+        },
+        "meanings": [
+          "to kick",
+          "to play (e.g. soccer)",
+          "(slang) butch (in a lesbian relationship)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提",
+    "radical": "扌",
+    "frequency": 919,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "提",
+        "transcriptions": {
+          "pinyin": "dī",
+          "numeric": "di1",
+          "wadegiles": "ti¹",
+          "bopomofo": "ㄉㄧ",
+          "romatzyh": "di"
+        },
+        "meanings": [
+          "used in 防 and 溜"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "提",
+        "transcriptions": {
+          "pinyin": "tí",
+          "numeric": "ti2",
+          "wadegiles": "t'i²",
+          "bopomofo": "ㄊㄧˊ",
+          "romatzyh": "tyi"
+        },
+        "meanings": [
+          "to carry (hanging down from the hand)",
+          "to lift",
+          "to put forward",
+          "to mention",
+          "to raise (an issue)",
+          "upwards character stroke",
+          "lifting brush stroke (in painting)",
+          "scoop for measuring liquid"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提拔",
+    "radical": "扌",
+    "frequency": 12631,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "提拔",
+        "transcriptions": {
+          "pinyin": "tí bá",
+          "numeric": "ti2 ba2",
+          "wadegiles": "t'i² pa²",
+          "bopomofo": "ㄊㄧˊ ㄅㄚˊ",
+          "romatzyh": "tyi bar"
+        },
+        "meanings": [
+          "to promote to a higher job",
+          "to select for promotion"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提倡",
+    "radical": "扌",
+    "frequency": 11719,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "提倡",
+        "transcriptions": {
+          "pinyin": "tí chàng",
+          "numeric": "ti2 chang4",
+          "wadegiles": "t'i² ch'ang⁴",
+          "bopomofo": "ㄊㄧˊ ㄔㄤˋ",
+          "romatzyh": "tyi chanq"
+        },
+        "meanings": [
+          "to promote",
+          "to advocate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提出",
+    "radical": "扌",
+    "frequency": 1125,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "提出",
+        "transcriptions": {
+          "pinyin": "tí chū",
+          "numeric": "ti2 chu1",
+          "wadegiles": "t'i² ch'u¹",
+          "bopomofo": "ㄊㄧˊ ㄔㄨ",
+          "romatzyh": "tyi chu"
+        },
+        "meanings": [
+          "to raise (an issue)",
+          "to propose",
+          "to put forward",
+          "to suggest",
+          "to post (on a website)",
+          "to withdraw (cash)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提到",
+    "radical": "扌",
+    "frequency": 2683,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "提到",
+        "transcriptions": {
+          "pinyin": "tí dào",
+          "numeric": "ti2 dao4",
+          "wadegiles": "t'i² tao⁴",
+          "bopomofo": "ㄊㄧˊ ㄉㄠˋ",
+          "romatzyh": "tyi daw"
+        },
+        "meanings": [
+          "to mention",
+          "to raise (a subject)",
+          "to refer to"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提防",
+    "radical": "扌",
+    "frequency": 15445,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "提防",
+        "transcriptions": {
+          "pinyin": "dī fang",
+          "numeric": "di1 fang5",
+          "wadegiles": "ti¹ fang",
+          "bopomofo": "ㄉㄧ fang",
+          "romatzyh": "di fang"
+        },
+        "meanings": [
+          "to guard against",
+          "to be vigilant",
+          "watch you don't (slip)",
+          "Taiwan pr. [tí fáng]"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提高",
+    "radical": "扌",
+    "frequency": 1724,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "提高",
+        "transcriptions": {
+          "pinyin": "tí gāo",
+          "numeric": "ti2 gao1",
+          "wadegiles": "t'i² kao¹",
+          "bopomofo": "ㄊㄧˊ ㄍㄠ",
+          "romatzyh": "tyi gau"
+        },
+        "meanings": [
+          "to raise",
+          "to increase",
+          "to improve"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提供",
+    "radical": "扌",
+    "frequency": 621,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "提供",
+        "transcriptions": {
+          "pinyin": "tí gōng",
+          "numeric": "ti2 gong1",
+          "wadegiles": "t'i² kung¹",
+          "bopomofo": "ㄊㄧˊ ㄍㄨㄥ",
+          "romatzyh": "tyi gong"
+        },
+        "meanings": [
+          "to offer",
+          "to supply",
+          "to provide",
+          "to furnish"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提交",
+    "radical": "扌",
+    "frequency": 5768,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "提交",
+        "transcriptions": {
+          "pinyin": "tí jiāo",
+          "numeric": "ti2 jiao1",
+          "wadegiles": "t'i² chiao¹",
+          "bopomofo": "ㄊㄧˊ ㄐㄧㄠ",
+          "romatzyh": "tyi jiau"
+        },
+        "meanings": [
+          "to submit (a report etc)",
+          "to refer (a problem) to sb"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提炼",
+    "radical": "扌",
+    "frequency": 16362,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "提煉",
+        "transcriptions": {
+          "pinyin": "tí liàn",
+          "numeric": "ti2 lian4",
+          "wadegiles": "t'i² lien⁴",
+          "bopomofo": "ㄊㄧˊ ㄌㄧㄢˋ",
+          "romatzyh": "tyi liann"
+        },
+        "meanings": [
+          "to extract (ore, minerals etc)",
+          "to refine",
+          "to purify",
+          "to process"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提名",
+    "radical": "扌",
+    "frequency": 5189,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "提名",
+        "transcriptions": {
+          "pinyin": "tí míng",
+          "numeric": "ti2 ming2",
+          "wadegiles": "t'i² ming²",
+          "bopomofo": "ㄊㄧˊ ㄇㄧㄥˊ",
+          "romatzyh": "tyi ming"
+        },
+        "meanings": [
+          "to nominate"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提起",
+    "radical": "扌",
+    "frequency": 3871,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "提起",
+        "transcriptions": {
+          "pinyin": "tí qǐ",
+          "numeric": "ti2 qi3",
+          "wadegiles": "t'i² ch'i³",
+          "bopomofo": "ㄊㄧˊ ㄑㄧˇ",
+          "romatzyh": "tyi chii"
+        },
+        "meanings": [
+          "to mention",
+          "to speak of",
+          "to lift",
+          "to pick up",
+          "to arouse",
+          "to raise (a topic, a heavy weight, one's fist, one's spirits etc)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提前",
+    "radical": "扌",
+    "frequency": 2206,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "提前",
+        "transcriptions": {
+          "pinyin": "tí qián",
+          "numeric": "ti2 qian2",
+          "wadegiles": "t'i² ch'ien²",
+          "bopomofo": "ㄊㄧˊ ㄑㄧㄢˊ",
+          "romatzyh": "tyi chyan"
+        },
+        "meanings": [
+          "to shift to an earlier date",
+          "to do sth ahead of time",
+          "in advance"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提升",
+    "radical": "扌",
+    "frequency": 3275,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "提升",
+        "transcriptions": {
+          "pinyin": "tí shēng",
+          "numeric": "ti2 sheng1",
+          "wadegiles": "t'i² sheng¹",
+          "bopomofo": "ㄊㄧˊ ㄕㄥ",
+          "romatzyh": "tyi sheng"
+        },
+        "meanings": [
+          "to promote (to a higher-ranking position)",
+          "to lift; to hoist",
+          "(fig.) to elevate; to raise; to improve"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提示",
+    "radical": "扌",
+    "frequency": 3243,
+    "pos": [
+      "v",
+      "vn"
+    ],
+    "forms": [
+      {
+        "traditional": "提示",
+        "transcriptions": {
+          "pinyin": "tí shì",
+          "numeric": "ti2 shi4",
+          "wadegiles": "t'i² shih⁴",
+          "bopomofo": "ㄊㄧˊ ㄕˋ",
+          "romatzyh": "tyi shyh"
+        },
+        "meanings": [
+          "to point out",
+          "to remind (sb of sth)",
+          "to suggest",
+          "suggestion",
+          "tip",
+          "reminder",
+          "notice"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "提速",
+    "radical": "扌",
+    "frequency": 37206,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "提速",
+        "transcriptions": {
+          "pinyin": "tí sù",
+          "numeric": "ti2 su4",
+          "wadegiles": "t'i² su⁴",
+          "bopomofo": "ㄊㄧˊ ㄙㄨˋ",
+          "romatzyh": "tyi suh"
+        },
+        "meanings": [
+          "to increase the specified cruising speed",
+          "to pick up speed",
+          "to speed up"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]

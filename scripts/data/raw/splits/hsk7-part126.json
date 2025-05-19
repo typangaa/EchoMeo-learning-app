@@ -1,0 +1,1931 @@
+[
+  {
+    "simplified": "一共",
+    "radical": "一",
+    "frequency": 4765,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "一共",
+        "transcriptions": {
+          "pinyin": "yī gòng",
+          "numeric": "yi1 gong4",
+          "wadegiles": "i¹ kung⁴",
+          "bopomofo": "ㄧ ㄍㄨㄥˋ",
+          "romatzyh": "i gonq"
+        },
+        "meanings": [
+          "altogether"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一鼓作气",
+    "radical": "一",
+    "frequency": 34580,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "一鼓作氣",
+        "transcriptions": {
+          "pinyin": "yī gǔ zuò qì",
+          "numeric": "yi1 gu3 zuo4 qi4",
+          "wadegiles": "i¹ ku³ tso⁴ ch'i⁴",
+          "bopomofo": "ㄧ ㄍㄨˇ ㄗㄨㄛˋ ㄑㄧˋ",
+          "romatzyh": "i guu tzuoh chih"
+        },
+        "meanings": [
+          "in a spurt of energy"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一贯",
+    "radical": "一",
+    "frequency": 7299,
+    "pos": [
+      "d",
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "一貫",
+        "transcriptions": {
+          "pinyin": "yī guàn",
+          "numeric": "yi1 guan4",
+          "wadegiles": "i¹ kuan⁴",
+          "bopomofo": "ㄧ ㄍㄨㄢˋ",
+          "romatzyh": "i guann"
+        },
+        "meanings": [
+          "consistent",
+          "constant",
+          "from start to finish",
+          "all along",
+          "persistent"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一锅粥",
+    "radical": "一",
+    "frequency": 43564,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "一鍋粥",
+        "transcriptions": {
+          "pinyin": "yī guō zhōu",
+          "numeric": "yi1 guo1 zhou1",
+          "wadegiles": "i¹ kuo¹ chou¹",
+          "bopomofo": "ㄧ ㄍㄨㄛ ㄓㄡ",
+          "romatzyh": "i guo jou"
+        },
+        "meanings": [
+          "(lit.) a pot of porridge",
+          "(fig.) a complete mess"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一晃",
+    "radical": "一",
+    "frequency": 26016,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "一晃",
+        "transcriptions": {
+          "pinyin": "yī huǎng",
+          "numeric": "yi1 huang3",
+          "wadegiles": "i¹ huang³",
+          "bopomofo": "ㄧ ㄏㄨㄤˇ",
+          "romatzyh": "i hoang"
+        },
+        "meanings": [
+          "(of passing time) in an instant",
+          "(of a sight) in a flash"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一回事",
+    "radical": "一",
+    "frequency": 12272,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "一回事",
+        "transcriptions": {
+          "pinyin": "yī huí shì",
+          "numeric": "yi1 hui2 shi4",
+          "wadegiles": "i¹ hui² shih⁴",
+          "bopomofo": "ㄧ ㄏㄨㄟˊ ㄕˋ",
+          "romatzyh": "i hwei shyh"
+        },
+        "meanings": [
+          "one and the same (thing)",
+          "one thing (as distinct from another)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一会儿",
+    "radical": "一",
+    "frequency": 2207,
+    "pos": [
+      "mq"
+    ],
+    "forms": [
+      {
+        "traditional": "一會兒",
+        "transcriptions": {
+          "pinyin": "yī huì r",
+          "numeric": "yi1 hui4 r5",
+          "wadegiles": "i¹ hui⁴ r",
+          "bopomofo": "ㄧ ㄏㄨㄟˋ r",
+          "romatzyh": "i huey r"
+        },
+        "meanings": [
+          "a moment",
+          "a while",
+          "in a moment",
+          "now...now...",
+          "also pr. [yī huǐ r]"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一技之长",
+    "radical": "一",
+    "frequency": 36099,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "一技之長",
+        "transcriptions": {
+          "pinyin": "yī jì zhī cháng",
+          "numeric": "yi1 ji4 zhi1 chang2",
+          "wadegiles": "i¹ chi⁴ chih¹ ch'ang²",
+          "bopomofo": "ㄧ ㄐㄧˋ ㄓ ㄔㄤˊ",
+          "romatzyh": "i jih jy charng"
+        },
+        "meanings": [
+          "proficiency in a particular field (idiom)",
+          "skill in a specialized area (idiom)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一家人",
+    "radical": "一",
+    "frequency": 16475,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "一家人",
+        "transcriptions": {
+          "pinyin": "yī jiā rén",
+          "numeric": "yi1 jia1 ren2",
+          "wadegiles": "i¹ chia¹ jen²",
+          "bopomofo": "ㄧ ㄐㄧㄚ ㄖㄣˊ",
+          "romatzyh": "i jia ren"
+        },
+        "meanings": [
+          "household",
+          "the whole family"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一经",
+    "radical": "一",
+    "frequency": 19599,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "一經",
+        "transcriptions": {
+          "pinyin": "yī jīng",
+          "numeric": "yi1 jing1",
+          "wadegiles": "i¹ ching¹",
+          "bopomofo": "ㄧ ㄐㄧㄥ",
+          "romatzyh": "i jing"
+        },
+        "meanings": [
+          "as soon as",
+          "once (an action has been completed)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一举",
+    "radical": "一",
+    "frequency": 12406,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "一舉",
+        "transcriptions": {
+          "pinyin": "yī jǔ",
+          "numeric": "yi1 ju3",
+          "wadegiles": "i¹ chü³",
+          "bopomofo": "ㄧ ㄐㄩˇ",
+          "romatzyh": "i jeu"
+        },
+        "meanings": [
+          "a move",
+          "an action",
+          "in one move",
+          "at a stroke",
+          "in one go"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一举一动",
+    "radical": "一",
+    "frequency": 13650,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "一舉一動",
+        "transcriptions": {
+          "pinyin": "yī jǔ yī dòng",
+          "numeric": "yi1 ju3 yi1 dong4",
+          "wadegiles": "i¹ chü³ i¹ tung⁴",
+          "bopomofo": "ㄧ ㄐㄩˇ ㄧ ㄉㄨㄥˋ",
+          "romatzyh": "i jeu i donq"
+        },
+        "meanings": [
+          "every movement; each and every move"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一句话",
+    "radical": "一",
+    "frequency": 2843,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "一句話",
+        "transcriptions": {
+          "pinyin": "yī jù huà",
+          "numeric": "yi1 ju4 hua4",
+          "wadegiles": "i¹ chü⁴ hua⁴",
+          "bopomofo": "ㄧ ㄐㄩˋ ㄏㄨㄚˋ",
+          "romatzyh": "i jiuh huah"
+        },
+        "meanings": [
+          "in a word",
+          "in short"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一卡通",
+    "radical": "一",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "一卡通",
+        "transcriptions": {
+          "pinyin": "Yī kǎ tōng",
+          "numeric": "Yi1 ka3 tong1",
+          "wadegiles": "i¹ k'a³ t'ung¹",
+          "bopomofo": "ㄧ ㄎㄚˇ ㄊㄨㄥ",
+          "romatzyh": "i kaa tong"
+        },
+        "meanings": [
+          "the name of various contactless smart cards, notably Yikatong (mainly for public transport in Beijing) and iPASS (mainly for public transport in Taiwan)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一口气",
+    "radical": "一",
+    "frequency": 12928,
+    "pos": [
+      "d",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "一口氣",
+        "transcriptions": {
+          "pinyin": "yī kǒu qì",
+          "numeric": "yi1 kou3 qi4",
+          "wadegiles": "i¹ k'ou³ ch'i⁴",
+          "bopomofo": "ㄧ ㄎㄡˇ ㄑㄧˋ",
+          "romatzyh": "i koou chih"
+        },
+        "meanings": [
+          "one breath",
+          "in one breath",
+          "at a stretch"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一块儿",
+    "radical": "一",
+    "frequency": 11449,
+    "pos": [
+      "d",
+      "s"
+    ],
+    "forms": [
+      {
+        "traditional": "一塊兒",
+        "transcriptions": {
+          "pinyin": "yī kuài r",
+          "numeric": "yi1 kuai4 r5",
+          "wadegiles": "i¹ k'uai⁴ r",
+          "bopomofo": "ㄧ ㄎㄨㄞˋ r",
+          "romatzyh": "i kuay r"
+        },
+        "meanings": [
+          "erhua variant of 一块"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一揽子",
+    "radical": "一",
+    "frequency": 27919,
+    "pos": [
+      "l",
+      "q"
+    ],
+    "forms": [
+      {
+        "traditional": "一攬子",
+        "transcriptions": {
+          "pinyin": "yī lǎn zi",
+          "numeric": "yi1 lan3 zi5",
+          "wadegiles": "i¹ lan³ zi",
+          "bopomofo": "ㄧ ㄌㄢˇ zi",
+          "romatzyh": "i laan zi"
+        },
+        "meanings": [
+          "all-inclusive",
+          "undiscriminating"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一连",
+    "radical": "一",
+    "frequency": 18593,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "一連",
+        "transcriptions": {
+          "pinyin": "yī lián",
+          "numeric": "yi1 lian2",
+          "wadegiles": "i¹ lien²",
+          "bopomofo": "ㄧ ㄌㄧㄢˊ",
+          "romatzyh": "i lian"
+        },
+        "meanings": [
+          "in a row",
+          "in succession",
+          "running"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一连串",
+    "radical": "一",
+    "frequency": 11835,
+    "pos": [
+      "l",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "一連串",
+        "transcriptions": {
+          "pinyin": "yī lián chuàn",
+          "numeric": "yi1 lian2 chuan4",
+          "wadegiles": "i¹ lien² ch'uan⁴",
+          "bopomofo": "ㄧ ㄌㄧㄢˊ ㄔㄨㄢˋ",
+          "romatzyh": "i lian chuann"
+        },
+        "meanings": [
+          "a succession of",
+          "a series of"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一流",
+    "radical": "一",
+    "frequency": 5035,
+    "pos": [
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "一流",
+        "transcriptions": {
+          "pinyin": "yī liú",
+          "numeric": "yi1 liu2",
+          "wadegiles": "i¹ liu²",
+          "bopomofo": "ㄧ ㄌㄧㄡˊ",
+          "romatzyh": "i liou"
+        },
+        "meanings": [
+          "top quality",
+          "front ranking"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一路",
+    "radical": "一",
+    "frequency": 2451,
+    "pos": [
+      "mq",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "一路",
+        "transcriptions": {
+          "pinyin": "yī lù",
+          "numeric": "yi1 lu4",
+          "wadegiles": "i¹ lu⁴",
+          "bopomofo": "ㄧ ㄌㄨˋ",
+          "romatzyh": "i luh"
+        },
+        "meanings": [
+          "the whole journey",
+          "all the way",
+          "going the same way",
+          "going in the same direction",
+          "of the same kind"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一路平安",
+    "radical": "一",
+    "frequency": 32899,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "一路平安",
+        "transcriptions": {
+          "pinyin": "yī lù píng ān",
+          "numeric": "yi1 lu4 ping2 an1",
+          "wadegiles": "i¹ lu⁴ p'ing² an¹",
+          "bopomofo": "ㄧ ㄌㄨˋ ㄆㄧㄥˊ ㄢ",
+          "romatzyh": "i luh pyng an"
+        },
+        "meanings": [
+          "to have a pleasant journey",
+          "Bon voyage!"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一路上",
+    "radical": "一",
+    "frequency": 9985,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "一路上",
+        "transcriptions": {
+          "pinyin": "yī lù shàng",
+          "numeric": "yi1 lu4 shang4",
+          "wadegiles": "i¹ lu⁴ shang⁴",
+          "bopomofo": "ㄧ ㄌㄨˋ ㄕㄤˋ",
+          "romatzyh": "i luh shanq"
+        },
+        "meanings": [
+          "along the way",
+          "the whole way",
+          "(fig.) the whole time"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一路顺风",
+    "radical": "一",
+    "frequency": 17523,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "一路順風",
+        "transcriptions": {
+          "pinyin": "yī lù shùn fēng",
+          "numeric": "yi1 lu4 shun4 feng1",
+          "wadegiles": "i¹ lu⁴ shun⁴ feng¹",
+          "bopomofo": "ㄧ ㄌㄨˋ ㄕㄨㄣˋ ㄈㄥ",
+          "romatzyh": "i luh shuenn feng"
+        },
+        "meanings": [
+          "to have a pleasant journey (idiom)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一律",
+    "radical": "一",
+    "frequency": 13897,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "一律",
+        "transcriptions": {
+          "pinyin": "yī lu:4",
+          "numeric": "yi1 lü4",
+          "wadegiles": "i¹ lu:4",
+          "bopomofo": "ㄧ lu:4",
+          "romatzyh": "i lu:4"
+        },
+        "meanings": [
+          "same",
+          "uniformly",
+          "all",
+          "without exception"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一毛不拔",
+    "radical": "一",
+    "frequency": 75450,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "一毛不拔",
+        "transcriptions": {
+          "pinyin": "yī máo bù bá",
+          "numeric": "yi1 mao2 bu4 ba2",
+          "wadegiles": "i¹ mao² pu⁴ pa²",
+          "bopomofo": "ㄧ ㄇㄠˊ ㄅㄨˋ ㄅㄚˊ",
+          "romatzyh": "i mau buh bar"
+        },
+        "meanings": [
+          "stingy (idiom)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一面",
+    "radical": "一",
+    "frequency": 2535,
+    "pos": [
+      "n",
+      "d",
+      "f"
+    ],
+    "forms": [
+      {
+        "traditional": "一面",
+        "transcriptions": {
+          "pinyin": "yī miàn",
+          "numeric": "yi1 mian4",
+          "wadegiles": "i¹ mien⁴",
+          "bopomofo": "ㄧ ㄇㄧㄢˋ",
+          "romatzyh": "i miann"
+        },
+        "meanings": [
+          "one side",
+          "one aspect",
+          "simultaneously... (and...)",
+          "one's whole face"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一模一样",
+    "radical": "一",
+    "frequency": 8179,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "一模一樣",
+        "transcriptions": {
+          "pinyin": "yī mú yī yàng",
+          "numeric": "yi1 mu2 yi1 yang4",
+          "wadegiles": "i¹ mu² i¹ yang⁴",
+          "bopomofo": "ㄧ ㄇㄨˊ ㄧ ㄧㄤˋ",
+          "romatzyh": "i mu i yanq"
+        },
+        "meanings": [
+          "exactly the same (idiom)",
+          "carbon copy",
+          "also pr. [yī mó yī yàng]"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一目了然",
+    "radical": "一",
+    "frequency": 18968,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "一目了然",
+        "transcriptions": {
+          "pinyin": "yī mù liǎo rán",
+          "numeric": "yi1 mu4 liao3 ran2",
+          "wadegiles": "i¹ mu⁴ liao³ jan²",
+          "bopomofo": "ㄧ ㄇㄨˋ ㄌㄧㄠˇ ㄖㄢˊ",
+          "romatzyh": "i muh leau ran"
+        },
+        "meanings": [
+          "obvious at a glance (idiom)"
+        ],
+        "classifiers": []
+      },
+      {
+        "traditional": "一目瞭然",
+        "transcriptions": {
+          "pinyin": "yī mù liǎo rán",
+          "numeric": "yi1 mu4 liao3 ran2",
+          "wadegiles": "i¹ mu⁴ liao³ jan²",
+          "bopomofo": "ㄧ ㄇㄨˋ ㄌㄧㄠˇ ㄖㄢˊ",
+          "romatzyh": "i muh leau ran"
+        },
+        "meanings": [
+          "obvious at a glance (idiom)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一年到头",
+    "radical": "一",
+    "frequency": 37724,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "一年到頭",
+        "transcriptions": {
+          "pinyin": "yī nián dào tóu",
+          "numeric": "yi1 nian2 dao4 tou2",
+          "wadegiles": "i¹ nien² tao⁴ t'ou²",
+          "bopomofo": "ㄧ ㄋㄧㄢˊ ㄉㄠˋ ㄊㄡˊ",
+          "romatzyh": "i nian daw tour"
+        },
+        "meanings": [
+          "all year round"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一旁",
+    "radical": "一",
+    "frequency": 7919,
+    "pos": [
+      "f",
+      "s"
+    ],
+    "forms": [
+      {
+        "traditional": "一旁",
+        "transcriptions": {
+          "pinyin": "yī páng",
+          "numeric": "yi1 pang2",
+          "wadegiles": "i¹ p'ang²",
+          "bopomofo": "ㄧ ㄆㄤˊ",
+          "romatzyh": "i parng"
+        },
+        "meanings": [
+          "aside",
+          "to the side of"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一齐",
+    "radical": "一",
+    "frequency": 13522,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "一齊",
+        "transcriptions": {
+          "pinyin": "yī qí",
+          "numeric": "yi1 qi2",
+          "wadegiles": "i¹ ch'i²",
+          "bopomofo": "ㄧ ㄑㄧˊ",
+          "romatzyh": "i chyi"
+        },
+        "meanings": [
+          "at the same time",
+          "simultaneously"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一起",
+    "radical": "一",
+    "frequency": 172,
+    "pos": [
+      "s",
+      "d",
+      "nr"
+    ],
+    "forms": [
+      {
+        "traditional": "一起",
+        "transcriptions": {
+          "pinyin": "yī qǐ",
+          "numeric": "yi1 qi3",
+          "wadegiles": "i¹ ch'i³",
+          "bopomofo": "ㄧ ㄑㄧˇ",
+          "romatzyh": "i chii"
+        },
+        "meanings": [
+          "in the same place",
+          "together",
+          "with",
+          "altogether (in total)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一切",
+    "radical": "一",
+    "frequency": 350,
+    "pos": [
+      "r"
+    ],
+    "forms": [
+      {
+        "traditional": "一切",
+        "transcriptions": {
+          "pinyin": "yī qiè",
+          "numeric": "yi1 qie4",
+          "wadegiles": "i¹ ch'ieh⁴",
+          "bopomofo": "ㄧ ㄑㄧㄝˋ",
+          "romatzyh": "i chieh"
+        },
+        "meanings": [
+          "everything",
+          "every",
+          "all"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一如既往",
+    "radical": "一",
+    "frequency": 9416,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "一如既往",
+        "transcriptions": {
+          "pinyin": "yī rú jì wǎng",
+          "numeric": "yi1 ru2 ji4 wang3",
+          "wadegiles": "i¹ ju² chi⁴ wang³",
+          "bopomofo": "ㄧ ㄖㄨˊ ㄐㄧˋ ㄨㄤˇ",
+          "romatzyh": "i ru jih woang"
+        },
+        "meanings": [
+          "just as in the past (idiom); as before",
+          "continuing as always"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一刹那",
+    "radical": "一",
+    "frequency": 17189,
+    "pos": [
+      "t"
+    ],
+    "forms": [
+      {
+        "traditional": "一剎那",
+        "transcriptions": {
+          "pinyin": "yī chà nà",
+          "numeric": "yi1 cha4 na4",
+          "wadegiles": "i¹ ch'a⁴ na⁴",
+          "bopomofo": "ㄧ ㄔㄚˋ ㄋㄚˋ",
+          "romatzyh": "i chah nah"
+        },
+        "meanings": [
+          "a moment",
+          "an instant",
+          "in a flash"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一身",
+    "radical": "一",
+    "frequency": 8569,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "一身",
+        "transcriptions": {
+          "pinyin": "yī shēn",
+          "numeric": "yi1 shen1",
+          "wadegiles": "i¹ shen¹",
+          "bopomofo": "ㄧ ㄕㄣ",
+          "romatzyh": "i shen"
+        },
+        "meanings": [
+          "whole body",
+          "from head to toe",
+          "single person",
+          "a suit of clothes"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一生",
+    "radical": "一",
+    "frequency": 1626,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "一生",
+        "transcriptions": {
+          "pinyin": "yī shēng",
+          "numeric": "yi1 sheng1",
+          "wadegiles": "i¹ sheng¹",
+          "bopomofo": "ㄧ ㄕㄥ",
+          "romatzyh": "i sheng"
+        },
+        "meanings": [
+          "all one's life; throughout one's life"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一声不吭",
+    "radical": "一",
+    "frequency": 26480,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "一聲不吭",
+        "transcriptions": {
+          "pinyin": "yī shēng bù kēng",
+          "numeric": "yi1 sheng1 bu4 keng1",
+          "wadegiles": "i¹ sheng¹ pu⁴ k'eng¹",
+          "bopomofo": "ㄧ ㄕㄥ ㄅㄨˋ ㄎㄥ",
+          "romatzyh": "i sheng buh keng"
+        },
+        "meanings": [
+          "to not say a word"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一时",
+    "radical": "一",
+    "frequency": 3531,
+    "pos": [
+      "t",
+      "m"
+    ],
+    "forms": [
+      {
+        "traditional": "一時",
+        "transcriptions": {
+          "pinyin": "yī shí",
+          "numeric": "yi1 shi2",
+          "wadegiles": "i¹ shih²",
+          "bopomofo": "ㄧ ㄕˊ",
+          "romatzyh": "i shyr"
+        },
+        "meanings": [
+          "a period of time",
+          "a while",
+          "for a short while",
+          "temporary",
+          "momentary",
+          "at the same time"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一事无成",
+    "radical": "一",
+    "frequency": 22215,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "一事無成",
+        "transcriptions": {
+          "pinyin": "yī shì wú chéng",
+          "numeric": "yi1 shi4 wu2 cheng2",
+          "wadegiles": "i¹ shih⁴ wu² ch'eng²",
+          "bopomofo": "ㄧ ㄕˋ ㄨˊ ㄔㄥˊ",
+          "romatzyh": "i shyh wu cherng"
+        },
+        "meanings": [
+          "to have achieved nothing",
+          "to be a total failure",
+          "to get nowhere"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一手",
+    "radical": "一",
+    "frequency": 7866,
+    "pos": [
+      "d",
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "一手",
+        "transcriptions": {
+          "pinyin": "yī shǒu",
+          "numeric": "yi1 shou3",
+          "wadegiles": "i¹ shou³",
+          "bopomofo": "ㄧ ㄕㄡˇ",
+          "romatzyh": "i shoou"
+        },
+        "meanings": [
+          "a skill",
+          "mastery of a trade",
+          "by oneself",
+          "without outside help"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一瞬间",
+    "radical": "一",
+    "frequency": 7348,
+    "pos": [
+      "t",
+      "m"
+    ],
+    "forms": [
+      {
+        "traditional": "一瞬間",
+        "transcriptions": {
+          "pinyin": "yī shùn jiān",
+          "numeric": "yi1 shun4 jian1",
+          "wadegiles": "i¹ shun⁴ chien¹",
+          "bopomofo": "ㄧ ㄕㄨㄣˋ ㄐㄧㄢ",
+          "romatzyh": "i shuenn jian"
+        },
+        "meanings": [
+          "split second"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一塌糊涂",
+    "radical": "一",
+    "frequency": 11014,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "一塌糊塗",
+        "transcriptions": {
+          "pinyin": "yī tā hú tu",
+          "numeric": "yi1 ta1 hu2 tu5",
+          "wadegiles": "i¹ t'a¹ hu² tu",
+          "bopomofo": "ㄧ ㄊㄚ ㄏㄨˊ tu",
+          "romatzyh": "i ta hwu tu"
+        },
+        "meanings": [
+          "muddled and completely collapsing (idiom); in an awful condition",
+          "complete shambles",
+          "a total mess"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一体",
+    "radical": "一",
+    "frequency": 7220,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "一體",
+        "transcriptions": {
+          "pinyin": "yī tǐ",
+          "numeric": "yi1 ti3",
+          "wadegiles": "i¹ t'i³",
+          "bopomofo": "ㄧ ㄊㄧˇ",
+          "romatzyh": "i tii"
+        },
+        "meanings": [
+          "an integral whole",
+          "all concerned",
+          "everybody"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一天到晚",
+    "radical": "一",
+    "frequency": 15466,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "一天到晚",
+        "transcriptions": {
+          "pinyin": "yī tiān dào wǎn",
+          "numeric": "yi1 tian1 dao4 wan3",
+          "wadegiles": "i¹ t'ien¹ tao⁴ wan³",
+          "bopomofo": "ㄧ ㄊㄧㄢ ㄉㄠˋ ㄨㄢˇ",
+          "romatzyh": "i tian daw woan"
+        },
+        "meanings": [
+          "all day long; the whole day"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一同",
+    "radical": "一",
+    "frequency": 5754,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "一同",
+        "transcriptions": {
+          "pinyin": "yī tóng",
+          "numeric": "yi1 tong2",
+          "wadegiles": "i¹ t'ung²",
+          "bopomofo": "ㄧ ㄊㄨㄥˊ",
+          "romatzyh": "i torng"
+        },
+        "meanings": [
+          "together"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一头",
+    "radical": "一",
+    "frequency": 9187,
+    "pos": [
+      "mq",
+      "d",
+      "n",
+      "nr"
+    ],
+    "forms": [
+      {
+        "traditional": "一頭",
+        "transcriptions": {
+          "pinyin": "yī tóu",
+          "numeric": "yi1 tou2",
+          "wadegiles": "i¹ t'ou²",
+          "bopomofo": "ㄧ ㄊㄡˊ",
+          "romatzyh": "i tour"
+        },
+        "meanings": [
+          "one head",
+          "a head full of sth",
+          "one end (of a stick)",
+          "one side",
+          "headlong",
+          "directly",
+          "rapidly",
+          "simultaneously"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一味",
+    "radical": "一",
+    "frequency": 21515,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "一味",
+        "transcriptions": {
+          "pinyin": "yī wèi",
+          "numeric": "yi1 wei4",
+          "wadegiles": "i¹ wei⁴",
+          "bopomofo": "ㄧ ㄨㄟˋ",
+          "romatzyh": "i wey"
+        },
+        "meanings": [
+          "blindly",
+          "invariably"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一无所有",
+    "radical": "一",
+    "frequency": 11565,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "一無所有",
+        "transcriptions": {
+          "pinyin": "yī wú suǒ yǒu",
+          "numeric": "yi1 wu2 suo3 you3",
+          "wadegiles": "i¹ wu² so³ yu³",
+          "bopomofo": "ㄧ ㄨˊ ㄙㄨㄛˇ ㄧㄡˇ",
+          "romatzyh": "i wu suoo yeou"
+        },
+        "meanings": [
+          "not having anything at all (idiom); utterly lacking",
+          "without two sticks to rub together"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一无所知",
+    "radical": "一",
+    "frequency": 11975,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "一無所知",
+        "transcriptions": {
+          "pinyin": "yī wú suǒ zhī",
+          "numeric": "yi1 wu2 suo3 zhi1",
+          "wadegiles": "i¹ wu² so³ chih¹",
+          "bopomofo": "ㄧ ㄨˊ ㄙㄨㄛˇ ㄓ",
+          "romatzyh": "i wu suoo jy"
+        },
+        "meanings": [
+          "not knowing anything at all (idiom); completely ignorant",
+          "without an inkling"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一系列",
+    "radical": "一",
+    "frequency": 24973,
+    "pos": [
+      "b"
+    ],
+    "forms": [
+      {
+        "traditional": "一系列",
+        "transcriptions": {
+          "pinyin": "yī xì liè",
+          "numeric": "yi1 xi4 lie4",
+          "wadegiles": "i¹ hsi⁴ lieh⁴",
+          "bopomofo": "ㄧ ㄒㄧˋ ㄌㄧㄝˋ",
+          "romatzyh": "i shih lieh"
+        },
+        "meanings": [
+          "a series of",
+          "a string of"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一下儿",
+    "radical": "一",
+    "frequency": 1000000,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "一下兒",
+        "transcriptions": {
+          "pinyin": "yī xià r",
+          "numeric": "yi1 xia4 r5",
+          "wadegiles": "i¹ hsia⁴ r",
+          "bopomofo": "ㄧ ㄒㄧㄚˋ r",
+          "romatzyh": "i shiah r"
+        },
+        "meanings": [
+          "erhua variant of 下"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一下子",
+    "radical": "一",
+    "frequency": 4322,
+    "pos": [
+      "mq",
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "一下子",
+        "transcriptions": {
+          "pinyin": "yī xià zi",
+          "numeric": "yi1 xia4 zi5",
+          "wadegiles": "i¹ hsia⁴ zi",
+          "bopomofo": "ㄧ ㄒㄧㄚˋ zi",
+          "romatzyh": "i shiah zi"
+        },
+        "meanings": [
+          "in a short while",
+          "all at once",
+          "all of a sudden"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一线",
+    "radical": "一",
+    "frequency": 7391,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "一線",
+        "transcriptions": {
+          "pinyin": "yī xiàn",
+          "numeric": "yi1 xian4",
+          "wadegiles": "i¹ hsien⁴",
+          "bopomofo": "ㄧ ㄒㄧㄢˋ",
+          "romatzyh": "i shiann"
+        },
+        "meanings": [
+          "front line"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一向",
+    "radical": "一",
+    "frequency": 4429,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "一向",
+        "transcriptions": {
+          "pinyin": "yī xiàng",
+          "numeric": "yi1 xiang4",
+          "wadegiles": "i¹ hsiang⁴",
+          "bopomofo": "ㄧ ㄒㄧㄤˋ",
+          "romatzyh": "i shianq"
+        },
+        "meanings": [
+          "always (previously)",
+          "a period of time in the recent past"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一些",
+    "radical": "一",
+    "frequency": 187,
+    "pos": [
+      "mq"
+    ],
+    "forms": [
+      {
+        "traditional": "一些",
+        "transcriptions": {
+          "pinyin": "yī xiē",
+          "numeric": "yi1 xie1",
+          "wadegiles": "i¹ hsieh¹",
+          "bopomofo": "ㄧ ㄒㄧㄝ",
+          "romatzyh": "i shie"
+        },
+        "meanings": [
+          "some",
+          "a few",
+          "a little",
+          "(following an adjective) slightly ...er"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一心",
+    "radical": "一",
+    "frequency": 9183,
+    "pos": [
+      "d",
+      "nr"
+    ],
+    "forms": [
+      {
+        "traditional": "一心",
+        "transcriptions": {
+          "pinyin": "yī xīn",
+          "numeric": "yi1 xin1",
+          "wadegiles": "i¹ hsin¹",
+          "bopomofo": "ㄧ ㄒㄧㄣ",
+          "romatzyh": "i shin"
+        },
+        "meanings": [
+          "wholeheartedly",
+          "heart and soul"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一心一意",
+    "radical": "一",
+    "frequency": 19090,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "一心一意",
+        "transcriptions": {
+          "pinyin": "yī xīn yī yì",
+          "numeric": "yi1 xin1 yi1 yi4",
+          "wadegiles": "i¹ hsin¹ i¹ i⁴",
+          "bopomofo": "ㄧ ㄒㄧㄣ ㄧ ㄧˋ",
+          "romatzyh": "i shin i yih"
+        },
+        "meanings": [
+          "concentrating one's thoughts and efforts",
+          "single-minded",
+          "bent on",
+          "intently"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一行",
+    "radical": "一",
+    "frequency": 13419,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "一行",
+        "transcriptions": {
+          "pinyin": "yī xíng",
+          "numeric": "yi1 xing2",
+          "wadegiles": "i¹ hsing²",
+          "bopomofo": "ㄧ ㄒㄧㄥˊ",
+          "romatzyh": "i shyng"
+        },
+        "meanings": [
+          "party",
+          "delegation"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一言不发",
+    "radical": "一",
+    "frequency": 18750,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "一言不發",
+        "transcriptions": {
+          "pinyin": "yī yán bù fā",
+          "numeric": "yi1 yan2 bu4 fa1",
+          "wadegiles": "i¹ yan² pu⁴ fa¹",
+          "bopomofo": "ㄧ ㄧㄢˊ ㄅㄨˋ ㄈㄚ",
+          "romatzyh": "i yan buh fa"
+        },
+        "meanings": [
+          "to not say a word (idiom)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一言一行",
+    "radical": "一",
+    "frequency": 37817,
+    "pos": [
+      "l"
+    ],
+    "forms": [
+      {
+        "traditional": "一言一行",
+        "transcriptions": {
+          "pinyin": "yī yán yī xíng",
+          "numeric": "yi1 yan2 yi1 xing2",
+          "wadegiles": "i¹ yan² i¹ hsing²",
+          "bopomofo": "ㄧ ㄧㄢˊ ㄧ ㄒㄧㄥˊ",
+          "romatzyh": "i yan i shyng"
+        },
+        "meanings": [
+          "every word and action (idiom)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一眼",
+    "radical": "一",
+    "frequency": 12941,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "一眼",
+        "transcriptions": {
+          "pinyin": "yī yǎn",
+          "numeric": "yi1 yan3",
+          "wadegiles": "i¹ yan³",
+          "bopomofo": "ㄧ ㄧㄢˇ",
+          "romatzyh": "i yean"
+        },
+        "meanings": [
+          "a glance",
+          "a quick look",
+          "a glimpse"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一样",
+    "radical": "一",
+    "frequency": 235,
+    "pos": [
+      "u",
+      "a",
+      "ad"
+    ],
+    "forms": [
+      {
+        "traditional": "一樣",
+        "transcriptions": {
+          "pinyin": "yī yàng",
+          "numeric": "yi1 yang4",
+          "wadegiles": "i¹ yang⁴",
+          "bopomofo": "ㄧ ㄧㄤˋ",
+          "romatzyh": "i yanq"
+        },
+        "meanings": [
+          "same",
+          "like",
+          "equal to",
+          "the same as",
+          "just like"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一一",
+    "radical": "一",
+    "frequency": 2016,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "一一",
+        "transcriptions": {
+          "pinyin": "yī yī",
+          "numeric": "yi1 yi1",
+          "wadegiles": "i¹ i¹",
+          "bopomofo": "ㄧ ㄧ",
+          "romatzyh": "i i"
+        },
+        "meanings": [
+          "one by one",
+          "one after another"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一应俱全",
+    "radical": "一",
+    "frequency": 31560,
+    "pos": [
+      "v"
+    ],
+    "forms": [
+      {
+        "traditional": "一應俱全",
+        "transcriptions": {
+          "pinyin": "yī yīng jù quán",
+          "numeric": "yi1 ying1 ju4 quan2",
+          "wadegiles": "i¹ ying¹ chü⁴ ch'üan²",
+          "bopomofo": "ㄧ ㄧㄥ ㄐㄩˋ ㄑㄩㄢˊ",
+          "romatzyh": "i ing jiuh chyuan"
+        },
+        "meanings": [
+          "with everything needed available"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一再",
+    "radical": "一",
+    "frequency": 10127,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "一再",
+        "transcriptions": {
+          "pinyin": "yī zài",
+          "numeric": "yi1 zai4",
+          "wadegiles": "i¹ tsai⁴",
+          "bopomofo": "ㄧ ㄗㄞˋ",
+          "romatzyh": "i tzay"
+        },
+        "meanings": [
+          "repeatedly"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一早",
+    "radical": "一",
+    "frequency": 6719,
+    "pos": [
+      "t"
+    ],
+    "forms": [
+      {
+        "traditional": "一早",
+        "transcriptions": {
+          "pinyin": "yī zǎo",
+          "numeric": "yi1 zao3",
+          "wadegiles": "i¹ tsao³",
+          "bopomofo": "ㄧ ㄗㄠˇ",
+          "romatzyh": "i tzao"
+        },
+        "meanings": [
+          "early in the morning",
+          "at dawn"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一长一短",
+    "radical": "一",
+    "frequency": 110959,
+    "pos": [],
+    "forms": [
+      {
+        "traditional": "一長一短",
+        "transcriptions": {
+          "pinyin": "yī cháng yī duǎn",
+          "numeric": "yi1 chang2 yi1 duan3",
+          "wadegiles": "i¹ ch'ang² i¹ tuan³",
+          "bopomofo": "ㄧ ㄔㄤˊ ㄧ ㄉㄨㄢˇ",
+          "romatzyh": "i charng i doan"
+        },
+        "meanings": [
+          "talking endlessly; long-winded"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一阵",
+    "radical": "一",
+    "frequency": 3300,
+    "pos": [
+      "mq"
+    ],
+    "forms": [
+      {
+        "traditional": "一陣",
+        "transcriptions": {
+          "pinyin": "yī zhèn",
+          "numeric": "yi1 zhen4",
+          "wadegiles": "i¹ chen⁴",
+          "bopomofo": "ㄧ ㄓㄣˋ",
+          "romatzyh": "i jenn"
+        },
+        "meanings": [
+          "a burst",
+          "a fit",
+          "a peal",
+          "a spell (period of time)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一直",
+    "radical": "一",
+    "frequency": 203,
+    "pos": [
+      "d"
+    ],
+    "forms": [
+      {
+        "traditional": "一直",
+        "transcriptions": {
+          "pinyin": "yī zhí",
+          "numeric": "yi1 zhi2",
+          "wadegiles": "i¹ chih²",
+          "bopomofo": "ㄧ ㄓˊ",
+          "romatzyh": "i jyr"
+        },
+        "meanings": [
+          "straight (in a straight line)",
+          "continuously; always; all the way through"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "一致",
+    "radical": "一",
+    "frequency": 1957,
+    "pos": [
+      "a",
+      "an",
+      "ad",
+      "nz"
+    ],
+    "forms": [
+      {
+        "traditional": "一致",
+        "transcriptions": {
+          "pinyin": "yī zhì",
+          "numeric": "yi1 zhi4",
+          "wadegiles": "i¹ chih⁴",
+          "bopomofo": "ㄧ ㄓˋ",
+          "romatzyh": "i jyh"
+        },
+        "meanings": [
+          "unanimous",
+          "identical (views or opinions)"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "伊斯兰教",
+    "radical": "亻",
+    "frequency": 18822,
+    "pos": [
+      "nz"
+    ],
+    "forms": [
+      {
+        "traditional": "伊斯蘭教",
+        "transcriptions": {
+          "pinyin": "Yī sī lán jiào",
+          "numeric": "Yi1 si1 lan2 jiao4",
+          "wadegiles": "i¹ ssu¹ lan² chiao⁴",
+          "bopomofo": "ㄧ ㄙ ㄌㄢˊ ㄐㄧㄠˋ",
+          "romatzyh": "i sy lan jiaw"
+        },
+        "meanings": [
+          "Islam"
+        ],
+        "classifiers": []
+      }
+    ]
+  },
+  {
+    "simplified": "衣服",
+    "radical": "衣",
+    "frequency": 1472,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "衣服",
+        "transcriptions": {
+          "pinyin": "yī fu",
+          "numeric": "yi1 fu5",
+          "wadegiles": "i¹ fu",
+          "bopomofo": "ㄧ fu",
+          "romatzyh": "i fu"
+        },
+        "meanings": [
+          "clothes"
+        ],
+        "classifiers": [
+          "件",
+          "套"
+        ]
+      }
+    ]
+  },
+  {
+    "simplified": "衣架",
+    "radical": "衣",
+    "frequency": 32226,
+    "pos": [
+      "n"
+    ],
+    "forms": [
+      {
+        "traditional": "衣架",
+        "transcriptions": {
+          "pinyin": "yī jià",
+          "numeric": "yi1 jia4",
+          "wadegiles": "i¹ chia⁴",
+          "bopomofo": "ㄧ ㄐㄧㄚˋ",
+          "romatzyh": "i jiah"
+        },
+        "meanings": [
+          "clothes hanger",
+          "clothes rack"
+        ],
+        "classifiers": []
+      }
+    ]
+  }
+]
