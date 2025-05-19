@@ -134,7 +134,7 @@ class AudioService {
   /**
    * Check if audio is available for a specific text
    */
-  public hasAudio(text: string, language: 'vietnamese' | 'chinese'): boolean {
+  public hasAudio(_text: string, _language: 'vietnamese' | 'chinese'): boolean {
     return this.webSpeechAvailable;
   }
 }
