@@ -2,7 +2,6 @@ import { useState, useEffect, useCallback } from 'react';
 import { ReadingPassage, VocabularyItem } from '../../../types';
 import VocabPopover from './VocabPopover';
 import AudioButton from '../../common/AudioButton';
-import audioService from '../../../utils/audioService';
 
 interface PassageDetailProps {
   passage: ReadingPassage;
