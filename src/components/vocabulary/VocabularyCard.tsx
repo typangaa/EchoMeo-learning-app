@@ -25,6 +25,28 @@ const VocabularyCard: React.FC<VocabularyCardProps> = ({ item }) => {
     }
   };
   
+  // Create a wrapper for AudioButton that prevents event propagation
+  const AudioButtonWrapper = ({ text, language, className, size }: { 
+    text: string; 
+    language: 'vietnamese' | 'chinese'; 
+    className?: string; 
+    size?: 'sm' | 'md' | 'lg' 
+  }) => {
+    const handleClick = (e: React.MouseEvent) => {
+      e.stopPropagation(); // Prevent the click from reaching the parent div
+    };
+    
+    return (
+      <span onClick={handleClick} className={className}>
+        <AudioButton 
+          text={text} 
+          language={language} 
+          size={size} 
+        />
+      </span>
+    );
+  };
+  
   return (
     <div 
       className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 cursor-pointer transition-all duration-300 hover:shadow-lg"
@@ -33,7 +55,7 @@ const VocabularyCard: React.FC<VocabularyCardProps> = ({ item }) => {
       <div className="flex justify-between items-start mb-2">
         <div className="flex items-center">
           <h3 className="text-lg font-bold vietnamese-text">{item.vietnamese}</h3>
-          <AudioButton 
+          <AudioButtonWrapper 
             text={item.vietnamese} 
             language="vietnamese" 
             className="ml-1" 
@@ -56,7 +78,7 @@ const VocabularyCard: React.FC<VocabularyCardProps> = ({ item }) => {
       
       <div className="flex items-center">
         <p className="text-lg mb-1 chinese-text">{item.chinese}</p>
-        <AudioButton 
+        <AudioButtonWrapper 
           text={item.chinese} 
           language="chinese" 
           className="ml-1" 
@@ -76,7 +98,7 @@ const VocabularyCard: React.FC<VocabularyCardProps> = ({ item }) => {
             <div key={index} className="mb-2">
               <div className="flex items-center">
                 <p className="text-sm vietnamese-text">{example.vietnamese}</p>
-                <AudioButton 
+                <AudioButtonWrapper 
                   text={example.vietnamese} 
                   language="vietnamese" 
                   className="ml-1" 
@@ -85,7 +107,7 @@ const VocabularyCard: React.FC<VocabularyCardProps> = ({ item }) => {
               </div>
               <div className="flex items-center">
                 <p className="text-sm chinese-text">{example.chinese}</p>
-                <AudioButton 
+                <AudioButtonWrapper 
                   text={example.chinese} 
                   language="chinese" 
                   className="ml-1" 

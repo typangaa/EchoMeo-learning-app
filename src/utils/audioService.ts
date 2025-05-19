@@ -54,7 +54,7 @@ class AudioService {
       utterance.volume = this.volume;
       
       // Set rate (slightly slower for learning)
-      utterance.rate = language === 'vietnamese' ? 0.9 : 0.8;
+      utterance.rate = language === 'vietnamese' ? 0.8 : 0.85;
       
       // Handle events
       utterance.onend = () => resolve();

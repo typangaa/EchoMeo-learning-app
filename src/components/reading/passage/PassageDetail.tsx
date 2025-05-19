@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { ReadingPassage, VocabularyItem } from '../../../types';
 import VocabPopover from './VocabPopover';
 import AudioButton from '../../common/AudioButton';
+import audioService from '../../../utils/audioService';
 
 interface PassageDetailProps {
   passage: ReadingPassage;
@@ -15,6 +16,7 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
   const [layoutMode, setLayoutMode] = useState<LayoutMode>('parallel');
   const [showPinyin, setShowPinyin] = useState(true);
   const [currentlyPlayingIndex, setCurrentlyPlayingIndex] = useState<number | null>(null);
+  const [isPlayingFullPassage, setIsPlayingFullPassage] = useState(false);
   
   // Function to handle word click and display vocabulary popover
   const handleWordClick = useCallback((vocabItem: VocabularyItem, event: React.MouseEvent) => {
@@ -234,6 +236,39 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
     return result;
   }, [passage.vocabulary, handleWordClick]);
 
+  // Function to play the entire passage
+  const playFullPassage = async (language: 'vietnamese' | 'chinese') => {
+    if (isPlayingFullPassage) {
+      // Already playing, stop it
+      audioService.stop();
+      setIsPlayingFullPassage(false);
+      setCurrentlyPlayingIndex(null);
+      return;
+    }
+    
+    setIsPlayingFullPassage(true);
+    
+    try {
+      // Play the title first
+      setCurrentlyPlayingIndex(-1);
+      await audioService.playText(passage.title[language], language);
+      
+      // Play each paragraph sequentially
+      for (let i = 0; i < passage.paragraphs.length; i++) {
+        if (!isPlayingFullPassage) break; // Check if playback was stopped
+        
+        const index = language === 'vietnamese' ? i : i + 100;
+        setCurrentlyPlayingIndex(index);
+        await audioService.playText(passage.paragraphs[i][language], language);
+      }
+    } catch (error) {
+      console.error(`Error playing full passage in ${language}:`, error);
+    } finally {
+      setIsPlayingFullPassage(false);
+      setCurrentlyPlayingIndex(null);
+    }
+  };
+
   // Toggle between parallel and alternating layouts
   const toggleLayout = () => {
     setLayoutMode(prevMode => prevMode === 'parallel' ? 'alternating' : 'parallel');
@@ -250,14 +285,47 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
       <div className="space-y-4">
         <h3 className="font-medium text-lg border-b pb-2 flex items-center vietnamese-text">
           Tiếng Việt
-          <AudioButton 
-            text={passage.title.vietnamese}
-            language="vietnamese"
-            className="ml-2" 
-            size="sm" 
-            onPlayStart={() => setCurrentlyPlayingIndex(-1)}
-            onPlayEnd={() => setCurrentlyPlayingIndex(null)}
-          />
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              playFullPassage('vietnamese');
+            }}
+            className={`ml-2 inline-flex items-center justify-center rounded-full 
+                     ${isPlayingFullPassage && currentlyPlayingIndex !== null && currentlyPlayingIndex < 100 ? 
+                      'text-blue-800 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/50' : 
+                      'text-blue-600 dark:text-blue-400 hover:bg-blue-100 dark:hover:bg-blue-900/30'} 
+                     transition-colors p-1`}
+            title="Play full passage in Vietnamese"
+            aria-label="Play full passage in Vietnamese"
+          >
+            {isPlayingFullPassage && currentlyPlayingIndex !== null && currentlyPlayingIndex < 100 ? (
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 24 24" 
+                fill="currentColor" 
+                className="w-5 h-5 animate-pulse"
+              >
+                <rect x="1" y="7" width="3" height="10" rx="1.5"></rect>
+                <rect x="6" y="5" width="3" height="14" rx="1.5"></rect>
+                <rect x="11" y="3" width="3" height="18" rx="1.5"></rect>
+                <rect x="16" y="5" width="3" height="14" rx="1.5"></rect>
+                <rect x="21" y="7" width="3" height="10" rx="1.5"></rect>
+              </svg>
+            ) : (
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 24 24" 
+                fill="none" 
+                stroke="currentColor" 
+                strokeWidth="2" 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                className="w-5 h-5"
+              >
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+            )}
+          </button>
         </h3>
         {passage.paragraphs.map((para, index) => (
           <div 
@@ -270,7 +338,9 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
             <AudioButton 
               text={para.vietnamese}
               language="vietnamese"
-              className={`ml-2 self-start mt-1 ${currentlyPlayingIndex === index ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`}
+              className={`ml-2 self-start mt-1 ${
+                currentlyPlayingIndex === index ? 'opacity-100' : 
+                isPlayingFullPassage ? 'opacity-30' : 'opacity-0 group-hover:opacity-100'}`}
               size="sm"
               onPlayStart={() => setCurrentlyPlayingIndex(index)}
               onPlayEnd={() => setCurrentlyPlayingIndex(null)}
@@ -282,14 +352,47 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
       <div className="space-y-4">
         <h3 className="font-medium text-lg border-b pb-2 flex items-center chinese-text">
           中文
-          <AudioButton 
-            text={passage.title.chinese}
-            language="chinese"
-            className="ml-2" 
-            size="sm"
-            onPlayStart={() => setCurrentlyPlayingIndex(-1)}
-            onPlayEnd={() => setCurrentlyPlayingIndex(null)}
-          />
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              playFullPassage('chinese');
+            }}
+            className={`ml-2 inline-flex items-center justify-center rounded-full 
+                     ${isPlayingFullPassage && currentlyPlayingIndex !== null && currentlyPlayingIndex >= 100 ? 
+                      'text-blue-800 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/50' : 
+                      'text-blue-600 dark:text-blue-400 hover:bg-blue-100 dark:hover:bg-blue-900/30'} 
+                     transition-colors p-1`}
+            title="Play full passage in Chinese"
+            aria-label="Play full passage in Chinese"
+          >
+            {isPlayingFullPassage && currentlyPlayingIndex !== null && currentlyPlayingIndex >= 100 ? (
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 24 24" 
+                fill="currentColor" 
+                className="w-5 h-5 animate-pulse"
+              >
+                <rect x="1" y="7" width="3" height="10" rx="1.5"></rect>
+                <rect x="6" y="5" width="3" height="14" rx="1.5"></rect>
+                <rect x="11" y="3" width="3" height="18" rx="1.5"></rect>
+                <rect x="16" y="5" width="3" height="14" rx="1.5"></rect>
+                <rect x="21" y="7" width="3" height="10" rx="1.5"></rect>
+              </svg>
+            ) : (
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 24 24" 
+                fill="none" 
+                stroke="currentColor" 
+                strokeWidth="2" 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                className="w-5 h-5"
+              >
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+            )}
+          </button>
         </h3>
         {passage.paragraphs.map((para, index) => (
           <div key={`cn-${index}`} className="mb-4 group">
@@ -300,7 +403,9 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
               <AudioButton 
                 text={para.chinese}
                 language="chinese"
-                className={`ml-2 self-start mt-1 ${currentlyPlayingIndex === (index + 100) ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`}
+                className={`ml-2 self-start mt-1 ${
+                  currentlyPlayingIndex === (index + 100) ? 'opacity-100' : 
+                  isPlayingFullPassage ? 'opacity-30' : 'opacity-0 group-hover:opacity-100'}`}
                 size="sm"
                 onPlayStart={() => setCurrentlyPlayingIndex(index + 100)}
                 onPlayEnd={() => setCurrentlyPlayingIndex(null)}
@@ -329,7 +434,9 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
             <AudioButton 
               text={para.vietnamese}
               language="vietnamese"
-              className={`ml-2 self-start mt-1 ${currentlyPlayingIndex === index ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`}
+              className={`ml-2 self-start mt-1 ${
+                currentlyPlayingIndex === index ? 'opacity-100' : 
+                isPlayingFullPassage ? 'opacity-30' : 'opacity-0 group-hover:opacity-100'}`}
               size="sm"
               onPlayStart={() => setCurrentlyPlayingIndex(index)}
               onPlayEnd={() => setCurrentlyPlayingIndex(null)}
@@ -343,7 +450,9 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
               <AudioButton 
                 text={para.chinese}
                 language="chinese"
-                className={`ml-2 self-start mt-1 ${currentlyPlayingIndex === (index + 100) ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`}
+                className={`ml-2 self-start mt-1 ${
+                  currentlyPlayingIndex === (index + 100) ? 'opacity-100' : 
+                  isPlayingFullPassage ? 'opacity-30' : 'opacity-0 group-hover:opacity-100'}`}
                 size="sm"
                 onPlayStart={() => setCurrentlyPlayingIndex(index + 100)}
                 onPlayEnd={() => setCurrentlyPlayingIndex(null)}
@@ -422,7 +531,7 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
       )}
       
       <div className="mt-8 border-t pt-4 text-sm text-gray-600 dark:text-gray-400">
-        <p>Hover over vocabulary words and click to see translations and details. Hover over paragraphs to reveal audio buttons.</p>
+        <p>Hover over vocabulary words and click to see translations and details. Click the play button next to "Tiếng Việt" or "中文" to listen to the entire passage.</p>
       </div>
     </div>
   );
