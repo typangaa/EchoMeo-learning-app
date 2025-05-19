@@ -11,7 +11,7 @@ Visit the live application at: [https://typangaa.github.io/vietnamese-chinese-le
 - **Vocabulary Learning**: Organized by CEFR levels (A1, A2, B1, B2, C1, C2) and categories
 - **Flashcard Practice**: Spaced repetition system for optimized learning
 - **Reading Practice**: Parallel texts in Vietnamese and Chinese with interactive vocabulary lookup
-- **Audio Pronunciation**: Text-to-speech functionality for vocabulary and example sentences
+- **Audio Pronunciation**: Text-to-speech functionality using Web Speech API for vocabulary and examples
 - **Progress Tracking**: User progress tracking across vocabulary and reading
 - **Responsive Design**: Mobile-friendly interface with dark mode support
 
@@ -21,6 +21,7 @@ Visit the live application at: [https://typangaa.github.io/vietnamese-chinese-le
 - **Build Tool**: Vite for fast development and optimized builds
 - **Routing**: React Router with HashRouter for GitHub Pages compatibility
 - **Styling**: Tailwind CSS
+- **Speech Synthesis**: Web Speech API for text-to-speech
 - **Deployment**: GitHub Pages
 
 ## Project Setup
@@ -29,7 +30,7 @@ Visit the live application at: [https://typangaa.github.io/vietnamese-chinese-le
 
 - Node.js (v16.0.0 or later)
 - npm (v8.0.0 or later)
-- Python (v3.8 or later) - only required for audio generation and data processing scripts
+- Modern browser with Web Speech API support (Chrome, Edge, Safari, Firefox)
 
 ### Installation
 
@@ -75,11 +76,8 @@ npm run deploy
 vietnamese-chinese-learning/
 ├── dist/               # Production build files
 ├── public/             # Static files served as-is
-│   └── audio/          # Generated audio files for pronunciation
 ├── scripts/            # Utility scripts for development and data processing
 │   ├── data/           # Data files for scripts
-│   ├── generate_audio.py     # Script for generating TTS audio files
-│   ├── generate_audio.bat    # Windows batch file to run the audio generation script
 │   ├── hsk_vocabulary_processor.py   # Script for processing HSK vocabulary
 │   └── vocabulary_enrichment.py      # Script for enriching vocabulary data
 ├── src/                # Source code
@@ -126,18 +124,17 @@ vietnamese-chinese-learning/
 
 ### Audio Feature System
 
-- **AudioService**: A singleton service that manages audio playback, with fallback to Web Speech API when pre-generated audio is not available. It handles both Vietnamese and Chinese pronunciation.
+- **AudioService**: A singleton service that manages text-to-speech playback using the Web Speech API. It handles both Vietnamese and Chinese pronunciation.
 - **AudioButton**: A reusable component that triggers audio playback for vocabulary items and example sentences.
-- **Audio Generation Scripts**: Located in the scripts folder, these Python scripts generate MP3 files for vocabulary items using Text-to-Speech services.
 
 #### Audio Feature Implementation Details
 
 1. **Audio Service (`audioService.ts`)**:
    - Provides a centralized interface for playing audio across the application
-   - Maps vocabulary and passages to their corresponding audio files
-   - Implements fallback to Web Speech API when pre-generated audio files are not available
-   - Offers methods for preloading audio to improve user experience
+   - Uses the Web Speech API to synthesize speech for Vietnamese and Chinese text
+   - Offers different voices and speed settings optimized for language learning
    - Controls audio volume and playback settings
+   - Handles browser compatibility and fallbacks
 
 2. **Audio Button Component**:
    - Renders a small speaker icon next to vocabulary items
@@ -145,14 +142,7 @@ vietnamese-chinese-learning/
    - Shows animation during playback
    - Adapts to different sizes for various UI contexts
 
-3. **Audio Generation Pipeline**:
-   - `generate_audio.py`: Script that processes vocabulary and reading passages to generate MP3 files
-   - Uses Text-to-Speech services to create natural pronunciation
-   - Generates audio for both Vietnamese and Chinese text
-   - Creates an audio mapping file that links text to corresponding audio files
-   - Audio files are stored in the `/public/audio/` directory for serving with the application
-
-4. **Integration with Learning Components**:
+3. **Integration with Learning Components**:
    - Vocabulary cards include audio buttons for both languages
    - Example sentences feature pronunciation
    - Reading passages can be played for pronunciation practice
@@ -180,24 +170,6 @@ The progress tracking system is implemented in `progressTracking.ts` and provide
 
 ## Scripts Usage
 
-### Audio Generation
-
-To generate audio files for vocabulary items and reading passages:
-
-1. Ensure you have Python 3.8+ installed with required packages
-2. Run the audio generation script:
-   ```bash
-   cd scripts
-   python generate_audio.py
-   ```
-   or use the batch file on Windows:
-   ```bash
-   cd scripts
-   generate_audio.bat
-   ```
-
-3. See `TTS_IMPLEMENTATION_GUIDE.md` in the scripts folder for detailed configuration options
-
 ### HSK Vocabulary Processing
 
 To process HSK vocabulary data:
@@ -214,7 +186,7 @@ python hsk_vocabulary_processor.py
 - **Blank page on GitHub Pages**: Make sure base path is correctly set in vite.config.ts
 - **Routing issues**: The application uses HashRouter for GitHub Pages compatibility
 - **MIME type errors**: Check asset path references in index.html and vite.config.ts
-- **Audio not playing**: Verify that audio files exist in the public/audio directory and check browser console for errors
+- **Audio not playing**: Ensure your browser supports the Web Speech API and has the appropriate language packs installed. Check if the browser allows autoplay of audio content.
 
 ## Contributing
 
@@ -228,4 +200,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Noto Sans fonts for Vietnamese and Chinese text support
 - React and Vite communities for excellent documentation
+- Web Speech API for providing text-to-speech functionality
 - Contributors to the open-source libraries used in this project
