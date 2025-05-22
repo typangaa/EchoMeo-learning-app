@@ -8,22 +8,25 @@ import FlashcardPage from './pages/FlashcardPage';
 
 import Layout from './components/common/Layout';
 import NotFoundPage from './pages/NotFoundPage';
+import { AudioProvider } from './contexts/AudioContext';
 
 function App() {
   return (
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<HomePage />} />
-          <Route path="vocabulary" element={<VocabularyPage />} />
-          <Route path="hsk" element={<HSKVocabularyPage />} />
-          <Route path="flashcards" element={<FlashcardPage />} />
-          <Route path="reading" element={<ReadingPage />} />
-          <Route path="reading/:id" element={<PassageDetailPage />} />
-          <Route path="*" element={<NotFoundPage />} />
-        </Route>
-      </Routes>
-    </HashRouter>
+    <AudioProvider>
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<HomePage />} />
+            <Route path="vocabulary" element={<VocabularyPage />} />
+            <Route path="hsk" element={<HSKVocabularyPage />} />
+            <Route path="flashcards" element={<FlashcardPage />} />
+            <Route path="reading" element={<ReadingPage />} />
+            <Route path="reading/:id" element={<PassageDetailPage />} />
+            <Route path="*" element={<NotFoundPage />} />
+          </Route>
+        </Routes>
+      </HashRouter>
+    </AudioProvider>
   );
 }
 

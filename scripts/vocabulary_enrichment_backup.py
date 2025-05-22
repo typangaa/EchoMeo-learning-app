@@ -32,12 +32,10 @@ def create_system_prompt():
 请首先用中文思考词汇的含义和用法，因为从中文思考可以更准确地把握词义。Think in Chinese first to better grasp the meaning before translating.
 
 For each Chinese vocabulary item provided, you will:
-1. Identify the most common 2-4 meanings (in Chinese, English, and Vietnamese)
-2. Provide Chinese definitions for each meaning
-3. Provide English translations for each meaning
-4. Provide Vietnamese translations for each meaning
-5. Create simple example sentences that show how the vocabulary item is used
-6. Rank the meanings by frequency of usage
+1. Identify the most common 2-4 meanings (in English)
+2. Provide Vietnamese translations for each meaning
+3. Create simple example sentences that show how the vocabulary item is used
+4. Rank the meanings by frequency of usage
 
 FOLLOW THIS EXACT JSON STRUCTURE:
 {
@@ -45,7 +43,6 @@ FOLLOW THIS EXACT JSON STRUCTURE:
   "pinyin": "hàn zì",
   "meanings": [
     {
-      "chinese": "中文含义；另一个中文含义；第三个含义",
       "english": "primary meaning in English; alternative meaning; another alternative",
       "vietnamese": "Vietnamese translation; alternative translation; another alternative",
       "part_of_speech": "n/v/adj/etc",
@@ -66,7 +63,6 @@ FOLLOW THIS EXACT JSON STRUCTURE:
       ]
     },
     {
-      "chinese": "第二个中文含义；替代含义",
       "english": "secondary meaning; alternative meaning",
       "vietnamese": "Vietnamese translation; alternative translation",
       "part_of_speech": "n/v/adj/etc",
@@ -79,10 +75,9 @@ FOLLOW THIS EXACT JSON STRUCTURE:
 CRITICAL GUIDELINES:
 * Begin by thinking in Chinese (中文) about the vocabulary item's meanings and usage
 * MUST include 2-4 most common meanings - quality over quantity
-* MUST separate alternative meanings with semicolons and spaces " ; " (e.g., "好的；不错的；很棒的")
+* MUST separate alternative meanings with semicolons and spaces " ; " (e.g., "good ; nice ; fine")
 * NEVER use forward slashes (/) to separate meanings
-* ALL "chinese", "english" and "vietnamese" fields MUST follow the semicolon format for alternatives
-* Chinese definitions should be natural and clear, as if explaining to a Chinese learner
+* ALL "english" and "vietnamese" fields MUST follow the semicolon format for alternatives
 * Examples MUST be simple and suitable for beginners (HSK1-3 level)
 * MUST provide full Vietnamese translations for ALL examples
 * MUST use the correct pinyin with tones for ALL Chinese text
@@ -96,7 +91,6 @@ For vocabulary item "好":
   "pinyin": "hǎo",
   "meanings": [
     {
-      "chinese": "好的；不错的；很棒的",
       "english": "good ; nice ; fine",
       "vietnamese": "tốt ; hay ; được",
       "part_of_speech": "adj",
@@ -117,7 +111,6 @@ For vocabulary item "好":
       ]
     },
     {
-      "chinese": "身体健康；状态良好",
       "english": "to be okay ; to be well",
       "vietnamese": "khỏe ; ổn",
       "part_of_speech": "v",
@@ -178,7 +171,7 @@ def enrich_vocabulary_item(item: str, config: EnrichmentConfig,
     system_prompt = create_system_prompt()
     
     # Create context-rich prompt
-    context = f"Provide detailed meanings, Chinese definitions, English translations, Vietnamese translations, and examples for this Chinese vocabulary item:\n\nItem: {item}"
+    context = f"Provide detailed meanings, Vietnamese translations, and examples for this Chinese vocabulary item:\n\nItem: {item}"
     
     if provided_pinyin:
         context += f"\nPinyin: {provided_pinyin}"
@@ -188,15 +181,14 @@ def enrich_vocabulary_item(item: str, config: EnrichmentConfig,
     
     user_prompt = f"""{context}
 
-请先用中文思考这个词的含义和用法，然后再翻译。首先理解这个词在中文中的确切含义，然后提供中文定义、精确的英语和越南语翻译。
+请先用中文思考这个词的含义和用法，然后再翻译。首先理解这个词在中文中的确切含义，然后提供精确的英语和越南语翻译。
 
 Remember:
-1. Provide Chinese definitions for each meaning (use " ; " between alternatives)
-2. Use " ; " (semicolons with spaces) between alternative meanings in all languages
-3. Provide complete Vietnamese translations for ALL examples
-4. Include 2-4 meanings maximum, ordered by frequency of use
-5. Keep examples simple (HSK1-3 level)
-6. Respond ONLY with the complete JSON structure with no additional text"""
+1. Use " ; " (semicolons with spaces) between alternative meanings
+2. Provide complete Vietnamese translations for ALL examples
+3. Include 2-4 meanings maximum, ordered by frequency of use
+4. Keep examples simple (HSK1-3 level)
+5. Respond ONLY with the complete JSON structure with no additional text"""
     
     # Always log input prompts
     logging.info(f"Processing vocabulary item: {item}")
@@ -240,15 +232,14 @@ In a previous attempt to generate JSON for the vocabulary item "{item}", your re
 
 {first_attempt_response}
 
-请再次用中文思考这个词的含义，然后提供完整的JSON响应，包括中文定义。
+请再次用中文思考这个词的含义，然后提供完整的JSON响应。
 
 Please provide a COMPLETE and VALID JSON response for this vocabulary item. Pay special attention to:
-1. Including Chinese definitions for each meaning
-2. Ensuring ALL Vietnamese translations are complete (especially in the examples section)
-3. Including all closing quotes and brackets
-4. Using proper JSON formatting throughout
-5. Using semicolons with spaces " ; " between alternative meanings in ALL languages (NOT forward slashes)
-6. Including ALL fields in the requested structure
+1. Ensuring ALL Vietnamese translations are complete (especially in the examples section)
+2. Including all closing quotes and brackets
+3. Using proper JSON formatting throughout
+4. Using semicolons with spaces " ; " between alternative meanings (NOT forward slashes)
+5. Including ALL fields in the requested structure
 
 The JSON MUST be complete and valid. Do not truncate or abbreviate any part of it."""
 
@@ -297,11 +288,9 @@ The JSON MUST be complete and valid. Do not truncate or abbreviate any part of i
                         # Try to parse the JSON
                         enriched_data = json.loads(json_str)
                         
-                        # Standardize formats for all language fields
+                        # Standardize formats
                         if "meanings" in enriched_data:
                             for meaning in enriched_data["meanings"]:
-                                if "chinese" in meaning:
-                                    meaning["chinese"] = standardize_format(meaning["chinese"], config)
                                 if "english" in meaning:
                                     meaning["english"] = standardize_format(meaning["english"], config)
                                 if "vietnamese" in meaning:

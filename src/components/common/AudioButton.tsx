@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import audioService from '../../utils/audioService';
+import { useAudio } from '../../contexts/AudioContext';
 
 interface AudioButtonProps {
   text: string;
@@ -18,25 +19,71 @@ const AudioButton: React.FC<AudioButtonProps> = ({
   onPlayStart,
   onPlayEnd
 }) => {
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlayingLocal, setIsPlayingLocal] = useState(false);
   
-  const handlePlay = () => {
-    if (isPlaying) return; // Prevent multiple clicks
+  // Get audio context to coordinate with full passage playback
+  const { 
+    state: audioState, 
+    stopAllAudio, 
+    startIndividualPlayback, 
+    stopIndividualPlayback 
+  } = useAudio();
+  
+  // Check if this specific text is currently playing
+  const isThisTextPlaying = audioState.isIndividualPlaying && 
+                           audioState.currentIndividualText === text &&
+                           isPlayingLocal;
+
+  // Stop local playback if another audio starts playing
+  useEffect(() => {
+    if (audioState.isPlaying || 
+        (audioState.isIndividualPlaying && audioState.currentIndividualText !== text)) {
+      if (isPlayingLocal) {
+        console.log('[DEBUG AudioButton] Stopping local playback due to other audio');
+        setIsPlayingLocal(false);
+      }
+    }
+  }, [audioState.isPlaying, audioState.isIndividualPlaying, audioState.currentIndividualText, text, isPlayingLocal]);
+
+  const handlePlay = async () => {
+    if (isPlayingLocal) {
+      console.log('[DEBUG AudioButton] Already playing this audio, stopping it');
+      stopAllAudio();
+      setIsPlayingLocal(false);
+      stopIndividualPlayback();
+      return;
+    }
     
-    setIsPlaying(true);
+    console.log(`[DEBUG AudioButton] Starting individual audio: "${text.substring(0, 30)}${text.length > 30 ? '...' : ''}" in ${language}`);
+    
+    // Stop any currently playing audio (passage or other individual audio)
+    stopAllAudio();
+    
+    // Wait a moment for the stop to take effect
+    await new Promise(resolve => setTimeout(resolve, 100));
+    
+    // Notify context that we're starting individual playback
+    startIndividualPlayback(text);
+    setIsPlayingLocal(true);
     onPlayStart?.();
     
-    audioService.playText(text, language)
-      .then(() => {
-        setIsPlaying(false);
-        onPlayEnd?.();
-      })
-      .catch(error => {
-        console.error('Error playing audio:', error);
-        setIsPlaying(false);
-        onPlayEnd?.();
-      });
+    try {
+      await audioService.playText(text, language);
+      console.log(`[DEBUG AudioButton] Successfully completed individual audio`);
+    } catch (error) {
+      console.error('[DEBUG AudioButton] Error playing individual audio:', error);
+    } finally {
+      // Only update state if this component is still the active one
+      if (audioState.currentIndividualText === text) {
+        setIsPlayingLocal(false);
+        stopIndividualPlayback();
+      }
+      onPlayEnd?.();
+    }
   };
+  
+  // Determine if this button should show as active
+  const isActive = isThisTextPlaying;
   
   // Determine icon size based on the size prop
   const iconSize = {
@@ -55,15 +102,15 @@ const AudioButton: React.FC<AudioButtonProps> = ({
   return (
     <button
       className={`inline-flex items-center justify-center rounded-full 
-                 ${isPlaying ? 'text-blue-800 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/50' : 'text-blue-600 dark:text-blue-400 hover:bg-blue-100 dark:hover:bg-blue-900/30'} 
+                 ${isActive ? 'text-blue-800 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/50' : 'text-blue-600 dark:text-blue-400 hover:bg-blue-100 dark:hover:bg-blue-900/30'} 
                  transition-colors ${buttonPadding} ${className}`}
       onClick={handlePlay}
-      disabled={isPlaying}
-      aria-label={`Play ${language === 'vietnamese' ? 'Vietnamese' : 'Chinese'} audio`}
-      title={`Play ${language === 'vietnamese' ? 'Vietnamese' : 'Chinese'} audio`}
+      disabled={false} // Allow clicking to stop if currently playing
+      aria-label={`${isActive ? 'Stop' : 'Play'} ${language === 'vietnamese' ? 'Vietnamese' : 'Chinese'} audio`}
+      title={`${isActive ? 'Stop' : 'Play'} ${language === 'vietnamese' ? 'Vietnamese' : 'Chinese'} audio`}
     >
       {/* Playing animation or static icon */}
-      {isPlaying ? (
+      {isActive ? (
         // Animated sound wave when playing
         <svg 
           xmlns="http://www.w3.org/2000/svg" 

@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { ReadingPassage, VocabularyItem } from '../../../types';
 import VocabPopover from './VocabPopover';
 import AudioButton from '../../common/AudioButton';
-import audioService from '../../../utils/audioService';
+import { useAudio } from '../../../contexts/AudioContext';
 
 interface PassageDetailProps {
   passage: ReadingPassage;
@@ -15,9 +15,12 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
   const [popoverPosition, setPopoverPosition] = useState({ top: 0, left: 0 });
   const [layoutMode, setLayoutMode] = useState<LayoutMode>('parallel');
   const [showPinyin, setShowPinyin] = useState(true);
-  const [currentlyPlayingIndex, setCurrentlyPlayingIndex] = useState<number | null>(null);
-  const [isPlayingFullPassage, setIsPlayingFullPassage] = useState(false);
-  const [playingLanguage, setPlayingLanguage] = useState<'vietnamese' | 'chinese' | null>(null);
+  
+  // Use the audio context
+  const { state: audioState, playPassage, stopPlayback } = useAudio();
+  
+  // Determine if this passage is currently being played
+  const isCurrentPassagePlaying = audioState.isPlaying && audioState.passageId === passage.id;
   
   // Function to handle word click and display vocabulary popover
   const handleWordClick = useCallback((vocabItem: VocabularyItem, event: React.MouseEvent) => {
@@ -62,14 +65,26 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
   // Clean up any playing audio when component unmounts
   useEffect(() => {
     return () => {
-      console.log('[DEBUG] Component unmounting, cleaning up audio');
-      audioService.stop();
+      console.log('[DEBUG PassageDetail] Component unmounting, cleaning up audio');
+      // Audio cleanup is handled by the AudioContext
     };
   }, []);
 
+  // Handler for playing/stopping full passage
+  const handlePassagePlayback = async (language: 'vietnamese' | 'chinese') => {
+    console.log(`[DEBUG PassageDetail] Handle playback for ${language}`);
+    
+    if (isCurrentPassagePlaying && audioState.language === language) {
+      console.log('[DEBUG PassageDetail] Stopping current playback');
+      stopPlayback();
+    } else {
+      console.log('[DEBUG PassageDetail] Starting new playback');
+      await playPassage(passage, language);
+    }
+  };
+
   // Process Vietnamese text to make vocabulary words clickable
   const processVietnameseText = useCallback((text: string) => {
-    // Create vocabulary map for faster lookups
     const vocabMap = new Map<string, VocabularyItem>();
     
     // Add single words
@@ -245,91 +260,6 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
     return result;
   }, [passage.vocabulary, handleWordClick]);
 
-  // Function to play the entire passage
-  const playFullPassage = async (language: 'vietnamese' | 'chinese') => {
-    // Create a reference to track if we're the current play session
-    const playSessionId = Date.now();
-    console.log(`[DEBUG] Starting playFullPassage for ${language}, session ID: ${playSessionId}`);
-    
-    // Use a local variable to prevent race conditions
-    let isCurrentlyPlaying = isPlayingFullPassage;
-    
-    if (isCurrentlyPlaying) {
-      console.log(`[DEBUG] Already playing, stopping current playback`);
-      // Already playing, stop it
-      audioService.stop();
-      setIsPlayingFullPassage(false);
-      setPlayingLanguage(null);
-      setCurrentlyPlayingIndex(null);
-      return;
-    }
-    
-    // Set local variable and React state
-    isCurrentlyPlaying = true;
-    setIsPlayingFullPassage(true);
-    setPlayingLanguage(language);
-    
-    try {
-      // Play the title first
-      const titleIndex = language === 'vietnamese' ? -1 : -2;
-      console.log(`[DEBUG] Playing title in ${language}`);
-      setCurrentlyPlayingIndex(titleIndex);
-      await audioService.playText(passage.title[language], language);
-      console.log(`[DEBUG] Finished playing title`);
-      
-      // Check if we've manually stopped playback
-      if (!isCurrentlyPlaying) {
-        console.log(`[DEBUG] Playback manually stopped after title`);
-        return;
-      }
-      
-      console.log(`[DEBUG] Starting to play paragraphs. Total paragraphs: ${passage.paragraphs.length}`);
-      // Play each paragraph sequentially
-      for (let i = 0; i < passage.paragraphs.length; i++) {
-        // Check if playback was stopped
-        if (!isCurrentlyPlaying) {
-          console.log(`[DEBUG] Playback manually stopped during paragraphs at index ${i}`);
-          break;
-        }
-        
-        const index = language === 'vietnamese' ? i : i + 100;
-        console.log(`[DEBUG] Playing paragraph ${i} in ${language}, index: ${index}`);
-        setCurrentlyPlayingIndex(index);
-        
-        try {
-          await audioService.playText(passage.paragraphs[i][language], language);
-          console.log(`[DEBUG] Successfully played paragraph ${i}`);
-        } catch (paraError) {
-          console.error(`[DEBUG] Error playing paragraph ${i}:`, paraError);
-        }
-        
-        // Small delay between paragraphs for natural pausing
-        console.log(`[DEBUG] Adding small delay between paragraphs`);
-        await new Promise(resolve => setTimeout(resolve, 300));
-      }
-      
-      console.log(`[DEBUG] Completed playing all paragraphs`);
-    } catch (error) {
-      console.error(`[DEBUG] Error playing full passage in ${language}:`, error);
-    } finally {
-      // Reset both local variable and React state
-      isCurrentlyPlaying = false;
-      console.log(`[DEBUG] Finishing playback session, cleaning up state`);
-      setIsPlayingFullPassage(false);
-      setPlayingLanguage(null);
-      setCurrentlyPlayingIndex(null);
-    }
-  };
-  
-  // Create a function specifically to stop playback
-  const stopPlayback = () => {
-    console.log(`[DEBUG] Manually stopping playback`);
-    audioService.stop();
-    setIsPlayingFullPassage(false);
-    setPlayingLanguage(null);
-    setCurrentlyPlayingIndex(null);
-  };
-
   // Toggle between parallel and alternating layouts
   const toggleLayout = () => {
     setLayoutMode(prevMode => prevMode === 'parallel' ? 'alternating' : 'parallel');
@@ -350,21 +280,17 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
             onClick={(e) => {
               e.preventDefault();
               e.stopPropagation();
-              if (isPlayingFullPassage && playingLanguage === 'vietnamese') {
-                stopPlayback();
-              } else {
-                playFullPassage('vietnamese');
-              }
+              handlePassagePlayback('vietnamese');
             }}
             className={`ml-2 inline-flex items-center justify-center rounded-full 
-                     ${isPlayingFullPassage && playingLanguage === 'vietnamese' ? 
+                     ${isCurrentPassagePlaying && audioState.language === 'vietnamese' ? 
                       'text-blue-800 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/50' : 
                       'text-blue-600 dark:text-blue-400 hover:bg-blue-100 dark:hover:bg-blue-900/30'} 
                      transition-colors p-1`}
             title="Play full passage in Vietnamese"
             aria-label="Play full passage in Vietnamese"
           >
-            {isPlayingFullPassage && playingLanguage === 'vietnamese' ? (
+            {isCurrentPassagePlaying && audioState.language === 'vietnamese' ? (
               <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 24 24" 
@@ -404,12 +330,8 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
             <AudioButton 
               text={para.vietnamese}
               language="vietnamese"
-              className={`ml-2 self-start mt-1 ${
-                currentlyPlayingIndex === index ? 'opacity-100' : 
-                isPlayingFullPassage ? 'opacity-30' : 'opacity-0 group-hover:opacity-100'}`}
+              className="ml-2 self-start mt-1 opacity-0 group-hover:opacity-100"
               size="sm"
-              onPlayStart={() => setCurrentlyPlayingIndex(index)}
-              onPlayEnd={() => setCurrentlyPlayingIndex(null)}
             />
           </div>
         ))}
@@ -422,21 +344,17 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
             onClick={(e) => {
               e.preventDefault();
               e.stopPropagation();
-              if (isPlayingFullPassage && playingLanguage === 'chinese') {
-                stopPlayback();
-              } else {
-                playFullPassage('chinese');
-              }
+              handlePassagePlayback('chinese');
             }}
             className={`ml-2 inline-flex items-center justify-center rounded-full 
-                     ${isPlayingFullPassage && playingLanguage === 'chinese' ? 
+                     ${isCurrentPassagePlaying && audioState.language === 'chinese' ? 
                       'text-blue-800 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/50' : 
                       'text-blue-600 dark:text-blue-400 hover:bg-blue-100 dark:hover:bg-blue-900/30'} 
                      transition-colors p-1`}
             title="Play full passage in Chinese"
             aria-label="Play full passage in Chinese"
           >
-            {isPlayingFullPassage && playingLanguage === 'chinese' ? (
+            {isCurrentPassagePlaying && audioState.language === 'chinese' ? (
               <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 24 24" 
@@ -474,12 +392,8 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
               <AudioButton 
                 text={para.chinese}
                 language="chinese"
-                className={`ml-2 self-start mt-1 ${
-                  currentlyPlayingIndex === (index + 100) ? 'opacity-100' : 
-                  isPlayingFullPassage ? 'opacity-30' : 'opacity-0 group-hover:opacity-100'}`}
+                className="ml-2 self-start mt-1 opacity-0 group-hover:opacity-100"
                 size="sm"
-                onPlayStart={() => setCurrentlyPlayingIndex(index + 100)}
-                onPlayEnd={() => setCurrentlyPlayingIndex(null)}
               />
             </div>
             {showPinyin && para.pinyin && (
@@ -505,12 +419,8 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
             <AudioButton 
               text={para.vietnamese}
               language="vietnamese"
-              className={`ml-2 self-start mt-1 ${
-                currentlyPlayingIndex === index ? 'opacity-100' : 
-                isPlayingFullPassage ? 'opacity-30' : 'opacity-0 group-hover:opacity-100'}`}
+              className="ml-2 self-start mt-1 opacity-0 group-hover:opacity-100"
               size="sm"
-              onPlayStart={() => setCurrentlyPlayingIndex(index)}
-              onPlayEnd={() => setCurrentlyPlayingIndex(null)}
             />
           </div>
           <div className="pl-4 border-l-4 border-gray-200 dark:border-gray-700">
@@ -521,12 +431,8 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
               <AudioButton 
                 text={para.chinese}
                 language="chinese"
-                className={`ml-2 self-start mt-1 ${
-                  currentlyPlayingIndex === (index + 100) ? 'opacity-100' : 
-                  isPlayingFullPassage ? 'opacity-30' : 'opacity-0 group-hover:opacity-100'}`}
+                className="ml-2 self-start mt-1 opacity-0 group-hover:opacity-100"
                 size="sm"
-                onPlayStart={() => setCurrentlyPlayingIndex(index + 100)}
-                onPlayEnd={() => setCurrentlyPlayingIndex(null)}
               />
             </div>
             {showPinyin && para.pinyin && (
@@ -549,8 +455,6 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
             text={passage.title.vietnamese}
             language="vietnamese"
             size="md"
-            onPlayStart={() => setCurrentlyPlayingIndex(-1)}
-            onPlayEnd={() => setCurrentlyPlayingIndex(null)}
           />
         </div>
         <div className="flex items-center mb-1">
@@ -559,8 +463,6 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
             text={passage.title.chinese}
             language="chinese"
             size="md"
-            onPlayStart={() => setCurrentlyPlayingIndex(-2)}
-            onPlayEnd={() => setCurrentlyPlayingIndex(null)}
           />
         </div>
         {showPinyin && passage.title.pinyin && (
