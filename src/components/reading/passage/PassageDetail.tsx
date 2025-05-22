@@ -17,6 +17,7 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
   const [showPinyin, setShowPinyin] = useState(true);
   const [currentlyPlayingIndex, setCurrentlyPlayingIndex] = useState<number | null>(null);
   const [isPlayingFullPassage, setIsPlayingFullPassage] = useState(false);
+  const [playingLanguage, setPlayingLanguage] = useState<'vietnamese' | 'chinese' | null>(null);
   
   // Function to handle word click and display vocabulary popover
   const handleWordClick = useCallback((vocabItem: VocabularyItem, event: React.MouseEvent) => {
@@ -57,6 +58,14 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
       document.removeEventListener('click', handleGlobalClick);
     };
   }, [closePopover]);
+
+  // Clean up any playing audio when component unmounts
+  useEffect(() => {
+    return () => {
+      console.log('[DEBUG] Component unmounting, cleaning up audio');
+      audioService.stop();
+    };
+  }, []);
 
   // Process Vietnamese text to make vocabulary words clickable
   const processVietnameseText = useCallback((text: string) => {
@@ -238,35 +247,87 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
 
   // Function to play the entire passage
   const playFullPassage = async (language: 'vietnamese' | 'chinese') => {
-    if (isPlayingFullPassage) {
+    // Create a reference to track if we're the current play session
+    const playSessionId = Date.now();
+    console.log(`[DEBUG] Starting playFullPassage for ${language}, session ID: ${playSessionId}`);
+    
+    // Use a local variable to prevent race conditions
+    let isCurrentlyPlaying = isPlayingFullPassage;
+    
+    if (isCurrentlyPlaying) {
+      console.log(`[DEBUG] Already playing, stopping current playback`);
       // Already playing, stop it
       audioService.stop();
       setIsPlayingFullPassage(false);
+      setPlayingLanguage(null);
       setCurrentlyPlayingIndex(null);
       return;
     }
     
+    // Set local variable and React state
+    isCurrentlyPlaying = true;
     setIsPlayingFullPassage(true);
+    setPlayingLanguage(language);
     
     try {
       // Play the title first
-      setCurrentlyPlayingIndex(-1);
+      const titleIndex = language === 'vietnamese' ? -1 : -2;
+      console.log(`[DEBUG] Playing title in ${language}`);
+      setCurrentlyPlayingIndex(titleIndex);
       await audioService.playText(passage.title[language], language);
+      console.log(`[DEBUG] Finished playing title`);
       
+      // Check if we've manually stopped playback
+      if (!isCurrentlyPlaying) {
+        console.log(`[DEBUG] Playback manually stopped after title`);
+        return;
+      }
+      
+      console.log(`[DEBUG] Starting to play paragraphs. Total paragraphs: ${passage.paragraphs.length}`);
       // Play each paragraph sequentially
       for (let i = 0; i < passage.paragraphs.length; i++) {
-        if (!isPlayingFullPassage) break; // Check if playback was stopped
+        // Check if playback was stopped
+        if (!isCurrentlyPlaying) {
+          console.log(`[DEBUG] Playback manually stopped during paragraphs at index ${i}`);
+          break;
+        }
         
         const index = language === 'vietnamese' ? i : i + 100;
+        console.log(`[DEBUG] Playing paragraph ${i} in ${language}, index: ${index}`);
         setCurrentlyPlayingIndex(index);
-        await audioService.playText(passage.paragraphs[i][language], language);
+        
+        try {
+          await audioService.playText(passage.paragraphs[i][language], language);
+          console.log(`[DEBUG] Successfully played paragraph ${i}`);
+        } catch (paraError) {
+          console.error(`[DEBUG] Error playing paragraph ${i}:`, paraError);
+        }
+        
+        // Small delay between paragraphs for natural pausing
+        console.log(`[DEBUG] Adding small delay between paragraphs`);
+        await new Promise(resolve => setTimeout(resolve, 300));
       }
+      
+      console.log(`[DEBUG] Completed playing all paragraphs`);
     } catch (error) {
-      console.error(`Error playing full passage in ${language}:`, error);
+      console.error(`[DEBUG] Error playing full passage in ${language}:`, error);
     } finally {
+      // Reset both local variable and React state
+      isCurrentlyPlaying = false;
+      console.log(`[DEBUG] Finishing playback session, cleaning up state`);
       setIsPlayingFullPassage(false);
+      setPlayingLanguage(null);
       setCurrentlyPlayingIndex(null);
     }
+  };
+  
+  // Create a function specifically to stop playback
+  const stopPlayback = () => {
+    console.log(`[DEBUG] Manually stopping playback`);
+    audioService.stop();
+    setIsPlayingFullPassage(false);
+    setPlayingLanguage(null);
+    setCurrentlyPlayingIndex(null);
   };
 
   // Toggle between parallel and alternating layouts
@@ -288,17 +349,22 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
           <button
             onClick={(e) => {
               e.preventDefault();
-              playFullPassage('vietnamese');
+              e.stopPropagation();
+              if (isPlayingFullPassage && playingLanguage === 'vietnamese') {
+                stopPlayback();
+              } else {
+                playFullPassage('vietnamese');
+              }
             }}
             className={`ml-2 inline-flex items-center justify-center rounded-full 
-                     ${isPlayingFullPassage && currentlyPlayingIndex !== null && currentlyPlayingIndex < 100 ? 
+                     ${isPlayingFullPassage && playingLanguage === 'vietnamese' ? 
                       'text-blue-800 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/50' : 
                       'text-blue-600 dark:text-blue-400 hover:bg-blue-100 dark:hover:bg-blue-900/30'} 
                      transition-colors p-1`}
             title="Play full passage in Vietnamese"
             aria-label="Play full passage in Vietnamese"
           >
-            {isPlayingFullPassage && currentlyPlayingIndex !== null && currentlyPlayingIndex < 100 ? (
+            {isPlayingFullPassage && playingLanguage === 'vietnamese' ? (
               <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 24 24" 
@@ -355,17 +421,22 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
           <button
             onClick={(e) => {
               e.preventDefault();
-              playFullPassage('chinese');
+              e.stopPropagation();
+              if (isPlayingFullPassage && playingLanguage === 'chinese') {
+                stopPlayback();
+              } else {
+                playFullPassage('chinese');
+              }
             }}
             className={`ml-2 inline-flex items-center justify-center rounded-full 
-                     ${isPlayingFullPassage && currentlyPlayingIndex !== null && currentlyPlayingIndex >= 100 ? 
+                     ${isPlayingFullPassage && playingLanguage === 'chinese' ? 
                       'text-blue-800 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/50' : 
                       'text-blue-600 dark:text-blue-400 hover:bg-blue-100 dark:hover:bg-blue-900/30'} 
                      transition-colors p-1`}
             title="Play full passage in Chinese"
             aria-label="Play full passage in Chinese"
           >
-            {isPlayingFullPassage && currentlyPlayingIndex !== null && currentlyPlayingIndex >= 100 ? (
+            {isPlayingFullPassage && playingLanguage === 'chinese' ? (
               <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 24 24" 

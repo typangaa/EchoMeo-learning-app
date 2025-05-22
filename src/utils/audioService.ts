@@ -35,8 +35,10 @@ class AudioService {
    * Play text using Web Speech API
    */
   public playText(text: string, language: 'vietnamese' | 'chinese'): Promise<void> {
+    console.log(`[DEBUG AudioService] Starting playText: '${text.substring(0, 30)}${text.length > 30 ? '...' : ''}' in ${language}`);
     return new Promise((resolve, reject) => {
       if (!this.webSpeechAvailable) {
+        console.error('[DEBUG AudioService] Web Speech API not available in this browser');
         reject(new Error('Web Speech API not available in this browser'));
         return;
       }
@@ -57,10 +59,18 @@ class AudioService {
       utterance.rate = language === 'vietnamese' ? 0.8 : 0.85;
       
       // Handle events
-      utterance.onend = () => resolve();
-      utterance.onerror = (event) => reject(new Error(`Speech synthesis error: ${event.error}`));
+      utterance.onend = () => {
+        console.log('[DEBUG AudioService] Speech synthesis completed successfully');
+        resolve();
+      };
+      
+      utterance.onerror = (event) => {
+        console.error(`[DEBUG AudioService] Speech synthesis error:`, event);
+        reject(new Error(`Speech synthesis error: ${event.error}`));
+      };
       
       // Speak
+      console.log(`[DEBUG AudioService] Starting speech synthesis...`);
       window.speechSynthesis.speak(utterance);
     });
   }
@@ -125,9 +135,11 @@ class AudioService {
    * Stop any currently playing audio
    */
   public stop(): void {
+    console.log('[DEBUG AudioService] Stopping all speech synthesis');
     // Stop any web speech synthesis
     if (this.webSpeechAvailable) {
       window.speechSynthesis.cancel();
+      console.log('[DEBUG AudioService] Speech synthesis cancelled');
     }
   }
 
