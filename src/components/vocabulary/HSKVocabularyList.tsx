@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import useHSKVocabulary from '../../hooks/useHSKVocabulary';
 import HSKVocabularyCard from './HSKVocabularyCard';
 import { useVocabulary } from '../../context/VocabularyContext';
+import { VocabularyItem } from '../../types';
 
 interface HSKVocabularyListProps {
   initialLevel?: number;
@@ -64,7 +65,7 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
     if (level !== selectedLevel) {
       console.log(`Changing HSK level from ${selectedLevel} to ${level}`);
       setSelectedLevel(level);
-      hasSetHskVocabulary.current = false; // Reset flag for new level
+      hasUpdatedContextRef.current = false; // Reset flag for new level
       loadLevel(level);
     }
   };

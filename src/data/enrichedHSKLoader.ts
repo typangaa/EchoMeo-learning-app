@@ -29,7 +29,7 @@ let hskIdCounter = 100000;
  * Generate a unique ID for HSK vocabulary items
  * Using a simple counter approach to guarantee uniqueness
  */
-function generateUniqueHSKId(item: string, index: number, level: number): number {
+function generateUniqueHSKId(_item: string, index: number, level: number): number {
   // Simple unique ID: base + level + counter + index
   // This guarantees uniqueness across all HSK levels and items
   const uniqueId = 100000 + (level * 10000) + hskIdCounter + index;
@@ -290,6 +290,20 @@ export interface EnhancedVocabularyItem {
     english: string;
     vietnamese: string;
   }>;
+}
+
+/**
+ * Get the primary meaning from an EnhancedVocabularyItem
+ */
+export function getPrimaryMeaning(item: EnhancedVocabularyItem) {
+  return item.meanings.find(meaning => meaning.primary) || 
+         (item.meanings.length > 0 ? item.meanings[0] : {
+           vietnamese: '',
+           english: '',
+           chinese: '',
+           part_of_speech: '',
+           usage_frequency: 'common' as const
+         });
 }
 
 /**

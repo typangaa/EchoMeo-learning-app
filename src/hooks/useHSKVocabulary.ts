@@ -30,7 +30,7 @@ export function useHSKVocabulary(
   const [loading, setLoading] = useState<boolean>(false);
   const [progress, setProgress] = useState<number>(0);
   const [error, setError] = useState<Error | null>(null);
-  const [currentLevel, setCurrentLevel] = useState<number | null>(initialLevel || null);
+  // Current level is tracked via selectedLevel in components that use this hook
   
   // Use refs to track loading state and prevent duplicate loads
   const loadingLevelRef = useRef<number | null>(null);
@@ -63,7 +63,6 @@ export function useHSKVocabulary(
     setLoading(true);
     setProgress(0);
     setError(null);
-    setCurrentLevel(level);
     loadingLevelRef.current = level;
     setVocabulary([]); // Clear existing vocabulary
     
