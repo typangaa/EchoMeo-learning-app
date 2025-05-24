@@ -42,17 +42,22 @@ const HomePage = () => {
           </Link>
         </div>
         
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-2 border-green-200 dark:border-green-800">
           <h2 className="text-xl font-semibold mb-4">
-            <span className="vietnamese-text">Thẻ ghi nhớ</span> - <span className="chinese-text">记忆卡片</span>
+            <span className="chinese-text text-green-600">HSK 闪卡</span> - <span className="vietnamese-text">Thẻ ghi nhớ HSK</span>
           </h2>
-          <p className="mb-4">Practice vocabulary with flashcards using a spaced repetition system to optimize learning.</p>
+          <p className="mb-4">Practice Chinese HSK vocabulary with advanced flashcards featuring Vietnamese translations, pinyin, and spaced repetition.</p>
           <Link 
-            to="/flashcards" 
+            to="/hsk-flashcards" 
             className="inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors"
           >
-            Start Practicing
+            Practice HSK Flashcards
           </Link>
+          <div className="mt-2">
+            <span className="text-xs bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-1 rounded">
+              Enhanced with Audio
+            </span>
+          </div>
         </div>
         
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
@@ -80,10 +85,11 @@ const HomePage = () => {
           <div>
             <h3 className="font-medium mb-2">Features:</h3>
             <ul className="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
-              <li>Organized vocabulary by CEFR levels</li>
+              <li>HSK vocabulary with Vietnamese translations</li>
+              <li>Audio pronunciation (Chinese & Vietnamese)</li>
               <li>Flashcards with spaced repetition</li>
               <li>Interactive reading practice</li>
-              <li>Progress tracking</li>
+              <li>Progress tracking & favorites</li>
               <li>Dark/light mode support</li>
             </ul>
           </div>
@@ -91,11 +97,11 @@ const HomePage = () => {
           <div>
             <h3 className="font-medium mb-2">Coming Soon:</h3>
             <ul className="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
-              <li>Audio pronunciation</li>
-              <li>Writing practice</li>
-              <li>Listening exercises</li>
+              <li>HSK Levels 2-6 vocabulary</li>
+              <li>Writing practice with stroke order</li>
+              <li>Listening comprehension exercises</li>
               <li>User accounts and progress sync</li>
-              <li>Community features</li>
+              <li>Community features & leaderboards</li>
             </ul>
           </div>
         </div>

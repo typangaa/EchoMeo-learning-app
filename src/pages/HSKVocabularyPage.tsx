@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import HSKVocabularyList from '../components/vocabulary/HSKVocabularyList';
 import HSKDebugInfo from '../components/debug/HSKDebugInfo';
 
@@ -25,6 +26,7 @@ const HSKVocabularyPage: React.FC = () => {
               <h3 className="font-semibold mb-1">Available Content:</h3>
               <ul className="list-disc list-inside text-gray-600 dark:text-gray-400">
                 <li>HSK Level 1: 150+ words with Vietnamese translations</li>
+                <li>HSK Level 2: 150+ words with Vietnamese translations</li>
                 <li>Multiple meanings per word</li>
                 <li>Usage frequency indicators</li>
                 <li>Example sentences in Chinese, Vietnamese, and English</li>
@@ -35,7 +37,7 @@ const HSKVocabularyPage: React.FC = () => {
             <div>
               <h3 className="font-semibold mb-1">Coming Soon:</h3>
               <ul className="list-disc list-inside text-gray-600 dark:text-gray-400">
-                <li>HSK Levels 2-7 with Vietnamese translations</li>
+                <li>HSK Levels 3-7 with Vietnamese translations</li>
                 <li>Audio pronunciations</li>
                 <li>Spaced repetition practice</li>
                 <li>Character stroke order</li>
@@ -54,6 +56,13 @@ const HSKVocabularyPage: React.FC = () => {
         </div>
         
         <div className="flex items-center space-x-4">
+          <Link
+            to="/hsk-flashcards"
+            className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+          >
+            🧠 Practice Flashcards
+          </Link>
+          
           <button
             className={`px-4 py-2 rounded-lg transition-colors ${
               !showFavorites 

@@ -1,5 +1,10 @@
 import { VocabularyItem } from '../types';
 
+/**
+ * HSK Vocabulary Loader - Handles enriched HSK vocabulary data
+ * Supports HSK Levels 1-2 with Vietnamese translations, examples, and detailed meanings
+ */
+
 // Interface for the enriched HSK JSON structure
 export interface EnrichedHSKItem {
   item: string;
@@ -17,6 +22,13 @@ export interface EnrichedHSKItem {
       vietnamese: string;
     }>;
   }>;
+}
+
+// Flexible interface to handle different possible JSON structures
+interface FlexibleHSKItem {
+  item: string;
+  pinyin: string;
+  meanings: any; // Can be array or object or other structure
 }
 
 // Cache for enriched HSK data
@@ -41,13 +53,81 @@ function generateUniqueHSKId(_item: string, index: number, level: number): numbe
  * Maps an enriched HSK item to a VocabularyItem
  */
 function mapEnrichedHSKToVocabularyItem(
-  enrichedItem: EnrichedHSKItem, 
+  enrichedItem: FlexibleHSKItem, 
   hskLevel: number,
   itemIndex: number
 ): VocabularyItem {
+  // Debug: Log the structure of the first few items and any problematic items
+  if (itemIndex < 3 || !Array.isArray(enrichedItem.meanings)) {
+    console.log(`[DEBUG] Processing item ${itemIndex}: ${enrichedItem.item}`);
+    console.log(`[DEBUG] Meanings type:`, typeof enrichedItem.meanings);
+    console.log(`[DEBUG] Meanings is array:`, Array.isArray(enrichedItem.meanings));
+    if (!Array.isArray(enrichedItem.meanings)) {
+      console.log(`[DEBUG] Problematic meanings structure:`, enrichedItem.meanings);
+    }
+  }
+  
+  // Handle different possible structures of meanings
+  let meanings: Array<any> = [];
+  
+  if (Array.isArray(enrichedItem.meanings)) {
+    meanings = enrichedItem.meanings;
+  } else if (enrichedItem.meanings && typeof enrichedItem.meanings === 'object') {
+    // Handle numbered object structure like {"1": {...}, "2": {...}}
+    const meaningKeys = Object.keys(enrichedItem.meanings).sort();
+    meanings = meaningKeys.map(key => {
+      const meaning = enrichedItem.meanings[key];
+      
+      // Convert old field names to new field names
+      const convertedMeaning = {
+        chinese: meaning.chinese_definitions || meaning.chinese || '',
+        english: meaning.english_translations || meaning.english || '',
+        vietnamese: meaning.vietnamese_translations || meaning.vietnamese || '',
+        part_of_speech: meaning.part_of_speech || 'n', // Default to noun
+        usage_frequency: meaning.usage_frequency || (meaningKeys.indexOf(key) === 0 ? 'very common' : 'common'),
+        examples: []
+      };
+      
+      // Convert examples from string format to object format
+      if (meaning.examples && Array.isArray(meaning.examples)) {
+        convertedMeaning.examples = meaning.examples.map((exampleStr: string) => {
+          const parts = exampleStr.split(' ; ');
+          if (parts.length >= 2) {
+            return {
+              chinese: parts[0].trim(),
+              pinyin: '', // Will be empty, user needs to add manually
+              english: '', // Will be empty, user needs to add manually  
+              vietnamese: parts[1].trim()
+            };
+          } else {
+            return {
+              chinese: exampleStr.trim(),
+              pinyin: '',
+              english: '',
+              vietnamese: ''
+            };
+          }
+        });
+      }
+      
+      return convertedMeaning;
+    });
+  } else {
+    console.warn(`[WARNING] Item ${enrichedItem.item} has invalid meanings structure:`, enrichedItem.meanings);
+    // Create a fallback meaning
+    meanings = [{
+      chinese: enrichedItem.item,
+      english: 'Definition not available',
+      vietnamese: 'Chưa có định nghĩa',
+      part_of_speech: 'unknown',
+      usage_frequency: 'common',
+      examples: []
+    }];
+  }
+  
   // Get the primary meaning (first one, or the most common one)
-  const primaryMeaning = enrichedItem.meanings.find(m => m.usage_frequency === 'very common') || 
-                         enrichedItem.meanings[0];
+  const primaryMeaning = meanings.find(m => m.usage_frequency === 'very common') || 
+                         meanings[0];
   
   // Generate a unique ID
   const id = generateUniqueHSKId(enrichedItem.item, itemIndex, hskLevel);
@@ -84,19 +164,22 @@ function mapEnrichedHSKToVocabularyItem(
   const category = categoryMap[primaryMeaning.part_of_speech] || 'Other';
   
   // Convert examples to the format expected by VocabularyItem
-  const examples = enrichedItem.meanings.flatMap(meaning => 
-    meaning.examples.slice(0, 2) // Take max 2 examples per meaning
-  ).slice(0, 3).map(example => ({ // Take max 3 examples total
-    vietnamese: example.vietnamese,
-    chinese: example.chinese,
-    pinyin: example.pinyin
-  }));
+  const examples = meanings.flatMap(meaning => {
+    if (!meaning.examples || !Array.isArray(meaning.examples)) {
+      return [];
+    }
+    return meaning.examples.slice(0, 2); // Take max 2 examples per meaning
+  }).slice(0, 3).map(example => ({ // Take max 3 examples total
+    vietnamese: (example && example.vietnamese) || '',
+    chinese: (example && example.chinese) || '',
+    pinyin: (example && example.pinyin) || ''
+  })).filter(example => example.vietnamese || example.chinese); // Filter out empty examples
   
   return {
     id,
     chinese: enrichedItem.item,
     vietnamese: primaryMeaning.vietnamese,
-    pinyin: enrichedItem.pinyin,
+    pinyin: enrichedItem.pinyin || enrichedItem.item, // Use item as fallback if pinyin missing
     english: primaryMeaning.english,
     level: cefrLevelMap[hskLevel] || "A1",
     category,
@@ -115,9 +198,9 @@ export async function loadEnrichedHSKLevel(level: number): Promise<VocabularyIte
   }
   
   try {
-    // Currently only HSK 1 is available in enriched format
-    if (level !== 1) {
-      console.warn(`Enriched HSK data only available for level 1, requested level ${level}`);
+    // Currently HSK levels 1 and 2 are available in enriched format
+    if (![1, 2].includes(level)) {
+      console.warn(`Enriched HSK data only available for levels 1-2, requested level ${level}`);
       return [];
     }
     
@@ -126,9 +209,20 @@ export async function loadEnrichedHSKLevel(level: number): Promise<VocabularyIte
     // Use dynamic import to load from assets folder
     // This automatically handles base paths and bundling
     const module = await import(`../assets/data/hsk/hsk${level}_enriched.json`);
-    const enrichedData: EnrichedHSKItem[] = module.default;
+    const enrichedData: FlexibleHSKItem[] = module.default;
     
     console.log(`Loaded ${enrichedData.length} enriched HSK ${level} items from assets`);
+    
+    // Log structure of first item for debugging
+    if (enrichedData.length > 0) {
+      console.log(`[DEBUG] First item structure:`, {
+        item: enrichedData[0].item,
+        pinyin: enrichedData[0].pinyin,
+        meaningsType: typeof enrichedData[0].meanings,
+        meaningsIsArray: Array.isArray(enrichedData[0].meanings),
+        meaningsSample: enrichedData[0].meanings
+      });
+    }
     
     // Reset the counter for this level to ensure consistent IDs
     hskIdCounter = level * 1000; // Each level gets its own range
@@ -151,7 +245,12 @@ export async function loadEnrichedHSKLevel(level: number): Promise<VocabularyIte
     
     // Cache the result
     enrichedCache[level] = vocabularyItems;
-    console.log(`Processed and cached ${vocabularyItems.length} vocabulary items for HSK ${level}`);
+    console.log(`✅ Successfully processed and cached ${vocabularyItems.length} vocabulary items for HSK ${level}`);
+    
+    // Log sample of first processed item for verification
+    if (vocabularyItems.length > 0) {
+      console.log(`[DEBUG] Sample processed item: ${vocabularyItems[0].chinese} (${vocabularyItems[0].vietnamese}) - ${vocabularyItems[0].examples?.length || 0} examples`);
+    }
     
     return vocabularyItems;
   } catch (error) {
@@ -310,31 +409,88 @@ export function getPrimaryMeaning(item: EnhancedVocabularyItem) {
  */
 export async function loadEnhancedHSKLevelFull(level: number): Promise<EnhancedVocabularyItem[]> {
   try {
-    if (level !== 1) {
-      console.warn(`Enriched HSK data only available for level 1, requested level ${level}`);
+    if (![1, 2].includes(level)) {
+      console.warn(`Enriched HSK data only available for levels 1-2, requested level ${level}`);
       return [];
     }
     
     // Use dynamic import instead of fetch
     const module = await import(`../assets/data/hsk/hsk${level}_enriched.json`);
-    const enrichedData: EnrichedHSKItem[] = module.default;
+    const enrichedData: FlexibleHSKItem[] = module.default;
     
     // Transform to enhanced format preserving all meanings
-    const enhancedItems = enrichedData.map((item, index) => ({
-      id: generateUniqueHSKId(item.item, index, level),
-      simplified: item.item,
-      pinyin: item.pinyin,
-      hsk_level: level,
-      meanings: item.meanings.map((meaning, meaningIndex) => ({
-        vietnamese: meaning.vietnamese,
-        english: meaning.english,
-        chinese: meaning.chinese,
-        part_of_speech: meaning.part_of_speech,
-        usage_frequency: meaning.usage_frequency as 'very common' | 'common' | 'less common',
-        primary: meaningIndex === 0 || meaning.usage_frequency === 'very common'
-      })),
-      examples: item.meanings.flatMap(meaning => meaning.examples)
-    }));
+    const enhancedItems = enrichedData.map((item, index) => {
+      // Handle different possible structures of meanings
+      let meanings: Array<any> = [];
+      
+      if (Array.isArray(item.meanings)) {
+        meanings = item.meanings;
+      } else if (item.meanings && typeof item.meanings === 'object') {
+        // Handle numbered object structure like {"1": {...}, "2": {...}}
+        const meaningKeys = Object.keys(item.meanings).sort();
+        meanings = meaningKeys.map(key => {
+          const meaning = item.meanings[key];
+          
+          // Convert old field names to new field names
+          return {
+            chinese: meaning.chinese_definitions || meaning.chinese || '',
+            english: meaning.english_translations || meaning.english || '',
+            vietnamese: meaning.vietnamese_translations || meaning.vietnamese || '',
+            part_of_speech: meaning.part_of_speech || 'n',
+            usage_frequency: meaning.usage_frequency || (meaningKeys.indexOf(key) === 0 ? 'very common' : 'common'),
+            examples: meaning.examples && Array.isArray(meaning.examples) ? 
+              meaning.examples.map((exampleStr: string) => {
+                const parts = exampleStr.split(' ; ');
+                if (parts.length >= 2) {
+                  return {
+                    chinese: parts[0].trim(),
+                    pinyin: '',
+                    english: '',
+                    vietnamese: parts[1].trim()
+                  };
+                } else {
+                  return {
+                    chinese: exampleStr.trim(),
+                    pinyin: '',
+                    english: '',
+                    vietnamese: ''
+                  };
+                }
+              }) : []
+          };
+        });
+      } else {
+        meanings = [{
+          chinese: item.item,
+          english: 'Definition not available',
+          vietnamese: 'Chưa có định nghĩa',
+          part_of_speech: 'unknown',
+          usage_frequency: 'common',
+          examples: []
+        }];
+      }
+      
+      return {
+        id: generateUniqueHSKId(item.item, index, level),
+        simplified: item.item,
+        pinyin: item.pinyin,
+        hsk_level: level,
+        meanings: meanings.map((meaning, meaningIndex) => ({
+          vietnamese: meaning.vietnamese || '',
+          english: meaning.english || '',
+          chinese: meaning.chinese || '',
+          part_of_speech: meaning.part_of_speech || 'unknown',
+          usage_frequency: meaning.usage_frequency as 'very common' | 'common' | 'less common' || 'common',
+          primary: meaningIndex === 0 || meaning.usage_frequency === 'very common'
+        })),
+        examples: meanings.flatMap(meaning => {
+          if (!meaning.examples || !Array.isArray(meaning.examples)) {
+            return [];
+          }
+          return meaning.examples.filter((ex: any) => ex && (ex.vietnamese || ex.chinese));
+        })
+      };
+    });
     
     return enhancedItems;
   } catch (error) {

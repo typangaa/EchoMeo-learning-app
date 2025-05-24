@@ -1,150 +1,111 @@
-import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { useVocabulary } from '../context/VocabularyContext';
-import FlashcardPractice from '../components/vocabulary/flashcard/FlashcardPractice';
+import { Link } from 'react-router-dom';
 
 const FlashcardPage = () => {
-  const navigate = useNavigate();
-  const { vocabularyItems, filteredItems, selectedLevel, setSelectedLevel, categories, setSelectedCategory, favorites } = useVocabulary();
-  const [selectingOptions, setSelectingOptions] = useState(true);
-  const [itemSource, setItemSource] = useState<'all' | 'filtered' | 'favorites' | 'custom'>('all');
-  
-  const handleComplete = () => {
-    navigate('/vocabulary');
-  };
-  
-  const startPractice = (source: 'all' | 'filtered' | 'favorites' | 'custom') => {
-    setItemSource(source);
-    setSelectingOptions(false);
-  };
-  
-  const getItemsForPractice = () => {
-    switch (itemSource) {
-      case 'all':
-        return vocabularyItems;
-      case 'filtered':
-        return filteredItems;
-      case 'favorites':
-        // Use favorites from VocabularyContext
-        return vocabularyItems.filter(item => favorites.includes(item.id));
-      case 'custom':
-        // Custom would be handled differently if implemented
-        return filteredItems;
-      default:
-        return vocabularyItems;
-    }
-  };
-  
-  if (!selectingOptions) {
-    return <FlashcardPractice vocabularyItems={getItemsForPractice()} onComplete={handleComplete} />;
-  }
-  
   return (
     <div className="max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-6">Flashcard Practice</h1>
       
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-6">
-        <h2 className="text-xl font-semibold mb-4">Practice Options</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* HSK Flashcards - Primary option */}
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-2 border-red-200 dark:border-red-800">
+          <div className="flex items-center mb-4">
+            <span className="text-2xl mr-3">🇨🇳</span>
+            <h2 className="text-xl font-semibold">
+              <span className="chinese-text text-red-600">HSK 汉语水平考试</span>
+            </h2>
+          </div>
+          <p className="mb-4 text-gray-700 dark:text-gray-300">
+            Practice Chinese vocabulary from the official HSK standardized test. 
+            Includes Vietnamese translations, pinyin, and example sentences.
+          </p>
+          <div className="mb-4">
+            <div className="text-sm text-gray-600 dark:text-gray-400">Features:</div>
+            <ul className="text-sm text-gray-600 dark:text-gray-400 list-disc list-inside mt-1">
+              <li>Structured by HSK levels (1-6)</li>
+              <li>Rich Vietnamese translations</li>
+              <li>Audio pronunciation</li>
+              <li>Progress tracking</li>
+            </ul>
+          </div>
+          <Link 
+            to="/hsk-flashcards" 
+            className="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors w-full text-center"
+          >
+            Practice HSK Flashcards
+          </Link>
+          <div className="mt-2 text-center">
+            <span className="text-xs bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-1 rounded">
+              Recommended
+            </span>
+          </div>
+        </div>
         
-        <div className="space-y-6">
-          <div>
-            <h3 className="text-lg font-medium mb-3">Choose What to Practice</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <button
-                onClick={() => startPractice('all')}
-                className="p-4 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors"
-              >
-                <h4 className="font-medium mb-1">All Vocabulary</h4>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Practice all {vocabularyItems.length} vocabulary items
-                </p>
-              </button>
-              
-              <button
-                onClick={() => startPractice('filtered')}
-                className="p-4 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors"
-              >
-                <h4 className="font-medium mb-1">Current Filtered Set</h4>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Practice {filteredItems.length} items matching your current filters
-                </p>
-              </button>
-            </div>
+        {/* Regular Vocabulary Flashcards - Legacy option */}
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 opacity-75">
+          <div className="flex items-center mb-4">
+            <span className="text-2xl mr-3">🇻🇳</span>
+            <h2 className="text-xl font-semibold">
+              <span className="vietnamese-text">Từ vựng cơ bản</span>
+            </h2>
           </div>
-          
-          <div>
-            <h3 className="text-lg font-medium mb-3">Or Filter by Level</h3>
-            <div className="flex flex-wrap gap-2">
-              <button
-                onClick={() => setSelectedLevel('all')}
-                className={`px-3 py-1 rounded-full text-sm ${
-                  selectedLevel === 'all'
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200'
-                }`}
-              >
-                All Levels
-              </button>
-              {['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].map(level => (
-                <button
-                  key={level}
-                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-                  onClick={() => setSelectedLevel(level as any)}
-                  className={`px-3 py-1 rounded-full text-sm ${
-                    selectedLevel === level
-                      ? 'bg-blue-600 text-white'
-                      : 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200'
-                  }`}
-                >
-                  {level}
-                </button>
-              ))}
-            </div>
+          <p className="mb-4 text-gray-700 dark:text-gray-300">
+            Study basic Vietnamese-Chinese vocabulary organized by CEFR levels 
+            and categories. Good for general language learning.
+          </p>
+          <div className="mb-4">
+            <div className="text-sm text-gray-600 dark:text-gray-400">Features:</div>
+            <ul className="text-sm text-gray-600 dark:text-gray-400 list-disc list-inside mt-1">
+              <li>CEFR level organization (A1-C2)</li>
+              <li>Category-based learning</li>
+              <li>Basic audio support</li>
+              <li>Simple progress tracking</li>
+            </ul>
           </div>
-          
-          <div>
-            <h3 className="text-lg font-medium mb-3">Or Filter by Category</h3>
-            <div className="flex flex-wrap gap-2">
-              <select
-                className="w-full md:w-auto p-2 rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"
-                onChange={(e) => setSelectedCategory(e.target.value)}
-              >
-                <option value="all">All Categories</option>
-                {categories.map(category => (
-                  <option key={category} value={category}>{category}</option>
-                ))}
-              </select>
-              
-              <button
-                onClick={() => startPractice('filtered')}
-                className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
-              >
-                Practice Selected Category
-              </button>
-            </div>
+          <Link 
+            to="/old-flashcards" 
+            className="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors w-full text-center"
+          >
+            Practice Basic Vocabulary
+          </Link>
+          <div className="mt-2 text-center">
+            <span className="text-xs bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 px-2 py-1 rounded">
+              Legacy System
+            </span>
           </div>
-          
-          {favorites.length > 0 && (
-            <div>
-              <h3 className="text-lg font-medium mb-3">Practice Favorites</h3>
-              <button
-                onClick={() => startPractice('favorites')}
-                className="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition-colors"
-              >
-                Practice {favorites.length} Favorite Items
-              </button>
-            </div>
-          )}
         </div>
       </div>
       
-      <div className="flex justify-end">
-        <button
-          onClick={handleComplete}
-          className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white rounded hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
-        >
-          Back to Vocabulary
-        </button>
+      {/* Additional information */}
+      <div className="mt-8 bg-blue-50 dark:bg-blue-900/20 rounded-lg p-6">
+        <h3 className="text-lg font-semibold mb-3 text-blue-800 dark:text-blue-200">
+          Which flashcard system should I use?
+        </h3>
+        <div className="space-y-3 text-blue-700 dark:text-blue-300">
+          <p>
+            <strong>HSK Flashcards (Recommended):</strong> If you're serious about learning Chinese 
+            and want to prepare for official proficiency tests, start with HSK flashcards. 
+            They follow the official Chinese proficiency standards and include rich Vietnamese translations.
+          </p>
+          <p>
+            <strong>Basic Vocabulary:</strong> If you're just getting started or want to explore 
+            general Vietnamese-Chinese vocabulary beyond test preparation, try the basic vocabulary system.
+          </p>
+        </div>
+      </div>
+      
+      {/* Study tips */}
+      <div className="mt-6 bg-green-50 dark:bg-green-900/20 rounded-lg p-6">
+        <h3 className="text-lg font-semibold mb-3 text-green-800 dark:text-green-200">
+          📚 Effective Flashcard Study Tips
+        </h3>
+        <ul className="text-green-700 dark:text-green-300 list-disc list-inside space-y-2">
+          <li>Practice regularly - even 10-15 minutes daily is better than long sporadic sessions</li>
+          <li>Use both learning directions (Chinese→Vietnamese and Vietnamese→Chinese)</li>
+          <li>Don't just memorize - try to understand the context and usage</li>
+          <li>Use the audio feature to improve pronunciation and listening skills</li>
+          <li>Review your mistakes and favorite difficult words more frequently</li>
+          <li>Set realistic goals - master 10-20 new words per week consistently</li>
+        </ul>
       </div>
     </div>
   );

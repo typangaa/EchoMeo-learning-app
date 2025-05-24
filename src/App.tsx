@@ -5,6 +5,8 @@ import HSKVocabularyPage from './pages/HSKVocabularyPage';
 import ReadingPage from './pages/ReadingPage';
 import PassageDetailPage from './pages/PassageDetailPage';
 import FlashcardPage from './pages/FlashcardPage';
+import HSKFlashcardPage from './pages/HSKFlashcardPage';
+import OldFlashcardPage from './pages/OldFlashcardPage';
 
 import Layout from './components/common/Layout';
 import NotFoundPage from './pages/NotFoundPage';
@@ -22,6 +24,8 @@ function App() {
               <Route path="vocabulary" element={<VocabularyPage />} />
               <Route path="hsk" element={<HSKVocabularyPage />} />
               <Route path="flashcards" element={<FlashcardPage />} />
+              <Route path="hsk-flashcards" element={<HSKFlashcardPage />} />
+              <Route path="old-flashcards" element={<OldFlashcardPage />} />
               <Route path="reading" element={<ReadingPage />} />
               <Route path="reading/:id" element={<PassageDetailPage />} />
               <Route path="*" element={<NotFoundPage />} />
