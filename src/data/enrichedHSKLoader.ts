@@ -2,7 +2,7 @@ import { VocabularyItem } from '../types';
 
 /**
  * HSK Vocabulary Loader - Handles enriched HSK vocabulary data
- * Supports HSK Levels 1-2 with Vietnamese translations, examples, and detailed meanings
+ * Supports HSK Levels 1-3 with Vietnamese translations, examples, and detailed meanings
  */
 
 // Interface for the enriched HSK JSON structure
@@ -198,9 +198,9 @@ export async function loadEnrichedHSKLevel(level: number): Promise<VocabularyIte
   }
   
   try {
-    // Currently HSK levels 1 and 2 are available in enriched format
-    if (![1, 2].includes(level)) {
-      console.warn(`Enriched HSK data only available for levels 1-2, requested level ${level}`);
+    // Currently HSK levels 1-3 are available in enriched format
+    if (![1, 2, 3].includes(level)) {
+      console.warn(`Enriched HSK data only available for levels 1-3, requested level ${level}`);
       return [];
     }
     
@@ -341,13 +341,17 @@ export function searchEnrichedHSKVocabulary(
   
   const queryLower = query.toLowerCase();
   
-  return items.filter(item =>
-    item.chinese.includes(query) ||
-    item.pinyin.toLowerCase().includes(queryLower) ||
-    item.english?.toLowerCase().includes(queryLower) ||
-    item.vietnamese.toLowerCase().includes(queryLower) ||
-    item.category.toLowerCase().includes(queryLower)
-  );
+  return items.filter(item => {
+    // Support both item.item (raw HSK data) and item.chinese (transformed data)
+    const chineseText = (item as any).item || item.chinese;
+    return (
+      (chineseText && chineseText.includes(query)) ||
+      (item.pinyin && item.pinyin.toLowerCase().includes(queryLower)) ||
+      (item.english && item.english.toLowerCase().includes(queryLower)) ||
+      (item.vietnamese && item.vietnamese.toLowerCase().includes(queryLower)) ||
+      (item.category && item.category.toLowerCase().includes(queryLower))
+    );
+  });
 }
 
 /**
@@ -409,8 +413,8 @@ export function getPrimaryMeaning(item: EnhancedVocabularyItem) {
  */
 export async function loadEnhancedHSKLevelFull(level: number): Promise<EnhancedVocabularyItem[]> {
   try {
-    if (![1, 2].includes(level)) {
-      console.warn(`Enriched HSK data only available for levels 1-2, requested level ${level}`);
+    if (![1, 2, 3].includes(level)) {
+      console.warn(`Enriched HSK data only available for levels 1-3, requested level ${level}`);
       return [];
     }
     

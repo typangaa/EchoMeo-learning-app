@@ -27,6 +27,7 @@ const HSKVocabularyPage: React.FC = () => {
               <ul className="list-disc list-inside text-gray-600 dark:text-gray-400">
                 <li>HSK Level 1: 150+ words with Vietnamese translations</li>
                 <li>HSK Level 2: 150+ words with Vietnamese translations</li>
+                <li>HSK Level 3: 300+ words with Vietnamese translations</li>
                 <li>Multiple meanings per word</li>
                 <li>Usage frequency indicators</li>
                 <li>Example sentences in Chinese, Vietnamese, and English</li>
@@ -37,7 +38,7 @@ const HSKVocabularyPage: React.FC = () => {
             <div>
               <h3 className="font-semibold mb-1">Coming Soon:</h3>
               <ul className="list-disc list-inside text-gray-600 dark:text-gray-400">
-                <li>HSK Levels 3-7 with Vietnamese translations</li>
+                <li>HSK Levels 4-7 with Vietnamese translations</li>
                 <li>Audio pronunciations</li>
                 <li>Spaced repetition practice</li>
                 <li>Character stroke order</li>

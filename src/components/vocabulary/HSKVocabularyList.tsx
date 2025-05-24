@@ -72,6 +72,12 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
   
   // Filter vocabulary based on search term and favorites
   const filteredVocabulary = vocabulary.filter(item => {
+    // Skip items with missing required fields
+    if (!item || !item.id) {
+      console.warn('HSK vocabulary item missing required fields:', item);
+      return false;
+    }
+    
     // Apply favorites filter if requested
     if (showFavoritesOnly && !hskFavorites.includes(item.id)) {
       return false;
@@ -80,12 +86,14 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
     // Apply search term filter if provided
     if (searchTerm) {
       const term = searchTerm.toLowerCase();
+      // Support both item.item (raw HSK data) and item.chinese (transformed data)
+      const chineseText = (item as any).item || item.chinese;
       return (
-        item.chinese.includes(searchTerm) ||
-        item.pinyin.toLowerCase().includes(term) ||
-        item.english?.toLowerCase().includes(term) ||
+        (chineseText && chineseText.includes(searchTerm)) ||
+        (item.pinyin && item.pinyin.toLowerCase().includes(term)) ||
+        (item.english && item.english.toLowerCase().includes(term)) ||
         (item.vietnamese && item.vietnamese.toLowerCase().includes(term)) ||
-        item.category.toLowerCase().includes(term)
+        (item.category && item.category.toLowerCase().includes(term))
       );
     }
     
@@ -114,7 +122,7 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
           ))}
           
           {/* Show disabled buttons for unavailable levels */}
-          {[3, 4, 5, 6, 7].map(level => (
+          {[4, 5, 6, 7].map(level => (
             <button
               key={level}
               className="px-3 py-1 rounded-md bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600 cursor-not-allowed"
@@ -126,7 +134,7 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
           ))}
         </div>
         <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-          Currently HSK Levels 1-2 are available with enriched Vietnamese translations.
+          Currently HSK Levels 1-3 are available with enriched Vietnamese translations.
         </p>
       </div>
       

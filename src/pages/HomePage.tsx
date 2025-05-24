@@ -33,7 +33,7 @@ const HomePage = () => {
           <h2 className="text-xl font-semibold mb-4">
             <span className="chinese-text">HSK 词汇</span> - <span className="vietnamese-text">Từ vựng HSK</span>
           </h2>
-          <p className="mb-4">Study Chinese vocabulary from HSK levels 1-7 with translations, pinyin, and detailed information.</p>
+          <p className="mb-4">Study Chinese vocabulary from HSK levels 1-3 with Vietnamese translations, pinyin, and detailed information.</p>
           <Link 
             to="/hsk" 
             className="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors"
@@ -97,7 +97,7 @@ const HomePage = () => {
           <div>
             <h3 className="font-medium mb-2">Coming Soon:</h3>
             <ul className="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
-              <li>HSK Levels 2-6 vocabulary</li>
+              <li>HSK Levels 4-7 vocabulary</li>
               <li>Writing practice with stroke order</li>
               <li>Listening comprehension exercises</li>
               <li>User accounts and progress sync</li>

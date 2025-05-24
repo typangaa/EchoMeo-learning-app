@@ -20,7 +20,7 @@ interface UseHSKVocabularyResult {
 
 /**
  * Hook for loading and managing enriched HSK vocabulary
- * Currently supports HSK Levels 1-2 with enriched data
+ * Currently supports HSK Levels 1-3 with enriched data
  */
 export function useHSKVocabulary(
   initialLevel?: number,
@@ -36,8 +36,8 @@ export function useHSKVocabulary(
   const loadingLevelRef = useRef<number | null>(null);
   const initializedRef = useRef<boolean>(false);
   
-  // Currently HSK 1 and 2 are available with enriched data
-  const availableLevels = [1, 2];
+  // Currently HSK 1-3 are available with enriched data
+  const availableLevels = [1, 2, 3];
   
   // Default options
   const { loadProgressively = true } = options;
@@ -54,7 +54,7 @@ export function useHSKVocabulary(
     
     // Check if level is available
     if (!availableLevels.includes(level)) {
-      setError(new Error(`HSK Level ${level} is not available. Only HSK Levels 1-2 have enriched data.`));
+      setError(new Error(`HSK Level ${level} is not available. Only HSK Levels 1-3 have enriched data.`));
       setLoading(false);
       return;
     }
@@ -131,7 +131,7 @@ export function useHSKVocabulary(
       loadLevel(initialLevel);
     } else if (!initializedRef.current && initialLevel && !availableLevels.includes(initialLevel)) {
       initializedRef.current = true;
-      setError(new Error(`HSK Level ${initialLevel} is not available. Only HSK Levels 1-2 have enriched data.`));
+      setError(new Error(`HSK Level ${initialLevel} is not available. Only HSK Levels 1-3 have enriched data.`));
     }
   }, [initialLevel, loadLevel, availableLevels]);
   

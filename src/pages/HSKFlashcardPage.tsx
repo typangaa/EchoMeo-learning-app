@@ -118,7 +118,7 @@ const HSKFlashcardPage = () => {
                 ))}
                 
                 {/* Show unavailable levels */}
-                {[3, 4, 5, 6].map(level => (
+                {[4, 5, 6, 7].map(level => (
                   <button
                     key={level}
                     disabled
@@ -130,7 +130,7 @@ const HSKFlashcardPage = () => {
                 ))}
               </div>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                Currently HSK Levels 1-2 are available with enriched Vietnamese translations.
+                Currently HSK Levels 1-3 are available with enriched Vietnamese translations.
               </p>
             </div>
             
