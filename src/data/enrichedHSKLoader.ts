@@ -105,7 +105,7 @@ function mapEnrichedHSKToVocabularyItem(
 }
 
 /**
- * Load enriched HSK vocabulary for a specific level
+ * Load enriched HSK vocabulary for a specific level using dynamic imports from assets
  */
 export async function loadEnrichedHSKLevel(level: number): Promise<VocabularyItem[]> {
   // Check cache first
@@ -121,15 +121,14 @@ export async function loadEnrichedHSKLevel(level: number): Promise<VocabularyIte
       return [];
     }
     
-    console.log(`Fetching enriched HSK ${level} data...`);
-    const response = await fetch(`/data/hsk/hsk${level}_enriched.json`);
+    console.log(`Loading enriched HSK ${level} data from assets...`);
     
-    if (!response.ok) {
-      throw new Error(`Failed to load enriched HSK ${level}: ${response.status} ${response.statusText}`);
-    }
+    // Use dynamic import to load from assets folder
+    // This automatically handles base paths and bundling
+    const module = await import(`../assets/data/hsk/hsk${level}_enriched.json`);
+    const enrichedData: EnrichedHSKItem[] = module.default;
     
-    const enrichedData: EnrichedHSKItem[] = await response.json();
-    console.log(`Loaded ${enrichedData.length} enriched HSK ${level} items from JSON`);
+    console.log(`Loaded ${enrichedData.length} enriched HSK ${level} items from assets`);
     
     // Reset the counter for this level to ensure consistent IDs
     hskIdCounter = level * 1000; // Each level gets its own range
@@ -316,13 +315,9 @@ export async function loadEnhancedHSKLevelFull(level: number): Promise<EnhancedV
       return [];
     }
     
-    const response = await fetch(`/data/hsk/hsk${level}_enriched.json`);
-    
-    if (!response.ok) {
-      throw new Error(`Failed to load enriched HSK ${level}: ${response.status}`);
-    }
-    
-    const enrichedData: EnrichedHSKItem[] = await response.json();
+    // Use dynamic import instead of fetch
+    const module = await import(`../assets/data/hsk/hsk${level}_enriched.json`);
+    const enrichedData: EnrichedHSKItem[] = module.default;
     
     // Transform to enhanced format preserving all meanings
     const enhancedItems = enrichedData.map((item, index) => ({

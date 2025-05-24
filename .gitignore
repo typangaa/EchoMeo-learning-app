@@ -38,3 +38,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
+
+# Scripts data directory
+scripts/data/
