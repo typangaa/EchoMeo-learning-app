@@ -19,7 +19,7 @@ class EnrichmentConfig:
     """Configuration for the enrichment process."""
     def __init__(self):
         self.api_url = "http://localhost:11434/api/generate"
-        self.model = "qwen3:32b"
+        self.model = "qwen3:latest"
         self.max_retries = 3
         self.retry_delay = 5  # seconds
         self.temperature = 0.2

@@ -1,9 +1,9 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { VocabularyItem } from '../types';
 import { 
-  loadHSKLevel, 
-  loadHSKLevelProgressively
-} from '../data/hskVocabularyLoader';
+  loadEnrichedHSKLevel, 
+  loadEnrichedHSKProgressively
+} from '../data/enrichedHSKLoader';
 
 interface UseHSKVocabularyOptions {
   loadProgressively?: boolean;
@@ -15,10 +15,12 @@ interface UseHSKVocabularyResult {
   progress: number;
   error: Error | null;
   loadLevel: (level: number) => void;
+  availableLevels: number[];
 }
 
 /**
- * Hook for loading and managing HSK vocabulary
+ * Hook for loading and managing enriched HSK vocabulary
+ * Currently only supports HSK Level 1 with enriched data
  */
 export function useHSKVocabulary(
   initialLevel?: number,
@@ -28,64 +30,119 @@ export function useHSKVocabulary(
   const [loading, setLoading] = useState<boolean>(false);
   const [progress, setProgress] = useState<number>(0);
   const [error, setError] = useState<Error | null>(null);
-  const [, setCurrentLevel] = useState<number | null>(initialLevel || null);
+  const [currentLevel, setCurrentLevel] = useState<number | null>(initialLevel || null);
+  
+  // Use refs to track loading state and prevent duplicate loads
+  const loadingLevelRef = useRef<number | null>(null);
+  const initializedRef = useRef<boolean>(false);
+  
+  // Currently only HSK 1 is available with enriched data
+  const availableLevels = [1];
   
   // Default options
   const { loadProgressively = true } = options;
   
   // Function to load a specific HSK level
   const loadLevel = useCallback((level: number) => {
+    console.log(`[useHSKVocabulary] Loading level ${level}`);
+    
+    // Prevent loading if already loading this level
+    if (loadingLevelRef.current === level && loading) {
+      console.log(`[useHSKVocabulary] Already loading level ${level}, skipping...`);
+      return;
+    }
+    
+    // Check if level is available
+    if (!availableLevels.includes(level)) {
+      setError(new Error(`HSK Level ${level} is not available. Only HSK Level 1 has enriched data.`));
+      setLoading(false);
+      return;
+    }
+    
     // Reset state
     setLoading(true);
     setProgress(0);
     setError(null);
     setCurrentLevel(level);
+    loadingLevelRef.current = level;
+    setVocabulary([]); // Clear existing vocabulary
     
     if (loadProgressively) {
+      console.log(`[useHSKVocabulary] Starting progressive loading for level ${level}`);
       // Use progressive loading with callbacks
-      loadHSKLevelProgressively(
+      loadEnrichedHSKProgressively(
         level,
-        (newPart, currentProgress) => {
-          setProgress(currentProgress);
-          // Append new vocabulary to existing set
-          setVocabulary(prev => [...prev, ...newPart]);
+        (newChunk, currentProgress) => {
+          // Only update if we're still loading the same level
+          if (loadingLevelRef.current === level) {
+            console.log(`[useHSKVocabulary] Received chunk with ${newChunk.length} items, progress: ${currentProgress}%`);
+            setProgress(currentProgress);
+            // Accumulate vocabulary items (append new chunk)
+            setVocabulary(prev => {
+              const updated = [...prev, ...newChunk];
+              console.log(`[useHSKVocabulary] Total vocabulary items now: ${updated.length}`);
+              return updated;
+            });
+          }
         },
         (allVocabulary) => {
-          setLoading(false);
-          setProgress(100);
-          // Replace with complete set (just to be safe)
-          setVocabulary(allVocabulary);
+          // Only complete if we're still loading the same level
+          if (loadingLevelRef.current === level) {
+            console.log(`[useHSKVocabulary] Progressive loading complete with ${allVocabulary.length} items`);
+            setLoading(false);
+            loadingLevelRef.current = null;
+            setProgress(100);
+            // Set the final complete vocabulary (to ensure consistency)
+            setVocabulary(allVocabulary);
+          }
         }
       );
     } else {
-      // Load all parts at once
-      loadHSKLevel(level)
+      console.log(`[useHSKVocabulary] Loading all at once for level ${level}`);
+      // Load all at once
+      loadEnrichedHSKLevel(level)
         .then((data) => {
-          setVocabulary(data);
-          setProgress(100);
+          // Only update if we're still loading the same level
+          if (loadingLevelRef.current === level) {
+            console.log(`[useHSKVocabulary] Loaded ${data.length} items`);
+            setVocabulary(data);
+            setProgress(100);
+          }
         })
         .catch((err) => {
-          setError(err instanceof Error ? err : new Error('Failed to load vocabulary'));
+          if (loadingLevelRef.current === level) {
+            console.error(`[useHSKVocabulary] Error loading:`, err);
+            setError(err instanceof Error ? err : new Error('Failed to load vocabulary'));
+          }
         })
         .finally(() => {
-          setLoading(false);
+          if (loadingLevelRef.current === level) {
+            setLoading(false);
+            loadingLevelRef.current = null;
+          }
         });
     }
-  }, [loadProgressively]);
+  }, [loadProgressively, availableLevels, loading]);
   
-  // Load initial level if provided
+  // Load initial level if provided (only once)
   useEffect(() => {
-    if (initialLevel) {
+    if (!initializedRef.current && initialLevel && availableLevels.includes(initialLevel)) {
+      console.log(`[useHSKVocabulary] Loading initial level ${initialLevel}`);
+      initializedRef.current = true;
       loadLevel(initialLevel);
+    } else if (!initializedRef.current && initialLevel && !availableLevels.includes(initialLevel)) {
+      initializedRef.current = true;
+      setError(new Error(`HSK Level ${initialLevel} is not available. Only HSK Level 1 has enriched data.`));
     }
-  }, [initialLevel, loadLevel]);
+  }, [initialLevel, loadLevel, availableLevels]);
   
   return {
     vocabulary,
     loading,
     progress,
     error,
-    loadLevel
+    loadLevel,
+    availableLevels
   };
 }
 

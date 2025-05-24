@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { VocabularyProvider } from '../context/VocabularyContext';
 import { useVocabulary } from '../context/VocabularyContext';
 import FlashcardPractice from '../components/vocabulary/flashcard/FlashcardPractice';
 
-function FlashcardContent() {
+const FlashcardPage = () => {
   const navigate = useNavigate();
   const { vocabularyItems, filteredItems, selectedLevel, setSelectedLevel, categories, setSelectedCategory, favorites } = useVocabulary();
   const [selectingOptions, setSelectingOptions] = useState(true);
@@ -148,14 +147,6 @@ function FlashcardContent() {
         </button>
       </div>
     </div>
-  );
-}
-
-const FlashcardPage = () => {
-  return (
-    <VocabularyProvider>
-      <FlashcardContent />
-    </VocabularyProvider>
   );
 };
 

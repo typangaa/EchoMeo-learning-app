@@ -2,7 +2,11 @@ import { createContext, useContext, useState, ReactNode, useEffect } from 'react
 import { VocabularyItem, CEFRLevel } from '../types';
 import { allVocabulary, getAllCategories } from '../data/vocabulary';
 
+// Vocabulary source types
+export type VocabularySource = 'regular' | 'hsk';
+
 interface VocabularyContextType {
+  // Regular vocabulary
   vocabularyItems: VocabularyItem[];
   filteredItems: VocabularyItem[];
   selectedLevel: CEFRLevel | 'all';
@@ -11,9 +15,20 @@ interface VocabularyContextType {
   setSelectedCategory: (category: string | 'all') => void;
   searchVocabulary: (term: string) => void;
   categories: string[];
-  addToFavorites: (id: number) => void;
-  removeFromFavorites: (id: number) => void;
+  
+  // HSK vocabulary
+  hskVocabulary: VocabularyItem[];
+  setHskVocabulary: (items: VocabularyItem[]) => void;
+  
+  // Unified favorites system
+  addToFavorites: (id: number, source?: VocabularySource) => void;
+  removeFromFavorites: (id: number, source?: VocabularySource) => void;
   favorites: number[];
+  hskFavorites: number[];
+  
+  // Check if item is favorite
+  isFavorite: (id: number, source?: VocabularySource) => boolean;
+  toggleFavorite: (id: number, source?: VocabularySource) => void;
 }
 
 const VocabularyContext = createContext<VocabularyContextType | undefined>(undefined);
@@ -28,20 +43,27 @@ export const useVocabulary = () => {
 
 interface VocabularyProviderProps {
   children: ReactNode;
-  initialVocabulary?: VocabularyItem[]; // Make this optional
 }
 
-export const VocabularyProvider = ({ 
-  children, 
-  initialVocabulary = allVocabulary // Default to all vocabulary if not provided
-}: VocabularyProviderProps) => {
-  const [vocabularyItems] = useState<VocabularyItem[]>(initialVocabulary);
-  const [filteredItems, setFilteredItems] = useState<VocabularyItem[]>(initialVocabulary);
+export const VocabularyProvider = ({ children }: VocabularyProviderProps) => {
+  // Regular vocabulary state
+  const [vocabularyItems] = useState<VocabularyItem[]>(allVocabulary);
+  const [filteredItems, setFilteredItems] = useState<VocabularyItem[]>(allVocabulary);
   const [selectedLevel, setSelectedLevel] = useState<CEFRLevel | 'all'>('all');
   const [selectedCategory, setSelectedCategory] = useState<string | 'all'>('all');
   const [searchTerm, setSearchTerm] = useState('');
+  
+  // HSK vocabulary state
+  const [hskVocabulary, setHskVocabulary] = useState<VocabularyItem[]>([]);
+  
+  // Separate favorites for regular and HSK vocabulary
   const [favorites, setFavorites] = useState<number[]>(() => {
-    const saved = localStorage.getItem('favorites');
+    const saved = localStorage.getItem('vocabulary_favorites');
+    return saved ? JSON.parse(saved) : [];
+  });
+  
+  const [hskFavorites, setHskFavorites] = useState<number[]>(() => {
+    const saved = localStorage.getItem('hsk_favorites');
     return saved ? JSON.parse(saved) : [];
   });
   
@@ -75,21 +97,50 @@ export const VocabularyProvider = ({
 
   // Save favorites to localStorage
   useEffect(() => {
-    localStorage.setItem('favorites', JSON.stringify(favorites));
+    localStorage.setItem('vocabulary_favorites', JSON.stringify(favorites));
   }, [favorites]);
+  
+  useEffect(() => {
+    localStorage.setItem('hsk_favorites', JSON.stringify(hskFavorites));
+  }, [hskFavorites]);
 
   const searchVocabulary = (term: string) => {
     setSearchTerm(term);
   };
 
-  const addToFavorites = (id: number) => {
-    if (!favorites.includes(id)) {
-      setFavorites([...favorites, id]);
+  const addToFavorites = (id: number, source: VocabularySource = 'regular') => {
+    if (source === 'hsk') {
+      if (!hskFavorites.includes(id)) {
+        setHskFavorites([...hskFavorites, id]);
+      }
+    } else {
+      if (!favorites.includes(id)) {
+        setFavorites([...favorites, id]);
+      }
     }
   };
 
-  const removeFromFavorites = (id: number) => {
-    setFavorites(favorites.filter(favId => favId !== id));
+  const removeFromFavorites = (id: number, source: VocabularySource = 'regular') => {
+    if (source === 'hsk') {
+      setHskFavorites(hskFavorites.filter(favId => favId !== id));
+    } else {
+      setFavorites(favorites.filter(favId => favId !== id));
+    }
+  };
+  
+  const isFavorite = (id: number, source: VocabularySource = 'regular') => {
+    if (source === 'hsk') {
+      return hskFavorites.includes(id);
+    }
+    return favorites.includes(id);
+  };
+  
+  const toggleFavorite = (id: number, source: VocabularySource = 'regular') => {
+    if (isFavorite(id, source)) {
+      removeFromFavorites(id, source);
+    } else {
+      addToFavorites(id, source);
+    }
   };
 
   const value = {
@@ -101,9 +152,14 @@ export const VocabularyProvider = ({
     setSelectedCategory,
     searchVocabulary,
     categories,
+    hskVocabulary,
+    setHskVocabulary,
     addToFavorites,
     removeFromFavorites,
-    favorites
+    favorites,
+    hskFavorites,
+    isFavorite,
+    toggleFavorite
   };
 
   return (

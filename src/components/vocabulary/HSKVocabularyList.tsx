@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import useHSKVocabulary from '../../hooks/useHSKVocabulary';
-import VocabularyCard from './VocabularyCard';
-import { VocabularyItem } from '../../types';
+import HSKVocabularyCard from './HSKVocabularyCard';
+import { useVocabulary } from '../../context/VocabularyContext';
 
 interface HSKVocabularyListProps {
   initialLevel?: number;
@@ -14,10 +14,13 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
 }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedLevel, setSelectedLevel] = useState<number>(initialLevel);
-  const [favorites, setFavorites] = useState<number[]>(() => {
-    const saved = localStorage.getItem('hsk_favorites');
-    return saved ? JSON.parse(saved) : [];
-  });
+  
+  // Use refs to prevent unnecessary updates
+  const lastVocabularyRef = useRef<VocabularyItem[]>([]);
+  const hasUpdatedContextRef = useRef(false);
+  
+  // Use the unified vocabulary context
+  const { hskFavorites, setHskVocabulary } = useVocabulary();
   
   // Use the HSK vocabulary hook
   const {
@@ -25,33 +28,51 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
     loading,
     progress,
     error,
-    loadLevel
+    loadLevel,
+    availableLevels
   } = useHSKVocabulary(initialLevel, { loadProgressively: true });
+  
+  // Update the context with HSK vocabulary only when loading is complete
+  useEffect(() => {
+    // Only update context when:
+    // 1. Loading is complete
+    // 2. We have vocabulary items
+    // 3. The vocabulary has actually changed (different length or different items)
+    if (!loading && vocabulary.length > 0) {
+      const hasChanged = vocabulary.length !== lastVocabularyRef.current.length ||
+                        !hasUpdatedContextRef.current;
+      
+      if (hasChanged) {
+        console.log(`Updating HSK vocabulary in context: ${vocabulary.length} items (was ${lastVocabularyRef.current.length})`);
+        setHskVocabulary(vocabulary);
+        lastVocabularyRef.current = vocabulary;
+        hasUpdatedContextRef.current = true;
+      }
+    }
+  }, [vocabulary, loading, setHskVocabulary]);
+  
+  // Reset flags when starting a new load
+  useEffect(() => {
+    if (loading && hasUpdatedContextRef.current) {
+      hasUpdatedContextRef.current = false;
+      console.log(`[HSKVocabularyList] Reset context update flag due to new loading`);
+    }
+  }, [loading]);
   
   // Handle level change
   const handleLevelChange = (level: number) => {
-    setSelectedLevel(level);
-    loadLevel(level);
-  };
-  
-  // Add/remove from favorites
-  const toggleFavorite = (id: number) => {
-    let newFavorites: number[];
-    
-    if (favorites.includes(id)) {
-      newFavorites = favorites.filter(favId => favId !== id);
-    } else {
-      newFavorites = [...favorites, id];
+    if (level !== selectedLevel) {
+      console.log(`Changing HSK level from ${selectedLevel} to ${level}`);
+      setSelectedLevel(level);
+      hasSetHskVocabulary.current = false; // Reset flag for new level
+      loadLevel(level);
     }
-    
-    setFavorites(newFavorites);
-    localStorage.setItem('hsk_favorites', JSON.stringify(newFavorites));
   };
   
   // Filter vocabulary based on search term and favorites
   const filteredVocabulary = vocabulary.filter(item => {
     // Apply favorites filter if requested
-    if (showFavoritesOnly && !favorites.includes(item.id)) {
+    if (showFavoritesOnly && !hskFavorites.includes(item.id)) {
       return false;
     }
     
@@ -62,7 +83,8 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
         item.chinese.includes(searchTerm) ||
         item.pinyin.toLowerCase().includes(term) ||
         item.english?.toLowerCase().includes(term) ||
-        (item.vietnamese && item.vietnamese.toLowerCase().includes(term))
+        (item.vietnamese && item.vietnamese.toLowerCase().includes(term)) ||
+        item.category.toLowerCase().includes(term)
       );
     }
     
@@ -75,32 +97,71 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 mb-4">
         <h2 className="text-lg font-semibold mb-4">HSK Level</h2>
         <div className="flex flex-wrap gap-2">
-          {[1, 2, 3, 4, 5, 6, 7].map(level => (
+          {availableLevels.map(level => (
             <button
               key={level}
-              className={`px-3 py-1 rounded-md ${
+              className={`px-3 py-1 rounded-md transition-colors ${
                 selectedLevel === level
-                  ? 'bg-blue-600 text-white'
+                  ? 'bg-red-600 text-white'
                   : 'bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600'
               }`}
               onClick={() => handleLevelChange(level)}
+              disabled={loading} // Disable during loading
+            >
+              HSK {level}
+            </button>
+          ))}
+          
+          {/* Show disabled buttons for unavailable levels */}
+          {[2, 3, 4, 5, 6, 7].map(level => (
+            <button
+              key={level}
+              className="px-3 py-1 rounded-md bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600 cursor-not-allowed"
+              disabled
+              title="Not available yet"
             >
               HSK {level}
             </button>
           ))}
         </div>
+        <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
+          Currently only HSK Level 1 is available with enriched Vietnamese translations.
+        </p>
       </div>
       
       {/* Search input */}
       <div className="mb-4">
         <input
           type="text"
-          placeholder="Search vocabulary..."
-          className="w-full p-2 border border-gray-300 dark:border-gray-700 rounded-md dark:bg-gray-800"
+          placeholder="Search vocabulary (Chinese, Vietnamese, English, Pinyin, or Category)..."
+          className="w-full p-3 border border-gray-300 dark:border-gray-700 rounded-lg dark:bg-gray-800 focus:ring-2 focus:ring-red-500 focus:border-transparent"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
+          disabled={loading}
         />
       </div>
+      
+      {/* Statistics */}
+      {vocabulary.length > 0 && !loading && (
+        <div className="bg-red-50 dark:bg-red-900/20 rounded-lg p-4 mb-4">
+          <div className="flex flex-wrap gap-4 text-sm">
+            <span>
+              <strong>Total HSK {selectedLevel}:</strong> {vocabulary.length} words
+            </span>
+            <span>
+              <strong>Favorites:</strong> {hskFavorites.length} words
+            </span>
+            <span>
+              <strong>Showing:</strong> {filteredVocabulary.length} words
+            </span>
+            {searchTerm && (
+              <span className="text-red-600 dark:text-red-400">
+                <strong>Search:</strong> "{searchTerm}"
+              </span>
+            )}
+          </div>
+        </div>
+      )}
       
       {/* Loading indicator */}
       {loading && (
@@ -108,7 +169,7 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
           <div className="flex items-center">
             <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5 mr-4">
               <div 
-                className="bg-blue-600 h-2.5 rounded-full"
+                className="bg-red-600 h-2.5 rounded-full transition-all duration-300"
                 style={{ width: `${progress}%` }}
               ></div>
             </div>
@@ -117,8 +178,13 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
             </span>
           </div>
           <p className="text-center mt-2">
-            Loading HSK {selectedLevel} vocabulary...
+            Loading HSK {selectedLevel} enriched vocabulary...
           </p>
+          {vocabulary.length > 0 && (
+            <p className="text-xs text-center text-gray-500 dark:text-gray-400 mt-1">
+              Loaded {vocabulary.length} items so far...
+            </p>
+          )}
         </div>
       )}
       
@@ -127,72 +193,90 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
         <div className="bg-red-100 dark:bg-red-900/30 border border-red-400 text-red-700 dark:text-red-300 px-4 py-3 rounded relative mb-4">
           <strong className="font-bold">Error:</strong>
           <span className="block sm:inline"> {error.message}</span>
+          <button
+            onClick={() => handleLevelChange(selectedLevel)}
+            className="mt-2 px-3 py-1 bg-red-600 text-white rounded text-sm hover:bg-red-700"
+          >
+            Retry Loading
+          </button>
         </div>
       )}
       
       {/* Empty state */}
-      {!loading && filteredVocabulary.length === 0 && (
+      {!loading && filteredVocabulary.length === 0 && vocabulary.length === 0 && (
         <div className="text-center py-10 bg-white dark:bg-gray-800 rounded-lg shadow">
-          <p className="text-gray-600 dark:text-gray-400">
-            {showFavoritesOnly 
-              ? "No favorite vocabulary items found." 
-              : "No vocabulary items found matching your search."}
+          <div className="text-6xl mb-4">📚</div>
+          <p className="text-gray-600 dark:text-gray-400 mb-2">
+            No vocabulary loaded yet.
           </p>
-        </div>
-      )}
-      
-      {/* Vocabulary list */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {filteredVocabulary.map(item => (
-          <VocabularyCardWithFavorite 
-            key={item.id} 
-            item={item} 
-            isFavorite={favorites.includes(item.id)}
-            onToggleFavorite={() => toggleFavorite(item.id)}
-          />
-        ))}
-      </div>
-      
-      {/* Show more button if we have more to load */}
-      {!loading && vocabulary.length > 0 && filteredVocabulary.length >= 20 && (
-        <div className="flex justify-center mt-6">
-          <button 
-            className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
+          <p className="text-sm text-gray-500 dark:text-gray-500">
+            HSK Level {selectedLevel} should load automatically.
+          </p>
+          <button
+            onClick={() => handleLevelChange(selectedLevel)}
+            className="mt-3 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700"
           >
-            Show More
+            Load HSK {selectedLevel}
           </button>
         </div>
       )}
-    </div>
-  );
-};
-
-// Extend the VocabularyCard to include favorite functionality
-interface VocabularyCardWithFavoriteProps {
-  item: VocabularyItem;
-  isFavorite: boolean;
-  onToggleFavorite: () => void;
-}
-
-const VocabularyCardWithFavorite: React.FC<VocabularyCardWithFavoriteProps> = ({ 
-  item, 
-  isFavorite,
-  onToggleFavorite
-}) => {
-  // You'll need to modify your existing VocabularyCard or create a wrapper
-  return (
-    <div className="relative">
-      <VocabularyCard item={item} />
-      <button
-        className="absolute top-2 right-2 text-xl"
-        onClick={(e) => {
-          e.stopPropagation();
-          onToggleFavorite();
-        }}
-        aria-label={isFavorite ? "Remove from favorites" : "Add to favorites"}
-      >
-        {isFavorite ? "★" : "☆"}
-      </button>
+      
+      {/* No results state */}
+      {!loading && filteredVocabulary.length === 0 && vocabulary.length > 0 && (
+        <div className="text-center py-10 bg-white dark:bg-gray-800 rounded-lg shadow">
+          <div className="text-6xl mb-4">🔍</div>
+          <p className="text-gray-600 dark:text-gray-400 mb-2">
+            {showFavoritesOnly 
+              ? "No favorite vocabulary items found." 
+              : searchTerm 
+                ? `No vocabulary items found matching "${searchTerm}".`
+                : "No vocabulary items found matching your filters."}
+          </p>
+          {(showFavoritesOnly || searchTerm) && (
+            <button
+              onClick={() => setSearchTerm('')}
+              className="mt-2 text-red-600 dark:text-red-400 underline hover:text-red-700 dark:hover:text-red-300"
+            >
+              Clear filters
+            </button>
+          )}
+        </div>
+      )}
+      
+      {/* Vocabulary grid */}
+      {!loading && filteredVocabulary.length > 0 && (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {filteredVocabulary.map((item, index) => (
+            <HSKVocabularyCard 
+              key={`hsk-${selectedLevel}-${item.id}-${index}`} // Unique key with level, ID, and index
+              item={item} 
+            />
+          ))}
+        </div>
+      )}
+      
+      {/* Show pagination info if we have lots of results */}
+      {!loading && filteredVocabulary.length > 50 && (
+        <div className="flex justify-center mt-6 text-sm text-gray-500 dark:text-gray-400 bg-gray-50 dark:bg-gray-800 rounded-lg p-3">
+          <div className="flex items-center space-x-2">
+            <span>📊</span>
+            <span>Showing {filteredVocabulary.length} vocabulary items</span>
+          </div>
+        </div>
+      )}
+      
+      {/* Tips section for when vocabulary is loaded */}
+      {!loading && vocabulary.length > 0 && filteredVocabulary.length > 0 && (
+        <div className="bg-yellow-50 dark:bg-yellow-900/20 rounded-lg p-4 mt-6">
+          <h3 className="font-semibold mb-2 text-yellow-800 dark:text-yellow-200">💡 Learning Tips:</h3>
+          <ul className="text-sm text-yellow-700 dark:text-yellow-300 list-disc list-inside space-y-1">
+            <li>Click on vocabulary cards to see detailed examples</li>
+            <li>Use the star (☆) to bookmark words for later review</li>
+            <li>Try searching for words in different languages (Chinese, Vietnamese, English, Pinyin)</li>
+            <li>Focus on high-frequency words first for better learning efficiency</li>
+          </ul>
+        </div>
+      )}
     </div>
   );
 };
