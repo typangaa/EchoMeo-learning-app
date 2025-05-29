@@ -1,0 +1,444 @@
+Missing Vocabulary Analysis Report
+========================================
+Generated: 2025-05-25 14:24:59
+
+SUMMARY STATISTICS
+--------------------
+Total Raw Vocabulary: 10,969 words
+Total Enriched Vocabulary: 2,206 words
+Missing Words: 8,763 words (79.9% gap)
+Extra Words: 0 words
+
+MISSING WORDS BY HSK LEVEL
+------------------------------
+HSK 2: 1 missing out of 750 (0.1%)
+HSK 3: 2 missing out of 953 (0.2%)
+HSK 4: 972 missing out of 972 (100.0%)
+HSK 5: 1,059 missing out of 1,059 (100.0%)
+HSK 6: 1,123 missing out of 1,123 (100.0%)
+HSK 7: 5,606 missing out of 5,606 (100.0%)
+
+DETAILED MISSING WORDS (Sample)
+-----------------------------------
+
+HSK Level 2 - Missing Words (showing 1 of 1):
+  • 比如说 (bǐ rú shuō) - Freq: 2785
+    Meanings: for example
+
+HSK Level 3 - Missing Words (showing 2 of 2):
+  • 文件 (wén jiàn) - Freq: 1342
+    Meanings: document; file
+  • 猪 (zhū) - Freq: 1583
+    Meanings: hog; pig
+
+HSK Level 4 - Missing Words (showing 50 of 972):
+  • 一再 (yī zài) - Freq: 10127
+    Meanings: repeatedly
+  • 一律 (yī lu:4) - Freq: 13897
+    Meanings: same; uniformly
+  • 一致 (yī zhì) - Freq: 1957
+    Meanings: unanimous; identical (views or opinions)
+  • 一般来说 (yī bān lái shuō) - Freq: 9210
+    Meanings: generally speaking
+  • 万一 (wàn yī) - Freq: 2483
+    Meanings: just in case; if by any chance
+  • 丈夫 (zhàng fu) - Freq: 1376
+    Meanings: husband
+  • 上个月 (shàng gè yuè) - Freq: 6260
+    Meanings: last month
+  • 上楼 (shàng lóu) - Freq: 11082
+    Meanings: to go upstairs
+  • 上门 (shàng mén) - Freq: 5566
+    Meanings: to drop in; to visit
+  • 下个月 (xià gè yuè) - Freq: 1000000
+    Meanings: next month
+  • 下楼 (xià lóu) - Freq: 11084
+    Meanings: to go downstairs
+  • 下载 (xià zǎi) - Freq: 4502
+    Meanings: to download; also pr. [xià zài]
+  • 下降 (xià jiàng) - Freq: 2377
+    Meanings: to decline; to drop
+  • 不在乎 (bù zài hu) - Freq: 4222
+    Meanings: not to care
+  • 不然 (bù rán) - Freq: 2285
+    Meanings: not so; no
+  • 不管 (bù guǎn) - Freq: 854
+    Meanings: not to be concerned; regardless of
+  • 不要紧 (bù yào jǐn) - Freq: 10100
+    Meanings: unimportant; not serious
+  • 专心 (zhuān xīn) - Freq: 8032
+    Meanings: to focus one's attention; to concentrate on (doing sth)
+  • 业余 (yè yú) - Freq: 5236
+    Meanings: in one's spare time; outside working hours
+  • 两边 (liǎng bian) - Freq: 7213
+    Meanings: either side; both sides
+  • 严 (Yán) - Freq: 5871
+    Meanings: surname Yan
+  • 严格 (yán gé) - Freq: 2279
+    Meanings: strict; stringent
+  • 严重 (yán zhòng) - Freq: 785
+    Meanings: grave; serious
+  • 个体 (gè tǐ) - Freq: 7735
+    Meanings: individual
+  • 个别 (gè bié) - Freq: 6477
+    Meanings: individually; one by one; just one or two; exceptional; rare
+  • 中介 (zhōng jiè) - Freq: 8051
+    Meanings: to act as intermediary; to link
+  • 中奖 (zhòng jiǎng) - Freq: 8049
+    Meanings: to win a prize (in a lottery etc)
+  • 临时 (lín shí) - Freq: 3015
+    Meanings: as the time draws near; at the last moment
+  • 主席 (zhǔ xí) - Freq: 2330
+    Meanings: chairperson; premier
+  • 主题 (zhǔ tí) - Freq: 2127
+    Meanings: theme; subject
+  • 义务 (yì wù) - Freq: 3344
+    Meanings: duty; obligation
+  • 之一 (zhī yī) - Freq: 893
+    Meanings: one of (sth); one out of a multitude
+  • 之前 (zhī qián) - Freq: 479
+    Meanings: before; prior to
+  • 之后 (zhī hòu) - Freq: 303
+    Meanings: after; behind; (at the beginning of a sentence) afterwards; since then
+  • 之间 (zhī jiān) - Freq: 476
+    Meanings: (after a noun) between; among; amid; (used after certain bisyllabic words to form expressions indica...
+  • 乐趣 (lè qù) - Freq: 4402
+    Meanings: delight; pleasure; joy
+  • 了不起 (liǎo bu qǐ) - Freq: 5874
+    Meanings: amazing; terrific
+  • 了解 (liǎo jiě) - Freq: 336
+    Meanings: to understand; to realize
+  • 争论 (zhēng lùn) - Freq: 5270
+    Meanings: to argue; to debate
+  • 事先 (shì xiān) - Freq: 4757
+    Meanings: in advance; before the event
+  • 事物 (shì wù) - Freq: 3523
+    Meanings: thing; object
+  • 二手 (èr shǒu) - Freq: 10587
+    Meanings: indirectly acquired; second-hand (information, equipment etc)
+  • 于是 (yú shì) - Freq: 1151
+    Meanings: thereupon; as a result; consequently; thus; hence
+  • 五颜六色 (wǔ yán liù sè) - Freq: 28844
+    Meanings: multicolored; every color under the sun
+  • 亚运会 (Yà yùn huì) - Freq: 25188
+    Meanings: Asian Games
+  • 些 (xiē) - Freq: 611
+    Meanings: classifier indicating a small amount or small number greater than 1: some, a few, several
+  • 交换 (jiāo huàn) - Freq: 3196
+    Meanings: to exchange; to swap
+  • 交际 (jiāo jì) - Freq: 11527
+    Meanings: communication; social intercourse
+  • 产品 (chǎn pǐn) - Freq: 1421
+    Meanings: goods; merchandise
+  • 亲密 (qīn mì) - Freq: 4458
+    Meanings: intimate; close
+    ... and 922 more words
+
+HSK Level 5 - Missing Words (showing 50 of 1059):
+  • 一下子 (yī xià zi) - Freq: 4322
+    Meanings: in a short while; all at once
+  • 一口气 (yī kǒu qì) - Freq: 12928
+    Meanings: one breath; in one breath
+  • 一句话 (yī jù huà) - Freq: 2843
+    Meanings: in a word; in short
+  • 一向 (yī xiàng) - Freq: 4429
+    Meanings: always (previously); a period of time in the recent past
+  • 一带 (yī dài) - Freq: 6591
+    Meanings: region; district
+  • 一旦 (yī dàn) - Freq: 1323
+    Meanings: in case (sth happens); if
+  • 一流 (yī liú) - Freq: 5035
+    Meanings: top quality; front ranking
+  • 一路 (yī lù) - Freq: 2451
+    Meanings: the whole journey; all the way
+  • 一身 (yī shēn) - Freq: 8569
+    Meanings: whole body; from head to toe
+  • 一辈子 (yī bèi zi) - Freq: 2335
+    Meanings: (for) a lifetime
+  • 上下 (shàng xià) - Freq: 4808
+    Meanings: up and down; top and bottom
+  • 上涨 (shàng zhǎng) - Freq: 7924
+    Meanings: to rise; to go up
+  • 上级 (shàng jí) - Freq: 5572
+    Meanings: higher authorities; superiors
+  • 不停 (bù tíng) - Freq: 7370
+    Meanings: incessant
+  • 不免 (bù miǎn) - Freq: 24642
+    Meanings: inevitably
+  • 不利 (bù lì) - Freq: 4288
+    Meanings: unfavorable; disadvantageous
+  • 不幸 (bù xìng) - Freq: 2784
+    Meanings: misfortune; adversity
+  • 不得了 (bù dé liǎo) - Freq: 8549
+    Meanings: desperately serious; disastrous
+  • 不敢当 (bù gǎn dāng) - Freq: 35004
+    Meanings: lit. I dare not (accept the honor); fig. I don't deserve your praise; you flatter me
+  • 不时 (bù shí) - Freq: 8547
+    Meanings: from time to time; now and then
+  • 不易 (bù yì) - Freq: 17513
+    Meanings: not easy to do sth; difficult
+  • 不曾 (bù céng) - Freq: 8242
+    Meanings: hasn't yet; hasn't ever
+  • 不止 (bù zhǐ) - Freq: 3921
+    Meanings: incessantly; without end
+  • 不耐烦 (bù nài fán) - Freq: 13336
+    Meanings: impatient; to lose patience
+  • 不能不 (bù néng bù) - Freq: 10279
+    Meanings: have to; cannot but
+  • 不良 (bù liáng) - Freq: 4514
+    Meanings: bad; harmful
+  • 不许 (bù xǔ) - Freq: 3916
+    Meanings: not to allow; must not
+  • 不足 (bù zú) - Freq: 2971
+    Meanings: insufficient; lacking
+  • 不顾 (bù gù) - Freq: 6927
+    Meanings: in spite of; regardless of
+  • 丑 (Chǒu) - Freq: 3841
+    Meanings: surname Chou
+  • 专利 (zhuān lì) - Freq: 6388
+    Meanings: patent; sth uniquely enjoyed (or possessed etc) by a certain group of people
+  • 专辑 (zhuān jí) - Freq: 3299
+    Meanings: album; record (music)
+  • 业务 (yè wù) - Freq: 2972
+    Meanings: business; professional work
+  • 丢 (diū) - Freq: 1655
+    Meanings: to lose; to put aside
+  • 两岸 (liǎng àn) - Freq: 22338
+    Meanings: bilateral; both shores
+  • 严厉 (yán lì) - Freq: 5614
+    Meanings: severe; strict
+  • 严肃 (yán sù) - Freq: 3552
+    Meanings: solemn; grave
+  • 个儿 (gè r) - Freq: 25731
+    Meanings: size; height
+  • 中央 (zhōng yāng) - Freq: 1962
+    Meanings: central; middle
+  • 中断 (zhōng duàn) - Freq: 6613
+    Meanings: to cut short; to break off
+  • 中毒 (zhòng dú) - Freq: 5105
+    Meanings: to be poisoned
+  • 中秋节 (Zhōng qiū jié) - Freq: 44601
+    Meanings: the Mid-Autumn Festival on 15th of 8th lunar month
+  • 中药 (zhōng yào) - Freq: 22936
+    Meanings: traditional Chinese medicine
+  • 丰收 (fēng shōu) - Freq: 12806
+    Meanings: bumper harvest
+  • 为主 (wéi zhǔ) - Freq: 8724
+    Meanings: to rely mainly on; to attach most importance to
+  • 为期 (wéi qī) - Freq: 12047
+    Meanings: (to be done) by (a certain date); lasting (a certain time)
+  • 为止 (wéi zhǐ) - Freq: 2138
+    Meanings: until; (used in combination with words like 到 or 至 in constructs of the form 到...到...为止)
+  • 为难 (wéi nán) - Freq: 7920
+    Meanings: to feel embarrassed or awkward; to make things difficult (for someone)
+  • 主体 (zhǔ tǐ) - Freq: 14949
+    Meanings: main part; bulk
+  • 主办 (zhǔ bàn) - Freq: 10648
+    Meanings: to organize; to host (a conference or sports event)
+    ... and 1009 more words
+
+HSK Level 6 - Missing Words (showing 50 of 1123):
+  • 一代 (yī dài) - Freq: 9102
+    Meanings: generation
+  • 一同 (yī tóng) - Freq: 5754
+    Meanings: together
+  • 一时 (yī shí) - Freq: 3531
+    Meanings: a period of time; a while
+  • 一模一样 (yī mú yī yàng) - Freq: 8179
+    Meanings: exactly the same (idiom); carbon copy
+  • 一次性 (yī cì xìng) - Freq: 7116
+    Meanings: one-off (offer); one-time
+  • 一番 (yì fān) - Freq: 3681
+    Meanings: Some
+  • 一行 (yī xíng) - Freq: 13419
+    Meanings: party; delegation
+  • 一贯 (yī guàn) - Freq: 7299
+    Meanings: consistent; constant
+  • 一路上 (yī lù shàng) - Freq: 9985
+    Meanings: along the way; the whole way
+  • 一道 (yī dào) - Freq: 8613
+    Meanings: together
+  • 一齐 (yī qí) - Freq: 13522
+    Meanings: at the same time; simultaneously
+  • 三明治 (sān míng zhì) - Freq: 13871
+    Meanings: sandwich (loanword)
+  • 上台 (shàng tái) - Freq: 6130
+    Meanings: to rise to power (in politics); to go on stage (in the theater)
+  • 上市 (shàng shì) - Freq: 5443
+    Meanings: to hit the market (of a new product); to float (a company on the stock market)
+  • 上帝 (Shàng dì) - Freq: 2412
+    Meanings: God
+  • 上当 (shàng dàng) - Freq: 9629
+    Meanings: taken in (by sb's deceit); to be fooled
+  • 上演 (shàng yǎn) - Freq: 4710
+    Meanings: to screen (a movie); to stage (a play)
+  • 上班族 (shàng bān zú) - Freq: 26506
+    Meanings: office workers (as social group)
+  • 不仅仅 (bù jǐn jǐn) - Freq: 6163
+    Meanings: not only; not just
+  • 不便 (bù biàn) - Freq: 8003
+    Meanings: inconvenient; inappropriate
+  • 不值 (bù zhí) - Freq: 16754
+    Meanings: not worth
+  • 不再 (bù zài) - Freq: 952
+    Meanings: no more; no longer
+  • 不怎么 (bù zěn me) - Freq: 8686
+    Meanings: not very; not particularly
+  • 不怎么样 (bù zěn me yàng) - Freq: 22737
+    Meanings: not up to much; very indifferent
+  • 不成 (bù chéng) - Freq: 10054
+    Meanings: won't do; unable to
+  • 不料 (bù liào) - Freq: 25376
+    Meanings: unexpectedly; to one's surprise
+  • 不禁 (bù jīn) - Freq: 8021
+    Meanings: can't help (doing sth); can't refrain from
+  • 不至于 (bù zhì yú) - Freq: 7982
+    Meanings: unlikely to go so far as to; not as bad as
+  • 不见 (bù jiàn) - Freq: 2421
+    Meanings: not to see; not to meet
+  • 不通 (bù tōng) - Freq: 7794
+    Meanings: to be obstructed; to be blocked up
+  • 与 (yú) - Freq: 147
+    Meanings: variant of 欤
+  • 专用 (zhuān yòng) - Freq: 5813
+    Meanings: special; dedicated
+  • 两侧 (liǎng cè) - Freq: 16912
+    Meanings: two sides; both sides
+  • 两手 (liǎng shǒu) - Freq: 28543
+    Meanings: one's two hands; two prongs (of a strategy)
+  • 丧失 (sàng shī) - Freq: 5269
+    Meanings: to lose; to forfeit
+  • 中华 (Zhōng huá) - Freq: 21349
+    Meanings: China (alternate formal name)
+  • 中外 (zhōng wài) - Freq: 19472
+    Meanings: Sino-foreign; Chinese-foreign
+  • 中期 (zhōng qī) - Freq: 9674
+    Meanings: middle (of a period of time); medium-term (plan, forecast etc)
+  • 中等 (zhōng děng) - Freq: 8572
+    Meanings: medium
+  • 串 (chuàn) - Freq: 5008
+    Meanings: to string together; to skewer
+  • 为何 (wèi hé) - Freq: 1948
+    Meanings: why
+  • 为此 (wèi cǐ) - Freq: 2706
+    Meanings: for this reason; with regards to this
+  • 主持人 (zhǔ chí rén) - Freq: 3059
+    Meanings: TV or radio presenter; host
+  • 主流 (zhǔ liú) - Freq: 8548
+    Meanings: main stream (of a river); fig. the essential point
+  • 主角 (zhǔ jué) - Freq: 3747
+    Meanings: leading role; lead; protagonist
+  • 之类 (zhī lèi) - Freq: 1380
+    Meanings: and so on; and such
+  • 乌云 (wū yún) - Freq: 16527
+    Meanings: black cloud
+  • 乐曲 (yuè qǔ) - Freq: 16970
+    Meanings: musical composition
+  • 书房 (shū fáng) - Freq: 9549
+    Meanings: study (room); studio
+  • 乳制品 (rǔ zhì pǐn) - Freq: 27890
+    Meanings: dairy products
+    ... and 1073 more words
+
+HSK Level 7 - Missing Words (showing 50 of 5606):
+  • 一一 (yī yī) - Freq: 2016
+    Meanings: one by one; one after another
+  • 一不小心 (yī bù xiǎo xīn) - Freq: 14161
+    Meanings: to be a little bit careless; to have a moment of inattentiveness
+  • 一个劲儿 (yī gè jìn r) - Freq: 35871
+    Meanings: erhua variant of 一个劲
+  • 一举 (yī jǔ) - Freq: 12406
+    Meanings: a move; an action
+  • 一举一动 (yī jǔ yī dòng) - Freq: 13650
+    Meanings: every movement; each and every move
+  • 一事无成 (yī shì wú chéng) - Freq: 22215
+    Meanings: to have achieved nothing; to be a total failure
+  • 一体 (yī tǐ) - Freq: 7220
+    Meanings: an integral whole; all concerned
+  • 一刹那 (yī chà nà) - Freq: 17189
+    Meanings: a moment; an instant
+  • 一动不动 (yī dòng bù dòng) - Freq: 16188
+    Meanings: motionless
+  • 一卡通 (Yī kǎ tōng) - Freq: 1000000
+    Meanings: the name of various contactless smart cards, notably Yikatong (mainly for public transport in Beijin...
+  • 一味 (yī wèi) - Freq: 21515
+    Meanings: blindly; invariably
+  • 一回事 (yī huí shì) - Freq: 12272
+    Meanings: one and the same (thing); one thing (as distinct from another)
+  • 一塌糊涂 (yī tā hú tu) - Freq: 11014
+    Meanings: muddled and completely collapsing (idiom); in an awful condition; complete shambles
+  • 一声不吭 (yī shēng bù kēng) - Freq: 26480
+    Meanings: to not say a word
+  • 一大早 (yī dà zǎo) - Freq: 7571
+    Meanings: at dawn; at first light
+  • 一天到晚 (yī tiān dào wǎn) - Freq: 15466
+    Meanings: all day long; the whole day
+  • 一头 (yī tóu) - Freq: 9187
+    Meanings: one head; a head full of sth
+  • 一如既往 (yī rú jì wǎng) - Freq: 9416
+    Meanings: just as in the past (idiom); as before; continuing as always
+  • 一家人 (yī jiā rén) - Freq: 16475
+    Meanings: household; the whole family
+  • 一帆风顺 (yī fān fēng shùn) - Freq: 17562
+    Meanings: propitious wind throughout the journey (idiom); plain sailing
+  • 一干二净 (yī gān èr jìng) - Freq: 23050
+    Meanings: thoroughly (idiom); completely
+  • 一年到头 (yī nián dào tóu) - Freq: 37724
+    Meanings: all year round
+  • 一应俱全 (yī yīng jù quán) - Freq: 31560
+    Meanings: with everything needed available
+  • 一度 (yī dù) - Freq: 8225
+    Meanings: for a time; at one time
+  • 一心 (yī xīn) - Freq: 9183
+    Meanings: wholeheartedly; heart and soul
+  • 一心一意 (yī xīn yī yì) - Freq: 19090
+    Meanings: concentrating one's thoughts and efforts; single-minded
+  • 一成不变 (yī chéng bù biàn) - Freq: 19445
+    Meanings: (idiom) immutable; impervious to change; set in stone
+  • 一手 (yī shǒu) - Freq: 7866
+    Meanings: a skill; mastery of a trade
+  • 一技之长 (yī jì zhī cháng) - Freq: 36099
+    Meanings: proficiency in a particular field (idiom); skill in a specialized area (idiom)
+  • 一把手 (yī bǎ shǒu) - Freq: 20084
+    Meanings: working hand; member of a work team; participant; the boss (short form of 手)
+  • 一揽子 (yī lǎn zi) - Freq: 27919
+    Meanings: all-inclusive; undiscriminating
+  • 一旁 (yī páng) - Freq: 7919
+    Meanings: aside; to the side of
+  • 一无所有 (yī wú suǒ yǒu) - Freq: 11565
+    Meanings: not having anything at all (idiom); utterly lacking; without two sticks to rub together
+  • 一无所知 (yī wú suǒ zhī) - Freq: 11975
+    Meanings: not knowing anything at all (idiom); completely ignorant; without an inkling
+  • 一早 (yī zǎo) - Freq: 6719
+    Meanings: early in the morning; at dawn
+  • 一晃 (yī huǎng) - Freq: 26016
+    Meanings: (of passing time) in an instant; (of a sight) in a flash
+  • 一概 (yī gài) - Freq: 23649
+    Meanings: all; without any exceptions
+  • 一概而论 (yī gài ér lùn) - Freq: 47671
+    Meanings: to lump different matters together (idiom)
+  • 一毛不拔 (yī máo bù bá) - Freq: 75450
+    Meanings: stingy (idiom)
+  • 一目了然 (yī mù liǎo rán) - Freq: 18968
+    Meanings: obvious at a glance (idiom)
+  • 一眼 (yī yǎn) - Freq: 12941
+    Meanings: a glance; a quick look
+  • 一瞬间 (yī shùn jiān) - Freq: 7348
+    Meanings: split second
+  • 一筹莫展 (yī chóu mò zhǎn) - Freq: 31915
+    Meanings: to be unable to find a solution; to be at wits' end
+  • 一系列 (yī xì liè) - Freq: 24973
+    Meanings: a series of; a string of
+  • 一线 (yī xiàn) - Freq: 7391
+    Meanings: front line
+  • 一经 (yī jīng) - Freq: 19599
+    Meanings: as soon as; once (an action has been completed)
+  • 一言一行 (yī yán yī xíng) - Freq: 37817
+    Meanings: every word and action (idiom)
+  • 一言不发 (yī yán bù fā) - Freq: 18750
+    Meanings: to not say a word (idiom)
+  • 一连 (yī lián) - Freq: 18593
+    Meanings: in a row; in succession
+  • 一连串 (yī lián chuàn) - Freq: 11835
+    Meanings: a succession of; a series of
+    ... and 5556 more words

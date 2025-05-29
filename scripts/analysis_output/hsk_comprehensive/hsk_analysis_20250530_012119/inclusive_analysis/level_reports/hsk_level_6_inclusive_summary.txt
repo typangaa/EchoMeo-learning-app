@@ -1,0 +1,42 @@
+HSK LEVEL 6 - INCLUSIVE DATASET ANALYSIS
+=============================================================
+Generated: 2025-05-30 01:21:25
+
+OVERVIEW:
+  Dataset: Inclusive
+  Total Words: 5384
+  Single Characters: 1064 (19.8%)
+  Compound Words: 4320 (80.2%)
+  Average Word Length: 1.86 characters
+  Unique Characters: 1799
+
+WORD LENGTH DISTRIBUTION:
+  1 character(s): 1064 words (19.8%)
+  2 character(s): 4018 words (74.6%)
+  3 character(s): 280 words (5.2%)
+  4 character(s): 22 words (0.4%)
+
+MOST COMMON CHARACTERS IN THIS LEVEL:
+  不: appears in 82 words
+  子: appears in 71 words
+  大: appears in 67 words
+  人: appears in 62 words
+  一: appears in 62 words
+  出: appears in 53 words
+  上: appears in 52 words
+  儿: appears in 48 words
+  动: appears in 45 words
+  有: appears in 45 words
+
+UNIQUENESS ANALYSIS:
+  Words unique to HSK 6: 0
+  Words shared with other levels: 5384
+  Uniqueness percentage: 0.0%
+
+LONGEST WORDS IN THIS LEVEL:
+  1. 不好意思 (4 characters)
+  2. 不一会儿 (4 characters)
+  3. 不怎么样 (4 characters)
+  4. 差一点儿 (4 characters)
+  5. 电子邮件 (4 characters)
+

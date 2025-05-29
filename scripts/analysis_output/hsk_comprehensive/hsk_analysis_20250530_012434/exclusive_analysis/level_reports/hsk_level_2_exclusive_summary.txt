@@ -1,0 +1,64 @@
+HSK LEVEL 2 - EXCLUSIVE DATASET ANALYSIS
+=============================================================
+Generated: 2025-05-30 01:24:35
+
+OVERVIEW:
+  Dataset: Exclusive
+  Total Words: 755
+  Single Characters: 179 (23.7%)
+  Compound Words: 576 (76.3%)
+  Average Word Length: 1.84 characters
+  Unique Characters: 497
+
+WORD LENGTH DISTRIBUTION:
+  1 character(s): 179 words (23.7%)
+  2 character(s): 522 words (69.1%)
+  3 character(s): 48 words (6.4%)
+  4 character(s): 6 words (0.8%)
+
+MOST COMMON CHARACTERS IN THIS LEVEL:
+  不: appears in 16 words
+  大: appears in 14 words
+  出: appears in 13 words
+  到: appears in 13 words
+  人: appears in 12 words
+  一: appears in 12 words
+  行: appears in 11 words
+  年: appears in 11 words
+  过: appears in 10 words
+  好: appears in 10 words
+
+UNIQUENESS ANALYSIS:
+  Words unique to HSK 2: 755
+  Words shared with other levels: 0
+  Uniqueness percentage: 100.0%
+
+LONGEST WORDS IN THIS LEVEL:
+  1. 不好意思 (4 characters)
+  2. 不一会儿 (4 characters)
+  3. 公共汽车 (4 characters)
+  4. 一路平安 (4 characters)
+  5. 一路顺风 (4 characters)
+
+WORDS UNIQUE TO HSK 2 (first 20):
+  一共
+  一定
+  一点点
+  一生
+  一直
+  一般
+  一路平安
+  一路顺风
+  一部分
+  万
+  上周
+  下周
+  下雪
+  不一会儿
+  不一定
+  不久
+  不但
+  不同
+  不够
+  不太
+  ... and 735 more unique words

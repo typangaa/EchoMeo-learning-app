@@ -1,0 +1,63 @@
+HSK LEVEL 7 - VOCABULARY ANALYSIS SUMMARY
+===================================================
+Generated: 2025-05-25 15:00:02
+
+OVERVIEW:
+  Total Words: 5609
+  Single Characters: 478 (8.5%)
+  Compound Words: 5131 (91.5%)
+  Average Word Length: 2.13 characters
+  Unique Characters: 2724
+
+WORD LENGTH DISTRIBUTION:
+  1 character(s): 478 words (8.5%)
+  2 character(s): 4347 words (77.5%)
+  3 character(s): 354 words (6.3%)
+  4 character(s): 430 words (7.7%)
+
+MOST COMMON CHARACTERS IN THIS LEVEL:
+  不: appears in 128 words
+  人: appears in 80 words
+  一: appears in 74 words
+  子: appears in 70 words
+  心: appears in 70 words
+  无: appears in 60 words
+  大: appears in 48 words
+  手: appears in 42 words
+  气: appears in 42 words
+  出: appears in 42 words
+
+UNIQUENESS ANALYSIS:
+  Words unique to HSK 7: 5609
+  Words shared with other levels: 0
+  Uniqueness percentage: 100.0%
+
+LONGEST WORDS IN THIS LEVEL:
+  1. 阿拉伯语 (4 characters)
+  2. 挨家挨户 (4 characters)
+  3. 爱不释手 (4 characters)
+  4. 爱理不理 (4 characters)
+  5. 百科全书 (4 characters)
+
+WORDS UNIQUE TO HSK 7 (first 20):
+  一一
+  一不小心
+  一个劲儿
+  一举
+  一举一动
+  一事无成
+  一体
+  一刹那
+  一动不动
+  一卡通
+  一味
+  一回事
+  一塌糊涂
+  一声不吭
+  一大早
+  一天到晚
+  一头
+  一如既往
+  一家人
+  一帆风顺
+  ... and 5589 more unique words

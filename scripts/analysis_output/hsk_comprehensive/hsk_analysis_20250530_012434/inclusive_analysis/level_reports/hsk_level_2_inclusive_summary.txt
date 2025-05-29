@@ -1,0 +1,42 @@
+HSK LEVEL 2 - INCLUSIVE DATASET ANALYSIS
+=============================================================
+Generated: 2025-05-30 01:24:39
+
+OVERVIEW:
+  Dataset: Inclusive
+  Total Words: 1266
+  Single Characters: 394 (31.1%)
+  Compound Words: 872 (68.9%)
+  Average Word Length: 1.76 characters
+  Unique Characters: 598
+
+WORD LENGTH DISTRIBUTION:
+  1 character(s): 394 words (31.1%)
+  2 character(s): 785 words (62.0%)
+  3 character(s): 81 words (6.4%)
+  4 character(s): 6 words (0.5%)
+
+MOST COMMON CHARACTERS IN THIS LEVEL:
+  儿: appears in 26 words
+  不: appears in 23 words
+  一: appears in 23 words
+  上: appears in 22 words
+  学: appears in 22 words
+  人: appears in 20 words
+  子: appears in 20 words
+  边: appears in 20 words
+  到: appears in 20 words
+  大: appears in 18 words
+
+UNIQUENESS ANALYSIS:
+  Words unique to HSK 2: 0
+  Words shared with other levels: 1266
+  Uniqueness percentage: 0.0%
+
+LONGEST WORDS IN THIS LEVEL:
+  1. 不好意思 (4 characters)
+  2. 不一会儿 (4 characters)
+  3. 公共汽车 (4 characters)
+  4. 一路平安 (4 characters)
+  5. 一路顺风 (4 characters)
+

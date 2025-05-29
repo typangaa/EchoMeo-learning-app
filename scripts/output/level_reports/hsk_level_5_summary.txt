@@ -1,0 +1,63 @@
+HSK LEVEL 5 - VOCABULARY ANALYSIS SUMMARY
+===================================================
+Generated: 2025-05-25 15:00:02
+
+OVERVIEW:
+  Total Words: 1061
+  Single Characters: 171 (16.1%)
+  Compound Words: 890 (83.9%)
+  Average Word Length: 1.89 characters
+  Unique Characters: 939
+
+WORD LENGTH DISTRIBUTION:
+  1 character(s): 171 words (16.1%)
+  2 character(s): 835 words (78.7%)
+  3 character(s): 53 words (5.0%)
+  4 character(s): 2 words (0.2%)
+
+MOST COMMON CHARACTERS IN THIS LEVEL:
+  不: appears in 22 words
+  子: appears in 17 words
+  大: appears in 15 words
+  动: appears in 13 words
+  一: appears in 13 words
+  有: appears in 11 words
+  人: appears in 10 words
+  成: appears in 10 words
+  分: appears in 9 words
+  度: appears in 9 words
+
+UNIQUENESS ANALYSIS:
+  Words unique to HSK 5: 1061
+  Words shared with other levels: 0
+  Uniqueness percentage: 100.0%
+
+LONGEST WORDS IN THIS LEVEL:
+  1. 差一点儿 (4 characters)
+  2. 酸甜苦辣 (4 characters)
+  3. 闭幕式 (3 characters)
+  4. 博览会 (3 characters)
+  5. 博物馆 (3 characters)
+
+WORDS UNIQUE TO HSK 5 (first 20):
+  一下子
+  一口气
+  一句话
+  一向
+  一带
+  一旦
+  一流
+  一路
+  一身
+  一辈子
+  上下
+  上涨
+  上级
+  不停
+  不免
+  不利
+  不幸
+  不得了
+  不敢当
+  不时
+  ... and 1041 more unique words

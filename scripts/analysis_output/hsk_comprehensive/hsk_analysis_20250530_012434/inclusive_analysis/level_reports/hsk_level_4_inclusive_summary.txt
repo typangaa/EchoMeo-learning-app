@@ -1,0 +1,42 @@
+HSK LEVEL 4 - INCLUSIVE DATASET ANALYSIS
+=============================================================
+Generated: 2025-05-30 01:24:39
+
+OVERVIEW:
+  Dataset: Inclusive
+  Total Words: 3197
+  Single Characters: 707 (22.1%)
+  Compound Words: 2490 (77.9%)
+  Average Word Length: 1.83 characters
+  Unique Characters: 1199
+
+WORD LENGTH DISTRIBUTION:
+  1 character(s): 707 words (22.1%)
+  2 character(s): 2323 words (72.7%)
+  3 character(s): 155 words (4.8%)
+  4 character(s): 12 words (0.4%)
+
+MOST COMMON CHARACTERS IN THIS LEVEL:
+  子: appears in 48 words
+  不: appears in 42 words
+  大: appears in 41 words
+  人: appears in 40 words
+  上: appears in 36 words
+  一: appears in 35 words
+  儿: appears in 35 words
+  学: appears in 32 words
+  生: appears in 31 words
+  到: appears in 30 words
+
+UNIQUENESS ANALYSIS:
+  Words unique to HSK 4: 0
+  Words shared with other levels: 3197
+  Uniqueness percentage: 0.0%
+
+LONGEST WORDS IN THIS LEVEL:
+  1. 不好意思 (4 characters)
+  2. 不一会儿 (4 characters)
+  3. 电子邮件 (4 characters)
+  4. 高速公路 (4 characters)
+  5. 公共汽车 (4 characters)
+

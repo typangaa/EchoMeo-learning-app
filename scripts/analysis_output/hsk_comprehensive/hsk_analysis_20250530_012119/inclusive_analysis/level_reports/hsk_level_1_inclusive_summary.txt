@@ -1,0 +1,41 @@
+HSK LEVEL 1 - INCLUSIVE DATASET ANALYSIS
+=============================================================
+Generated: 2025-05-30 01:21:25
+
+OVERVIEW:
+  Dataset: Inclusive
+  Total Words: 511
+  Single Characters: 215 (42.1%)
+  Compound Words: 296 (57.9%)
+  Average Word Length: 1.64 characters
+  Unique Characters: 300
+
+WORD LENGTH DISTRIBUTION:
+  1 character(s): 215 words (42.1%)
+  2 character(s): 263 words (51.5%)
+  3 character(s): 33 words (6.5%)
+
+MOST COMMON CHARACTERS IN THIS LEVEL:
+  上: appears in 19 words
+  边: appears in 16 words
+  儿: appears in 16 words
+  学: appears in 15 words
+  生: appears in 11 words
+  有: appears in 11 words
+  下: appears in 11 words
+  一: appears in 11 words
+  天: appears in 10 words
+  子: appears in 10 words
+
+UNIQUENESS ANALYSIS:
+  Words unique to HSK 1: 0
+  Words shared with other levels: 511
+  Uniqueness percentage: 0.0%
+
+LONGEST WORDS IN THIS LEVEL:
+  1. 不客气 (3 characters)
+  2. 打电话 (3 characters)
+  3. 大学生 (3 characters)
+  4. 电视机 (3 characters)
+  5. 电影院 (3 characters)
+

@@ -41,3 +41,4 @@ __pycache__/
 
 # Scripts data directory
 scripts/data/
+scripts/log/

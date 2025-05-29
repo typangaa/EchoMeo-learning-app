@@ -122,7 +122,7 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
           ))}
           
           {/* Show disabled buttons for unavailable levels */}
-          {[4, 5, 6, 7].map(level => (
+          {[6, 7].map(level => (
             <button
               key={level}
               className="px-3 py-1 rounded-md bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600 cursor-not-allowed"

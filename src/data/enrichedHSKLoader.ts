@@ -199,7 +199,7 @@ export async function loadEnrichedHSKLevel(level: number): Promise<VocabularyIte
   
   try {
     // Currently HSK levels 1-3 are available in enriched format
-    if (![1, 2, 3].includes(level)) {
+    if (![1, 2, 3, 4, 5].includes(level)) {
       console.warn(`Enriched HSK data only available for levels 1-3, requested level ${level}`);
       return [];
     }

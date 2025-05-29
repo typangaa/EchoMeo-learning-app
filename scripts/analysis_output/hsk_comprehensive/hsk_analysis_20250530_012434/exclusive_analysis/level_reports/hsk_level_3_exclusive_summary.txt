@@ -1,0 +1,64 @@
+HSK LEVEL 3 - EXCLUSIVE DATASET ANALYSIS
+=============================================================
+Generated: 2025-05-30 01:24:35
+
+OVERVIEW:
+  Dataset: Exclusive
+  Total Words: 959
+  Single Characters: 159 (16.6%)
+  Compound Words: 800 (83.4%)
+  Average Word Length: 1.88 characters
+  Unique Characters: 649
+
+WORD LENGTH DISTRIBUTION:
+  1 character(s): 159 words (16.6%)
+  2 character(s): 761 words (79.4%)
+  3 character(s): 35 words (3.6%)
+  4 character(s): 4 words (0.4%)
+
+MOST COMMON CHARACTERS IN THIS LEVEL:
+  人: appears in 13 words
+  面: appears in 12 words
+  合: appears in 12 words
+  发: appears in 12 words
+  实: appears in 12 words
+  子: appears in 11 words
+  生: appears in 11 words
+  保: appears in 10 words
+  成: appears in 10 words
+  员: appears in 10 words
+
+UNIQUENESS ANALYSIS:
+  Words unique to HSK 3: 959
+  Words shared with other levels: 0
+  Uniqueness percentage: 100.0%
+
+LONGEST WORDS IN THIS LEVEL:
+  1. 电子邮件 (4 characters)
+  2. 高速公路 (4 characters)
+  3. 另一方面 (4 characters)
+  4. 中华民族 (4 characters)
+  5. 不得不 (3 characters)
+
+WORDS UNIQUE TO HSK 3 (first 20):
+  一切
+  一方面
+  上升
+  上去
+  上来
+  上衣
+  上面
+  下去
+  下来
+  下面
+  不仅
+  不光
+  不安
+  不得不
+  不必
+  不断
+  不论
+  专业
+  专家
+  专门
+  ... and 939 more unique words

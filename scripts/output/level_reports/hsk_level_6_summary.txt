@@ -1,0 +1,63 @@
+HSK LEVEL 6 - VOCABULARY ANALYSIS SUMMARY
+===================================================
+Generated: 2025-05-25 15:00:02
+
+OVERVIEW:
+  Total Words: 1126
+  Single Characters: 186 (16.5%)
+  Compound Words: 940 (83.5%)
+  Average Word Length: 1.91 characters
+  Unique Characters: 975
+
+WORD LENGTH DISTRIBUTION:
+  1 character(s): 186 words (16.5%)
+  2 character(s): 860 words (76.4%)
+  3 character(s): 72 words (6.4%)
+  4 character(s): 8 words (0.7%)
+
+MOST COMMON CHARACTERS IN THIS LEVEL:
+  不: appears in 18 words
+  出: appears in 18 words
+  外: appears in 14 words
+  一: appears in 14 words
+  人: appears in 12 words
+  车: appears in 12 words
+  打: appears in 11 words
+  大: appears in 11 words
+  发: appears in 10 words
+  上: appears in 10 words
+
+UNIQUENESS ANALYSIS:
+  Words unique to HSK 6: 1126
+  Words shared with other levels: 0
+  Uniqueness percentage: 100.0%
+
+LONGEST WORDS IN THIS LEVEL:
+  1. 不怎么样 (4 characters)
+  2. 好不容易 (4 characters)
+  3. 绝大多数 (4 characters)
+  4. 西班牙语 (4 characters)
+  5. 一模一样 (4 characters)
+
+WORDS UNIQUE TO HSK 6 (first 20):
+  一代
+  一同
+  一时
+  一模一样
+  一次性
+  一番
+  一行
+  一贯
+  一路上
+  一道
+  一齐
+  三明治
+  上台
+  上市
+  上帝
+  上当
+  上演
+  上班族
+  不仅仅
+  不便
+  ... and 1106 more unique words

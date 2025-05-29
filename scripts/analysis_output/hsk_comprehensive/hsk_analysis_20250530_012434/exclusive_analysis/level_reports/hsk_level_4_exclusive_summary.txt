@@ -1,0 +1,64 @@
+HSK LEVEL 4 - EXCLUSIVE DATASET ANALYSIS
+=============================================================
+Generated: 2025-05-30 01:24:35
+
+OVERVIEW:
+  Dataset: Exclusive
+  Total Words: 972
+  Single Characters: 154 (15.8%)
+  Compound Words: 818 (84.2%)
+  Average Word Length: 1.89 characters
+  Unique Characters: 821
+
+WORD LENGTH DISTRIBUTION:
+  1 character(s): 154 words (15.8%)
+  2 character(s): 777 words (79.9%)
+  3 character(s): 39 words (4.0%)
+  4 character(s): 2 words (0.2%)
+
+MOST COMMON CHARACTERS IN THIS LEVEL:
+  子: appears in 17 words
+  大: appears in 15 words
+  不: appears in 10 words
+  动: appears in 9 words
+  分: appears in 9 words
+  型: appears in 9 words
+  密: appears in 7 words
+  业: appears in 7 words
+  人: appears in 7 words
+  电: appears in 7 words
+
+UNIQUENESS ANALYSIS:
+  Words unique to HSK 4: 972
+  Words shared with other levels: 0
+  Uniqueness percentage: 100.0%
+
+LONGEST WORDS IN THIS LEVEL:
+  1. 五颜六色 (4 characters)
+  2. 一般来说 (4 characters)
+  3. 毕业生 (3 characters)
+  4. 不要紧 (3 characters)
+  5. 不在乎 (3 characters)
+
+WORDS UNIQUE TO HSK 4 (first 20):
+  一再
+  一律
+  一致
+  一般来说
+  万一
+  丈夫
+  上个月
+  上楼
+  上门
+  下个月
+  下楼
+  下载
+  下降
+  不在乎
+  不然
+  不管
+  不要紧
+  专心
+  业余
+  两边
+  ... and 952 more unique words

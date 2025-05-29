@@ -1,0 +1,69 @@
+HSK RAW DATA ANALYSIS - DATASET COMPARISON SUMMARY
+============================================================
+Generated: 2025-05-30 01:21:34
+
+OVERALL COMPARISON:
+  Exclusive Dataset Total: 10,969 unique words
+  Inclusive Dataset Total: 10,969 unique words
+  Common Words: 10,969 (100.0%)
+  Exclusive Only: 0 (0.0%)
+  Inclusive Only: 0 (0.0%)
+  Total Combined Unique: 10,969
+  Overall Overlap: 100.0%
+
+LEVEL-BY-LEVEL COMPARISON:
+  HSK 1:
+    Exclusive: 506 words
+    Inclusive: 506 words
+    Common: 506 (100.0% overlap)
+    Exclusive only: 0
+    Inclusive only: 0
+
+  HSK 2:
+    Exclusive: 750 words
+    Inclusive: 1,256 words
+    Common: 750 (59.7% overlap)
+    Exclusive only: 0
+    Inclusive only: 506
+
+  HSK 3:
+    Exclusive: 953 words
+    Inclusive: 2,209 words
+    Common: 953 (43.1% overlap)
+    Exclusive only: 0
+    Inclusive only: 1,256
+
+  HSK 4:
+    Exclusive: 972 words
+    Inclusive: 3,181 words
+    Common: 972 (30.6% overlap)
+    Exclusive only: 0
+    Inclusive only: 2,209
+
+  HSK 5:
+    Exclusive: 1,059 words
+    Inclusive: 4,240 words
+    Common: 1,059 (25.0% overlap)
+    Exclusive only: 0
+    Inclusive only: 3,181
+
+  HSK 6:
+    Exclusive: 1,123 words
+    Inclusive: 5,363 words
+    Common: 1,123 (20.9% overlap)
+    Exclusive only: 0
+    Inclusive only: 4,240
+
+  HSK 7:
+    Exclusive: 5,606 words
+    Inclusive: 10,969 words
+    Common: 5,606 (51.1% overlap)
+    Exclusive only: 0
+    Inclusive only: 5,363
+
+CHARACTER ANALYSIS:
+  Exclusive unique characters: 2,970
+  Inclusive unique characters: 2,970
+  Common characters: 2,970
+  Exclusive only characters: 0
+  Inclusive only characters: 0

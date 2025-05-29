@@ -1,0 +1,42 @@
+HSK LEVEL 3 - INCLUSIVE DATASET ANALYSIS
+=============================================================
+Generated: 2025-05-30 01:24:39
+
+OVERVIEW:
+  Dataset: Inclusive
+  Total Words: 2225
+  Single Characters: 553 (24.9%)
+  Compound Words: 1672 (75.1%)
+  Average Word Length: 1.81 characters
+  Unique Characters: 899
+
+WORD LENGTH DISTRIBUTION:
+  1 character(s): 553 words (24.9%)
+  2 character(s): 1546 words (69.5%)
+  3 character(s): 116 words (5.2%)
+  4 character(s): 10 words (0.4%)
+
+MOST COMMON CHARACTERS IN THIS LEVEL:
+  人: appears in 33 words
+  不: appears in 32 words
+  子: appears in 31 words
+  上: appears in 31 words
+  生: appears in 29 words
+  一: appears in 28 words
+  儿: appears in 28 words
+  到: appears in 27 words
+  大: appears in 26 words
+  学: appears in 25 words
+
+UNIQUENESS ANALYSIS:
+  Words unique to HSK 3: 0
+  Words shared with other levels: 2225
+  Uniqueness percentage: 0.0%
+
+LONGEST WORDS IN THIS LEVEL:
+  1. 不好意思 (4 characters)
+  2. 不一会儿 (4 characters)
+  3. 电子邮件 (4 characters)
+  4. 高速公路 (4 characters)
+  5. 公共汽车 (4 characters)
+

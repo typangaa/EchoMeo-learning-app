@@ -1,0 +1,42 @@
+HSK LEVEL 5 - INCLUSIVE DATASET ANALYSIS
+=============================================================
+Generated: 2025-05-30 01:24:39
+
+OVERVIEW:
+  Dataset: Inclusive
+  Total Words: 4258
+  Single Characters: 878 (20.6%)
+  Compound Words: 3380 (79.4%)
+  Average Word Length: 1.85 characters
+  Unique Characters: 1499
+
+WORD LENGTH DISTRIBUTION:
+  1 character(s): 878 words (20.6%)
+  2 character(s): 3158 words (74.2%)
+  3 character(s): 208 words (4.9%)
+  4 character(s): 14 words (0.3%)
+
+MOST COMMON CHARACTERS IN THIS LEVEL:
+  子: appears in 65 words
+  不: appears in 64 words
+  大: appears in 56 words
+  人: appears in 50 words
+  一: appears in 48 words
+  儿: appears in 43 words
+  上: appears in 42 words
+  有: appears in 39 words
+  动: appears in 38 words
+  出: appears in 35 words
+
+UNIQUENESS ANALYSIS:
+  Words unique to HSK 5: 0
+  Words shared with other levels: 4258
+  Uniqueness percentage: 0.0%
+
+LONGEST WORDS IN THIS LEVEL:
+  1. 不好意思 (4 characters)
+  2. 不一会儿 (4 characters)
+  3. 差一点儿 (4 characters)
+  4. 电子邮件 (4 characters)
+  5. 高速公路 (4 characters)
+

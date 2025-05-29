@@ -37,7 +37,7 @@ export function useHSKVocabulary(
   const initializedRef = useRef<boolean>(false);
   
   // Currently HSK 1-3 are available with enriched data
-  const availableLevels = [1, 2, 3];
+  const availableLevels = [1, 2, 3 , 4, 5];
   
   // Default options
   const { loadProgressively = true } = options;
