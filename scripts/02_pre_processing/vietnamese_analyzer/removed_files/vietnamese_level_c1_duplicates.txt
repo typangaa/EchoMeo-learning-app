@@ -1,0 +1,10 @@
+# Vietnamese Vocabulary - CEFR Level C1 Duplicates
+# Generated: 2025-01-01 12:00:00
+# Total duplicate words: 0
+# Frequency range: Low frequency words (15-29)
+
+# Within-level duplicates (same word appears multiple times in this level):
+# No within-level duplicates found
+
+# Cross-level duplicates (words that also appear in other levels):
+# No cross-level duplicates found for this level

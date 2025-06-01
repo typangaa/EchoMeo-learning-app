@@ -1,0 +1,41 @@
+Vietnamese Missing Vocabulary Analysis Report
+==================================================
+Generated: 2025-06-01 23:50:46
+
+SUMMARY STATISTICS
+--------------------
+Total Raw Vietnamese Vocabulary: 417 words
+Total Enriched Vietnamese Vocabulary: 416 words
+Missing Words: 2 words (0.5% gap)
+Extra Words: 1 words
+
+Completion Percentage: 99.8%
+
+MISSING WORDS BY CATEGORY
+------------------------------
+By Frequency:
+  medium: 2 words
+
+By Part of Speech:
+  n: 1 words
+  d: 1 words
+
+By Etymology:
+  sino_vietnamese: 1 words
+  native_vietnamese: 1 words
+
+By Syllable Count:
+  2 syllable(s): 2 words
+
+HIGH PRIORITY MISSING WORDS (High Frequency)
+---------------------------------------------
+No high-frequency missing words found.
+
+SAMPLE OF OTHER MISSING WORDS
+-----------------------------------
+Showing 2 of 2 remaining missing words:
+
+• Không sao (freq: 50, pos: d)
+  it doesn't matter
+• anhsao (freq: 50, pos: n)
+  elder brother; older brother

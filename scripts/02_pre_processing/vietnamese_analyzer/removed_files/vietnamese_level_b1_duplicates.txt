@@ -1,0 +1,10 @@
+# Vietnamese Vocabulary - CEFR Level B1 Duplicates
+# Generated: 2025-01-01 12:00:00
+# Total duplicate words: 1
+# Frequency range: Medium frequency words (40-59)
+
+# Within-level duplicates (same word appears multiple times in this level):
+giáo viên  # appears 2 times, frequencies: [58, 56]
+
+# Cross-level duplicates (words that also appear in other levels):
+học  # also in levels: A2

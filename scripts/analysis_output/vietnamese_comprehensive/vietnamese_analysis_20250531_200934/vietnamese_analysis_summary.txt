@@ -1,0 +1,22 @@
+VIETNAMESE VOCABULARY ANALYSIS SUMMARY
+==================================================
+Generated: 2025-05-31 20:09:34
+
+OVERVIEW:
+  Total Vocabulary Items: 510
+  Unique Words: 407
+  Duplicate Entries: 103
+
+ETYMOLOGY DISTRIBUTION:
+  Sino Vietnamese: 381 (74.7%)
+  Native Vietnamese: 126 (24.7%)
+  Unknown: 0 (0.0%)
+  Other: 3 (0.6%)
+
+CHINESE LEARNER INSIGHTS:
+  Sino-Vietnamese ratio: 74.7%
+  Recommended approach: Leverage Chinese knowledge
+
+TOP STUDY RECOMMENDATIONS:
+  1. High Sino-Vietnamese content (74.7%). Leverage your Chinese knowledge to understand word meanings.
+  2. Most common tone pattern: low_rising (183 words). Master this first.

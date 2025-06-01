@@ -1,0 +1,938 @@
+{
+  "report_info": {
+    "file_number": 1,
+    "generation_timestamp": "2025-06-01 14:58:46",
+    "report_type": "Individual Vietnamese Vocabulary File Analysis",
+    "description": "Comprehensive analysis of Vietnamese vocabulary file 1"
+  },
+  "summary": {
+    "total_words_in_file": 511,
+    "unique_words": 417,
+    "duplicate_words": 94,
+    "average_syllables": 1.46,
+    "sino_vietnamese_ratio": 0.734
+  },
+  "detailed_analysis": {
+    "file_number": 1,
+    "statistics": {
+      "total_words": 511,
+      "unique_words": 417,
+      "duplicate_count": 94,
+      "average_syllables": 1.4598825831702544,
+      "syllable_distribution": {
+        "1": 301,
+        "2": 191,
+        "3": 13,
+        "4": 6
+      },
+      "etymology_distribution": {
+        "sino_vietnamese": 375,
+        "native_vietnamese": 135,
+        "french_loanword": 1
+      },
+      "frequency_ranges": {
+        "very_high": 0,
+        "high": 0,
+        "medium": 367,
+        "low": 70,
+        "very_low": 74
+      },
+      "pos_distribution": [
+        [
+          "n",
+          253
+        ],
+        [
+          "v",
+          164
+        ],
+        [
+          "a",
+          68
+        ],
+        [
+          "m",
+          30
+        ],
+        [
+          "d",
+          13
+        ],
+        [
+          "r",
+          11
+        ],
+        [
+          "p",
+          7
+        ],
+        [
+          "y",
+          3
+        ]
+      ],
+      "tone_distribution": [
+        [
+          "low_rising",
+          209
+        ],
+        [
+          "falling",
+          44
+        ],
+        [
+          "high_level",
+          38
+        ],
+        [
+          "rising",
+          31
+        ],
+        [
+          "low_tone",
+          15
+        ],
+        [
+          "falling_tone",
+          9
+        ],
+        [
+          "high_tone",
+          6
+        ],
+        [
+          "rising tone on both syllables",
+          6
+        ],
+        [
+          "mid_falling",
+          6
+        ],
+        [
+          "mid_rising",
+          5
+        ],
+        [
+          "low",
+          5
+        ],
+        [
+          "high",
+          5
+        ],
+        [
+          "high level tone",
+          5
+        ],
+        [
+          "mid_level",
+          5
+        ],
+        [
+          "falling_rising",
+          5
+        ],
+        [
+          "low_low",
+          4
+        ],
+        [
+          "low_falling",
+          4
+        ],
+        [
+          "low_rising, high_falling",
+          3
+        ],
+        [
+          "level_tone",
+          3
+        ],
+        [
+          "rising_rising",
+          3
+        ],
+        [
+          "mid_mid",
+          3
+        ],
+        [
+          "level tone",
+          2
+        ],
+        [
+          "flat",
+          2
+        ],
+        [
+          "level tone, level tone",
+          2
+        ],
+        [
+          "low_rising, mid_level",
+          2
+        ],
+        [
+          "low_flat",
+          2
+        ],
+        [
+          "mid_tone",
+          2
+        ],
+        [
+          "rising_tone",
+          2
+        ],
+        [
+          "high level",
+          2
+        ],
+        [
+          "low_tone_falling_tone",
+          2
+        ],
+        [
+          "low_rising_high_level",
+          2
+        ],
+        [
+          "low_rising then falling",
+          2
+        ],
+        [
+          "low falling",
+          2
+        ],
+        [
+          "neutral",
+          1
+        ],
+        [
+          "giọng trầm cho cả hai âm",
+          1
+        ],
+        [
+          "rising then falling-rising tone",
+          1
+        ],
+        [
+          "high level, high level",
+          1
+        ],
+        [
+          "low_high",
+          1
+        ],
+        [
+          "rising then falling",
+          1
+        ],
+        [
+          "low falling then high rising",
+          1
+        ],
+        [
+          "tone3 + tone2",
+          1
+        ],
+        [
+          "low_rising, neutral",
+          1
+        ],
+        [
+          "high_level_low_falling",
+          1
+        ],
+        [
+          "low falling then rising",
+          1
+        ],
+        [
+          "high-level then rising",
+          1
+        ],
+        [
+          "low_rising, low_rising, high_level",
+          1
+        ],
+        [
+          "low tone",
+          1
+        ],
+        [
+          "rising then falling-rising",
+          1
+        ],
+        [
+          "high_level_tone",
+          1
+        ],
+        [
+          "falling_rising_high",
+          1
+        ],
+        [
+          "level_tone_level_tone_level_tone_level_tone",
+          1
+        ],
+        [
+          "low then high",
+          1
+        ],
+        [
+          "low_rising, high",
+          1
+        ],
+        [
+          "mid_falling_low_rising",
+          1
+        ],
+        [
+          "low_rising, rising",
+          1
+        ],
+        [
+          "rising_rising_rising",
+          1
+        ],
+        [
+          "mid tone for both syllables",
+          1
+        ],
+        [
+          "low_level then rising",
+          1
+        ],
+        [
+          "rising, falling-rising, rising",
+          1
+        ],
+        [
+          "high_high",
+          1
+        ],
+        [
+          "mid-falling tone",
+          1
+        ],
+        [
+          "falling then high",
+          1
+        ],
+        [
+          "mid-falling",
+          1
+        ],
+        [
+          "mid rising",
+          1
+        ],
+        [
+          "low_rising then high_level",
+          1
+        ],
+        [
+          "low_rising_high_falling",
+          1
+        ],
+        [
+          "mid_low",
+          1
+        ],
+        [
+          "mid-level tones",
+          1
+        ],
+        [
+          "high_rising",
+          1
+        ],
+        [
+          "monotonic low tone",
+          1
+        ],
+        [
+          "low falling then low rising",
+          1
+        ],
+        [
+          "trầm",
+          1
+        ],
+        [
+          "level-level",
+          1
+        ],
+        [
+          "high_level (2) + low_rising (3)",
+          1
+        ],
+        [
+          "low falling then low",
+          1
+        ],
+        [
+          "low_rising low_rising",
+          1
+        ],
+        [
+          "low rising then falling",
+          1
+        ],
+        [
+          "rising, falling-rising, rising, rising",
+          1
+        ],
+        [
+          "falling then low",
+          1
+        ],
+        [
+          "falling_low_rising",
+          1
+        ],
+        [
+          "low_rising (đi) + high_falling (học)",
+          1
+        ],
+        [
+          "low_level, falling_rising",
+          1
+        ],
+        [
+          "low_rising, falling_rising",
+          1
+        ],
+        [
+          "low_rising, low_rising, falling",
+          1
+        ],
+        [
+          "low_rising_mid_rising",
+          1
+        ],
+        [
+          "low then high-rising",
+          1
+        ],
+        [
+          "nghe (low-rising) + chép (high-falling)",
+          1
+        ],
+        [
+          "low_rising then falling_rising",
+          1
+        ],
+        [
+          "low_rising, low_rising, low_rising, low_rising",
+          1
+        ],
+        [
+          "falling_rising_low_rising",
+          1
+        ],
+        [
+          "rising-falling, high-level",
+          1
+        ],
+        [
+          "low_rising, mid_level, low_rising",
+          1
+        ],
+        [
+          "low_rising (phía) + mid_rising (tây)",
+          1
+        ],
+        [
+          "low_level",
+          1
+        ],
+        [
+          "ngang",
+          1
+        ],
+        [
+          "low_level_then_rising",
+          1
+        ],
+        [
+          "level falling",
+          1
+        ],
+        [
+          "rising_falling",
+          1
+        ],
+        [
+          "low_rising_low_rising",
+          1
+        ],
+        [
+          "mid_high tone",
+          1
+        ],
+        [
+          "low_rising mid_level",
+          1
+        ],
+        [
+          "mid-level then falling",
+          1
+        ],
+        [
+          "falling-rising tone on 'Quốc'",
+          1
+        ],
+        [
+          "low then mid",
+          1
+        ],
+        [
+          "low falling - mid rising",
+          1
+        ],
+        [
+          "low_rising_falling",
+          1
+        ]
+      ]
+    },
+    "chinese_learner_insights": {
+      "sino_vietnamese_count": 375,
+      "sino_vietnamese_ratio": 0.7338551859099804,
+      "sino_vietnamese_words": [
+        "yêu",
+        "ba",
+        "bố",
+        "bar",
+        "trắng",
+        "ngày",
+        "trăm",
+        "lớp",
+        "nửa",
+        "nửa năm"
+      ]
+    },
+    "vocabulary_list": [
+      "còn",
+      "trộn",
+      "gió",
+      "xinh",
+      "trẻ",
+      "chiều",
+      "bệnh viện",
+      "lạnh",
+      "vui",
+      "phải",
+      "tuổi",
+      "ở đâu",
+      "lấy",
+      "nào",
+      "cơm tối",
+      "nước ngoài",
+      "có",
+      "anhsao",
+      "nghe được",
+      "bố",
+      "cốc",
+      "mệt",
+      "bữa sáng",
+      "trên đường",
+      "bị bệnh",
+      "đóng",
+      "các",
+      "vẫn",
+      "đùa",
+      "sách giáo khoa",
+      "nhận được",
+      "đánh bóng",
+      "điện",
+      "tìm",
+      "bữa ăn",
+      "người thân",
+      "ti vi",
+      "hát",
+      "bệnh nhân",
+      "tóc",
+      "gọi điện thoại",
+      "cửa",
+      "sân bay",
+      "phía đông",
+      "tạm biệt",
+      "bên cạnh",
+      "cơm",
+      "ngồi",
+      "rất",
+      "lớp",
+      "gửi",
+      "anh",
+      "sữa bò",
+      "cửa hàng sách",
+      "xe",
+      "bài đọc",
+      "giữa",
+      "giúp đỡ",
+      "phía nam",
+      "ngay",
+      "mở",
+      "tan hoc",
+      "đồ mặc",
+      "nam sinh",
+      "bài",
+      "về nhà",
+      "đắt",
+      "giường",
+      "ngủ",
+      "nhìn thấy",
+      "giờ",
+      "vé",
+      "có thể",
+      "núi",
+      "bạn gái",
+      "gốc",
+      "chính",
+      "hiểu",
+      "quên",
+      "cùng nhau",
+      "điểm",
+      "nước",
+      "cây",
+      "tám",
+      "năm nay",
+      "Thành Đô",
+      "thứ bảy",
+      "nặng",
+      "ba",
+      "chậm",
+      "tôi",
+      "cười",
+      "dạy",
+      "ngày mai mai",
+      "gia đình",
+      "đang",
+      "lái xe",
+      "phía phải",
+      "mười",
+      "trên tầng",
+      "ga",
+      "thứ hai",
+      "khô",
+      "cái",
+      "trả lời",
+      "xa",
+      "là",
+      "thời gian",
+      "bắt đầu",
+      "bản",
+      "thứ",
+      "ghi",
+      "nhớ",
+      "ít",
+      "nữ nhân",
+      "tốt",
+      "nửa năm",
+      "viết",
+      "mấy",
+      "một",
+      "trở về",
+      "bây giờ",
+      "thấy",
+      "nghe",
+      "lên xe",
+      "thường",
+      "nữ",
+      "sai",
+      "bạn đang làm gì",
+      "lần sau",
+      "em",
+      "nói",
+      "cô ấy",
+      "ngày mai",
+      "muốn",
+      "bốn",
+      "điện thoại",
+      "khép",
+      "tháng",
+      "anh trai",
+      "ngày trước ngày qua",
+      "phương",
+      "trà",
+      "năm",
+      "này",
+      "ngôn ngữ nước ngoài",
+      "thật",
+      "truy cập",
+      "tây",
+      "không",
+      "túi",
+      "tầng",
+      "rạp chiếu phim",
+      "thế nào",
+      "đi",
+      "kỳ thi",
+      "tên",
+      "thả",
+      "họ",
+      "đập",
+      "học sinh",
+      "đi ra",
+      "gọi",
+      "bạn trai",
+      "trời",
+      "giúp",
+      "hay chơi",
+      "giới thiệu",
+      "hán tự",
+      "thư viện",
+      "học sinh trung học",
+      "trên người",
+      "đúng",
+      "vào",
+      "bar",
+      "sinh nhật",
+      "thân thể",
+      "bạn",
+      "bài hát",
+      "người già",
+      "có phải không",
+      "phía bắc",
+      "cuối cùng",
+      "qua",
+      "ngoài",
+      "cô gái",
+      "có ích",
+      "theo",
+      "đó",
+      "đến",
+      "quốc",
+      "đi bộ",
+      "tối",
+      "trên",
+      "hỏi",
+      "rồi",
+      "chị gái",
+      "hôm nay",
+      "khát",
+      "nóng",
+      "tay",
+      "bay",
+      "biệt",
+      "khởi",
+      "tiền",
+      "xấu",
+      "hành động",
+      "cảm ơn",
+      "nam",
+      "nơi nào",
+      "thỉnh thoảng",
+      "hoa",
+      "cảm thấy",
+      "ở nhà",
+      "bữa trưa",
+      "cậu bé",
+      "ở đây",
+      "cho",
+      "trung",
+      "sách",
+      "đường",
+      "thịt",
+      "một lúc",
+      "phim",
+      "ở",
+      "mì",
+      "mới",
+      "không có",
+      "biết",
+      "chúng ta",
+      "bao nhiêu",
+      "so sánh",
+      "ngồi xuống",
+      "quả bóng",
+      "trường học",
+      "con trai",
+      "chờ",
+      "xuống xe",
+      "trứng gà",
+      "nghỉ",
+      "xe hơi",
+      "người dùng mạng",
+      "về lại",
+      "công việc",
+      "của",
+      "nghỉ phép",
+      "ngày",
+      "trái",
+      "trường",
+      "tiếng Trung",
+      "đến lớp",
+      "đông",
+      "nhìn",
+      "cao",
+      "giao lộ",
+      "bánh",
+      "bận",
+      "trái cây",
+      "túi xách",
+      "à",
+      "chủ nhật",
+      "sữa",
+      "không quá",
+      "bác sĩ",
+      "sáng",
+      "đại học",
+      "bà",
+      "công nhân",
+      "chơi",
+      "một chút",
+      "rửa",
+      "ăn cơm",
+      "dưới",
+      "trang",
+      "bắc",
+      "đồ",
+      "nửa",
+      "nhanh",
+      "vé vào",
+      "nổi tiếng",
+      "lần trước",
+      "trắng",
+      "trực tuyến",
+      "thời tiết",
+      "vừa",
+      "trung học",
+      "đi họp",
+      "bao",
+      "trẻ con",
+      "nhà",
+      "ra",
+      "chia",
+      "phòng",
+      "tri thức",
+      "lớn",
+      "người đàn ông",
+      "năm sau",
+      "tưởng",
+      "bản đồ",
+      "máy tính",
+      "xuống",
+      "rau",
+      "li",
+      "khó",
+      "một số",
+      "đây",
+      "động",
+      "hai",
+      "tốt nhất",
+      "xin vào",
+      "xin ngồi",
+      "quan trọng",
+      "đất",
+      "chín",
+      "không sao",
+      "trăm",
+      "nơi",
+      "việc",
+      "tìm thấy",
+      "siêu thị",
+      "miếng",
+      "nghiêm túc",
+      "nghe chép",
+      "lại",
+      "sinh viên đại học",
+      "nơi đó",
+      "quốc gia",
+      "không cần",
+      "đi taxi",
+      "mưa",
+      "mặc",
+      "chăm sóc",
+      "em gái",
+      "khác",
+      "xin",
+      "tết",
+      "thử",
+      "sớm",
+      "chuẩn bị",
+      "trước",
+      "sau",
+      "nửa ngày",
+      "chị",
+      "mẹ",
+      "ở đó",
+      "già",
+      "sáng sớm",
+      "năm ngoái",
+      "kiểm tra",
+      "đi làm",
+      "Trung Quốc",
+      "ngon",
+      "học",
+      "yêu",
+      "hạng",
+      "uống",
+      "xin lỗi",
+      "trong",
+      "cũng",
+      "Không sao",
+      "con",
+      "nhà hàng",
+      "về",
+      "nhất",
+      "những",
+      "ông nội",
+      "đọc",
+      "cửa hàng",
+      "sáu",
+      "sạch",
+      "nguyên",
+      "đều",
+      "hôm qua",
+      "kết thúc công việc",
+      "giống nhau",
+      "em trai",
+      "bệnh",
+      "trưa",
+      "ai",
+      "nhà học",
+      "máy truyền hình",
+      "bực tức",
+      "bàn",
+      "thích",
+      "gặp mặt",
+      "máy bay",
+      "thầy",
+      "người",
+      "no",
+      "phòng xí",
+      "gì",
+      "vé máy bay",
+      "bảy",
+      "phía tây",
+      "trường tiểu học",
+      "một bên",
+      "ăn",
+      "gặp",
+      "nhiều",
+      "các bạn",
+      "nghe hay",
+      "tàu",
+      "người khác",
+      "con gái",
+      "đi học",
+      "chữ",
+      "dưới lầu",
+      "bánh bao",
+      "đi khám bệnh",
+      "không đúng",
+      "chạy",
+      "mua",
+      "làm",
+      "nhỏ",
+      "ngủ dậy",
+      "dùng",
+      "trên mặt đất"
+    ]
+  },
+  "learning_recommendations": []
+}

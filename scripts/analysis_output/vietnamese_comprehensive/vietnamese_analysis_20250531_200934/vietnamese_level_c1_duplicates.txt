@@ -1,0 +1,18 @@
+# Vietnamese Vocabulary - CEFR Level C1 Duplicates
+# Generated: 2025-05-31 20:09:34
+# Total duplicate words: 1
+# Frequency range: Level C1 words
+
+# Within-level duplicates (same word appears multiple times in this level):
+rất  # appears 2 times, frequencies: [15, 20]
+
+
+# Cross-level duplicates (words that also appear in other levels):
+cùng  # also in levels: B1
+nghe  # also in levels: B1
+ngày  # also in levels: B1
+nhà  # also in levels: B1
+ra  # also in levels: B1
+rất  # also in levels: B1
+vui  # also in levels: B1
+vào  # also in levels: B1

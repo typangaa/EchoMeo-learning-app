@@ -1,0 +1,1377 @@
+{
+  "learning_statistics": {
+    "sino_vietnamese_ratio": 0.7338551859099804,
+    "native_vietnamese_ratio": 0.26418786692759294
+  },
+  "chinese_learner_focus": {
+    "sino_vietnamese_words": [
+      "yêu",
+      "ba",
+      "bố",
+      "bar",
+      "trắng",
+      "ngày",
+      "trăm",
+      "lớp",
+      "nửa",
+      "nửa năm",
+      "giúp",
+      "bao",
+      "bánh bao",
+      "cốc",
+      "bắc",
+      "phía bắc",
+      "Thành Đô",
+      "bản",
+      "so sánh",
+      "biệt",
+      "người khác",
+      "bệnh",
+      "bệnh nhân",
+      "không quá",
+      "không đúng",
+      "rau",
+      "trà",
+      "thường",
+      "hát",
+      "xe",
+      "ga",
+      "ăn",
+      "ăn cơm",
+      "ra",
+      "mặc",
+      "giường",
+      "thứ",
+      "theo",
+      "sai",
+      "đập",
+      "đi taxi",
+      "gọi điện thoại",
+      "mở",
+      "đánh bóng",
+      "lớn",
+      "đại học",
+      "sinh viên đại học",
+      "bản đồ",
+      "của",
+      "nhận được",
+      "chờ",
+      "em",
+      "thứ",
+      "thứ",
+      "thứ hai",
+      "điểm",
+      "điện",
+      "điện thoại",
+      "máy tính",
+      "ti vi",
+      "máy truyền hình",
+      "phim",
+      "rạp chiếu phim",
+      "phía đông",
+      "đồ",
+      "động",
+      "hành động",
+      "đều",
+      "đọc",
+      "học",
+      "xin lỗi",
+      "nhiều",
+      "no",
+      "hai",
+      "bữa ăn",
+      "nhà hàng",
+      "thả",
+      "nghỉ phép",
+      "tan hoc",
+      "bay",
+      "máy bay",
+      "gió",
+      "khô",
+      "sạch",
+      "bạn đang làm gì",
+      "cao",
+      "nói",
+      "anhsao",
+      "bài hát",
+      "cho",
+      "theo",
+      "công nhân",
+      "công việc",
+      "khép",
+      "đóng",
+      "đắt",
+      "quốc",
+      "quốc gia",
+      "nước ngoài",
+      "qua",
+      "vẫn",
+      "vẫn",
+      "trẻ",
+      "tiếng Trung",
+      "hán tự",
+      "tốt",
+      "nghe hay",
+      "hay chơi",
+      "hạng",
+      "uống",
+      "trộn",
+      "sau",
+      "ngày mai mai",
+      "hoa",
+      "nói",
+      "xấu",
+      "trả lời",
+      "trở về",
+      "về lại",
+      "về",
+      "gặp",
+      "tàu",
+      "vé máy bay",
+      "trứng gà",
+      "mấy",
+      "ghi",
+      "nhớ",
+      "người thân",
+      "giữa",
+      "thấy",
+      "gặp mặt",
+      "gọi",
+      "dạy",
+      "nhà học",
+      "giới thiệu",
+      "chị",
+      "chị gái",
+      "hôm nay",
+      "vào",
+      "chín",
+      "vừa",
+      "cảm thấy",
+      "mở",
+      "lái xe",
+      "đi họp",
+      "chăm sóc",
+      "đi khám bệnh",
+      "nhìn thấy",
+      "kiểm tra",
+      "kỳ thi",
+      "khát",
+      "bài",
+      "sách giáo khoa",
+      "bài đọc",
+      "miếng",
+      "nhanh",
+      "đến",
+      "già",
+      "thầy",
+      "rồi",
+      "mệt",
+      "lạnh",
+      "li",
+      "hai",
+      "không",
+      "tầng",
+      "trên tầng",
+      "dưới lầu",
+      "đường",
+      "giao lộ",
+      "trên đường",
+      "đường",
+      "mua",
+      "chậm",
+      "bận",
+      "không",
+      "không có",
+      "em gái",
+      "em gái",
+      "vé vào",
+      "các",
+      "các",
+      "bánh",
+      "mì",
+      "tên",
+      "hiểu",
+      "năm sau",
+      "lấy",
+      "ở đâu",
+      "nơi nào",
+      "ở đó",
+      "nơi đó",
+      "những",
+      "sữa",
+      "bà",
+      "nam",
+      "người đàn ông",
+      "nam sinh",
+      "phía nam",
+      "khó",
+      "có thể",
+      "bạn",
+      "năm",
+      "bạn",
+      "sữa bò",
+      "nữ",
+      "con gái",
+      "cô gái",
+      "nữ nhân",
+      "bên cạnh",
+      "chạy",
+      "vé",
+      "khởi",
+      "ngủ dậy",
+      "bắt đầu",
+      "xe hơi",
+      "ngày trước ngày qua",
+      "tiền",
+      "xin",
+      "nghỉ phép",
+      "xin ngồi",
+      "quả bóng",
+      "đi",
+      "năm ngoái",
+      "nóng",
+      "người",
+      "nghiêm túc",
+      "ngày",
+      "thịt",
+      "ba",
+      "núi",
+      "siêu thị",
+      "cửa hàng",
+      "trên",
+      "đi làm",
+      "lên xe",
+      "đến lớp",
+      "truy cập",
+      "đi học",
+      "thân thể",
+      "bị bệnh",
+      "bực tức",
+      "sinh nhật",
+      "thời gian",
+      "thời gian",
+      "việc",
+      "thử",
+      "là",
+      "có phải không",
+      "điện thoại",
+      "sách",
+      "túi xách",
+      "cửa hàng sách",
+      "cây",
+      "ai",
+      "nước",
+      "trái cây",
+      "ngủ",
+      "nói",
+      "anh",
+      "họ",
+      "rất",
+      "trời",
+      "thời tiết",
+      "nghe",
+      "nghe chép",
+      "thư viện",
+      "ngoài",
+      "ngoài",
+      "nước ngoài",
+      "ngôn ngữ nước ngoài",
+      "chơi",
+      "chiều",
+      "cơm tối",
+      "tối",
+      "trực tuyến",
+      "người dùng mạng",
+      "quên",
+      "quên",
+      "hỏi",
+      "chúng ta",
+      "bữa trưa",
+      "rửa",
+      "phòng xí",
+      "thích",
+      "tây",
+      "xuống",
+      "kết thúc công việc",
+      "dưới",
+      "xuống xe",
+      "lần sau",
+      "tan hoc",
+      "trước",
+      "bây giờ",
+      "tưởng",
+      "nhỏ",
+      "giờ",
+      "trường tiểu học",
+      "học sinh",
+      "cười",
+      "viết",
+      "cảm ơn",
+      "mới",
+      "thứ bảy",
+      "chủ nhật",
+      "chủ nhật",
+      "đi",
+      "nghỉ",
+      "học",
+      "học sinh",
+      "học",
+      "trường học",
+      "muốn",
+      "cũng",
+      "trang",
+      "một chút",
+      "một lúc",
+      "cùng nhau",
+      "cùng nhau",
+      "một chút",
+      "giống nhau",
+      "bác sĩ",
+      "bệnh viện",
+      "dùng",
+      "có",
+      "nổi tiếng",
+      "thỉnh thoảng",
+      "có ích",
+      "phải",
+      "phía phải",
+      "mưa",
+      "nguyên",
+      "xa",
+      "tháng",
+      "lại",
+      "tạm biệt",
+      "ở",
+      "sớm",
+      "bữa sáng",
+      "sáng sớm",
+      "ga",
+      "tìm",
+      "tìm thấy",
+      "ở đây",
+      "này",
+      "mặc",
+      "thật",
+      "thật",
+      "chính",
+      "đang",
+      "tri thức",
+      "trung",
+      "Trung Quốc",
+      "tiếng Trung",
+      "trưa",
+      "trung học",
+      "học sinh trung học",
+      "nặng",
+      "quan trọng",
+      "ở",
+      "chuẩn bị",
+      "bàn",
+      "bàn",
+      "con",
+      "đi",
+      "đi bộ",
+      "nhất",
+      "tốt nhất",
+      "cuối cùng",
+      "hôm qua",
+      "trái",
+      "trái",
+      "ngồi",
+      "ngồi xuống",
+      "làm"
+    ],
+    "native_vietnamese_words": [
+      "thích",
+      "tám",
+      "nửa ngày",
+      "giúp đỡ",
+      "cốc",
+      "gốc",
+      "khác",
+      "không",
+      "Không sao",
+      "không cần",
+      "khác",
+      "thường",
+      "hát",
+      "vé",
+      "xe",
+      "ra",
+      "đi ra",
+      "đến",
+      "đất",
+      "nơi",
+      "phương",
+      "trên mặt đất",
+      "em trai",
+      "đông",
+      "đúng",
+      "bao nhiêu",
+      "con trai",
+      "phòng",
+      "nhà",
+      "rất",
+      "chia",
+      "vui",
+      "anh trai",
+      "một",
+      "còn",
+      "ngon",
+      "xinh",
+      "rất",
+      "sau",
+      "về",
+      "về nhà",
+      "nhớ",
+      "gia đình",
+      "nhà",
+      "năm nay",
+      "vào",
+      "vào",
+      "đùa",
+      "nhìn",
+      "cái",
+      "đến",
+      "người già",
+      "trong",
+      "sáu",
+      "mẹ",
+      "mẹ",
+      "ngay",
+      "không",
+      "tóc",
+      "Không sao",
+      "không sao",
+      "không sao",
+      "cửa",
+      "cửa",
+      "cơm",
+      "ngày mai",
+      "nào",
+      "nào",
+      "đó",
+      "đó",
+      "cậu bé",
+      "bạn trai",
+      "nam",
+      "à",
+      "các bạn",
+      "bạn gái",
+      "cô gái",
+      "bạn",
+      "bảy",
+      "trước",
+      "trước",
+      "túi",
+      "xin vào",
+      "xin lỗi",
+      "biết",
+      "ngày",
+      "trên",
+      "lần trước",
+      "sáng",
+      "ít",
+      "trên người",
+      "gì",
+      "mười",
+      "tay",
+      "ngủ",
+      "nói",
+      "bốn",
+      "gửi",
+      "tuổi",
+      "họ",
+      "cô ấy",
+      "nghe được",
+      "nghe",
+      "bạn",
+      "tôi",
+      "năm",
+      "phía tây",
+      "chiều",
+      "mưa",
+      "thầy",
+      "trẻ con",
+      "chị",
+      "trẻ con",
+      "tết",
+      "trường",
+      "ông nội",
+      "một",
+      "nửa",
+      "một bên",
+      "một số",
+      "đồ mặc",
+      "một",
+      "thỉnh thoảng",
+      "một chút",
+      "một chút",
+      "một chút",
+      "ở nhà",
+      "thế nào",
+      "này",
+      "đây",
+      "đây",
+      "biết",
+      "giữa",
+      "chữ",
+      "con"
+    ],
+    "sino_vietnamese_examples": [
+      {
+        "vietnamese": "yêu",
+        "syllables": [
+          "yêu"
+        ],
+        "frequency": 50,
+        "pos": [
+          "v"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "chinese",
+          "chu_nom": "null",
+          "notes": "Sino-Vietnamese loanword from Chinese 爱 (ài), meaning 'to love' or 'affection'"
+        },
+        "forms": [
+          {
+            "standard": "yêu",
+            "transcriptions": {
+              "ipa": "/jɛːwəː/",
+              "simplified_pronunciation": "yêu (low-rising tone)",
+              "tone_pattern": "low_rising"
+            },
+            "regional_variants": {
+              "northern": "yêu",
+              "central": "yêu",
+              "southern": "yêu"
+            },
+            "meanings": [
+              "to love; to be fond of",
+              "affection; liking"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "ba",
+        "syllables": [
+          "ba"
+        ],
+        "frequency": 15,
+        "pos": [
+          "n"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "chinese",
+          "chu_nom": "爸",
+          "notes": "Sino-Vietnamese loanword from Chinese 爸 (bà), meaning 'father' or 'dad'. It is commonly used in Vietnamese to refer to one's father."
+        },
+        "forms": [
+          {
+            "standard": "ba",
+            "transcriptions": {
+              "ipa": "/baː/",
+              "simplified_pronunciation": "ba",
+              "tone_pattern": "level tone"
+            },
+            "regional_variants": {
+              "northern": "ba",
+              "central": "ba",
+              "southern": "ba"
+            },
+            "meanings": [
+              "father; dad",
+              "pa; papa (informal)"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "bố",
+        "syllables": [
+          "bố"
+        ],
+        "frequency": 15,
+        "pos": [
+          "n"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "chinese",
+          "chu_nom": "ບອ",
+          "notes": "sino-Vietnamese loanword from Chinese 爸爸 (bà ba), used to refer to father in a respectful or formal context"
+        },
+        "forms": [
+          {
+            "standard": "bố",
+            "transcriptions": {
+              "ipa": "/bo˨˩˦/",
+              "simplified_pronunciation": "bo (low-rising tone)",
+              "tone_pattern": "low_rising"
+            },
+            "regional_variants": {
+              "northern": "bố",
+              "central": "bố",
+              "southern": "bố"
+            },
+            "meanings": [
+              "father; dad",
+              "used in respectful or formal contexts"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "bar",
+        "syllables": [
+          "bar"
+        ],
+        "frequency": 50,
+        "pos": [
+          "n"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "chinese",
+          "chu_nom": "null",
+          "notes": "loanword from Chinese, used for establishments serving drinks or internet access"
+        },
+        "forms": [
+          {
+            "standard": "bar",
+            "transcriptions": {
+              "ipa": "/bar/",
+              "simplified_pronunciation": "bar",
+              "tone_pattern": "neutral"
+            },
+            "regional_variants": {
+              "northern": "bar",
+              "central": "bar",
+              "southern": "bar"
+            },
+            "meanings": [
+              "bar (establishment serving drinks or internet)",
+              "modal particle indicating suggestion (e.g., 'đi' in Vietnamese context)"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "trắng",
+        "syllables": [
+          "trắng"
+        ],
+        "frequency": 50,
+        "pos": [
+          "n"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "chinese",
+          "chu_nom": "Bạch",
+          "notes": "Sino-Vietnamese loanword from Chinese 白, meaning 'white' or 'pure'"
+        },
+        "forms": [
+          {
+            "standard": "trắng",
+            "transcriptions": {
+              "ipa": "/trɛ̂ːt/",
+              "simplified_pronunciation": "trang (high level tone)",
+              "tone_pattern": "high_level"
+            },
+            "regional_variants": {
+              "northern": "trắng",
+              "central": "trắng",
+              "southern": "trắng"
+            },
+            "meanings": [
+              "white; pale",
+              "pure; clear; unblemished",
+              "to make clear (idiomatic)"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "ngày",
+        "syllables": [
+          "ngày"
+        ],
+        "frequency": 15,
+        "pos": [
+          "n"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "chinese",
+          "chu_nom": " Nguyệt",
+          "notes": "Sino-Vietnamese loanword from Chinese 白天 (bái tiān), meaning 'daytime'. In Vietnamese, it is commonly used to refer to the daytime period."
+        },
+        "forms": [
+          {
+            "standard": "ngày",
+            "transcriptions": {
+              "ipa": "/ŋɛj˧˥/",
+              "simplified_pronunciation": "ngày",
+              "tone_pattern": "high_level"
+            },
+            "regional_variants": {
+              "northern": "ngày",
+              "central": "ngày",
+              "southern": "ngày"
+            },
+            "meanings": [
+              "daytime; during the day",
+              "day (as in a period of 24 hours)"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "trăm",
+        "syllables": [
+          "trăm"
+        ],
+        "frequency": 25,
+        "pos": [
+          "m"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "chinese",
+          "chu_nom": "បាស",
+          "notes": "Sino-Vietnamese loanword from Chinese 百 (bǎi), meaning 'hundred' or 'numerous'."
+        },
+        "forms": [
+          {
+            "standard": "trăm",
+            "transcriptions": {
+              "ipa": "/tram˧˥/",
+              "simplified_pronunciation": "tram",
+              "tone_pattern": "high_level"
+            },
+            "regional_variants": {
+              "northern": "trăm",
+              "central": "trăm",
+              "southern": "trăm"
+            },
+            "meanings": [
+              "hundred",
+              "numerous",
+              "all kinds of"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "lớp",
+        "syllables": [
+          "lớp"
+        ],
+        "frequency": 50,
+        "pos": [
+          "n"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "Chinese",
+          "chu_nom": "null",
+          "notes": "Sino-Vietnamese loanword corresponding to Chinese 班, used for class, grade, or group in educational contexts"
+        },
+        "forms": [
+          {
+            "standard": "lớp",
+            "transcriptions": {
+              "ipa": "/lɔːp˧˥/",
+              "simplified_pronunciation": "lop (rising tone)",
+              "tone_pattern": "rising"
+            },
+            "regional_variants": {
+              "northern": "lớp",
+              "central": "lớp",
+              "southern": "lớp"
+            },
+            "meanings": [
+              "class (school grade)",
+              "group of people (classifier for teams/work shifts)"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "nửa",
+        "syllables": [
+          "nửa"
+        ],
+        "frequency": 25,
+        "pos": [
+          "n"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "chinese",
+          "chu_nom": "null",
+          "notes": "sino-vietnamese loanword from Chinese 半, meaning half or semi-"
+        },
+        "forms": [
+          {
+            "standard": "nửa",
+            "transcriptions": {
+              "ipa": "/naː˨˩˦/",
+              "simplified_pronunciation": "nửa",
+              "tone_pattern": "low_rising"
+            },
+            "regional_variants": {
+              "northern": "nửa",
+              "central": "nửa",
+              "southern": "nửa"
+            },
+            "meanings": [
+              "half; semi-",
+              "incomplete",
+              "(after a number) and a half"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "nửa năm",
+        "syllables": [
+          "nửa",
+          "năm"
+        ],
+        "frequency": 50,
+        "pos": [
+          "n"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "chinese",
+          "chu_nom": "null",
+          "notes": "từ Hán-Việt kết hợp 'nửa' (tiếng Việt bản địa, nghĩa là 'nửa') và 'năm' (từ Hán-Việt, tương ứng với '年' trong tiếng Trung)"
+        },
+        "forms": [
+          {
+            "standard": "nửa năm",
+            "transcriptions": {
+              "ipa": "/naː˧˩˧ nam˧˩˦/",
+              "simplified_pronunciation": "nửa năm (giọng trầm)",
+              "tone_pattern": "giọng trầm cho cả hai âm"
+            },
+            "regional_variants": {
+              "northern": "nửa năm",
+              "central": "nửa năm",
+              "southern": "nửa năm"
+            },
+            "meanings": [
+              "nửa năm; nửa năm (thời gian 6 tháng)"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "giúp",
+        "syllables": [
+          "giúp"
+        ],
+        "frequency": 50,
+        "pos": [
+          "v"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "chinese",
+          "chu_nom": "null",
+          "notes": "sino-vietnamese loanword from Chinese 帮 (bāng), meaning 'to help' or 'support'"
+        },
+        "forms": [
+          {
+            "standard": "giúp",
+            "transcriptions": {
+              "ipa": "/giuːp˧˥/",
+              "simplified_pronunciation": "giúp (rising tone)",
+              "tone_pattern": "rising"
+            },
+            "regional_variants": {
+              "northern": "giúp",
+              "central": "giúp",
+              "southern": "giúp"
+            },
+            "meanings": [
+              "to help; to assist",
+              "to support (someone/something)"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "bao",
+        "syllables": [
+          "bao"
+        ],
+        "frequency": 50,
+        "pos": [
+          "v",
+          "n"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "chinese",
+          "chu_nom": "bọc",
+          "notes": "sino-vietnamese loanword from Chinese 包, meaning 'to cover' or 'container'"
+        },
+        "forms": [
+          {
+            "standard": "bao",
+            "transcriptions": {
+              "ipa": "/baʊ/",
+              "simplified_pronunciation": "bao",
+              "tone_pattern": "low_rising"
+            },
+            "regional_variants": {
+              "northern": "bao",
+              "central": "bao",
+              "southern": "bao"
+            },
+            "meanings": [
+              "to cover; to wrap; to include",
+              "bag; package; container"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "bánh bao",
+        "syllables": [
+          "bánh",
+          "bao"
+        ],
+        "frequency": 45,
+        "pos": [
+          "n"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "chinese",
+          "chu_nom": "ບາວ",
+          "notes": "Sino-Vietnamese loanword from Chinese 包子 (baozi), meaning steamed stuffed bun. The term is directly borrowed from Chinese and used in Vietnamese cuisine."
+        },
+        "forms": [
+          {
+            "standard": "bánh bao",
+            "transcriptions": {
+              "ipa": "/baŋ˧˥ bao˧˥/",
+              "simplified_pronunciation": "bánh bao",
+              "tone_pattern": "high level, high level"
+            },
+            "regional_variants": {
+              "northern": "bánh bao",
+              "central": "bánh bao",
+              "southern": "bánh bao"
+            },
+            "meanings": [
+              "steamed stuffed bun (a type of Chinese bread)",
+              "a popular dish in Vietnamese cuisine"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "cốc",
+        "syllables": [
+          "cốc"
+        ],
+        "frequency": 50,
+        "pos": [
+          "n"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "chinese",
+          "chu_nom": "bôi",
+          "notes": "sino-vietnamese loanword from Chinese bēi, originally used for ceramic cups, later adopted for glass/cup classifiers"
+        },
+        "forms": [
+          {
+            "standard": "cốc",
+            "transcriptions": {
+              "ipa": "/kɔk/",
+              "simplified_pronunciation": "cốp (flat tone)",
+              "tone_pattern": "flat"
+            },
+            "regional_variants": {
+              "northern": "cốc",
+              "central": "cốc",
+              "southern": "cốc"
+            },
+            "meanings": [
+              "cốc (glass/cup container)",
+              "classifier for containers holding liquids"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "bắc",
+        "syllables": [
+          "bắc"
+        ],
+        "frequency": 15,
+        "pos": [
+          "n"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "chinese",
+          "chu_nom": "bac",
+          "notes": "Sino-Vietnamese loanword from Chinese 北 (běi), meaning 'north'. It is used in modern Vietnamese to denote the cardinal direction 'north'."
+        },
+        "forms": [
+          {
+            "standard": "bắc",
+            "transcriptions": {
+              "ipa": "/ɓɛk˨˩/",
+              "simplified_pronunciation": "bắc (low tone)",
+              "tone_pattern": "low_tone"
+            },
+            "regional_variants": {
+              "northern": "bắc",
+              "central": "bắc",
+              "southern": "bắc"
+            },
+            "meanings": [
+              "north; northern direction",
+              "the northern part of a place"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "phía bắc",
+        "syllables": [
+          "phía",
+          "bắc"
+        ],
+        "frequency": 50,
+        "pos": [
+          "n"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "chinese",
+          "chu_nom": "北",
+          "notes": "Sino-Vietnamese term derived from Chinese 北 (běi, north) combined with 边 (biān, side/part)."
+        },
+        "forms": [
+          {
+            "standard": "phía bắc",
+            "transcriptions": {
+              "ipa": "/fjɛː˧˩ bæk˧˥/",
+              "simplified_pronunciation": "phia bac (low tone then high tone)",
+              "tone_pattern": "low_high"
+            },
+            "regional_variants": {
+              "northern": "phía bắc",
+              "central": "phía bắc",
+              "southern": "phía bắc"
+            },
+            "meanings": [
+              "north side; northern part",
+              "to the north of (something)"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "Thành Đô",
+        "syllables": [
+          "Thành",
+          "Đô"
+        ],
+        "frequency": 25,
+        "pos": [
+          "n"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "Chinese",
+          "chu_nom": "null",
+          "notes": "Sino-Vietnamese loanword for the city name Beijing, directly borrowed from Chinese"
+        },
+        "forms": [
+          {
+            "standard": "Thành Đô",
+            "transcriptions": {
+              "ipa": "/tʰɛŋ˧˥ ɗo˧˥/",
+              "simplified_pronunciation": "Thành Đô",
+              "tone_pattern": "level tone, level tone"
+            },
+            "regional_variants": {
+              "northern": "Thành Đô",
+              "central": "Thành Đô",
+              "southern": "Thành Đô"
+            },
+            "meanings": [
+              "Beijing, the capital of the People's Republic of China",
+              "the city known internationally as Beijing"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "bản",
+        "syllables": [
+          "bản"
+        ],
+        "frequency": 50,
+        "pos": [
+          "n"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "chinese",
+          "chu_nom": "本",
+          "notes": "Sino-Vietnamese loanword from Chinese 'běn' (本), meaning book, edition, or original version. Used for both physical books and literary editions."
+        },
+        "forms": [
+          {
+            "standard": "bản",
+            "transcriptions": {
+              "ipa": "/bǎn˨˩˦/",
+              "simplified_pronunciation": "ban (low-rising tone)",
+              "tone_pattern": "low_rising"
+            },
+            "regional_variants": {
+              "northern": "bản",
+              "central": "bản",
+              "southern": "bản"
+            },
+            "meanings": [
+              "book; edition; original version",
+              "notebook (informal, context-dependent)"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "so sánh",
+        "syllables": [
+          "so",
+          "sánh"
+        ],
+        "frequency": 50,
+        "pos": [
+          "v"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "Chinese",
+          "chu_nom": "比",
+          "notes": "Sino-Vietnamese loanword from Chinese 比, meaning 'to compare' or 'ratio'"
+        },
+        "forms": [
+          {
+            "standard": "so sánh",
+            "transcriptions": {
+              "ipa": "/sɔ̂ sǎːŋ/",
+              "simplified_pronunciation": "so sánh",
+              "tone_pattern": "low_rising"
+            },
+            "regional_variants": {
+              "northern": "so sánh",
+              "central": "so sánh",
+              "southern": "so sánh"
+            },
+            "meanings": [
+              "to compare; to contrast",
+              "ratio; proportion"
+            ]
+          }
+        ]
+      },
+      {
+        "vietnamese": "biệt",
+        "syllables": [
+          "biệt"
+        ],
+        "frequency": 50,
+        "pos": [
+          "v"
+        ],
+        "etymology": {
+          "origin": "sino_vietnamese",
+          "source_language": "chinese",
+          "chu_nom": "別",
+          "notes": "Sino-Vietnamese loanword from Chinese biē, meaning 'to separate' or 'different'"
+        },
+        "forms": [
+          {
+            "standard": "biệt",
+            "transcriptions": {
+              "ipa": "/biɛt˧˥/",
+              "simplified_pronunciation": "biệt",
+              "tone_pattern": "rising"
+            },
+            "regional_variants": {
+              "northern": "biệt",
+              "central": "biệt",
+              "southern": "biệt"
+            },
+            "meanings": [
+              "to leave; to part (from)",
+              "to differentiate; to distinguish"
+            ]
+          }
+        ]
+      }
+    ],
+    "learning_priority": "sino_vietnamese"
+  },
+  "study_recommendations": [
+    {
+      "category": "Etymology Focus",
+      "recommendation": "High Sino-Vietnamese content (73.4%). Leverage your Chinese knowledge to understand word meanings.",
+      "priority": "high"
+    },
+    {
+      "category": "Tone Practice",
+      "recommendation": "Most common tone pattern: low_rising (209 words). Master this first.",
+      "priority": "medium"
+    }
+  ],
+  "tone_learning_guide": {
+    "tone_distribution": {
+      "low_rising": 209,
+      "level tone": 2,
+      "neutral": 1,
+      "high_level": 38,
+      "rising": 31,
+      "giọng trầm cho cả hai âm": 1,
+      "mid_rising": 5,
+      "rising then falling-rising tone": 1,
+      "high level, high level": 1,
+      "flat": 2,
+      "low_tone": 15,
+      "low_high": 1,
+      "level tone, level tone": 2,
+      "rising then falling": 1,
+      "falling": 44,
+      "low_low": 4,
+      "low falling then high rising": 1,
+      "low_rising, high_falling": 3,
+      "high_tone": 6,
+      "low": 5,
+      "level_tone": 3,
+      "rising tone on both syllables": 6,
+      "tone3 + tone2": 1,
+      "low_falling": 4,
+      "falling_tone": 9,
+      "low_rising, neutral": 1,
+      "high_level_low_falling": 1,
+      "low_rising, mid_level": 2,
+      "mid_falling": 6,
+      "high": 5,
+      "low falling then rising": 1,
+      "rising_rising": 3,
+      "high-level then rising": 1,
+      "mid_mid": 3,
+      "low_rising, low_rising, high_level": 1,
+      "high level tone": 5,
+      "low tone": 1,
+      "rising then falling-rising": 1,
+      "low_flat": 2,
+      "high_level_tone": 1,
+      "falling_rising_high": 1,
+      "level_tone_level_tone_level_tone_level_tone": 1,
+      "low then high": 1,
+      "low_rising, high": 1,
+      "mid_falling_low_rising": 1,
+      "low_rising, rising": 1,
+      "mid_level": 5,
+      "rising_rising_rising": 1,
+      "mid_tone": 2,
+      "mid tone for both syllables": 1,
+      "low_level then rising": 1,
+      "rising, falling-rising, rising": 1,
+      "high_high": 1,
+      "mid-falling tone": 1,
+      "falling then high": 1,
+      "mid-falling": 1,
+      "mid rising": 1,
+      "falling_rising": 5,
+      "low_rising then high_level": 1,
+      "low_rising_high_falling": 1,
+      "mid_low": 1,
+      "mid-level tones": 1,
+      "high_rising": 1,
+      "monotonic low tone": 1,
+      "low falling then low rising": 1,
+      "rising_tone": 2,
+      "trầm": 1,
+      "level-level": 1,
+      "high level": 2,
+      "high_level (2) + low_rising (3)": 1,
+      "low falling then low": 1,
+      "low_tone_falling_tone": 2,
+      "low_rising low_rising": 1,
+      "low rising then falling": 1,
+      "rising, falling-rising, rising, rising": 1,
+      "falling then low": 1,
+      "low_rising_high_level": 2,
+      "falling_low_rising": 1,
+      "low_rising (đi) + high_falling (học)": 1,
+      "low_level, falling_rising": 1,
+      "low_rising, falling_rising": 1,
+      "low_rising, low_rising, falling": 1,
+      "low_rising_mid_rising": 1,
+      "low then high-rising": 1,
+      "nghe (low-rising) + chép (high-falling)": 1,
+      "low_rising then falling_rising": 1,
+      "low_rising, low_rising, low_rising, low_rising": 1,
+      "falling_rising_low_rising": 1,
+      "rising-falling, high-level": 1,
+      "low_rising, mid_level, low_rising": 1,
+      "low_rising then falling": 2,
+      "low falling": 2,
+      "low_rising (phía) + mid_rising (tây)": 1,
+      "low_level": 1,
+      "ngang": 1,
+      "low_level_then_rising": 1,
+      "level falling": 1,
+      "rising_falling": 1,
+      "low_rising_low_rising": 1,
+      "mid_high tone": 1,
+      "low_rising mid_level": 1,
+      "mid-level then falling": 1,
+      "falling-rising tone on 'Quốc'": 1,
+      "low then mid": 1,
+      "low falling - mid rising": 1,
+      "low_rising_falling": 1
+    },
+    "most_common_tones": [
+      [
+        "low_rising",
+        209
+      ],
+      [
+        "falling",
+        44
+      ],
+      [
+        "high_level",
+        38
+      ],
+      [
+        "rising",
+        31
+      ],
+      [
+        "low_tone",
+        15
+      ]
+    ]
+  }
+}

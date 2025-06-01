@@ -1,0 +1,115 @@
+# Vietnamese Vocabulary Master Duplicates Report
+# Generated: 2025-05-31 20:09:34
+# This report shows all duplicate words found across the Vietnamese vocabulary dataset
+
+============================================================
+DUPLICATE ANALYSIS SUMMARY
+============================================================
+Within-level duplicates: 72
+Cross-level duplicates: 14
+Total unique duplicate words: 86
+
+WITHIN-LEVEL DUPLICATES BY LEVEL:
+----------------------------------------
+Level A1: 0 duplicate words
+Level A2: 0 duplicate words
+Level B1: 71 duplicate words
+  - thích (appears 2 times)
+  - ngày (appears 2 times)
+  - nửa (appears 2 times)
+  - cốc (appears 2 times)
+  - sách (appears 2 times)
+  - không (appears 4 times)
+  - sai (appears 2 times)
+  - không sao (appears 4 times)
+  - thường (appears 2 times)
+  - xe (appears 2 times)
+  - ăn (appears 2 times)
+  - thứ (appears 3 times)
+  - theo (appears 2 times)
+  - mở (appears 2 times)
+  - đến (appears 3 times)
+  - hai (appears 3 times)
+  - học (appears 2 times)
+  - cơm (appears 2 times)
+  - nghỉ phép (appears 2 times)
+  - nói (appears 3 times)
+  - một (appears 3 times)
+  - nước (appears 2 times)
+  - nước ngoài (appears 2 times)
+  - vẫn (appears 2 times)
+  - tiếng Trung (appears 2 times)
+  - sau (appears 2 times)
+  - về (appears 3 times)
+  - nhớ (appears 2 times)
+  - giữa (appears 2 times)
+  - nhìn (appears 2 times)
+  - chị (appears 2 times)
+  - vào (appears 2 times)
+  - thầy (appears 2 times)
+  - trong (appears 2 times)
+  - trên (appears 3 times)
+  - đường (appears 2 times)
+  - mẹ (appears 2 times)
+  - em (appears 2 times)
+  - cửa (appears 2 times)
+  - các (appears 2 times)
+  - nào (appears 2 times)
+  - đó (appears 2 times)
+  - sữa (appears 2 times)
+  - nam (appears 2 times)
+  - trai (appears 2 times)
+  - bạn (appears 3 times)
+  - năm (appears 2 times)
+  - cô gái (appears 2 times)
+  - trước (appears 3 times)
+  - đi (appears 3 times)
+  - biết (appears 2 times)
+  - thời gian (appears 2 times)
+  - ngủ (appears 2 times)
+  - họ (appears 2 times)
+  - cô (appears 2 times)
+  - nghe (appears 2 times)
+  - ngoài (appears 2 times)
+  - tối (appears 2 times)
+  - quên (appears 2 times)
+  - tây (appears 2 times)
+  - xuống (appears 2 times)
+  - mưa (appears 2 times)
+  - học sinh (appears 2 times)
+  - chủ nhật (appears 3 times)
+  - một chút (appears 4 times)
+  - có (appears 2 times)
+  - ở (appears 2 times)
+  - này (appears 2 times)
+  - bàn (appears 2 times)
+  - con (appears 2 times)
+  - trái (appears 2 times)
+Level B2: 0 duplicate words
+Level C1: 1 duplicate words
+  - rất (appears 2 times)
+Level C2: 0 duplicate words
+
+CROSS-LEVEL DUPLICATES:
+----------------------------------------
+bố: appears in levels B1, B2
+cùng: appears in levels B1, C1
+em trai: appears in levels B1, B2
+học: appears in levels B1, B2
+không: appears in levels B1, C2
+nghe: appears in levels B1, C1
+ngày: appears in levels B1, C1
+nhà: appears in levels B1, C1
+ra: appears in levels B1, C1
+rất: appears in levels B1, C1
+thật: appears in levels B1, C2
+trẻ con: appears in levels B1, B2
+vui: appears in levels B1, C1
+vào: appears in levels B1, C1
+
+RECOMMENDATIONS:
+----------------------------------------
+1. Review within-level duplicates - these may indicate data entry errors
+2. Evaluate cross-level duplicates - high frequency words may legitimately appear across levels
+3. Consider frequency-based deduplication for cross-level words
+4. Verify that duplicate entries have consistent definitions and metadata

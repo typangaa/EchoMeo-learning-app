@@ -1,0 +1,87 @@
+Vietnamese Missing Vocabulary Analysis Report
+==================================================
+Generated: 2025-05-31 18:46:47
+
+SUMMARY STATISTICS
+--------------------
+Total Raw Vietnamese Vocabulary: 407 words
+Total Enriched Vietnamese Vocabulary: 384 words
+Missing Words: 23 words (5.7% gap)
+Extra Words: 0 words
+
+Completion Percentage: 94.3%
+
+MISSING WORDS BY CATEGORY
+------------------------------
+By Frequency:
+  low: 1 words
+  medium: 22 words
+
+By Part of Speech:
+  n: 15 words
+  v: 5 words
+  a: 3 words
+  r: 1 words
+
+By Etymology:
+  sino_vietnamese: 21 words
+  native_vietnamese: 2 words
+
+By Syllable Count:
+  1 syllable(s): 18 words
+  2 syllable(s): 5 words
+
+HIGH PRIORITY MISSING WORDS (High Frequency)
+---------------------------------------------
+No high-frequency missing words found.
+
+SAMPLE OF OTHER MISSING WORDS
+-----------------------------------
+Showing 23 of 23 remaining missing words:
+
+• cả (freq: 50, pos: a)
+  all; both; entirely
+• dưới đây (freq: 50, pos: n)
+  downstairs (as in a building's lower level)
+• khó (freq: 50, pos: a)
+  khó (difficult; hard to do)
+• kiến thức (freq: 35, pos: n)
+  knowledge; intellectual
+• lái xe (freq: 50, pos: v)
+  to drive a car
+• lớp (freq: 50, pos: n)
+  class; grade (school); work shift
+• lời (freq: 50, pos: n)
+  spoken words; speech
+• miếng (freq: 50, pos: n)
+  piece; chunk; lump
+• miệng (freq: 50, pos: n)
+  mouth; oral cavity
+• món (freq: 50, pos: n)
+  dish; type of food
+• người yêu (freq: 45, pos: n)
+  girlfriend; female romantic partner
+• những (freq: 50, pos: r)
+  those; those (things)
+• phía bắc (freq: 45, pos: n)
+  north; northern part
+• phòng (freq: 50, pos: n)
+  room; chamber
+• quốc (freq: 50, pos: n)
+  country; nation; state
+• thẳng (freq: 50, pos: a)
+  straight; upright; correct; proper
+• thử (freq: 50, pos: v)
+  to test; to try; experiment
+• tiền (freq: 50, pos: n)
+  money; coin
+• trạm (freq: 50, pos: n)
+  rail station; bus stop
+• trứng (freq: 50, pos: n)
+  egg (chicken egg)
+• xin (freq: 45, pos: v)
+  to ask (politely); to request
+• điểm (freq: 50, pos: n, v)
+  dot; point (as in a small mark or location)
+• đập (freq: 50, pos: v)
+  to strike; to hit

@@ -1,0 +1,512 @@
+word,syllable_count,frequency,etymology_origin,tone_pattern,pos_tags
+yêu,1,50,sino_vietnamese,low_rising,v
+thích,1,50,native_vietnamese,low_rising,v
+tám,1,50,native_vietnamese,low_rising,m
+ba,1,15,sino_vietnamese,level tone,n
+bố,1,15,sino_vietnamese,low_rising,n
+bar,1,50,sino_vietnamese,neutral,n
+trắng,1,50,sino_vietnamese,high_level,n
+ngày,1,15,sino_vietnamese,high_level,n
+trăm,1,25,sino_vietnamese,high_level,m
+lớp,1,50,sino_vietnamese,rising,n
+nửa,1,25,sino_vietnamese,low_rising,n
+nửa năm,2,50,sino_vietnamese,giọng trầm cho cả hai âm,n
+nửa ngày,2,45,native_vietnamese,mid_rising,n
+giúp,1,50,sino_vietnamese,rising,v
+giúp đỡ,2,50,native_vietnamese,rising then falling-rising tone,v
+bao,1,50,sino_vietnamese,low_rising,v|n
+bánh bao,2,45,sino_vietnamese,high level, high level,n
+cốc,1,50,sino_vietnamese,flat,n
+cốc,1,20,native_vietnamese,low_rising,n
+bắc,1,15,sino_vietnamese,low_tone,n
+phía bắc,2,50,sino_vietnamese,low_high,n
+Thành Đô,2,25,sino_vietnamese,level tone, level tone,n
+gốc,1,50,native_vietnamese,low_rising,n
+bản,1,50,sino_vietnamese,low_rising,n
+so sánh,2,50,sino_vietnamese,low_rising,v
+biệt,1,50,sino_vietnamese,rising,v
+khác,1,50,native_vietnamese,low_rising,a
+người khác,2,45,sino_vietnamese,rising then falling,n
+bệnh,1,50,sino_vietnamese,falling,n|v
+bệnh nhân,2,50,sino_vietnamese,low_low,n
+không,1,15,native_vietnamese,low_rising,a|v
+không quá,2,45,sino_vietnamese,falling,a
+không đúng,2,35,sino_vietnamese,low falling then high rising,a
+Không sao,2,50,native_vietnamese,low_rising, high_falling,n
+không cần,2,50,native_vietnamese,low_tone,v
+rau,1,50,sino_vietnamese,high_level,n
+trà,1,50,sino_vietnamese,rising,n
+khác,1,50,native_vietnamese,low_rising,a
+thường,1,25,sino_vietnamese,high_level,a|m
+thường,1,50,native_vietnamese,rising,a
+hát,1,25,sino_vietnamese,low_rising,v
+hát,1,50,native_vietnamese,low_rising,v
+xe,1,50,sino_vietnamese,high_level,n
+vé,1,25,native_vietnamese,high_tone,n
+xe,1,12,native_vietnamese,low,n
+ga,1,45,sino_vietnamese,level_tone,n
+ăn,1,15,sino_vietnamese,high_tone,v
+ăn cơm,2,15,sino_vietnamese,rising tone on both syllables,v
+ra,1,50,sino_vietnamese,low_tone,v
+ra,1,50,native_vietnamese,low_tone,v
+đi ra,2,50,native_vietnamese,tone3 + tone2,v
+mặc,1,50,sino_vietnamese,low_rising,v
+giường,1,15,sino_vietnamese,low_tone,n
+thứ,1,45,sino_vietnamese,low_rising,m
+theo,1,50,sino_vietnamese,low_falling,v
+sai,1,50,sino_vietnamese,falling_tone,a|v
+đập,1,50,sino_vietnamese,falling,v
+đi taxi,2,50,sino_vietnamese,low_rising, neutral,v
+gọi điện thoại,3,35,sino_vietnamese,low_rising,v
+mở,1,50,sino_vietnamese,low_rising,v
+đánh bóng,2,45,sino_vietnamese,low_rising,v
+lớn,1,12,sino_vietnamese,low_rising,a|n
+đại học,2,50,sino_vietnamese,high_level_low_falling,n
+sinh viên đại học,4,35,sino_vietnamese,low_rising,n
+đến,1,50,native_vietnamese,low_rising,v
+đất,1,50,native_vietnamese,low_rising,n
+nơi,1,25,native_vietnamese,falling,n
+phương,1,50,native_vietnamese,low_rising,n
+trên mặt đất,3,45,native_vietnamese,low_rising,n
+bản đồ,2,45,sino_vietnamese,low_rising, mid_level,n
+của,1,50,sino_vietnamese,falling,p|n
+nhận được,2,45,sino_vietnamese,low_rising,v
+chờ,1,50,sino_vietnamese,mid_falling,v
+em,1,15,sino_vietnamese,high,n
+em trai,2,45,native_vietnamese,falling_tone,n
+thứ,1,50,sino_vietnamese,low_rising,m
+thứ,1,50,sino_vietnamese,low_rising,m
+thứ hai,2,35,sino_vietnamese,low falling then rising,n
+điểm,1,50,sino_vietnamese,falling,n|v
+điện,1,50,sino_vietnamese,falling,n|v
+điện thoại,2,25,sino_vietnamese,rising_rising,n
+máy tính,2,50,sino_vietnamese,high-level then rising,n
+ti vi,2,50,sino_vietnamese,mid_mid,n
+máy truyền hình,3,50,sino_vietnamese,low_rising, low_rising, high_level,n
+phim,1,50,sino_vietnamese,rising,n
+rạp chiếu phim,3,35,sino_vietnamese,low_rising,n
+đông,1,50,native_vietnamese,high_level,n
+phía đông,2,45,sino_vietnamese,low_rising,n
+đồ,1,25,sino_vietnamese,high level tone,n
+động,1,45,sino_vietnamese,low_rising,v
+hành động,2,45,sino_vietnamese,low_rising,n
+đều,1,50,sino_vietnamese,rising,a|v
+đọc,1,50,sino_vietnamese,rising,v
+học,1,15,sino_vietnamese,high,v
+đúng,1,12,native_vietnamese,low_rising,a
+xin lỗi,2,50,sino_vietnamese,low tone,v
+nhiều,1,12,sino_vietnamese,high_level,a
+bao nhiêu,2,50,native_vietnamese,rising then falling-rising,m
+no,1,15,sino_vietnamese,low_rising,a
+con trai,2,45,native_vietnamese,falling_tone,n
+hai,1,15,sino_vietnamese,low_rising,m
+bữa ăn,2,15,sino_vietnamese,low_rising,n
+nhà hàng,2,50,sino_vietnamese,low_flat,n
+phòng,1,50,native_vietnamese,low_rising,n
+nhà,1,12,native_vietnamese,high_level,n
+thả,1,50,sino_vietnamese,low_rising,v
+nghỉ phép,2,45,sino_vietnamese,low_rising,v
+tan hoc,2,45,sino_vietnamese,level tone, level tone,v
+bay,1,50,sino_vietnamese,high_level_tone,v
+máy bay,2,50,sino_vietnamese,falling_rising_high,n
+rất,1,50,native_vietnamese,low_tone,d
+chia,2,50,native_vietnamese,falling,v
+gió,1,15,sino_vietnamese,low,n
+khô,1,50,sino_vietnamese,low_rising,a
+sạch,1,25,sino_vietnamese,high level tone,a
+bạn đang làm gì,4,25,sino_vietnamese,level_tone_level_tone_level_tone_level_tone,v
+cao,1,50,sino_vietnamese,low_rising,a|v
+vui,1,50,native_vietnamese,falling,a
+nói,1,50,sino_vietnamese,low_rising,v
+anhsao,2,50,sino_vietnamese,falling,n
+anh trai,2,45,native_vietnamese,low then high,n
+bài hát,2,25,sino_vietnamese,low_rising,n
+một,1,50,native_vietnamese,low_rising,m
+cho,1,50,sino_vietnamese,low_rising,v
+theo,1,45,sino_vietnamese,rising,v
+công nhân,2,50,sino_vietnamese,low_rising, high,n
+công việc,2,15,sino_vietnamese,mid_falling_low_rising,n
+khép,1,50,sino_vietnamese,high_level,v
+đóng,1,50,sino_vietnamese,low_rising,v
+đắt,1,25,sino_vietnamese,low_rising,a
+quốc,1,15,sino_vietnamese,low_rising,n
+quốc gia,2,50,sino_vietnamese,low_rising, mid_level,n
+nước ngoài,2,25,sino_vietnamese,rising tone on both syllables,n
+qua,1,50,sino_vietnamese,high_level,v
+vẫn,1,50,sino_vietnamese,low_rising,d|v
+vẫn,1,15,sino_vietnamese,low_rising,a
+còn,1,25,native_vietnamese,low_rising,a
+trẻ,1,50,sino_vietnamese,low_rising,n
+tiếng Trung,2,50,sino_vietnamese,low_rising, rising,n
+hán tự,2,50,sino_vietnamese,low_rising,n
+tốt,1,50,sino_vietnamese,low_rising,a
+ngon,1,15,native_vietnamese,falling,a
+xinh,1,50,native_vietnamese,mid_level,a
+nghe hay,2,45,sino_vietnamese,rising tone on both syllables,v
+hay chơi,2,45,sino_vietnamese,low_rising,a
+hạng,1,50,sino_vietnamese,low_rising,n
+uống,1,15,sino_vietnamese,low_rising,v
+trộn,1,50,sino_vietnamese,low_rising,v
+rất,1,15,native_vietnamese,low_rising,a
+sau,1,50,sino_vietnamese,rising,n
+sau,1,50,native_vietnamese,low_rising,a|n
+ngày mai mai,3,50,sino_vietnamese,rising_rising_rising,n
+hoa,1,50,sino_vietnamese,rising,n
+nói,1,50,sino_vietnamese,falling,n|v
+xấu,1,25,sino_vietnamese,low_rising,a
+về,1,50,native_vietnamese,mid_tone,v
+trả lời,2,25,sino_vietnamese,low_rising,v
+trở về,2,50,sino_vietnamese,low_low,v
+về nhà,2,50,native_vietnamese,mid tone for both syllables,v|n
+về lại,2,45,sino_vietnamese,low_rising,v
+về,1,25,sino_vietnamese,falling,v
+gặp,1,50,sino_vietnamese,low_rising,v
+tàu,1,50,sino_vietnamese,rising,n
+sân bay,2,50,french_loanword,low_level then rising,n
+vé máy bay,3,50,sino_vietnamese,rising, falling-rising, rising,n
+trứng gà,2,25,sino_vietnamese,high_high,n
+mấy,1,25,sino_vietnamese,low_rising,m|a
+ghi,1,50,sino_vietnamese,low_rising,v
+nhớ,1,25,native_vietnamese,mid-falling tone,v
+nhớ,1,15,sino_vietnamese,high_level,v
+gia đình,2,50,native_vietnamese,mid_rising,n
+nhà,1,15,native_vietnamese,high,n
+người thân,2,45,sino_vietnamese,falling_tone,n
+giữa,1,50,sino_vietnamese,low_rising,p
+thấy,1,50,sino_vietnamese,high_level,v
+gặp mặt,2,35,sino_vietnamese,falling then high,v
+gọi,1,50,sino_vietnamese,low_rising,v
+dạy,1,50,sino_vietnamese,low_rising,v
+nhà học,2,45,sino_vietnamese,low_rising,n
+giới thiệu,2,50,sino_vietnamese,mid_mid,v
+chị,1,15,sino_vietnamese,rising,n
+chị gái,2,50,sino_vietnamese,low_rising,n
+năm nay,2,50,native_vietnamese,mid-falling,n
+hôm nay,2,15,sino_vietnamese,mid rising,n
+vào,1,50,sino_vietnamese,falling,v
+vào,1,50,native_vietnamese,low_tone,v
+vào,1,45,native_vietnamese,rising,v
+chín,1,50,sino_vietnamese,low_rising,m
+vừa,1,50,sino_vietnamese,mid_level,a|v
+cảm thấy,2,45,sino_vietnamese,low_rising, high_falling,v
+mở,1,50,sino_vietnamese,falling_rising,v
+lái xe,2,50,sino_vietnamese,low_rising then high_level,v
+đi họp,2,45,sino_vietnamese,low_rising,v
+đùa,1,50,native_vietnamese,falling,v
+chăm sóc,2,45,sino_vietnamese,low_rising_high_falling,v
+đi khám bệnh,3,35,sino_vietnamese,low_rising,v
+nhìn,1,45,native_vietnamese,mid_falling,v
+nhìn thấy,2,25,sino_vietnamese,low_rising,v
+kiểm tra,2,50,sino_vietnamese,mid_low,v
+kỳ thi,2,35,sino_vietnamese,low_rising,n
+khát,1,45,sino_vietnamese,low_rising,a
+bài,1,25,sino_vietnamese,low_rising,n
+sách giáo khoa,3,50,sino_vietnamese,mid-level tones,n
+bài đọc,2,50,sino_vietnamese,low_rising,n
+cái,1,50,native_vietnamese,high_rising,p
+miếng,1,50,sino_vietnamese,low_rising,n
+nhanh,1,15,sino_vietnamese,high_level,a
+đến,1,50,sino_vietnamese,low_rising,v
+đến,1,15,native_vietnamese,falling,v
+già,1,50,sino_vietnamese,rising,a
+người già,2,50,native_vietnamese,monotonic low tone,n
+thầy,1,50,sino_vietnamese,high,n
+rồi,1,50,sino_vietnamese,falling,y
+mệt,1,45,sino_vietnamese,low_rising,a|v
+lạnh,1,50,sino_vietnamese,low_rising,a
+li,1,50,sino_vietnamese,low_rising,n
+trong,1,50,native_vietnamese,falling,p
+hai,1,50,sino_vietnamese,low_rising,m
+không,1,15,sino_vietnamese,low_tone,m|n
+sáu,1,50,native_vietnamese,low_falling,m
+tầng,1,50,sino_vietnamese,low_rising,n
+trên tầng,2,45,sino_vietnamese,rising tone on both syllables,n
+dưới lầu,2,45,sino_vietnamese,low_rising,n
+đường,1,15,sino_vietnamese,falling,n
+giao lộ,2,35,sino_vietnamese,low falling then low rising,n
+trên đường,2,45,sino_vietnamese,rising,a
+mẹ,1,50,native_vietnamese,rising_tone,n
+mẹ,1,50,native_vietnamese,low_tone,n
+đường,1,15,sino_vietnamese,high_level,n
+ngay,1,50,native_vietnamese,low_falling,d
+không,1,50,native_vietnamese,low_rising,y
+mua,1,50,sino_vietnamese,mid_level,v
+chậm,1,50,sino_vietnamese,mid_falling,a
+bận,1,25,sino_vietnamese,low_tone,a
+tóc,1,12,native_vietnamese,high_level,n
+không,1,50,sino_vietnamese,high_tone,d
+Không sao,2,50,native_vietnamese,rising,d
+không sao,2,50,native_vietnamese,low_rising,d
+không sao,2,50,native_vietnamese,falling_rising,a
+không có,2,50,sino_vietnamese,trầm,v
+em gái,2,50,sino_vietnamese,low_flat,n
+em gái,2,35,sino_vietnamese,low_rising,n
+cửa,1,50,native_vietnamese,low_rising,n
+cửa,1,50,native_vietnamese,low_rising,n
+vé vào,2,45,sino_vietnamese,low_rising,n
+các,1,15,sino_vietnamese,low_rising,d
+các,1,15,sino_vietnamese,low_rising,d
+cơm,1,50,native_vietnamese,falling,n
+bánh,1,50,sino_vietnamese,low_rising,n
+mì,1,15,sino_vietnamese,low_rising,n
+tên,1,15,sino_vietnamese,high_level,n
+hiểu,1,25,sino_vietnamese,low_rising,v
+năm sau,2,50,sino_vietnamese,high_level,n
+ngày mai,2,50,native_vietnamese,level-level,n
+lấy,1,50,sino_vietnamese,low_rising,v
+nào,1,50,native_vietnamese,falling_tone,r
+ở đâu,2,50,sino_vietnamese,low_rising,n
+nơi nào,2,25,sino_vietnamese,high level,m
+nào,1,45,native_vietnamese,high_level,a
+đó,1,50,native_vietnamese,low_rising,n
+ở đó,2,45,sino_vietnamese,low_rising,v
+đó,1,45,native_vietnamese,falling,r
+nơi đó,2,45,sino_vietnamese,falling,n
+những,1,50,sino_vietnamese,low_rising,n
+sữa,1,50,sino_vietnamese,rising,n
+bà,1,50,sino_vietnamese,high_level,n
+nam,1,15,sino_vietnamese,high_level,n
+cậu bé,2,45,native_vietnamese,flat,n
+bạn trai,2,50,native_vietnamese,falling_tone,n
+người đàn ông,3,35,sino_vietnamese,low_rising,n
+nam sinh,2,45,sino_vietnamese,level tone,n
+nam,1,50,native_vietnamese,falling,n
+phía nam,2,35,sino_vietnamese,low_rising,n
+khó,1,50,sino_vietnamese,falling,a
+à,1,50,native_vietnamese,low_rising,y
+có thể,2,50,sino_vietnamese,falling,v
+bạn,1,50,sino_vietnamese,falling,r
+các bạn,2,45,native_vietnamese,high_level (2) + low_rising (3),n
+năm,1,15,sino_vietnamese,high_level,n
+bạn,1,15,sino_vietnamese,low_rising,n
+sữa bò,2,25,sino_vietnamese,low falling then low,n
+nữ,1,15,sino_vietnamese,low,n
+con gái,2,45,sino_vietnamese,low_tone_falling_tone,n
+cô gái,2,25,sino_vietnamese,low_rising,n
+bạn gái,2,50,native_vietnamese,low_rising low_rising,n
+nữ nhân,2,25,sino_vietnamese,low_rising,n
+cô gái,2,25,native_vietnamese,low_rising,n
+bên cạnh,2,50,sino_vietnamese,low rising then falling,n
+chạy,1,50,sino_vietnamese,low_rising,v
+bạn,1,50,native_vietnamese,low_rising,n
+vé,1,50,sino_vietnamese,rising,n
+bảy,1,50,native_vietnamese,low_rising,m
+khởi,1,50,sino_vietnamese,low_rising,v
+ngủ dậy,2,45,sino_vietnamese,low_rising,v
+bắt đầu,2,50,sino_vietnamese,falling_rising,v
+xe hơi,2,25,sino_vietnamese,low_rising,n
+trước,1,50,native_vietnamese,low_rising,n|p
+trước,1,30,native_vietnamese,low_rising,n
+ngày trước ngày qua,4,45,sino_vietnamese,rising, falling-rising, rising, rising,n
+tiền,1,50,sino_vietnamese,high_level,n
+túi,1,50,native_vietnamese,rising,n
+xin,1,50,sino_vietnamese,high_tone,v|m
+nghỉ phép,2,45,sino_vietnamese,low_rising,v
+xin vào,2,45,native_vietnamese,mid_falling,v
+xin lỗi,2,25,native_vietnamese,falling then low,a
+xin ngồi,2,45,sino_vietnamese,rising tone on both syllables,v
+quả bóng,2,35,sino_vietnamese,low_rising,n
+đi,1,50,sino_vietnamese,falling,v
+năm ngoái,2,45,sino_vietnamese,falling_rising,n
+nóng,1,15,sino_vietnamese,low_rising,a
+người,1,50,sino_vietnamese,high,n
+biết,1,50,native_vietnamese,falling,v
+nghiêm túc,2,50,sino_vietnamese,low_tone,a
+ngày,1,50,sino_vietnamese,mid_rising,n
+ngày,1,50,native_vietnamese,low_rising,n
+thịt,1,35,sino_vietnamese,low_rising,n
+ba,1,15,sino_vietnamese,low_rising,m
+núi,1,50,sino_vietnamese,low_rising,n
+siêu thị,2,45,sino_vietnamese,low_rising,n
+cửa hàng,2,30,sino_vietnamese,low_rising_high_level,n
+trên,1,50,sino_vietnamese,high_level,a|n
+đi làm,2,50,sino_vietnamese,falling_tone,v
+trên,1,50,native_vietnamese,high_level,p|n
+lên xe,2,45,sino_vietnamese,rising tone on both syllables,v
+lần trước,2,45,native_vietnamese,falling_low_rising,n
+đến lớp,2,45,sino_vietnamese,low_rising,v
+truy cập,2,50,sino_vietnamese,low_rising,v
+sáng,1,50,native_vietnamese,high_tone,n
+đi học,2,50,sino_vietnamese,low_rising (đi) + high_falling (học),v
+ít,1,50,native_vietnamese,low_rising,a|n
+trên người,2,45,native_vietnamese,low_low,a
+thân thể,2,45,sino_vietnamese,low_level, falling_rising,n
+gì,1,50,native_vietnamese,low_rising,r
+bị bệnh,2,50,sino_vietnamese,low_rising,v
+bực tức,2,45,sino_vietnamese,low_rising,v
+sinh nhật,2,45,sino_vietnamese,low_rising,n
+mười,1,50,native_vietnamese,rising,m
+thời gian,2,50,sino_vietnamese,low_rising, falling_rising,n
+thời gian,2,50,sino_vietnamese,mid_falling,n
+việc,1,25,sino_vietnamese,low_rising,n
+thử,1,50,sino_vietnamese,low_rising,v
+là,1,12,sino_vietnamese,rising,v
+có phải không,3,45,sino_vietnamese,low_rising, low_rising, falling,v
+tay,1,50,native_vietnamese,high_level,n|v
+điện thoại,2,25,sino_vietnamese,low_rising,n
+sách,1,15,sino_vietnamese,falling,n
+túi xách,2,25,sino_vietnamese,low_rising,n
+cửa hàng sách,3,50,sino_vietnamese,low_rising_mid_rising,n
+cây,1,15,sino_vietnamese,low_tone,n
+ai,1,15,sino_vietnamese,high_level,n
+nước,1,50,sino_vietnamese,low_rising,n
+trái cây,2,50,sino_vietnamese,low_rising, high_falling,n
+ngủ,1,15,sino_vietnamese,low_rising,v
+ngủ,1,15,native_vietnamese,low_tone,v
+nói,1,50,sino_vietnamese,high_level,v
+nói,1,50,native_vietnamese,falling,v
+bốn,1,50,native_vietnamese,low_rising,m
+gửi,1,50,native_vietnamese,rising,v
+tuổi,1,50,native_vietnamese,low_rising,m
+anh,1,50,sino_vietnamese,low_rising,r
+họ,1,50,native_vietnamese,low_rising,r
+cô ấy,2,50,native_vietnamese,low then high-rising,r
+họ,1,25,sino_vietnamese,low,n
+rất,1,15,sino_vietnamese,low_tone,a
+trời,1,50,sino_vietnamese,mid_level,n
+thời tiết,2,50,sino_vietnamese,mid_rising,n
+nghe,1,50,sino_vietnamese,falling,v
+nghe được,2,50,native_vietnamese,low_tone_falling_tone,v
+nghe,1,50,native_vietnamese,rising,v
+nghe chép,2,50,sino_vietnamese,nghe (low-rising) + chép (high-falling),v
+bạn,1,15,native_vietnamese,low_rising,n
+thư viện,2,50,sino_vietnamese,low_rising then falling_rising,n
+ngoài,1,25,sino_vietnamese,high level tone,n
+ngoài,1,25,sino_vietnamese,high level tone,n
+nước ngoài,2,50,sino_vietnamese,low_rising,n
+ngôn ngữ nước ngoài,4,50,sino_vietnamese,low_rising, low_rising, low_rising, low_rising,n
+chơi,1,15,sino_vietnamese,low_rising,v
+chiều,1,25,sino_vietnamese,high_level,n
+cơm tối,2,50,sino_vietnamese,falling_rising_low_rising,n
+tối,1,15,sino_vietnamese,low_rising,n
+trực tuyến,2,50,sino_vietnamese,rising-falling, high-level,n
+người dùng mạng,3,50,sino_vietnamese,low_rising, mid_level, low_rising,n
+quên,1,15,sino_vietnamese,high_level,v
+quên,1,50,sino_vietnamese,rising,v
+hỏi,1,50,sino_vietnamese,high_level,v
+tôi,1,50,native_vietnamese,low_rising,r
+chúng ta,2,15,sino_vietnamese,low_rising,n
+năm,1,50,native_vietnamese,high_level,m
+bữa trưa,2,45,sino_vietnamese,low_rising then falling,n
+rửa,1,50,sino_vietnamese,rising,v
+phòng xí,2,45,sino_vietnamese,low falling,n
+thích,1,15,sino_vietnamese,high level tone,v
+tây,1,50,sino_vietnamese,high_level,n
+phía tây,2,50,native_vietnamese,low_rising (phía) + mid_rising (tây),n
+xuống,1,50,sino_vietnamese,falling,v
+kết thúc công việc,4,45,sino_vietnamese,level_tone,v
+dưới,1,50,sino_vietnamese,low_rising,p
+xuống xe,2,35,sino_vietnamese,low_rising,v
+lần sau,2,50,sino_vietnamese,mid_tone,n
+tan hoc,2,50,sino_vietnamese,rising_rising,v
+chiều,1,50,native_vietnamese,falling,n
+mưa,1,50,native_vietnamese,falling,v
+trước,1,45,sino_vietnamese,low_rising,a|n
+thầy,1,50,native_vietnamese,mid_level,n
+bây giờ,2,50,sino_vietnamese,low_rising,n
+tưởng,1,50,sino_vietnamese,low_rising,v
+nhỏ,1,25,sino_vietnamese,low_rising,a
+trẻ con,2,50,native_vietnamese,rising_tone,n
+chị,1,25,native_vietnamese,low_rising,n
+trẻ con,2,35,native_vietnamese,low_rising,n
+giờ,1,50,sino_vietnamese,low_level,n
+trường tiểu học,3,25,sino_vietnamese,low_rising,n
+học sinh,2,50,sino_vietnamese,low_rising,n
+cười,1,15,sino_vietnamese,low_rising,v
+viết,1,50,sino_vietnamese,rising,v
+cảm ơn,2,12,sino_vietnamese,high level,v
+mới,1,50,sino_vietnamese,low_rising,a|n
+tết,1,12,native_vietnamese,falling,n
+thứ bảy,2,45,sino_vietnamese,ngang,n
+chủ nhật,2,25,sino_vietnamese,low_rising,n
+chủ nhật,2,15,sino_vietnamese,low_rising,n
+đi,1,12,sino_vietnamese,mid_rising,v
+nghỉ,1,50,sino_vietnamese,low_rising,v|n
+học,1,15,sino_vietnamese,high_level,v
+học sinh,2,50,sino_vietnamese,low_level_then_rising,n
+học,1,50,sino_vietnamese,high_level,v
+trường học,2,50,sino_vietnamese,low_low,n
+trường,1,50,native_vietnamese,high_level,n
+muốn,1,50,sino_vietnamese,low_rising,v
+cũng,1,50,sino_vietnamese,low_rising,d
+trang,1,50,sino_vietnamese,rising,n
+ông nội,2,50,native_vietnamese,low_rising,n
+một,1,12,native_vietnamese,low_rising,m
+nửa,1,50,native_vietnamese,falling,m
+một bên,2,50,native_vietnamese,low_rising then falling,n
+một chút,2,45,sino_vietnamese,level falling,m
+một lúc,2,50,sino_vietnamese,low_rising,n
+cùng nhau,2,50,sino_vietnamese,rising_falling,v
+cùng nhau,2,25,sino_vietnamese,mid_mid,a
+một chút,2,45,sino_vietnamese,low_rising,m
+một số,2,50,native_vietnamese,level_tone,m
+giống nhau,2,45,sino_vietnamese,low_rising,a
+đồ mặc,2,50,native_vietnamese,low_rising,n
+bác sĩ,2,50,sino_vietnamese,low_rising,n
+bệnh viện,2,45,sino_vietnamese,mid_falling,n
+dùng,1,50,sino_vietnamese,rising,v
+có,1,50,sino_vietnamese,low_rising,v
+một,1,50,native_vietnamese,low_rising,m
+nổi tiếng,2,35,sino_vietnamese,low_rising,a
+thỉnh thoảng,2,45,sino_vietnamese,low_rising_low_rising,a
+thỉnh thoảng,2,50,native_vietnamese,low_rising,d
+một chút,2,50,native_vietnamese,mid_high tone,a|d
+một chút,2,50,native_vietnamese,falling_rising,d
+một chút,2,50,native_vietnamese,rising,a
+có ích,2,50,sino_vietnamese,low_rising,a
+phải,1,50,sino_vietnamese,low_rising,n|a
+phía phải,2,45,sino_vietnamese,low_rising,n
+mưa,1,50,sino_vietnamese,falling,n|v
+nguyên,1,50,sino_vietnamese,low_falling,a|n
+xa,1,50,sino_vietnamese,rising,a|v
+tháng,1,25,sino_vietnamese,low_rising,n
+lại,1,50,sino_vietnamese,low_rising,a|v
+tạm biệt,2,15,sino_vietnamese,low_rising,v
+ở,1,50,sino_vietnamese,low_rising,v
+ở nhà,2,50,native_vietnamese,low_rising mid_level,v|n
+sớm,1,25,sino_vietnamese,low_rising,a|n
+bữa sáng,2,45,sino_vietnamese,low_rising_high_level,n
+sáng sớm,2,50,sino_vietnamese,low_rising,n
+thế nào,2,50,native_vietnamese,low_rising,m
+ga,1,50,sino_vietnamese,low_rising,n
+tìm,1,50,sino_vietnamese,falling,v
+tìm thấy,2,50,sino_vietnamese,mid-level then falling,v
+này,1,50,native_vietnamese,high_tone,r
+đây,1,15,native_vietnamese,low,n
+đây,1,45,native_vietnamese,low_rising,r
+ở đây,2,30,sino_vietnamese,low_rising,v
+này,1,50,sino_vietnamese,low_rising,r
+mặc,1,50,sino_vietnamese,falling,v
+thật,1,15,sino_vietnamese,low_rising,a
+thật,1,15,sino_vietnamese,low_rising,a
+chính,1,50,sino_vietnamese,low_rising,a|n
+đang,1,50,sino_vietnamese,falling,v
+biết,1,50,native_vietnamese,falling,v
+tri thức,2,50,sino_vietnamese,rising_rising,n
+trung,1,15,sino_vietnamese,low_rising,n|v
+Trung Quốc,2,50,sino_vietnamese,falling-rising tone on 'Quốc',n
+giữa,1,50,native_vietnamese,falling_tone,d
+tiếng Trung,2,50,sino_vietnamese,low then mid,n
+trưa,1,15,sino_vietnamese,low_rising,n
+trung học,2,50,sino_vietnamese,low_rising,n
+học sinh trung học,4,30,sino_vietnamese,low_rising,n
+nặng,1,50,sino_vietnamese,low_rising,a
+quan trọng,2,25,sino_vietnamese,low falling - mid rising,a
+ở,1,50,sino_vietnamese,low_rising,v
+chuẩn bị,2,50,sino_vietnamese,low_tone,v
+bàn,1,50,sino_vietnamese,high_level,n
+bàn,1,15,sino_vietnamese,low_rising,n
+chữ,1,50,native_vietnamese,low_rising,n
+con,1,50,native_vietnamese,low_rising,n
+con,1,50,sino_vietnamese,high_level,n
+đi,1,50,sino_vietnamese,falling,v
+đi bộ,2,45,sino_vietnamese,low_rising,v
+nhất,1,50,sino_vietnamese,falling,m
+tốt nhất,2,25,sino_vietnamese,low_rising,a
+cuối cùng,2,45,sino_vietnamese,low_rising_falling,n
+hôm qua,2,50,sino_vietnamese,falling_tone,n
+trái,1,50,sino_vietnamese,low_rising,n
+trái,1,15,sino_vietnamese,low_rising,n
+ngồi,1,15,sino_vietnamese,low_rising,v
+ngồi xuống,2,45,sino_vietnamese,low falling,v
+làm,1,50,sino_vietnamese,falling,v

@@ -1,0 +1,94 @@
+# Vietnamese Vocabulary - CEFR Level B1 Duplicates
+# Generated: 2025-05-31 20:09:34
+# Total duplicate words: 71
+# Frequency range: Level B1 words
+
+# Within-level duplicates (same word appears multiple times in this level):
+thích  # appears 2 times, frequencies: [50, 50]
+ngày  # appears 2 times, frequencies: [50, 45]
+nửa  # appears 2 times, frequencies: [50, 50]
+cốc  # appears 2 times, frequencies: [50, 50]
+sách  # appears 2 times, frequencies: [50, 50]
+không  # appears 4 times, frequencies: [50, 50, 50, 50]
+sai  # appears 2 times, frequencies: [50, 50]
+không sao  # appears 4 times, frequencies: [50, 50, 50, 50]
+thường  # appears 2 times, frequencies: [50, 50]
+xe  # appears 2 times, frequencies: [50, 50]
+ăn  # appears 2 times, frequencies: [50, 50]
+thứ  # appears 3 times, frequencies: [50, 50, 50]
+theo  # appears 2 times, frequencies: [50, 50]
+mở  # appears 2 times, frequencies: [50, 50]
+đến  # appears 3 times, frequencies: [50, 45, 50]
+hai  # appears 3 times, frequencies: [50, 50, 50]
+học  # appears 2 times, frequencies: [50, 50]
+cơm  # appears 2 times, frequencies: [50, 50]
+nghỉ phép  # appears 2 times, frequencies: [50, 50]
+nói  # appears 3 times, frequencies: [50, 50, 50]
+một  # appears 3 times, frequencies: [50, 50, 50]
+nước  # appears 2 times, frequencies: [50, 50]
+nước ngoài  # appears 2 times, frequencies: [45, 50]
+vẫn  # appears 2 times, frequencies: [50, 50]
+tiếng Trung  # appears 2 times, frequencies: [50, 50]
+sau  # appears 2 times, frequencies: [50, 50]
+về  # appears 3 times, frequencies: [50, 50, 50]
+nhớ  # appears 2 times, frequencies: [50, 50]
+giữa  # appears 2 times, frequencies: [50, 50]
+nhìn  # appears 2 times, frequencies: [50, 50]
+chị  # appears 2 times, frequencies: [50, 50]
+vào  # appears 2 times, frequencies: [45, 50]
+thầy  # appears 2 times, frequencies: [50, 50]
+trong  # appears 2 times, frequencies: [45, 50]
+trên  # appears 3 times, frequencies: [50, 50, 50]
+đường  # appears 2 times, frequencies: [50, 50]
+mẹ  # appears 2 times, frequencies: [50, 50]
+em  # appears 2 times, frequencies: [50, 50]
+cửa  # appears 2 times, frequencies: [50, 50]
+các  # appears 2 times, frequencies: [50, 50]
+nào  # appears 2 times, frequencies: [50, 45]
+đó  # appears 2 times, frequencies: [50, 50]
+sữa  # appears 2 times, frequencies: [50, 50]
+nam  # appears 2 times, frequencies: [50, 50]
+trai  # appears 2 times, frequencies: [50, 50]
+bạn  # appears 3 times, frequencies: [50, 50, 50]
+năm  # appears 2 times, frequencies: [50, 50]
+cô gái  # appears 2 times, frequencies: [45, 45]
+trước  # appears 3 times, frequencies: [50, 50, 50]
+đi  # appears 3 times, frequencies: [50, 50, 50]
+biết  # appears 2 times, frequencies: [50, 50]
+thời gian  # appears 2 times, frequencies: [45, 50]
+ngủ  # appears 2 times, frequencies: [50, 45]
+họ  # appears 2 times, frequencies: [50, 50]
+cô  # appears 2 times, frequencies: [50, 50]
+nghe  # appears 2 times, frequencies: [50, 50]
+ngoài  # appears 2 times, frequencies: [50, 50]
+tối  # appears 2 times, frequencies: [50, 50]
+quên  # appears 2 times, frequencies: [50, 45]
+tây  # appears 2 times, frequencies: [50, 50]
+xuống  # appears 2 times, frequencies: [50, 50]
+mưa  # appears 2 times, frequencies: [50, 50]
+học sinh  # appears 2 times, frequencies: [50, 50]
+chủ nhật  # appears 3 times, frequencies: [50, 45, 50]
+một chút  # appears 4 times, frequencies: [45, 45, 50, 50]
+có  # appears 2 times, frequencies: [50, 50]
+ở  # appears 2 times, frequencies: [50, 50]
+này  # appears 2 times, frequencies: [50, 50]
+bàn  # appears 2 times, frequencies: [50, 50]
+con  # appears 2 times, frequencies: [50, 50]
+trái  # appears 2 times, frequencies: [50, 45]
+
+
+# Cross-level duplicates (words that also appear in other levels):
+bố  # also in levels: B2
+cùng  # also in levels: C1
+em trai  # also in levels: B2
+học  # also in levels: B2
+không  # also in levels: C2
+nghe  # also in levels: C1
+ngày  # also in levels: C1
+nhà  # also in levels: C1
+ra  # also in levels: C1
+rất  # also in levels: C1
+thật  # also in levels: C2
+trẻ con  # also in levels: B2
+vui  # also in levels: C1
+vào  # also in levels: C1

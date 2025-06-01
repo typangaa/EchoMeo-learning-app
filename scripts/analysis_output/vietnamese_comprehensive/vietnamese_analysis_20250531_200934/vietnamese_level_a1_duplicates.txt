@@ -1,0 +1,6 @@
+# Vietnamese Vocabulary - CEFR Level A1 Duplicates
+# Generated: 2025-05-31 20:09:34
+# Total duplicate words: 0
+# Frequency range: Level A1 words
+
+# No within-level duplicates found

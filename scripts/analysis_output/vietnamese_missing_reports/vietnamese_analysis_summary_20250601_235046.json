@@ -1,0 +1,47 @@
+{
+  "analysis_date": "2025-06-01T23:50:46.124372",
+  "statistics": {
+    "total_raw_vocabulary": 417,
+    "total_enriched_vocabulary": 416,
+    "total_missing_words": 2,
+    "total_extra_words": 1,
+    "completion_percentage": 99.76019184652279
+  },
+  "missing_words": [
+    "anhsao",
+    "Không sao"
+  ],
+  "extra_words": [
+    "anh sao"
+  ],
+  "categories": {
+    "by_frequency": {
+      "medium": [
+        "anhsao",
+        "Không sao"
+      ]
+    },
+    "by_pos": {
+      "n": [
+        "anhsao"
+      ],
+      "d": [
+        "Không sao"
+      ]
+    },
+    "by_etymology": {
+      "sino_vietnamese": [
+        "anhsao"
+      ],
+      "native_vietnamese": [
+        "Không sao"
+      ]
+    },
+    "by_syllable_count": {
+      "2": [
+        "anhsao",
+        "Không sao"
+      ]
+    }
+  }
+}

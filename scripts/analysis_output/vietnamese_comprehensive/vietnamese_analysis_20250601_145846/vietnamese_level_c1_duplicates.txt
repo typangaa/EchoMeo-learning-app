@@ -1,0 +1,51 @@
+# Vietnamese Vocabulary - CEFR Level C1 Duplicates
+# Generated: 2025-06-01 14:58:46
+# Total duplicate words: 15
+# Frequency range: Level C1 words
+
+# Within-level duplicates (same word appears multiple times in this level):
+ba  # appears 2 times, frequencies: [15, 15]
+không  # appears 2 times, frequencies: [15, 15]
+điện thoại  # appears 2 times, frequencies: [25, 25]
+học  # appears 2 times, frequencies: [15, 15]
+rất  # appears 2 times, frequencies: [15, 15]
+nhớ  # appears 2 times, frequencies: [25, 15]
+chị  # appears 2 times, frequencies: [15, 25]
+đường  # appears 2 times, frequencies: [15, 15]
+các  # appears 2 times, frequencies: [15, 15]
+bạn  # appears 2 times, frequencies: [15, 15]
+cô gái  # appears 2 times, frequencies: [25, 25]
+ngủ  # appears 2 times, frequencies: [15, 15]
+ngoài  # appears 2 times, frequencies: [25, 25]
+chủ nhật  # appears 2 times, frequencies: [25, 15]
+thật  # appears 2 times, frequencies: [15, 15]
+
+
+# Cross-level duplicates (words that also appear in other levels):
+bàn  # also in levels: B1
+bạn  # also in levels: B1
+chiều  # also in levels: B1
+cùng nhau  # also in levels: B1
+cốc  # also in levels: B1
+hai  # also in levels: B1
+hát  # also in levels: B1
+họ  # also in levels: B1
+học  # also in levels: B1
+không  # also in levels: B1
+nam  # also in levels: B1
+ngày  # also in levels: B1
+nhà  # also in levels: C2
+năm  # also in levels: B1
+nước ngoài  # also in levels: B1
+nửa  # also in levels: B1
+quên  # also in levels: B1
+rất  # also in levels: B1
+thích  # also in levels: B1
+thường  # also in levels: B1
+trái  # also in levels: B1
+vé  # also in levels: B1
+vẫn  # also in levels: B1
+về  # also in levels: B1
+xin lỗi  # also in levels: B1
+đây  # also in levels: B1
+đến  # also in levels: B1

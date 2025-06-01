@@ -5,7 +5,7 @@ const FlashcardPage = () => {
     <div className="max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-6">Flashcard Practice</h1>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* HSK Flashcards - Primary option */}
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-2 border-red-200 dark:border-red-800">
           <div className="flex items-center mb-4">
@@ -36,6 +36,40 @@ const FlashcardPage = () => {
           <div className="mt-2 text-center">
             <span className="text-xs bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-1 rounded">
               Recommended
+            </span>
+          </div>
+        </div>
+        
+        {/* Vietnamese Vocabulary Flashcards - Featured option */}
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-2 border-green-200 dark:border-green-800">
+          <div className="flex items-center mb-4">
+            <span className="text-2xl mr-3">🇻🇳</span>
+            <h2 className="text-xl font-semibold">
+              <span className="vietnamese-text text-green-600">Từ vựng tiếng Việt</span>
+            </h2>
+          </div>
+          <p className="mb-4 text-gray-700 dark:text-gray-300">
+            Study Vietnamese vocabulary with comprehensive Chinese translations, etymology information, and cultural context. 
+            Perfect for understanding Vietnamese language structure.
+          </p>
+          <div className="mb-4">
+            <div className="text-sm text-gray-600 dark:text-gray-400">Features:</div>
+            <ul className="text-sm text-gray-600 dark:text-gray-400 list-disc list-inside mt-1">
+              <li>Etymology and frequency information</li>
+              <li>Rich Chinese translations</li>
+              <li>Cultural context and usage</li>
+              <li>Audio pronunciation</li>
+            </ul>
+          </div>
+          <Link 
+            to="/vietnamese-flashcards" 
+            className="inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors w-full text-center"
+          >
+            Practice Vietnamese Flashcards
+          </Link>
+          <div className="mt-2 text-center">
+            <span className="text-xs bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-1 rounded">
+              Cultural Learning
             </span>
           </div>
         </div>
@@ -85,6 +119,11 @@ const FlashcardPage = () => {
             <strong>HSK Flashcards (Recommended):</strong> If you're serious about learning Chinese 
             and want to prepare for official proficiency tests, start with HSK flashcards. 
             They follow the official Chinese proficiency standards and include rich Vietnamese translations.
+          </p>
+          <p>
+            <strong>Vietnamese Vocabulary (Featured):</strong> If you want to understand Vietnamese language 
+            structure, etymology, and cultural context, use Vietnamese flashcards. They provide comprehensive 
+            Chinese translations with frequency and origin information.
           </p>
           <p>
             <strong>Basic Vocabulary:</strong> If you're just getting started or want to explore 

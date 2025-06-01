@@ -55,9 +55,18 @@ const Navbar = () => {
             </NavLink>
             
             <NavLink 
+              to="/vietnamese" 
+              className={({ isActive }) => 
+                isActive ? "text-green-600 dark:text-green-400" : "hover:text-green-600 dark:hover:text-green-400"
+              }
+            >
+              Vietnamese
+            </NavLink>
+            
+            <NavLink 
               to="/hsk" 
               className={({ isActive }) => 
-                isActive ? "text-blue-600 dark:text-blue-400" : "hover:text-blue-600 dark:hover:text-blue-400"
+                isActive ? "text-red-600 dark:text-red-400" : "hover:text-red-600 dark:hover:text-red-400"
               }
             >
               HSK
@@ -118,9 +127,19 @@ const Navbar = () => {
               </NavLink>
               
               <NavLink 
+                to="/vietnamese" 
+                className={({ isActive }) => 
+                  isActive ? "text-green-600 dark:text-green-400" : "hover:text-green-600 dark:hover:text-green-400"
+                }
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Vietnamese
+              </NavLink>
+              
+              <NavLink 
                 to="/hsk" 
                 className={({ isActive }) => 
-                  isActive ? "text-blue-600 dark:text-blue-400" : "hover:text-blue-600 dark:hover:text-blue-400"
+                  isActive ? "text-red-600 dark:text-red-400" : "hover:text-red-600 dark:hover:text-red-400"
                 }
                 onClick={() => setIsMenuOpen(false)}
               >

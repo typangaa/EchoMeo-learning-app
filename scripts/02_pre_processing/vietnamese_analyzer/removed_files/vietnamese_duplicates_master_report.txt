@@ -1,0 +1,74 @@
+# Vietnamese Vocabulary Master Duplicates Report
+# Generated: 2025-01-01 12:00:00
+# This report shows all duplicate words found across the Vietnamese vocabulary dataset
+
+============================================================
+DUPLICATE ANALYSIS SUMMARY
+============================================================
+Within-level duplicates: 6
+Cross-level duplicates: 2
+Total unique duplicate words: 8
+
+WITHIN-LEVEL DUPLICATES BY LEVEL:
+----------------------------------------
+Level A1: 2 duplicate words
+  - tôi (appears 2 times)
+  - cảm ơn (appears 2 times)
+Level A2: 2 duplicate words
+  - học sinh (appears 2 times)
+  - thích (appears 2 times)
+Level B1: 1 duplicate words
+  - giáo viên (appears 2 times)
+Level B2: 1 duplicate words
+  - chính phủ (appears 2 times)
+Level C1: 0 duplicate words
+Level C2: 0 duplicate words
+
+CROSS-LEVEL DUPLICATES:
+----------------------------------------
+học: appears in levels A2, B1
+xin chào: appears in levels A1, A2
+
+DETAILED ANALYSIS:
+----------------------------------------
+
+HIGH PRIORITY DUPLICATES (Multiple occurrences within same level):
+- A1 Level: "tôi" and "cảm ơn" appear twice each
+- A2 Level: "học sinh" and "thích" appear twice each  
+- B1 Level: "giáo viên" appears twice
+- B2 Level: "chính phủ" appears twice
+
+MEDIUM PRIORITY DUPLICATES (Cross-level occurrences):
+- "xin chào": Appears in both A1 (frequency 88) and A2 (frequency 76)
+- "học": Appears in both A2 (frequency 70) and B1 (frequency 50)
+
+RECOMMENDATIONS:
+----------------------------------------
+1. Review within-level duplicates - these may indicate data entry errors
+   - Check if multiple entries have different definitions or metadata
+   - Consider merging entries or keeping only the highest frequency version
+
+2. Evaluate cross-level duplicates - high frequency words may legitimately appear across levels
+   - "xin chào" (hello/greeting) is fundamental and should probably be in A1 only
+   - "học" (to study/learn) could legitimately appear in multiple levels with different contexts
+
+3. Consider frequency-based deduplication for cross-level words
+   - Keep words in their highest frequency level
+   - Move lower frequency duplicates to appropriate levels or remove them
+
+4. Verify that duplicate entries have consistent definitions and metadata
+   - Ensure all instances of "tôi" have the same POS tags and meanings
+   - Check that frequency scores are reasonable and not inflated by duplicates
+
+DATA QUALITY NOTES:
+----------------------------------------
+- Total vocabulary items analyzed: 35
+- A1 Level: 9 words (highest frequency tier)
+- A2 Level: 9 words (high frequency tier)
+- B1 Level: 7 words (medium frequency tier)
+- B2 Level: 5 words (low-medium frequency tier)
+- C1 Level: 4 words (low frequency tier)
+- C2 Level: 4 words (very low frequency tier)
+
+The duplicate rate of 22.9% (8 unique duplicates out of 35 total words) suggests 
+the need for systematic deduplication processes in the vocabulary dataset.

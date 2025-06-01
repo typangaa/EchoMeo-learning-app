@@ -1,0 +1,46 @@
+VIETNAMESE VOCABULARY FILE 1 ANALYSIS
+===================================================
+Generated: 2025-05-31 20:09:34
+
+OVERVIEW:
+  Total Words: 510
+  Unique Words: 407
+  Duplicate Entries: 103
+  Average Syllables: 1.41
+
+ETYMOLOGY DISTRIBUTION:
+  Sino Vietnamese: 381 (74.7%)
+  Native Vietnamese: 126 (24.7%)
+  French Loanword: 3 (0.6%)
+
+CHINESE LEARNER INSIGHTS:
+  Sino-Vietnamese words: 381 (74.7%)
+  Learning approach: Leverage Chinese knowledge
+  Sample Sino-Vietnamese words: yêu, bố, bố, bar, ngày, trăm, lớp, nửa, nửa ngày, giúp
+
+FREQUENCY DISTRIBUTION:
+  Very High: 0 (0.0%)
+  High: 0 (0.0%)
+  Medium: 470 (92.2%)
+  Low: 29 (5.7%)
+  Very Low: 11 (2.2%)
+
+SYLLABLE STRUCTURE:
+  1 syllable(s): 316 (62.0%)
+  2 syllable(s): 183 (35.9%)
+  3 syllable(s): 9 (1.8%)
+  4 syllable(s): 2 (0.4%)
+
+MOST COMMON TONE PATTERNS:
+  low_rising: 183 (35.9%)
+  falling: 41 (8.0%)
+  rising: 35 (6.9%)
+  high_level: 32 (6.3%)
+  high: 26 (5.1%)
+
+TOP PART-OF-SPEECH TAGS:
+  n: 260
+  v: 150
+  a: 66
+  m: 27
+  r: 18

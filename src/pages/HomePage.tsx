@@ -29,6 +29,32 @@ const HomePage = () => {
           </Link>
         </div>
         
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-2 border-green-200 dark:border-green-800">
+          <h2 className="text-xl font-semibold mb-4">
+            <span className="vietnamese-text text-green-600">Từ vựng tiếng Việt</span> - <span className="chinese-text">越南语词汇</span>
+          </h2>
+          <p className="mb-4">Study Vietnamese vocabulary with comprehensive Chinese translations, etymology, and frequency-based learning.</p>
+          <div className="flex space-x-2 mb-2">
+            <Link 
+              to="/vietnamese" 
+              className="inline-block bg-green-600 text-white px-3 py-2 rounded hover:bg-green-700 transition-colors text-sm"
+            >
+              Browse Vocabulary
+            </Link>
+            <Link 
+              to="/vietnamese-flashcards" 
+              className="inline-block bg-green-700 text-white px-3 py-2 rounded hover:bg-green-800 transition-colors text-sm"
+            >
+              🧠 Practice
+            </Link>
+          </div>
+          <div className="mt-2">
+            <span className="text-xs bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-1 rounded">
+              Rich Cultural Context
+            </span>
+          </div>
+        </div>
+        
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
           <h2 className="text-xl font-semibold mb-4">
             <span className="chinese-text">HSK 词汇</span> - <span className="vietnamese-text">Từ vựng HSK</span>
@@ -42,19 +68,19 @@ const HomePage = () => {
           </Link>
         </div>
         
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-2 border-green-200 dark:border-green-800">
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-2 border-purple-200 dark:border-purple-800">
           <h2 className="text-xl font-semibold mb-4">
-            <span className="chinese-text text-green-600">HSK 闪卡</span> - <span className="vietnamese-text">Thẻ ghi nhớ HSK</span>
+            <span className="chinese-text text-purple-600">HSK 闪卡</span> - <span className="vietnamese-text">Thẻ ghi nhớ HSK</span>
           </h2>
           <p className="mb-4">Practice Chinese HSK vocabulary with advanced flashcards featuring Vietnamese translations, pinyin, and spaced repetition.</p>
           <Link 
             to="/hsk-flashcards" 
-            className="inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors"
+            className="inline-block bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 transition-colors"
           >
             Practice HSK Flashcards
           </Link>
           <div className="mt-2">
-            <span className="text-xs bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-1 rounded">
+            <span className="text-xs bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-2 py-1 rounded">
               Enhanced with Audio
             </span>
           </div>
@@ -85,11 +111,13 @@ const HomePage = () => {
           <div>
             <h3 className="font-medium mb-2">Features:</h3>
             <ul className="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
+              <li>Vietnamese vocabulary with Chinese translations</li>
               <li>HSK vocabulary with Vietnamese translations</li>
               <li>Audio pronunciation (Chinese & Vietnamese)</li>
               <li>Flashcards with spaced repetition</li>
               <li>Interactive reading practice</li>
               <li>Progress tracking & favorites</li>
+              <li>Etymology and frequency information</li>
               <li>Dark/light mode support</li>
             </ul>
           </div>

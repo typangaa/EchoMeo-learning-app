@@ -1,0 +1,384 @@
+# Sino-Vietnamese Words (Chinese Origin)
+# These words may be easier for Chinese speakers to learn
+
+yêu (Chu Nom: yêu) - Sino-Vietnamese loanword from Chinese 爱 (ài), meaning 'love' or 'affection'
+bố (Chu Nom: bố) - Sino-Vietnamese loanword from Chinese 爸 (bà), representing 'father' in familial contexts
+bar (Chu Nom: null) - loanword from Chinese for 'bar' (serving drinks or internet access)
+ngày (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 白天 (báitiān), meaning 'daytime' or 'day'
+trăm (Chu Nom: bách) - sino-vietnamese loanword from Chinese 百, meaning 'hundred' or 'numerous'
+lớp (Chu Nom: null) - sino-vietnamese term derived from Chinese 班, used for class, grade, and classifier for groups
+nửa (Chu Nom: bàn) - sino-vietnamese term derived from Chinese 半, meaning 'half' or 'semi-'
+nửa ngày (Chu Nom: bán ngày) - sino-Vietnamese term derived from Chinese 半天, combining 半 (half) and 天 (day/sky)
+giúp (Chu Nom: bàng) - Sino-Vietnamese loanword from Chinese 帮 (bāng), originally meaning 'to help' and later extended to denote groups or gangs
+bao (Chu Nom: bào) - Sino-Vietnamese loanword corresponding to Chinese 包, meaning 'to cover' or 'to include'
+bánh bao (Chu Nom: ບາຝ) - sino-vietnamese loanword from Chinese 包子 (baozi), literally 'steamed bun', adapted into Vietnamese with native terms
+cốc (Chu Nom: bôi) - sino-vietnamese loanword from Chinese 杯 (bēi), meaning 'cup' or 'classifier for containers'
+cốc (Chu Nom: bôi) - Sino-Vietnamese loanword from Chinese 杯 (bēi), meaning 'cup' or 'glass'
+bắc (Chu Nom: bắc) - Sino-Vietnamese loanword from Chinese 北 (běi), corresponding to the cardinal direction 'north' and classical meaning 'to be defeated'
+Bắc Kinh (Chu Nom: null) - sino-vietnamese term derived from the Chinese name for the capital city
+cuốn (Chu Nom: bản) - Sino-Vietnamese classifier for books, periodicals, etc., derived from Chinese 本 (běn)
+sách (Chu Nom: null) - Sino-Vietnamese loanword from Chinese běnzi, combining 本 (běn, root) and 子 (zi, particle), used for books, notebooks, and editions
+Bỉ (Chu Nom: 比) - Sino-Vietnamese term for Belgium, derived from Chinese 比 (bǐ), which also conveys the meaning of 'to compare' in classical contexts
+biệt (Chu Nom: biệt) - sino-vietnamese loanword from Chinese 别, meaning to differentiate or separate
+người khác (Chu Nom: nhân khác) - Sino-Vietnamese term derived from Chinese 别人 (bié ren), combining 别 (bié, 'other') and 人 (rén, 'person')
+bệnh (Chu Nom: 병) - Sino-Vietnamese loanword from Chinese 病 (bìng), meaning illness or defect
+không (Chu Nom: bất) - Sino-Vietnamese word derived from Chinese '不', used as a negation
+món (Chu Nom: cai) - adopted from Chinese for dish or cuisine; also used for vegetable in some contexts
+trà (Chu Nom: trà) - sino-vietnamese term derived from Chinese 茶 (chá), used for both the beverage and the tea plant
+chênh lệch (Chu Nom: null) - derived from Chinese 差 (cī) via Sino-Vietnamese influence, used for mathematical difference and discrepancy
+thường (Chu Nom: thường) - sino-vietnamese loanword from Chinese 常 (cháng), meaning 'common' or 'always'
+thường (Chu Nom:  Thường) - derived from Chinese 常常 (cháng cháng), meaning frequent or often; adopted into Vietnamese as a sino-Vietnamese word
+ca hát (Chu Nom: null) - Sino-Vietnamese term derived from Chinese 唱歌 (chàng gē), combining 唱 (ca, to sing) and 歌 (hát, song).
+xe (Chu Nom: xe) - Sino-Vietnamese term for 'vehicle' derived from Chinese 車 (jū)
+vé (Chu Nom: null) - sino-vietnamese loanword from Chinese 'chēpiào' (车票), combining 'chē' (car/vehicle) and 'piào' (ticket)
+xe (Chu Nom: 車) - Sino-Vietnamese loanword from Chinese "che" (车), meaning 'car' or 'vehicle'
+trạm (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 车站 (chē zhàn), combining 车 (car) and 站 (station). Used for both rail and bus stations in Vietnamese.
+ăn (Chu Nom: Ăn) - sino-vietnamese loanword from Chinese 吃 (chī), representing the act of consuming food
+mặc (Chu Nom: null) - sino-vietnamese loanword from Chinese 穿, meaning 'to wear' or 'to pierce'
+thứ (Chu Nom: 次) - sino-vietnamese loanword from Chinese 次, meaning 'second' or 'secondary' with classifier function for events
+theo (Chu Nom: tòng) - sino-vietnamese loanword from Chinese, meaning 'to follow' or 'to obey'
+sai (Chu Nom: sai) - sino-Vietnamese loanword from Chinese 'cuò', meaning 'mistake' or 'wrong'
+đập (Chu Nom: null) - sino-vietnamese loanword from Chinese 打 (dǎ), meaning 'to strike' or 'to hit'
+gọi điện (Chu Nom:  điện) - sino-vietnamese loanword from Chinese 'diàn' (电), combining 'gọi' (to call) and 'điện' (electricity, telephone)
+mở (Chu Nom: mở) - Sino-Vietnamese loanword from Chinese 'kāi' (开), meaning 'to open' or 'to start'
+lớn (Chu Nom: đại) - sino-vietnamese term derived from Chinese 大, meaning 'big' or 'large'
+đại học (Chu Nom: null) - sino-Vietnamese term derived from Chinese 大学, used for both the Confucian text 'The Great Learning' and modern educational institution
+sinh viên (Chu Nom: 生員) - Sino-Vietnamese term derived from Chinese 大学生 (dà xué shēng), combining 大 (dà, 'big') and 学生 (xué shēng, 'student')
+đến (Chu Nom: đến) - sino-vietnamese loanword from Chinese 到, meaning 'to arrive' or 'to reach'
+địa phương (Chu Nom: null) - sino-vietnamese term derived from Chinese 地方, combining 地 (địa, earth/land) and 方 (phương, place/region)
+bản đồ (Chu Nom:  đồ) - sino-vietnamese term combining Chinese 地 (dì) and 图 (tú), with 'đồ' derived from Chinese 'tú' (map)
+của (Chu Nom: đề) - sino-vietnamese term derived from Chinese 的 (dī), used as a possessive particle and nominalizer
+nhận được (Chu Nom: 得) - Sino-Vietnamese term derived from Chinese '得' (dé) meaning 'to get' and 'nhận' (nhan) meaning 'to receive', combined to express the concept of obtaining something
+em trai (Chu Nom: đệ) - Sino-Vietnamese term derived from Chinese 弟 (tì), meaning younger brother or junior male
+thứ (Chu Nom: null) - sino-Vietnamese loanword from Chinese 第 (dì), used as an ordinal prefix in Vietnamese
+thứ (Chu Nom: null) - sino-Vietnamese loanword from Chinese 第 (dì), used as ordinal prefix in Vietnamese
+điểm (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 点, meaning point, dot, or o'clock
+điện (Chu Nom: điện) - sino-vietnamese loanword from Chinese 电 (diàn), representing electricity or lightning
+điện thoại (Chu Nom: null) - sino-vietnamese term derived from Chinese 电话 (diàn huà), combining 电 (diàn, electricity) and 话 (huà, speech)
+máy tính (Chu Nom: null) - sino-vietnamese term derived from Chinese 电脑 (diàn nǎo), combining 电 (diàn, electricity) and 脑 (nǎo, brain), literally 'electric brain'
+ti vi (Chu Nom: null) - sino-vietnamese loanword from Chinese 电视 (diàn shì), combining 电 (diàn, electricity) and 视 (shì, view)
+máy truyền hình (Chu Nom: null) - sino-vietnamese term derived from Chinese 电视机 (diàn shì jī), combining 'diàn' (electricity) and 'shì jī' (machine), translated as 'broadcast machine'
+phim (Chu Nom: null) - sino-vietnamese loanword from Chinese 电影 (diàn yǐng), combining 电 (diàn, electricity) and 影 (yǐng, shadow) to denote moving images
+đông (Chu Nom: Đông) - Sino-Vietnamese loanword from Chinese 东 (dōng), meaning 'east' and used as a surname
+phía đông (Chu Nom: null) - sino-vietnamese term derived from Chinese 东边 (dōng biān), combining the directional term 东 (dōng) with the locative suffix 边 (biān)
+động (Chu Nom: động) - sino-Vietnamese loanword from Chinese 动, meaning 'to move' or 'to stir'
+hành động (Chu Nom: null) - sino-vietnamese term derived from Chinese 动作, combining 'hành' (action) and 'động' (movement)
+cả (Chu Nom: đều) - sino-vietnamese loanword from Chinese 都 (dū), meaning 'all' or 'both'
+đọc (Chu Nom: đọc) - Sino-Vietnamese loanword from Chinese dú, meaning 'to read' or 'to study'
+xin lỗi (Chu Nom: null) - compound of Sino-Vietnamese 'xin' (request) and native Vietnamese 'lỗi' (mistake/error), used for apologizing or seeking forgiveness
+nhiều (Chu Nom: đa) - sino-vietnamese term derived from Chinese 多, used for 'many' or 'much' in various contexts
+bao nhiêu (Chu Nom: đa nhi) - Sino-Vietnamese term derived from Chinese, used to ask about quantity or number
+con trai (Chu Nom: nhi tử) - sino-vietnamese loanword from Chinese 儿子 (ér zi), literally 'son' with '儿' (ér) meaning 'son' and '子' (zi) meaning 'child'
+cơm (Chu Nom: phạn) - sino-vietnamese loanword for cooked rice, derived from Chinese 饭 (fàn)
+nhà hàng (Chu Nom: null) - direct loan from Chinese 饭店 (fàn diàn), combining 饭 (fan, food) and 店 (dian, shop/establishment)
+phòng (Chu Nom: null) - derived from Chinese 房间 (fáng jiān) via Sino-Vietnamese, meaning a room or chamber
+thả (Chu Nom: phá) - sino-vietnamese loanword from Chinese 放 (fàng), meaning 'to release' or 'to let go'
+nghỉ phép (Chu Nom: null) - sino-vietnamese term derived from Chinese '放假' (fàng jià), combining 'nghỉ' (to rest) and 'phép' (leave/permission)
+tan học (Chu Nom: 學) - sino-vietnamese loanword from Chinese 學 (xué), meaning 'to study' or 'school', combined with tan (end) to form the phrase for school dismissal
+bay (Chu Nom: phi) - sino-Vietnamese loanword from Chinese 飞 (fēi), meaning 'to fly' or 'to soar'
+máy bay (Chu Nom: phi cơ) - sino-vietnamese term derived from Chinese 飞机 (fēijī), combining 飞 (phi, 'fly') and 机 (cơ, 'machine')
+gió (Chu Nom: phong) - sino-vietnamese loanword from Chinese, originally referring to wind but later adopted for meanings like news and style
+sạch (Chu Nom: null) - derived from Chinese 干净 (gān jìng) via Sino-Vietnamese loanword, meaning 'clean' or 'neat'
+cao (Chu Nom: cao) - Sino-Vietnamese loanword from Chinese 高 (gāo), meaning 'high' or 'tall', adopted into Vietnamese with the same semantic range
+vui (Chu Nom: hạnh) - Sino-Vietnamese loanword from Chinese 高兴 (gāo xìng), meaning 'happy' or 'glad'
+anhsao (Chu Nom: 哥) - sino-Vietnamese term derived from Chinese 哥, meaning 'elder brother' in familial context
+anh trai (Chu Nom: null) - Sino-Vietnamese term derived from Chinese 哥哥 (gē ge), meaning 'older brother' in familial contexts
+bài hát (Chu Nom: 歌) - sino-vietnamese loanword from Chinese, representing the concept of a song or musical piece
+theo (Chu Nom: null) - sino-Vietnamese loanword from Chinese 跟, meaning 'to follow' or 'to accompany'
+công nhân (Chu Nom: null) - sino-vietnamese term derived from Chinese 工人 (gōng rén), combining 工 (gōng, work) and 人 (rén, person)
+công việc (Chu Nom: null) - Sino-Vietnamese term combining Chinese 工 (gōng, work) and 作 (zuò, to do), adapted as 'công việc' for 'work' or 'job'
+khóa (Chu Nom: 關) - sino-Vietnamese loanword from Chinese 'guān', originally meaning 'to close' or 'to lock'
+đắt (Chu Nom: quý) - Sino-Vietnamese loanword from Chinese 'guì', meaning expensive or noble
+quốc (Chu Nom: 國) - Sino-Vietnamese term derived from Chinese guó, meaning country, nation, state, or national (bound form)
+nước (Chu Nom: quốc gia) - Sino-Vietnamese term derived from Chinese 国家 (guójiā), combining 国 (quốc, country) and 家 (gia, family/state)
+qua (Chu Nom: 過) - sino-vietnamese loanword from Chinese 'guò', originally meaning 'to cross' or 'to pass'
+vẫn (Chu Nom: huyên) - Sino-Vietnamese loanword from Chinese, used as an adverb meaning 'still' or 'yet'
+tiếng Trung (Chu Nom: Hán ngữ) - Sino-Vietnamese loanword from Chinese 汉语 (Hán yǔ), meaning 'Chinese language' or 'Mandarin'
+hán tự (Chu Nom: 漢字) - sino-vietnamese term derived from Chinese 汉字, literally 'Chinese characters', used in Vietnamese to refer to Chinese characters as distinct from native Vietnamese script
+hào (Chu Nom: 號) - Sino-Vietnamese loanword derived from Chinese 号, used for ordinal numbers and classifiers
+uống (Chu Nom: hát) - sino-vietnamese loanword from Chinese 喝, meaning 'to drink' or 'to shout'
+và (Chu Nom: null) - Sino-Vietnamese term corresponding to Chinese 和, meaning 'and' or 'to make peace'
+sau (Chu Nom: null) - Sino-Vietnamese loanword from Chinese "hòu" (後), originally meaning 'after' or 'subsequent', later adopted for temporal and spatial contexts
+hoa (Chu Nom: null) - sino-vietnamese term derived from Chinese 'huā' (flower), adopted into Vietnamese with native phonology
+lời (Chu Nom: Hoa) - Sino-Vietnamese loanword from Chinese 'huà' (話), meaning 'speech' or 'words'
+tệ (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 坏 (huài), meaning 'bad' or 'spoiled'
+về (Chu Nom: hồi) - sino-vietnamese loanword from Chinese 'huí', meaning 'to return' or 'to go back'
+trả lời (Chu Nom: hồi đáp) - Sino-Vietnamese term derived from Chinese 回答 (huí dá), meaning 'to reply' or 'to answer'
+trở lại (Chu Nom:  hồi) - Sino-Vietnamese term combining Chinese characters for 'return' ( hồi) and 'again' ( lại) to express 'to return to'
+tàu hỏa (Chu Nom: tàu hỏa) - Sino-Vietnamese loanword from Chinese 火車 (huǒ chē, 'fire car'), referring to a train. Chữ Nôm character combines 火 (fire) and 車 (vehicle).
+sân bay (Chu Nom: null) - sino-Vietnamese loanword from Chinese 机场 (jī chǎng), combining 机 (machine/aircraft) and 场 (field/area)
+vé máy bay (Chu Nom: null) - loanword from Chinese, combining 机 (machine/airplane) and 票 (ticket)
+ghi (Chu Nom: null) - sino-vietnamese loanword from Chinese 记 (jì), meaning to record, note, or memorize
+nhớ (Chu Nom: nhớ) - Sino-Vietnamese loanword from Chinese 记得 (jì de), combining 记 (jì, 'to record') and 得 (de, 'to be able to'), meaning 'to remember' or 'to keep in mind'
+nhớ (Chu Nom: nhớ) - Sino-Vietnamese loanword from Chinese 'jì' (記), meaning 'to remember' or 'to record'
+gia (Chu Nom: gia) - sino-vietnamese loanword from Chinese jiā, representing the concept of family, home, and classifier for groups
+người thân (Chu Nom: gia nhân) - Sino-Vietnamese term derived from Chinese 家人 (jiā rén), combining 'gia' (family) and 'nhân' (person). Used for family members or close relatives, with historical connotations of domestic servants.
+giữa (Chu Nom: null) - sino-vietnamese loanword from Chinese 间 (jiān), meaning 'between' or 'among'
+nhìn (Chu Nom: kiến) - Sino-Vietnamese loanword from Chinese 见, meaning 'to see' or 'to meet'
+gặp mặt (Chu Nom: nhận miễn) - Sino-Vietnamese term derived from Chinese 见面 (jiàn miàn), combining 'gặp' (from 见) and 'mặt' (from 面).
+dạy (Chu Nom: giáo) - sino-vietnamese loanword from Chinese 'jiào' (教), originally meaning 'to teach' and later extended to 'religion'
+nhà học (Chu Nom: null) - sino-vietnamese term derived from Chinese 教学楼 (jiàoxuélóu), combining 教 (jiāo, teach) and 学 (xué, learn) with 楼 (lóu, building)
+giới thiệu (Chu Nom: null) - sino-vietnamese loanword from Chinese 介紹 (jiè shào), used for introducing, presenting, or giving a presentation
+chị (Chu Nom: 姉) - Sino-Vietnamese term derived from Chinese 姊 (older sister), adopted into Vietnamese with native phonology
+chị (Chu Nom: null) - derived from Chinese 姐姐 (jiě jiě) via Sino-Vietnamese loanword
+năm nay (Chu Nom: nam) - composed of sino-vietnamese 'năm' (year) and native 'nay' (this), forming a phrase for 'this year'
+hôm nay (Chu Nom: null) - Sino-Vietnamese term derived from Chinese 今天 (jīn tiān), used to denote the present day
+chín (Chu Nom: chín) - sino-vietnamese numeral derived from Chinese 九 (jiǔ), representing the number nine
+thì (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 'jiù', used in conditional clauses and to indicate sequence
+cảm thấy (Chu Nom: giác đắc) - Sino-Vietnamese loanword from Chinese 觉得 (jué dé), combining 觉 (giác, to perceive) and 得 (đắc, to obtain/feel)
+lái xe (Chu Nom: null) - derived from Chinese 'kāi chē' (开 车) through sino-vietnamese loanword adaptation
+đi họp (Chu Nom:  họp) - sino-vietnamese loanword for 'meeting' from Chinese 'huì', combined with native verb 'đi' (to go)
+nhìn (Chu Nom: null) - sino-vietnamese loanword from Chinese, corresponding to the meaning of 'to look at' or 'to see'
+thấy (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 见 (jiàn), meaning 'to see' or 'to perceive'
+nhìn thấy (Chu Nom: null) - Sino-Vietnamese term derived from Chinese 看见, combining 看 (kàn, to look) and 见 (jiàn, to see), meaning 'to see' or 'to catch sight of'
+kỳ thi (Chu Nom: 考試) - Sino-Vietnamese term for exam, derived from Chinese 考试 (kǎo shì)
+bài (Chu Nom: kha) - Sino-Vietnamese loanword derived from Chinese kè, used for 'lesson', 'class', or 'subject' in educational contexts
+sách giáo khoa (Chu Nom: null) - sino-Vietnamese term derived from Chinese 课本 (kèběn), combining 教 (giáo, 'teach') and 本 (khoa, 'book')
+bài đọc (Chu Nom: null) - sino-vietnamese term derived from Chinese 课文 (kèwén), combining 课 (lesson) and 文 (text)
+miệng (Chu Nom: 口) - Sino-Vietnamese classifier for things with mouths (people, animals, cannons) and for mouthfuls/bites
+miếng (Chu Nom: null) - sino-vietnamese classifier for pieces of cloth, cake, soap, etc.
+người già (Chu Nom: lão nhân) - composed of Sino-Vietnamese 'già' (old) and native Vietnamese 'người' (person), reflecting Chinese 老人
+mệt (Chu Nom: លោ) - sino-vietnamese loanword from Chinese 累, meaning 'to accumulate' or 'to be tired'
+lạnh (Chu Nom: lạnh) - sino-Vietnamese loanword from Chinese 冷 (lěng), meaning 'cold' or 'surname Leng'
+hai (Chu Nom: លីង) - Sino-Vietnamese numeral borrowed from Chinese 两 (liǎng), representing the number 2 in contexts like 'two' or 'both'
+sáu (Chu Nom: sáu) - Sino-Vietnamese numeral borrowed from Chinese 六 (liù), representing the number 6
+lầu (Chu Nom: lâu) - Sino-Vietnamese loanword from Chinese 楼 (lóu), meaning multi-story building or floor
+dưới đây (Chu Nom: null) - Sino-Vietnamese term derived from Chinese 楼下 (lóu xià), meaning 'downstairs' or 'below this'
+đường (Chu Nom: lộ) - sino-vietnamese loanword from Chinese 路, meaning road, route, or journey
+giao lộ (Chu Nom: lộ khẩu) - Sino-Vietnamese term from Chinese 路口 (lùkǒu), combining 路 (lộ, road) and 口 (khẩu, mouth/entrance) to denote a road intersection
+mẹ (Chu Nom: ma) - Sino-Vietnamese term derived from Chinese 妈 (mā), meaning 'mother' or 'mom'. Chữ Nôm character 'ma' directly represents this concept.
+đường (Chu Nom: mật lộ) - Sino-Vietnamese term derived from Chinese 马路 (mǎ lù), meaning 'road' or 'street'
+mua (Chu Nom: 買) - Sino-Vietnamese loanword from Chinese "mǎi" (buy), adapted into Vietnamese with native phonology
+chậm (Chu Nom: chậm) - sino-Vietnamese loanword from Chinese 慢 (màn), meaning 'slow' or 'late'
+tóc (Chu Nom: null) - sino-Vietnamese loanword from Chinese 毛 (máo), meaning hair or feather
+không có (Chu Nom: vu) - derived from Chinese '无' (wú) meaning 'not exist' or 'lack', incorporated into Vietnamese as a Sino-Vietnamese word
+em (Chu Nom: null) - sino-vietnamese term derived from Chinese 妹, meaning younger sister
+em (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 妹妹 (mèi mei), meaning 'younger sister' or 'young woman'
+cửa (Chu Nom: môn) - sino-vietnamese loanword from Chinese 门 (mén), meaning 'door' or 'gate'
+vé vào (Chu Nom: môn phiếu) - Sino-Vietnamese loanword from Chinese 门票 (mén piào), combining 门 (door) and 票 (ticket) to denote entry tickets for events
+các (Chu Nom: 各) - Sino-Vietnamese plural marker derived from Chinese '各' (gè), used to indicate multiple individuals or entities
+cơm (Chu Nom: 飯) - Sino-Vietnamese term derived from Chinese 米饭 (mǐ fàn), combining 米 (mǐ, rice) and 饭 (fàn, cooked rice)
+tên (Chu Nom: 名 tự) - Sino-Vietnamese term derived from Chinese 名字 (míng zi), combining the Chinese characters for 'name' (名) and 'self' (字), used in Vietnamese to denote a person's name
+hiểu (Chu Nom: mỹ bạch) - Sino-Vietnamese loanword from Chinese 明白 (míng bái), meaning 'to understand' or 'clear'
+ngày mai (Chu Nom: ngày mai) - direct borrowing from Chinese 明天 (míng tiān) with Chữ Nôm characters for 'day' and 'morning'
+lấy (Chu Nom: null) - sino-Vietnamese loanword from Chinese 拿 (ná), meaning 'to take' or 'to seize'
+nào (Chu Nom: ណា) - Sino-Vietnamese loanword from Chinese 哪, used for interrogative 'which' and sentence-final particle
+ở đâu (Chu Nom: null) - Sino-Vietnamese loanword corresponding to Chinese 哪里, used as an interrogative noun for location
+đó (Chu Nom: 那) - sino-vietnamese term derived from Chinese 那, used as a demonstrative pronoun for 'that' or 'the'
+những (Chu Nom: null) - sino-vietnamese loanword from Chinese 那些, meaning 'those' or 'those (things)'
+sữa (Chu Nom: nai) - sino-vietnamese term derived from Chinese 奶, meaning milk or breast
+nam (Chu Nom: nam) - Sino-Vietnamese term derived from Chinese 男, used for both 'male' and the nobility title 'Baron' (lowest of five orders)
+người đàn ông (Chu Nom: nam nhân) - Sino-Vietnamese term directly borrowed from Chinese 男人 (nán rén), combining 男 (nán, male) and 人 (rén, person)
+nam (Chu Nom: nam) - Sino-Vietnamese term derived from Chinese 南, meaning 'south' or the surname Nan
+khó (Chu Nom: nản) - Sino-Vietnamese loanword from Chinese 难 (nàn), meaning 'difficult' or 'problem'. Chữ Nôm character 'nản' reflects the Chinese character's phonetic and semantic adaptation.
+khả năng (Chu Nom: null) - Sino-Vietnamese term for ability, derived from Chinese 能 (néng) through phonetic adaptation
+bạn (Chu Nom: nhị) - Sino-Vietnamese pronoun derived from Chinese 你, used for informal 'you' in both gender contexts
+năm (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 年 (nián), meaning 'year' or 'grain harvest'
+nữ (Chu Nom: nữ) - Sino-Vietnamese term derived from Chinese 女, meaning 'female' or 'woman'
+nữ nhân (Chu Nom: nữ nhân) - sino-Vietnamese term derived from Chinese 女人 (nǚ rén), combining the characters for 'woman' (女) and 'person' (人)
+bên cạnh (Chu Nom: phương biên) - Sino-Vietnamese term derived from Chinese 旁边 (páng biān), combining 旁 (phương, side) and 边 (biên, edge/border) to denote an adjacent place
+chạy (Chu Nom: bào) - sino-vietnamese loanword from Chinese pǎo, originally meaning 'to run' with associations to escaping or leaking
+bạn (Chu Nom: bạn) - Sino-Vietnamese loanword from Chinese 朋友 (péng you), meaning 'companion' or 'friend'. Retained in Vietnamese as a direct equivalent.
+phiếu (Chu Nom: phiếu) - Sino-Vietnamese loanword from Chinese 票 (piào), used for ticket, ballot, and classifier
+khởi động (Chu Nom: khởi) - sino-vietnamese loanword from Chinese 起 (qǐ), meaning 'to start' or 'to initiate'
+dậy (Chu Nom: null) - Sino-Vietnamese verb derived from Chinese 起来, combining the meanings of initiating an action and upward movement
+xe hơi (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 汽车 (qì chē), combining 汽 (qì, steam) and 车 (chē, vehicle), referring to motor vehicles
+trước (Chu Nom: tiên) - sino-vietnamese loanword from Chinese 前 (qián), meaning 'front' or 'before', adapted into Vietnamese with Chữ Nôm character 'tiên' for classical usage
+tiền (Chu Nom: tiền) - Sino-Vietnamese loanword from Chinese 钱 (qián), originally referring to coin/money, later extended to mean currency
+nghỉ phép (Chu Nom: null) - Sino-Vietnamese term derived from Chinese '请假' (qǐng jià), combining 'nghỉ' (rest) and 'phép' (leave/permission)
+xin hỏi (Chu Nom: 請問) - derived from Chinese '請問' (qǐngwèn) through sino-vietnamese loanword, combining 'xin' (request) and 'hỏi' (ask)
+cầu (Chu Nom: cầu) - sino-vietnamese loanword from Chinese 球 (qiú), meaning 'ball' or 'sphere'
+đi (Chu Nom: null) - sino-vietnamese loanword from Chinese 去 (qù), meaning 'to go' or 'to remove'
+năm ngoái (Chu Nom: 年) - derived from Chinese 年 (nián) with Sino-Vietnamese adaptation
+biết (Chu Nom: nhận thức) - Sino-Vietnamese loanword from Chinese 认识 (rèn shi), meaning 'to know' or 'to recognize'
+thịt (Chu Nom: nhục) - sino-vietnamese loanword from Chinese "rou" (肉), meaning meat/flesh. Chữ Nôm "nhục" reflects the original Chinese character.
+núi (Chu Nom: 山) - adopted from Chinese character 山 (shān), meaning 'mountain' in both Chinese and Vietnamese
+siêu thị (Chu Nom: thương trường) - Sino-Vietnamese term derived from Chinese 商场 (shāng chǎng), combining 商 (shāng, business) and 场 (chǎng, place/venue) to denote a commercial space
+trên (Chu Nom: លើ) - sino-vietnamese loanword from Chinese 上 (shàng), meaning 'up' or 'above'
+đi làm (Chu Nom: null) - sino-vietnamese term derived from Chinese 上班 (shàng bān), combining 上 (shàng) 'up' and 班 (bān) 'shift/work'
+đi lớp (Chu Nom: null) - sino-vietnamese term corresponding to Chinese 上课, combining the concept of 'going' (đi) and 'class' (lớp)
+truy cập (Chu Nom: null) - sino-vietnamese term derived from Chinese 'shàngwǎng' (上网), combining 'shàng' (上) 'wǎng' (网) with Vietnamese verb suffixes
+thân thể (Chu Nom: thân thể) - sino-vietnamese loanword from Chinese 身体 (shēn tǐ), combining 身 (shēn, body) and 体 (tǐ, body/physical form)
+bị bệnh (Chu Nom: 병) - derived from Chinese '病' (bìng) meaning 'illness,' combined with 'bị' (to be affected by)
+tức giận (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 生气 (shēng qì), combining 生 (life/vitality) and 气 (energy/anger), adapted into Vietnamese as a verb meaning 'to get angry'
+mười (Chu Nom: thập) - derived from Chinese 十 (shí) through Sino-Vietnamese loanword adaptation
+thời gian (Chu Nom: thời gian) - sino-Vietnamese loanword from Chinese 时间 (shíjiān), combining 'thời' (time) and 'gian' (period/interval)
+việc (Chu Nom: sự) - Sino-Vietnamese loanword from Chinese shì, meaning 'matter' or 'thing'
+thử (Chu Nom: thử) - Sino-Vietnamese loanword from Chinese 試 (shì), meaning 'to test' or 'to try'
+là (Chu Nom: thực) - sino-Vietnamese loanword from Chinese 是 (shì), meaning 'to be' and 'correct' in classical contexts
+điện thoại di động (Chu Nom: null) - sino-vietnamese term derived from Chinese '手机' (shǒu jī), combining 'điện thoại' (phone) and 'di động' (mobile)
+sách (Chu Nom: sách) - sino-vietnamese loanword from Chinese shū, meaning book or document
+cửa hàng sách (Chu Nom: null) - compound of Chinese characters 书 (sách) and 店 (điện), adapted into Vietnamese as a noun for 'bookstore'
+cây (Chu Nom: null) - Sino-Vietnamese term derived from Chinese 'shù' (tree), adopted into Vietnamese with semantic alignment
+nước (Chu Nom: thủy) - sino-vietnamese loanword from Chinese 水 (shuǐ), meaning 'water' or 'river'
+trái cây (Chu Nom: thuỷ quả) - Sino-Vietnamese term combining Chinese 水 (shuǐ, 'water') and 果 (guǒ, 'fruit'), though in Vietnamese it refers to general fruit. Chữ Nôm form uses 水 and 果 directly.
+ngủ (Chu Nom: null) - sino-Vietnamese loanword from Chinese 睡 (shuì), meaning 'to sleep' or 'to lie down'
+nói (Chu Nom: នឹង) - sino-vietnamese loanword from Chinese shuō, representing speech or discourse
+nói (Chu Nom: nói) - Sino-Vietnamese loanword from Chinese '说话' (shuō huà), meaning 'to speak' or 'to talk'
+tuổi (Chu Nom: sự) - sino-vietnamese term derived from Chinese 岁, used for year, age, and classifier for years of age
+anh (Chu Nom: null) - Sino-Vietnamese pronoun for 'he' or 'him' corresponding to Chinese 他
+cô (Chu Nom: null) - Sino-Vietnamese pronoun corresponding to Chinese 她, used to refer to a female person
+thời tiết (Chu Nom: null) - sino-Vietnamese term derived from Chinese 天气 (tiān qì), combining 'thời' (time) and 'tiết' (season/period) to denote weather conditions
+nghe (Chu Nom: thính) - sino-vietnamese loanword from Chinese 听 (tīng), meaning 'to listen' or 'to hear'
+nghe (Chu Nom: null) - derived from Chinese 听 (tīng) through sino-Vietnamese adaptation
+nghe viết (Chu Nom: null) - compound of 'nghe' (listen) and 'viết' (write), used for dictation exercises
+bạn học (Chu Nom: đồng học) - Sino-Vietnamese term combining 'đồng' (same) and 'học' (study), meaning fellow students or classmates
+ngoài (Chu Nom: null) - sino-vietnamese loanword from Chinese 外, meaning 'outside' or 'external'
+ngoại ngữ (Chu Nom: null) - derived from Chinese 外语 (wài yǔ), combining 外 (ngoại, 'external') and 语 (ngữ, 'language')
+cơm tối (Chu Nom: 晩飯) - sino-vietnamese term derived from Chinese 晚饭 (wǎn fàn), combining 晚 (wǎn, evening) and 饭 (fàn, meal)
+tối (Chu Nom: លឿន) - Sino-Vietnamese loanword from Chinese 晚 (wǎn), meaning 'evening' or 'night'
+trực tuyến (Chu Nom: null) - derived from Chinese 網上 (wǎngshàng), combining 網 (wǎng, web) and 上 (shàng, above), adapted into Vietnamese as a compound noun
+người dùng (Chu Nom: 網友) - Sino-Vietnamese term for 'Internet user' derived from Chinese 网友
+quên (Chu Nom: vong) - sino-vietnamese loanword from Chinese 忘, written as 'vong' in Chữ Nôm
+hỏi (Chu Nom: 問) - sino-vietnamese loanword from Chinese 问, meaning 'to ask' or 'to inquire'
+tôi (Chu Nom: ngô) - Sino-Vietnamese loanword from Chinese 我 (wǒ), used to express first-person pronoun
+chúng ta (Chu Nom: null) - Sino-Vietnamese term derived from Chinese 我们, meaning 'we' or 'us'
+năm (Chu Nom: ngũ) - sino-Vietnamese numeral derived from Chinese wǔ, representing the number five
+rửa (Chu Nom: thái) - sino-vietnamese loanword from Chinese 洗, meaning 'to wash' (the character 洗 is written as 'thái' in Chữ Nôm)
+thích (Chu Nom: thích) - borrowed from Chinese 喜欢 (xǐ huan), meaning 'to like' or 'to be fond of'
+tây (Chu Nom: null) - sino-vietnamese term derived from Chinese 西 (xī), meaning 'west'
+xuống (Chu Nom: hạ) - sino-vietnamese loanword from Chinese 下, meaning 'down' or 'lower'
+dưới (Chu Nom: null) - Sino-Vietnamese term derived from Chinese 下边, meaning 'under' or 'below'
+xuống xe (Chu Nom: tả xe) - composed of 'xuống' (down, off) and 'xe' (vehicle), reflecting Chinese '下车' (xià chē) with Sino-Vietnamese adaptation
+lần sau (Chu Nom: 次) - direct translation of Chinese 下次 (xià cì), combining native Vietnamese 'lần' (time/occasion) with Sino-Vietnamese 'sau' (after/next)
+tan hoc (Chu Nom: null) - sino-vietnamese term derived from Chinese 下课 (xià kè), literally 'to finish class'
+chiều (Chu Nom: null) - Sino-Vietnamese term derived from Chinese 下午 (xià wǔ), combining 'xià' (below) and 'wǔ' (noon) to denote the afternoon period
+mưa (Chu Nom: 雨) - Sino-Vietnamese word from Chinese 雨 (rain), used as a verb meaning 'to rain'
+trước (Chu Nom: null) - sino-vietnamese loanword from Chinese 先 (xiān), meaning 'before' or 'first'
+thầy (Chu Nom: 先⽣) - sino-vietnamese term derived from Chinese 先生, originally meaning 'teacher' or 'gentleman'
+bây giờ (Chu Nom: null) - sino-vietnamese loanword from Chinese 现在 (xiàn zài), meaning 'present time'
+nhỏ (Chu Nom: nhỏ) - sino-Vietnamese loanword from Chinese 小, meaning 'small' or 'few'
+giờ (Chu Nom:  giờ) - Sino-Vietnamese loanword from Chinese 小時 (xiǎoshí), meaning 'hour' or 'time'
+tiểu học (Chu Nom: null) - derived from Chinese 小学 (xiǎo xué), meaning 'primary education', adopted into Vietnamese as a Sino-Vietnamese term
+học sinh (Chu Nom: null) - sino-vietnamese term derived from Chinese 小学生 (xiǎo xué shēng), combining 小 (tiểu, small) and 学生 (học sinh, student)
+cười (Chu Nom: 𠂇) - sino-vietnamese loanword from Chinese 笑 (xiào), meaning 'to laugh' or 'to smile'
+viết (Chu Nom: viết) - sino-Vietnamese loanword from Chinese 写 (xiě), meaning 'to write' or 'to compose'
+tết (Chu Nom: 新春) - Sino-Vietnamese term derived from Chinese 新年 (xīn nián), combining 新 (new) and 年 (year). Chữ Nôm form 新春 represents the concept.
+nghỉ (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 休息 (xiū xi), meaning 'to rest' or 'to take a break'
+học sinh (Chu Nom: null) - derived from Chinese 學生 (xué sheng), combining 學 (xué, 'study') and 生 (sheng, 'person')
+học (Chu Nom: học) - sino-vietnamese term derived from Chinese 学 (xué) meaning 'to learn' and 翻译 (xí) meaning 'to practice'
+trường học (Chu Nom: học đường) - sino-vietnamese term combining 'trường' (school) and 'học' (study), derived from Chinese '学校' (xuéxiào)
+trường (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 学院 (xuéyuàn), meaning 'college' or 'university'
+cũng (Chu Nom: dĩ) - sino-vietnamese loanword from Chinese 也, used as an adverb meaning 'also' or 'too'
+trang (Chu Nom: trang) - sino-Vietnamese loanword from Chinese yè, originally meaning 'leaf' or 'page' in classical contexts
+nửa (Chu Nom: nửa) - sino-vietnamese term derived from Chinese 一半 (yī bàn), meaning 'half' or 'one-half'
+một bên (Chu Nom: 一邊) - Sino-Vietnamese term derived from Chinese 一邊 (yī biān), combining 数词 '一' (one) with 方位词 '边' (side)
+xuống (Chu Nom: hạ) - sino-vietnamese loanword from Chinese 下 (xia), meaning 'down' or 'below'
+một số (Chu Nom: 一緉) - sino-vietnamese loanword from Chinese yī xiē, meaning 'some' or 'a few'
+cùng (Chu Nom: 仝) - Sino-Vietnamese loanword from Chinese 'tóng' (同), meaning 'same' or 'equal'
+trang phục (Chu Nom: phục) - derived from Chinese 衣服 (yīfú), combining 衣 (yī, clothing) and 服 (fú, attire), adapted into Vietnamese as a compound noun
+bác sĩ (Chu Nom: 醫師) - sino-Vietnamese loanword from Chinese 医生 (yī shēng), combining 医 (yī, medicine) and 生 (shēng, person)
+bệnh viện (Chu Nom: null) - sino-vietnamese term derived from Chinese yīyuàn (医院), combining 医 (medical) and 院 (institution)
+dùng (Chu Nom: 용) - sino-vietnamese loanword from Chinese 用 (yòng), meaning 'to use' or 'to employ'
+có (Chu Nom: hữu) - Sino-Vietnamese loanword from Chinese 有 (yǒu), meaning 'to have' or 'there is'
+nổi tiếng (Chu Nom: 名家) - Sino-Vietnamese term derived from Chinese 有名 (yǒu míng), meaning 'famous' or 'well-known'
+có ích (Chu Nom: null) - sino-vietnamese term derived from Chinese 有用 (yǒngyòng), combining 有 (có) 'have' and 用 (ích) 'use'
+phải (Chu Nom: null) - sino-vietnamese loanword from Chinese 右 (yòu), meaning 'right' and 'right-hand side'
+phía phải (Chu Nom: 右邊) - Sino-Vietnamese term derived from Chinese 右边, meaning 'right side'
+mưa (Chu Nom: mưa) - Sino-Vietnamese loanword from Chinese 雨 (yǔ), meaning 'rain'; adapted into Chữ Nôm as 雨 (mưa) with native Vietnamese pronunciation
+trăng (Chu Nom:  Nguyệt) - Sino-Vietnamese loanword from Chinese 月 (yuè), meaning 'moon' or 'month'
+lại (Chu Nom: lại) - Sino-Vietnamese loanword from Chinese 再 (zài), meaning 'again' or 're-' as a prefix
+tạm biệt (Chu Nom: 暂别) - derived from Chinese 再见 (zài jiàn), combining 暂 (tạm, temporarily) and 别 (biệt, to part ways)
+ở (Chu Nom: chí) - Sino-Vietnamese loanword from Chinese 'zài', used to indicate location or ongoing action
+sớm (Chu Nom: chớm) - sino-vietnamese loanword from Chinese 早 (zǎo), meaning 'early' or 'morning'
+bữa sáng (Chu Nom: chớ phạn) - composed of 'bữa' (meal) and 'sáng' (morning), derived from Chinese '早饭' (zǎo fàn) via Sino-Vietnamese
+sáng sớm (Chu Nom: null) - composed of Sino-Vietnamese words 'sáng' (from Chinese 'cháo' meaning dawn) and 'sớm' (from Chinese 'zǎo' meaning early)
+thế nào (Chu Nom: 怎麽) - Sino-Vietnamese term derived from Chinese 怎么, used as a question particle for 'how?', 'what?', or 'why?'
+ga (Chu Nom: ចំណា) - sino-vietnamese loanword from Chinese 站, meaning station
+tìm (Chu Nom: tò) - sino-vietnamese loanword from Chinese 找 (zhǎo), meaning 'to seek' or 'to find'
+tìm thấy (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 'zhǎo dào' (找到), combining 'zhǎo' (找, to search) and 'dào' (到, to reach)
+này (Chu Nom: chí) - Sino-Vietnamese pronoun derived from Chinese '这', used to indicate 'this' or 'these' in context
+chuyển (Chu Nom: null) - sino-Vietnamese loanword from Chinese 着 (zhuó), originally meaning 'to move' in chess contexts
+thẳng (Chu Nom: chính) - Sino-Vietnamese loanword from Chinese 正 (zhèng), meaning 'straight' or 'upright'
+trung (Chu Nom: chung) - Sino-Vietnamese term for 'middle' or 'center', derived from Chinese 中. Also used as a prefix in compound words.
+Trung Quốc (Chu Nom: Trung Quốc) - sino-Vietnamese term derived from Chinese 中国 (Zhōngguó), combining 中 (zhōng, 'middle') and 国 (guó, 'country')
+tiếng Trung (Chu Nom: Trung) - derived from the Chinese character 中 (zhōng, 'middle') via Sino-Vietnamese, with 'Trung' representing the Chinese character in Chữ Nôm
+trung học (Chu Nom: 中學) - sino-vietnamese term directly borrowed from Chinese, combining 中 (middle) and 學 (study), referring to secondary education
+học sinh trung học (Chu Nom: trung học sinh) - loanword from Chinese, combining 'trung học' (middle school) and 'sinh' (student)
+quan trọng (Chu Nom: null) - sino-vietnamese term derived from Chinese '重要' (zhòng yào), combining 'quan' (related to official matters) and 'trọng' (valuable)
+ở (Chu Nom: chù) - sino-Vietnamese loanword from Chinese 'zhù' (住), meaning 'to dwell' or 'to stay'; retained in Vietnamese with semantic shift to include 'reside' and 'stay'
+chuẩn bị (Chu Nom: null) - sino-vietnamese loanword from Chinese 准备, meaning 'to prepare' or 'preparation'
+bàn (Chu Nom: bàn) - derived from Chinese 桌子 (zhuō zi) via Sino-Vietnamese loanword
+chữ (Chu Nom: 字) - Sino-Vietnamese loanword from Chinese "zì", originally referring to a single character in writing
+đi (Chu Nom: null) - sino-vietnamese loanword from Chinese 走, meaning 'to go'
+nhất (Chu Nom: null) - sino-Vietnamese loanword from Chinese 最 (zuì), used as a superlative suffix in Vietnamese
+tốt nhất (Chu Nom: null) - composed of 'tốt' (Sino-Vietnamese for 'good') and 'nhất' (native Vietnamese for 'first'), used for 'best' and imperative 'had better'
+hôm qua (Chu Nom: cháy) - Sino-Vietnamese loanword from Chinese 昨天 (zuó tiān), meaning 'the day before yesterday'
+trái (Chu Nom: null) - Sino-Vietnamese word corresponding to Chinese 左, meaning left and east
+ngồi xuống (Chu Nom: null) - adaptation of Chinese verb phrase 坐下, literally 'sit down' translated as 'ngồi xuống' in Vietnamese
+làm (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 做 (zuò), meaning 'to make' or 'to do'
+phía bắc (Chu Nom: bắc biên) - Sino-Vietnamese term derived from Chinese 北边 (běi biān), combining 北 (bắc, north) with 边 (biên, side/part)
+bệnh nhân (Chu Nom: 病人) - composed of 'bệnh' (disease) and 'nhân' (person), directly borrowed from Chinese as a medical term
+hát (Chu Nom: chương) - sino-vietnamese loanword from Chinese 唱 (chàng), meaning 'to sing' or 'to chant'
+ra (Chu Nom: xuất) - sino-vietnamese loanword from Chinese 'chū' (出), meaning 'to go out' or 'to emerge'
+đi ra (Chu Nom: null) - derived from Chinese 出去 (chū qù), combining 出 (chū, 'out') and 去 (qù, 'to go'), adapted into Vietnamese as a verb phrase
+chơi bóng (Chu Nom: null) - composed of 'chơi' (to play) and 'bóng' (ball), reflecting Sino-Vietnamese influence for sports terminology
+rạp (Chu Nom: null) - sino-vietnamese term derived from chinese 电影院 (diàn yǐng yuàn), combining 'diện' (electricity) and 'ảnh' (image) to refer to electric image display
+phân (Chu Nom: phan) - sino-vietnamese loanword from Chinese 分 (fèn), meaning 'to divide' or 'part'
+cho (Chu Nom: cho) - sino-vietnamese loanword from Chinese 'ge' (給), used for 'to give' and related meanings
+nước ngoài (Chu Nom: quốc ngoại) - Sino-Vietnamese term combining Chinese 国 (quốc, country) and 外 (ngoại, outside) to denote foreign or overseas contexts
+nghe hay (Chu Nom: null) - composed of 'nghe' (to hear) and 'hay' (good/pleasant), reflecting Chinese '好听' structure
+gọi (Chu Nom: gọi) - Sino-Vietnamese loanword from Chinese 叫 (jiào), meaning 'to call' or 'to shout'
+khám bệnh (Chu Nom: 병) - sino-vietnamese loanword from Chinese 看病 (kàn bìng), combining 看 (kàn, to look/visit) and 病 (bìng, illness)
+khát (Chu Nom: khát) - sino-vietnamese loanword from Chinese 渴 (kě), meaning 'thirsty' or 'yearning'
+đến (Chu Nom: លី) - Sino-Vietnamese loanword from Chinese 来 (lái), meaning 'to come' or 'arrival'
+trên đường (Chu Nom: lộ) - Sino-Vietnamese term derived from Chinese 'lù shàng' (路 上), combining 'lộ' (road) with the locative particle 'shàng' (上) indicating location
+tức thì (Chu Nom: 馬上) - Sino-Vietnamese term derived from Chinese 马上 (mǎ shàng), combining 'horse' (馬) and 'on' (上) to mean 'immediately' or 'on horseback'
+bận (Chu Nom: bận) - sino-vietnamese loanword corresponding to Chinese 忙, meaning 'busy' or 'hurried'
+bánh mì (Chu Nom: 麵包) - sino-vietnamese loanword from Chinese 面包 (miànbāo), referring to wheat-based bread; adapted into Vietnamese as 'bánh mì' (literally 'wheat bread')
+mì (Chu Nom: null) - derived from Chinese 面条 (mì tiáo) via sino-vietnamese loanword
+năm sau (Chu Nom: 年) - derived from Chinese 年 (nián) meaning 'year,' combined with 'sau' (after) to form 'năm sau' for 'next year'
+bạn trai (Chu Nom: null) - sino-vietnamese loanword from Chinese 男朋友 (nán péng you), combining 朋友 (péng you, friend) with the male marker 男 (nán)
+tỉnh dậy (Chu Nom: 起床) - Sino-Vietnamese term derived from Chinese 起床 (qǐchuáng), literally 'to raise the bed,' used metaphorically for 'to get up'
+ví (Chu Nom: null) - sino-vietnamese loanword from Chinese 'qiánbāo' (钱包), combining 'qián' (money) and 'bāo' (bag/container)
+xin (Chu Nom: xīn) - sino-vietnamese loanword from Chinese 请 (qǐng), used for polite requests, invitations, and asking
+nghiêm túc (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 'rèn zhēn', conveying seriousness and conscientiousness
+ngày (Chu Nom: Nhật) - Sino-Vietnamese term derived from Chinese 'rì' (日), meaning 'day' or 'sun'. Also used as an abbreviation for 'Nhật Bản' (Japan).
+cửa hàng (Chu Nom: thương điện) - Sino-Vietnamese loanword from Chinese 商店 (shāng diàn), with Chữ Nôm character 商 (thương) and 店 (điện)
+tải xe (Chu Nom: 載) - sino-vietnamese loanword from Chinese 'zài' (載) meaning 'to load' or 'get on a vehicle'
+lần trước (Chu Nom: 上次) - Sino-Vietnamese term derived from Chinese 上次 (shàng cì), meaning 'last time' or 'previous occasion'
+ít (Chu Nom: thiếu) - Sino-Vietnamese loanword from Chinese 少 (shǎo), meaning 'few' or 'less'. Retains the original Chinese meaning but adapted into Vietnamese as an adjective.
+sinh nhật (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 生日 (shēng rì), literally 'birth day' meaning birthday
+thời gian (Chu Nom: null) - sino-vietnamese loanword from Chinese shíhou, combining 'thời' (time) and 'gian' (period/interval)
+túi xách (Chu Nom: null) - sino-vietnamese loanword from Chinese 书包 (shū bāo), combining 书 (sách, book) and 包 (xách, bag/satchel)
+thư viện (Chu Nom:  Thư Viện ) - sino-vietnamese loanword from Chinese 图书馆 (tú shū guǎn), with Chữ Nôm characters for 'book' (圖) and 'institution' (館)
+quên (Chu Nom: vuông) - Sino-Vietnamese loanword from Chinese 忘记 (wàngjì), meaning 'to forget' or 'to neglect'
+cơm trưa (Chu Nom: null) - sino-vietnamese loanword derived from Chinese 午饭 (wǔfàn), combining 午 (wǔ, noon) and 饭 (fàn, food)
+tan ca (Chu Nom: null) - derived from Chinese 下班 (xià bān) with sino-vietnamese adaptation
+trẻ con (Chu Nom: null) - composed of 'trẻ' (Sino-Vietnamese for 'small' from Chinese 小) and native Vietnamese 'con' (child). Commonly used for children in general.
+chủ nhật (Chu Nom: null) - direct translation from Chinese 星期日 (xīng qī rì), combining 'chủ' (master) and 'nhật' (sun) to denote 'Sunday'
+một chút (Chu Nom: điểm) - derived from Chinese 一點 (diǎn) with erhua variation, adopted as a measure word for small quantities
+thỉnh thoảng (Chu Nom: null) - derived from Chinese 有時 (yǒu shí) through Sino-Vietnamese loanword adaptation
+xa (Chu Nom: viễn) - Sino-Vietnamese loanword from Chinese 'yuàn', meaning 'far' or 'distant'. Used as an adjective and noun in Vietnamese.
+đi bộ (Chu Nom: null) - Sino-Vietnamese term combining 'đi' (to go) and 'bộ' (step, walk), reflecting the Chinese character 走路 (zǒu lù)
+em trai (Chu Nom: điểu) - Sino-Vietnamese term derived from Chinese 弟弟 (dì di), literally 'younger brother' through linguistic borrowing
+kiến thức (Chu Nom: 知識) - Sino-Vietnamese loanword from Chinese 知識 (zhī shi), combining 知 (knowledge) and 识 (understanding)
+bố (Chu Nom: null) - derived from Chinese 爸爸 (bà ba), a Sino-Vietnamese term for father
+địa điểm (Chu Nom: null) - sino-vietnamese term derived from Chinese 地点 (dì diǎn), combining 地 (dì, 'place') and 点 (diǎn, 'point')
+thi (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 考 (kǎo), meaning 'to test' or 'to take an exam'
+nhanh (Chu Nom: null) - sino-vietnamese loanword from Chinese 快 (kuài), conveying speed, quickness, and related concepts
+lão (Chu Nom: null) - sino-Vietnamese loanword from Chinese 老, used for 'old' and as a prefix in surnames/numerals
+xong (Chu Nom: 瞭) - Sino-Vietnamese loanword corresponding to Chinese 了, used as a verb to indicate completion of an action
+bà (Chu Nom:  nghè) - Sino-Vietnamese term derived from Chinese 奶奶, meaning 'grandmother' with respect, adopted into Vietnamese with regional variations in usage
+gửi (Chu Nom: null) - sino-Vietnamese loanword corresponding to Chinese 送, reflecting the action of sending or delivering
+mới (Chu Nom: 新) - sino-vietnamese loanword from Chinese xīn, meaning 'new' or 'newly'
+học (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 學 (xué), representing the concept of learning and study
+nặng (Chu Nom: chóng) - sino-vietnamese loanword from Chinese 'zhòng', reflecting the meaning of 'heavy' and 'serious'
+tọa (Chu Nom: 坐) - sino-vietnamese loanword from Chinese, used for 'to sit', 'to take a seat', 'to take (transport)', and 'to bear fruit'
+no (Chu Nom:  nghè) - Sino-Vietnamese loanword from Chinese 饿 (è), meaning 'hungry' or 'to be hungry'
+vào (Chu Nom: nhập) - Sino-Vietnamese term derived from Chinese '进来' (jìn lái), meaning 'to come in' or 'to enter'
+nóng (Chu Nom: nhiệt) - Sino-Vietnamese loanword from Chinese 热 (rè), meaning 'heat' or 'hot'
+ngày (Chu Nom: null) - Sino-Vietnamese loanword from Chinese 日期 (rì qī), meaning 'date' or 'day'
+nghe (Chu Nom: 聽) - Sino-Vietnamese loanword from Chinese 听 (tīng), meaning 'to hear' or 'to listen'
+muốn (Chu Nom: yếu) - Sino-Vietnamese loanword from Chinese 要, originally meaning 'to demand' or 'important' in classical contexts, adapted in Vietnamese to express 'to want' or 'need'
+cùng (Chu Nom: 仝) - Sino-Vietnamese term derived from Chinese 一起 (yī qǐ), meaning 'together' or 'with'
+giường (Chu Nom: chuông) - Sino-Vietnamese loanword from Chinese, used for bed and couch
+rất (Chu Nom: thái) - Sino-Vietnamese word from Chinese 太, meaning 'highest' or 'extremely'
+tưởng (Chu Nom: tưởng) - Sino-Vietnamese loanword from Chinese 想, meaning to think or imagine
+chờ (Chu Nom: đẳng) - sino-vietnamese loanword from Chinese 'děng' (等), originally meaning 'to wait for' or 'equal to'
+rất (Chu Nom: hản) - Sino-Vietnamese adverb derived from Chinese 很 (hěn), meaning 'very' or 'quite'
+trời (Chu Nom: Thiên) - sino-vietnamese loanword from Chinese 天, meaning sky or heaven
+khô (Chu Nom: 幹) - Sino-Vietnamese loanword from Chinese 'gān', meaning 'dry' or 'to do'
+không (Chu Nom: null) - Sino-Vietnamese numeral corresponding to Chinese 零, used for zero and fractional values
+người (Chu Nom: nhân) - sino-vietnamese loanword from Chinese 人 (rén), meaning 'person' or 'human'
+thật (Chu Nom: chân) - sino-vietnamese loanword from Chinese 真, meaning 'true' or 'real'

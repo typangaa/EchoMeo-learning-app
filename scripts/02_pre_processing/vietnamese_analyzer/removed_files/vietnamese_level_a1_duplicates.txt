@@ -1,0 +1,11 @@
+# Vietnamese Vocabulary - CEFR Level A1 Duplicates
+# Generated: 2025-01-01 12:00:00
+# Total duplicate words: 2
+# Frequency range: Very high frequency words (80-100)
+
+# Within-level duplicates (same word appears multiple times in this level):
+tôi  # appears 2 times, frequencies: [95, 94]
+cảm ơn  # appears 2 times, frequencies: [90, 89]
+
+# Cross-level duplicates (words that also appear in other levels):
+xin chào  # also in levels: A2

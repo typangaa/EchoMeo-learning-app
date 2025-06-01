@@ -1,0 +1,811 @@
+2025-05-31 18:48:25,128 - INFO - ============================================================
+2025-05-31 18:48:25,128 - INFO - HSK Vocabulary Processor
+2025-05-31 18:48:25,128 - INFO - ============================================================
+2025-05-31 18:48:25,128 - INFO - Using Ollama model: qwen3:latest
+2025-05-31 18:48:25,128 - INFO - Raw data directory: ../../data/raw/exclusive
+2025-05-31 18:48:25,128 - INFO - Output directory: ../../data/enriched
+2025-05-31 18:48:25,128 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-31 18:48:27,169 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/1.1" 200 None
+2025-05-31 18:48:27,175 - INFO - Successfully connected to Ollama with model: qwen3:latest
+2025-05-31 18:48:27,175 - INFO - Processing HSK level 6
+2025-05-31 18:48:27,176 - INFO - Extracting from file: ../../data/raw/exclusive\6.json
+2025-05-31 18:48:27,192 - INFO - Extracted 1123 unique vocabulary items
+2025-05-31 18:48:27,193 - INFO - Enriching 1123 vocabulary items from HSK 6
+2025-05-31 18:48:27,193 - INFO - Processing batch 1/225
+2025-05-31 18:48:27,194 - INFO - Processing vocabulary item: 一代
+2025-05-31 18:48:27,194 - DEBUG - System prompt:
+2025-05-31 18:48:27,194 - DEBUG - --------------------------------------------------
+2025-05-31 18:48:27,194 - DEBUG - You are a Chinese language expert (中文语言专家) with deep knowledge of Chinese vocabulary, their meanings, and Vietnamese translations. Your task is to provide clear, accurate, and structured information about Chinese vocabulary items for language learners.
+
+请首先用中文思考词汇的含义和用法，因为从中文思考可以更准确地把握词义。Think in Chinese first to better grasp the meaning before translating.
+
+For each Chinese vocabulary item provided, you will:
+1. Identify the most common 2-4 meanings (in Chinese, English, and Vietnamese)
+2. Provide Chinese definitions for each meaning
+3. Provide English translations for each meaning
+4. Provide Vietnamese translations for each meaning
+5. Create simple example sentences that show how the vocabulary item is used
+6. Rank the meanings by frequency of usage
+
+FOLLOW THIS EXACT JSON STRUCTURE:
+{
+  "item": "汉字",
+  "pinyin": "hàn zì",
+  "meanings": [
+    {
+      "chinese": "中文含义；另一个中文含义；第三个含义",
+      "english": "primary meaning in English; alternative meaning; another alternative",
+      "vietnamese": "Vietnamese translation; alternative translation; another alternative",
+      "part_of_speech": "n/v/adj/etc",
+      "usage_frequency": "very common/common/less common",
+      "examples": [
+        {
+          "chinese": "Example sentence in Chinese",
+          "pinyin": "Example sentence pinyin with tones",
+          "english": "English translation of the example",
+          "vietnamese": "Vietnamese translation of the example"
+        },
+        {
+          "chinese": "Second example sentence",
+          "pinyin": "Second example with pinyin",
+          "english": "English translation",
+          "vietnamese": "Vietnamese translation"
+        }
+      ]
+    },
+    {
+      "chinese": "第二个中文含义；替代含义",
+      "english": "secondary meaning; alternative meaning",
+      "vietnamese": "Vietnamese translation; alternative translation",
+      "part_of_speech": "n/v/adj/etc",
+      "usage_frequency": "common/less common",
+      "examples": [...]
+    }
+  ]
+}
+
+CRITICAL GUIDELINES:
+* Begin by thinking in Chinese (中文) about the vocabulary item's meanings and usage
+* MUST include 1-3 most common meanings - quality over quantity
+* MUST separate alternative meanings with semicolons and spaces " ; " (e.g., "好的；不错的；很棒的")
+* NEVER use forward slashes (/) to separate meanings
+* ALL "chinese", "english" and "vietnamese" fields MUST follow the semicolon format for alternatives
+* Chinese definitions should be natural and clear, as if explaining to a Chinese learner
+* Examples MUST be simple and suitable for beginners (HSK1-3 level)
+* MUST provide full Vietnamese translations for ALL examples
+* MUST use the correct pinyin with tones for ALL Chinese text
+* NEVER truncate or abbreviate any part of the JSON structure
+* ALWAYS include complete JSON with proper closing brackets
+
+EXAMPLE:
+For vocabulary item "好":
+{
+  "item": "好",
+  "pinyin": "hǎo",
+  "meanings": [
+    {
+      "chinese": "好的；不错的；很棒的",
+      "english": "good ; nice ; fine",
+      "vietnamese": "tốt ; hay ; được",
+      "part_of_speech": "adj",
+      "usage_frequency": "very common",
+      "examples": [
+        {
+          "chinese": "这本书很好。",
+          "pinyin": "Zhè běn shū hěn hǎo.",
+          "english": "This book is very good.",
+          "vietnamese": "Cuốn sách này rất hay."
+        },
+        {
+          "chinese": "天气好。",
+          "pinyin": "Tiānqì hǎo.",
+          "english": "The weather is nice.",
+          "vietnamese": "Thời tiết tốt."
+        }
+      ]
+    },
+    {
+      "chinese": "身体健康；状态良好",
+      "english": "to be okay ; to be well",
+      "vietnamese": "khỏe ; ổn",
+      "part_of_speech": "v",
+      "usage_frequency": "common",
+      "examples": [
+        {
+          "chinese": "你好吗？",
+          "pinyin": "Nǐ hǎo ma?",
+          "english": "How are you?",
+          "vietnamese": "Bạn khỏe không?"
+        }
+      ]
+    }
+  ]
+}
+2025-05-31 18:48:27,194 - DEBUG - --------------------------------------------------
+2025-05-31 18:48:27,194 - DEBUG - User prompt:
+2025-05-31 18:48:27,194 - DEBUG - --------------------------------------------------
+2025-05-31 18:48:27,194 - DEBUG - Provide detailed meanings, Chinese definitions, English translations, Vietnamese translations, and examples for this Chinese vocabulary item:
+
+Item: 一代
+Pinyin: yī dài
+HSK Level: 6
+
+请先用中文思考这个词的含义和用法，然后再翻译。首先理解这个词在中文中的确切含义，然后提供中文定义、精确的英语和越南语翻译。
+
+Remember:
+1. Provide Chinese definitions for each meaning (use " ; " between alternatives)
+2. Use " ; " (semicolons with spaces) between alternative meanings in all languages
+3. Provide complete Vietnamese translations for ALL examples
+4. Include 2-4 meanings maximum, ordered by frequency of use
+5. Keep examples simple (HSK1-3 level)
+6. Respond ONLY with the complete JSON structure with no additional text
+2025-05-31 18:48:27,194 - DEBUG - --------------------------------------------------
+2025-05-31 18:48:27,194 - DEBUG - API payload:
+2025-05-31 18:48:27,194 - DEBUG - {
+  "model": "qwen3:latest",
+  "prompt": "Provide detailed meanings, Chinese definitions, English translations, Vietnamese translations, and examples for this Chinese vocabulary item:\n\nItem: 一代\nPinyin: yī dài\nHSK Level: 6\n\n请先用中文思考这个词的含义和用法，然后再翻译。首先理解这个词在中文中的确切含义，然后提供中文定义、精确的英语和越南语翻译。\n\nRemember:\n1. Provide Chinese definitions for each meaning (use \" ; \" between alternatives)\n2. Use \" ; \" (semicolons with spaces) between alternative meanings in all languages\n3. Provide complete Vietnamese translations for ALL examples\n4. Include 2-4 meanings maximum, ordered by frequency of use\n5. Keep examples simple (HSK1-3 level)\n6. Respond ONLY with the complete JSON structure with no additional text",
+  "system": "You are a Chinese language expert (中文语言专家) with deep knowledge of Chinese vocabulary, their meanings, and Vietnamese translations. Your task is to provide clear, accurate, and structured information about Chinese vocabulary items for language learners.\n\n请首先用中文思考词汇的含义和用法，因为从中文思考可以更准确地把握词义。Think in Chinese first to better grasp the meaning before translating.\n\nFor each Chinese vocabulary item provided, you will:\n1. Identify the most common 2-4 meanings (in Chinese, English, and Vietnamese)\n2. Provide Chinese definitions for each meaning\n3. Provide English translations for each meaning\n4. Provide Vietnamese translations for each meaning\n5. Create simple example sentences that show how the vocabulary item is used\n6. Rank the meanings by frequency of usage\n\nFOLLOW THIS EXACT JSON STRUCTURE:\n{\n  \"item\": \"汉字\",\n  \"pinyin\": \"hàn zì\",\n  \"meanings\": [\n    {\n      \"chinese\": \"中文含义；另一个中文含义；第三个含义\",\n      \"english\": \"primary meaning in English; alternative meaning; another alternative\",\n      \"vietnamese\": \"Vietnamese translation; alternative translation; another alternative\",\n      \"part_of_speech\": \"n/v/adj/etc\",\n      \"usage_frequency\": \"very common/common/less common\",\n      \"examples\": [\n        {\n          \"chinese\": \"Example sentence in Chinese\",\n          \"pinyin\": \"Example sentence pinyin with tones\",\n          \"english\": \"English translation of the example\",\n          \"vietnamese\": \"Vietnamese translation of the example\"\n        },\n        {\n          \"chinese\": \"Second example sentence\",\n          \"pinyin\": \"Second example with pinyin\",\n          \"english\": \"English translation\",\n          \"vietnamese\": \"Vietnamese translation\"\n        }\n      ]\n    },\n    {\n      \"chinese\": \"第二个中文含义；替代含义\",\n      \"english\": \"secondary meaning; alternative meaning\",\n      \"vietnamese\": \"Vietnamese translation; alternative translation\",\n      \"part_of_speech\": \"n/v/adj/etc\",\n      \"usage_frequency\": \"common/less common\",\n      \"examples\": [...]\n    }\n  ]\n}\n\nCRITICAL GUIDELINES:\n* Begin by thinking in Chinese (中文) about the vocabulary item's meanings and usage\n* MUST include 1-3 most common meanings - quality over quantity\n* MUST separate alternative meanings with semicolons and spaces \" ; \" (e.g., \"好的；不错的；很棒的\")\n* NEVER use forward slashes (/) to separate meanings\n* ALL \"chinese\", \"english\" and \"vietnamese\" fields MUST follow the semicolon format for alternatives\n* Chinese definitions should be natural and clear, as if explaining to a Chinese learner\n* Examples MUST be simple and suitable for beginners (HSK1-3 level)\n* MUST provide full Vietnamese translations for ALL examples\n* MUST use the correct pinyin with tones for ALL Chinese text\n* NEVER truncate or abbreviate any part of the JSON structure\n* ALWAYS include complete JSON with proper closing brackets\n\nEXAMPLE:\nFor vocabulary item \"好\":\n{\n  \"item\": \"好\",\n  \"pinyin\": \"hǎo\",\n  \"meanings\": [\n    {\n      \"chinese\": \"好的；不错的；很棒的\",\n      \"english\": \"good ; nice ; fine\",\n      \"vietnamese\": \"tốt ; hay ; được\",\n      \"part_of_speech\": \"adj\",\n      \"usage_frequency\": \"very common\",\n      \"examples\": [\n        {\n          \"chinese\": \"这本书很好。\",\n          \"pinyin\": \"Zhè běn shū hěn hǎo.\",\n          \"english\": \"This book is very good.\",\n          \"vietnamese\": \"Cuốn sách này rất hay.\"\n        },\n        {\n          \"chinese\": \"天气好。\",\n          \"pinyin\": \"Tiānqì hǎo.\",\n          \"english\": \"The weather is nice.\",\n          \"vietnamese\": \"Thời tiết tốt.\"\n        }\n      ]\n    },\n    {\n      \"chinese\": \"身体健康；状态良好\",\n      \"english\": \"to be okay ; to be well\",\n      \"vietnamese\": \"khỏe ; ổn\",\n      \"part_of_speech\": \"v\",\n      \"usage_frequency\": \"common\",\n      \"examples\": [\n        {\n          \"chinese\": \"你好吗？\",\n          \"pinyin\": \"Nǐ hǎo ma?\",\n          \"english\": \"How are you?\",\n          \"vietnamese\": \"Bạn khỏe không?\"\n        }\n      ]\n    }\n  ]\n}",
+  "stream": false,
+  "options": {
+    "temperature": 0.2,
+    "num_predict": 20000
+  }
+}
+2025-05-31 18:48:27,194 - INFO - Requesting data for vocabulary item: 一代 (attempt 1)
+2025-05-31 18:48:27,195 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-31 18:48:42,402 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-05-31 18:48:42,403 - DEBUG - API response status code: 200
+2025-05-31 18:48:42,403 - INFO - Response received for 一代 (2842 chars)
+2025-05-31 18:48:42,403 - DEBUG - Full API response text:
+2025-05-31 18:48:42,403 - DEBUG - --------------------------------------------------
+2025-05-31 18:48:42,403 - DEBUG - <think>
+好的，我现在要处理用户关于“一代”这个词的查询。首先，我需要用中文思考这个词的含义和用法，确保准确理解。用户要求先用中文思考，所以我要先回忆“一代”在中文中的常见用法。
+
+“一代”这个词，首先想到的是“一代人”，比如“一代人有一代人的问题”，这里指的是不同时代的人。然后，可能还有“一代”作为量词，比如“一代王朝”或者“一代天骄”，这里可能指一个时期或时代。另外，可能还有“一代”表示程度，比如“一代宗师”，但不确定是否常用。
+
+接下来，我需要确认每个含义的正确性。首先，“一代人”是主要含义，指同一时代的人，属于名词。其次，作为量词，用于表示一个时代或时期，比如“一代王朝”或“一代天骄”，这里可能属于名词。另外，是否有其他用法？比如“一代”作为形容词，表示“第一代”，但可能不太常见，或者是否属于另一个含义？
+
+然后，我需要检查每个含义的中文定义，确保准确。例如，“一代人”对应的英文是“a generation of people”，越南语是“một thế hệ người”。作为量词时，英文可能是“a dynasty”或“an era”，越南语对应“một triều đại”或“một thời kỳ”。另外，是否有其他用法？比如“一代”作为形容词，如“一代新人”，但可能属于同一含义下的不同例子。
+
+接下来，要确保每个含义的中文定义用分号分隔，英文和越南语也一样。例如，中文定义可能为“一代人；一代王朝；一代天骄”，英文对应“a generation of people ; a dynasty ; a legendary figure”，越南语对应“một thế hệ người ; một triều đại ; một nhân vật huyền thoại”。
+
+然后，需要提供例子，确保是HSK1-3级别的简单句子。例如，“一代人有一代人的问题”对应的英文是“A generation has its own problems”，越南语是“Một thế hệ có những vấn đề riêng của họ”。另一个例子可能是“唐朝是中国历史上的一代王朝”，英文是“The Tang Dynasty was a dynasty in Chinese history”，越南语是“Triều đại Đường là một triều đại trong lịch sử Trung Quốc”。
+
+还要注意词性，比如“一代”作为名词，所以part_of_speech是n。频率方面，主要含义是“一代人”和“一代王朝”等，可能属于常见用法，但用户提到HSK6，所以可能需要确认是否属于高频词汇。不过用户要求按频率排序，所以可能第一个含义是“一代人”，第二个是“一代王朝”或“一代天骄”。
+
+最后，检查是否符合所有要求：结构正确，分号分隔，例子简单，翻译完整。确保没有遗漏任何部分，并且JSON格式正确，没有语法错误。
+</think>
+
+{
+  "item": "一代",
+  "pinyin": "yī dài",
+  "meanings": [
+    {
+      "chinese": "一代人；一代王朝；一代天骄",
+      "english": "a generation of people ; a dynasty ; a legendary figure",
+      "vietnamese": "một thế hệ người ; một triều đại ; một nhân vật huyền thoại",
+      "part_of_speech": "n",
+      "usage_frequency": "common",
+      "examples": [
+        {
+          "chinese": "一代人有一代人的问题。",
+          "pinyin": "Yī dài rén yǒu yī dài rén de wèn tí.",
+          "english": "A generation has its own problems.",
+          "vietnamese": "Một thế hệ có những vấn đề riêng của họ."
+        },
+        {
+          "chinese": "唐朝是中国历史上的一代王朝。",
+          "pinyin": "Táng cháo shì Zhōngguó lìshǐ shàng de yī dài wángcháo.",
+          "english": "The Tang Dynasty was a dynasty in Chinese history.",
+          "vietnamese": "Triều đại Đường là một triều đại trong lịch sử Trung Quốc."
+        }
+      ]
+    },
+    {
+      "chinese": "第一代；最初的",
+      "english": "first generation ; initial",
+      "vietnamese": "thế hệ đầu tiên ; ban đầu",
+      "part_of_speech": "n",
+      "usage_frequency": "less common",
+      "examples": [
+        {
+          "chinese": "这是第一代智能手机。",
+          "pinyin": "Zhè shì dì yī dài shǒuyīnzhōng.",
+          "english": "This is the first generation of smartphones.",
+          "vietnamese": "Đây là thế hệ điện thoại thông minh đầu tiên."
+        },
+        {
+          "chinese": "一代新人在崛起。",
+          "pinyin": "Yī dài xīn rén zài qǐjī.",
+          "english": "A new generation is rising.",
+          "vietnamese": "Một thế hệ mới đang nổi lên."
+        }
+      ]
+    }
+  ]
+}
+2025-05-31 18:48:42,403 - DEBUG - --------------------------------------------------
+2025-05-31 18:48:42,403 - DEBUG - Thinking text detected and removed (1231 chars)
+2025-05-31 18:48:42,403 - DEBUG - Extracted JSON string (1592 chars)
+2025-05-31 18:48:42,403 - INFO - Successfully parsed JSON for 一代
+2025-05-31 18:48:42,404 - INFO - Successfully enriched: 一代
+2025-05-31 18:48:43,404 - INFO - Processing vocabulary item: 一同
+2025-05-31 18:48:43,404 - DEBUG - System prompt:
+2025-05-31 18:48:43,404 - DEBUG - --------------------------------------------------
+2025-05-31 18:48:43,404 - DEBUG - You are a Chinese language expert (中文语言专家) with deep knowledge of Chinese vocabulary, their meanings, and Vietnamese translations. Your task is to provide clear, accurate, and structured information about Chinese vocabulary items for language learners.
+
+请首先用中文思考词汇的含义和用法，因为从中文思考可以更准确地把握词义。Think in Chinese first to better grasp the meaning before translating.
+
+For each Chinese vocabulary item provided, you will:
+1. Identify the most common 2-4 meanings (in Chinese, English, and Vietnamese)
+2. Provide Chinese definitions for each meaning
+3. Provide English translations for each meaning
+4. Provide Vietnamese translations for each meaning
+5. Create simple example sentences that show how the vocabulary item is used
+6. Rank the meanings by frequency of usage
+
+FOLLOW THIS EXACT JSON STRUCTURE:
+{
+  "item": "汉字",
+  "pinyin": "hàn zì",
+  "meanings": [
+    {
+      "chinese": "中文含义；另一个中文含义；第三个含义",
+      "english": "primary meaning in English; alternative meaning; another alternative",
+      "vietnamese": "Vietnamese translation; alternative translation; another alternative",
+      "part_of_speech": "n/v/adj/etc",
+      "usage_frequency": "very common/common/less common",
+      "examples": [
+        {
+          "chinese": "Example sentence in Chinese",
+          "pinyin": "Example sentence pinyin with tones",
+          "english": "English translation of the example",
+          "vietnamese": "Vietnamese translation of the example"
+        },
+        {
+          "chinese": "Second example sentence",
+          "pinyin": "Second example with pinyin",
+          "english": "English translation",
+          "vietnamese": "Vietnamese translation"
+        }
+      ]
+    },
+    {
+      "chinese": "第二个中文含义；替代含义",
+      "english": "secondary meaning; alternative meaning",
+      "vietnamese": "Vietnamese translation; alternative translation",
+      "part_of_speech": "n/v/adj/etc",
+      "usage_frequency": "common/less common",
+      "examples": [...]
+    }
+  ]
+}
+
+CRITICAL GUIDELINES:
+* Begin by thinking in Chinese (中文) about the vocabulary item's meanings and usage
+* MUST include 1-3 most common meanings - quality over quantity
+* MUST separate alternative meanings with semicolons and spaces " ; " (e.g., "好的；不错的；很棒的")
+* NEVER use forward slashes (/) to separate meanings
+* ALL "chinese", "english" and "vietnamese" fields MUST follow the semicolon format for alternatives
+* Chinese definitions should be natural and clear, as if explaining to a Chinese learner
+* Examples MUST be simple and suitable for beginners (HSK1-3 level)
+* MUST provide full Vietnamese translations for ALL examples
+* MUST use the correct pinyin with tones for ALL Chinese text
+* NEVER truncate or abbreviate any part of the JSON structure
+* ALWAYS include complete JSON with proper closing brackets
+
+EXAMPLE:
+For vocabulary item "好":
+{
+  "item": "好",
+  "pinyin": "hǎo",
+  "meanings": [
+    {
+      "chinese": "好的；不错的；很棒的",
+      "english": "good ; nice ; fine",
+      "vietnamese": "tốt ; hay ; được",
+      "part_of_speech": "adj",
+      "usage_frequency": "very common",
+      "examples": [
+        {
+          "chinese": "这本书很好。",
+          "pinyin": "Zhè běn shū hěn hǎo.",
+          "english": "This book is very good.",
+          "vietnamese": "Cuốn sách này rất hay."
+        },
+        {
+          "chinese": "天气好。",
+          "pinyin": "Tiānqì hǎo.",
+          "english": "The weather is nice.",
+          "vietnamese": "Thời tiết tốt."
+        }
+      ]
+    },
+    {
+      "chinese": "身体健康；状态良好",
+      "english": "to be okay ; to be well",
+      "vietnamese": "khỏe ; ổn",
+      "part_of_speech": "v",
+      "usage_frequency": "common",
+      "examples": [
+        {
+          "chinese": "你好吗？",
+          "pinyin": "Nǐ hǎo ma?",
+          "english": "How are you?",
+          "vietnamese": "Bạn khỏe không?"
+        }
+      ]
+    }
+  ]
+}
+2025-05-31 18:48:43,404 - DEBUG - --------------------------------------------------
+2025-05-31 18:48:43,404 - DEBUG - User prompt:
+2025-05-31 18:48:43,404 - DEBUG - --------------------------------------------------
+2025-05-31 18:48:43,404 - DEBUG - Provide detailed meanings, Chinese definitions, English translations, Vietnamese translations, and examples for this Chinese vocabulary item:
+
+Item: 一同
+Pinyin: yī tóng
+HSK Level: 6
+
+请先用中文思考这个词的含义和用法，然后再翻译。首先理解这个词在中文中的确切含义，然后提供中文定义、精确的英语和越南语翻译。
+
+Remember:
+1. Provide Chinese definitions for each meaning (use " ; " between alternatives)
+2. Use " ; " (semicolons with spaces) between alternative meanings in all languages
+3. Provide complete Vietnamese translations for ALL examples
+4. Include 2-4 meanings maximum, ordered by frequency of use
+5. Keep examples simple (HSK1-3 level)
+6. Respond ONLY with the complete JSON structure with no additional text
+2025-05-31 18:48:43,404 - DEBUG - --------------------------------------------------
+2025-05-31 18:48:43,404 - DEBUG - API payload:
+2025-05-31 18:48:43,404 - DEBUG - {
+  "model": "qwen3:latest",
+  "prompt": "Provide detailed meanings, Chinese definitions, English translations, Vietnamese translations, and examples for this Chinese vocabulary item:\n\nItem: 一同\nPinyin: yī tóng\nHSK Level: 6\n\n请先用中文思考这个词的含义和用法，然后再翻译。首先理解这个词在中文中的确切含义，然后提供中文定义、精确的英语和越南语翻译。\n\nRemember:\n1. Provide Chinese definitions for each meaning (use \" ; \" between alternatives)\n2. Use \" ; \" (semicolons with spaces) between alternative meanings in all languages\n3. Provide complete Vietnamese translations for ALL examples\n4. Include 2-4 meanings maximum, ordered by frequency of use\n5. Keep examples simple (HSK1-3 level)\n6. Respond ONLY with the complete JSON structure with no additional text",
+  "system": "You are a Chinese language expert (中文语言专家) with deep knowledge of Chinese vocabulary, their meanings, and Vietnamese translations. Your task is to provide clear, accurate, and structured information about Chinese vocabulary items for language learners.\n\n请首先用中文思考词汇的含义和用法，因为从中文思考可以更准确地把握词义。Think in Chinese first to better grasp the meaning before translating.\n\nFor each Chinese vocabulary item provided, you will:\n1. Identify the most common 2-4 meanings (in Chinese, English, and Vietnamese)\n2. Provide Chinese definitions for each meaning\n3. Provide English translations for each meaning\n4. Provide Vietnamese translations for each meaning\n5. Create simple example sentences that show how the vocabulary item is used\n6. Rank the meanings by frequency of usage\n\nFOLLOW THIS EXACT JSON STRUCTURE:\n{\n  \"item\": \"汉字\",\n  \"pinyin\": \"hàn zì\",\n  \"meanings\": [\n    {\n      \"chinese\": \"中文含义；另一个中文含义；第三个含义\",\n      \"english\": \"primary meaning in English; alternative meaning; another alternative\",\n      \"vietnamese\": \"Vietnamese translation; alternative translation; another alternative\",\n      \"part_of_speech\": \"n/v/adj/etc\",\n      \"usage_frequency\": \"very common/common/less common\",\n      \"examples\": [\n        {\n          \"chinese\": \"Example sentence in Chinese\",\n          \"pinyin\": \"Example sentence pinyin with tones\",\n          \"english\": \"English translation of the example\",\n          \"vietnamese\": \"Vietnamese translation of the example\"\n        },\n        {\n          \"chinese\": \"Second example sentence\",\n          \"pinyin\": \"Second example with pinyin\",\n          \"english\": \"English translation\",\n          \"vietnamese\": \"Vietnamese translation\"\n        }\n      ]\n    },\n    {\n      \"chinese\": \"第二个中文含义；替代含义\",\n      \"english\": \"secondary meaning; alternative meaning\",\n      \"vietnamese\": \"Vietnamese translation; alternative translation\",\n      \"part_of_speech\": \"n/v/adj/etc\",\n      \"usage_frequency\": \"common/less common\",\n      \"examples\": [...]\n    }\n  ]\n}\n\nCRITICAL GUIDELINES:\n* Begin by thinking in Chinese (中文) about the vocabulary item's meanings and usage\n* MUST include 1-3 most common meanings - quality over quantity\n* MUST separate alternative meanings with semicolons and spaces \" ; \" (e.g., \"好的；不错的；很棒的\")\n* NEVER use forward slashes (/) to separate meanings\n* ALL \"chinese\", \"english\" and \"vietnamese\" fields MUST follow the semicolon format for alternatives\n* Chinese definitions should be natural and clear, as if explaining to a Chinese learner\n* Examples MUST be simple and suitable for beginners (HSK1-3 level)\n* MUST provide full Vietnamese translations for ALL examples\n* MUST use the correct pinyin with tones for ALL Chinese text\n* NEVER truncate or abbreviate any part of the JSON structure\n* ALWAYS include complete JSON with proper closing brackets\n\nEXAMPLE:\nFor vocabulary item \"好\":\n{\n  \"item\": \"好\",\n  \"pinyin\": \"hǎo\",\n  \"meanings\": [\n    {\n      \"chinese\": \"好的；不错的；很棒的\",\n      \"english\": \"good ; nice ; fine\",\n      \"vietnamese\": \"tốt ; hay ; được\",\n      \"part_of_speech\": \"adj\",\n      \"usage_frequency\": \"very common\",\n      \"examples\": [\n        {\n          \"chinese\": \"这本书很好。\",\n          \"pinyin\": \"Zhè běn shū hěn hǎo.\",\n          \"english\": \"This book is very good.\",\n          \"vietnamese\": \"Cuốn sách này rất hay.\"\n        },\n        {\n          \"chinese\": \"天气好。\",\n          \"pinyin\": \"Tiānqì hǎo.\",\n          \"english\": \"The weather is nice.\",\n          \"vietnamese\": \"Thời tiết tốt.\"\n        }\n      ]\n    },\n    {\n      \"chinese\": \"身体健康；状态良好\",\n      \"english\": \"to be okay ; to be well\",\n      \"vietnamese\": \"khỏe ; ổn\",\n      \"part_of_speech\": \"v\",\n      \"usage_frequency\": \"common\",\n      \"examples\": [\n        {\n          \"chinese\": \"你好吗？\",\n          \"pinyin\": \"Nǐ hǎo ma?\",\n          \"english\": \"How are you?\",\n          \"vietnamese\": \"Bạn khỏe không?\"\n        }\n      ]\n    }\n  ]\n}",
+  "stream": false,
+  "options": {
+    "temperature": 0.2,
+    "num_predict": 20000
+  }
+}
+2025-05-31 18:48:43,404 - INFO - Requesting data for vocabulary item: 一同 (attempt 1)
+2025-05-31 18:48:43,405 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-31 18:48:51,253 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-05-31 18:48:51,254 - DEBUG - API response status code: 200
+2025-05-31 18:48:51,254 - INFO - Response received for 一同 (1828 chars)
+2025-05-31 18:48:51,254 - DEBUG - Full API response text:
+2025-05-31 18:48:51,254 - DEBUG - --------------------------------------------------
+2025-05-31 18:48:51,254 - DEBUG - <think>
+好的，用户让我提供“一同”的详细信息，包括中文定义、英文翻译、越南语翻译和例子。首先，我需要先用中文思考这个词的含义和用法。一同在中文里通常表示一起，共同的意思。比如“一同前往”就是一起去某个地方。接下来，我需要确定这个词的常见含义，可能有两个主要意思：作为副词表示一起，或者作为名词表示共同的行动或状态。不过根据HSK6级，可能更偏向于副词的用法。
+
+然后，我要确保每个含义的中文定义用分号分隔，英文和越南语翻译也一样。例如，副词的中文定义是“一起；共同”，英文是“together; jointly”，越南语是“cùng nhau; chung”. 需要检查是否有其他可能的含义，但可能主要就是这两个。接下来，例子要简单，符合HSK1-3水平，比如“我们一同去学校”这样的句子。同时，要确保例子中的拼音正确，越南语翻译完整。最后，按照频率排序，副词用法应该更常见。需要确保JSON结构正确，没有遗漏任何字段，并且符合用户提供的格式要求。
+</think>
+
+{
+  "item": "一同",
+  "pinyin": "yī tóng",
+  "meanings": [
+    {
+      "chinese": "一起；共同",
+      "english": "together ; jointly",
+      "vietnamese": "cùng nhau ; chung",
+      "part_of_speech": "adv",
+      "usage_frequency": "very common",
+      "examples": [
+        {
+          "chinese": "我们一同去学校。",
+          "pinyin": "Wǒmen yī tóng qù xuéxiào.",
+          "english": "We go to school together.",
+          "vietnamese": "Chúng ta cùng đi học."
+        },
+        {
+          "chinese": "他们一同完成了任务。",
+          "pinyin": "Tāmen yī tóng wán chéng le rènwù.",
+          "english": "They completed the task together.",
+          "vietnamese": "Họ đã hoàn thành nhiệm vụ cùng nhau."
+        }
+      ]
+    },
+    {
+      "chinese": "同；相同",
+      "english": "same ; identical",
+      "vietnamese": "giống ; hoàn toàn giống",
+      "part_of_speech": "adj",
+      "usage_frequency": "common",
+      "examples": [
+        {
+          "chinese": "这两个苹果一同大小。",
+          "pinyin": "Zhè liǎng gè píngguǒ yī tóng dàxiǎo.",
+          "english": "These two apples are the same size.",
+          "vietnamese": "Hai quả táo này giống nhau về kích thước."
+        },
+        {
+          "chinese": "他们的想法一同。",
+          "pinyin": "Tāmen de xiǎngfǎ yī tóng.",
+          "english": "Their ideas are identical.",
+          "vietnamese": "Ý tưởng của họ hoàn toàn giống nhau."
+        }
+      ]
+    }
+  ]
+}
+2025-05-31 18:48:51,254 - DEBUG - --------------------------------------------------
+2025-05-31 18:48:51,254 - DEBUG - Thinking text detected and removed (420 chars)
+2025-05-31 18:48:51,254 - DEBUG - Extracted JSON string (1389 chars)
+2025-05-31 18:48:51,254 - INFO - Successfully parsed JSON for 一同
+2025-05-31 18:48:51,255 - INFO - Successfully enriched: 一同
+2025-05-31 18:48:52,255 - INFO - Processing vocabulary item: 一时
+2025-05-31 18:48:52,255 - DEBUG - System prompt:
+2025-05-31 18:48:52,255 - DEBUG - --------------------------------------------------
+2025-05-31 18:48:52,255 - DEBUG - You are a Chinese language expert (中文语言专家) with deep knowledge of Chinese vocabulary, their meanings, and Vietnamese translations. Your task is to provide clear, accurate, and structured information about Chinese vocabulary items for language learners.
+
+请首先用中文思考词汇的含义和用法，因为从中文思考可以更准确地把握词义。Think in Chinese first to better grasp the meaning before translating.
+
+For each Chinese vocabulary item provided, you will:
+1. Identify the most common 2-4 meanings (in Chinese, English, and Vietnamese)
+2. Provide Chinese definitions for each meaning
+3. Provide English translations for each meaning
+4. Provide Vietnamese translations for each meaning
+5. Create simple example sentences that show how the vocabulary item is used
+6. Rank the meanings by frequency of usage
+
+FOLLOW THIS EXACT JSON STRUCTURE:
+{
+  "item": "汉字",
+  "pinyin": "hàn zì",
+  "meanings": [
+    {
+      "chinese": "中文含义；另一个中文含义；第三个含义",
+      "english": "primary meaning in English; alternative meaning; another alternative",
+      "vietnamese": "Vietnamese translation; alternative translation; another alternative",
+      "part_of_speech": "n/v/adj/etc",
+      "usage_frequency": "very common/common/less common",
+      "examples": [
+        {
+          "chinese": "Example sentence in Chinese",
+          "pinyin": "Example sentence pinyin with tones",
+          "english": "English translation of the example",
+          "vietnamese": "Vietnamese translation of the example"
+        },
+        {
+          "chinese": "Second example sentence",
+          "pinyin": "Second example with pinyin",
+          "english": "English translation",
+          "vietnamese": "Vietnamese translation"
+        }
+      ]
+    },
+    {
+      "chinese": "第二个中文含义；替代含义",
+      "english": "secondary meaning; alternative meaning",
+      "vietnamese": "Vietnamese translation; alternative translation",
+      "part_of_speech": "n/v/adj/etc",
+      "usage_frequency": "common/less common",
+      "examples": [...]
+    }
+  ]
+}
+
+CRITICAL GUIDELINES:
+* Begin by thinking in Chinese (中文) about the vocabulary item's meanings and usage
+* MUST include 1-3 most common meanings - quality over quantity
+* MUST separate alternative meanings with semicolons and spaces " ; " (e.g., "好的；不错的；很棒的")
+* NEVER use forward slashes (/) to separate meanings
+* ALL "chinese", "english" and "vietnamese" fields MUST follow the semicolon format for alternatives
+* Chinese definitions should be natural and clear, as if explaining to a Chinese learner
+* Examples MUST be simple and suitable for beginners (HSK1-3 level)
+* MUST provide full Vietnamese translations for ALL examples
+* MUST use the correct pinyin with tones for ALL Chinese text
+* NEVER truncate or abbreviate any part of the JSON structure
+* ALWAYS include complete JSON with proper closing brackets
+
+EXAMPLE:
+For vocabulary item "好":
+{
+  "item": "好",
+  "pinyin": "hǎo",
+  "meanings": [
+    {
+      "chinese": "好的；不错的；很棒的",
+      "english": "good ; nice ; fine",
+      "vietnamese": "tốt ; hay ; được",
+      "part_of_speech": "adj",
+      "usage_frequency": "very common",
+      "examples": [
+        {
+          "chinese": "这本书很好。",
+          "pinyin": "Zhè běn shū hěn hǎo.",
+          "english": "This book is very good.",
+          "vietnamese": "Cuốn sách này rất hay."
+        },
+        {
+          "chinese": "天气好。",
+          "pinyin": "Tiānqì hǎo.",
+          "english": "The weather is nice.",
+          "vietnamese": "Thời tiết tốt."
+        }
+      ]
+    },
+    {
+      "chinese": "身体健康；状态良好",
+      "english": "to be okay ; to be well",
+      "vietnamese": "khỏe ; ổn",
+      "part_of_speech": "v",
+      "usage_frequency": "common",
+      "examples": [
+        {
+          "chinese": "你好吗？",
+          "pinyin": "Nǐ hǎo ma?",
+          "english": "How are you?",
+          "vietnamese": "Bạn khỏe không?"
+        }
+      ]
+    }
+  ]
+}
+2025-05-31 18:48:52,255 - DEBUG - --------------------------------------------------
+2025-05-31 18:48:52,255 - DEBUG - User prompt:
+2025-05-31 18:48:52,255 - DEBUG - --------------------------------------------------
+2025-05-31 18:48:52,255 - DEBUG - Provide detailed meanings, Chinese definitions, English translations, Vietnamese translations, and examples for this Chinese vocabulary item:
+
+Item: 一时
+HSK Level: 6
+
+请先用中文思考这个词的含义和用法，然后再翻译。首先理解这个词在中文中的确切含义，然后提供中文定义、精确的英语和越南语翻译。
+
+Remember:
+1. Provide Chinese definitions for each meaning (use " ; " between alternatives)
+2. Use " ; " (semicolons with spaces) between alternative meanings in all languages
+3. Provide complete Vietnamese translations for ALL examples
+4. Include 2-4 meanings maximum, ordered by frequency of use
+5. Keep examples simple (HSK1-3 level)
+6. Respond ONLY with the complete JSON structure with no additional text
+2025-05-31 18:48:52,255 - DEBUG - --------------------------------------------------
+2025-05-31 18:48:52,255 - DEBUG - API payload:
+2025-05-31 18:48:52,256 - DEBUG - {
+  "model": "qwen3:latest",
+  "prompt": "Provide detailed meanings, Chinese definitions, English translations, Vietnamese translations, and examples for this Chinese vocabulary item:\n\nItem: 一时\nHSK Level: 6\n\n请先用中文思考这个词的含义和用法，然后再翻译。首先理解这个词在中文中的确切含义，然后提供中文定义、精确的英语和越南语翻译。\n\nRemember:\n1. Provide Chinese definitions for each meaning (use \" ; \" between alternatives)\n2. Use \" ; \" (semicolons with spaces) between alternative meanings in all languages\n3. Provide complete Vietnamese translations for ALL examples\n4. Include 2-4 meanings maximum, ordered by frequency of use\n5. Keep examples simple (HSK1-3 level)\n6. Respond ONLY with the complete JSON structure with no additional text",
+  "system": "You are a Chinese language expert (中文语言专家) with deep knowledge of Chinese vocabulary, their meanings, and Vietnamese translations. Your task is to provide clear, accurate, and structured information about Chinese vocabulary items for language learners.\n\n请首先用中文思考词汇的含义和用法，因为从中文思考可以更准确地把握词义。Think in Chinese first to better grasp the meaning before translating.\n\nFor each Chinese vocabulary item provided, you will:\n1. Identify the most common 2-4 meanings (in Chinese, English, and Vietnamese)\n2. Provide Chinese definitions for each meaning\n3. Provide English translations for each meaning\n4. Provide Vietnamese translations for each meaning\n5. Create simple example sentences that show how the vocabulary item is used\n6. Rank the meanings by frequency of usage\n\nFOLLOW THIS EXACT JSON STRUCTURE:\n{\n  \"item\": \"汉字\",\n  \"pinyin\": \"hàn zì\",\n  \"meanings\": [\n    {\n      \"chinese\": \"中文含义；另一个中文含义；第三个含义\",\n      \"english\": \"primary meaning in English; alternative meaning; another alternative\",\n      \"vietnamese\": \"Vietnamese translation; alternative translation; another alternative\",\n      \"part_of_speech\": \"n/v/adj/etc\",\n      \"usage_frequency\": \"very common/common/less common\",\n      \"examples\": [\n        {\n          \"chinese\": \"Example sentence in Chinese\",\n          \"pinyin\": \"Example sentence pinyin with tones\",\n          \"english\": \"English translation of the example\",\n          \"vietnamese\": \"Vietnamese translation of the example\"\n        },\n        {\n          \"chinese\": \"Second example sentence\",\n          \"pinyin\": \"Second example with pinyin\",\n          \"english\": \"English translation\",\n          \"vietnamese\": \"Vietnamese translation\"\n        }\n      ]\n    },\n    {\n      \"chinese\": \"第二个中文含义；替代含义\",\n      \"english\": \"secondary meaning; alternative meaning\",\n      \"vietnamese\": \"Vietnamese translation; alternative translation\",\n      \"part_of_speech\": \"n/v/adj/etc\",\n      \"usage_frequency\": \"common/less common\",\n      \"examples\": [...]\n    }\n  ]\n}\n\nCRITICAL GUIDELINES:\n* Begin by thinking in Chinese (中文) about the vocabulary item's meanings and usage\n* MUST include 1-3 most common meanings - quality over quantity\n* MUST separate alternative meanings with semicolons and spaces \" ; \" (e.g., \"好的；不错的；很棒的\")\n* NEVER use forward slashes (/) to separate meanings\n* ALL \"chinese\", \"english\" and \"vietnamese\" fields MUST follow the semicolon format for alternatives\n* Chinese definitions should be natural and clear, as if explaining to a Chinese learner\n* Examples MUST be simple and suitable for beginners (HSK1-3 level)\n* MUST provide full Vietnamese translations for ALL examples\n* MUST use the correct pinyin with tones for ALL Chinese text\n* NEVER truncate or abbreviate any part of the JSON structure\n* ALWAYS include complete JSON with proper closing brackets\n\nEXAMPLE:\nFor vocabulary item \"好\":\n{\n  \"item\": \"好\",\n  \"pinyin\": \"hǎo\",\n  \"meanings\": [\n    {\n      \"chinese\": \"好的；不错的；很棒的\",\n      \"english\": \"good ; nice ; fine\",\n      \"vietnamese\": \"tốt ; hay ; được\",\n      \"part_of_speech\": \"adj\",\n      \"usage_frequency\": \"very common\",\n      \"examples\": [\n        {\n          \"chinese\": \"这本书很好。\",\n          \"pinyin\": \"Zhè běn shū hěn hǎo.\",\n          \"english\": \"This book is very good.\",\n          \"vietnamese\": \"Cuốn sách này rất hay.\"\n        },\n        {\n          \"chinese\": \"天气好。\",\n          \"pinyin\": \"Tiānqì hǎo.\",\n          \"english\": \"The weather is nice.\",\n          \"vietnamese\": \"Thời tiết tốt.\"\n        }\n      ]\n    },\n    {\n      \"chinese\": \"身体健康；状态良好\",\n      \"english\": \"to be okay ; to be well\",\n      \"vietnamese\": \"khỏe ; ổn\",\n      \"part_of_speech\": \"v\",\n      \"usage_frequency\": \"common\",\n      \"examples\": [\n        {\n          \"chinese\": \"你好吗？\",\n          \"pinyin\": \"Nǐ hǎo ma?\",\n          \"english\": \"How are you?\",\n          \"vietnamese\": \"Bạn khỏe không?\"\n        }\n      ]\n    }\n  ]\n}",
+  "stream": false,
+  "options": {
+    "temperature": 0.2,
+    "num_predict": 20000
+  }
+}
+2025-05-31 18:48:52,256 - INFO - Requesting data for vocabulary item: 一时 (attempt 1)
+2025-05-31 18:48:52,256 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-31 18:49:04,707 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-05-31 18:49:04,708 - DEBUG - API response status code: 200
+2025-05-31 18:49:04,708 - INFO - Response received for 一时 (3365 chars)
+2025-05-31 18:49:04,708 - DEBUG - Full API response text:
+2025-05-31 18:49:04,708 - DEBUG - --------------------------------------------------
+2025-05-31 18:49:04,708 - DEBUG - <think>
+好的，我现在要处理用户关于“一时”这个词的查询。首先，我需要确保自己正确理解这个词的含义和用法。用户要求先用中文思考，所以我要先回忆“一时”在中文中的常见用法。
+
+“一时”通常用来表示一段时间，比如“一时之间”或者“一时半会儿”。不过，根据HSK6级的水平，可能需要更深入的解释。我需要确认这个词的不同含义和用法，确保覆盖最常见的几种。
+
+首先，第一个含义应该是表示短暂的时间，比如“一时之间”或者“一时半会儿”。这时候，中文定义可以是“短暂的时间；片刻；一会儿”，对应的英文是“a short period of time; a moment; a while”，越南语则是“một khoảng thời gian ngắn; một khoảnh khắc; một lúc”。这个用法比较常见，所以使用频率应该是“very common”。
+
+接下来，第二个含义可能和“一时”作为副词的用法有关，比如“一时无法解决”或者“一时难以决定”。这时候，中文定义可以是“暂时；暂时地；暂时无法”，英文翻译是“temporarily; for a while; temporarily unable to”，越南语则是“tạm thời; trong một lúc; không thể làm được trong một lúc”。这个用法可能稍微少一点，但也是常见的，所以使用频率设为“common”。
+
+第三个含义可能涉及“一时”作为名词，比如“一时的快乐”或者“一时的风光”。这时候，中文定义是“短暂的；暂时的；临时的”，英文是“temporary; transient; provisional”，越南语是“tạm thời; thoáng qua; tạm thời”。这个用法可能不如前两个常见，所以使用频率设为“less common”。
+
+然后，我需要检查是否有其他可能的含义，但根据HSK6级的词汇，可能不需要更多。接下来，要确保每个部分都符合用户的要求：中文定义用分号分隔，英文和越南语同样用分号，例子要简单，适合HSK1-3级。同时，例子需要准确，比如“一时之间”对应的句子，以及“一时无法解决”这样的结构。
+
+最后，要确保JSON结构正确，没有遗漏任何字段，并且所有翻译都准确。可能还需要检查pinyin的声调是否正确，比如“yī shí”是否正确。确认所有内容后，就可以生成符合用户要求的JSON响应了。
+</think>
+
+{
+  "item": "一时",
+  "pinyin": "yī shí",
+  "meanings": [
+    {
+      "chinese": "短暂的时间；片刻；一会儿",
+      "english": "a short period of time ; a moment ; a while",
+      "vietnamese": "một khoảng thời gian ngắn ; một khoảnh khắc ; một lúc",
+      "part_of_speech": "adj",
+      "usage_frequency": "very common",
+      "examples": [
+        {
+          "chinese": "一时之间，他感到很困惑。",
+          "pinyin": "Yī shí zhī jiān, tā gǎn dào hěn kùn nán.",
+          "english": "For a moment, he felt confused.",
+          "vietnamese": "Trong một khoảnh khắc, anh ấy cảm thấy bối rối."
+        },
+        {
+          "chinese": "这个消息一时半会儿说不完。",
+          "pinyin": "Zhège xiāoxi yī shí bàn huì er shuō bù wán.",
+          "english": "This news can't be told in a short time.",
+          "vietnamese": "Thông tin này không thể kể hết trong một lúc."
+        }
+      ]
+    },
+    {
+      "chinese": "暂时；暂时地；暂时无法",
+      "english": "temporarily ; for a while ; temporarily unable to",
+      "vietnamese": "tạm thời ; trong một lúc ; không thể làm được trong một lúc",
+      "part_of_speech": "adv",
+      "usage_frequency": "common",
+      "examples": [
+        {
+          "chinese": "这个问题一时无法解决。",
+          "pinyin": "Zhège wèntí yī shí wú fǎ jiě jué.",
+          "english": "This problem can't be solved temporarily.",
+          "vietnamese": "Vấn đề này không thể giải quyết trong một lúc."
+        },
+        {
+          "chinese": "他一时难以决定。",
+          "pinyin": "Tā yī shí nán yǐ jué dìng.",
+          "english": "He was temporarily unable to decide.",
+          "vietnamese": "Anh ấy không thể quyết định trong một lúc."
+        }
+      ]
+    },
+    {
+      "chinese": "短暂的；暂时的；临时的",
+      "english": "temporary ; transient ; provisional",
+      "vietnamese": "tạm thời ; thoáng qua ; tạm thời",
+      "part_of_speech": "adj",
+      "usage_frequency": "less common",
+      "examples": [
+        {
+          "chinese": "这是一时的快乐。",
+          "pinyin": "Zhè shì yī shí de kuàilè.",
+          "english": "This is a temporary happiness.",
+          "vietnamese": "Đây là một niềm vui thoáng qua."
+        },
+        {
+          "chinese": "他的成功是一时的。",
+          "pinyin": "Tā de chénggōng shì yī shí de.",
+          "english": "His success is temporary.",
+          "vietnamese": "Thành công của anh ấy là tạm thời."
+        }
+      ]
+    }
+  ]
+}
+2025-05-31 18:49:04,708 - DEBUG - --------------------------------------------------
+2025-05-31 18:49:04,708 - DEBUG - Thinking text detected and removed (1017 chars)
+2025-05-31 18:49:04,708 - DEBUG - Extracted JSON string (2329 chars)
+2025-05-31 18:49:04,708 - INFO - Successfully parsed JSON for 一时
+2025-05-31 18:49:04,709 - INFO - Successfully enriched: 一时
+2025-05-31 18:49:05,709 - INFO - Processing vocabulary item: 一模一样
+2025-05-31 18:49:05,709 - DEBUG - System prompt:
+2025-05-31 18:49:05,709 - DEBUG - --------------------------------------------------
+2025-05-31 18:49:05,709 - DEBUG - You are a Chinese language expert (中文语言专家) with deep knowledge of Chinese vocabulary, their meanings, and Vietnamese translations. Your task is to provide clear, accurate, and structured information about Chinese vocabulary items for language learners.
+
+请首先用中文思考词汇的含义和用法，因为从中文思考可以更准确地把握词义。Think in Chinese first to better grasp the meaning before translating.
+
+For each Chinese vocabulary item provided, you will:
+1. Identify the most common 2-4 meanings (in Chinese, English, and Vietnamese)
+2. Provide Chinese definitions for each meaning
+3. Provide English translations for each meaning
+4. Provide Vietnamese translations for each meaning
+5. Create simple example sentences that show how the vocabulary item is used
+6. Rank the meanings by frequency of usage
+
+FOLLOW THIS EXACT JSON STRUCTURE:
+{
+  "item": "汉字",
+  "pinyin": "hàn zì",
+  "meanings": [
+    {
+      "chinese": "中文含义；另一个中文含义；第三个含义",
+      "english": "primary meaning in English; alternative meaning; another alternative",
+      "vietnamese": "Vietnamese translation; alternative translation; another alternative",
+      "part_of_speech": "n/v/adj/etc",
+      "usage_frequency": "very common/common/less common",
+      "examples": [
+        {
+          "chinese": "Example sentence in Chinese",
+          "pinyin": "Example sentence pinyin with tones",
+          "english": "English translation of the example",
+          "vietnamese": "Vietnamese translation of the example"
+        },
+        {
+          "chinese": "Second example sentence",
+          "pinyin": "Second example with pinyin",
+          "english": "English translation",
+          "vietnamese": "Vietnamese translation"
+        }
+      ]
+    },
+    {
+      "chinese": "第二个中文含义；替代含义",
+      "english": "secondary meaning; alternative meaning",
+      "vietnamese": "Vietnamese translation; alternative translation",
+      "part_of_speech": "n/v/adj/etc",
+      "usage_frequency": "common/less common",
+      "examples": [...]
+    }
+  ]
+}
+
+CRITICAL GUIDELINES:
+* Begin by thinking in Chinese (中文) about the vocabulary item's meanings and usage
+* MUST include 1-3 most common meanings - quality over quantity
+* MUST separate alternative meanings with semicolons and spaces " ; " (e.g., "好的；不错的；很棒的")
+* NEVER use forward slashes (/) to separate meanings
+* ALL "chinese", "english" and "vietnamese" fields MUST follow the semicolon format for alternatives
+* Chinese definitions should be natural and clear, as if explaining to a Chinese learner
+* Examples MUST be simple and suitable for beginners (HSK1-3 level)
+* MUST provide full Vietnamese translations for ALL examples
+* MUST use the correct pinyin with tones for ALL Chinese text
+* NEVER truncate or abbreviate any part of the JSON structure
+* ALWAYS include complete JSON with proper closing brackets
+
+EXAMPLE:
+For vocabulary item "好":
+{
+  "item": "好",
+  "pinyin": "hǎo",
+  "meanings": [
+    {
+      "chinese": "好的；不错的；很棒的",
+      "english": "good ; nice ; fine",
+      "vietnamese": "tốt ; hay ; được",
+      "part_of_speech": "adj",
+      "usage_frequency": "very common",
+      "examples": [
+        {
+          "chinese": "这本书很好。",
+          "pinyin": "Zhè běn shū hěn hǎo.",
+          "english": "This book is very good.",
+          "vietnamese": "Cuốn sách này rất hay."
+        },
+        {
+          "chinese": "天气好。",
+          "pinyin": "Tiānqì hǎo.",
+          "english": "The weather is nice.",
+          "vietnamese": "Thời tiết tốt."
+        }
+      ]
+    },
+    {
+      "chinese": "身体健康；状态良好",
+      "english": "to be okay ; to be well",
+      "vietnamese": "khỏe ; ổn",
+      "part_of_speech": "v",
+      "usage_frequency": "common",
+      "examples": [
+        {
+          "chinese": "你好吗？",
+          "pinyin": "Nǐ hǎo ma?",
+          "english": "How are you?",
+          "vietnamese": "Bạn khỏe không?"
+        }
+      ]
+    }
+  ]
+}
+2025-05-31 18:49:05,709 - DEBUG - --------------------------------------------------
+2025-05-31 18:49:05,709 - DEBUG - User prompt:
+2025-05-31 18:49:05,709 - DEBUG - --------------------------------------------------
+2025-05-31 18:49:05,709 - DEBUG - Provide detailed meanings, Chinese definitions, English translations, Vietnamese translations, and examples for this Chinese vocabulary item:
+
+Item: 一模一样
+HSK Level: 6
+
+请先用中文思考这个词的含义和用法，然后再翻译。首先理解这个词在中文中的确切含义，然后提供中文定义、精确的英语和越南语翻译。
+
+Remember:
+1. Provide Chinese definitions for each meaning (use " ; " between alternatives)
+2. Use " ; " (semicolons with spaces) between alternative meanings in all languages
+3. Provide complete Vietnamese translations for ALL examples
+4. Include 2-4 meanings maximum, ordered by frequency of use
+5. Keep examples simple (HSK1-3 level)
+6. Respond ONLY with the complete JSON structure with no additional text
+2025-05-31 18:49:05,709 - DEBUG - --------------------------------------------------
+2025-05-31 18:49:05,709 - DEBUG - API payload:
+2025-05-31 18:49:05,709 - DEBUG - {
+  "model": "qwen3:latest",
+  "prompt": "Provide detailed meanings, Chinese definitions, English translations, Vietnamese translations, and examples for this Chinese vocabulary item:\n\nItem: 一模一样\nHSK Level: 6\n\n请先用中文思考这个词的含义和用法，然后再翻译。首先理解这个词在中文中的确切含义，然后提供中文定义、精确的英语和越南语翻译。\n\nRemember:\n1. Provide Chinese definitions for each meaning (use \" ; \" between alternatives)\n2. Use \" ; \" (semicolons with spaces) between alternative meanings in all languages\n3. Provide complete Vietnamese translations for ALL examples\n4. Include 2-4 meanings maximum, ordered by frequency of use\n5. Keep examples simple (HSK1-3 level)\n6. Respond ONLY with the complete JSON structure with no additional text",
+  "system": "You are a Chinese language expert (中文语言专家) with deep knowledge of Chinese vocabulary, their meanings, and Vietnamese translations. Your task is to provide clear, accurate, and structured information about Chinese vocabulary items for language learners.\n\n请首先用中文思考词汇的含义和用法，因为从中文思考可以更准确地把握词义。Think in Chinese first to better grasp the meaning before translating.\n\nFor each Chinese vocabulary item provided, you will:\n1. Identify the most common 2-4 meanings (in Chinese, English, and Vietnamese)\n2. Provide Chinese definitions for each meaning\n3. Provide English translations for each meaning\n4. Provide Vietnamese translations for each meaning\n5. Create simple example sentences that show how the vocabulary item is used\n6. Rank the meanings by frequency of usage\n\nFOLLOW THIS EXACT JSON STRUCTURE:\n{\n  \"item\": \"汉字\",\n  \"pinyin\": \"hàn zì\",\n  \"meanings\": [\n    {\n      \"chinese\": \"中文含义；另一个中文含义；第三个含义\",\n      \"english\": \"primary meaning in English; alternative meaning; another alternative\",\n      \"vietnamese\": \"Vietnamese translation; alternative translation; another alternative\",\n      \"part_of_speech\": \"n/v/adj/etc\",\n      \"usage_frequency\": \"very common/common/less common\",\n      \"examples\": [\n        {\n          \"chinese\": \"Example sentence in Chinese\",\n          \"pinyin\": \"Example sentence pinyin with tones\",\n          \"english\": \"English translation of the example\",\n          \"vietnamese\": \"Vietnamese translation of the example\"\n        },\n        {\n          \"chinese\": \"Second example sentence\",\n          \"pinyin\": \"Second example with pinyin\",\n          \"english\": \"English translation\",\n          \"vietnamese\": \"Vietnamese translation\"\n        }\n      ]\n    },\n    {\n      \"chinese\": \"第二个中文含义；替代含义\",\n      \"english\": \"secondary meaning; alternative meaning\",\n      \"vietnamese\": \"Vietnamese translation; alternative translation\",\n      \"part_of_speech\": \"n/v/adj/etc\",\n      \"usage_frequency\": \"common/less common\",\n      \"examples\": [...]\n    }\n  ]\n}\n\nCRITICAL GUIDELINES:\n* Begin by thinking in Chinese (中文) about the vocabulary item's meanings and usage\n* MUST include 1-3 most common meanings - quality over quantity\n* MUST separate alternative meanings with semicolons and spaces \" ; \" (e.g., \"好的；不错的；很棒的\")\n* NEVER use forward slashes (/) to separate meanings\n* ALL \"chinese\", \"english\" and \"vietnamese\" fields MUST follow the semicolon format for alternatives\n* Chinese definitions should be natural and clear, as if explaining to a Chinese learner\n* Examples MUST be simple and suitable for beginners (HSK1-3 level)\n* MUST provide full Vietnamese translations for ALL examples\n* MUST use the correct pinyin with tones for ALL Chinese text\n* NEVER truncate or abbreviate any part of the JSON structure\n* ALWAYS include complete JSON with proper closing brackets\n\nEXAMPLE:\nFor vocabulary item \"好\":\n{\n  \"item\": \"好\",\n  \"pinyin\": \"hǎo\",\n  \"meanings\": [\n    {\n      \"chinese\": \"好的；不错的；很棒的\",\n      \"english\": \"good ; nice ; fine\",\n      \"vietnamese\": \"tốt ; hay ; được\",\n      \"part_of_speech\": \"adj\",\n      \"usage_frequency\": \"very common\",\n      \"examples\": [\n        {\n          \"chinese\": \"这本书很好。\",\n          \"pinyin\": \"Zhè běn shū hěn hǎo.\",\n          \"english\": \"This book is very good.\",\n          \"vietnamese\": \"Cuốn sách này rất hay.\"\n        },\n        {\n          \"chinese\": \"天气好。\",\n          \"pinyin\": \"Tiānqì hǎo.\",\n          \"english\": \"The weather is nice.\",\n          \"vietnamese\": \"Thời tiết tốt.\"\n        }\n      ]\n    },\n    {\n      \"chinese\": \"身体健康；状态良好\",\n      \"english\": \"to be okay ; to be well\",\n      \"vietnamese\": \"khỏe ; ổn\",\n      \"part_of_speech\": \"v\",\n      \"usage_frequency\": \"common\",\n      \"examples\": [\n        {\n          \"chinese\": \"你好吗？\",\n          \"pinyin\": \"Nǐ hǎo ma?\",\n          \"english\": \"How are you?\",\n          \"vietnamese\": \"Bạn khỏe không?\"\n        }\n      ]\n    }\n  ]\n}",
+  "stream": false,
+  "options": {
+    "temperature": 0.2,
+    "num_predict": 20000
+  }
+}
+2025-05-31 18:49:05,709 - INFO - Requesting data for vocabulary item: 一模一样 (attempt 1)
+2025-05-31 18:49:05,709 - DEBUG - Starting new HTTP connection (1): localhost:11434

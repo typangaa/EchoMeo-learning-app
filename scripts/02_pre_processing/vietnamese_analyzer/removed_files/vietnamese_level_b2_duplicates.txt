@@ -1,0 +1,10 @@
+# Vietnamese Vocabulary - CEFR Level B2 Duplicates
+# Generated: 2025-01-01 12:00:00
+# Total duplicate words: 1
+# Frequency range: Low-medium frequency words (30-39)
+
+# Within-level duplicates (same word appears multiple times in this level):
+chính phủ  # appears 2 times, frequencies: [38, 37]
+
+# Cross-level duplicates (words that also appear in other levels):
+# No cross-level duplicates found for this level

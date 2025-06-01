@@ -1,0 +1,80 @@
+# Vietnamese Vocabulary - CEFR Level B1 Duplicates
+# Generated: 2025-06-01 14:58:46
+# Total duplicate words: 39
+# Frequency range: Level B1 words
+
+# Within-level duplicates (same word appears multiple times in this level):
+khác  # appears 2 times, frequencies: [50, 50]
+Không sao  # appears 2 times, frequencies: [50, 50]
+ga  # appears 2 times, frequencies: [45, 50]
+ra  # appears 2 times, frequencies: [50, 50]
+mặc  # appears 2 times, frequencies: [50, 50]
+thứ  # appears 3 times, frequencies: [45, 50, 50]
+theo  # appears 2 times, frequencies: [50, 45]
+mở  # appears 2 times, frequencies: [50, 50]
+đến  # appears 2 times, frequencies: [50, 50]
+nghỉ phép  # appears 2 times, frequencies: [45, 45]
+tan hoc  # appears 2 times, frequencies: [45, 50]
+nói  # appears 4 times, frequencies: [50, 50, 50, 50]
+một  # appears 2 times, frequencies: [50, 50]
+tiếng Trung  # appears 2 times, frequencies: [50, 50]
+sau  # appears 2 times, frequencies: [50, 50]
+giữa  # appears 2 times, frequencies: [50, 50]
+vào  # appears 3 times, frequencies: [50, 50, 45]
+thầy  # appears 2 times, frequencies: [50, 50]
+mẹ  # appears 2 times, frequencies: [50, 50]
+không  # appears 2 times, frequencies: [50, 50]
+không sao  # appears 2 times, frequencies: [50, 50]
+cửa  # appears 2 times, frequencies: [50, 50]
+nào  # appears 2 times, frequencies: [50, 45]
+đó  # appears 2 times, frequencies: [50, 45]
+bạn  # appears 2 times, frequencies: [50, 50]
+trước  # appears 2 times, frequencies: [50, 45]
+đi  # appears 2 times, frequencies: [50, 50]
+biết  # appears 2 times, frequencies: [50, 50]
+ngày  # appears 2 times, frequencies: [50, 50]
+trên  # appears 2 times, frequencies: [50, 50]
+thời gian  # appears 2 times, frequencies: [50, 50]
+nghe  # appears 2 times, frequencies: [50, 50]
+mưa  # appears 2 times, frequencies: [50, 50]
+học sinh  # appears 2 times, frequencies: [50, 50]
+một chút  # appears 5 times, frequencies: [45, 45, 50, 50, 50]
+thỉnh thoảng  # appears 2 times, frequencies: [45, 50]
+ở  # appears 2 times, frequencies: [50, 50]
+này  # appears 2 times, frequencies: [50, 50]
+con  # appears 2 times, frequencies: [50, 50]
+
+
+# Cross-level duplicates (words that also appear in other levels):
+bàn  # also in levels: C1
+bạn  # also in levels: C1
+chiều  # also in levels: C1
+cùng nhau  # also in levels: C1
+cốc  # also in levels: C1
+em gái  # also in levels: B2
+hai  # also in levels: C1
+hát  # also in levels: C1
+họ  # also in levels: C1
+học  # also in levels: C1
+không  # also in levels: C1
+một  # also in levels: C2
+nam  # also in levels: C1
+ngày  # also in levels: C1
+năm  # also in levels: C1
+nước ngoài  # also in levels: C1
+nửa  # also in levels: C1
+quên  # also in levels: C1
+rất  # also in levels: C1
+thích  # also in levels: C1
+thường  # also in levels: C1
+trái  # also in levels: C1
+trước  # also in levels: B2
+trẻ con  # also in levels: B2
+vé  # also in levels: C1
+vẫn  # also in levels: C1
+về  # also in levels: C1
+xe  # also in levels: C2
+xin lỗi  # also in levels: C1
+đi  # also in levels: C2
+đây  # also in levels: C1
+đến  # also in levels: C1

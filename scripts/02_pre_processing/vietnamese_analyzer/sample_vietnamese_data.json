@@ -1,0 +1,120 @@
+[
+    {
+        "vietnamese": "xin chào",
+        "syllables": ["xin", "chào"],
+        "frequency": 85,
+        "pos": ["interjection"],
+        "etymology": {
+            "origin": "native_vietnamese",
+            "source_language": "vietnamese",
+            "notes": "Common greeting"
+        },
+        "forms": [
+            {
+                "transcriptions": {
+                    "tone_pattern": "low_level_high_falling"
+                },
+                "regional_variants": {
+                    "northern": "xin chào",
+                    "central": "xin chào",
+                    "southern": "xin chào"
+                }
+            }
+        ]
+    },
+    {
+        "vietnamese": "cảm ơn",
+        "syllables": ["cảm", "ơn"],
+        "frequency": 90,
+        "pos": ["interjection"],
+        "etymology": {
+            "origin": "sino_vietnamese",
+            "source_language": "chinese",
+            "chu_nom": "感恩",
+            "notes": "From Chinese expressing gratitude"
+        },
+        "forms": [
+            {
+                "transcriptions": {
+                    "tone_pattern": "low_rising_low_level"
+                },
+                "regional_variants": {
+                    "northern": "cảm ơn",
+                    "central": "cảm ơn",
+                    "southern": "cảm ơn"
+                }
+            }
+        ]
+    },
+    {
+        "vietnamese": "học sinh",
+        "syllables": ["học", "sinh"],
+        "frequency": 78,
+        "pos": ["noun"],
+        "etymology": {
+            "origin": "sino_vietnamese",
+            "source_language": "chinese",
+            "chu_nom": "學生",
+            "notes": "From Chinese 學生 (xuéshēng), meaning student"
+        },
+        "forms": [
+            {
+                "transcriptions": {
+                    "tone_pattern": "high_rising_low_level"
+                },
+                "regional_variants": {
+                    "northern": "học sinh",
+                    "central": "học sinh",
+                    "southern": "học sinh"
+                }
+            }
+        ]
+    },
+    {
+        "vietnamese": "giáo viên",
+        "syllables": ["giáo", "viên"],
+        "frequency": 72,
+        "pos": ["noun"],
+        "etymology": {
+            "origin": "sino_vietnamese",
+            "source_language": "chinese",
+            "chu_nom": "教員",
+            "notes": "From Chinese 教員 (jiàoyuán), meaning teacher/instructor"
+        },
+        "forms": [
+            {
+                "transcriptions": {
+                    "tone_pattern": "high_rising_low_level"
+                },
+                "regional_variants": {
+                    "northern": "giáo viên",
+                    "central": "giáo viên",
+                    "southern": "giáo viên"
+                }
+            }
+        ]
+    },
+    {
+        "vietnamese": "tôi",
+        "syllables": ["tôi"],
+        "frequency": 95,
+        "pos": ["pronoun"],
+        "etymology": {
+            "origin": "native_vietnamese",
+            "source_language": "vietnamese",
+            "notes": "Native Vietnamese first person pronoun"
+        },
+        "forms": [
+            {
+                "transcriptions": {
+                    "tone_pattern": "high_level"
+                },
+                "regional_variants": {
+                    "northern": "tôi",
+                    "central": "tôi",
+                    "southern": "tôi"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+# Vietnamese Vocabulary - CEFR Level B2 Duplicates
+# Generated: 2025-05-31 20:09:34
+# Total duplicate words: 0
+# Frequency range: Level B2 words
+
+# No within-level duplicates found
+
+# Cross-level duplicates (words that also appear in other levels):
+bố  # also in levels: B1
+em trai  # also in levels: B1
+học  # also in levels: B1
+trẻ con  # also in levels: B1

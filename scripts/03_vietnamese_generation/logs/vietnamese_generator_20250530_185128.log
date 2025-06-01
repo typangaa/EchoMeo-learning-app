@@ -1,0 +1,12 @@
+2025-05-30 18:51:28,316 - INFO - ======================================================================
+2025-05-30 18:51:28,316 - INFO - Vietnamese Vocabulary Generator from HSK Data
+2025-05-30 18:51:28,317 - INFO - ======================================================================
+2025-05-30 18:51:28,317 - INFO - Script location: C:\Users\TY_Windows\Documents\Development\vietnamese-chinese-learning\scripts\03_vietnamese_generation
+2025-05-30 18:51:28,317 - INFO - Project root: C:\Users\TY_Windows\Documents\Development\vietnamese-chinese-learning
+2025-05-30 18:51:28,323 - INFO - Log file: C:\Users\TY_Windows\Documents\Development\vietnamese-chinese-learning\scripts\03_vietnamese_generation\logs\vietnamese_generator_20250530_185128.log
+2025-05-30 18:51:28,323 - INFO - Using Ollama model: qwen3:latest
+2025-05-30 18:51:28,323 - INFO - Raw HSK data directory: C:\Users\TY_Windows\Documents\Development\vietnamese-chinese-learning\data\raw\exclusive
+2025-05-30 18:51:28,323 - INFO - Output directory: C:\Users\TY_Windows\Documents\Development\vietnamese-chinese-learning\data\vietnamese_generated
+2025-05-30 18:51:28,323 - INFO - Batch size: 3
+2025-05-30 18:51:28,323 - ERROR - Raw data directory does not exist: C:\Users\TY_Windows\Documents\Development\vietnamese-chinese-learning\data\raw\exclusive
+2025-05-30 18:51:28,324 - INFO - Please ensure the HSK JSON files are in the correct location.

@@ -1,0 +1,12 @@
+# Vietnamese Vocabulary - CEFR Level C2 Duplicates
+# Generated: 2025-06-01 14:58:46
+# Total duplicate words: 0
+# Frequency range: Level C2 words
+
+# No within-level duplicates found
+
+# Cross-level duplicates (words that also appear in other levels):
+một  # also in levels: B1
+nhà  # also in levels: C1
+xe  # also in levels: B1
+đi  # also in levels: B1

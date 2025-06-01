@@ -1,0 +1,159 @@
+{
+  "analysis_date": "2025-05-31T18:46:47.103131",
+  "statistics": {
+    "total_raw_vocabulary": 407,
+    "total_enriched_vocabulary": 384,
+    "total_missing_words": 23,
+    "total_extra_words": 0,
+    "completion_percentage": 94.34889434889435
+  },
+  "missing_words": [
+    "quốc",
+    "phòng",
+    "xin",
+    "điểm",
+    "những",
+    "trạm",
+    "món",
+    "miếng",
+    "khó",
+    "đập",
+    "người yêu",
+    "phía bắc",
+    "miệng",
+    "cả",
+    "kiến thức",
+    "dưới đây",
+    "thử",
+    "thẳng",
+    "lời",
+    "lớp",
+    "lái xe",
+    "trứng",
+    "tiền"
+  ],
+  "extra_words": [],
+  "categories": {
+    "by_frequency": {
+      "medium": [
+        "quốc",
+        "phòng",
+        "xin",
+        "điểm",
+        "những",
+        "trạm",
+        "món",
+        "miếng",
+        "khó",
+        "đập",
+        "người yêu",
+        "phía bắc",
+        "miệng",
+        "cả",
+        "dưới đây",
+        "thử",
+        "thẳng",
+        "lời",
+        "lớp",
+        "lái xe",
+        "trứng",
+        "tiền"
+      ],
+      "low": [
+        "kiến thức"
+      ]
+    },
+    "by_pos": {
+      "n": [
+        "quốc",
+        "phòng",
+        "điểm",
+        "trạm",
+        "món",
+        "miếng",
+        "người yêu",
+        "phía bắc",
+        "miệng",
+        "kiến thức",
+        "dưới đây",
+        "lời",
+        "lớp",
+        "trứng",
+        "tiền"
+      ],
+      "v": [
+        "xin",
+        "điểm",
+        "đập",
+        "thử",
+        "lái xe"
+      ],
+      "r": [
+        "những"
+      ],
+      "a": [
+        "khó",
+        "cả",
+        "thẳng"
+      ]
+    },
+    "by_etymology": {
+      "sino_vietnamese": [
+        "quốc",
+        "phòng",
+        "xin",
+        "điểm",
+        "những",
+        "trạm",
+        "món",
+        "miếng",
+        "khó",
+        "đập",
+        "phía bắc",
+        "miệng",
+        "cả",
+        "kiến thức",
+        "dưới đây",
+        "thử",
+        "thẳng",
+        "lời",
+        "lớp",
+        "lái xe",
+        "tiền"
+      ],
+      "native_vietnamese": [
+        "người yêu",
+        "trứng"
+      ]
+    },
+    "by_syllable_count": {
+      "1": [
+        "quốc",
+        "phòng",
+        "xin",
+        "điểm",
+        "những",
+        "trạm",
+        "món",
+        "miếng",
+        "khó",
+        "đập",
+        "miệng",
+        "cả",
+        "thử",
+        "thẳng",
+        "lời",
+        "lớp",
+        "trứng",
+        "tiền"
+      ],
+      "2": [
+        "người yêu",
+        "phía bắc",
+        "kiến thức",
+        "dưới đây",
+        "lái xe"
+      ]
+    }
+  }
+}

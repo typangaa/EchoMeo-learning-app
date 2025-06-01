@@ -1,0 +1,12 @@
+# Vietnamese Vocabulary - CEFR Level A2 Duplicates
+# Generated: 2025-01-01 12:00:00
+# Total duplicate words: 2
+# Frequency range: High frequency words (60-79)
+
+# Within-level duplicates (same word appears multiple times in this level):
+học sinh  # appears 2 times, frequencies: [78, 77]
+thích  # appears 2 times, frequencies: [72, 71]
+
+# Cross-level duplicates (words that also appear in other levels):
+xin chào  # also in levels: A1
+học  # also in levels: B1
