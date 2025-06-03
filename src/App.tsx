@@ -7,7 +7,6 @@ import ReadingPage from './pages/ReadingPage';
 import PassageDetailPage from './pages/PassageDetailPage';
 import FlashcardPage from './pages/FlashcardPage';
 import HSKFlashcardPage from './pages/HSKFlashcardPage';
-import VietnameseFlashcardPage from './pages/VietnameseFlashcardPage';
 import OldFlashcardPage from './pages/OldFlashcardPage';
 
 import Layout from './components/common/Layout';
@@ -28,7 +27,6 @@ function App() {
               <Route path="hsk" element={<HSKVocabularyPage />} />
               <Route path="flashcards" element={<FlashcardPage />} />
               <Route path="hsk-flashcards" element={<HSKFlashcardPage />} />
-              <Route path="vietnamese-flashcards" element={<VietnameseFlashcardPage />} />
               <Route path="old-flashcards" element={<OldFlashcardPage />} />
               <Route path="reading" element={<ReadingPage />} />
               <Route path="reading/:id" element={<PassageDetailPage />} />

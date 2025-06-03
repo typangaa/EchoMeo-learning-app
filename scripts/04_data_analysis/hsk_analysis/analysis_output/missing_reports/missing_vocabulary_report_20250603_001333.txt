@@ -1,0 +1,162 @@
+Missing Vocabulary Analysis Report
+========================================
+Generated: 2025-06-03 00:13:33
+
+SUMMARY STATISTICS
+--------------------
+Total Raw Vocabulary: 10,969 words
+Total Enriched Vocabulary: 5,350 words
+Missing Words: 5,621 words (51.2% gap)
+Extra Words: 2 words
+
+MISSING WORDS BY HSK LEVEL
+------------------------------
+HSK 3: 2 missing out of 953 (0.2%)
+HSK 4: 4 missing out of 972 (0.4%)
+HSK 5: 5 missing out of 1,059 (0.5%)
+HSK 6: 4 missing out of 1,123 (0.4%)
+HSK 7: 5,606 missing out of 5,606 (100.0%)
+
+DETAILED MISSING WORDS (Sample)
+-----------------------------------
+
+HSK Level 3 - Missing Words (showing 2 of 2):
+  • 文件 (wén jiàn) - Freq: 1342
+    Meanings: document; file
+  • 猪 (zhū) - Freq: 1583
+    Meanings: hog; pig
+
+HSK Level 4 - Missing Words (showing 4 of 4):
+  • 含 (hán) - Freq: 3249
+    Meanings: to keep in the mouth; to contain
+  • 的确 (dí què) - Freq: 1392
+    Meanings: really; indeed
+  • 眼泪 (yǎn lèi) - Freq: 3450
+    Meanings: tears; crying
+  • 遇到 (yù dào) - Freq: 1063
+    Meanings: to meet; to run into; to come across
+
+HSK Level 5 - Missing Words (showing 5 of 5):
+  • 不得了 (bù dé liǎo) - Freq: 8549
+    Meanings: desperately serious; disastrous
+  • 墙壁 (qiáng bì) - Freq: 7736
+    Meanings: wall
+  • 存款 (cún kuǎn) - Freq: 5825
+    Meanings: to deposit money (in a bank etc); bank savings
+  • 饮料 (yǐn liào) - Freq: 3463
+    Meanings: drink; beverage
+  • 鼻子 (bí zi) - Freq: 3484
+    Meanings: nose
+
+HSK Level 6 - Missing Words (showing 4 of 4):
+  • 特地 (tè dì) - Freq: 8288
+    Meanings: specially; for a special purpose
+  • 股票 (gǔ piào) - Freq: 2731
+    Meanings: share certificate; stock (finance)
+  • 舌头 (shé tou) - Freq: 6358
+    Meanings: tongue; enemy soldier captured for the purpose of extracting information
+  • 要素 (yào sù) - Freq: 10026
+    Meanings: essential factor; key constituent
+
+HSK Level 7 - Missing Words (showing 50 of 5606):
+  • 一一 (yī yī) - Freq: 2016
+    Meanings: one by one; one after another
+  • 一不小心 (yī bù xiǎo xīn) - Freq: 14161
+    Meanings: to be a little bit careless; to have a moment of inattentiveness
+  • 一个劲儿 (yī gè jìn r) - Freq: 35871
+    Meanings: erhua variant of 一个劲
+  • 一举 (yī jǔ) - Freq: 12406
+    Meanings: a move; an action
+  • 一举一动 (yī jǔ yī dòng) - Freq: 13650
+    Meanings: every movement; each and every move
+  • 一事无成 (yī shì wú chéng) - Freq: 22215
+    Meanings: to have achieved nothing; to be a total failure
+  • 一体 (yī tǐ) - Freq: 7220
+    Meanings: an integral whole; all concerned
+  • 一刹那 (yī chà nà) - Freq: 17189
+    Meanings: a moment; an instant
+  • 一动不动 (yī dòng bù dòng) - Freq: 16188
+    Meanings: motionless
+  • 一卡通 (Yī kǎ tōng) - Freq: 1000000
+    Meanings: the name of various contactless smart cards, notably Yikatong (mainly for public transport in Beijin...
+  • 一味 (yī wèi) - Freq: 21515
+    Meanings: blindly; invariably
+  • 一回事 (yī huí shì) - Freq: 12272
+    Meanings: one and the same (thing); one thing (as distinct from another)
+  • 一塌糊涂 (yī tā hú tu) - Freq: 11014
+    Meanings: muddled and completely collapsing (idiom); in an awful condition; complete shambles
+  • 一声不吭 (yī shēng bù kēng) - Freq: 26480
+    Meanings: to not say a word
+  • 一大早 (yī dà zǎo) - Freq: 7571
+    Meanings: at dawn; at first light
+  • 一天到晚 (yī tiān dào wǎn) - Freq: 15466
+    Meanings: all day long; the whole day
+  • 一头 (yī tóu) - Freq: 9187
+    Meanings: one head; a head full of sth
+  • 一如既往 (yī rú jì wǎng) - Freq: 9416
+    Meanings: just as in the past (idiom); as before; continuing as always
+  • 一家人 (yī jiā rén) - Freq: 16475
+    Meanings: household; the whole family
+  • 一帆风顺 (yī fān fēng shùn) - Freq: 17562
+    Meanings: propitious wind throughout the journey (idiom); plain sailing
+  • 一干二净 (yī gān èr jìng) - Freq: 23050
+    Meanings: thoroughly (idiom); completely
+  • 一年到头 (yī nián dào tóu) - Freq: 37724
+    Meanings: all year round
+  • 一应俱全 (yī yīng jù quán) - Freq: 31560
+    Meanings: with everything needed available
+  • 一度 (yī dù) - Freq: 8225
+    Meanings: for a time; at one time
+  • 一心 (yī xīn) - Freq: 9183
+    Meanings: wholeheartedly; heart and soul
+  • 一心一意 (yī xīn yī yì) - Freq: 19090
+    Meanings: concentrating one's thoughts and efforts; single-minded
+  • 一成不变 (yī chéng bù biàn) - Freq: 19445
+    Meanings: (idiom) immutable; impervious to change; set in stone
+  • 一手 (yī shǒu) - Freq: 7866
+    Meanings: a skill; mastery of a trade
+  • 一技之长 (yī jì zhī cháng) - Freq: 36099
+    Meanings: proficiency in a particular field (idiom); skill in a specialized area (idiom)
+  • 一把手 (yī bǎ shǒu) - Freq: 20084
+    Meanings: working hand; member of a work team; participant; the boss (short form of 手)
+  • 一揽子 (yī lǎn zi) - Freq: 27919
+    Meanings: all-inclusive; undiscriminating
+  • 一旁 (yī páng) - Freq: 7919
+    Meanings: aside; to the side of
+  • 一无所有 (yī wú suǒ yǒu) - Freq: 11565
+    Meanings: not having anything at all (idiom); utterly lacking; without two sticks to rub together
+  • 一无所知 (yī wú suǒ zhī) - Freq: 11975
+    Meanings: not knowing anything at all (idiom); completely ignorant; without an inkling
+  • 一早 (yī zǎo) - Freq: 6719
+    Meanings: early in the morning; at dawn
+  • 一晃 (yī huǎng) - Freq: 26016
+    Meanings: (of passing time) in an instant; (of a sight) in a flash
+  • 一概 (yī gài) - Freq: 23649
+    Meanings: all; without any exceptions
+  • 一概而论 (yī gài ér lùn) - Freq: 47671
+    Meanings: to lump different matters together (idiom)
+  • 一毛不拔 (yī máo bù bá) - Freq: 75450
+    Meanings: stingy (idiom)
+  • 一目了然 (yī mù liǎo rán) - Freq: 18968
+    Meanings: obvious at a glance (idiom)
+  • 一眼 (yī yǎn) - Freq: 12941
+    Meanings: a glance; a quick look
+  • 一瞬间 (yī shùn jiān) - Freq: 7348
+    Meanings: split second
+  • 一筹莫展 (yī chóu mò zhǎn) - Freq: 31915
+    Meanings: to be unable to find a solution; to be at wits' end
+  • 一系列 (yī xì liè) - Freq: 24973
+    Meanings: a series of; a string of
+  • 一线 (yī xiàn) - Freq: 7391
+    Meanings: front line
+  • 一经 (yī jīng) - Freq: 19599
+    Meanings: as soon as; once (an action has been completed)
+  • 一言一行 (yī yán yī xíng) - Freq: 37817
+    Meanings: every word and action (idiom)
+  • 一言不发 (yī yán bù fā) - Freq: 18750
+    Meanings: to not say a word (idiom)
+  • 一连 (yī lián) - Freq: 18593
+    Meanings: in a row; in succession
+  • 一连串 (yī lián chuàn) - Freq: 11835
+    Meanings: a succession of; a series of
+    ... and 5556 more words

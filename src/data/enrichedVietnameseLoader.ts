@@ -74,14 +74,14 @@ function generateUniqueVietnameseId(_word: string, index: number, level: number)
  */
 function normalizeVietnameseItem(item: FlexibleVietnameseItem): {
   vietnamese: string;
-  ipa: string;
+  // ipa: string;
   meanings: Array<any>;
 } {
   // Get the Vietnamese word (could be 'vietnamese' or 'word')
   const vietnamese = item.vietnamese || item.word || '';
   
   // Get the pronunciation (could be 'ipa' or 'pronunciation')
-  const ipa = item.ipa || item.pronunciation || '';
+  // const ipa = item.ipa || item.pronunciation || '';
   
   // Normalize meanings array
   let meanings: Array<any> = [];
@@ -104,7 +104,8 @@ function normalizeVietnameseItem(item: FlexibleVietnameseItem): {
     }];
   }
   
-  return { vietnamese, ipa, meanings };
+  return { vietnamese, meanings };
+
 }
 
 /**
@@ -125,7 +126,7 @@ function mapEnrichedVietnameseToVocabularyItem(
   }
   
   // Normalize the item structure
-  const { vietnamese, ipa, meanings } = normalizeVietnameseItem(enrichedItem);
+  const { vietnamese, meanings } = normalizeVietnameseItem(enrichedItem);
   
   if (!vietnamese) {
     console.warn(`[WARNING] Vietnamese item ${itemIndex} has no Vietnamese word`);
