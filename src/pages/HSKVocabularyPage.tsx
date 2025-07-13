@@ -1,15 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import HSKVocabularyList from '../components/vocabulary/HSKVocabularyList';
-import HSKDebugInfo from '../components/debug/HSKDebugInfo';
 
 const HSKVocabularyPage: React.FC = () => {
   const [showFavorites, setShowFavorites] = useState(false);
   
   return (
     <div className="max-w-4xl mx-auto">
-      {/* Temporary debug info */}
-      <HSKDebugInfo />
       
       <div className="mb-6">
         <h1 className="text-3xl font-bold mb-4">HSK Vocabulary</h1>
@@ -28,6 +25,9 @@ const HSKVocabularyPage: React.FC = () => {
                 <li>HSK Level 1: 150+ words with Vietnamese translations</li>
                 <li>HSK Level 2: 150+ words with Vietnamese translations</li>
                 <li>HSK Level 3: 300+ words with Vietnamese translations</li>
+                <li>HSK Level 4: 600+ words with Vietnamese translations</li>
+                <li>HSK Level 5: 1300+ words with Vietnamese translations</li>
+                <li>HSK Level 6: 2500+ words with Vietnamese translations</li>
                 <li>Multiple meanings per word</li>
                 <li>Usage frequency indicators</li>
                 <li>Example sentences in Chinese, Vietnamese, and English</li>
@@ -38,7 +38,7 @@ const HSKVocabularyPage: React.FC = () => {
             <div>
               <h3 className="font-semibold mb-1">Coming Soon:</h3>
               <ul className="list-disc list-inside text-gray-600 dark:text-gray-400">
-                <li>HSK Levels 4-7 with Vietnamese translations</li>
+                <li>HSK Level 7 with Vietnamese translations</li>
                 <li>Audio pronunciations</li>
                 <li>Spaced repetition practice</li>
                 <li>Character stroke order</li>

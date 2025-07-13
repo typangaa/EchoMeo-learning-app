@@ -118,9 +118,6 @@ const VietnameseFlashcard: React.FC<VietnameseFlashcardProps> = ({
         {!isFrontVietnamese && item.pinyin && (
           <p className="text-xl text-gray-600 dark:text-gray-400 mt-1">{item.pinyin}</p>
         )}
-        {item.english && isFrontVietnamese && (
-          <p className="text-xl text-gray-600 dark:text-gray-400 mt-2">{item.english}</p>
-        )}
       </div>
       
       <p className="text-sm text-center text-gray-500 dark:text-gray-400">

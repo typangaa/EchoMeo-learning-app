@@ -2,7 +2,7 @@ import { VocabularyItem } from '../types';
 
 /**
  * Vietnamese Vocabulary Loader - Handles enriched Vietnamese vocabulary data
- * Supports Vietnamese Levels 1-2 with Chinese translations, examples, and detailed meanings
+ * Supports Vietnamese Levels 1-6 with Chinese translations, examples, and detailed meanings
  */
 
 // Interface for the enriched Vietnamese JSON structure
@@ -53,6 +53,9 @@ interface FlexibleVietnameseItem {
 
 // Cache for enriched Vietnamese data
 const enrichedVietnameseCache: Record<number, VocabularyItem[]> = {};
+
+// Track active loading operations to prevent duplicates
+const activeVietnameseLoads = new Set<string>();
 
 // Simple counter to ensure unique IDs
 let vietnameseIdCounter = 200000; // Start at 200000 to avoid conflicts with HSK IDs
@@ -219,7 +222,7 @@ function mapEnrichedVietnameseToVocabularyItem(
     'particle': 'Particles'
   };
   
-  const category = categoryMap[primaryMeaning.part_of_speech.toLowerCase()] || 'Other';
+  const category = categoryMap[primaryMeaning.part_of_speech?.toLowerCase?.()] || 'Other';
   
   // Convert examples to the format expected by VocabularyItem
   const examples = processedMeanings.flatMap(meaning => {
@@ -256,9 +259,9 @@ export async function loadEnrichedVietnameseLevel(level: number): Promise<Vocabu
   }
   
   try {
-    // Currently Vietnamese levels 1-2 are available in enriched format
-    if (![1, 2].includes(level)) {
-      console.warn(`Enriched Vietnamese data only available for levels 1-2, requested level ${level}`);
+    // Currently Vietnamese levels 1-6 are available in enriched format
+    if (![1, 2, 3, 4, 5, 6].includes(level)) {
+      console.warn(`Enriched Vietnamese data only available for levels 1-6, requested level ${level}`);
       return [];
     }
     
@@ -271,14 +274,11 @@ export async function loadEnrichedVietnameseLevel(level: number): Promise<Vocabu
     
     console.log(`Loaded ${enrichedData.length} enriched Vietnamese ${level} items from assets`);
     
-    // Log structure of first item for debugging
+    // Debug: Log the structure of the first few items and any problematic items
     if (enrichedData.length > 0) {
-      console.log(`[DEBUG Vietnamese] First item structure:`, {
+      console.log(`Vietnamese ${level} first item structure:`, {
         vietnamese: enrichedData[0].vietnamese || enrichedData[0].word,
-        ipa: enrichedData[0].ipa || enrichedData[0].pronunciation,
-        meaningsType: typeof enrichedData[0].meanings,
-        meaningsIsArray: Array.isArray(enrichedData[0].meanings),
-        meaningsSample: enrichedData[0].meanings
+        meaningsCount: Array.isArray(enrichedData[0].meanings) ? enrichedData[0].meanings.length : 'not array'
       });
     }
     
@@ -324,9 +324,6 @@ export async function loadEnrichedVietnameseLevel(level: number): Promise<Vocabu
  * Progressive loading for enriched Vietnamese data
  * Simulates progressive loading by delivering items in chunks for better UX
  */
-// Track active loading operations
-const activeVietnameseLoads = new Set<string>();
-
 export function loadEnrichedVietnameseProgressively(
   level: number,
   onProgress: (items: VocabularyItem[], progress: number) => void,

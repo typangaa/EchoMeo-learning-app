@@ -2,7 +2,7 @@ import { VocabularyItem } from '../types';
 
 /**
  * HSK Vocabulary Loader - Handles enriched HSK vocabulary data
- * Supports HSK Levels 1-3 with Vietnamese translations, examples, and detailed meanings
+ * Supports HSK Levels 1-6 with Vietnamese translations, examples, and detailed meanings
  */
 
 // Interface for the enriched HSK JSON structure
@@ -33,6 +33,9 @@ interface FlexibleHSKItem {
 
 // Cache for enriched HSK data
 const enrichedCache: Record<number, VocabularyItem[]> = {};
+
+// Track active loading operations to prevent duplicates
+const activeLoads = new Set<string>();
 
 // Simple counter to ensure unique IDs
 let hskIdCounter = 100000;
@@ -198,9 +201,9 @@ export async function loadEnrichedHSKLevel(level: number): Promise<VocabularyIte
   }
   
   try {
-    // Currently HSK levels 1-3 are available in enriched format
-    if (![1, 2, 3, 4, 5].includes(level)) {
-      console.warn(`Enriched HSK data only available for levels 1-3, requested level ${level}`);
+    // Currently HSK levels 1-6 are available in enriched format
+    if (![1, 2, 3, 4, 5, 6].includes(level)) {
+      console.warn(`Enriched HSK data only available for levels 1-6, requested level ${level}`);
       return [];
     }
     
@@ -263,9 +266,6 @@ export async function loadEnrichedHSKLevel(level: number): Promise<VocabularyIte
  * Progressive loading for enriched HSK data
  * Simulates progressive loading by delivering items in chunks for better UX
  */
-// Track active loading operations
-const activeLoads = new Set<string>();
-
 export function loadEnrichedHSKProgressively(
   level: number,
   onProgress: (items: VocabularyItem[], progress: number) => void,
@@ -413,8 +413,8 @@ export function getPrimaryMeaning(item: EnhancedVocabularyItem) {
  */
 export async function loadEnhancedHSKLevelFull(level: number): Promise<EnhancedVocabularyItem[]> {
   try {
-    if (![1, 2, 3].includes(level)) {
-      console.warn(`Enriched HSK data only available for levels 1-3, requested level ${level}`);
+    if (![1, 2, 3, 4, 5, 6].includes(level)) {
+      console.warn(`Enriched HSK data only available for levels 1-6, requested level ${level}`);
       return [];
     }
     

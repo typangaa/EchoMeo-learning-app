@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import useVietnameseVocabulary from '../../hooks/useVietnameseVocabulary';
 import VietnameseVocabularyCard from './VietnameseVocabularyCard';
-import { useVocabulary } from '../../context/VocabularyContext';
-import { VocabularyItem, CEFRLevel } from '../../types';
+import { useFavorites } from '../../stores';
+import { CEFRLevel } from '../../types';
 
 interface VietnameseVocabularyListProps {
   initialLevel?: number;
@@ -18,12 +18,8 @@ const VietnameseVocabularyList: React.FC<VietnameseVocabularyListProps> = ({
   const [levelFilter, setLevelFilter] = useState<CEFRLevel | 'all'>('all');
   const [categoryFilter, setCategoryFilter] = useState<string>('all');
   
-  // Use refs to prevent unnecessary updates
-  const lastVocabularyRef = useRef<VocabularyItem[]>([]);
-  const hasUpdatedContextRef = useRef(false);
-  
-  // Use the unified vocabulary context
-  const { vietnameseFavorites, setVietnameseVocabulary } = useVocabulary();
+  // Use Zustand stores
+  const favorites = useFavorites();
   
   // Use the Vietnamese vocabulary hook
   const {
@@ -35,39 +31,11 @@ const VietnameseVocabularyList: React.FC<VietnameseVocabularyListProps> = ({
     availableLevels
   } = useVietnameseVocabulary(initialLevel, { loadProgressively: true });
   
-  // Update the context with Vietnamese vocabulary only when loading is complete
-  useEffect(() => {
-    // Only update context when:
-    // 1. Loading is complete
-    // 2. We have vocabulary items
-    // 3. The vocabulary has actually changed (different length or different items)
-    if (!loading && vocabulary.length > 0) {
-      const hasChanged = vocabulary.length !== lastVocabularyRef.current.length ||
-                        !hasUpdatedContextRef.current;
-      
-      if (hasChanged) {
-        console.log(`Updating Vietnamese vocabulary in context: ${vocabulary.length} items (was ${lastVocabularyRef.current.length})`);
-        setVietnameseVocabulary(vocabulary);
-        lastVocabularyRef.current = vocabulary;
-        hasUpdatedContextRef.current = true;
-      }
-    }
-  }, [vocabulary, loading, setVietnameseVocabulary]);
-  
-  // Reset flags when starting a new load
-  useEffect(() => {
-    if (loading && hasUpdatedContextRef.current) {
-      hasUpdatedContextRef.current = false;
-      console.log(`[VietnameseVocabularyList] Reset context update flag due to new loading`);
-    }
-  }, [loading]);
-  
   // Handle level change
   const handleLevelChange = (level: number) => {
     if (level !== selectedLevel) {
       console.log(`Changing Vietnamese level from ${selectedLevel} to ${level}`);
       setSelectedLevel(level);
-      hasUpdatedContextRef.current = false; // Reset flag for new level
       loadLevel(level);
     }
   };
@@ -84,7 +52,7 @@ const VietnameseVocabularyList: React.FC<VietnameseVocabularyListProps> = ({
     }
     
     // Apply favorites filter if requested
-    if (showFavoritesOnly && !vietnameseFavorites.includes(item.id)) {
+    if (showFavoritesOnly && !favorites.vietnamese.has(item.id)) {
       return false;
     }
     
@@ -119,36 +87,37 @@ const VietnameseVocabularyList: React.FC<VietnameseVocabularyListProps> = ({
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 mb-4">
         <h2 className="text-lg font-semibold mb-4">Vietnamese Level</h2>
         <div className="flex flex-wrap gap-2">
-          {availableLevels.map(level => (
-            <button
-              key={level}
-              className={`px-3 py-1 rounded-md transition-colors ${
-                selectedLevel === level
-                  ? 'bg-green-600 text-white'
-                  : 'bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600'
-              }`}
-              onClick={() => handleLevelChange(level)}
-              disabled={loading} // Disable during loading
-            >
-              VN {level}
-            </button>
-          ))}
+          {availableLevels.map(level => {
+            const cefrLevel = {1: 'A1', 2: 'A2', 3: 'B1', 4: 'B1', 5: 'B2', 6: 'C1'}[level] || 'A1';
+            return (
+              <button
+                key={level}
+                className={`px-3 py-2 rounded-md transition-colors ${
+                  selectedLevel === level
+                    ? 'bg-green-600 text-white'
+                    : 'bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600'
+                }`}
+                onClick={() => handleLevelChange(level)}
+                disabled={loading} // Disable during loading
+                title={`Vietnamese Level ${level} (${cefrLevel})`}
+              >
+                <div className="text-center">
+                  <div className="font-semibold">VN {level}</div>
+                  <div className="text-xs opacity-75">{cefrLevel}</div>
+                </div>
+              </button>
+            );
+          })}
           
-          {/* Show disabled buttons for unavailable levels */}
-          {[3, 4, 5].map(level => (
-            <button
-              key={level}
-              className="px-3 py-1 rounded-md bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600 cursor-not-allowed"
-              disabled
-              title="Not available yet"
-            >
-              VN {level}
-            </button>
-          ))}
         </div>
-        <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-          Currently Vietnamese Levels 1-2 are available with enriched Chinese translations.
-        </p>
+        <div className="mt-3 p-3 bg-green-50 dark:bg-green-900/20 rounded-md">
+          <p className="text-sm text-green-700 dark:text-green-300 font-medium">
+            All Vietnamese Levels 1-6 are available with enriched Chinese translations
+          </p>
+          <p className="text-xs text-green-600 dark:text-green-400 mt-1">
+            A1 (Beginner) → A2 (Elementary) → B1 (Intermediate) → B2 (Advanced) → C1 (Proficient)
+          </p>
+        </div>
       </div>
       
       {/* Search and filters */}
@@ -212,7 +181,7 @@ const VietnameseVocabularyList: React.FC<VietnameseVocabularyListProps> = ({
               <strong>Total Vietnamese {selectedLevel}:</strong> {vocabulary.length} words
             </span>
             <span>
-              <strong>Favorites:</strong> {vietnameseFavorites.length} words
+              <strong>Favorites:</strong> {favorites.vietnamese.size} words
             </span>
             <span>
               <strong>Showing:</strong> {filteredVocabulary.length} words

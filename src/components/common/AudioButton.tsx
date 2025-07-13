@@ -1,6 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import audioService from '../../utils/audioService';
-import { useAudio } from '../../contexts/AudioContext';
+import { 
+  useIsIndividualPlaying, 
+  useCurrentIndividualText,
+  useIsPassagePlaying,
+  useStopAllAudio,
+  usePlayIndividual,
+  useStopIndividual
+} from '../../stores';
 
 interface AudioButtonProps {
   text: string;
@@ -21,40 +28,39 @@ const AudioButton: React.FC<AudioButtonProps> = ({
 }) => {
   const [isPlayingLocal, setIsPlayingLocal] = useState(false);
   
-  // Get audio context to coordinate with full passage playback
-  const { 
-    state: audioState, 
-    stopAllAudio, 
-    startIndividualPlayback, 
-    stopIndividualPlayback 
-  } = useAudio();
+  // Get audio state from Zustand with stable selectors
+  const isIndividualPlaying = useIsIndividualPlaying();
+  const currentIndividualText = useCurrentIndividualText();
+  const isPassagePlaying = useIsPassagePlaying();
+  const stopAllAudio = useStopAllAudio();
+  const playIndividual = usePlayIndividual();
+  const stopIndividual = useStopIndividual();
   
   // Check if this specific text is currently playing
-  const isThisTextPlaying = audioState.isIndividualPlaying && 
-                           audioState.currentIndividualText === text &&
+  const isThisTextPlaying = isIndividualPlaying && 
+                           currentIndividualText === text &&
                            isPlayingLocal;
 
-  // Stop local playback if another audio starts playing
+  // Sync local state with Zustand state
   useEffect(() => {
-    if (audioState.isPlaying || 
-        (audioState.isIndividualPlaying && audioState.currentIndividualText !== text)) {
-      if (isPlayingLocal) {
-        console.log('[DEBUG AudioButton] Stopping local playback due to other audio');
-        setIsPlayingLocal(false);
-      }
+    if (isPassagePlaying || 
+        (isIndividualPlaying && currentIndividualText !== text)) {
+      setIsPlayingLocal(false);
+    } else if (isIndividualPlaying && currentIndividualText === text) {
+      setIsPlayingLocal(true);
+    } else if (!isIndividualPlaying) {
+      setIsPlayingLocal(false);
+      onPlayEnd?.();
     }
-  }, [audioState.isPlaying, audioState.isIndividualPlaying, audioState.currentIndividualText, text, isPlayingLocal]);
+  }, [isPassagePlaying, isIndividualPlaying, currentIndividualText, text, onPlayEnd]);
 
   const handlePlay = async () => {
     if (isPlayingLocal) {
-      console.log('[DEBUG AudioButton] Already playing this audio, stopping it');
       stopAllAudio();
       setIsPlayingLocal(false);
-      stopIndividualPlayback();
+      stopIndividual();
       return;
     }
-    
-    console.log(`[DEBUG AudioButton] Starting individual audio: "${text.substring(0, 30)}${text.length > 30 ? '...' : ''}" in ${language}`);
     
     // Stop any currently playing audio (passage or other individual audio)
     stopAllAudio();
@@ -62,24 +68,13 @@ const AudioButton: React.FC<AudioButtonProps> = ({
     // Wait a moment for the stop to take effect
     await new Promise(resolve => setTimeout(resolve, 100));
     
-    // Notify context that we're starting individual playback
-    startIndividualPlayback(text);
+    // Start individual playback using Zustand
+    playIndividual(text, language);
     setIsPlayingLocal(true);
     onPlayStart?.();
     
-    try {
-      await audioService.playText(text, language);
-      console.log(`[DEBUG AudioButton] Successfully completed individual audio`);
-    } catch (error) {
-      console.error('[DEBUG AudioButton] Error playing individual audio:', error);
-    } finally {
-      // Only update state if this component is still the active one
-      if (audioState.currentIndividualText === text) {
-        setIsPlayingLocal(false);
-        stopIndividualPlayback();
-      }
-      onPlayEnd?.();
-    }
+    // Note: playIndividual already handles the audio playback via audioService
+    // No need for additional audioService.playText() call here
   };
   
   // Determine if this button should show as active

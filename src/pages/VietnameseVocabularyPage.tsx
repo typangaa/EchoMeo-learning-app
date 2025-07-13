@@ -1,15 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import VietnameseVocabularyList from '../components/vocabulary/VietnameseVocabularyList';
-import VietnameseDebugInfo from '../components/debug/VietnameseDebugInfo';
 
 const VietnameseVocabularyPage: React.FC = () => {
   const [showFavorites, setShowFavorites] = useState(false);
   
   return (
     <div className="max-w-4xl mx-auto">
-      {/* Temporary debug info */}
-      <VietnameseDebugInfo />
       
       <div className="mb-6">
         <h1 className="text-3xl font-bold mb-4">Vietnamese Vocabulary</h1>
@@ -27,7 +24,11 @@ const VietnameseVocabularyPage: React.FC = () => {
               <h3 className="font-semibold mb-1">Available Content:</h3>
               <ul className="list-disc list-inside text-gray-600 dark:text-gray-400">
                 <li>Vietnamese Level 1 (A1): 500+ beginner words with Chinese translations</li>
-                <li>Vietnamese Level 2 (A2): 500+ intermediate words with Chinese translations</li>
+                <li>Vietnamese Level 2 (A2): 500+ elementary words with Chinese translations</li>
+                <li>Vietnamese Level 3 (B1): 1000+ intermediate words with Chinese translations</li>
+                <li>Vietnamese Level 4 (B1): 1000+ upper-intermediate words with Chinese translations</li>
+                <li>Vietnamese Level 5 (B2): 1500+ advanced words with Chinese translations</li>
+                <li>Vietnamese Level 6 (C1): 2000+ proficient words with Chinese translations</li>
                 <li>Multiple meanings and usage contexts per word</li>
                 <li>Etymology information (Sino-Vietnamese, Native Vietnamese, etc.)</li>
                 <li>Frequency ratings to help prioritize learning</li>

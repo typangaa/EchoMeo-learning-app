@@ -1,8 +1,7 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import useHSKVocabulary from '../../hooks/useHSKVocabulary';
 import HSKVocabularyCard from './HSKVocabularyCard';
-import { useVocabulary } from '../../context/VocabularyContext';
-import { VocabularyItem } from '../../types';
+import { useFavorites } from '../../stores';
 
 interface HSKVocabularyListProps {
   initialLevel?: number;
@@ -16,12 +15,8 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedLevel, setSelectedLevel] = useState<number>(initialLevel);
   
-  // Use refs to prevent unnecessary updates
-  const lastVocabularyRef = useRef<VocabularyItem[]>([]);
-  const hasUpdatedContextRef = useRef(false);
-  
-  // Use the unified vocabulary context
-  const { hskFavorites, setHskVocabulary } = useVocabulary();
+  // Use Zustand stores
+  const favorites = useFavorites();
   
   // Use the HSK vocabulary hook
   const {
@@ -33,39 +28,11 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
     availableLevels
   } = useHSKVocabulary(initialLevel, { loadProgressively: true });
   
-  // Update the context with HSK vocabulary only when loading is complete
-  useEffect(() => {
-    // Only update context when:
-    // 1. Loading is complete
-    // 2. We have vocabulary items
-    // 3. The vocabulary has actually changed (different length or different items)
-    if (!loading && vocabulary.length > 0) {
-      const hasChanged = vocabulary.length !== lastVocabularyRef.current.length ||
-                        !hasUpdatedContextRef.current;
-      
-      if (hasChanged) {
-        console.log(`Updating HSK vocabulary in context: ${vocabulary.length} items (was ${lastVocabularyRef.current.length})`);
-        setHskVocabulary(vocabulary);
-        lastVocabularyRef.current = vocabulary;
-        hasUpdatedContextRef.current = true;
-      }
-    }
-  }, [vocabulary, loading, setHskVocabulary]);
-  
-  // Reset flags when starting a new load
-  useEffect(() => {
-    if (loading && hasUpdatedContextRef.current) {
-      hasUpdatedContextRef.current = false;
-      console.log(`[HSKVocabularyList] Reset context update flag due to new loading`);
-    }
-  }, [loading]);
-  
   // Handle level change
   const handleLevelChange = (level: number) => {
     if (level !== selectedLevel) {
       console.log(`Changing HSK level from ${selectedLevel} to ${level}`);
       setSelectedLevel(level);
-      hasUpdatedContextRef.current = false; // Reset flag for new level
       loadLevel(level);
     }
   };
@@ -79,7 +46,7 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
     }
     
     // Apply favorites filter if requested
-    if (showFavoritesOnly && !hskFavorites.includes(item.id)) {
+    if (showFavoritesOnly && !favorites.hsk.has(item.id)) {
       return false;
     }
     
@@ -122,7 +89,7 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
           ))}
           
           {/* Show disabled buttons for unavailable levels */}
-          {[6, 7].map(level => (
+          {[7].map(level => (
             <button
               key={level}
               className="px-3 py-1 rounded-md bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600 cursor-not-allowed"
@@ -133,9 +100,14 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
             </button>
           ))}
         </div>
-        <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-          Currently HSK Levels 1-3 are available with enriched Vietnamese translations.
-        </p>
+        <div className="mt-3 p-3 bg-red-50 dark:bg-red-900/20 rounded-md">
+          <p className="text-sm text-red-700 dark:text-red-300 font-medium">
+            All HSK Levels 1-6 are available with enriched Vietnamese translations
+          </p>
+          <p className="text-xs text-red-600 dark:text-red-400 mt-1">
+            Beginner (HSK 1-2) → Intermediate (HSK 3-4) → Advanced (HSK 5-6)
+          </p>
+        </div>
       </div>
       
       {/* Search input */}
@@ -158,7 +130,7 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
               <strong>Total HSK {selectedLevel}:</strong> {vocabulary.length} words
             </span>
             <span>
-              <strong>Favorites:</strong> {hskFavorites.length} words
+              <strong>Favorites:</strong> {favorites.hsk.size} words
             </span>
             <span>
               <strong>Showing:</strong> {filteredVocabulary.length} words

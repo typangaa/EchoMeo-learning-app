@@ -35,8 +35,8 @@ export function useVietnameseVocabulary(
   const loadingLevelRef = useRef<number | null>(null);
   const initializedRef = useRef<boolean>(false);
   
-  // Currently Vietnamese 1-2 are available with enriched data
-  const availableLevels = [1, 2];
+  // Currently Vietnamese 1-6 are available with enriched data
+  const availableLevels = [1, 2, 3, 4, 5, 6];
   
   // Default options
   const { loadProgressively = true } = options;
@@ -53,7 +53,7 @@ export function useVietnameseVocabulary(
     
     // Check if level is available
     if (!availableLevels.includes(level)) {
-      setError(new Error(`Vietnamese Level ${level} is not available. Only Vietnamese Levels 1-2 have enriched data.`));
+      setError(new Error(`Vietnamese Level ${level} is not available. Only Vietnamese Levels 1-6 have enriched data.`));
       setLoading(false);
       return;
     }
@@ -130,7 +130,7 @@ export function useVietnameseVocabulary(
       loadLevel(initialLevel);
     } else if (!initializedRef.current && initialLevel && !availableLevels.includes(initialLevel)) {
       initializedRef.current = true;
-      setError(new Error(`Vietnamese Level ${initialLevel} is not available. Only Vietnamese Levels 1-2 have enriched data.`));
+      setError(new Error(`Vietnamese Level ${initialLevel} is not available. Only Vietnamese Levels 1-6 have enriched data.`));
     }
   }, [initialLevel, loadLevel, availableLevels]);
   
