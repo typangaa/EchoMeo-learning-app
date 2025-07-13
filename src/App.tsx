@@ -8,6 +8,7 @@ import PassageDetailPage from './pages/PassageDetailPage';
 import FlashcardPage from './pages/FlashcardPage';
 import HSKFlashcardPage from './pages/HSKFlashcardPage';
 import VietnameseFlashcardPage from './pages/VietnameseFlashcardPage';
+import SettingsPage from './pages/SettingsPage';
 
 import Layout from './components/common/Layout';
 import NotFoundPage from './pages/NotFoundPage';
@@ -41,6 +42,7 @@ function App() {
           <Route path="vietnamese-flashcards" element={<VietnameseFlashcardPage />} />
           <Route path="reading" element={<ReadingPage />} />
           <Route path="reading/:id" element={<PassageDetailPage />} />
+          <Route path="settings" element={<SettingsPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>

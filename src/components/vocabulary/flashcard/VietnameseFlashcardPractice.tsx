@@ -165,15 +165,6 @@ const VietnameseFlashcardPractice: React.FC<VietnameseFlashcardPracticeProps> = 
   
   return (
     <div className="max-w-4xl mx-auto">
-      <div className="mb-6">
-        <div className="bg-green-50 dark:bg-green-900/20 rounded-lg p-4 mb-4">
-          <h3 className="text-lg font-semibold mb-2 text-green-800 dark:text-green-200">Vietnamese Level {vietnameseLevel} Flashcard Practice</h3>
-          <p className="text-sm text-green-700 dark:text-green-300">
-            Practice Vietnamese vocabulary with comprehensive Chinese translations and cultural context. 
-            <span className="font-medium">Direction: Vietnamese → Chinese</span>
-          </p>
-        </div>
-      </div>
       
       <div className="mb-6 flex justify-between items-center">
         <div>

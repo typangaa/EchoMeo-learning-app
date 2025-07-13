@@ -81,6 +81,15 @@ const Navbar = () => {
               Reading
             </NavLink>
             
+            <NavLink 
+              to="/settings" 
+              className={({ isActive }) => 
+                isActive ? "text-gray-800 dark:text-gray-200" : "hover:text-gray-600 dark:hover:text-gray-400"
+              }
+            >
+              ⚙️ Settings
+            </NavLink>
+            
             <button 
               onClick={toggleDarkMode}
               className="p-2 rounded-full bg-gray-200 dark:bg-gray-700"
@@ -145,6 +154,16 @@ const Navbar = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Reading
+              </NavLink>
+              
+              <NavLink 
+                to="/settings" 
+                className={({ isActive }) => 
+                  isActive ? "text-gray-800 dark:text-gray-200" : "hover:text-gray-600 dark:hover:text-gray-400"
+                }
+                onClick={() => setIsMenuOpen(false)}
+              >
+                ⚙️ Settings
               </NavLink>
               
               <button 

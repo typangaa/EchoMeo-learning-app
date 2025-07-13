@@ -39,8 +39,11 @@ const VietnameseFlashcard: React.FC<VietnameseFlashcardProps> = ({
   
   // Function to play audio for the current card
   const playCardAudio = () => {
-    if (isPlayingAudio) return; // Avoid overlapping audio playback
+    // Stop any currently playing audio before starting new audio
+    audioService.stop();
+    setIsPlayingAudio(false);
     
+    // Start playing new audio
     setIsPlayingAudio(true);
     
     // Determine the text and language based on the current direction

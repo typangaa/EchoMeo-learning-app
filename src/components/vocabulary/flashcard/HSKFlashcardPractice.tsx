@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { VocabularyItem } from '../../../types';
 import { LanguageDirection } from '../../common/LanguageDirectionToggle';
 import HSKFlashcard from './HSKFlashcard';
-import AutoplayToggle from '../../common/AutoplayToggle';
 import { updateVocabularyProgress, updateStudyTime } from '../../../utils/progressTracking';
 
 interface HSKFlashcardPracticeProps {
@@ -171,15 +170,6 @@ const HSKFlashcardPractice: React.FC<HSKFlashcardPracticeProps> = ({
   
   return (
     <div className="max-w-4xl mx-auto">
-      <div className="mb-6">
-        <div className="bg-red-50 dark:bg-red-900/20 rounded-lg p-4 mb-4">
-          <h3 className="text-lg font-semibold mb-2 text-red-800 dark:text-red-200">HSK {hskLevel} Flashcard Practice</h3>
-          <p className="text-sm text-red-700 dark:text-red-300">
-            Practice Chinese HSK vocabulary with spaced repetition. 
-            <span className="font-medium">Direction: Chinese Characters → Vietnamese Translation</span>
-          </p>
-        </div>
-      </div>
       
       <div className="mb-6 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4">
         <div>
@@ -192,9 +182,6 @@ const HSKFlashcardPractice: React.FC<HSKFlashcardPracticeProps> = ({
         </div>
         
         <div className="flex flex-col sm:flex-row items-center gap-4">
-          {/* Autoplay toggle */}
-          <AutoplayToggle className="w-full sm:w-auto min-w-[280px]" />
-          
           <button
             onClick={onComplete}
             className="text-sm text-gray-600 dark:text-gray-400 underline hover:text-gray-800 dark:hover:text-gray-200 whitespace-nowrap"

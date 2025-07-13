@@ -7,20 +7,20 @@ const ReadingPage = () => {
   const [selectedLevel, setSelectedLevel] = useState('all');
 
   return (
-    <div className="max-w-6xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">
         <span className="vietnamese-text">Đọc hiểu</span> - <span className="chinese-text">阅读理解</span>
       </h1>
       
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-        <div className="md:col-span-1">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 sm:gap-6">
+        <div className="lg:col-span-1 order-2 lg:order-1">
           <ReadingFilters 
             selectedLevel={selectedLevel} 
             setSelectedLevel={setSelectedLevel} 
           />
         </div>
         
-        <div className="md:col-span-3">
+        <div className="lg:col-span-3 order-1 lg:order-2">
           <ReadingList 
             passages={allReadings} 
             selectedLevel={selectedLevel} 
