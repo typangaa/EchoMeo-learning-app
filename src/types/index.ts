@@ -27,7 +27,7 @@ export interface ReadingPassage {
     chinese: string;
     pinyin?: string;
   }>;
-  vocabulary: VocabularyItem[];
+  vocabulary?: VocabularyItem[];
   questions?: Array<{
     question: {
       vietnamese: string;

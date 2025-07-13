@@ -1,17 +1,4 @@
 import { ReadingPassage } from '../../types';
-import { a1Vocabulary } from '../vocabulary/a1Vocabulary';
-
-// Helper function to find vocabulary items used in a passage
-const findVocabularyInText = (text: string): number[] => {
-  // Get vocabulary IDs that appear in the text
-  return a1Vocabulary
-    .filter(item => {
-      // Check if the Vietnamese word appears in the text (case insensitive)
-      const vietnameseRegex = new RegExp(`\\b${item.vietnamese}\\b`, 'i');
-      return vietnameseRegex.test(text);
-    })
-    .map(item => item.id);
-};
 
 // A1 Level reading passages
 export const a1Readings: ReadingPassage[] = [
@@ -75,15 +62,7 @@ export const a1Readings: ReadingPassage[] = [
         chinese: "再见！下次见。",
         pinyin: "Zàijiàn! Xià cì jiàn."
       }
-    ],
-    get vocabulary() {
-      // Combine all paragraphs to find vocabulary
-      const allText = this.paragraphs.map(p => p.vietnamese).join(' ');
-      // Get vocabulary IDs
-      const vocabIds = findVocabularyInText(allText);
-      // Return vocabulary items
-      return a1Vocabulary.filter(item => vocabIds.includes(item.id));
-    }
+    ]
   },
 
   // Passage 2: At a Restaurant
@@ -176,12 +155,7 @@ export const a1Readings: ReadingPassage[] = [
         chinese: "这是钱。非常感谢。",
         pinyin: "Zhè shì qián. Fēicháng gǎnxiè."
       }
-    ],
-    get vocabulary() {
-      const allText = this.paragraphs.map(p => p.vietnamese).join(' ');
-      const vocabIds = findVocabularyInText(allText);
-      return a1Vocabulary.filter(item => vocabIds.includes(item.id));
-    }
+    ]
   },
 
   // Passage 3: My Family
@@ -244,12 +218,7 @@ export const a1Readings: ReadingPassage[] = [
         chinese: "我非常爱我的家庭。",
         pinyin: "Wǒ fēicháng ài wǒ de jiātíng."
       }
-    ],
-    get vocabulary() {
-      const allText = this.paragraphs.map(p => p.vietnamese).join(' ');
-      const vocabIds = findVocabularyInText(allText);
-      return a1Vocabulary.filter(item => vocabIds.includes(item.id));
-    }
+    ]
   },
 
   // Passage 4: Weather and Seasons
@@ -312,12 +281,7 @@ export const a1Readings: ReadingPassage[] = [
         chinese: "明天会下雨。你应该带伞。",
         pinyin: "Míngtiān huì xià yǔ. Nǐ yīnggāi dài sǎn."
       }
-    ],
-    get vocabulary() {
-      const allText = this.paragraphs.map(p => p.vietnamese).join(' ');
-      const vocabIds = findVocabularyInText(allText);
-      return a1Vocabulary.filter(item => vocabIds.includes(item.id));
-    }
+    ]
   },
 
   // Passage 5: Shopping
@@ -400,12 +364,7 @@ export const a1Readings: ReadingPassage[] = [
         chinese: "谢谢。再见！",
         pinyin: "Xièxie. Zàijiàn!"
       }
-    ],
-    get vocabulary() {
-      const allText = this.paragraphs.map(p => p.vietnamese).join(' ');
-      const vocabIds = findVocabularyInText(allText);
-      return a1Vocabulary.filter(item => vocabIds.includes(item.id));
-    }
+    ]
   },
 
   // Passage 6: Daily Routine
@@ -473,12 +432,7 @@ export const a1Readings: ReadingPassage[] = [
         chinese: "我通常晚上十一点睡觉。",
         pinyin: "Wǒ tōngcháng wǎnshang shíyī diǎn shuìjiào."
       }
-    ],
-    get vocabulary() {
-      const allText = this.paragraphs.map(p => p.vietnamese).join(' ');
-      const vocabIds = findVocabularyInText(allText);
-      return a1Vocabulary.filter(item => vocabIds.includes(item.id));
-    }
+    ]
   },
   
   // Passage 7: Asking for Directions
@@ -546,12 +500,7 @@ export const a1Readings: ReadingPassage[] = [
         chinese: "不客气。祝你好运！",
         pinyin: "Bú kèqi. Zhù nǐ hǎo yùn!"
       }
-    ],
-    get vocabulary() {
-      const allText = this.paragraphs.map(p => p.vietnamese).join(' ');
-      const vocabIds = findVocabularyInText(allText);
-      return a1Vocabulary.filter(item => vocabIds.includes(item.id));
-    }
+    ]
   },
   
   // Passage 8: Making Plans with Friends
@@ -619,12 +568,7 @@ export const a1Readings: ReadingPassage[] = [
         chinese: "太好了！回头见。",
         pinyin: "Tài hǎo le! Huítóu jiàn."
       }
-    ],
-    get vocabulary() {
-      const allText = this.paragraphs.map(p => p.vietnamese).join(' ');
-      const vocabIds = findVocabularyInText(allText);
-      return a1Vocabulary.filter(item => vocabIds.includes(item.id));
-    }
+    ]
   },
   
   // Passage 9: Describing a Person
@@ -687,12 +631,7 @@ export const a1Readings: ReadingPassage[] = [
         chinese: "我很高兴有一个像明这样的朋友。",
         pinyin: "Wǒ hěn gāoxìng yǒu yí gè xiàng Míng zhèyàng de péngyou."
       }
-    ],
-    get vocabulary() {
-      const allText = this.paragraphs.map(p => p.vietnamese).join(' ');
-      const vocabIds = findVocabularyInText(allText);
-      return a1Vocabulary.filter(item => vocabIds.includes(item.id));
-    }
+    ]
   },
   
   // Passage 10: Hobbies and Interests
@@ -760,12 +699,7 @@ export const a1Readings: ReadingPassage[] = [
         chinese: "你有什么爱好？你闲暇时喜欢做什么？",
         pinyin: "Nǐ yǒu shénme àihào? Nǐ xiánxiá shí xǐhuan zuò shénme?"
       }
-    ],
-    get vocabulary() {
-      const allText = this.paragraphs.map(p => p.vietnamese).join(' ');
-      const vocabIds = findVocabularyInText(allText);
-      return a1Vocabulary.filter(item => vocabIds.includes(item.id));
-    }
+    ]
   }
 ];
 

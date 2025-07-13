@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { VocabularyItem } from '../../types';
-import { useVocabulary } from '../../context/VocabularyContext';
+import { useToggleFavorite, useIsFavorite } from '../../stores';
 import AudioButton from '../common/AudioButton';
 
 interface HSKVocabularyCardProps {
@@ -9,8 +9,8 @@ interface HSKVocabularyCardProps {
 
 const HSKVocabularyCard: React.FC<HSKVocabularyCardProps> = ({ item }) => {
   const [showDetails, setShowDetails] = useState(false);
-  const { isFavorite, toggleFavorite } = useVocabulary();
-  const isItemFavorite = isFavorite(item.id, 'hsk');
+  const toggleFavorite = useToggleFavorite();
+  const isItemFavorite = useIsFavorite('hsk', item.id);
   
   const toggleDetails = () => {
     setShowDetails(!showDetails);
@@ -18,7 +18,7 @@ const HSKVocabularyCard: React.FC<HSKVocabularyCardProps> = ({ item }) => {
   
   const handleToggleFavorite = (e: React.MouseEvent) => {
     e.stopPropagation();
-    toggleFavorite(item.id, 'hsk');
+    toggleFavorite('hsk', item.id);
   };
   
   // Create a wrapper for AudioButton that prevents event propagation

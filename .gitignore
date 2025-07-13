@@ -42,3 +42,8 @@ __pycache__/
 # Scripts data directory
 scripts/data/
 scripts/log/
+scripts/logs/
+*.log
+
+# Claude Code configuration (may contain secrets)
+.claude/

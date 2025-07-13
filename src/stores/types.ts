@@ -5,7 +5,7 @@ import { VocabularyItem } from '../types';
 // Core Types
 // =============================================================================
 
-export type VocabType = 'regular' | 'hsk' | 'vietnamese';
+export type VocabType = 'hsk' | 'vietnamese';
 export type StudySessionType = 'flashcard' | 'reading' | 'quiz';
 export type LayoutMode = 'list' | 'grid' | 'cards';
 
@@ -47,13 +47,11 @@ export interface VocabularyFilters {
 }
 
 export interface VocabularyLoadingState {
-  regular: boolean;
   hsk: boolean;
   vietnamese: boolean;
 }
 
 export interface FavoritesState {
-  regular: Set<number>;
   hsk: Set<number>;
   vietnamese: Set<number>;
 }
@@ -113,6 +111,15 @@ export interface AudioState {
   volume: number;
   queue: AudioQueueItem[];
   queueIndex: number;
+  // Passage playback state
+  isPassagePlaying: boolean;
+  currentPassageId: string | null;
+  currentParagraphIndex: number | null; // -1 for title, >= 0 for paragraphs
+  passageLanguage: 'vietnamese' | 'chinese' | null;
+  // Individual audio state
+  isIndividualPlaying: boolean;
+  currentIndividualText: string | null;
+  error: string | null;
 }
 
 // =============================================================================
@@ -174,7 +181,6 @@ export interface UserStore {
 
 export interface VocabularyStore {
   // Data
-  regularVocabulary: VocabularyItem[];
   hskVocabulary: Map<number, VocabularyItem[]>; // Level-based
   vietnameseVocabulary: Map<string, VocabularyItem[]>; // CEFR-based
   
@@ -188,6 +194,9 @@ export interface VocabularyStore {
   // Loading states
   loading: VocabularyLoadingState;
   error: string | null;
+  
+  // Memoization cache for filtered results
+  _memoizedFilters?: Record<string, VocabularyItem[]>;
   
   // Actions
   loadVocabulary: (type: VocabType, level?: number | string) => Promise<void>;
@@ -235,6 +244,17 @@ export interface AudioStore extends AudioState {
   clearQueue: () => void;
   nextInQueue: () => void;
   previousInQueue: () => void;
+  // Passage playback actions
+  playPassage: (passage: any, language: 'vietnamese' | 'chinese') => Promise<void>;
+  stopPassage: () => void;
+  pausePassage: () => void;
+  // Individual audio actions
+  playIndividual: (text: string, language: 'vietnamese' | 'chinese') => void;
+  stopIndividual: () => void;
+  stopAllAudio: () => void;
+  // Error handling
+  setError: (error: string) => void;
+  clearError: () => void;
 }
 
 export interface UIStore extends UIState {

@@ -184,11 +184,45 @@ export const useAudioQueueActions = () => useAudioStore((state) => ({
   previousInQueue: state.previousInQueue
 }));
 
+// Passage playback hooks
+export const useIsPassagePlaying = () => useAudioStore((state) => state.isPassagePlaying);
+export const useCurrentPassageId = () => useAudioStore((state) => state.currentPassageId);
+export const useCurrentParagraphIndex = () => useAudioStore((state) => state.currentParagraphIndex);
+export const usePassageLanguage = () => useAudioStore((state) => state.passageLanguage);
+export const usePlayPassage = () => useAudioStore((state) => state.playPassage);
+export const useStopPassage = () => useAudioStore((state) => state.stopPassage);
+export const usePausePassage = () => useAudioStore((state) => state.pausePassage);
+
+export const usePassagePlayback = () => useAudioStore((state) => ({
+  playPassage: state.playPassage,
+  stopPassage: state.stopPassage,
+  pausePassage: state.pausePassage
+}));
+
+// Individual audio hooks
+export const useIsIndividualPlaying = () => useAudioStore((state) => state.isIndividualPlaying);
+export const useCurrentIndividualText = () => useAudioStore((state) => state.currentIndividualText);
+export const usePlayIndividual = () => useAudioStore((state) => state.playIndividual);
+export const useStopIndividual = () => useAudioStore((state) => state.stopIndividual);
+
+export const useIndividualAudio = () => useAudioStore((state) => ({
+  playIndividual: state.playIndividual,
+  stopIndividual: state.stopIndividual
+}));
+
+// General audio hooks
+export const useAudioError = () => useAudioStore((state) => state.error);
+export const useStopAllAudio = () => useAudioStore((state) => state.stopAllAudio);
+export const useAudioErrorActions = () => useAudioStore((state) => ({
+  setError: state.setError,
+  clearError: state.clearError
+}));
+
 // =============================================================================
 // VOCABULARY STORE HOOKS
 // =============================================================================
 
-export const useRegularVocabulary = () => useVocabularyStore((state) => state.regularVocabulary);
+// Removed legacy regular vocabulary - only HSK and Vietnamese systems remain
 export const useHSKVocabulary = () => useVocabularyStore((state) => state.hskVocabulary);
 export const useVietnameseVocabulary = () => useVocabularyStore((state) => state.vietnameseVocabulary);
 export const useFavorites = () => useVocabularyStore((state) => state.favorites);
@@ -197,34 +231,106 @@ export const useVocabularySearchTerm = () => useVocabularyStore((state) => state
 export const useVocabularyLoading = () => useVocabularyStore((state) => state.loading);
 export const useVocabularyError = () => useVocabularyStore((state) => state.error);
 
-// Vocabulary loading actions
+// Vocabulary loading actions (individual stable hooks)
+export const useLoadVocabulary = () => useVocabularyStore((state) => state.loadVocabulary);
+export const useClearVocabularyError = () => useVocabularyStore((state) => state.clearError);
+
+// Favorites actions (individual stable hooks)
+export const useToggleFavorite = () => useVocabularyStore((state) => state.toggleFavorite);
+export const useGetFavoriteCount = () => useVocabularyStore((state) => state.getFavoriteCount);
+
+// Filter and search actions (individual stable hooks)
+export const useSetFilters = () => useVocabularyStore((state) => state.setFilters);
+export const useSetSearchTerm = () => useVocabularyStore((state) => state.setSearchTerm);
+
+// Legacy object-returning hooks (for backward compatibility, but these cause re-renders)
 export const useVocabularyLoader = () => useVocabularyStore((state) => ({
   loadVocabulary: state.loadVocabulary,
   clearError: state.clearError
 }));
 
-// Favorites actions
 export const useFavoritesActions = () => useVocabularyStore((state) => ({
   toggleFavorite: state.toggleFavorite,
   getFavoriteCount: state.getFavoriteCount
 }));
 
-// Filter and search actions
 export const useVocabularyFilterActions = () => useVocabularyStore((state) => ({
   setFilters: state.setFilters,
   setSearchTerm: state.setSearchTerm
 }));
 
-// Computed selectors
-export const useFilteredVocabulary = (type: 'regular' | 'hsk' | 'vietnamese', level?: number | string) => 
-  useVocabularyStore((state) => state.getFilteredVocabulary(type, level));
+// Computed selectors with memoization
+export const useFilteredVocabulary = (type: 'hsk' | 'vietnamese', level?: number | string) => {
+  return useVocabularyStore((state) => {
+    const vocabulary = type === 'hsk' && typeof level === 'number' ? state.hskVocabulary.get(level) || [] :
+                     type === 'vietnamese' && typeof level === 'string' ? state.vietnameseVocabulary.get(level) || [] : [];
+    
+    const { searchTerm, filters } = state;
+    
+    // Create a stable key for memoization
+    const filterKey = JSON.stringify({
+      searchTerm,
+      levels: filters.levels,
+      categories: filters.categories,
+      onlyFavorites: filters.onlyFavorites,
+      hasAudio: filters.hasAudio,
+      favoritesSize: state.favorites[type].size
+    });
+    
+    // Store memoized results on the state object itself
+    const memoKey = `filtered_${type}_${level || 'default'}_${filterKey}`;
+    if (state._memoizedFilters && state._memoizedFilters[memoKey]) {
+      return state._memoizedFilters[memoKey];
+    }
+    
+    // Apply filters
+    let filtered = [...vocabulary];
+    
+    // Search filter
+    if (searchTerm) {
+      const term = searchTerm.toLowerCase();
+      filtered = filtered.filter(item =>
+        item.vietnamese.toLowerCase().includes(term) ||
+        item.chinese.includes(term) ||
+        item.pinyin?.toLowerCase().includes(term) ||
+        item.english?.toLowerCase().includes(term)
+      );
+    }
+    
+    // Level filtering is handled at the data loading level for HSK and Vietnamese
+    
+    // Category filter
+    if (filters.categories.length > 0) {
+      filtered = filtered.filter(item =>
+        filters.categories.includes(item.category)
+      );
+    }
+    
+    // Favorites filter
+    if (filters.onlyFavorites) {
+      const favSet = state.favorites[type];
+      filtered = filtered.filter(item => favSet.has(item.id));
+    }
+    
+    // Audio filter
+    if (filters.hasAudio) {
+      filtered = filtered.filter(item => (item as any).hasAudio);
+    }
+    
+    // Store result in memoization cache
+    if (!state._memoizedFilters) {
+      (state as any)._memoizedFilters = {};
+    }
+    state._memoizedFilters![memoKey] = filtered;
+    
+    return filtered;
+  });
+};
 
-export const useFavoriteCount = (type: 'regular' | 'hsk' | 'vietnamese') =>
+export const useFavoriteCount = (type: 'hsk' | 'vietnamese') =>
   useVocabularyStore((state) => state.getFavoriteCount(type));
 
 // Convenience hooks for specific vocabulary types
-export const useRegularVocabularyFiltered = () => 
-  useVocabularyStore((state) => state.getFilteredVocabulary('regular'));
 
 export const useHSKVocabularyFiltered = (level: number) => 
   useVocabularyStore((state) => state.getFilteredVocabulary('hsk', level));
@@ -233,7 +339,7 @@ export const useVietnameseVocabularyFiltered = (level: string) =>
   useVocabularyStore((state) => state.getFilteredVocabulary('vietnamese', level));
 
 // Check if specific item is favorite
-export const useIsFavorite = (type: 'regular' | 'hsk' | 'vietnamese', id: number) =>
+export const useIsFavorite = (type: 'hsk' | 'vietnamese', id: number) =>
   useVocabularyStore((state) => state.favorites[type].has(id));
 
 // =============================================================================
@@ -448,13 +554,10 @@ export const resetAudioStore = () => {
 };
 
 export const resetVocabularyStore = () => {
-  const { allVocabulary } = require('../data/vocabulary');
   useVocabularyStore.setState({
-    regularVocabulary: allVocabulary,
     hskVocabulary: new Map(),
     vietnameseVocabulary: new Map(),
     favorites: {
-      regular: new Set(),
       hsk: new Set(),
       vietnamese: new Set()
     },
@@ -467,7 +570,6 @@ export const resetVocabularyStore = () => {
     },
     searchTerm: '',
     loading: {
-      regular: false,
       hsk: false,
       vietnamese: false
     },

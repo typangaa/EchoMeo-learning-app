@@ -46,15 +46,6 @@ const Navbar = () => {
           {/* Desktop navigation */}
           <div className="hidden md:flex items-center space-x-6">
             <NavLink 
-              to="/vocabulary" 
-              className={({ isActive }) => 
-                isActive ? "text-blue-600 dark:text-blue-400" : "hover:text-blue-600 dark:hover:text-blue-400"
-              }
-            >
-              Vocabulary
-            </NavLink>
-            
-            <NavLink 
               to="/vietnamese" 
               className={({ isActive }) => 
                 isActive ? "text-green-600 dark:text-green-400" : "hover:text-green-600 dark:hover:text-green-400"
@@ -116,16 +107,6 @@ const Navbar = () => {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-200 dark:border-gray-700">
             <div className="flex flex-col space-y-4">
-              <NavLink 
-                to="/vocabulary" 
-                className={({ isActive }) => 
-                  isActive ? "text-blue-600 dark:text-blue-400" : "hover:text-blue-600 dark:hover:text-blue-400"
-                }
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Vocabulary
-              </NavLink>
-              
               <NavLink 
                 to="/vietnamese" 
                 className={({ isActive }) => 

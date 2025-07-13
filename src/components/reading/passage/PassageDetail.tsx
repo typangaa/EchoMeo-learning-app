@@ -2,7 +2,13 @@ import { useState, useEffect, useCallback } from 'react';
 import { ReadingPassage, VocabularyItem } from '../../../types';
 import VocabPopover from './VocabPopover';
 import AudioButton from '../../common/AudioButton';
-import { useAudio } from '../../../contexts/AudioContext';
+import { 
+  useIsPassagePlaying, 
+  useCurrentPassageId,
+  usePassageLanguage,
+  usePlayPassage,
+  useStopPassage
+} from '../../../stores';
 
 interface PassageDetailProps {
   passage: ReadingPassage;
@@ -16,11 +22,15 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
   const [layoutMode, setLayoutMode] = useState<LayoutMode>('parallel');
   const [showPinyin, setShowPinyin] = useState(true);
   
-  // Use the audio context
-  const { state: audioState, playPassage, stopPlayback } = useAudio();
+  // Use Zustand audio store
+  const isPassagePlaying = useIsPassagePlaying();
+  const currentPassageId = useCurrentPassageId();
+  const passageLanguage = usePassageLanguage();
+  const playPassage = usePlayPassage();
+  const stopPassage = useStopPassage();
   
   // Determine if this passage is currently being played
-  const isCurrentPassagePlaying = audioState.isPlaying && audioState.passageId === passage.id;
+  const isCurrentPassagePlaying = isPassagePlaying && currentPassageId === passage.id;
   
   // Function to handle word click and display vocabulary popover
   const handleWordClick = useCallback((vocabItem: VocabularyItem, event: React.MouseEvent) => {
@@ -72,13 +82,9 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
 
   // Handler for playing/stopping full passage
   const handlePassagePlayback = async (language: 'vietnamese' | 'chinese') => {
-    console.log(`[DEBUG PassageDetail] Handle playback for ${language}`);
-    
-    if (isCurrentPassagePlaying && audioState.language === language) {
-      console.log('[DEBUG PassageDetail] Stopping current playback');
-      stopPlayback();
+    if (isCurrentPassagePlaying) {
+      stopPassage();
     } else {
-      console.log('[DEBUG PassageDetail] Starting new playback');
       await playPassage(passage, language);
     }
   };
@@ -88,12 +94,12 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
     const vocabMap = new Map<string, VocabularyItem>();
     
     // Add single words
-    passage.vocabulary.forEach(item => {
+    passage.vocabulary?.forEach(item => {
       vocabMap.set(item.vietnamese.toLowerCase(), item);
     });
     
     // Add multi-word phrases (for phrases like "xin chào", "cảm ơn")
-    passage.vocabulary.forEach(item => {
+    passage.vocabulary?.forEach(item => {
       const words = item.vietnamese.split(/\s+/);
       if (words.length > 1) {
         vocabMap.set(item.vietnamese.toLowerCase(), item);
@@ -109,7 +115,7 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
     let foundMultiWord = false;
     
     // Try to match multi-word phrases first
-    passage.vocabulary.forEach(item => {
+    passage.vocabulary?.forEach(item => {
       const vietnameseWords = item.vietnamese.toLowerCase().split(/\s+/);
       if (vietnameseWords.length > 1) {
         const phrase = item.vietnamese.toLowerCase();
@@ -203,7 +209,7 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
   const processChineseText = useCallback((text: string) => {
     // Create a map for Chinese vocabulary lookup
     const vocabMap = new Map<string, VocabularyItem>();
-    passage.vocabulary.forEach(item => {
+    passage.vocabulary?.forEach(item => {
       vocabMap.set(item.chinese, item);
     });
     
@@ -283,14 +289,14 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
               handlePassagePlayback('vietnamese');
             }}
             className={`ml-2 inline-flex items-center justify-center rounded-full 
-                     ${isCurrentPassagePlaying && audioState.language === 'vietnamese' ? 
+                     ${isCurrentPassagePlaying && passageLanguage === 'vietnamese' ? 
                       'text-blue-800 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/50' : 
                       'text-blue-600 dark:text-blue-400 hover:bg-blue-100 dark:hover:bg-blue-900/30'} 
                      transition-colors p-1`}
             title="Play full passage in Vietnamese"
             aria-label="Play full passage in Vietnamese"
           >
-            {isCurrentPassagePlaying && audioState.language === 'vietnamese' ? (
+            {isCurrentPassagePlaying && passageLanguage === 'vietnamese' ? (
               <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 24 24" 
@@ -347,14 +353,14 @@ const PassageDetail: React.FC<PassageDetailProps> = ({ passage }) => {
               handlePassagePlayback('chinese');
             }}
             className={`ml-2 inline-flex items-center justify-center rounded-full 
-                     ${isCurrentPassagePlaying && audioState.language === 'chinese' ? 
+                     ${isCurrentPassagePlaying && passageLanguage === 'chinese' ? 
                       'text-blue-800 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/50' : 
                       'text-blue-600 dark:text-blue-400 hover:bg-blue-100 dark:hover:bg-blue-900/30'} 
                      transition-colors p-1`}
             title="Play full passage in Chinese"
             aria-label="Play full passage in Chinese"
           >
-            {isCurrentPassagePlaying && audioState.language === 'chinese' ? (
+            {isCurrentPassagePlaying && passageLanguage === 'chinese' ? (
               <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 24 24" 

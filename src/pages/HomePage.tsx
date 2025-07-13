@@ -15,20 +15,7 @@ const HomePage = () => {
         <UserProfile />
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
-          <h2 className="text-xl font-semibold mb-4">
-            <span className="vietnamese-text">Từ vựng</span> - <span className="chinese-text">词汇</span>
-          </h2>
-          <p className="mb-4">Learn vocabulary organized by CEFR levels and categories, with examples and audio pronunciation.</p>
-          <Link 
-            to="/vocabulary" 
-            className="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors"
-          >
-            Browse Vocabulary
-          </Link>
-        </div>
-        
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-2 border-green-200 dark:border-green-800">
           <h2 className="text-xl font-semibold mb-4">
             <span className="vietnamese-text text-green-600">Từ vựng tiếng Việt</span> - <span className="chinese-text">越南语词汇</span>

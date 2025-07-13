@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { VocabularyItem } from '../../types';
-import { useVocabulary } from '../../context/VocabularyContext';
+import { useToggleFavorite, useIsFavorite } from '../../stores';
 import AudioButton from '../common/AudioButton';
 
 interface VietnameseVocabularyCardProps {
@@ -9,8 +9,8 @@ interface VietnameseVocabularyCardProps {
 
 const VietnameseVocabularyCard: React.FC<VietnameseVocabularyCardProps> = ({ item }) => {
   const [showDetails, setShowDetails] = useState(false);
-  const { isFavorite, toggleFavorite } = useVocabulary();
-  const isItemFavorite = isFavorite(item.id, 'vietnamese');
+  const toggleFavorite = useToggleFavorite();
+  const isItemFavorite = useIsFavorite('vietnamese', item.id);
   
   const toggleDetails = () => {
     setShowDetails(!showDetails);
@@ -18,7 +18,7 @@ const VietnameseVocabularyCard: React.FC<VietnameseVocabularyCardProps> = ({ ite
   
   const handleToggleFavorite = (e: React.MouseEvent) => {
     e.stopPropagation();
-    toggleFavorite(item.id, 'vietnamese');
+    toggleFavorite('vietnamese', item.id);
   };
   
   // Create a wrapper for AudioButton that prevents event propagation

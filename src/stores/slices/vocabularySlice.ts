@@ -3,7 +3,6 @@ import { StateCreator } from 'zustand';
 import { VocabularyStore } from '../types';
 import { createActionTypes, createActionSet } from '../middleware/devtools';
 import { VocabularyItem } from '../../types';
-import { allVocabulary } from '../../data/vocabulary';
 import { loadEnrichedHSKLevel } from '../../data/enrichedHSKLoader';
 import { loadEnrichedVietnameseLevel } from '../../data/enrichedVietnameseLoader';
 
@@ -16,14 +15,12 @@ export const createVocabularySlice: StateCreator<VocabularyStore> = (set, get) =
   const actionSet = createActionSet(set, actionTypes);
 
   return {
-    // Initial state
-    regularVocabulary: allVocabulary,
+    // Initial state - removed legacy regular vocabulary
     hskVocabulary: new Map(),
     vietnameseVocabulary: new Map(),
     
     // Favorites (using Sets for better performance)
     favorites: {
-      regular: new Set(),
       hsk: new Set(),
       vietnamese: new Set()
     },
@@ -40,7 +37,6 @@ export const createVocabularySlice: StateCreator<VocabularyStore> = (set, get) =
     
     // Loading states
     loading: {
-      regular: false,
       hsk: false,
       vietnamese: false
     },
@@ -79,11 +75,6 @@ export const createVocabularySlice: StateCreator<VocabularyStore> = (set, get) =
             loading: { ...get().loading, vietnamese: false }
           }, false, actionTypes.custom('LOAD_VIETNAMESE_SUCCESS'));
           
-        } else if (type === 'regular') {
-          // Regular vocabulary is already loaded
-          actionSet({
-            loading: { ...get().loading, regular: false }
-          }, false, actionTypes.custom('LOAD_REGULAR_SUCCESS'));
         }
         
       } catch (error: any) {
@@ -110,7 +101,8 @@ export const createVocabularySlice: StateCreator<VocabularyStore> = (set, get) =
         favorites: {
           ...currentFavorites,
           [type]: typeSet
-        }
+        },
+        _memoizedFilters: {} // Clear cache when favorites change
       }, false, actionTypes.custom('TOGGLE_FAVORITE'));
     },
 
@@ -118,13 +110,15 @@ export const createVocabularySlice: StateCreator<VocabularyStore> = (set, get) =
     setFilters: (newFilters) => {
       const currentFilters = get().filters;
       actionSet({
-        filters: { ...currentFilters, ...newFilters }
+        filters: { ...currentFilters, ...newFilters },
+        _memoizedFilters: {} // Clear cache when filters change
       }, false, actionTypes.custom('SET_FILTERS'));
     },
 
     setSearchTerm: (term) => {
       actionSet({
-        searchTerm: term
+        searchTerm: term,
+        _memoizedFilters: {} // Clear cache when search term changes
       }, false, actionTypes.custom('SET_SEARCH_TERM'));
     },
 
@@ -140,9 +134,7 @@ export const createVocabularySlice: StateCreator<VocabularyStore> = (set, get) =
       let vocabulary: VocabularyItem[] = [];
       
       // Get vocabulary based on type and level
-      if (type === 'regular') {
-        vocabulary = state.regularVocabulary;
-      } else if (type === 'hsk' && typeof level === 'number') {
+      if (type === 'hsk' && typeof level === 'number') {
         vocabulary = state.hskVocabulary.get(level) || [];
       } else if (type === 'vietnamese' && typeof level === 'string') {
         vocabulary = state.vietnameseVocabulary.get(level) || [];
@@ -162,12 +154,7 @@ export const createVocabularySlice: StateCreator<VocabularyStore> = (set, get) =
         );
       }
       
-      // Level filter (for regular vocabulary)
-      if (type === 'regular' && state.filters.levels.length > 0) {
-        filtered = filtered.filter(item => 
-          state.filters.levels.includes(item.level as string)
-        );
-      }
+      // Level filtering is handled at the data loading level for HSK and Vietnamese
       
       // Category filter
       if (state.filters.categories.length > 0) {

@@ -1,12 +1,13 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useVocabulary } from '../context/VocabularyContext';
+import { useFavorites } from '../stores';
 import useHSKVocabulary from '../hooks/useHSKVocabulary';
 import HSKFlashcardPractice from '../components/vocabulary/flashcard/HSKFlashcardPractice';
+import AutoplayToggle from '../components/common/AutoplayToggle';
 
 const HSKFlashcardPage = () => {
   const navigate = useNavigate();
-  const { hskFavorites } = useVocabulary();
+  const favorites = useFavorites();
   const [selectingOptions, setSelectingOptions] = useState(true);
   const [selectedLevel, setSelectedLevel] = useState<number>(1);
   const [itemSource, setItemSource] = useState<'all' | 'favorites'>('all');
@@ -42,13 +43,13 @@ const HSKFlashcardPage = () => {
       case 'all':
         return hskVocabulary;
       case 'favorites':
-        return hskVocabulary.filter(item => hskFavorites.includes(item.id));
+        return hskVocabulary.filter(item => favorites.hsk.has(item.id));
       default:
         return hskVocabulary;
     }
   };
   
-  const favoriteHSKItems = hskVocabulary.filter(item => hskFavorites.includes(item.id));
+  const favoriteHSKItems = hskVocabulary.filter(item => favorites.hsk.has(item.id));
   
   if (!selectingOptions) {
     return (
@@ -161,6 +162,17 @@ const HSKFlashcardPage = () => {
                     </button>
                   )}
                 </div>
+                
+                {/* Audio Settings - moved here for better visibility */}
+                <div className="mt-6">
+                  <h4 className="text-md font-medium mb-3 text-gray-700 dark:text-gray-300">
+                    🔊 Audio Settings
+                  </h4>
+                  <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                    Configure your audio preferences for flashcard practice.
+                  </p>
+                  <AutoplayToggle showAdvancedOptions={true} />
+                </div>
               </div>
             )}
             
@@ -200,7 +212,7 @@ const HSKFlashcardPage = () => {
         <ul className="text-sm text-yellow-700 dark:text-yellow-300 list-disc list-inside space-y-1">
           <li>Focus on high-frequency words first - they appear most often in the HSK test</li>
           <li>HSK Level 1 practices Chinese → Vietnamese recognition (one direction only)</li>
-          <li>Click audio buttons manually to hear pronunciation - no auto-play during card flips</li>
+          <li>Use the audio settings above to configure automatic pronunciation</li>
           <li>Review your favorite words regularly for better retention</li>
           <li>Pay attention to pinyin pronunciation - it's crucial for speaking Chinese</li>
         </ul>

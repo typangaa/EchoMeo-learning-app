@@ -3,6 +3,7 @@ import { VocabularyItem } from '../../../types';
 import { LanguageDirection } from '../../common/LanguageDirectionToggle';
 import AudioButton from '../../common/AudioButton';
 import audioService from '../../../utils/audioService';
+import useAutoplayPreference from '../../../hooks/useAutoplayPreference';
 import './flashcard.css';
 
 interface HSKFlashcardProps {
@@ -20,22 +21,26 @@ const HSKFlashcard: React.FC<HSKFlashcardProps> = ({
   const [showExample, setShowExample] = useState(false);
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
   
+  // Use autoplay preferences hook
+  const { preferences } = useAutoplayPreference();
+  
   // Use a ref to track when the item changes to auto-play audio
   const itemRef = useRef(item);
   
   // Determine front language based on direction prop
   const isFrontChinese = direction === 'cn-to-vn';
   
-  // Play the audio when a new card is shown
+  // Play the audio when a new card is shown (only if autoplay is enabled)
   useEffect(() => {
     // Only play audio when the item actually changes (not on initial render)
-    if (itemRef.current.id !== item.id) {
+    // and when autoplay on card change is enabled
+    if (itemRef.current.id !== item.id && preferences.autoplayOnCardChange) {
       playCardAudio();
     }
     
     // Update the ref
     itemRef.current = item;
-  }, [item.id]); // Only run when item.id changes
+  }, [item.id, preferences.autoplayOnCardChange]); // Add autoplay preference as dependency
   
   // Function to play audio for the current card
   const playCardAudio = () => {
@@ -59,7 +64,19 @@ const HSKFlashcard: React.FC<HSKFlashcardProps> = ({
   
   const handleFlip = () => {
     setFlipped(!flipped);
-    // No automatic audio playback when flipping for HSK flashcards
+    
+    // Play audio on flip if autoplay on flip is enabled
+    if (!flipped && preferences.autoplayOnFlip) {
+      // Play audio for the back side when flipping
+      const backText = isFrontChinese ? item.vietnamese : item.chinese;
+      const backLanguage = isFrontChinese ? 'vietnamese' : 'chinese';
+      
+      // Small delay to let the card flip first
+      setTimeout(() => {
+        audioService.playText(backText, backLanguage)
+          .catch(error => console.error('Error playing audio on flip:', error));
+      }, 600); // Match this with the flip animation duration
+    }
   };
   
   const handleNext = () => {

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import audioService from '../../utils/audioService';
 import { 
   useIsIndividualPlaying, 
   useCurrentIndividualText,

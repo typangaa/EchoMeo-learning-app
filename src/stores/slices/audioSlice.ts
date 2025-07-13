@@ -21,6 +21,15 @@ export const createAudioSlice: StateCreator<AudioStore> = (set, get) => {
     volume: 0.8,
     queue: [],
     queueIndex: -1,
+    // Passage playback state
+    isPassagePlaying: false,
+    currentPassageId: null,
+    currentParagraphIndex: null,
+    passageLanguage: null,
+    // Individual audio state
+    isIndividualPlaying: false,
+    currentIndividualText: null,
+    error: null,
 
     // Playback actions
     play: async (audio) => {
@@ -153,6 +162,138 @@ export const createAudioSlice: StateCreator<AudioStore> = (set, get) => {
         // Play the previous item
         get().play(prevItem);
       }
+    },
+
+    // Passage playback actions
+    playPassage: async (passage, language) => {
+      try {
+        // Stop any current audio
+        get().stopAllAudio();
+        await new Promise(resolve => setTimeout(resolve, 100));
+
+        actionSet({
+          isPassagePlaying: true,
+          currentPassageId: passage.id,
+          passageLanguage: language,
+          currentParagraphIndex: -1,
+          error: null
+        }, false, actionTypes.custom('START_PASSAGE_PLAYBACK'));
+
+        // Play title first
+        await audioService.playText(passage.title[language], language);
+        
+        const state = get();
+        if (!state.isPassagePlaying) return; // Check if stopped
+
+        // Play paragraphs sequentially
+        for (let i = 0; i < passage.paragraphs.length; i++) {
+          const currentState = get();
+          if (!currentState.isPassagePlaying) break; // Check if stopped
+
+          actionSet({
+            currentParagraphIndex: i
+          }, false, actionTypes.custom('UPDATE_PARAGRAPH_INDEX'));
+
+          await audioService.playText(passage.paragraphs[i][language], language);
+          
+          // Small delay between paragraphs
+          if (i < passage.paragraphs.length - 1) {
+            await new Promise(resolve => setTimeout(resolve, 300));
+          }
+        }
+
+        // Complete playback
+        actionSet({
+          isPassagePlaying: false,
+          currentParagraphIndex: null
+        }, false, actionTypes.custom('COMPLETE_PASSAGE_PLAYBACK'));
+
+      } catch (error: any) {
+        actionSet({
+          isPassagePlaying: false,
+          error: error.message || 'Passage playback failed'
+        }, false, actionTypes.custom('PASSAGE_PLAYBACK_ERROR'));
+      }
+    },
+
+    stopPassage: () => {
+      audioService.stop();
+      actionSet({
+        isPassagePlaying: false,
+        currentPassageId: null,
+        currentParagraphIndex: null,
+        passageLanguage: null
+      }, false, actionTypes.custom('STOP_PASSAGE'));
+    },
+
+    pausePassage: () => {
+      audioService.stop();
+      actionSet({
+        isPassagePlaying: false
+      }, false, actionTypes.custom('PAUSE_PASSAGE'));
+    },
+
+    // Individual audio actions
+    playIndividual: (text, language) => {
+      // Stop any passage playback
+      actionSet({
+        isPassagePlaying: false,
+        currentPassageId: null,
+        currentParagraphIndex: null,
+        passageLanguage: null,
+        // Start individual
+        isIndividualPlaying: true,
+        currentIndividualText: text,
+        error: null
+      }, false, actionTypes.custom('START_INDIVIDUAL_PLAYBACK'));
+
+      audioService.playText(text, language)
+        .then(() => {
+          get().stopIndividual();
+        })
+        .catch((error: any) => {
+          actionSet({
+            isIndividualPlaying: false,
+            error: error.message || 'Individual playback failed'
+          }, false, actionTypes.custom('INDIVIDUAL_PLAYBACK_ERROR'));
+        });
+    },
+
+    stopIndividual: () => {
+      actionSet({
+        isIndividualPlaying: false,
+        currentIndividualText: null
+      }, false, actionTypes.custom('STOP_INDIVIDUAL'));
+    },
+
+    stopAllAudio: () => {
+      audioService.stop();
+      actionSet({
+        isPlaying: false,
+        currentAudio: null,
+        isPassagePlaying: false,
+        currentPassageId: null,
+        currentParagraphIndex: null,
+        passageLanguage: null,
+        isIndividualPlaying: false,
+        currentIndividualText: null
+      }, false, actionTypes.custom('STOP_ALL_AUDIO'));
+    },
+
+    // Error handling
+    setError: (error) => {
+      actionSet({
+        error,
+        isPlaying: false,
+        isPassagePlaying: false,
+        isIndividualPlaying: false
+      }, false, actionTypes.custom('SET_ERROR'));
+    },
+
+    clearError: () => {
+      actionSet({
+        error: null
+      }, false, actionTypes.custom('CLEAR_ERROR'));
     }
   };
 };

@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { VocabularyItem } from '../../../types';
-import HSKFlashcard from './HSKFlashcard';
 import { LanguageDirection } from '../../common/LanguageDirectionToggle';
+import HSKFlashcard from './HSKFlashcard';
+import AutoplayToggle from '../../common/AutoplayToggle';
 import { updateVocabularyProgress, updateStudyTime } from '../../../utils/progressTracking';
 
 interface HSKFlashcardPracticeProps {
@@ -10,6 +11,7 @@ interface HSKFlashcardPracticeProps {
   hskLevel?: number;
 }
 
+// Main Practice Component
 const HSKFlashcardPractice: React.FC<HSKFlashcardPracticeProps> = ({ 
   vocabularyItems,
   onComplete,
@@ -179,7 +181,7 @@ const HSKFlashcardPractice: React.FC<HSKFlashcardPracticeProps> = ({
         </div>
       </div>
       
-      <div className="mb-6 flex justify-between items-center">
+      <div className="mb-6 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4">
         <div>
           <span className="text-sm text-gray-600 dark:text-gray-400">
             Card {currentIndex + 1} of {practiceItems.length}
@@ -189,12 +191,17 @@ const HSKFlashcardPractice: React.FC<HSKFlashcardPracticeProps> = ({
           </div>
         </div>
         
-        <button
-          onClick={onComplete}
-          className="text-sm text-gray-600 dark:text-gray-400 underline hover:text-gray-800 dark:hover:text-gray-200"
-        >
-          Exit Practice
-        </button>
+        <div className="flex flex-col sm:flex-row items-center gap-4">
+          {/* Autoplay toggle */}
+          <AutoplayToggle className="w-full sm:w-auto min-w-[280px]" />
+          
+          <button
+            onClick={onComplete}
+            className="text-sm text-gray-600 dark:text-gray-400 underline hover:text-gray-800 dark:hover:text-gray-200 whitespace-nowrap"
+          >
+            Exit Practice
+          </button>
+        </div>
       </div>
       
       <HSKFlashcard 
