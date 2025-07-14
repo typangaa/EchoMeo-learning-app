@@ -19,7 +19,6 @@ const HSKFlashcard: React.FC<HSKFlashcardProps> = ({
 }) => {
   const [flipped, setFlipped] = useState(false);
   const [showExample, setShowExample] = useState(false);
-  const [isPlayingAudio, setIsPlayingAudio] = useState(false);
   
   // Use autoplay preferences hook
   const { preferences } = useAutoplayPreference();
@@ -46,10 +45,6 @@ const HSKFlashcard: React.FC<HSKFlashcardProps> = ({
   const playCardAudio = () => {
     // Stop any currently playing audio before starting new audio
     audioService.stop();
-    setIsPlayingAudio(false);
-    
-    // Start playing new audio
-    setIsPlayingAudio(true);
     
     // Determine the text and language based on the current direction
     const text = isFrontChinese ? item.chinese : item.vietnamese;
@@ -57,11 +52,9 @@ const HSKFlashcard: React.FC<HSKFlashcardProps> = ({
     
     audioService.playText(text, language)
       .then(() => {
-        setIsPlayingAudio(false);
       })
       .catch(error => {
         console.error('Error playing audio:', error);
-        setIsPlayingAudio(false);
       });
   };
   

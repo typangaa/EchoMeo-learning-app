@@ -18,7 +18,6 @@ const VietnameseFlashcard: React.FC<VietnameseFlashcardProps> = ({
 }) => {
   const [flipped, setFlipped] = useState(false);
   const [showExample, setShowExample] = useState(false);
-  const [isPlayingAudio, setIsPlayingAudio] = useState(false);
   
   // Use a ref to track when the item changes to auto-play audio
   const itemRef = useRef(item);
@@ -41,10 +40,6 @@ const VietnameseFlashcard: React.FC<VietnameseFlashcardProps> = ({
   const playCardAudio = () => {
     // Stop any currently playing audio before starting new audio
     audioService.stop();
-    setIsPlayingAudio(false);
-    
-    // Start playing new audio
-    setIsPlayingAudio(true);
     
     // Determine the text and language based on the current direction
     const text = isFrontVietnamese ? item.vietnamese : item.chinese;
@@ -52,11 +47,9 @@ const VietnameseFlashcard: React.FC<VietnameseFlashcardProps> = ({
     
     audioService.playText(text, language)
       .then(() => {
-        setIsPlayingAudio(false);
       })
       .catch(error => {
         console.error('Error playing audio:', error);
-        setIsPlayingAudio(false);
       });
   };
   
