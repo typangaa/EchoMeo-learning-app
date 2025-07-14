@@ -56,6 +56,67 @@ class ProcessorConfig:
         self.batch_size = 5  # Process items in batches
         self.create_csv = True  # Whether to create CSV files in addition to JSON
 
+def extract_from_hsk_split_files(raw_dir: str, level: int) -> Tuple[List[str], Dict[str, str], Dict[str, int]]:
+    """
+    Extract vocabulary from HSK split JSON files (for level 7).
+    
+    Args:
+        raw_dir: Directory containing the split files
+        level: HSK level (should be 7 for split files)
+        
+    Returns:
+        Tuple of:
+        - List of unique vocabulary items
+        - Dictionary mapping items to pinyin
+        - Dictionary mapping items to HSK levels
+    """
+    logging.info(f"Extracting from split files for HSK level {level}")
+    
+    # Find all part files for this level
+    part_files = []
+    for i in range(1, 5):  # parts 1-4
+        part_file = os.path.join(raw_dir, f"{level}_part{i}.json")
+        if os.path.exists(part_file):
+            part_files.append(part_file)
+    
+    if not part_files:
+        logging.error(f"No split files found for HSK level {level}")
+        return [], {}, {}
+    
+    # Extract from all parts
+    unique_items = set()
+    pinyin_map = {}
+    hsk_levels = {}
+    
+    for part_file in part_files:
+        logging.info(f"Processing part file: {part_file}")
+        try:
+            with open(part_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            for item in data:
+                simplified = item.get("simplified", "")
+                
+                # Add to vocabulary list if not empty
+                if simplified:
+                    unique_items.add(simplified)
+                    hsk_levels[simplified] = level
+                    
+                    # Extract pinyin if available
+                    if "forms" in item and len(item["forms"]) > 0:
+                        for form in item["forms"]:
+                            if form.get("traditional", "") == simplified or not form.get("traditional", ""):
+                                pinyin = form.get("transcriptions", {}).get("pinyin", "")
+                                if pinyin:
+                                    pinyin_map[simplified] = pinyin
+                                    break
+        except Exception as e:
+            logging.error(f"Error processing {part_file}: {e}")
+            continue
+    
+    logging.info(f"Extracted {len(unique_items)} unique items from {len(part_files)} split files")
+    return list(unique_items), pinyin_map, hsk_levels
+
 def extract_from_hsk_file(file_path: str) -> Tuple[List[str], Dict[str, str], Dict[str, int]]:
     """
     Extract vocabulary from an HSK JSON file.
@@ -77,7 +138,13 @@ def extract_from_hsk_file(file_path: str) -> Tuple[List[str], Dict[str, str], Di
             data = json.load(f)
         
         # Extract HSK level from filename
-        hsk_level = int(os.path.basename(file_path).split('.')[0])
+        filename = os.path.basename(file_path).split('.')[0]
+        if '_part' in filename:
+            # Handle part files like "7_part1" -> level 7
+            hsk_level = int(filename.split('_')[0])
+        else:
+            # Handle regular files like "7" -> level 7
+            hsk_level = int(filename)
         
         # Extract unique vocabulary items
         unique_items = set()
@@ -188,15 +255,31 @@ def process_hsk_level(level: int, process_config: ProcessorConfig, enrich_config
     """
     logging.info(f"Processing HSK level {level}")
     
-    # Set up file paths
-    file_path = os.path.join(process_config.raw_dir, f"{level}.json")
-    
-    if not os.path.exists(file_path):
-        logging.error(f"HSK level {level} file not found: {file_path}")
-        return
-    
-    # Extract vocabulary items
-    items_list, pinyin_map, hsk_levels = extract_from_hsk_file(file_path)
+    # Handle level 7 split files differently
+    if level == 7:
+        # Check if split files exist
+        part1_path = os.path.join(process_config.raw_dir, "7_part1.json")
+        if os.path.exists(part1_path):
+            logging.info(f"Using split files for HSK level {level}")
+            items_list, pinyin_map, hsk_levels = extract_from_hsk_split_files(process_config.raw_dir, level)
+        else:
+            # Fall back to original file if split files don't exist
+            file_path = os.path.join(process_config.raw_dir, f"{level}.json")
+            if not os.path.exists(file_path):
+                logging.error(f"HSK level {level} file not found (neither split nor original): {file_path}")
+                return
+            logging.info(f"Using original file for HSK level {level}")
+            items_list, pinyin_map, hsk_levels = extract_from_hsk_file(file_path)
+    else:
+        # Set up file paths for levels 1-6
+        file_path = os.path.join(process_config.raw_dir, f"{level}.json")
+        
+        if not os.path.exists(file_path):
+            logging.error(f"HSK level {level} file not found: {file_path}")
+            return
+        
+        # Extract vocabulary items
+        items_list, pinyin_map, hsk_levels = extract_from_hsk_file(file_path)
     
     if not items_list:
         logging.warning(f"No vocabulary items found in HSK level {level}")
@@ -232,6 +315,65 @@ def process_hsk_level(level: int, process_config: ProcessorConfig, enrich_config
     save_enriched_data(all_enriched_items, json_path, csv_path)
     logging.info(f"Completed processing HSK level {level}")
 
+def process_hsk_level7_part(part: int, process_config: ProcessorConfig, enrich_config: EnrichmentConfig):
+    """
+    Process a specific part of HSK level 7.
+    
+    Args:
+        part: Part number to process (1-4)
+        process_config: Processing configuration
+        enrich_config: Enrichment configuration
+    """
+    if part < 1 or part > 4:
+        logging.error(f"Invalid part number: {part}. Must be 1-4.")
+        return
+    
+    logging.info(f"Processing HSK level 7 part {part}")
+    
+    # Set up file path for the specific part
+    part_file = os.path.join(process_config.raw_dir, f"7_part{part}.json")
+    
+    if not os.path.exists(part_file):
+        logging.error(f"HSK level 7 part {part} file not found: {part_file}")
+        return
+    
+    # Extract vocabulary items from the specific part
+    items_list, pinyin_map, hsk_levels = extract_from_hsk_file(part_file)
+    
+    if not items_list:
+        logging.warning(f"No vocabulary items found in HSK level 7 part {part}")
+        return
+    
+    # Set up output directories
+    output_dir = os.path.join(process_config.output_dir, "vocabulary")
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # Output paths with part suffix
+    json_path = os.path.join(output_dir, f"hsk7_part{part}_enriched.json")
+    csv_path = os.path.join(output_dir, f"hsk7_part{part}_enriched.csv") if process_config.create_csv else None
+    
+    logging.info(f"Enriching {len(items_list)} vocabulary items from HSK 7 part {part}")
+    
+    # Process items in batches
+    all_enriched_items = []
+    for i in range(0, len(items_list), process_config.batch_size):
+        batch = items_list[i:i+process_config.batch_size]
+        logging.info(f"Processing batch {i//process_config.batch_size + 1}/{(len(items_list) + process_config.batch_size - 1)//process_config.batch_size}")
+        
+        # Enrich the batch
+        enriched_batch = ve.batch_process_items(batch, enrich_config, pinyin_map, hsk_levels)
+        all_enriched_items.extend(enriched_batch)
+        
+        # Save progress
+        progress_path = os.path.join(output_dir, f"hsk7_part{part}_progress.json")
+        with open(progress_path, 'w', encoding='utf-8') as f:
+            json.dump(all_enriched_items, f, ensure_ascii=False, indent=2)
+        logging.info(f"Saved progress to {progress_path}")
+    
+    # Save final results
+    save_enriched_data(all_enriched_items, json_path, csv_path)
+    logging.info(f"Completed processing HSK level 7 part {part}")
+
 def main():
     """Main execution function."""
     # Initialize configurations
@@ -241,6 +383,7 @@ def main():
     # Parse command line arguments
     parser = argparse.ArgumentParser(description='HSK Vocabulary Processor')
     parser.add_argument('--level', type=int, help='HSK level to process (1-7)')
+    parser.add_argument('--part', type=int, help='HSK level 7 part to process (1-4)')
     parser.add_argument('--model', type=str, default=enrich_config.model, help=f'Ollama model to use (default: {enrich_config.model})')
     parser.add_argument('--batch', type=int, default=process_config.batch_size, help=f'Batch size (default: {process_config.batch_size})')
     parser.add_argument('--no-csv', action='store_true', help='Do not create CSV files')
@@ -284,9 +427,18 @@ def main():
     start_time = time.time()
     
     # Process HSK levels
-    if args.level:
+    if args.level and args.part:
+        # Process specific part of HSK level 7
+        if args.level == 7:
+            process_hsk_level7_part(args.part, process_config, enrich_config)
+        else:
+            logging.error("Part processing is only available for HSK level 7")
+            return
+    elif args.level:
+        # Process specific HSK level
         process_hsk_level(args.level, process_config, enrich_config)
     else:
+        # Process all HSK levels
         for level in range(1, 8):  # HSK levels 1-7
             process_hsk_level(level, process_config, enrich_config)
     
