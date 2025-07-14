@@ -148,13 +148,13 @@ export interface UIState {
 export interface AppStore {
   // App-wide settings
   theme: 'light' | 'dark';
-  language: 'en' | 'vi' | 'zh';
+  language: 'en' | 'vi' | 'zh' | 'zh-tw';
   isOnline: boolean;
   initialized: boolean;
   
   // Actions
   setTheme: (theme: 'light' | 'dark') => void;
-  setLanguage: (lang: 'en' | 'vi' | 'zh') => void;
+  setLanguage: (lang: 'en' | 'vi' | 'zh' | 'zh-tw') => void;
   setOnlineStatus: (status: boolean) => void;
   initializeApp: () => void;
 }

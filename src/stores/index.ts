@@ -109,6 +109,9 @@ export const useThemeActions = () => useAppStore((state) => ({
   setLanguage: state.setLanguage
 }));
 
+// Individual stable action hooks to prevent object recreation
+export const useSetLanguage = () => useAppStore((state) => state.setLanguage);
+
 // App lifecycle actions
 export const useAppActions = () => useAppStore((state) => ({
   setOnlineStatus: state.setOnlineStatus,
@@ -411,7 +414,7 @@ export const subscribeToTheme = (callback: (theme: 'light' | 'dark') => void) =>
   );
 };
 
-export const subscribeToLanguage = (callback: (language: 'en' | 'vi' | 'zh') => void) => {
+export const subscribeToLanguage = (callback: (language: 'en' | 'vi' | 'zh' | 'zh-tw') => void) => {
   return useAppStore.subscribe(
     (state) => state.language,
     callback
@@ -520,7 +523,7 @@ if (isDevelopment) {
 export const resetAppStore = () => {
   useAppStore.setState({
     theme: 'light',
-    language: 'en',
+    language: 'en' as 'en' | 'vi' | 'zh' | 'zh-tw',
     isOnline: navigator.onLine || true,
     initialized: false
   });

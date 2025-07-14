@@ -1,5 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import audioService from '../utils/audioService';
+import { useTranslation } from '../hooks/useTranslation';
+import { useSetLanguage } from '../stores';
 
 interface AudioSettings {
   volume: number;
@@ -10,6 +12,9 @@ interface AudioSettings {
 }
 
 const SettingsPage = () => {
+  const { t, language } = useTranslation();
+  const setLanguage = useSetLanguage();
+  
   const [settings, setSettings] = useState<AudioSettings>({
     volume: 1.0,
     rate: 0.7,
@@ -97,20 +102,52 @@ const SettingsPage = () => {
     setSettings(defaultSettings);
   };
 
+  // Memoize the tips array to prevent re-renders
+  const audioTips = useMemo(() => {
+    const tips = t('settings.audio.tips.items');
+    return Array.isArray(tips) ? tips : [];
+  }, [t, language]);
+
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h1 className="text-2xl sm:text-3xl font-bold mb-6">Settings</h1>
+      <h1 className="text-2xl sm:text-3xl font-bold mb-6">{t('settings.title')}</h1>
+      
+      {/* Interface Language Section */}
+      <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-6">
+        <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
+          {t('settings.interfaceLanguage.title')}
+        </h2>
+        <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+          {t('settings.interfaceLanguage.description')}
+        </p>
+        
+        <div className="mb-4">
+          <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+            Language / Ngôn ngữ / 简体中文 / 繁體中文
+          </label>
+          <select
+            value={language}
+            onChange={(e) => setLanguage(e.target.value as 'en' | 'vi' | 'zh' | 'zh-tw')}
+            className="w-full max-w-xs px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+          >
+            <option value="en">{t('languages.en')}</option>
+            <option value="vi">{t('languages.vi')}</option>
+            <option value="zh">{t('languages.zh')}</option>
+            <option value="zh-tw">{t('languages.zh-tw')}</option>
+          </select>
+        </div>
+      </div>
       
       {/* Audio Settings Section */}
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-6">
         <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
-          🔊 Audio Settings
+          {t('settings.audio.title')}
         </h2>
         
         {/* Volume Control */}
         <div className="mb-6">
           <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-            Volume: {Math.round(settings.volume * 100)}%
+            {t('settings.audio.volume')}: {Math.round(settings.volume * 100)}%
           </label>
           <input
             type="range"
@@ -126,7 +163,7 @@ const SettingsPage = () => {
         {/* Speech Rate Control */}
         <div className="mb-6">
           <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-            Speech Rate: {settings.rate.toFixed(1)}x
+            {t('settings.audio.speechRate')}: {settings.rate.toFixed(1)}x
           </label>
           <input
             type="range"
@@ -147,7 +184,7 @@ const SettingsPage = () => {
         {/* Speech Pitch Control */}
         <div className="mb-6">
           <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-            Speech Pitch: {settings.pitch.toFixed(1)}
+            {t('settings.audio.speechPitch')}: {settings.pitch.toFixed(1)}
           </label>
           <input
             type="range"
@@ -168,7 +205,7 @@ const SettingsPage = () => {
         {/* Vietnamese Voice Selection */}
         <div className="mb-6">
           <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-            🇻🇳 Vietnamese Voice
+            🇻🇳 {t('settings.audio.vietnameseVoice')}
           </label>
           <div className="flex gap-2">
             <select
@@ -176,7 +213,7 @@ const SettingsPage = () => {
               onChange={(e) => handleVietnameseVoiceChange(e.target.value)}
               className="flex-1 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
             >
-              <option value="">Auto-select best voice</option>
+              <option value="">{t('settings.audio.autoSelectVoice')}</option>
               {vietnameseVoices.map((voice) => (
                 <option key={voice.name} value={voice.name}>
                   {voice.name} ({voice.lang}) {voice.localService ? '(Local)' : '(Online)'}
@@ -188,18 +225,18 @@ const SettingsPage = () => {
               disabled={isTestingVietnamese}
               className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 disabled:bg-gray-400 transition-colors"
             >
-              {isTestingVietnamese ? 'Testing...' : 'Test'}
+              {isTestingVietnamese ? t('settings.audio.testing') : t('settings.audio.test')}
             </button>
           </div>
           {vietnameseVoices.length === 0 && (
-            <p className="text-sm text-gray-500 mt-1">No Vietnamese voices available</p>
+            <p className="text-sm text-gray-500 mt-1">{t('settings.audio.noVietnameseVoices')}</p>
           )}
         </div>
 
         {/* Chinese Voice Selection */}
         <div className="mb-6">
           <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-            🇨🇳 Chinese Voice
+            🇨🇳 {t('settings.audio.chineseVoice')}
           </label>
           <div className="flex gap-2">
             <select
@@ -207,7 +244,7 @@ const SettingsPage = () => {
               onChange={(e) => handleChineseVoiceChange(e.target.value)}
               className="flex-1 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-red-500 focus:border-red-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
             >
-              <option value="">Auto-select best voice</option>
+              <option value="">{t('settings.audio.autoSelectVoice')}</option>
               {chineseVoices.map((voice) => (
                 <option key={voice.name} value={voice.name}>
                   {voice.name} ({voice.lang}) {voice.localService ? '(Local)' : '(Online)'}
@@ -219,11 +256,11 @@ const SettingsPage = () => {
               disabled={isTestingChinese}
               className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 disabled:bg-gray-400 transition-colors"
             >
-              {isTestingChinese ? 'Testing...' : 'Test'}
+              {isTestingChinese ? t('settings.audio.testing') : t('settings.audio.test')}
             </button>
           </div>
           {chineseVoices.length === 0 && (
-            <p className="text-sm text-gray-500 mt-1">No Chinese voices available</p>
+            <p className="text-sm text-gray-500 mt-1">{t('settings.audio.noChineseVoices')}</p>
           )}
         </div>
 
@@ -233,19 +270,18 @@ const SettingsPage = () => {
             onClick={resetToDefaults}
             className="px-4 py-2 bg-gray-500 text-white rounded-md hover:bg-gray-600 transition-colors"
           >
-            Reset to Defaults
+            {t('settings.audio.resetDefaults')}
           </button>
         </div>
       </div>
 
       {/* Audio Tips */}
       <div className="bg-yellow-50 dark:bg-yellow-900/20 rounded-lg p-4">
-        <h3 className="font-semibold mb-2 text-yellow-800 dark:text-yellow-200">💡 Audio Tips:</h3>
+        <h3 className="font-semibold mb-2 text-yellow-800 dark:text-yellow-200">{t('settings.audio.tips.title')}</h3>
         <ul className="text-sm text-yellow-700 dark:text-yellow-300 list-disc list-inside space-y-1">
-          <li>Local voices typically have better quality and faster response</li>
-          <li>Lower speech rate (0.6-0.8x) is recommended for language learning</li>
-          <li>Test different voices to find the clearest pronunciation</li>
-          <li>Settings are automatically saved and applied to all flashcards</li>
+          {audioTips.map((tip: string, index: number) => (
+            <li key={index}>{tip}</li>
+          ))}
         </ul>
       </div>
     </div>

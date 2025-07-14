@@ -1,0 +1,171 @@
+import { TranslationKeys } from './en';
+
+export const vi: TranslationKeys = {
+  // Navigation
+  nav: {
+    appTitle: "Học Tiếng Trung - 学越南语",
+    vietnamese: "Tiếng Việt",
+    hsk: "HSK",
+    flashcards: "Thẻ ghi nhớ",
+    reading: "Đọc hiểu",
+    settings: "Cài đặt",
+    toggleDarkMode: "Chế độ tối/sáng",
+    openMenu: "Mở menu",
+    closeMenu: "Đóng menu",
+  },
+
+  // Homepage
+  home: {
+    title: "Học Tiếng Trung - 学越南语",
+    subtitle: "Nền tảng học ngôn ngữ Việt ↔ Trung",
+    vietnamese: {
+      title: "Tiếng Việt",
+      description: "Học từ vựng tiếng Việt với bản dịch tiếng Trung qua 6 cấp độ (A1-C1)",
+      browseVocabulary: "📚 Duyệt từ vựng",
+      practiceFlashcards: "🧠 Luyện thẻ ghi nhớ",
+      features: "Phát âm, lặp lại theo khoảng cách, bối cảnh văn hóa",
+    },
+    hsk: {
+      title: "汉语 HSK",
+      description: "Thành thạo tiếng Trung với từ vựng HSK qua 6 cấp độ",
+      browseVocabulary: "📚 Duyệt từ vựng",
+      practiceFlashcards: "🧠 Luyện thẻ ghi nhớ",
+      features: "Pinyin, âm thanh, luyện chữ Hán, ghi chú ngữ pháp",
+    },
+    reading: {
+      title: "📖 Luyện đọc",
+      description: "Luyện đọc với tra cứu từ vựng",
+      startReading: "Bắt đầu luyện đọc",
+    },
+  },
+
+  // Settings
+  settings: {
+    title: "Cài đặt",
+    interfaceLanguage: {
+      title: "🌐 Ngôn ngữ giao diện",
+      description: "Chọn ngôn ngữ giao diện ưa thích",
+    },
+    audio: {
+      title: "🔊 Cài đặt âm thanh",
+      volume: "Âm lượng",
+      speechRate: "Tốc độ phát âm",
+      speechPitch: "Cao độ giọng",
+      vietnameseVoice: "Giọng tiếng Việt",
+      chineseVoice: "Giọng tiếng Trung",
+      test: "Kiểm tra",
+      testing: "Đang kiểm tra...",
+      resetDefaults: "Khôi phục mặc định",
+      autoSelectVoice: "Tự động chọn giọng tốt nhất",
+      noVietnameseVoices: "Không có giọng tiếng Việt",
+      noChineseVoices: "Không có giọng tiếng Trung",
+      tips: {
+        title: "💡 Mẹo âm thanh:",
+        items: [
+          "Tốc độ chậm hơn (0.7x) giúp học phát âm tốt hơn",
+          "Điều chỉnh cao độ để tìm giọng thoải mái nhất",
+          "Dùng 'Tự động chọn giọng tốt nhất' để tìm giọng chất lượng cao",
+          "Kiểm tra giọng để tìm giọng phù hợp với thiết bị của bạn",
+        ],
+      },
+    },
+  },
+
+  // Vocabulary
+  vocabulary: {
+    searchPlaceholder: "Tìm kiếm từ vựng (tiếng Trung, tiếng Việt, tiếng Anh, Pinyin, hoặc danh mục)...",
+    total: "Tổng",
+    favorites: "Yêu thích",
+    showing: "Hiển thị",
+    search: "Tìm kiếm",
+    loadingLevel: "Đang tải từ vựng {level} được mở rộng...",
+    noVocabularyLoaded: "Chưa tải từ vựng nào",
+    loadLevel: "Tải {level}",
+    clearFilters: "Xóa bộ lọc",
+    retryLoading: "Thử lại",
+    
+    // HSK Vocabulary Page
+    hsk: {
+      title: "Từ vựng HSK",
+      description: "Duyệt từ vựng HSK với bản dịch tiếng Việt",
+      practiceFlashcards: "🧠 Luyện thẻ ghi nhớ",
+      allVocabulary: "Tất cả từ vựng",
+      favoritesButton: "★ Yêu thích",
+      about: {
+        title: "Về từ vựng HSK",
+        description: "HSK là kỳ thi năng lực tiếng Trung chuẩn hóa. Học từ vựng với bản dịch tiếng Việt, ý nghĩa chi tiết và câu ví dụ.",
+        availableContent: {
+          title: "Nội dung có sẵn:",
+          items: [
+            "HSK cấp 1-6: Tổng cộng hơn 5000 từ",
+            "Bản dịch và ý nghĩa tiếng Việt",
+            "Phát âm Pinyin và ví dụ",
+            "Chỉ số tần suất sử dụng"
+          ]
+        },
+        features: {
+          title: "Tính năng:",
+          items: [
+            "Phát âm bằng giọng nói",
+            "Luyện tập lặp lại theo khoảng cách",
+            "Học nét chữ Hán",
+            "Hệ thống theo dõi tiến độ"
+          ]
+        }
+      }
+    },
+
+    // Vietnamese Vocabulary Page
+    vietnamese: {
+      title: "Từ vựng tiếng Việt",
+      description: "Duyệt từ vựng tiếng Việt với bản dịch tiếng Trung",
+      practiceFlashcards: "🧠 Luyện thẻ ghi nhớ",
+      allVocabulary: "Tất cả từ vựng",
+      favoritesButton: "★ Yêu thích",
+      about: {
+        title: "Về từ vựng tiếng Việt",
+        description: "Học từ vựng tiếng Việt với bản dịch tiếng Trung toàn diện qua 6 cấp độ CEFR từ A1 đến C1.",
+        availableContent: {
+          title: "Nội dung có sẵn:",
+          items: [
+            "CEFR cấp A1-C1: Tổng cộng hơn 6000 từ",
+            "Bản dịch và ý nghĩa tiếng Trung",
+            "Phát âm và ví dụ",
+            "Ghi chú bối cảnh văn hóa và cách sử dụng"
+          ]
+        },
+        features: {
+          title: "Tính năng:",
+          items: [
+            "Giọng người bản ngữ",
+            "Hệ thống lặp lại theo khoảng cách",
+            "Học bối cảnh văn hóa",
+            "Theo dõi tiến độ và phân tích"
+          ]
+        }
+      }
+    }
+  },
+
+  // Common
+  common: {
+    loading: "Đang tải...",
+    error: "Lỗi",
+    retry: "Thử lại",
+    close: "Đóng",
+    back: "Quay lại",
+    next: "Tiếp theo",
+    previous: "Trước",
+    save: "Lưu",
+    cancel: "Hủy",
+    confirm: "Xác nhận",
+  },
+
+  // Languages
+  languages: {
+    en: "English",
+    vi: "Tiếng Việt",
+    zh: "简体中文",
+    "zh-tw": "繁體中文",
+  },
+};

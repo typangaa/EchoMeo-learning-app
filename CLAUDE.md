@@ -29,13 +29,26 @@ This is a React-based Vietnamese-Chinese learning platform with TypeScript, buil
 
 **Zustand State Management**: Migrated from Context to Zustand for better performance. Provides centralized vocabulary state, filtering, and favorites across all vocabulary types. Handles three separate favorites systems (regular, HSK, Vietnamese) with localStorage persistence.
 
-**Audio Service**: Singleton service (`audioService.ts`) using Web Speech API for Vietnamese/Chinese pronunciation. Supports text-to-speech with language-specific settings and error handling. Integrated with Zustand audio store to prevent duplicate playback.
+**Audio Service**: Enhanced singleton service (`audioService.ts`) using Web Speech API for Vietnamese/Chinese pronunciation. Features comprehensive voice management with:
+- Automatic Hong Kong SAR voice filtering for better quality
+- Yating voice prioritization as default for Chinese
+- Configurable settings (volume, rate, pitch) with localStorage persistence
+- Audio interruption handling to prevent overlapping playback
+- Voice selection algorithms prioritizing local over online voices
 
 **Component Structure**: 
 - Common components in `components/common/` (Layout, Navbar, AudioButton, etc.)
 - Vocabulary components with type-specific implementations (HSK, Vietnamese, regular)
 - Complete flashcard system with 3D flip animations and practice modes for all vocabulary types
 - Reading system with parallel text and vocabulary lookup
+
+**Internationalization (i18n)**: Comprehensive interface language support with:
+- Translation system in `src/i18n/` with files for English, Vietnamese, Simplified Chinese, and Traditional Chinese
+- `useTranslation` hook for accessing translations throughout the application
+- Language detection and persistence via Zustand store with localStorage
+- Smart browser language detection supporting Traditional Chinese variants (zh-TW, zh-HK, zh-Hant)
+- Dynamic array translation support for lists and features
+- Language selector in SettingsPage for user preference management
 
 ### Data Processing Pipeline
 
@@ -58,6 +71,12 @@ The project includes extensive Python scripts in `scripts/` for:
 
 **TypeScript Types**: Core interfaces in `types/index.ts` with `VocabularyItem` and `ReadingPassage` as main data structures.
 
+**Interface Languages**: Full support for four interface languages:
+- English (en): Default fallback language
+- Vietnamese (vi): Complete Vietnamese interface
+- Simplified Chinese (zh): Mainland China standard
+- Traditional Chinese (zh-tw): Taiwan/Hong Kong standard with auto-detection
+
 **Routing**: Complete routing system with HashRouter:
 - `/` - Homepage with vocabulary type selection
 - `/vocabulary` - Regular vocabulary browsing
@@ -67,6 +86,7 @@ The project includes extensive Python scripts in `scripts/` for:
 - `/vietnamese-flashcards` - Vietnamese flashcard practice
 - `/hsk-flashcards` - HSK flashcard practice
 - `/reading` - Reading passages with vocabulary lookup
+- `/settings` - Audio settings and user preferences
 
 ## Development Guidelines
 
@@ -79,10 +99,12 @@ When working with vocabulary data:
 
 When adding audio features:
 - Use the singleton `audioService` for consistency
-- Audio is integrated with Zustand store to prevent duplicate playback
+- Audio interruption is handled automatically via `audioService.stop()` before new playback
 - Support both Vietnamese (`vi-VN`) and Chinese (`zh-CN`) language codes
 - Handle Web Speech API availability gracefully
 - AudioButton component uses optional chaining for robust error handling
+- Use SettingsPage for user audio preferences (voice selection, volume, rate, pitch)
+- Default audio settings: volume 1.0, rate 0.7x, pitch 0.5
 
 For flashcard development:
 - Complete flashcard system available for HSK, Vietnamese, and regular vocabulary
@@ -91,24 +113,55 @@ For flashcard development:
 - Support language direction switching (Vietnamese→Chinese or Chinese→Vietnamese)
 - Vietnamese flashcards don't show English on the front (focus on VN-CN translation)
 
+For interface translations:
+- Always use the `useTranslation` hook for user-facing text
+- Keep learning content (vocabulary words) in original languages for educational integrity
+- Translation keys use nested structure (e.g., 'vocabulary.hsk.about.title')
+- Support dynamic parameter replacement with {param} syntax
+- Array translations automatically handled for lists and features
+- Language preference persists across sessions via localStorage
+
 ## File Organization
 
 - `src/data/`: Data loaders (`enrichedHSKLoader.ts`, `enrichedVietnameseLoader.ts`)
 - `src/components/vocabulary/`: Vocabulary-specific UI components  
 - `src/components/vocabulary/flashcard/`: Flashcard practice components (HSK, Vietnamese, regular)
-- `src/hooks/`: Custom React hooks including spaced repetition and vocabulary hooks
-- `src/stores/`: Zustand store slices (migrated from Context)
-- `src/pages/`: Page components including dedicated flashcard pages
+- `src/hooks/`: Custom React hooks including spaced repetition, vocabulary hooks, and `useTranslation`
+- `src/stores/`: Zustand store slices (migrated from Context) with language state management
+- `src/pages/`: Page components including dedicated flashcard pages and SettingsPage with language selector
+- `src/i18n/`: Translation files (`en.ts`, `vi.ts`, `zh.ts`, `zh-tw.ts`) and translation utilities
 - `scripts/`: Python data processing pipeline
 - `assets/data/hsk/`: HSK vocabulary JSON files (levels 1-6)
 - `assets/data/vietnamese/`: Vietnamese vocabulary JSON files (levels 1-6)
 
 ## Recent Updates (Current Session)
 
+- **Comprehensive Interface Language System**: Implemented full internationalization support:
+  * Created translation infrastructure with 4 language files (English, Vietnamese, Simplified Chinese, Traditional Chinese)
+  * Built stable `useTranslation` hook with array support and parameter interpolation
+  * Added language selector to SettingsPage with auto-detection for Traditional Chinese variants
+  * Translated core components: Navbar, HomePage, SettingsPage, HSKVocabularyPage, VietnameseVocabularyPage
+  * Enhanced Zustand store with language state management and persistence
+  * Implemented smart browser language detection for Traditional Chinese (zh-TW, zh-HK, zh-Hant)
+  * Fixed infinite loop issues with proper memoization and stable function references
+
+- **Enhanced Audio System**: Major audio service improvements with comprehensive voice management:
+  * Fixed audio interruption bug in flashcards by adding audioService.stop() before new audio
+  * Filtered out Hong Kong SAR voices for better Chinese pronunciation quality
+  * Prioritized Yating voice as default for Chinese audio
+  * Updated default settings: pitch 0.5, rate 0.7x, volume 1.0
+  * Added localStorage persistence for all audio settings
+
+- **Settings Page**: Created comprehensive SettingsPage.tsx with:
+  * Volume, rate, and pitch sliders with real-time feedback
+  * Voice selection dropdowns with test functionality
+  * Interface language selector with 4 language options
+  * Mobile-responsive design with proper form controls
+  * Added `/settings` route and navigation links
+
+- **UI Simplification**: Simplified flashcard practice page descriptions and removed verbose content
+- **App Title Update**: Changed app title from "Học Tiếng Việt" to "Học Tiếng Trung" 
+- **Build Fixes**: Resolved TypeScript build errors by removing unused isPlayingAudio state variables
 - **Extended Vietnamese support**: Vietnamese vocabulary now supports levels 1-6 (A1-C1 CEFR)
 - **Extended HSK support**: HSK vocabulary now supports levels 1-6
-- **Fixed Vietnamese loading**: Resolved TypeError in Vietnamese loader for proper data validation
-- **Audio improvements**: Fixed duplicate audio playback issue in AudioButton component
-- **Complete Vietnamese flashcards**: Added VietnameseFlashcardPage with full routing support
-- **UI improvements**: Updated level descriptions and buttons for both Vietnamese and HSK vocabularies
 - **Zustand migration**: Completed migration from Context to Zustand for better state management

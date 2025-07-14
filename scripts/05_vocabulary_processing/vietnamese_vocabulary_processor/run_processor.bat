@@ -36,12 +36,16 @@ echo Available Vietnamese vocabulary files:
 echo ========================================
 echo 1. vietnamese_raw_1.json
 echo 2. vietnamese_raw_2.json
-echo 3. vietnamese_raw_1_backup.json
-echo 4. Custom path (enter manually)
+echo 3. vietnamese_raw_3.json
+echo 4. vietnamese_raw_4.json
+echo 5. vietnamese_raw_5.json
+echo 6. vietnamese_raw_6.json
+echo 7. vietnamese_raw_1_backup.json
+echo 8. Custom path (enter manually)
 echo.
 
 REM Get user selection
-set /p CHOICE=Select file to process (1-4): 
+set /p CHOICE=Select file to process (1-8): 
 
 REM Set input file based on choice
 if "%CHOICE%"=="1" (
@@ -51,9 +55,21 @@ if "%CHOICE%"=="1" (
     set INPUT_FILE=..\..\data\vietnamese_generated\vietnamese_raw_2.json
     set OUTPUT_PREFIX=vietnamese_2
 ) else if "%CHOICE%"=="3" (
+    set INPUT_FILE=..\..\data\vietnamese_generated\vietnamese_raw_3.json
+    set OUTPUT_PREFIX=vietnamese_3
+) else if "%CHOICE%"=="4" (
+    set INPUT_FILE=..\..\data\vietnamese_generated\vietnamese_raw_4.json
+    set OUTPUT_PREFIX=vietnamese_4
+) else if "%CHOICE%"=="5" (
+    set INPUT_FILE=..\..\data\vietnamese_generated\vietnamese_raw_5.json
+    set OUTPUT_PREFIX=vietnamese_5
+) else if "%CHOICE%"=="6" (
+    set INPUT_FILE=..\..\data\vietnamese_generated\vietnamese_raw_6.json
+    set OUTPUT_PREFIX=vietnamese_6
+) else if "%CHOICE%"=="7" (
     set INPUT_FILE=..\..\data\vietnamese_generated\vietnamese_raw_1_backup.json
     set OUTPUT_PREFIX=vietnamese_1_backup
-) else if "%CHOICE%"=="4" (
+) else if "%CHOICE%"=="8" (
     echo.
     set /p INPUT_FILE=Enter full path to JSON file: 
     set OUTPUT_PREFIX=vietnamese_custom

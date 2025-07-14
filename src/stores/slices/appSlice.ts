@@ -48,12 +48,19 @@ export const createAppSlice: StateCreator<AppStore> = (set, get) => {
       const prefersDarkMode = window.matchMedia && 
         window.matchMedia('(prefers-color-scheme: dark)').matches;
       
-      // Detect browser language
-      const browserLanguage = navigator.language.slice(0, 2);
-      const supportedLanguages = ['en', 'vi', 'zh'];
-      const detectedLanguage = supportedLanguages.includes(browserLanguage) 
-        ? browserLanguage as 'en' | 'vi' | 'zh'
-        : 'en';
+      // Detect browser language with Traditional Chinese support
+      const browserLanguage = navigator.language;
+      let detectedLanguage: 'en' | 'vi' | 'zh' | 'zh-tw' = 'en';
+      
+      if (browserLanguage.startsWith('zh-TW') || browserLanguage.startsWith('zh-HK') || browserLanguage.startsWith('zh-Hant')) {
+        detectedLanguage = 'zh-tw';
+      } else if (browserLanguage.startsWith('zh')) {
+        detectedLanguage = 'zh';
+      } else if (browserLanguage.startsWith('vi')) {
+        detectedLanguage = 'vi';
+      } else if (browserLanguage.startsWith('en')) {
+        detectedLanguage = 'en';
+      }
 
       // Setup online/offline listeners
       const handleOnline = () => get().setOnlineStatus(true);

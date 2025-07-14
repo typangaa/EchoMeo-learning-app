@@ -1,41 +1,40 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import HSKVocabularyList from '../components/vocabulary/HSKVocabularyList';
+import { useTranslation } from '../hooks/useTranslation';
 
 const HSKVocabularyPage: React.FC = () => {
+  const { t } = useTranslation();
   const [showFavorites, setShowFavorites] = useState(false);
   
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div className="mb-4 sm:mb-6">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-4">HSK Vocabulary</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-4">{t('vocabulary.hsk.title')}</h1>
         
         <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-3 sm:p-4 mb-3 sm:mb-4">
-          <h2 className="text-base sm:text-lg font-semibold mb-2">About HSK Vocabulary</h2>
+          <h2 className="text-base sm:text-lg font-semibold mb-2">{t('vocabulary.hsk.about.title')}</h2>
           <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 mb-3">
-            HSK is the standardized Chinese proficiency test. Learn vocabulary with Vietnamese translations, 
-            detailed meanings, and example sentences.
+            {t('vocabulary.hsk.about.description')}
           </p>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 sm:gap-4 text-xs sm:text-sm">
             <div>
-              <h3 className="font-semibold mb-1">Available Content:</h3>
+              <h3 className="font-semibold mb-1">{t('vocabulary.hsk.about.availableContent.title')}</h3>
               <ul className="list-disc list-inside text-gray-600 dark:text-gray-400 space-y-0.5">
-                <li>HSK Levels 1-6: 5000+ words total</li>
-                <li>Vietnamese translations & meanings</li>
-                <li>Pinyin pronunciation & examples</li>
-                <li>Usage frequency indicators</li>
+                {t('vocabulary.hsk.about.availableContent.items').map((item: string, index: number) => (
+                  <li key={index}>{item}</li>
+                ))}
               </ul>
             </div>
             
             <div>
-              <h3 className="font-semibold mb-1">Features:</h3>
+              <h3 className="font-semibold mb-1">{t('vocabulary.hsk.about.features.title')}</h3>
               <ul className="list-disc list-inside text-gray-600 dark:text-gray-400 space-y-0.5">
-                <li>Audio pronunciations</li>
-                <li>Spaced repetition practice</li>
-                <li>Character stroke learning</li>
-                <li>Progress tracking system</li>
+                {t('vocabulary.hsk.about.features.items').map((item: string, index: number) => (
+                  <li key={index}>{item}</li>
+                ))}
               </ul>
             </div>
           </div>
@@ -45,7 +44,7 @@ const HSKVocabularyPage: React.FC = () => {
       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-4 sm:mb-6 space-y-3 sm:space-y-0">
         <div className="order-2 sm:order-1">
           <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
-            Browse HSK vocabulary with Vietnamese translations
+            {t('vocabulary.hsk.description')}
           </p>
         </div>
         
@@ -54,7 +53,7 @@ const HSKVocabularyPage: React.FC = () => {
             to="/hsk-flashcards"
             className="px-3 sm:px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors text-center text-sm sm:text-base"
           >
-            🧠 Practice Flashcards
+            {t('vocabulary.hsk.practiceFlashcards')}
           </Link>
           
           <div className="flex space-x-2">
@@ -66,7 +65,7 @@ const HSKVocabularyPage: React.FC = () => {
               }`}
               onClick={() => setShowFavorites(false)}
             >
-              All Vocabulary
+              {t('vocabulary.hsk.allVocabulary')}
             </button>
             
             <button
@@ -77,7 +76,7 @@ const HSKVocabularyPage: React.FC = () => {
               }`}
               onClick={() => setShowFavorites(true)}
             >
-              ★ Favorites
+              {t('vocabulary.hsk.favoritesButton')}
             </button>
           </div>
         </div>

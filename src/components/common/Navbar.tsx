@@ -1,7 +1,9 @@
 import { NavLink } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   
@@ -31,14 +33,14 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <NavLink to="/" className="text-xl font-bold vietnamese-text">
-            Học Tiếng Việt - 学越南语
+            {t('nav.appTitle')}
           </NavLink>
           
           {/* Mobile menu button */}
           <button 
             className="md:hidden text-gray-500 dark:text-gray-400"
             onClick={toggleMenu}
-            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+            aria-label={isMenuOpen ? t('nav.closeMenu') : t('nav.openMenu')}
           >
             {isMenuOpen ? "✕" : "☰"}
           </button>
@@ -51,7 +53,7 @@ const Navbar = () => {
                 isActive ? "text-green-600 dark:text-green-400" : "hover:text-green-600 dark:hover:text-green-400"
               }
             >
-              Vietnamese
+              {t('nav.vietnamese')}
             </NavLink>
             
             <NavLink 
@@ -60,7 +62,7 @@ const Navbar = () => {
                 isActive ? "text-red-600 dark:text-red-400" : "hover:text-red-600 dark:hover:text-red-400"
               }
             >
-              HSK
+              {t('nav.hsk')}
             </NavLink>
             
             <NavLink 
@@ -69,7 +71,7 @@ const Navbar = () => {
                 isActive ? "text-blue-600 dark:text-blue-400" : "hover:text-blue-600 dark:hover:text-blue-400"
               }
             >
-              Flashcards
+              {t('nav.flashcards')}
             </NavLink>
             
             <NavLink 
@@ -78,7 +80,7 @@ const Navbar = () => {
                 isActive ? "text-blue-600 dark:text-blue-400" : "hover:text-blue-600 dark:hover:text-blue-400"
               }
             >
-              Reading
+              {t('nav.reading')}
             </NavLink>
             
             <NavLink 
@@ -87,13 +89,13 @@ const Navbar = () => {
                 isActive ? "text-gray-800 dark:text-gray-200" : "hover:text-gray-600 dark:hover:text-gray-400"
               }
             >
-              ⚙️ Settings
+              ⚙️ {t('nav.settings')}
             </NavLink>
             
             <button 
               onClick={toggleDarkMode}
               className="p-2 rounded-full bg-gray-200 dark:bg-gray-700"
-              aria-label="Toggle dark mode"
+              aria-label={t('nav.toggleDarkMode')}
             >
               {isDarkMode ? "☀️" : "🌙"}
             </button>
@@ -123,7 +125,7 @@ const Navbar = () => {
                 }
                 onClick={() => setIsMenuOpen(false)}
               >
-                Vietnamese
+                {t('nav.vietnamese')}
               </NavLink>
               
               <NavLink 
@@ -133,7 +135,7 @@ const Navbar = () => {
                 }
                 onClick={() => setIsMenuOpen(false)}
               >
-                HSK
+                {t('nav.hsk')}
               </NavLink>
               
               <NavLink 
@@ -143,7 +145,7 @@ const Navbar = () => {
                 }
                 onClick={() => setIsMenuOpen(false)}
               >
-                Flashcards
+                {t('nav.flashcards')}
               </NavLink>
               
               <NavLink 
@@ -153,7 +155,7 @@ const Navbar = () => {
                 }
                 onClick={() => setIsMenuOpen(false)}
               >
-                Reading
+                {t('nav.reading')}
               </NavLink>
               
               <NavLink 
@@ -163,13 +165,13 @@ const Navbar = () => {
                 }
                 onClick={() => setIsMenuOpen(false)}
               >
-                ⚙️ Settings
+                ⚙️ {t('nav.settings')}
               </NavLink>
               
               <button 
                 onClick={toggleDarkMode}
                 className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 self-start"
-                aria-label="Toggle dark mode"
+                aria-label={t('nav.toggleDarkMode')}
               >
                 {isDarkMode ? "☀️" : "🌙"}
               </button>
