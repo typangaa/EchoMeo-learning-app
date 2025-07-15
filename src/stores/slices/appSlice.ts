@@ -13,7 +13,7 @@ export const createAppSlice: StateCreator<AppStore> = (set, get) => {
 
   return {
     // Initial state
-    theme: 'light',
+    theme: 'dark',
     language: 'en',
     isOnline: navigator.onLine || true,
     initialized: false,
@@ -68,7 +68,7 @@ export const createAppSlice: StateCreator<AppStore> = (set, get) => {
         }
         
         // Only update if values are still defaults or if this is the first run
-        const shouldUpdateTheme = currentState.theme === 'light'; // Default theme
+        const shouldUpdateTheme = currentState.theme === 'dark'; // Default theme
         const shouldUpdateLanguage = currentState.language === 'en'; // Default language
         
         if (shouldUpdateTheme || shouldUpdateLanguage) {

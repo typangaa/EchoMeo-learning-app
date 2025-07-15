@@ -103,24 +103,6 @@ const HomePage = () => {
         </div>
       </div>
       
-      {/* Pronunciation Practice Section */}
-      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-4 sm:p-6 lg:p-8 mb-4 sm:mb-8">
-        <div className="text-center">
-          <div className="text-4xl mb-4">🎤</div>
-          <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
-            {t('home.pronunciation.title')}
-          </h3>
-          <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4 sm:mb-6">
-            {t('home.pronunciation.description')}
-          </p>
-          <Link 
-            to="/pronunciation-practice" 
-            className="inline-block bg-green-600 hover:bg-green-700 text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg transition-colors font-medium text-sm sm:text-base"
-          >
-            🎯 {t('home.pronunciation.startPractice')}
-          </Link>
-        </div>
-      </div>
       
     </div>
   );

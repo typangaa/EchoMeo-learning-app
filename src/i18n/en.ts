@@ -6,7 +6,6 @@ export const en = {
     hsk: "HSK",
     flashcards: "Flashcards",
     reading: "Reading",
-    pronunciation: "Pronunciation",
     settings: "Settings",
     language: "Language",
     toggleDarkMode: "Toggle dark mode",
@@ -23,7 +22,7 @@ export const en = {
       description: "Learn Vietnamese vocabulary with Chinese translations across 6 levels (A1-C1)",
       browseVocabulary: "📚 Browse Vocabulary",
       practiceFlashcards: "🧠 Practice Flashcards",
-      features: "Audio pronunciation, spaced repetition, cultural context",
+      features: "Audio playback, spaced repetition, cultural context",
     },
     hsk: {
       title: "汉语 HSK",
@@ -36,11 +35,6 @@ export const en = {
       title: "📖 Reading Practice",
       description: "Practice reading with vocabulary lookup",
       startReading: "Start Reading Practice",
-    },
-    pronunciation: {
-      title: "Pronunciation Practice",
-      description: "Perfect your Vietnamese and Chinese pronunciation with AI-powered speech recognition feedback.",
-      startPractice: "Start Practice"
     },
   },
 
@@ -60,7 +54,7 @@ export const en = {
     },
     audio: {
       title: "Configure Audio Settings",
-      description: "Adjust voice settings and test pronunciation"
+      description: "Adjust voice settings and test audio"
     },
     theme: {
       toggle: "Toggle Theme"
@@ -99,7 +93,7 @@ export const en = {
       tips: {
         title: "💡 Audio Tips:",
         items: [
-          "Lower speech rate (0.7x) helps with pronunciation learning",
+          "Lower speech rate (0.7x) helps with language learning",
           "Adjust pitch to find the most comfortable voice tone",
           "Use 'Auto-select best voice' to find the highest quality voices",
           "Test voices to find ones that work best for your device",
@@ -136,14 +130,14 @@ export const en = {
           items: [
             "HSK Levels 1-6: 5000+ words total",
             "Vietnamese translations & meanings",
-            "Pinyin pronunciation & examples",
+            "Pinyin notation & examples",
             "Usage frequency indicators"
           ]
         },
         features: {
           title: "Features:",
           items: [
-            "Audio pronunciations",
+            "Audio playback",
             "Spaced repetition practice", 
             "Character stroke learning",
             "Progress tracking system"
@@ -167,7 +161,7 @@ export const en = {
           items: [
             "CEFR Levels A1-C1: 6000+ words total",
             "Chinese translations & meanings",
-            "Audio pronunciations & examples",
+            "Audio playback & examples",
             "Cultural context & usage notes"
           ]
         },

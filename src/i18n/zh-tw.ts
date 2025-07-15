@@ -8,7 +8,6 @@ export const zhTw: TranslationKeys = {
     hsk: "HSK",
     flashcards: "閃卡",
     reading: "閱讀",
-    pronunciation: "發音",
     settings: "設定",
     language: "語言",
     toggleDarkMode: "切換深色/淺色模式",
@@ -38,11 +37,6 @@ export const zhTw: TranslationKeys = {
       title: "📖 閱讀練習", 
       description: "透過詞彙查找練習閱讀",
       startReading: "開始閱讀練習",
-    },
-    pronunciation: {
-      title: "發音練習",
-      description: "透過AI語音識別回饋完善您的越南語和中文發音。",
-      startPractice: "開始練習"
     },
   },
 

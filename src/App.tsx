@@ -10,7 +10,6 @@ import HSKFlashcardPage from './pages/HSKFlashcardPage';
 import VietnameseFlashcardPage from './pages/VietnameseFlashcardPage';
 import SettingsPage from './pages/SettingsPage';
 import WelcomePage from './pages/WelcomePage';
-import PronunciationPracticePage from './pages/PronunciationPracticePage';
 
 import Layout from './components/common/Layout';
 import NotFoundPage from './pages/NotFoundPage';
@@ -65,7 +64,6 @@ function App() {
             <Route path="vietnamese-flashcards" element={<VietnameseFlashcardPage />} />
             <Route path="reading" element={<ReadingPage />} />
             <Route path="reading/:id" element={<PassageDetailPage />} />
-            <Route path="pronunciation-practice" element={<PronunciationPracticePage />} />
             <Route path="settings" element={<SettingsPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>

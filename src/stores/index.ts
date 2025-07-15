@@ -538,7 +538,7 @@ if (isDevelopment) {
 // Store reset utility (useful for testing or user logout)
 export const resetAppStore = () => {
   useAppStore.setState({
-    theme: 'light',
+    theme: 'dark',
     language: 'en' as 'en' | 'vi' | 'zh' | 'zh-tw',
     isOnline: navigator.onLine || true,
     initialized: false
