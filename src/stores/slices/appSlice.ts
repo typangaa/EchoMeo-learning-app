@@ -44,22 +44,47 @@ export const createAppSlice: StateCreator<AppStore> = (set, get) => {
     },
 
     initializeApp: () => {
-      // Detect system theme preference
-      const prefersDarkMode = window.matchMedia && 
-        window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const currentState = get();
       
-      // Detect browser language with Traditional Chinese support
-      const browserLanguage = navigator.language;
-      let detectedLanguage: 'en' | 'vi' | 'zh' | 'zh-tw' = 'en';
-      
-      if (browserLanguage.startsWith('zh-TW') || browserLanguage.startsWith('zh-HK') || browserLanguage.startsWith('zh-Hant')) {
-        detectedLanguage = 'zh-tw';
-      } else if (browserLanguage.startsWith('zh')) {
-        detectedLanguage = 'zh';
-      } else if (browserLanguage.startsWith('vi')) {
-        detectedLanguage = 'vi';
-      } else if (browserLanguage.startsWith('en')) {
-        detectedLanguage = 'en';
+      // Only detect system preferences if app is not already initialized
+      // (to avoid overriding persisted settings)
+      if (!currentState.initialized) {
+        // Detect system theme preference
+        const prefersDarkMode = window.matchMedia && 
+          window.matchMedia('(prefers-color-scheme: dark)').matches;
+        
+        // Detect browser language with Traditional Chinese support
+        const browserLanguage = navigator.language;
+        let detectedLanguage: 'en' | 'vi' | 'zh' | 'zh-tw' = 'en';
+        
+        if (browserLanguage.startsWith('zh-TW') || browserLanguage.startsWith('zh-HK') || browserLanguage.startsWith('zh-Hant')) {
+          detectedLanguage = 'zh-tw';
+        } else if (browserLanguage.startsWith('zh')) {
+          detectedLanguage = 'zh';
+        } else if (browserLanguage.startsWith('vi')) {
+          detectedLanguage = 'vi';
+        } else if (browserLanguage.startsWith('en')) {
+          detectedLanguage = 'en';
+        }
+        
+        // Only update if values are still defaults or if this is the first run
+        const shouldUpdateTheme = currentState.theme === 'light'; // Default theme
+        const shouldUpdateLanguage = currentState.language === 'en'; // Default language
+        
+        if (shouldUpdateTheme || shouldUpdateLanguage) {
+          actionSet({
+            theme: shouldUpdateTheme ? (prefersDarkMode ? 'dark' : 'light') : currentState.theme,
+            language: shouldUpdateLanguage ? detectedLanguage : currentState.language,
+            isOnline: navigator.onLine,
+            initialized: true
+          }, false, actionTypes.custom('INITIALIZE_APP'));
+        } else {
+          // Just mark as initialized without changing persisted settings
+          actionSet({
+            isOnline: navigator.onLine,
+            initialized: true
+          }, false, actionTypes.custom('INITIALIZE_APP'));
+        }
       }
 
       // Setup online/offline listeners
@@ -84,12 +109,6 @@ export const createAppSlice: StateCreator<AppStore> = (set, get) => {
         themeMediaQuery.addListener(handleThemeChange);
       }
 
-      actionSet({
-        theme: prefersDarkMode ? 'dark' : 'light',
-        language: detectedLanguage,
-        isOnline: navigator.onLine,
-        initialized: true
-      }, false, actionTypes.custom('INITIALIZE_APP'));
 
       // Cleanup function (would be called in useEffect cleanup)
       return () => {

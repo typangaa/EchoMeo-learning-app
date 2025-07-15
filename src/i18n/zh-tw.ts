@@ -9,6 +9,7 @@ export const zhTw: TranslationKeys = {
     flashcards: "閃卡",
     reading: "閱讀",
     settings: "設定",
+    language: "語言",
     toggleDarkMode: "切換深色/淺色模式",
     openMenu: "開啟選單",
     closeMenu: "關閉選單",
@@ -39,6 +40,33 @@ export const zhTw: TranslationKeys = {
     },
   },
 
+  // Landing Page
+  landing: {
+    welcome: {
+      title: "歡迎來到越南語-中文學習平台",
+      subtitle: "讓我們設置您的學習體驗"
+    },
+    steps: {
+      language: "語言",
+      audio: "音訊"
+    },
+    language: {
+      title: "選擇介面語言",
+      description: "選擇您希望用於介面的語言"
+    },
+    audio: {
+      title: "配置音訊設定",
+      description: "調整語音設定並測試發音"
+    },
+    theme: {
+      toggle: "切換主題"
+    },
+    continue: "繼續",
+    back: "返回",
+    skip: "跳過設定",
+    startLearning: "開始學習"
+  },
+
   // Settings
   settings: {
     title: "設定",
@@ -51,6 +79,11 @@ export const zhTw: TranslationKeys = {
       volume: "音量",
       speechRate: "語音速度",
       speechPitch: "語音音調",
+      pitch: "音調",
+      selectVoice: "選擇聲音...",
+      playing: "正在播放...",
+      testVietnamese: "🇻🇳 測試越南語",
+      testChinese: "🇨🇳 測試中文",
       vietnameseVoice: "越南語語音",
       chineseVoice: "中文語音",
       test: "測試",

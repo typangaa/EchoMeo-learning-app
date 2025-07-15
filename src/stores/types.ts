@@ -109,6 +109,9 @@ export interface AudioState {
   autoplay: boolean;
   playbackRate: number;
   volume: number;
+  pitch: number;
+  preferredVietnameseVoice?: string;
+  preferredChineseVoice?: string;
   queue: AudioQueueItem[];
   queueIndex: number;
   // Passage playback state
@@ -240,6 +243,8 @@ export interface AudioStore extends AudioState {
   setAutoplay: (enabled: boolean) => void;
   setPlaybackRate: (rate: number) => void;
   setVolume: (volume: number) => void;
+  setPitch: (pitch: number) => void;
+  setPreferredVoice: (language: 'vietnamese' | 'chinese', voiceName: string) => void;
   addToQueue: (items: AudioQueueItem[]) => void;
   clearQueue: () => void;
   nextInQueue: () => void;
@@ -255,6 +260,8 @@ export interface AudioStore extends AudioState {
   // Error handling
   setError: (error: string) => void;
   clearError: () => void;
+  // Initialization
+  initializeAudioSettings: () => void;
 }
 
 export interface UIStore extends UIState {

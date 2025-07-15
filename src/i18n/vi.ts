@@ -9,6 +9,7 @@ export const vi: TranslationKeys = {
     flashcards: "Thẻ ghi nhớ",
     reading: "Đọc hiểu",
     settings: "Cài đặt",
+    language: "Ngôn ngữ",
     toggleDarkMode: "Chế độ tối/sáng",
     openMenu: "Mở menu",
     closeMenu: "Đóng menu",
@@ -39,6 +40,33 @@ export const vi: TranslationKeys = {
     },
   },
 
+  // Landing Page
+  landing: {
+    welcome: {
+      title: "Chào mừng đến với Học Tiếng Trung-Việt",
+      subtitle: "Hãy thiết lập trải nghiệm học tập của bạn"
+    },
+    steps: {
+      language: "Ngôn ngữ",
+      audio: "Âm thanh"
+    },
+    language: {
+      title: "Chọn Ngôn Ngữ Giao Diện",
+      description: "Chọn ngôn ngữ bạn muốn sử dụng cho giao diện"
+    },
+    audio: {
+      title: "Cấu Hình Cài Đặt Âm Thanh",
+      description: "Điều chỉnh cài đặt giọng nói và kiểm tra phát âm"
+    },
+    theme: {
+      toggle: "Chuyển Chế Độ"
+    },
+    continue: "Tiếp tục",
+    back: "Quay lại",
+    skip: "Bỏ qua thiết lập",
+    startLearning: "Bắt đầu học"
+  },
+
   // Settings
   settings: {
     title: "Cài đặt",
@@ -51,6 +79,11 @@ export const vi: TranslationKeys = {
       volume: "Âm lượng",
       speechRate: "Tốc độ phát âm",
       speechPitch: "Cao độ giọng",
+      pitch: "Cao độ",
+      selectVoice: "Chọn giọng đọc...",
+      playing: "Đang phát...",
+      testVietnamese: "🇻🇳 Thử tiếng Việt",
+      testChinese: "🇨🇳 Thử tiếng Trung",
       vietnameseVoice: "Giọng tiếng Việt",
       chineseVoice: "Giọng tiếng Trung",
       test: "Kiểm tra",

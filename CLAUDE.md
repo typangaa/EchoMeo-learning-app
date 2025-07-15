@@ -104,7 +104,7 @@ When adding audio features:
 - Handle Web Speech API availability gracefully
 - AudioButton component uses optional chaining for robust error handling
 - Use SettingsPage for user audio preferences (voice selection, volume, rate, pitch)
-- Default audio settings: volume 1.0, rate 0.7x, pitch 0.5
+- Default audio settings: volume 1.0, rate 0.8x, pitch 1.0
 
 For flashcard development:
 - Complete flashcard system available for HSK, Vietnamese, and regular vocabulary
@@ -149,7 +149,7 @@ For interface translations:
   * Fixed audio interruption bug in flashcards by adding audioService.stop() before new audio
   * Filtered out Hong Kong SAR voices for better Chinese pronunciation quality
   * Prioritized Yating voice as default for Chinese audio
-  * Updated default settings: pitch 0.5, rate 0.7x, volume 1.0
+  * Updated default settings: pitch 1.0, rate 0.8x, volume 1.0
   * Added localStorage persistence for all audio settings
 
 - **Settings Page**: Created comprehensive SettingsPage.tsx with:

@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import { useAppStore } from '../stores';
 import { translations, type Language } from '../i18n';
 
@@ -53,8 +54,8 @@ export function useTranslation() {
   // Use Zustand's direct store access to avoid re-render issues
   const language = useAppStore((state) => state.language);
   
-  // Create a stable translation function for this language
-  const t = createTranslationFunction(language);
+  // Create a stable translation function for this language using useMemo
+  const t = useMemo(() => createTranslationFunction(language), [language]);
   
   return { t, language };
 }

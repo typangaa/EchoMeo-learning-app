@@ -1,27 +1,36 @@
 import { NavLink } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useTranslation } from '../../hooks/useTranslation';
+import { useAppStore } from '../../stores';
 
 const Navbar = () => {
-  const { t } = useTranslation();
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const { t, language } = useTranslation();
+  const setLanguage = useAppStore((state) => state.setLanguage);
+  const theme = useAppStore((state) => state.theme);
+  const setTheme = useAppStore((state) => state.setTheme);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   
-  // Initialize dark mode state based on document class
-  useEffect(() => {
-    setIsDarkMode(document.documentElement.classList.contains('dark'));
-  }, []);
+  const isDarkMode = theme === 'dark';
   
   const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-    document.documentElement.classList.toggle('dark');
-    
-    // Save preference to localStorage
-    if (document.documentElement.classList.contains('dark')) {
-      localStorage.theme = 'dark';
-    } else {
-      localStorage.theme = 'light';
-    }
+    const newTheme = isDarkMode ? 'light' : 'dark';
+    setTheme(newTheme);
+  };
+
+  // Language icons mapping
+  const languageIcons: Record<string, string> = {
+    'en': '🇺🇸',
+    'vi': '🇻🇳', 
+    'zh': '🇨🇳',
+    'zh-tw': '🇹🇼'
+  };
+
+  // Cycle through languages
+  const cycleLanguage = () => {
+    const languages = ['en', 'vi', 'zh', 'zh-tw'] as const;
+    const currentIndex = languages.indexOf(language as any);
+    const nextIndex = (currentIndex + 1) % languages.length;
+    setLanguage(languages[nextIndex]);
   };
 
   const toggleMenu = () => {
@@ -91,6 +100,15 @@ const Navbar = () => {
             >
               ⚙️ {t('nav.settings')}
             </NavLink>
+            
+            <button 
+              onClick={cycleLanguage}
+              className="p-2 rounded-full bg-gray-200 dark:bg-gray-700"
+              aria-label={`${t('nav.language')}: ${language}`}
+              title={`${t('nav.language')}: ${language}`}
+            >
+              {languageIcons[language] || '🌐'}
+            </button>
             
             <button 
               onClick={toggleDarkMode}
@@ -168,13 +186,24 @@ const Navbar = () => {
                 ⚙️ {t('nav.settings')}
               </NavLink>
               
-              <button 
-                onClick={toggleDarkMode}
-                className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 self-start"
-                aria-label={t('nav.toggleDarkMode')}
-              >
-                {isDarkMode ? "☀️" : "🌙"}
-              </button>
+              <div className="flex items-center space-x-3 self-start">
+                <button 
+                  onClick={cycleLanguage}
+                  className="p-2 rounded-full bg-gray-200 dark:bg-gray-700"
+                  aria-label={`${t('nav.language')}: ${language}`}
+                  title={`${t('nav.language')}: ${language}`}
+                >
+                  {languageIcons[language] || '🌐'}
+                </button>
+                
+                <button 
+                  onClick={toggleDarkMode}
+                  className="p-2 rounded-full bg-gray-200 dark:bg-gray-700"
+                  aria-label={t('nav.toggleDarkMode')}
+                >
+                  {isDarkMode ? "☀️" : "🌙"}
+                </button>
+              </div>
             </div>
           </div>
         )}

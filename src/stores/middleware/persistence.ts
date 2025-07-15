@@ -236,6 +236,9 @@ export const persistConfigs = {
       autoplay: state.autoplay,
       playbackRate: state.playbackRate,
       volume: state.volume,
+      pitch: state.pitch,
+      preferredVietnameseVoice: state.preferredVietnameseVoice,
+      preferredChineseVoice: state.preferredChineseVoice,
     })
   },
   ui: {

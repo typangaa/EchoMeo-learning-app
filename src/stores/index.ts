@@ -162,6 +162,9 @@ export const useCurrentAudio = () => useAudioStore((state) => state.currentAudio
 export const useAutoplay = () => useAudioStore((state) => state.autoplay);
 export const usePlaybackRate = () => useAudioStore((state) => state.playbackRate);
 export const useVolume = () => useAudioStore((state) => state.volume);
+export const usePitch = () => useAudioStore((state) => state.pitch);
+export const usePreferredVietnameseVoice = () => useAudioStore((state) => state.preferredVietnameseVoice);
+export const usePreferredChineseVoice = () => useAudioStore((state) => state.preferredChineseVoice);
 export const useAudioQueue = () => useAudioStore((state) => state.queue);
 export const useQueueIndex = () => useAudioStore((state) => state.queueIndex);
 
@@ -176,7 +179,10 @@ export const useAudioPlayback = () => useAudioStore((state) => ({
 export const useAudioSettings = () => useAudioStore((state) => ({
   setAutoplay: state.setAutoplay,
   setPlaybackRate: state.setPlaybackRate,
-  setVolume: state.setVolume
+  setVolume: state.setVolume,
+  setPitch: state.setPitch,
+  setPreferredVoice: state.setPreferredVoice,
+  initializeAudioSettings: state.initializeAudioSettings
 }));
 
 // Audio queue actions
@@ -387,14 +393,24 @@ export const useSessionAccuracy = () => useProgressStore((state) => {
 // STORE INITIALIZATION
 // =============================================================================
 
-// Initialize app when store is first created
-if (typeof window !== 'undefined') {
-  // Initialize the app on store creation
-  setTimeout(() => {
-    const { initializeApp } = useAppStore.getState();
-    initializeApp();
-  }, 0);
-}
+// Initialize app when store is first created (disabled temporarily to debug infinite loop)
+// if (typeof window !== 'undefined') {
+//   // Initialize the app on store creation
+//   setTimeout(() => {
+//     const appState = useAppStore.getState();
+//     const audioState = useAudioStore.getState();
+    
+//     // Only initialize if not already initialized
+//     if (!appState.initialized) {
+//       console.log('Initializing app store...');
+//       appState.initializeApp();
+//     }
+    
+//     // Initialize audio settings separately
+//     console.log('Initializing audio settings...');
+//     audioState.initializeAudioSettings();
+//   }, 100);
+// }
 
 // =============================================================================
 // TYPE EXPORTS

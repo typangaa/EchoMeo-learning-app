@@ -7,6 +7,7 @@ export const en = {
     flashcards: "Flashcards",
     reading: "Reading",
     settings: "Settings",
+    language: "Language",
     toggleDarkMode: "Toggle dark mode",
     openMenu: "Open menu",
     closeMenu: "Close menu",
@@ -37,6 +38,33 @@ export const en = {
     },
   },
 
+  // Landing Page
+  landing: {
+    welcome: {
+      title: "Welcome to Vietnamese-Chinese Learning",
+      subtitle: "Let's set up your learning experience"
+    },
+    steps: {
+      language: "Language",
+      audio: "Audio"
+    },
+    language: {
+      title: "Choose Your Interface Language",
+      description: "Select the language you'd like to use for the interface"
+    },
+    audio: {
+      title: "Configure Audio Settings",
+      description: "Adjust voice settings and test pronunciation"
+    },
+    theme: {
+      toggle: "Toggle Theme"
+    },
+    continue: "Continue",
+    back: "Back",
+    skip: "Skip Setup",
+    startLearning: "Start Learning"
+  },
+
   // Settings
   settings: {
     title: "Settings",
@@ -49,6 +77,11 @@ export const en = {
       volume: "Volume",
       speechRate: "Speech Rate",
       speechPitch: "Speech Pitch",
+      pitch: "Pitch",
+      selectVoice: "Select a voice...",
+      playing: "Playing...",
+      testVietnamese: "🇻🇳 Test Vietnamese",
+      testChinese: "🇨🇳 Test Chinese",
       vietnameseVoice: "Vietnamese Voice",
       chineseVoice: "Chinese Voice",
       test: "Test",

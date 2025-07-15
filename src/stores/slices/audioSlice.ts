@@ -17,8 +17,11 @@ export const createAudioSlice: StateCreator<AudioStore> = (set, get) => {
     isPlaying: false,
     currentAudio: null,
     autoplay: false,
-    playbackRate: 1.0,
-    volume: 0.8,
+    playbackRate: 0.8, // Updated default to match audioService
+    volume: 1.0, // Updated default to match audioService
+    pitch: 1.0, // Added pitch setting
+    preferredVietnameseVoice: undefined,
+    preferredChineseVoice: undefined,
     queue: [],
     queueIndex: -1,
     // Passage playback state
@@ -93,8 +96,8 @@ export const createAudioSlice: StateCreator<AudioStore> = (set, get) => {
         playbackRate: clampedRate
       }, false, actionTypes.custom('SET_PLAYBACK_RATE'));
 
-      // Note: AudioService doesn't support dynamic rate changes
-      // This would need to be implemented in the audioService if needed
+      // Update audioService settings
+      audioService.saveSettings({ rate: clampedRate });
     },
 
     setVolume: (volume) => {
@@ -105,8 +108,34 @@ export const createAudioSlice: StateCreator<AudioStore> = (set, get) => {
         volume: clampedVolume
       }, false, actionTypes.custom('SET_VOLUME'));
 
-      // Update audioService volume
-      audioService.setVolume(clampedVolume);
+      // Update audioService settings
+      audioService.saveSettings({ volume: clampedVolume });
+    },
+
+    setPitch: (pitch) => {
+      // Clamp pitch between 0 and 2
+      const clampedPitch = Math.max(0, Math.min(2, pitch));
+      
+      actionSet({
+        pitch: clampedPitch
+      }, false, actionTypes.custom('SET_PITCH'));
+
+      // Update audioService settings
+      audioService.saveSettings({ pitch: clampedPitch });
+    },
+
+    setPreferredVoice: (language, voiceName) => {
+      const update = language === 'vietnamese' 
+        ? { preferredVietnameseVoice: voiceName }
+        : { preferredChineseVoice: voiceName };
+      
+      actionSet(update, false, actionTypes.custom('SET_PREFERRED_VOICE'));
+
+      // Update audioService settings
+      const settingsUpdate = language === 'vietnamese'
+        ? { preferredVietnameseVoice: voiceName }
+        : { preferredChineseVoice: voiceName };
+      audioService.saveSettings(settingsUpdate);
     },
 
     // Queue management actions
@@ -294,6 +323,18 @@ export const createAudioSlice: StateCreator<AudioStore> = (set, get) => {
       actionSet({
         error: null
       }, false, actionTypes.custom('CLEAR_ERROR'));
+    },
+
+    // Initialize audio settings from audioService
+    initializeAudioSettings: () => {
+      const audioSettings = audioService.getSettings();
+      actionSet({
+        volume: audioSettings.volume,
+        playbackRate: audioSettings.rate,
+        pitch: audioSettings.pitch,
+        preferredVietnameseVoice: audioSettings.preferredVietnameseVoice,
+        preferredChineseVoice: audioSettings.preferredChineseVoice,
+      }, false, actionTypes.custom('INITIALIZE_AUDIO_SETTINGS'));
     }
   };
 };

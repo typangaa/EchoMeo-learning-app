@@ -26,8 +26,8 @@ class AudioService {
   constructor(options: AudioServiceOptions = {}) {
     this.settings = {
       volume: options.defaultVolume || 1.0,
-      rate: options.defaultRate || 0.7,
-      pitch: options.defaultPitch || 0.5,
+      rate: options.defaultRate || 0.8,
+      pitch: options.defaultPitch || 1.0,
     };
     
     // Check if Web Speech API is available

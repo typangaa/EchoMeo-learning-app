@@ -9,12 +9,18 @@ import FlashcardPage from './pages/FlashcardPage';
 import HSKFlashcardPage from './pages/HSKFlashcardPage';
 import VietnameseFlashcardPage from './pages/VietnameseFlashcardPage';
 import SettingsPage from './pages/SettingsPage';
+import WelcomePage from './pages/WelcomePage';
 
 import Layout from './components/common/Layout';
 import NotFoundPage from './pages/NotFoundPage';
+import StoreInitializer from './components/StoreInitializer';
+import FirstVisitHandler from './components/FirstVisitHandler';
 import { performDataMigration, validateMigration } from './utils/migrateStorageData';
+import { useTheme } from './stores';
 
 function App() {
+  const theme = useTheme();
+
   // Initialize Zustand stores and perform data migration on app startup
   useEffect(() => {
     const initializeStores = async () => {
@@ -30,23 +36,40 @@ function App() {
     initializeStores();
   }, []);
 
+  // Sync theme with document class
+  useEffect(() => {
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [theme]);
+
   return (
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<HomePage />} />
-          <Route path="vietnamese" element={<VietnameseVocabularyPage />} />
-          <Route path="hsk" element={<HSKVocabularyPage />} />
-          <Route path="flashcards" element={<FlashcardPage />} />
-          <Route path="hsk-flashcards" element={<HSKFlashcardPage />} />
-          <Route path="vietnamese-flashcards" element={<VietnameseFlashcardPage />} />
-          <Route path="reading" element={<ReadingPage />} />
-          <Route path="reading/:id" element={<PassageDetailPage />} />
-          <Route path="settings" element={<SettingsPage />} />
-          <Route path="*" element={<NotFoundPage />} />
-        </Route>
-      </Routes>
-    </HashRouter>
+    <>
+      <StoreInitializer />
+      <HashRouter>
+        <FirstVisitHandler />
+        <Routes>
+          {/* Landing page route */}
+          <Route path="/welcome" element={<WelcomePage />} />
+          
+          {/* Main app routes */}
+          <Route path="/" element={<Layout />}>
+            <Route index element={<HomePage />} />
+            <Route path="vietnamese" element={<VietnameseVocabularyPage />} />
+            <Route path="hsk" element={<HSKVocabularyPage />} />
+            <Route path="flashcards" element={<FlashcardPage />} />
+            <Route path="hsk-flashcards" element={<HSKFlashcardPage />} />
+            <Route path="vietnamese-flashcards" element={<VietnameseFlashcardPage />} />
+            <Route path="reading" element={<ReadingPage />} />
+            <Route path="reading/:id" element={<PassageDetailPage />} />
+            <Route path="settings" element={<SettingsPage />} />
+            <Route path="*" element={<NotFoundPage />} />
+          </Route>
+        </Routes>
+      </HashRouter>
+    </>
   );
 }
 

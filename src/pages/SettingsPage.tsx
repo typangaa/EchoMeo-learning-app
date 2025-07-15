@@ -17,8 +17,8 @@ const SettingsPage = () => {
   
   const [settings, setSettings] = useState<AudioSettings>({
     volume: 1.0,
-    rate: 0.7,
-    pitch: 0.5,
+    rate: 0.8,
+    pitch: 1.0,
   });
   const [vietnameseVoices, setVietnameseVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [chineseVoices, setChineseVoices] = useState<SpeechSynthesisVoice[]>([]);
@@ -92,8 +92,8 @@ const SettingsPage = () => {
   const resetToDefaults = () => {
     const defaultSettings = {
       volume: 1.0,
-      rate: 0.7,
-      pitch: 0.5,
+      rate: 0.8,
+      pitch: 1.0,
       preferredVietnameseVoice: undefined,
       preferredChineseVoice: undefined,
     };

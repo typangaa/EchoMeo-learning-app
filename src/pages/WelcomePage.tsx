@@ -1,0 +1,473 @@
+import { useState, useCallback, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useTranslation } from '../hooks/useTranslation';
+import { useAppStore, useAudioStore } from '../stores';
+import audioService from '../utils/audioService';
+
+const WelcomePage = () => {
+  const navigate = useNavigate();
+  const { t } = useTranslation();
+  const [currentStep, setCurrentStep] = useState(1);
+  
+  // Local state for audio settings to avoid store hook issues
+  const [audioSettings, setAudioSettings] = useState({
+    volume: 1.0,
+    playbackRate: 0.8,
+    pitch: 1.0,
+    preferredVietnameseVoice: '',
+    preferredChineseVoice: ''
+  });
+  
+  // Voice selection state
+  const [vietnameseVoices, setVietnameseVoices] = useState<SpeechSynthesisVoice[]>([]);
+  const [chineseVoices, setChineseVoices] = useState<SpeechSynthesisVoice[]>([]);
+  const [isTestingVietnamese, setIsTestingVietnamese] = useState(false);
+  const [isTestingChinese, setIsTestingChinese] = useState(false);
+  
+  // Get current language and theme from store
+  const language = useAppStore((state) => state.language);
+  const theme = useAppStore((state) => state.theme);
+  
+  // Get setters from store
+  const setLanguage = useAppStore((state) => state.setLanguage);
+  const setTheme = useAppStore((state) => state.setTheme);
+
+  // Load available voices on component mount
+  useEffect(() => {
+    const loadVoices = () => {
+      setVietnameseVoices(audioService.getAvailableVoices('vietnamese'));
+      setChineseVoices(audioService.getAvailableVoices('chinese'));
+    };
+
+    // Load voices immediately and on voice change
+    loadVoices();
+    if (window.speechSynthesis) {
+      window.speechSynthesis.onvoiceschanged = loadVoices;
+    }
+  }, []);
+
+  const languageOptions = [
+    { code: 'en', label: 'English', flag: '🇺🇸', native: 'English' },
+    { code: 'vi', label: 'Vietnamese', flag: '🇻🇳', native: 'Tiếng Việt' },
+    { code: 'zh', label: 'Simplified Chinese', flag: '🇨🇳', native: '简体中文' },
+    { code: 'zh-tw', label: 'Traditional Chinese', flag: '🇹🇼', native: '繁體中文' }
+  ];
+
+  const handleLanguageSelect = (langCode: string) => {
+    setLanguage(langCode as any);
+  };
+
+  const handleThemeToggle = () => {
+    setTheme(theme === 'light' ? 'dark' : 'light');
+  };
+
+  // Memoized audio setting handlers to prevent recreating functions
+  const handleVolumeChange = useCallback((value: number) => {
+    setAudioSettings(prev => ({ ...prev, volume: value }));
+  }, []);
+
+  const handlePlaybackRateChange = useCallback((value: number) => {
+    setAudioSettings(prev => ({ ...prev, playbackRate: value }));
+  }, []);
+
+  const handlePitchChange = useCallback((value: number) => {
+    setAudioSettings(prev => ({ ...prev, pitch: value }));
+  }, []);
+
+  const handleVietnameseVoiceChange = useCallback((voiceName: string) => {
+    setAudioSettings(prev => ({ ...prev, preferredVietnameseVoice: voiceName }));
+  }, []);
+
+  const handleChineseVoiceChange = useCallback((voiceName: string) => {
+    setAudioSettings(prev => ({ ...prev, preferredChineseVoice: voiceName }));
+  }, []);
+
+  const testVietnameseVoice = useCallback(async () => {
+    setIsTestingVietnamese(true);
+    try {
+      // Apply current audio settings for testing
+      audioService.setVolume(audioSettings.volume);
+      audioService.setRate(audioSettings.playbackRate);
+      audioService.setPitch(audioSettings.pitch);
+      
+      // Set the preferred voice for testing
+      if (audioSettings.preferredVietnameseVoice) {
+        audioService.setPreferredVoice('vietnamese', audioSettings.preferredVietnameseVoice);
+      }
+      await audioService.playText('Xin chào! Tôi đang học tiếng Việt.', 'vietnamese');
+    } catch (error) {
+      console.error('Error testing Vietnamese voice:', error);
+    } finally {
+      setIsTestingVietnamese(false);
+    }
+  }, [audioSettings.preferredVietnameseVoice, audioSettings.volume, audioSettings.playbackRate, audioSettings.pitch]);
+
+  const testChineseVoice = useCallback(async () => {
+    setIsTestingChinese(true);
+    try {
+      // Apply current audio settings for testing
+      audioService.setVolume(audioSettings.volume);
+      audioService.setRate(audioSettings.playbackRate);
+      audioService.setPitch(audioSettings.pitch);
+      
+      // Set the preferred voice for testing
+      if (audioSettings.preferredChineseVoice) {
+        audioService.setPreferredVoice('chinese', audioSettings.preferredChineseVoice);
+      }
+      await audioService.playText('你好！我正在学习中文。', 'chinese');
+    } catch (error) {
+      console.error('Error testing Chinese voice:', error);
+    } finally {
+      setIsTestingChinese(false);
+    }
+  }, [audioSettings.preferredChineseVoice, audioSettings.volume, audioSettings.playbackRate, audioSettings.pitch]);
+
+  // Helper function to format voice display names
+  const formatVoiceName = useCallback((voice: SpeechSynthesisVoice) => {
+    const maxLength = 40; // Adjust based on container size
+    const localStatus = voice.localService ? 'Local' : 'Online';
+    const baseName = `${voice.name} (${localStatus})`;
+    
+    if (baseName.length <= maxLength) {
+      return baseName;
+    }
+    
+    // Truncate voice name if too long
+    const availableLength = maxLength - ` (${localStatus})`.length - 3; // 3 for "..."
+    const truncatedName = voice.name.substring(0, availableLength) + '...';
+    return `${truncatedName} (${localStatus})`;
+  }, []);
+
+  const handleComplete = () => {
+    // Save audio settings to audio store
+    const audioState = useAudioStore.getState();
+    audioState.setVolume(audioSettings.volume);
+    audioState.setPlaybackRate(audioSettings.playbackRate);
+    audioState.setPitch(audioSettings.pitch);
+    
+    // Save voice preferences to audio service
+    if (audioSettings.preferredVietnameseVoice) {
+      audioService.setPreferredVoice('vietnamese', audioSettings.preferredVietnameseVoice);
+    }
+    if (audioSettings.preferredChineseVoice) {
+      audioService.setPreferredVoice('chinese', audioSettings.preferredChineseVoice);
+    }
+    
+    // Mark as visited to skip welcome page in future
+    localStorage.setItem('visited', 'true');
+    navigate('/');
+  };
+
+  const handleSkip = () => {
+    localStorage.setItem('visited', 'true');
+    navigate('/');
+  };
+
+  const renderLanguageStep = () => (
+    <div className="space-y-6">
+      <div className="text-center">
+        <h2 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">
+          {t('landing.language.title')}
+        </h2>
+        <p className="text-gray-600 dark:text-gray-400">
+          {t('landing.language.description')}
+        </p>
+      </div>
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+        {languageOptions.map((option) => (
+          <button
+            key={option.code}
+            onClick={() => handleLanguageSelect(option.code)}
+            className={`p-4 rounded-xl border-2 transition-all duration-200 ${
+              language === option.code
+                ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20 shadow-md'
+                : 'border-gray-200 dark:border-gray-700 hover:border-blue-300 hover:bg-gray-50 dark:hover:bg-gray-800'
+            }`}
+          >
+            <div className="flex items-center space-x-3">
+              <span className="text-2xl">{option.flag}</span>
+              <div className="text-left">
+                <div className="font-semibold text-gray-900 dark:text-white">{option.label}</div>
+                <div className="text-sm text-gray-500 dark:text-gray-400">{option.native}</div>
+              </div>
+            </div>
+          </button>
+        ))}
+      </div>
+
+      <div className="flex items-center justify-between pt-4">
+        <button
+          onClick={handleThemeToggle}
+          className="flex items-center space-x-2 px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+        >
+          <span className="text-lg">{theme === 'light' ? '🌙' : '☀️'}</span>
+          <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+            {theme === 'light' ? 'Dark Mode' : 'Light Mode'}
+          </span>
+        </button>
+        
+        <button
+          onClick={() => setCurrentStep(2)}
+          className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 transition-colors font-medium"
+        >
+          {t('landing.continue')}
+        </button>
+      </div>
+    </div>
+  );
+
+  const renderAudioStep = () => (
+    <div className="space-y-6">
+      <div className="text-center">
+        <h2 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">
+          {t('landing.audio.title')}
+        </h2>
+        <p className="text-gray-600 dark:text-gray-400">
+          {t('landing.audio.description')}
+        </p>
+      </div>
+      
+      <div className="space-y-4">
+        {/* Volume Control */}
+        <div>
+          <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+            {t('settings.audio.volume')}: {Math.round(audioSettings.volume * 100)}%
+          </label>
+          <input
+            type="range"
+            min="0"
+            max="1"
+            step="0.1"
+            value={audioSettings.volume}
+            onChange={(e) => handleVolumeChange(parseFloat(e.target.value))}
+            className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700 slider"
+          />
+        </div>
+
+        {/* Speech Rate Control */}
+        <div>
+          <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+            {t('settings.audio.speechRate')}: {audioSettings.playbackRate}x
+          </label>
+          <input
+            type="range"
+            min="0.5"
+            max="2"
+            step="0.1"
+            value={audioSettings.playbackRate}
+            onChange={(e) => handlePlaybackRateChange(parseFloat(e.target.value))}
+            className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700 slider"
+          />
+        </div>
+
+        {/* Pitch Control */}
+        <div>
+          <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+            {t('settings.audio.pitch')}: {audioSettings.pitch}
+          </label>
+          <input
+            type="range"
+            min="0"
+            max="2"
+            step="0.1"
+            value={audioSettings.pitch}
+            onChange={(e) => handlePitchChange(parseFloat(e.target.value))}
+            className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700 slider"
+          />
+        </div>
+
+        {/* Vietnamese Voice Selection */}
+        <div>
+          <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+            🇻🇳 {t('settings.audio.vietnameseVoice')}
+          </label>
+          <div className="flex flex-col sm:flex-row gap-2">
+            <select
+              value={audioSettings.preferredVietnameseVoice || ''}
+              onChange={(e) => handleVietnameseVoiceChange(e.target.value)}
+              className="flex-1 min-w-0 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white text-sm"
+              title={audioSettings.preferredVietnameseVoice || 'Auto select voice'}
+            >
+              <option value="">{t('settings.audio.autoSelectVoice')}</option>
+              {vietnameseVoices.map((voice) => (
+                <option key={voice.name} value={voice.name} title={`${voice.name} (${voice.lang}) ${voice.localService ? '(Local)' : '(Online)'}`}>
+                  {formatVoiceName(voice)}
+                </option>
+              ))}
+            </select>
+            <button
+              onClick={testVietnameseVoice}
+              disabled={isTestingVietnamese}
+              className="px-3 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 disabled:bg-gray-400 transition-colors text-sm"
+            >
+              {isTestingVietnamese ? t('settings.audio.testing') : t('settings.audio.test')}
+            </button>
+          </div>
+          {vietnameseVoices.length === 0 && (
+            <p className="text-sm text-gray-500 mt-1">{t('settings.audio.noVietnameseVoices')}</p>
+          )}
+        </div>
+
+        {/* Chinese Voice Selection */}
+        <div>
+          <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+            🇨🇳 {t('settings.audio.chineseVoice')}
+          </label>
+          <div className="flex flex-col sm:flex-row gap-2">
+            <select
+              value={audioSettings.preferredChineseVoice || ''}
+              onChange={(e) => handleChineseVoiceChange(e.target.value)}
+              className="flex-1 min-w-0 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-red-500 focus:border-red-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white text-sm"
+              title={audioSettings.preferredChineseVoice || 'Auto select voice'}
+            >
+              <option value="">{t('settings.audio.autoSelectVoice')}</option>
+              {chineseVoices.map((voice) => (
+                <option key={voice.name} value={voice.name} title={`${voice.name} (${voice.lang}) ${voice.localService ? '(Local)' : '(Online)'}`}>
+                  {formatVoiceName(voice)}
+                </option>
+              ))}
+            </select>
+            <button
+              onClick={testChineseVoice}
+              disabled={isTestingChinese}
+              className="px-3 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 disabled:bg-gray-400 transition-colors text-sm"
+            >
+              {isTestingChinese ? t('settings.audio.testing') : t('settings.audio.test')}
+            </button>
+          </div>
+          {chineseVoices.length === 0 && (
+            <p className="text-sm text-gray-500 mt-1">{t('settings.audio.noChineseVoices')}</p>
+          )}
+        </div>
+      </div>
+
+      <div className="flex justify-between pt-4">
+        <button
+          onClick={() => setCurrentStep(1)}
+          className="px-4 py-2 text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors"
+        >
+          {t('landing.back')}
+        </button>
+        <button
+          onClick={() => setCurrentStep(3)}
+          className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+        >
+          {t('landing.continue')}
+        </button>
+      </div>
+    </div>
+  );
+
+  const renderSetupCompleteStep = () => (
+    <div className="space-y-6 text-center">
+      <div className="mx-auto w-16 h-16 bg-green-100 dark:bg-green-900/20 rounded-full flex items-center justify-center">
+        <span className="text-2xl">✨</span>
+      </div>
+      
+      <div>
+        <h2 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">
+          {t('landing.welcome.title')}
+        </h2>
+        <p className="text-gray-600 dark:text-gray-400">
+          Your preferences have been saved. You can change them anytime in settings.
+        </p>
+      </div>
+
+      <div className="space-y-3">
+        <button
+          onClick={handleComplete}
+          className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 transition-colors font-medium"
+        >
+          {t('landing.startLearning')}
+        </button>
+        
+        <div className="text-sm text-gray-500 dark:text-gray-400 space-y-1">
+          <div>Language: {languageOptions.find(opt => opt.code === language)?.native}</div>
+          <div>Theme: {theme === 'light' ? 'Light' : 'Dark'} mode</div>
+          <div>Audio: {Math.round(audioSettings.volume * 100)}% vol • {audioSettings.playbackRate}x rate</div>
+          {audioSettings.preferredVietnameseVoice && (
+            <div>Vietnamese Voice: {audioSettings.preferredVietnameseVoice.split(' ')[0]}</div>
+          )}
+          {audioSettings.preferredChineseVoice && (
+            <div>Chinese Voice: {audioSettings.preferredChineseVoice.split(' ')[0]}</div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-900 dark:to-gray-800 transition-all duration-300">
+      <div className="container mx-auto px-4 py-8">
+        <div className="max-w-lg mx-auto">
+          {/* Header */}
+          <div className="text-center mb-8">
+            <div className="mx-auto w-20 h-20 bg-blue-600 rounded-2xl flex items-center justify-center mb-4">
+              <span className="text-3xl text-white">📚</span>
+            </div>
+            <h1 className="text-3xl font-bold mb-2 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              Vietnamese-Chinese Learning
+            </h1>
+            <p className="text-gray-600 dark:text-gray-400">
+              {t('landing.welcome.subtitle')}
+            </p>
+          </div>
+
+          {/* Progress Steps */}
+          <div className="mb-8">
+            <div className="flex items-center justify-center space-x-3">
+              <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${
+                currentStep >= 1 ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-500 dark:bg-gray-700 dark:text-gray-400'
+              }`}>
+                1
+              </div>
+              <div className={`h-1 w-12 ${
+                currentStep >= 2 ? 'bg-blue-600' : 'bg-gray-200 dark:bg-gray-700'
+              }`} />
+              <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${
+                currentStep >= 2 ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-500 dark:bg-gray-700 dark:text-gray-400'
+              }`}>
+                2
+              </div>
+              <div className={`h-1 w-12 ${
+                currentStep >= 3 ? 'bg-blue-600' : 'bg-gray-200 dark:bg-gray-700'
+              }`} />
+              <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${
+                currentStep >= 3 ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-500 dark:bg-gray-700 dark:text-gray-400'
+              }`}>
+                3
+              </div>
+            </div>
+            <div className="flex justify-between mt-2 text-xs text-gray-500 dark:text-gray-400">
+              <span>Language</span>
+              <span>Audio</span>
+              <span>Ready</span>
+            </div>
+          </div>
+
+          {/* Main Content */}
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 p-6 mb-6">
+            {currentStep === 1 ? renderLanguageStep() : 
+             currentStep === 2 ? renderAudioStep() : 
+             renderSetupCompleteStep()}
+          </div>
+
+          {/* Skip Option */}
+          {currentStep === 1 && (
+            <div className="text-center">
+              <button
+                onClick={handleSkip}
+                className="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 underline transition-colors text-sm"
+              >
+                {t('landing.skip')}
+              </button>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default WelcomePage;
