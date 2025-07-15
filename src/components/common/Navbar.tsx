@@ -93,6 +93,15 @@ const Navbar = () => {
             </NavLink>
             
             <NavLink 
+              to="/pronunciation-practice" 
+              className={({ isActive }) => 
+                isActive ? "text-blue-600 dark:text-blue-400" : "hover:text-blue-600 dark:hover:text-blue-400"
+              }
+            >
+              🎤 {t('nav.pronunciation')}
+            </NavLink>
+            
+            <NavLink 
               to="/settings" 
               className={({ isActive }) => 
                 isActive ? "text-gray-800 dark:text-gray-200" : "hover:text-gray-600 dark:hover:text-gray-400"
@@ -174,6 +183,16 @@ const Navbar = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t('nav.reading')}
+              </NavLink>
+              
+              <NavLink 
+                to="/pronunciation-practice" 
+                className={({ isActive }) => 
+                  isActive ? "text-blue-600 dark:text-blue-400" : "hover:text-blue-600 dark:hover:text-blue-400"
+                }
+                onClick={() => setIsMenuOpen(false)}
+              >
+                🎤 {t('nav.pronunciation')}
               </NavLink>
               
               <NavLink 

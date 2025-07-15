@@ -6,6 +6,7 @@ export const en = {
     hsk: "HSK",
     flashcards: "Flashcards",
     reading: "Reading",
+    pronunciation: "Pronunciation",
     settings: "Settings",
     language: "Language",
     toggleDarkMode: "Toggle dark mode",
@@ -35,6 +36,11 @@ export const en = {
       title: "📖 Reading Practice",
       description: "Practice reading with vocabulary lookup",
       startReading: "Start Reading Practice",
+    },
+    pronunciation: {
+      title: "Pronunciation Practice",
+      description: "Perfect your Vietnamese and Chinese pronunciation with AI-powered speech recognition feedback.",
+      startPractice: "Start Practice"
     },
   },
 

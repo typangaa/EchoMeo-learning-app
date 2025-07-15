@@ -8,6 +8,7 @@ export const vi: TranslationKeys = {
     hsk: "HSK",
     flashcards: "Thẻ ghi nhớ",
     reading: "Đọc hiểu",
+    pronunciation: "Phát âm",
     settings: "Cài đặt",
     language: "Ngôn ngữ",
     toggleDarkMode: "Chế độ tối/sáng",
@@ -37,6 +38,11 @@ export const vi: TranslationKeys = {
       title: "📖 Luyện đọc",
       description: "Luyện đọc với tra cứu từ vựng",
       startReading: "Bắt đầu luyện đọc",
+    },
+    pronunciation: {
+      title: "Luyện phát âm",
+      description: "Hoàn thiện khả năng phát âm tiếng Việt và tiếng Trung với phản hồi nhận dạng giọng nói AI.",
+      startPractice: "Bắt đầu luyện tập"
     },
   },
 
