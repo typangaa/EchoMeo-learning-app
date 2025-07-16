@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useVocabularyStore } from '../stores';
 import { useTranslation } from '../hooks/useTranslation';
 import { VocabularyItem } from '../types';
@@ -14,6 +14,9 @@ const VietnameseVocabularyViewPage: React.FC = () => {
   const [showListPanel, setShowListPanel] = useState<boolean>(false);
   const [showFavorites, setShowFavorites] = useState<boolean>(false);
   const [searchTerm, setSearchTerm] = useState<string>('');
+  const [isSearchExpanded, setIsSearchExpanded] = useState<boolean>(false);
+  const touchStartX = useRef<number>(0);
+  const touchEndX = useRef<number>(0);
 
   const {
     vietnameseVocabulary,
@@ -79,6 +82,31 @@ const VietnameseVocabularyViewPage: React.FC = () => {
     setStoreSearchTerm(term);
   };
 
+  const handleTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.targetTouches[0].clientX;
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    touchEndX.current = e.targetTouches[0].clientX;
+  };
+
+  const handleTouchEnd = () => {
+    if (!touchStartX.current || !touchEndX.current) return;
+    
+    const distance = touchStartX.current - touchEndX.current;
+    const isLeftSwipe = distance > 50;
+    const isRightSwipe = distance < -50;
+    
+    if (isLeftSwipe && currentIndex < filteredVocabulary.length - 1) {
+      handleNextItem();
+    } else if (isRightSwipe && currentIndex > 0) {
+      handlePrevItem();
+    }
+    
+    touchStartX.current = 0;
+    touchEndX.current = 0;
+  };
+
   if (error) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -108,32 +136,18 @@ const VietnameseVocabularyViewPage: React.FC = () => {
         <div className="flex-1 flex flex-col overflow-hidden">
           {/* Header */}
           <div className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 px-4 sm:px-6 py-4">
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-              <div className="flex items-center justify-between">
-                <div>
-                  <h1 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white">
-                    {t('vocabulary.vietnamese.title')} {selectedLevel}
-                  </h1>
-                  <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                    {currentIndex + 1} / {filteredVocabulary.length} {t('vocabulary.items')}
-                  </p>
-                </div>
-                
-                {/* Mobile Level Selector */}
-                <div className="lg:hidden">
-                  <select
-                    value={selectedLevel}
-                    onChange={(e) => handleLevelChange(Number(e.target.value))}
-                    className="px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
-                  >
-                    {[1, 2, 3, 4, 5, 6].map(level => (
-                      <option key={level} value={level}>{t('vocabulary.vietnamese.level')} {level}</option>
-                    ))}
-                  </select>
-                </div>
+            {/* Desktop Header */}
+            <div className="hidden sm:flex sm:items-center sm:justify-between gap-4">
+              <div>
+                <h1 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white">
+                  {t('vocabulary.vietnamese.title')} {selectedLevel}
+                </h1>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                  {currentIndex + 1} / {filteredVocabulary.length} {t('vocabulary.items')}
+                </p>
               </div>
               
-              <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 sm:gap-4">
+              <div className="flex items-center gap-4">
                 {/* Search Input */}
                 <div className="relative">
                   <input
@@ -141,39 +155,152 @@ const VietnameseVocabularyViewPage: React.FC = () => {
                     placeholder={t('vocabulary.search')}
                     value={searchTerm}
                     onChange={(e) => handleSearchChange(e.target.value)}
-                    className="w-full sm:w-64 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
+                    className="w-64 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
                   />
                 </div>
 
-                <div className="flex items-center gap-2">
-                  {/* Favorites Toggle */}
-                  <button
-                    onClick={() => setShowFavorites(!showFavorites)}
-                    className={`px-3 sm:px-4 py-2 rounded-lg font-medium transition-colors text-sm sm:text-base ${
-                      showFavorites
-                        ? 'bg-yellow-500 text-white hover:bg-yellow-600'
-                        : 'bg-gray-200 text-gray-700 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600'
-                    }`}
-                  >
-                    ⭐ {showFavorites ? t('vocabulary.favorites') : t('vocabulary.showFavorites')}
-                  </button>
+                {/* Favorites Toggle */}
+                <button
+                  onClick={() => setShowFavorites(!showFavorites)}
+                  className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+                    showFavorites
+                      ? 'bg-yellow-500 text-white hover:bg-yellow-600'
+                      : 'bg-gray-200 text-gray-700 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600'
+                  }`}
+                >
+                  ⭐ {showFavorites ? t('vocabulary.favorites') : t('vocabulary.showFavorites')}
+                </button>
 
-                  {/* List Panel Toggle */}
-                  <button
-                    onClick={() => setShowListPanel(!showListPanel)}
-                    className="px-3 sm:px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors text-sm sm:text-base"
-                  >
-                    {showListPanel ? t('vocabulary.hideList') : t('vocabulary.showList')}
-                  </button>
-                </div>
+                {/* List Panel Toggle */}
+                <button
+                  onClick={() => setShowListPanel(!showListPanel)}
+                  className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
+                >
+                  {showListPanel ? t('vocabulary.hideList') : t('vocabulary.showList')}
+                </button>
               </div>
+            </div>
+
+            {/* Mobile Header */}
+            <div className="sm:hidden">
+              {!isSearchExpanded ? (
+                /* Condensed Mobile Header */
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h1 className="text-lg font-bold text-gray-900 dark:text-white">
+                      {t('vocabulary.vietnamese.title')} {selectedLevel}
+                    </h1>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">
+                      {currentIndex + 1} / {filteredVocabulary.length}
+                    </p>
+                  </div>
+                  
+                  <div className="flex items-center gap-2">
+                    {/* Level Selector */}
+                    <select
+                      value={selectedLevel}
+                      onChange={(e) => handleLevelChange(Number(e.target.value))}
+                      className="px-2 py-1 border border-gray-300 dark:border-gray-600 rounded focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white text-sm"
+                    >
+                      {[1, 2, 3, 4, 5, 6].map(level => (
+                        <option key={level} value={level}>{t('vocabulary.vietnamese.level')} {level}</option>
+                      ))}
+                    </select>
+
+                    {/* Show List Button */}
+                    <button
+                      onClick={() => setShowListPanel(!showListPanel)}
+                      className="px-2 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors text-sm"
+                    >
+                      {showListPanel ? t('vocabulary.hideList') : t('vocabulary.showList')}
+                    </button>
+
+                    {/* Search Toggle */}
+                    <button
+                      onClick={() => setIsSearchExpanded(true)}
+                      className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+                    >
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              ) : (
+                /* Expanded Mobile Header */
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between">
+                    <h1 className="text-lg font-bold text-gray-900 dark:text-white">
+                      {t('vocabulary.vietnamese.title')} {selectedLevel}
+                    </h1>
+                    <button
+                      onClick={() => setIsSearchExpanded(false)}
+                      className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+                    >
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                      </svg>
+                    </button>
+                  </div>
+                  
+                  {/* Search Input */}
+                  <div className="relative">
+                    <input
+                      type="text"
+                      placeholder={t('vocabulary.search')}
+                      value={searchTerm}
+                      onChange={(e) => handleSearchChange(e.target.value)}
+                      className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
+                      autoFocus
+                    />
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    {/* Level Selector */}
+                    <select
+                      value={selectedLevel}
+                      onChange={(e) => handleLevelChange(Number(e.target.value))}
+                      className="px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white text-sm"
+                    >
+                      {[1, 2, 3, 4, 5, 6].map(level => (
+                        <option key={level} value={level}>{t('vocabulary.vietnamese.level')} {level}</option>
+                      ))}
+                    </select>
+
+                    {/* Favorites Toggle */}
+                    <button
+                      onClick={() => setShowFavorites(!showFavorites)}
+                      className={`px-3 py-2 rounded-lg font-medium transition-colors text-sm ${
+                        showFavorites
+                          ? 'bg-yellow-500 text-white hover:bg-yellow-600'
+                          : 'bg-gray-200 text-gray-700 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600'
+                      }`}
+                    >
+                      ⭐ {showFavorites ? t('vocabulary.favorites') : t('vocabulary.showFavorites')}
+                    </button>
+
+                    {/* List Panel Toggle */}
+                    <button
+                      onClick={() => setShowListPanel(!showListPanel)}
+                      className="px-3 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors text-sm"
+                    >
+                      {showListPanel ? t('vocabulary.hideList') : t('vocabulary.showList')}
+                    </button>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
 
           {/* Content Area */}
           <div className="flex-1 flex overflow-hidden">
             {/* Single Vocabulary Card */}
-            <div className="flex-1 flex flex-col items-center justify-center p-2 sm:p-4 lg:p-8 overflow-y-auto">
+            <div 
+              className="flex-1 flex flex-col items-center justify-center p-2 sm:p-4 lg:p-8 overflow-y-auto"
+              onTouchStart={handleTouchStart}
+              onTouchMove={handleTouchMove}
+              onTouchEnd={handleTouchEnd}
+            >
               {loading.vietnamese ? (
                 <div className="text-center">
                   <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto mb-4"></div>
