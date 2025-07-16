@@ -66,12 +66,30 @@ const Navbar = () => {
             </NavLink>
             
             <NavLink 
+              to="/vietnamese-study" 
+              className={({ isActive }) => 
+                isActive ? "text-emerald-600 dark:text-emerald-400" : "hover:text-emerald-600 dark:hover:text-emerald-400"
+              }
+            >
+              🇻🇳 {t('nav.vietnameseStudy')}
+            </NavLink>
+            
+            <NavLink 
               to="/hsk" 
               className={({ isActive }) => 
                 isActive ? "text-red-600 dark:text-red-400" : "hover:text-red-600 dark:hover:text-red-400"
               }
             >
               {t('nav.hsk')}
+            </NavLink>
+            
+            <NavLink 
+              to="/hsk-study" 
+              className={({ isActive }) => 
+                isActive ? "text-orange-600 dark:text-orange-400" : "hover:text-orange-600 dark:hover:text-orange-400"
+              }
+            >
+              📚 {t('nav.hskStudy')}
             </NavLink>
             
             <NavLink 
@@ -148,6 +166,16 @@ const Navbar = () => {
               </NavLink>
               
               <NavLink 
+                to="/vietnamese-study" 
+                className={({ isActive }) => 
+                  isActive ? "text-emerald-600 dark:text-emerald-400" : "hover:text-emerald-600 dark:hover:text-emerald-400"
+                }
+                onClick={() => setIsMenuOpen(false)}
+              >
+                🇻🇳 {t('nav.vietnameseStudy')}
+              </NavLink>
+              
+              <NavLink 
                 to="/hsk" 
                 className={({ isActive }) => 
                   isActive ? "text-red-600 dark:text-red-400" : "hover:text-red-600 dark:hover:text-red-400"
@@ -155,6 +183,16 @@ const Navbar = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t('nav.hsk')}
+              </NavLink>
+              
+              <NavLink 
+                to="/hsk-study" 
+                className={({ isActive }) => 
+                  isActive ? "text-orange-600 dark:text-orange-400" : "hover:text-orange-600 dark:hover:text-orange-400"
+                }
+                onClick={() => setIsMenuOpen(false)}
+              >
+                📚 {t('nav.hskStudy')}
               </NavLink>
               
               <NavLink 

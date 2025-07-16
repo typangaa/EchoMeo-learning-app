@@ -5,7 +5,9 @@ export const zh: TranslationKeys = {
   nav: {
     appTitle: "学越南语 - Học Tiếng Trung",
     vietnamese: "越南语",
+    vietnameseStudy: "越南语学习",
     hsk: "HSK",
+    hskStudy: "HSK学习",
     flashcards: "闪卡",
     reading: "阅读",
     settings: "设置",
@@ -116,6 +118,21 @@ export const zh: TranslationKeys = {
     loadLevel: "加载{level}",
     clearFilters: "清除筛选",
     retryLoading: "重试加载",
+    vocabularyList: "词汇列表",
+    currentItem: "当前项",
+    clickToJump: "点击跳转到项目",
+    showList: "显示列表",
+    hideList: "隐藏列表",
+    position: "位置",
+    keyboardHints: "键盘快捷键",
+    previous: "上一个",
+    next: "下一个",
+    items: "项",
+    noItems: "没有可用项目",
+    noSearchResults: "未找到搜索结果",
+    currentLevel: "当前级别",
+    totalItems: "总项目数",
+    showFavorites: "显示收藏",
     
     // HSK Vocabulary Page
     hsk: {
@@ -145,6 +162,25 @@ export const zh: TranslationKeys = {
             "进度跟踪系统"
           ]
         }
+      },
+      selectLevel: "选择级别开始学习",
+      level1: {
+        description: "初学者基础词汇（150个词）"
+      },
+      level2: {
+        description: "初级词汇建设（300个词）"
+      },
+      level3: {
+        description: "中级词汇扩展（600个词）"
+      },
+      level4: {
+        description: "中高级词汇（1200个词）"
+      },
+      level5: {
+        description: "高级词汇掌握（2500个词）"
+      },
+      level6: {
+        description: "优秀词汇水平（5000+个词）"
       }
     },
 
@@ -155,6 +191,26 @@ export const zh: TranslationKeys = {
       practiceFlashcards: "🧠 练习闪卡",
       allVocabulary: "所有词汇",
       favoritesButton: "★ 收藏",
+      selectLevel: "选择级别开始学习",
+      level: "级别",
+      level1: {
+        description: "初学者基础词汇（A1级）"
+      },
+      level2: {
+        description: "初级词汇建设（A2级）"
+      },
+      level3: {
+        description: "中级词汇扩展（B1级）"
+      },
+      level4: {
+        description: "中高级词汇（B2级）"
+      },
+      level5: {
+        description: "高级词汇掌握（C1级）"
+      },
+      level6: {
+        description: "优秀词汇水平（C1+级）"
+      },
       about: {
         title: "关于越南语词汇",
         description: "通过6个CEFR级别从A1到C1学习带有全面中文翻译的越南语词汇。",

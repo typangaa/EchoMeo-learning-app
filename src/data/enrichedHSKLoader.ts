@@ -181,6 +181,8 @@ function mapEnrichedHSKToVocabularyItem(
   return {
     id,
     chinese: enrichedItem.item,
+    simplified: enrichedItem.item, // HSK words are in simplified Chinese
+    traditional: enrichedItem.item, // For now, use same as simplified - could be enhanced later
     vietnamese: primaryMeaning.vietnamese,
     pinyin: enrichedItem.pinyin || enrichedItem.item, // Use item as fallback if pinyin missing
     english: primaryMeaning.english,

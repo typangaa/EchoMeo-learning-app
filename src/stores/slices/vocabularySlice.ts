@@ -63,17 +63,26 @@ export const createVocabularySlice: StateCreator<VocabularyStore> = (set, get) =
             loading: { ...get().loading, hsk: false }
           }, false, actionTypes.custom('LOAD_HSK_SUCCESS'));
           
-        } else if (type === 'vietnamese' && typeof level === 'number') {
+        } else if (type === 'vietnamese') {
           // Load Vietnamese vocabulary by level
-          const vietnameseData = await loadEnrichedVietnameseLevel(level);
-          const currentMap = get().vietnameseVocabulary;
-          const newMap = new Map(currentMap);
-          newMap.set(level.toString(), vietnameseData);
-          
-          actionSet({
-            vietnameseVocabulary: newMap,
-            loading: { ...get().loading, vietnamese: false }
-          }, false, actionTypes.custom('LOAD_VIETNAMESE_SUCCESS'));
+          const levelNum = typeof level === 'string' ? parseInt(level, 10) : level;
+          if (typeof levelNum === 'number' && !isNaN(levelNum)) {
+            const vietnameseData = await loadEnrichedVietnameseLevel(levelNum);
+            const currentMap = get().vietnameseVocabulary;
+            const newMap = new Map(currentMap);
+            newMap.set(levelNum.toString(), vietnameseData);
+            
+            actionSet({
+              vietnameseVocabulary: newMap,
+              loading: { ...get().loading, vietnamese: false }
+            }, false, actionTypes.custom('LOAD_VIETNAMESE_SUCCESS'));
+          } else {
+            console.error(`Invalid level for Vietnamese vocabulary: ${level}`);
+            actionSet({
+              loading: { ...get().loading, vietnamese: false },
+              error: 'Invalid level for Vietnamese vocabulary'
+            }, false, actionTypes.custom('LOAD_ERROR'));
+          }
           
         }
         

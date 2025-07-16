@@ -12,6 +12,12 @@ export interface VocabularyItem {
     pinyin: string;
   }>;
   audioUrl?: string;
+  // Optional properties for HSK vocabulary
+  simplified?: string;
+  traditional?: string;
+  frequency?: string;
+  synonyms?: string[];
+  antonyms?: string[];
 }
 
 export interface ReadingPassage {

@@ -5,7 +5,9 @@ export const vi: TranslationKeys = {
   nav: {
     appTitle: "Học Tiếng Trung - 学越南语",
     vietnamese: "Tiếng Việt",
+    vietnameseStudy: "Học Tiếng Việt",
     hsk: "HSK",
+    hskStudy: "Học HSK",
     flashcards: "Thẻ ghi nhớ",
     reading: "Đọc hiểu",
     settings: "Cài đặt",
@@ -116,6 +118,21 @@ export const vi: TranslationKeys = {
     loadLevel: "Tải {level}",
     clearFilters: "Xóa bộ lọc",
     retryLoading: "Thử lại",
+    vocabularyList: "Danh sách từ vựng",
+    currentItem: "Mục hiện tại",
+    clickToJump: "Click để nhảy đến mục",
+    showList: "Hiện danh sách",
+    hideList: "Ẩn danh sách",
+    position: "Vị trí",
+    keyboardHints: "Phím tắt",
+    previous: "Trước",
+    next: "Tiếp theo",
+    items: "mục",
+    noItems: "Không có mục nào",
+    noSearchResults: "Không tìm thấy kết quả",
+    currentLevel: "Cấp độ hiện tại",
+    totalItems: "Tổng số mục",
+    showFavorites: "Hiện yêu thích",
     
     // HSK Vocabulary Page
     hsk: {
@@ -145,6 +162,25 @@ export const vi: TranslationKeys = {
             "Hệ thống theo dõi tiến độ"
           ]
         }
+      },
+      selectLevel: "Chọn cấp độ để bắt đầu học",
+      level1: {
+        description: "Từ vựng cơ bản cho người mới bắt đầu (150 từ)"
+      },
+      level2: {
+        description: "Xây dựng từ vựng sơ cấp (300 từ)"
+      },
+      level3: {
+        description: "Mở rộng từ vựng trung cấp (600 từ)"
+      },
+      level4: {
+        description: "Từ vựng trung cấp cao (1200 từ)"
+      },
+      level5: {
+        description: "Thành thạo từ vựng nâng cao (2500 từ)"
+      },
+      level6: {
+        description: "Thành thạo từ vựng cao cấp (5000+ từ)"
       }
     },
 
@@ -155,6 +191,26 @@ export const vi: TranslationKeys = {
       practiceFlashcards: "🧠 Luyện thẻ ghi nhớ",
       allVocabulary: "Tất cả từ vựng",
       favoritesButton: "★ Yêu thích",
+      selectLevel: "Chọn cấp độ để bắt đầu học",
+      level: "Cấp độ",
+      level1: {
+        description: "Từ vựng cơ bản cho người mới bắt đầu (cấp A1)"
+      },
+      level2: {
+        description: "Xây dựng từ vựng sơ cấp (cấp A2)"
+      },
+      level3: {
+        description: "Mở rộng từ vựng trung cấp (cấp B1)"
+      },
+      level4: {
+        description: "Từ vựng trung cấp cao (cấp B2)"
+      },
+      level5: {
+        description: "Thành thạo từ vựng nâng cao (cấp C1)"
+      },
+      level6: {
+        description: "Thành thạo từ vựng cao cấp (cấp C1+)"
+      },
       about: {
         title: "Về từ vựng tiếng Việt",
         description: "Học từ vựng tiếng Việt với bản dịch tiếng Trung toàn diện qua 6 cấp độ CEFR từ A1 đến C1.",

@@ -5,7 +5,9 @@ export const zhTw: TranslationKeys = {
   nav: {
     appTitle: "學越南語 - Học Tiếng Trung",
     vietnamese: "越南語",
+    vietnameseStudy: "越南語學習",
     hsk: "HSK",
+    hskStudy: "HSK學習",
     flashcards: "閃卡",
     reading: "閱讀",
     settings: "設定",
@@ -116,6 +118,21 @@ export const zhTw: TranslationKeys = {
     loadLevel: "載入{level}",
     clearFilters: "清除篩選",
     retryLoading: "重試載入",
+    vocabularyList: "詞彙列表",
+    currentItem: "當前項目",
+    clickToJump: "點擊跳轉到項目",
+    showList: "顯示列表",
+    hideList: "隱藏列表",
+    position: "位置",
+    keyboardHints: "鍵盤快捷鍵",
+    previous: "上一個",
+    next: "下一個",
+    items: "項",
+    noItems: "沒有可用項目",
+    noSearchResults: "未找到搜尋結果",
+    currentLevel: "當前級別",
+    totalItems: "總項目數",
+    showFavorites: "顯示收藏",
     
     // HSK Vocabulary Page
     hsk: {
@@ -145,6 +162,25 @@ export const zhTw: TranslationKeys = {
             "進度追蹤系統"
           ]
         }
+      },
+      selectLevel: "選擇級別開始學習",
+      level1: {
+        description: "初學者基礎詞彙（150個詞）"
+      },
+      level2: {
+        description: "初級詞彙建設（300個詞）"
+      },
+      level3: {
+        description: "中級詞彙擴展（600個詞）"
+      },
+      level4: {
+        description: "中高級詞彙（1200個詞）"
+      },
+      level5: {
+        description: "高級詞彙掌握（2500個詞）"
+      },
+      level6: {
+        description: "優秀詞彙水平（5000+個詞）"
       }
     },
 
@@ -155,6 +191,26 @@ export const zhTw: TranslationKeys = {
       practiceFlashcards: "🧠 練習閃卡",
       allVocabulary: "所有詞彙",
       favoritesButton: "★ 收藏",
+      selectLevel: "選擇級別開始學習",
+      level: "級別",
+      level1: {
+        description: "初學者基礎詞彙（A1級）"
+      },
+      level2: {
+        description: "初級詞彙建設（A2級）"
+      },
+      level3: {
+        description: "中級詞彙擴展（B1級）"
+      },
+      level4: {
+        description: "中高級詞彙（B2級）"
+      },
+      level5: {
+        description: "高級詞彙掌握（C1級）"
+      },
+      level6: {
+        description: "優秀詞彙水平（C1+級）"
+      },
       about: {
         title: "關於越南語詞彙",
         description: "透過6個CEFR級別從A1到C1學習帶有全面中文翻譯的越南語詞彙。",

@@ -364,63 +364,6 @@
     ]
   },
   {
-    "vietnamese": "không",
-    "ipa": "/không/",
-    "frequency": 12,
-    "etymology": {
-      "origin": "native_vietnamese",
-      "source_language": "unknown",
-      "chu_nom": "null",
-      "notes": "native Vietnamese numeral corresponding to Chinese 八"
-    },
-    "meanings": [
-      {
-        "vietnamese": "số tám ; con số tám ; số thứ tám trong một dãy số",
-        "chinese": "八 ; 数字八 ; 第八个数字",
-        "pinyin": "bā ; shùzì bā ; dì bā gè shùzì",
-        "english": "the number eight ; digit eight ; the eighth number in a sequence",
-        "part_of_speech": "m",
-        "usage_frequency": "common",
-        "examples": [
-          {
-            "vietnamese": "Tôi có tám quả táo.",
-            "chinese": "我有八个苹果。",
-            "pinyin": "Wǒ yǒu bā gè píngguǒ.",
-            "english": "I have eight apples."
-          },
-          {
-            "vietnamese": "Đây là số tám trong dãy số.",
-            "chinese": "这是数字八。",
-            "pinyin": "Zhè shì shùzì bā.",
-            "english": "This is the number eight."
-          }
-        ]
-      },
-      {
-        "vietnamese": "không có ; không tồn tại ; không có gì",
-        "chinese": "没有 ; 不存在 ; 没有东西",
-        "pinyin": "méiyǒu ; bùcúnzài ; méiyǒu shíwù",
-        "english": "not exist ; not have ; nothing",
-        "part_of_speech": "m",
-        "usage_frequency": "common",
-        "examples": [
-          {
-            "vietnamese": "Không có gì trong túi.",
-            "chinese": "袋子里什么也没有。",
-            "pinyin": "Dàizi lǐ shénme yě méiyǒu.",
-            "english": "There's nothing in the bag."
-          },
-          {
-            "vietnamese": "Không có ai ở đây.",
-            "chinese": "这里没有人。",
-            "pinyin": "Zhèlǐ méiyǒu rén.",
-            "english": "There's no one here."
-          }
-        ]
-      }
-    ]
-  },
-  {
     "vietnamese": "bản",
     "ipa": "/ban˨˩˦/",
     "frequency": 150,

@@ -2,7 +2,9 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 import { useEffect } from 'react';
 import HomePage from './pages/HomePage';
 import VietnameseVocabularyPage from './pages/VietnameseVocabularyPage';
+import VietnameseVocabularyViewPage from './pages/VietnameseVocabularyViewPage';
 import HSKVocabularyPage from './pages/HSKVocabularyPage';
+import HSKVocabularyViewPage from './pages/HSKVocabularyViewPage';
 import ReadingPage from './pages/ReadingPage';
 import PassageDetailPage from './pages/PassageDetailPage';
 import FlashcardPage from './pages/FlashcardPage';
@@ -58,7 +60,9 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />} />
             <Route path="vietnamese" element={<VietnameseVocabularyPage />} />
+            <Route path="vietnamese-study" element={<VietnameseVocabularyViewPage />} />
             <Route path="hsk" element={<HSKVocabularyPage />} />
+            <Route path="hsk-study" element={<HSKVocabularyViewPage />} />
             <Route path="flashcards" element={<FlashcardPage />} />
             <Route path="hsk-flashcards" element={<HSKFlashcardPage />} />
             <Route path="vietnamese-flashcards" element={<VietnameseFlashcardPage />} />

@@ -272,7 +272,7 @@ export const useVocabularyFilterActions = () => useVocabularyStore((state) => ({
 export const useFilteredVocabulary = (type: 'hsk' | 'vietnamese', level?: number | string) => {
   return useVocabularyStore((state) => {
     const vocabulary = type === 'hsk' && typeof level === 'number' ? state.hskVocabulary.get(level) || [] :
-                     type === 'vietnamese' && typeof level === 'string' ? state.vietnameseVocabulary.get(level) || [] : [];
+                     type === 'vietnamese' ? state.vietnameseVocabulary.get(level?.toString() || '') || [] : [];
     
     const { searchTerm, filters } = state;
     

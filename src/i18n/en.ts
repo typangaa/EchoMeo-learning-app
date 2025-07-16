@@ -3,7 +3,9 @@ export const en = {
   nav: {
     appTitle: "Learn Chinese - 学越南语",
     vietnamese: "Vietnamese",
+    vietnameseStudy: "Vietnamese Study",
     hsk: "HSK",
+    hskStudy: "HSK Study",
     flashcards: "Flashcards",
     reading: "Reading",
     settings: "Settings",
@@ -114,6 +116,21 @@ export const en = {
     loadLevel: "Load {level}",
     clearFilters: "Clear filters",
     retryLoading: "Retry Loading",
+    vocabularyList: "Vocabulary List",
+    currentItem: "Current Item",
+    clickToJump: "Click to jump to item",
+    showList: "Show List",
+    hideList: "Hide List",
+    position: "Position",
+    keyboardHints: "Keyboard shortcuts",
+    previous: "Previous",
+    next: "Next",
+    items: "items",
+    noItems: "No items available",
+    noSearchResults: "No search results found",
+    currentLevel: "Current Level",
+    totalItems: "Total Items",
+    showFavorites: "Show Favorites",
     
     // HSK Vocabulary Page
     hsk: {
@@ -143,6 +160,25 @@ export const en = {
             "Progress tracking system"
           ]
         }
+      },
+      selectLevel: "Select a level to start learning",
+      level1: {
+        description: "Basic vocabulary for beginners (150 words)"
+      },
+      level2: {
+        description: "Elementary vocabulary building (300 words)"
+      },
+      level3: {
+        description: "Intermediate vocabulary expansion (600 words)"
+      },
+      level4: {
+        description: "Upper-intermediate vocabulary (1200 words)"
+      },
+      level5: {
+        description: "Advanced vocabulary mastery (2500 words)"
+      },
+      level6: {
+        description: "Superior vocabulary proficiency (5000+ words)"
       }
     },
 
@@ -153,6 +189,26 @@ export const en = {
       practiceFlashcards: "🧠 Practice Flashcards",
       allVocabulary: "All Vocabulary",
       favoritesButton: "★ Favorites",
+      selectLevel: "Select a level to start learning",
+      level: "Level",
+      level1: {
+        description: "Basic vocabulary for beginners (A1 level)"
+      },
+      level2: {
+        description: "Elementary vocabulary building (A2 level)"
+      },
+      level3: {
+        description: "Intermediate vocabulary expansion (B1 level)"
+      },
+      level4: {
+        description: "Upper-intermediate vocabulary (B2 level)"
+      },
+      level5: {
+        description: "Advanced vocabulary mastery (C1 level)"
+      },
+      level6: {
+        description: "Superior vocabulary proficiency (C1+ level)"
+      },
       about: {
         title: "About Vietnamese Vocabulary",
         description: "Learn Vietnamese vocabulary with comprehensive Chinese translations across 6 CEFR levels from A1 to C1.",
