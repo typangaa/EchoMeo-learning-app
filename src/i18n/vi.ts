@@ -133,6 +133,8 @@ export const vi: TranslationKeys = {
     currentLevel: "Cấp độ hiện tại",
     totalItems: "Tổng số mục",
     showFavorites: "Hiện yêu thích",
+    addToFavorites: "Thêm vào yêu thích",
+    removeFromFavorites: "Xóa khỏi yêu thích",
     
     // HSK Vocabulary Page
     hsk: {
@@ -248,6 +250,7 @@ export const vi: TranslationKeys = {
     save: "Lưu",
     cancel: "Hủy",
     confirm: "Xác nhận",
+    reportBug: "Báo lỗi",
   },
 
   // Languages

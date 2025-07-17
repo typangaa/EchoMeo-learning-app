@@ -133,6 +133,8 @@ export const zh: TranslationKeys = {
     currentLevel: "当前级别",
     totalItems: "总项目数",
     showFavorites: "显示收藏",
+    addToFavorites: "添加到收藏",
+    removeFromFavorites: "从收藏中移除",
     
     // HSK Vocabulary Page
     hsk: {
@@ -248,6 +250,7 @@ export const zh: TranslationKeys = {
     save: "保存",
     cancel: "取消",
     confirm: "确认",
+    reportBug: "报告错误",
   },
 
   // Languages

@@ -131,6 +131,8 @@ export const en = {
     currentLevel: "Current Level",
     totalItems: "Total Items",
     showFavorites: "Show Favorites",
+    addToFavorites: "Add to Favorites",
+    removeFromFavorites: "Remove from Favorites",
     
     // HSK Vocabulary Page
     hsk: {
@@ -246,6 +248,7 @@ export const en = {
     save: "Save",
     cancel: "Cancel",
     confirm: "Confirm",
+    reportBug: "Report Bug",
   },
 
   // Languages
