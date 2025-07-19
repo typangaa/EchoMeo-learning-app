@@ -14535,28 +14535,52 @@
     ]
   },
   {
-    "墙壁": {
-      "meanings": [
-        {
-          "Chinese": "建筑物中分隔空间的垂直结构 ; 建筑物的外围结构",
-          "English": "Vertical structure in a building that separates spaces ; Exterior structure of a building",
-          "Vietnamese": "Cấu trúc dọc trong công trình chia không gian ; Cấu trúc ngoại vi của công trình",
-          "examples": [
-            "这堵墙把房间分成了两部分。 ; We built a wall to divide the room into two parts.",
-            "我们用砖块建造了墙。 ; We built the wall using bricks."
-          ]
-        },
-        {
-          "Chinese": "比喻障碍或限制 ; 象征隔绝的界限",
-          "English": "Metaphor for an obstacle or limitation ; Symbol of an isolating boundary",
-          "Vietnamese": "Ẩn dụ cho chướng ngại hoặc giới hạn ; Biểu tượng của ranh giới tách biệt",
-          "examples": [
-            "他面对着职业发展的墙壁。 ; He faces a wall in his career development.",
-            "社会的偏见像一堵墙。 ; Social prejudice is like a wall."
-          ]
-        }
-      ]
-    }
+    "item": "墙壁",
+    "pinyin": "qiáng bì",
+    "meanings": [
+      {
+        "chinese": "建筑物中分隔空间的垂直结构；建筑物的外围结构",
+        "english": "vertical structure in a building that separates spaces; exterior structure of a building",
+        "vietnamese": "cấu trúc dọc trong công trình chia không gian; cấu trúc ngoại vi của công trình",
+        "part_of_speech": "n",
+        "usage_frequency": "very common",
+        "examples": [
+          {
+            "chinese": "这堵墙把房间分成了两部分。",
+            "pinyin": "Zhè dǔ qiáng bǎ fángjiān fēn chéng le liǎng bùfen.",
+            "english": "This wall divides the room into two parts.",
+            "vietnamese": "Bức tường này chia căn phòng thành hai phần."
+          },
+          {
+            "chinese": "我们用砖块建造了墙。",
+            "pinyin": "Wǒmen yòng zhuānkuài jiànzào le qiáng.",
+            "english": "We built the wall using bricks.",
+            "vietnamese": "Chúng tôi xây tường bằng gạch."
+          }
+        ]
+      },
+      {
+        "chinese": "比喻障碍或限制；象征隔绝的界限",
+        "english": "metaphor for an obstacle or limitation; symbol of an isolating boundary",
+        "vietnamese": "ẩn dụ cho chướng ngại hoặc giới hạn; biểu tượng của ranh giới tách biệt",
+        "part_of_speech": "n",
+        "usage_frequency": "common",
+        "examples": [
+          {
+            "chinese": "他面对着职业发展的墙壁。",
+            "pinyin": "Tā miànduì zhe zhíyè fāzhǎn de qiáng bì.",
+            "english": "He faces a wall in his career development.",
+            "vietnamese": "Anh ấy đối mặt với bức tường trong sự phát triển nghề nghiệp."
+          },
+          {
+            "chinese": "社会的偏见像一堵墙。",
+            "pinyin": "Shèhuì de piānjiàn xiàng yī dǔ qiáng.",
+            "english": "Social prejudice is like a wall.",
+            "vietnamese": "Định kiến xã hội như một bức tường."
+          }
+        ]
+      }
+    ]
   },
   {
     "item": "增",

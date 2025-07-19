@@ -6,6 +6,7 @@ import HSKLevelSidebar from '../components/vocabulary/hsk/HSKLevelSidebar';
 import HSKSingleVocabularyCard from '../components/vocabulary/hsk/HSKSingleVocabularyCard';
 import HSKVocabularyListPanel from '../components/vocabulary/hsk/HSKVocabularyListPanel';
 import HSKNavigationControls from '../components/vocabulary/hsk/HSKNavigationControls';
+import { readingProgressTracker } from '../utils/readingProgress';
 
 const HSKVocabularyViewPage: React.FC = () => {
   const { t } = useTranslation();
@@ -50,29 +51,42 @@ const HSKVocabularyViewPage: React.FC = () => {
   }, [selectedLevel, loadVocabulary]);
 
   useEffect(() => {
-    setCurrentIndex(0);
-  }, [selectedLevel, showFavorites, searchTerm]);
+    if (showFavorites || searchTerm) {
+      setCurrentIndex(0);
+    } else {
+      const savedIndex = readingProgressTracker.loadProgress('hsk', selectedLevel);
+      if (savedIndex > 0 && savedIndex < filteredVocabulary.length) {
+        setCurrentIndex(savedIndex);
+      } else {
+        setCurrentIndex(0);
+      }
+    }
+  }, [selectedLevel, showFavorites, searchTerm, filteredVocabulary.length]);
 
   const handleLevelChange = (level: number) => {
     setSelectedLevel(level);
-    setCurrentIndex(0);
   };
 
   const handleNextItem = () => {
     if (currentIndex < filteredVocabulary.length - 1) {
-      setCurrentIndex(currentIndex + 1);
+      const newIndex = currentIndex + 1;
+      setCurrentIndex(newIndex);
+      readingProgressTracker.saveProgress('hsk', selectedLevel, newIndex);
     }
   };
 
   const handlePrevItem = () => {
     if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1);
+      const newIndex = currentIndex - 1;
+      setCurrentIndex(newIndex);
+      readingProgressTracker.saveProgress('hsk', selectedLevel, newIndex);
     }
   };
 
   const handleJumpToItem = (index: number) => {
     setCurrentIndex(index);
     setShowListPanel(false);
+    readingProgressTracker.saveProgress('hsk', selectedLevel, index);
   };
 
   const handleToggleFavorite = (item: VocabularyItem) => {
@@ -204,7 +218,7 @@ const HSKVocabularyViewPage: React.FC = () => {
                       onChange={(e) => handleLevelChange(Number(e.target.value))}
                       className="px-2 py-1 border border-gray-300 dark:border-gray-600 rounded focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white text-sm"
                     >
-                      {[1, 2, 3, 4, 5, 6].map(level => (
+                      {[1, 2, 3, 4, 5, 6, 7].map(level => (
                         <option key={level} value={level}>HSK {level}</option>
                       ))}
                     </select>
@@ -264,7 +278,7 @@ const HSKVocabularyViewPage: React.FC = () => {
                       onChange={(e) => handleLevelChange(Number(e.target.value))}
                       className="px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white text-sm"
                     >
-                      {[1, 2, 3, 4, 5, 6].map(level => (
+                      {[1, 2, 3, 4, 5, 6, 7].map(level => (
                         <option key={level} value={level}>HSK {level}</option>
                       ))}
                     </select>

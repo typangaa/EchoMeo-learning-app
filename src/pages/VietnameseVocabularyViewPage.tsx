@@ -6,6 +6,7 @@ import VietnameseLevelSidebar from '../components/vocabulary/vietnamese/Vietname
 import VietnameseSingleVocabularyCard from '../components/vocabulary/vietnamese/VietnameseSingleVocabularyCard';
 import VietnameseVocabularyListPanel from '../components/vocabulary/vietnamese/VietnameseVocabularyListPanel';
 import VietnameseNavigationControls from '../components/vocabulary/vietnamese/VietnameseNavigationControls';
+import { readingProgressTracker } from '../utils/readingProgress';
 
 const VietnameseVocabularyViewPage: React.FC = () => {
   const { t } = useTranslation();
@@ -48,29 +49,42 @@ const VietnameseVocabularyViewPage: React.FC = () => {
   }, [selectedLevel, loadVocabulary]);
 
   useEffect(() => {
-    setCurrentIndex(0);
-  }, [selectedLevel, showFavorites, searchTerm]);
+    if (showFavorites || searchTerm) {
+      setCurrentIndex(0);
+    } else {
+      const savedIndex = readingProgressTracker.loadProgress('vietnamese', selectedLevel);
+      if (savedIndex > 0 && savedIndex < filteredVocabulary.length) {
+        setCurrentIndex(savedIndex);
+      } else {
+        setCurrentIndex(0);
+      }
+    }
+  }, [selectedLevel, showFavorites, searchTerm, filteredVocabulary.length]);
 
   const handleLevelChange = (level: number) => {
     setSelectedLevel(level);
-    setCurrentIndex(0);
   };
 
   const handleNextItem = () => {
     if (currentIndex < filteredVocabulary.length - 1) {
-      setCurrentIndex(currentIndex + 1);
+      const newIndex = currentIndex + 1;
+      setCurrentIndex(newIndex);
+      readingProgressTracker.saveProgress('vietnamese', selectedLevel, newIndex);
     }
   };
 
   const handlePrevItem = () => {
     if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1);
+      const newIndex = currentIndex - 1;
+      setCurrentIndex(newIndex);
+      readingProgressTracker.saveProgress('vietnamese', selectedLevel, newIndex);
     }
   };
 
   const handleJumpToItem = (index: number) => {
     setCurrentIndex(index);
     setShowListPanel(false);
+    readingProgressTracker.saveProgress('vietnamese', selectedLevel, index);
   };
 
   const handleToggleFavorite = (item: VocabularyItem) => {

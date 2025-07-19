@@ -24,7 +24,8 @@ const HSKLevelSidebar: React.FC<HSKLevelSidebarProps> = ({
     { level: 3, name: 'HSK 3', description: t('vocabulary.hsk.level3.description'), color: 'bg-yellow-500' },
     { level: 4, name: 'HSK 4', description: t('vocabulary.hsk.level4.description'), color: 'bg-orange-500' },
     { level: 5, name: 'HSK 5', description: t('vocabulary.hsk.level5.description'), color: 'bg-red-500' },
-    { level: 6, name: 'HSK 6', description: t('vocabulary.hsk.level6.description'), color: 'bg-purple-500' }
+    { level: 6, name: 'HSK 6', description: t('vocabulary.hsk.level6.description'), color: 'bg-purple-500' },
+    { level: 7, name: 'HSK 7', description: t('vocabulary.hsk.level7.description'), color: 'bg-indigo-500' }
   ];
 
   return (

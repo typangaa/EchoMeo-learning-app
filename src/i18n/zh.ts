@@ -149,7 +149,7 @@ export const zh: TranslationKeys = {
         availableContent: {
           title: "可用内容：",
           items: [
-            "HSK 1-6级：总计5000+词汇",
+            "HSK 1-7级：总计10963个词汇",
             "越南语翻译和含义",
             "拼音发音和例句",
             "使用频率指标"
@@ -167,22 +167,25 @@ export const zh: TranslationKeys = {
       },
       selectLevel: "选择级别开始学习",
       level1: {
-        description: "初学者基础词汇（150个词）"
+        description: "初学者基础词汇（506个词）"
       },
       level2: {
-        description: "初级词汇建设（300个词）"
+        description: "初级词汇建设（750个词）"
       },
       level3: {
-        description: "中级词汇扩展（600个词）"
+        description: "中级词汇扩展（953个词）"
       },
       level4: {
-        description: "中高级词汇（1200个词）"
+        description: "中高级词汇（971个词）"
       },
       level5: {
-        description: "高级词汇掌握（2500个词）"
+        description: "高级词汇掌握（1059个词）"
       },
       level6: {
-        description: "优秀词汇水平（5000+个词）"
+        description: "优秀词汇水平（1123个词）"
+      },
+      level7: {
+        description: "专家词汇掌握（5601个词）"
       }
     },
 

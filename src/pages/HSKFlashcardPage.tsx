@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useFavorites } from '../stores';
 import useHSKVocabulary from '../hooks/useHSKVocabulary';
 import HSKFlashcardPractice from '../components/vocabulary/flashcard/HSKFlashcardPractice';
-import AutoplayToggle from '../components/common/AutoplayToggle';
 
 const HSKFlashcardPage = () => {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
   const favorites = useFavorites();
   const [selectingOptions, setSelectingOptions] = useState(true);
   const [selectedLevel, setSelectedLevel] = useState<number>(1);
@@ -20,6 +20,17 @@ const HSKFlashcardPage = () => {
     loadLevel,
     availableLevels
   } = useHSKVocabulary(1, { loadProgressively: false });
+  
+  // Initialize level from URL params
+  useEffect(() => {
+    const levelParam = searchParams.get('level');
+    if (levelParam) {
+      const level = parseInt(levelParam, 10);
+      if (level >= 1 && level <= 7) {
+        setSelectedLevel(level);
+      }
+    }
+  }, [searchParams]);
   
   // Load selected level when it changes
   useEffect(() => {
@@ -149,16 +160,6 @@ const HSKFlashcardPage = () => {
                   )}
                 </div>
                 
-                {/* Audio Settings */}
-                <div className="mt-4 sm:mt-6">
-                  <h4 className="text-sm sm:text-base font-medium mb-2 sm:mb-3 text-gray-700 dark:text-gray-300">
-                    🔊 Audio Settings
-                  </h4>
-                  <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mb-2 sm:mb-3">
-                    Configure your audio preferences for flashcard practice.
-                  </p>
-                  <AutoplayToggle showAdvancedOptions={true} />
-                </div>
               </div>
             )}
             

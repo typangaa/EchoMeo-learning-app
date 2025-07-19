@@ -28,7 +28,7 @@ export const en = {
     },
     hsk: {
       title: "汉语 HSK",
-      description: "Master Chinese with HSK vocabulary across 6 levels",
+      description: "Master Chinese with HSK vocabulary across 7 levels",
       browseVocabulary: "📚 Browse Vocabulary", 
       practiceFlashcards: "🧠 Practice Flashcards",
       features: "Pinyin, audio, character practice, grammar notes",
@@ -147,7 +147,7 @@ export const en = {
         availableContent: {
           title: "Available Content:",
           items: [
-            "HSK Levels 1-6: 5000+ words total",
+            "HSK Levels 1-7: 10963 words total",
             "Vietnamese translations & meanings",
             "Pinyin notation & examples",
             "Usage frequency indicators"
@@ -165,22 +165,25 @@ export const en = {
       },
       selectLevel: "Select a level to start learning",
       level1: {
-        description: "Basic vocabulary for beginners (150 words)"
+        description: "Basic vocabulary for beginners (506 words)"
       },
       level2: {
-        description: "Elementary vocabulary building (300 words)"
+        description: "Elementary vocabulary building (750 words)"
       },
       level3: {
-        description: "Intermediate vocabulary expansion (600 words)"
+        description: "Intermediate vocabulary expansion (953 words)"
       },
       level4: {
-        description: "Upper-intermediate vocabulary (1200 words)"
+        description: "Upper-intermediate vocabulary (971 words)"
       },
       level5: {
-        description: "Advanced vocabulary mastery (2500 words)"
+        description: "Advanced vocabulary mastery (1059 words)"
       },
       level6: {
-        description: "Superior vocabulary proficiency (5000+ words)"
+        description: "Superior vocabulary proficiency (1123 words)"
+      },
+      level7: {
+        description: "Expert vocabulary mastery (5601 words)"
       }
     },
 

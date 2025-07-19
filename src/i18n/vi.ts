@@ -149,7 +149,7 @@ export const vi: TranslationKeys = {
         availableContent: {
           title: "Nội dung có sẵn:",
           items: [
-            "HSK cấp 1-6: Tổng cộng hơn 5000 từ",
+            "HSK cấp 1-7: Tổng cộng 10963 từ",
             "Bản dịch và ý nghĩa tiếng Việt",
             "Phát âm Pinyin và ví dụ",
             "Chỉ số tần suất sử dụng"
@@ -167,22 +167,25 @@ export const vi: TranslationKeys = {
       },
       selectLevel: "Chọn cấp độ để bắt đầu học",
       level1: {
-        description: "Từ vựng cơ bản cho người mới bắt đầu (150 từ)"
+        description: "Từ vựng cơ bản cho người mới bắt đầu (506 từ)"
       },
       level2: {
-        description: "Xây dựng từ vựng sơ cấp (300 từ)"
+        description: "Xây dựng từ vựng sơ cấp (750 từ)"
       },
       level3: {
-        description: "Mở rộng từ vựng trung cấp (600 từ)"
+        description: "Mở rộng từ vựng trung cấp (953 từ)"
       },
       level4: {
-        description: "Từ vựng trung cấp cao (1200 từ)"
+        description: "Từ vựng trung cấp cao (971 từ)"
       },
       level5: {
-        description: "Thành thạo từ vựng nâng cao (2500 từ)"
+        description: "Thành thạo từ vựng nâng cao (1059 từ)"
       },
       level6: {
-        description: "Thành thạo từ vựng cao cấp (5000+ từ)"
+        description: "Thành thạo từ vựng cao cấp (1123 từ)"
+      },
+      level7: {
+        description: "Thành thạo từ vựng chuyên gia (5601 từ)"
       }
     },
 

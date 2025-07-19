@@ -20,7 +20,7 @@ interface UseHSKVocabularyResult {
 
 /**
  * Hook for loading and managing enriched HSK vocabulary
- * Currently supports HSK Levels 1-6 with enriched data
+ * Currently supports HSK Levels 1-7 with enriched data
  */
 export function useHSKVocabulary(
   initialLevel?: number,
@@ -36,8 +36,8 @@ export function useHSKVocabulary(
   const loadingLevelRef = useRef<number | null>(null);
   const initializedRef = useRef<boolean>(false);
   
-  // Currently HSK 1-6 are available with enriched data
-  const availableLevels = [1, 2, 3, 4, 5, 6];
+  // Currently HSK 1-7 are available with enriched data
+  const availableLevels = [1, 2, 3, 4, 5, 6, 7];
   
   // Default options
   const { loadProgressively = true } = options;
