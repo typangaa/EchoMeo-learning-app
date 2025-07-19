@@ -3,18 +3,21 @@ import { VocabularyItem } from '../../../types';
 import { LanguageDirection } from '../../common/LanguageDirectionToggle';
 import HSKFlashcard from './HSKFlashcard';
 import { updateVocabularyProgress, updateStudyTime } from '../../../utils/progressTracking';
+import { lessonCompletionTracker } from '../../../utils/lessonCompletion';
 
 interface HSKFlashcardPracticeProps {
   vocabularyItems: VocabularyItem[];
   onComplete: () => void;
   hskLevel?: number;
+  lessonNumber?: number;
 }
 
 // Main Practice Component
 const HSKFlashcardPractice: React.FC<HSKFlashcardPracticeProps> = ({ 
   vocabularyItems,
   onComplete,
-  hskLevel = 1
+  hskLevel = 1,
+  lessonNumber
 }) => {
   // Make sure we have a full copy of all vocabulary items
   const [practiceItems, setPracticeItems] = useState<VocabularyItem[]>([]);
@@ -90,6 +93,11 @@ const HSKFlashcardPractice: React.FC<HSKFlashcardPracticeProps> = ({
       const elapsedMinutes = Math.max(1, Math.round((now.getTime() - startTime.getTime()) / 60000));
       updateStudyTime(elapsedMinutes);
       
+      // Mark lesson as completed if this is a specific lesson
+      if (lessonNumber !== undefined) {
+        lessonCompletionTracker.markLessonCompleted('hsk', hskLevel, lessonNumber);
+      }
+      
       setShowSummary(true);
     }
   };
@@ -106,7 +114,7 @@ const HSKFlashcardPractice: React.FC<HSKFlashcardPracticeProps> = ({
           onClick={onComplete}
           className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition-colors"
         >
-          Back to HSK Vocabulary
+          Back to HSK Level {hskLevel} Lessons
         </button>
       </div>
     );
@@ -144,6 +152,17 @@ const HSKFlashcardPractice: React.FC<HSKFlashcardPracticeProps> = ({
         </div>
         
         <div className="text-center space-y-3">
+          {lessonNumber !== undefined && (
+            <div className="bg-red-100 dark:bg-red-900/30 border border-red-300 dark:border-red-700 rounded-lg p-3 mb-4">
+              <div className="flex items-center justify-center gap-2 text-red-800 dark:text-red-200">
+                <span className="text-lg">🎉</span>
+                <span className="font-semibold">Lesson {lessonNumber} Completed!</span>
+              </div>
+              <p className="text-sm text-red-600 dark:text-red-300 mt-1">
+                This lesson has been marked as completed in your progress.
+              </p>
+            </div>
+          )}
           <p className="text-sm text-gray-600 dark:text-gray-400">
             Great job practicing HSK {hskLevel} vocabulary! Keep up the excellent work.
           </p>
@@ -160,7 +179,7 @@ const HSKFlashcardPractice: React.FC<HSKFlashcardPracticeProps> = ({
               onClick={onComplete}
               className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
             >
-              Back to HSK Vocabulary
+              Back to HSK Level {hskLevel} Lessons
             </button>
           </div>
         </div>

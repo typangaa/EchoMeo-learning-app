@@ -4,6 +4,7 @@ import { useFavorites } from '../stores';
 import useVietnameseVocabulary from '../hooks/useVietnameseVocabulary';
 import VietnameseFlashcardPractice from '../components/vocabulary/flashcard/VietnameseFlashcardPractice';
 import { VocabularyItem } from '../types';
+import { lessonCompletionTracker } from '../utils/lessonCompletion';
 
 const VietnameseFlashcardPage = () => {
   const navigate = useNavigate();
@@ -65,7 +66,9 @@ const VietnameseFlashcardPage = () => {
   }, [isMobile]);
   
   const handleComplete = () => {
-    navigate('/vietnamese');
+    // Return to lesson selection for the current level
+    setSelectingOptions(true);
+    setSelectedLesson(null);
   };
   
   const startPractice = (source: 'all' | 'favorites', level: number, lesson?: number) => {
@@ -131,6 +134,7 @@ const VietnameseFlashcardPage = () => {
         vocabularyItems={getItemsForPractice()} 
         onComplete={handleComplete}
         vietnameseLevel={selectedLevel}
+        lessonNumber={selectedLesson || undefined}
       />
     );
   }
@@ -181,26 +185,67 @@ const VietnameseFlashcardPage = () => {
         </div>
       )}
       
+      {/* Progress Summary */}
+      {!loading && !error && vietnameseVocabulary.length > 0 && (
+        <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4 mb-6">
+          <div className="flex items-center justify-between">
+            <div>
+              <h3 className="font-semibold text-blue-800 dark:text-blue-200">Level {selectedLevel} Progress</h3>
+              <p className="text-sm text-blue-600 dark:text-blue-300">
+                {lessonCompletionTracker.getCompletedLessons('vietnamese', selectedLevel).length} of {getLessonsForLevel()} lessons completed
+              </p>
+            </div>
+            <div className="text-right">
+              <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">
+                {lessonCompletionTracker.getLevelProgress('vietnamese', selectedLevel, getLessonsForLevel()).percentage}%
+              </div>
+              <div className="text-xs text-blue-500 dark:text-blue-400">Complete</div>
+            </div>
+          </div>
+          <div className="mt-3 w-full bg-blue-200 dark:bg-blue-800 rounded-full h-2">
+            <div 
+              className="bg-blue-500 h-2 rounded-full transition-all duration-300"
+              style={{ width: `${lessonCompletionTracker.getLevelProgress('vietnamese', selectedLevel, getLessonsForLevel()).percentage}%` }}
+            ></div>
+          </div>
+        </div>
+      )}
+      
       {/* Lesson grid */}
       {!loading && !error && vietnameseVocabulary.length > 0 && (
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-6">
             {getVisibleLessons().map(lessonNumber => {
               const lessonWords = getLessonWords(lessonNumber);
+              const isCompleted = lessonCompletionTracker.isLessonCompleted('vietnamese', selectedLevel, lessonNumber);
+              
               return (
                 <button
                   key={lessonNumber}
                   onClick={() => startPractice('all', selectedLevel, lessonNumber)}
-                  className="p-4 border-2 border-gray-300 dark:border-gray-600 rounded-lg hover:border-green-500 hover:bg-green-50 dark:hover:bg-green-900/20 transition-all duration-200 text-center group"
+                  className={`relative p-4 border-2 rounded-lg transition-all duration-200 text-center group ${
+                    isCompleted 
+                      ? 'border-green-500 bg-green-50 dark:bg-green-900/20 hover:bg-green-100 dark:hover:bg-green-900/30' 
+                      : 'border-gray-300 dark:border-gray-600 hover:border-green-500 hover:bg-green-50 dark:hover:bg-green-900/20'
+                  }`}
                 >
-                  <div className="text-lg font-bold text-green-600 dark:text-green-400 mb-1">
+                  {isCompleted && (
+                    <div className="absolute -top-2 -right-2 w-6 h-6 bg-green-500 text-white rounded-full flex items-center justify-center text-xs font-bold">
+                      ✓
+                    </div>
+                  )}
+                  <div className={`text-lg font-bold mb-1 ${
+                    isCompleted 
+                      ? 'text-green-700 dark:text-green-300' 
+                      : 'text-green-600 dark:text-green-400'
+                  }`}>
                     Lesson {lessonNumber}
                   </div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">
                     {lessonWords.length} words
                   </div>
                   <div className="text-xs text-gray-500 dark:text-gray-500 mt-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                    Click to start
+                    {isCompleted ? 'Practice again' : 'Click to start'}
                   </div>
                 </button>
               );
@@ -237,10 +282,10 @@ const VietnameseFlashcardPage = () => {
       {/* Back button */}
       <div className="text-center">
         <button
-          onClick={handleComplete}
+          onClick={() => navigate('/flashcards')}
           className="px-6 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
         >
-          ← Back to Flashcards
+          ← Back to Main Flashcard Selection
         </button>
       </div>
     </div>

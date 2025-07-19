@@ -25,6 +25,11 @@ This is a React-based Vietnamese-Chinese learning platform with TypeScript, buil
 
 **Spaced Repetition**: Custom algorithm in `useSpacedRepetition.ts` with localStorage persistence, using intervals [1, 3, 7, 14, 30, 90] days.
 
+**Progress Tracking Systems**: 
+- Reading progress tracking in `readingProgress.ts` for maintaining vocabulary position across study sessions
+- Lesson completion tracking in `lessonCompletion.ts` with localStorage persistence for flashcard lesson progress
+- Both systems use singleton patterns for consistent state management
+
 ### Key Architectural Patterns
 
 **Zustand State Management**: Comprehensive store architecture with middleware:
@@ -120,11 +125,15 @@ When adding audio features:
 - Default audio settings: volume 1.0, rate 0.8x, pitch 1.0
 
 For flashcard development:
-- Complete flashcard system available for HSK, Vietnamese, and regular vocabulary
-- Integrate with the spaced repetition system
+- Complete lesson-based flashcard system for HSK and Vietnamese vocabulary
+- 20 words per lesson with responsive pagination (5 lessons mobile, 10 desktop)
+- Lesson completion tracking with visual progress indicators and celebration messages
+- Progress summaries with percentage completion and lesson counts
+- Integrate with the spaced repetition system and lesson completion tracking
 - Use the existing CSS animations in `flashcard.css`
 - Support language direction switching (Vietnamese→Chinese or Chinese→Vietnamese)
 - Vietnamese flashcards don't show English on the front (focus on VN-CN translation)
+- Both HSK and Vietnamese flashcard systems have feature parity
 
 For interface translations:
 - Always use the `useTranslation` hook for user-facing text
@@ -157,18 +166,37 @@ For bug reporting:
 - `src/stores/`: Zustand store with modular slices and middleware
 - `src/pages/`: Page components including study pages, welcome page, and settings
 - `src/i18n/`: Translation files (`en.ts`, `vi.ts`, `zh.ts`, `zh-tw.ts`) and translation utilities
-- `src/utils/`: Utility functions including `bugReport.ts`
+- `src/utils/`: Utility functions including `bugReport.ts`, `readingProgress.ts`, and `lessonCompletion.ts`
 - `scripts/`: Python data processing pipeline including Cantonese generation
 - `assets/data/hsk/`: HSK vocabulary JSON files (levels 1-6)
 - `assets/data/vietnamese/`: Vietnamese vocabulary JSON files (levels 1-6)
 
 ## Recent Updates
 
+- **Lesson-Based Flashcard System**: Complete overhaul of flashcard learning:
+  * 20 words per lesson structure for both HSK and Vietnamese vocabulary
+  * Lesson completion tracking with localStorage persistence
+  * Visual progress indicators with checkmarks and progress bars
+  * Responsive pagination (5 lessons mobile, 10 desktop)
+  * Celebration messages on lesson completion
+  * Feature parity between HSK and Vietnamese flashcard systems
+
+- **Reading Progress Tracking**: Added position persistence for study pages:
+  * `readingProgress.ts` utility with singleton pattern
+  * Tracks current vocabulary index across level changes and page switches
+  * Integrated into HSK and Vietnamese study pages
+
 - **Mobile-First Study Pages**: Added comprehensive study pages for HSK and Vietnamese vocabulary:
   * `HSKVocabularyViewPage.tsx` and `VietnameseVocabularyViewPage.tsx`
   * Swipe navigation, search functionality, favorites filtering
   * Mobile-responsive design with touch gestures
   * List panels and level selection
+
+- **Enhanced Flashcard Navigation**: Improved user flow:
+  * Direct level selection on main flashcard page
+  * Centralized audio settings on flashcard selection page
+  * State-based navigation returning to lesson selection after practice
+  * Consistent navigation patterns across HSK and Vietnamese systems
 
 - **Welcome Page Onboarding**: Enhanced welcome page with multi-step onboarding:
   * Language selection and theme preferences

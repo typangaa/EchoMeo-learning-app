@@ -3,17 +3,20 @@ import { VocabularyItem } from '../../../types';
 import VietnameseFlashcard from './VietnameseFlashcard';
 import { LanguageDirection } from '../../common/LanguageDirectionToggle';
 import { updateVocabularyProgress, updateStudyTime } from '../../../utils/progressTracking';
+import { lessonCompletionTracker } from '../../../utils/lessonCompletion';
 
 interface VietnameseFlashcardPracticeProps {
   vocabularyItems: VocabularyItem[];
   onComplete: () => void;
   vietnameseLevel?: number;
+  lessonNumber?: number;
 }
 
 const VietnameseFlashcardPractice: React.FC<VietnameseFlashcardPracticeProps> = ({ 
   vocabularyItems,
   onComplete,
-  vietnameseLevel = 1
+  vietnameseLevel = 1,
+  lessonNumber
 }) => {
   // Make sure we have a full copy of all vocabulary items
   const [practiceItems, setPracticeItems] = useState<VocabularyItem[]>([]);
@@ -85,6 +88,11 @@ const VietnameseFlashcardPractice: React.FC<VietnameseFlashcardPracticeProps> = 
       const elapsedMinutes = Math.max(1, Math.round((now.getTime() - startTime.getTime()) / 60000));
       updateStudyTime(elapsedMinutes);
       
+      // Mark lesson as completed if this is a specific lesson
+      if (lessonNumber !== undefined) {
+        lessonCompletionTracker.markLessonCompleted('vietnamese', vietnameseLevel, lessonNumber);
+      }
+      
       setShowSummary(true);
     }
   };
@@ -101,7 +109,7 @@ const VietnameseFlashcardPractice: React.FC<VietnameseFlashcardPracticeProps> = 
           onClick={onComplete}
           className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors"
         >
-          Back to Vietnamese Vocabulary
+          Back to Level {vietnameseLevel} Lessons
         </button>
       </div>
     );
@@ -139,6 +147,17 @@ const VietnameseFlashcardPractice: React.FC<VietnameseFlashcardPracticeProps> = 
         </div>
         
         <div className="text-center space-y-3">
+          {lessonNumber !== undefined && (
+            <div className="bg-green-100 dark:bg-green-900/30 border border-green-300 dark:border-green-700 rounded-lg p-3 mb-4">
+              <div className="flex items-center justify-center gap-2 text-green-800 dark:text-green-200">
+                <span className="text-lg">🎉</span>
+                <span className="font-semibold">Lesson {lessonNumber} Completed!</span>
+              </div>
+              <p className="text-sm text-green-600 dark:text-green-300 mt-1">
+                This lesson has been marked as completed in your progress.
+              </p>
+            </div>
+          )}
           <p className="text-sm text-gray-600 dark:text-gray-400">
             Great job practicing Vietnamese Level {vietnameseLevel} vocabulary! Keep up the excellent work.
           </p>
@@ -155,7 +174,7 @@ const VietnameseFlashcardPractice: React.FC<VietnameseFlashcardPracticeProps> = 
               onClick={onComplete}
               className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
             >
-              Back to Vietnamese Vocabulary
+              Back to Level {vietnameseLevel} Lessons
             </button>
           </div>
         </div>
