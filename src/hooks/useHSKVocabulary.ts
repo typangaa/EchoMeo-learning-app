@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { VocabularyItem } from '../types';
 import { 
   loadEnrichedHSKLevel, 
@@ -37,9 +37,10 @@ export function useHSKVocabulary(
   // Use refs to track loading state and prevent duplicate loads
   const loadingLevelRef = useRef<number | null>(null);
   const initializedRef = useRef<boolean>(false);
+  const loadingPromiseRef = useRef<Record<number, Promise<VocabularyItem[]>>>({});
   
-  // Currently HSK 1-7 are available with enriched data
-  const availableLevels = [1, 2, 3, 4, 5, 6, 7];
+  // Currently HSK 1-7 are available with enriched data - memoized to prevent dependency issues
+  const availableLevels = useMemo(() => [1, 2, 3, 4, 5, 6, 7], []);
   
   // Store options in ref to avoid dependency issues
   const optionsRef = useRef(options);
@@ -58,9 +59,15 @@ export function useHSKVocabulary(
       return;
     }
     
+    // Check if there's already a loading promise for this level
+    if (level in loadingPromiseRef.current) {
+      console.log(`[useHSKVocabulary] Reusing existing promise for level ${level}`);
+      return;
+    }
+    
     // Check if level is available
     if (!availableLevels.includes(level)) {
-      setError(new Error(`HSK Level ${level} is not available. Only HSK Levels 1-3 have enriched data.`));
+      setError(new Error(`HSK Level ${level} is not available. Only HSK Levels 1-7 have enriched data.`));
       setLoading(false);
       return;
     }
@@ -120,8 +127,8 @@ export function useHSKVocabulary(
       );
     } else {
       console.log(`[useHSKVocabulary] Loading all at once for level ${level}`);
-      // Load all at once
-      loadEnrichedHSKLevel(level)
+      // Create and store loading promise
+      const loadingPromise = loadEnrichedHSKLevel(level)
         .then((data) => {
           // Only update if we're still loading the same level
           if (loadingLevelRef.current === level) {
@@ -145,19 +152,26 @@ export function useHSKVocabulary(
               }
             }
           }
+          return data;
         })
         .catch((err) => {
           if (loadingLevelRef.current === level) {
             console.error(`[useHSKVocabulary] Error loading:`, err);
             setError(err instanceof Error ? err : new Error('Failed to load vocabulary'));
           }
+          throw err;
         })
         .finally(() => {
           if (loadingLevelRef.current === level) {
             setLoading(false);
             loadingLevelRef.current = null;
           }
+          // Clear the loading promise
+          delete loadingPromiseRef.current[level];
         });
+      
+      // Store the loading promise
+      loadingPromiseRef.current[level] = loadingPromise;
     }
   }, []); // Empty deps array - all needed variables are from refs or stable functions
   

@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { VocabularyItem } from '../types';
 import { 
   loadEnrichedVietnameseLevel, 
@@ -36,8 +36,8 @@ export function useVietnameseVocabulary(
   const loadingLevelRef = useRef<number | null>(null);
   const initializedRef = useRef<boolean>(false);
   
-  // Currently Vietnamese 1-6 are available with enriched data
-  const availableLevels = [1, 2, 3, 4, 5, 6];
+  // Currently Vietnamese 1-6 are available with enriched data - memoized to prevent dependency issues
+  const availableLevels = useMemo(() => [1, 2, 3, 4, 5, 6], []);
   
   // Store options in ref to avoid dependency issues
   const optionsRef = useRef(options);
