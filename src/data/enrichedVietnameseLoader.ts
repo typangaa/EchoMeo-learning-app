@@ -45,10 +45,12 @@ interface FlexibleVietnameseItem {
   word?: string;
   ipa?: string;
   pronunciation?: string;
-  frequency: number;
+  frequency?: number;
+  frequency_score?: number; // Alternative field name
   etymology?: any;
-  meanings: any; // Can be array or object or other structure
-  parts_of_speech?: string;
+  meanings?: any; // Can be array or object or other structure
+  parts_of_speech?: string | string[]; // Can be string or array
+  [key: string]: any; // Allow any additional properties
 }
 
 // Cache for enriched Vietnamese data
@@ -249,7 +251,29 @@ function mapEnrichedVietnameseToVocabularyItem(
 }
 
 /**
- * Load enriched Vietnamese vocabulary for a specific level using dynamic imports from assets
+ * Dynamic import function for Vietnamese levels - enables better code splitting
+ */
+async function dynamicImportVietnameseLevel(level: number): Promise<FlexibleVietnameseItem[]> {
+  switch (level) {
+    case 1:
+      return (await import(`../assets/data/vietnamese/vietnamese_1_enriched.json`)).default;
+    case 2:
+      return (await import(`../assets/data/vietnamese/vietnamese_2_enriched.json`)).default;
+    case 3:
+      return (await import(`../assets/data/vietnamese/vietnamese_3_enriched.json`)).default;
+    case 4:
+      return (await import(`../assets/data/vietnamese/vietnamese_4_enriched.json`)).default;
+    case 5:
+      return (await import(`../assets/data/vietnamese/vietnamese_5_enriched.json`)).default;
+    case 6:
+      return (await import(`../assets/data/vietnamese/vietnamese_6_enriched.json`)).default;
+    default:
+      throw new Error(`Vietnamese level ${level} not supported`);
+  }
+}
+
+/**
+ * Load enriched Vietnamese vocabulary for a specific level using optimized dynamic imports
  */
 export async function loadEnrichedVietnameseLevel(level: number): Promise<VocabularyItem[]> {
   // Check cache first
@@ -267,10 +291,8 @@ export async function loadEnrichedVietnameseLevel(level: number): Promise<Vocabu
     
     console.log(`Loading enriched Vietnamese ${level} data from assets...`);
     
-    // Use dynamic import to load from assets folder
-    // This automatically handles base paths and bundling
-    const module = await import(`../assets/data/vietnamese/vietnamese_${level}_enriched.json`);
-    const enrichedData: FlexibleVietnameseItem[] = module.default;
+    // Use optimized dynamic import for better code splitting
+    const enrichedData: FlexibleVietnameseItem[] = await dynamicImportVietnameseLevel(level);
     
     console.log(`Loaded ${enrichedData.length} enriched Vietnamese ${level} items from assets`);
     

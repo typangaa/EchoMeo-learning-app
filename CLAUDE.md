@@ -227,6 +227,40 @@ For bug reporting:
   * Traditional Chinese variant support
   * Dynamic parameter and array handling
 
+## Monetization Strategy
+
+### Google Ads Integration Plan
+
+**Ad Placement Strategy:**
+- **Layout.tsx**: Global banner ads between navbar and main content
+- **HomePage.tsx**: Strategic placements after hero section and between learning sections
+- **Study Pages**: Interstitial ads every 10-15 vocabulary items (non-intrusive timing)
+- **Flashcard Pages**: Between practice sessions at natural break points
+
+**Component Architecture:**
+```
+src/components/ads/
+├── AdBanner.tsx          # Responsive banner advertisements
+├── AdSidebar.tsx         # Sidebar/skyscraper ad formats
+├── AdInterstitial.tsx    # Between-content advertising
+├── AdProvider.tsx        # Context provider for ad configuration
+├── types.ts              # TypeScript interfaces for ad components
+└── constants.ts          # Ad unit IDs and responsive size configurations
+```
+
+**Technical Requirements:**
+- Mobile-first responsive ad design matching existing UI patterns
+- Dark/light theme compatibility for all ad placements
+- Performance optimization with lazy loading below the fold
+- Non-interference with touch gestures and swipe navigation
+- AdSense script integration in index.html with proper CSP headers
+
+**Content Guidelines:**
+- Educational content compliance for premium ad rates
+- Family-friendly advertiser requirements
+- International audience considerations (Vietnamese/Chinese learners)
+- Performance monitoring to maintain learning experience quality
+
 ## Code Style Guidelines
 
 - TypeScript strict mode enabled

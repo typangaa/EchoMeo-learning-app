@@ -26,9 +26,11 @@ export interface EnrichedHSKItem {
 
 // Flexible interface to handle different possible JSON structures
 interface FlexibleHSKItem {
-  item: string;
-  pinyin: string;
-  meanings: any; // Can be array or object or other structure
+  item?: string;
+  word?: string; // Alternative field name
+  pinyin?: string;
+  meanings?: any; // Can be array or object or other structure
+  [key: string]: any; // Allow any additional properties
 }
 
 // Cache for enriched HSK data
@@ -44,7 +46,7 @@ let hskIdCounter = 100000;
  * Generate a unique ID for HSK vocabulary items
  * Using a simple counter approach to guarantee uniqueness
  */
-function generateUniqueHSKId(_item: string, index: number, level: number): number {
+function generateUniqueHSKId(_item: string | undefined, index: number, level: number): number {
   // Simple unique ID: base + level + counter + index
   // This guarantees uniqueness across all HSK levels and items
   const uniqueId = 100000 + (level * 10000) + hskIdCounter + index;
@@ -73,7 +75,7 @@ function mapEnrichedHSKToVocabularyItem(
   // Handle different possible structures of meanings
   let meanings: Array<any> = [];
   
-  if (Array.isArray(enrichedItem.meanings)) {
+  if (enrichedItem.meanings && Array.isArray(enrichedItem.meanings)) {
     meanings = enrichedItem.meanings;
   } else if (enrichedItem.meanings && typeof enrichedItem.meanings === 'object') {
     // Handle numbered object structure like {"1": {...}, "2": {...}}
@@ -178,13 +180,16 @@ function mapEnrichedHSKToVocabularyItem(
     pinyin: (example && example.pinyin) || ''
   })).filter(example => example.vietnamese || example.chinese); // Filter out empty examples
   
+  const chineseText = enrichedItem.item || enrichedItem.word || '';
+  const pinyinText = enrichedItem.pinyin || '';
+  
   return {
     id,
-    chinese: enrichedItem.item,
-    simplified: enrichedItem.item, // HSK words are in simplified Chinese
-    traditional: enrichedItem.item, // For now, use same as simplified - could be enhanced later
+    chinese: chineseText,
+    simplified: chineseText, // HSK words are in simplified Chinese
+    traditional: chineseText, // For now, use same as simplified - could be enhanced later
     vietnamese: primaryMeaning.vietnamese,
-    pinyin: enrichedItem.pinyin || enrichedItem.item, // Use item as fallback if pinyin missing
+    pinyin: pinyinText || chineseText, // Use chinese as fallback if pinyin missing
     english: primaryMeaning.english,
     level: cefrLevelMap[hskLevel] || "A1",
     category,
@@ -193,7 +198,31 @@ function mapEnrichedHSKToVocabularyItem(
 }
 
 /**
- * Load enriched HSK vocabulary for a specific level using dynamic imports from assets
+ * Dynamic import function for HSK levels - enables better code splitting
+ */
+async function dynamicImportHSKLevel(level: number): Promise<FlexibleHSKItem[]> {
+  switch (level) {
+    case 1:
+      return (await import(`../assets/data/hsk/hsk1_enriched.json`)).default;
+    case 2:
+      return (await import(`../assets/data/hsk/hsk2_enriched.json`)).default;
+    case 3:
+      return (await import(`../assets/data/hsk/hsk3_enriched.json`)).default;
+    case 4:
+      return (await import(`../assets/data/hsk/hsk4_enriched.json`)).default;
+    case 5:
+      return (await import(`../assets/data/hsk/hsk5_enriched.json`)).default;
+    case 6:
+      return (await import(`../assets/data/hsk/hsk6_enriched.json`)).default;
+    case 7:
+      return (await import(`../assets/data/hsk/hsk7_enriched.json`)).default;
+    default:
+      throw new Error(`HSK level ${level} not supported`);
+  }
+}
+
+/**
+ * Load enriched HSK vocabulary for a specific level using optimized dynamic imports
  */
 export async function loadEnrichedHSKLevel(level: number): Promise<VocabularyItem[]> {
   // Check cache first
@@ -211,10 +240,8 @@ export async function loadEnrichedHSKLevel(level: number): Promise<VocabularyIte
     
     console.log(`Loading enriched HSK ${level} data from assets...`);
     
-    // Use dynamic import to load from assets folder
-    // This automatically handles base paths and bundling
-    const module = await import(`../assets/data/hsk/hsk${level}_enriched.json`);
-    const enrichedData: FlexibleHSKItem[] = module.default;
+    // Use optimized dynamic import for better code splitting
+    const enrichedData: FlexibleHSKItem[] = await dynamicImportHSKLevel(level);
     
     console.log(`Loaded ${enrichedData.length} enriched HSK ${level} items from assets`);
     
@@ -429,7 +456,7 @@ export async function loadEnhancedHSKLevelFull(level: number): Promise<EnhancedV
       // Handle different possible structures of meanings
       let meanings: Array<any> = [];
       
-      if (Array.isArray(item.meanings)) {
+      if (item.meanings && Array.isArray(item.meanings)) {
         meanings = item.meanings;
       } else if (item.meanings && typeof item.meanings === 'object') {
         // Handle numbered object structure like {"1": {...}, "2": {...}}
@@ -476,10 +503,13 @@ export async function loadEnhancedHSKLevelFull(level: number): Promise<EnhancedV
         }];
       }
       
+      const chineseText = item.item || item.word || '';
+      const pinyinText = item.pinyin || '';
+      
       return {
-        id: generateUniqueHSKId(item.item, index, level),
-        simplified: item.item,
-        pinyin: item.pinyin,
+        id: generateUniqueHSKId(chineseText, index, level),
+        simplified: chineseText,
+        pinyin: pinyinText,
         hsk_level: level,
         meanings: meanings.map((meaning, meaningIndex) => ({
           vietnamese: meaning.vietnamese || '',

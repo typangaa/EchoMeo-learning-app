@@ -4,9 +4,11 @@ import {
   loadEnrichedHSKLevel, 
   loadEnrichedHSKProgressively
 } from '../data/enrichedHSKLoader';
+import { trackLoadingPerformance, preloadVocabularyData } from '../utils/performanceUtils';
 
 interface UseHSKVocabularyOptions {
   loadProgressively?: boolean;
+  preloadAdjacentLevels?: boolean;
 }
 
 interface UseHSKVocabularyResult {
@@ -40,7 +42,7 @@ export function useHSKVocabulary(
   const availableLevels = [1, 2, 3, 4, 5, 6, 7];
   
   // Default options
-  const { loadProgressively = true } = options;
+  const { loadProgressively = true, preloadAdjacentLevels = true } = options;
   
   // Function to load a specific HSK level
   const loadLevel = useCallback((level: number) => {
@@ -93,6 +95,20 @@ export function useHSKVocabulary(
             setProgress(100);
             // Set the final complete vocabulary (to ensure consistency)
             setVocabulary(allVocabulary);
+            
+            // Track performance
+            trackLoadingPerformance(`hsk-level-${level}`, allVocabulary.length);
+            
+            // Preload adjacent levels for better UX
+            if (preloadAdjacentLevels) {
+              const adjacentLevels = [level - 1, level + 1].filter(l => 
+                availableLevels.includes(l) && l !== level
+              );
+              if (adjacentLevels.length > 0) {
+                console.log(`[useHSKVocabulary] Preloading adjacent levels: ${adjacentLevels.join(', ')}`);
+                preloadVocabularyData(loadEnrichedHSKLevel, adjacentLevels, 'low');
+              }
+            }
           }
         }
       );
@@ -106,6 +122,20 @@ export function useHSKVocabulary(
             console.log(`[useHSKVocabulary] Loaded ${data.length} items`);
             setVocabulary(data);
             setProgress(100);
+            
+            // Track performance
+            trackLoadingPerformance(`hsk-level-${level}`, data.length);
+            
+            // Preload adjacent levels for better UX
+            if (preloadAdjacentLevels) {
+              const adjacentLevels = [level - 1, level + 1].filter(l => 
+                availableLevels.includes(l) && l !== level
+              );
+              if (adjacentLevels.length > 0) {
+                console.log(`[useHSKVocabulary] Preloading adjacent levels: ${adjacentLevels.join(', ')}`);
+                preloadVocabularyData(loadEnrichedHSKLevel, adjacentLevels, 'low');
+              }
+            }
           }
         })
         .catch((err) => {
