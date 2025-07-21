@@ -103,8 +103,9 @@ export function useHSKVocabulary(
             // Track performance
             trackLoadingPerformance(`hsk-level-${level}`, allVocabulary.length);
             
-            // Preload adjacent levels for better UX
-            if (preloadAdjacentLevels) {
+            // Temporarily disable adjacent level preloading to fix infinite loop issue
+            // TODO: Fix preloading mechanism to prevent infinite cache access loops
+            if (false && preloadAdjacentLevels) {
               const staticAvailableLevels = [1, 2, 3, 4, 5, 6, 7]; // Use static array to avoid dependency
               const adjacentLevels = [level - 1, level + 1].filter(l => 
                 staticAvailableLevels.includes(l) && l !== level
@@ -131,8 +132,9 @@ export function useHSKVocabulary(
             // Track performance
             trackLoadingPerformance(`hsk-level-${level}`, data.length);
             
-            // Preload adjacent levels for better UX
-            if (preloadAdjacentLevels) {
+            // Temporarily disable adjacent level preloading to fix infinite loop issue
+            // TODO: Fix preloading mechanism to prevent infinite cache access loops
+            if (false && preloadAdjacentLevels) {
               const staticAvailableLevels = [1, 2, 3, 4, 5, 6, 7]; // Use static array to avoid dependency
               const adjacentLevels = [level - 1, level + 1].filter(l => 
                 staticAvailableLevels.includes(l) && l !== level

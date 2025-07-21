@@ -278,7 +278,8 @@ async function dynamicImportVietnameseLevel(level: number): Promise<FlexibleViet
 export async function loadEnrichedVietnameseLevel(level: number): Promise<VocabularyItem[]> {
   // Check cache first
   if (enrichedVietnameseCache[level]) {
-    console.log(`Loading Vietnamese ${level} from cache (${enrichedVietnameseCache[level].length} items)`);
+    // Reduce console spam - only log cache hits for debugging when needed
+    // console.log(`Loading Vietnamese ${level} from cache (${enrichedVietnameseCache[level].length} items)`);
     return enrichedVietnameseCache[level];
   }
   

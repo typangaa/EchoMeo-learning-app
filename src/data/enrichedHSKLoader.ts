@@ -227,7 +227,8 @@ async function dynamicImportHSKLevel(level: number): Promise<FlexibleHSKItem[]> 
 export async function loadEnrichedHSKLevel(level: number): Promise<VocabularyItem[]> {
   // Check cache first
   if (enrichedCache[level]) {
-    console.log(`Loading HSK ${level} from cache (${enrichedCache[level].length} items)`);
+    // Reduce console spam - only log cache hits for debugging when needed
+    // console.log(`Loading HSK ${level} from cache (${enrichedCache[level].length} items)`);
     return enrichedCache[level];
   }
   
