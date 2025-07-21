@@ -73,7 +73,7 @@ The project includes extensive Python scripts in `scripts/` for:
 
 ### Important Technical Details
 
-**Base Path Configuration**: Uses `/vietnamese-chinese-learning/` base path in `vite.config.ts` for GitHub Pages deployment.
+**Base Path Configuration**: Uses `/EchoMeo-learning-app/` base path in `vite.config.ts` for GitHub Pages deployment.
 
 **Routing**: Uses HashRouter for GitHub Pages compatibility instead of BrowserRouter.
 

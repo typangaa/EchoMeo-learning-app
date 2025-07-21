@@ -1,10 +1,10 @@
-# Vietnamese-Chinese Learning Platform
+# EchoMeo Learning App
 
-A web application focused on helping users learn Vietnamese from Chinese or Chinese from Vietnamese, with vocabulary lists, flashcards, and reading practice.
+A comprehensive Asian language learning platform that helps users learn Vietnamese, Chinese, Korean, and Japanese through interactive vocabulary, flashcards, and reading practice.
 
 ## Live Demo
 
-Visit the live application at: [https://typangaa.github.io/vietnamese-chinese-learning/](https://typangaa.github.io/vietnamese-chinese-learning/)
+Visit the live application at: [https://typangaa.github.io/EchoMeo-learning-app/](https://typangaa.github.io/EchoMeo-learning-app/)
 
 ## Features
 
@@ -36,8 +36,8 @@ Visit the live application at: [https://typangaa.github.io/vietnamese-chinese-le
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/typangaa/vietnamese-chinese-learning.git
-   cd vietnamese-chinese-learning
+   git clone https://github.com/typangaa/EchoMeo-learning-app.git
+   cd EchoMeo-learning-app
    ```
 
 2. Install dependencies:
@@ -73,7 +73,7 @@ npm run deploy
 ## Project Structure
 
 ```
-vietnamese-chinese-learning/
+EchoMeo-learning-app/
 ├── dist/               # Production build files
 ├── public/             # Static files served as-is
 ├── scripts/            # Utility scripts for development and data processing

@@ -1,9 +1,9 @@
 {
-  "name": "vietnamese-chinese-learning",
+  "name": "echomeo-learning-app",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://typangaa.github.io/vietnamese-chinese-learning/",
+  "homepage": "https://typangaa.github.io/EchoMeo-learning-app/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
