@@ -7,6 +7,7 @@ import {
 
 interface UseVietnameseVocabularyOptions {
   loadProgressively?: boolean;
+  preloadAdjacentLevels?: boolean;
 }
 
 interface UseVietnameseVocabularyResult {
@@ -38,11 +39,15 @@ export function useVietnameseVocabulary(
   // Currently Vietnamese 1-6 are available with enriched data
   const availableLevels = [1, 2, 3, 4, 5, 6];
   
-  // Default options
-  const { loadProgressively = true } = options;
+  // Store options in ref to avoid dependency issues
+  const optionsRef = useRef(options);
+  useEffect(() => {
+    optionsRef.current = options;
+  }, [options]);
   
-  // Function to load a specific Vietnamese level
+  // Function to load a specific Vietnamese level - memoized to prevent infinite re-renders
   const loadLevel = useCallback((level: number) => {
+    const { loadProgressively = true } = optionsRef.current;
     console.log(`[useVietnameseVocabulary] Loading level ${level}`);
     
     // Prevent loading if already loading this level
@@ -120,19 +125,20 @@ export function useVietnameseVocabulary(
           }
         });
     }
-  }, [loadProgressively, availableLevels, loading]);
+  }, []); // Empty deps array - all needed variables are from refs or stable functions
   
   // Load initial level if provided (only once)
   useEffect(() => {
-    if (!initializedRef.current && initialLevel && availableLevels.includes(initialLevel)) {
+    const staticAvailableLevels = [1, 2, 3, 4, 5, 6]; // Use static array to avoid dependency
+    if (!initializedRef.current && initialLevel && staticAvailableLevels.includes(initialLevel)) {
       console.log(`[useVietnameseVocabulary] Loading initial level ${initialLevel}`);
       initializedRef.current = true;
       loadLevel(initialLevel);
-    } else if (!initializedRef.current && initialLevel && !availableLevels.includes(initialLevel)) {
+    } else if (!initializedRef.current && initialLevel && !staticAvailableLevels.includes(initialLevel)) {
       initializedRef.current = true;
-      setError(new Error(`Vietnamese Level ${initialLevel} is not available. Only Vietnamese Levels 1-6 have enriched data.`));
+      setError(new Error(`Vietnamese Level ${initialLevel} is not available. Available levels: ${staticAvailableLevels.join(', ')}`));
     }
-  }, [initialLevel, loadLevel, availableLevels]);
+  }, [initialLevel]); // Remove unstable dependencies to prevent infinite loops
   
   return {
     vocabulary,

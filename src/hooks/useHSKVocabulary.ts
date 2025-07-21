@@ -41,11 +41,15 @@ export function useHSKVocabulary(
   // Currently HSK 1-7 are available with enriched data
   const availableLevels = [1, 2, 3, 4, 5, 6, 7];
   
-  // Default options
-  const { loadProgressively = true, preloadAdjacentLevels = true } = options;
+  // Store options in ref to avoid dependency issues
+  const optionsRef = useRef(options);
+  useEffect(() => {
+    optionsRef.current = options;
+  }, [options]);
   
-  // Function to load a specific HSK level
+  // Function to load a specific HSK level - memoized to prevent infinite re-renders
   const loadLevel = useCallback((level: number) => {
+    const { loadProgressively = true, preloadAdjacentLevels = true } = optionsRef.current;
     console.log(`[useHSKVocabulary] Loading level ${level}`);
     
     // Prevent loading if already loading this level
@@ -101,8 +105,9 @@ export function useHSKVocabulary(
             
             // Preload adjacent levels for better UX
             if (preloadAdjacentLevels) {
+              const staticAvailableLevels = [1, 2, 3, 4, 5, 6, 7]; // Use static array to avoid dependency
               const adjacentLevels = [level - 1, level + 1].filter(l => 
-                availableLevels.includes(l) && l !== level
+                staticAvailableLevels.includes(l) && l !== level
               );
               if (adjacentLevels.length > 0) {
                 console.log(`[useHSKVocabulary] Preloading adjacent levels: ${adjacentLevels.join(', ')}`);
@@ -128,8 +133,9 @@ export function useHSKVocabulary(
             
             // Preload adjacent levels for better UX
             if (preloadAdjacentLevels) {
+              const staticAvailableLevels = [1, 2, 3, 4, 5, 6, 7]; // Use static array to avoid dependency
               const adjacentLevels = [level - 1, level + 1].filter(l => 
-                availableLevels.includes(l) && l !== level
+                staticAvailableLevels.includes(l) && l !== level
               );
               if (adjacentLevels.length > 0) {
                 console.log(`[useHSKVocabulary] Preloading adjacent levels: ${adjacentLevels.join(', ')}`);
@@ -151,19 +157,20 @@ export function useHSKVocabulary(
           }
         });
     }
-  }, [loadProgressively, availableLevels, loading]);
+  }, []); // Empty deps array - all needed variables are from refs or stable functions
   
   // Load initial level if provided (only once)
   useEffect(() => {
-    if (!initializedRef.current && initialLevel && availableLevels.includes(initialLevel)) {
+    const staticAvailableLevels = [1, 2, 3, 4, 5, 6, 7]; // Use static array to avoid dependency
+    if (!initializedRef.current && initialLevel && staticAvailableLevels.includes(initialLevel)) {
       console.log(`[useHSKVocabulary] Loading initial level ${initialLevel}`);
       initializedRef.current = true;
       loadLevel(initialLevel);
-    } else if (!initializedRef.current && initialLevel && !availableLevels.includes(initialLevel)) {
+    } else if (!initializedRef.current && initialLevel && !staticAvailableLevels.includes(initialLevel)) {
       initializedRef.current = true;
-      setError(new Error(`HSK Level ${initialLevel} is not available. Only HSK Levels 1-3 have enriched data.`));
+      setError(new Error(`HSK Level ${initialLevel} is not available. Available levels: ${staticAvailableLevels.join(', ')}`));
     }
-  }, [initialLevel, loadLevel, availableLevels]);
+  }, [initialLevel]); // Remove loadLevel dependency to prevent infinite loops
   
   return {
     vocabulary,
