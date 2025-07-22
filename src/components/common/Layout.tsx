@@ -10,24 +10,31 @@ const Layout = () => {
   const isHomePage = location.pathname === '/';
   
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="h-screen flex flex-col md:min-h-screen md:h-auto">
       {/* Desktop navbar - hidden on mobile */}
-      <div className="hidden md:block">
+      <div className="hidden md:block flex-shrink-0">
         <Navbar />
       </div>
       
-      <main className={`flex-grow ${
+      {/* Main content area - takes remaining space on mobile */}
+      <main className={`flex-1 overflow-y-auto ${
         isHomePage 
           ? 'px-4 py-4 md:container md:mx-auto md:px-4 md:py-8' 
-          : 'container mx-auto px-4 py-8 pb-20 md:pb-8'
+          : 'container mx-auto px-4 py-8'
       }`}>
         <Outlet />
       </main>
       
-      {/* Mobile bottom navigation */}
-      <MobileBottomNav />
+      {/* Mobile bottom navigation - fixed at bottom */}
+      <div className="flex-shrink-0">
+        <MobileBottomNav />
+      </div>
       
-      {!isHomePage && <Footer />}
+      {!isHomePage && (
+        <div className="hidden md:block">
+          <Footer />
+        </div>
+      )}
       <InstallPrompt />
       <UpdateNotification />
     </div>
