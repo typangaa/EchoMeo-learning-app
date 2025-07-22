@@ -28,7 +28,7 @@ const VietnameseSingleVocabularyCard: React.FC<VietnameseSingleVocabularyCardPro
   };
 
   return (
-    <div className="max-w-xl sm:max-w-2xl w-full h-full max-h-full sm:h-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-2 sm:p-6 overflow-hidden sm:overflow-visible flex flex-col">
+    <div className="max-w-xl sm:max-w-2xl w-full h-1/2 sm:h-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-2 sm:p-6 overflow-hidden sm:overflow-visible flex flex-col">
       {/* Header with level and actions */}
       <div className="flex justify-between items-center mb-1 sm:mb-4 flex-shrink-0">
         <span className="text-xs sm:text-sm font-medium text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 px-2 sm:px-3 py-0.5 sm:py-1 rounded-full">
@@ -118,7 +118,7 @@ const VietnameseSingleVocabularyCard: React.FC<VietnameseSingleVocabularyCardPro
             Examples
           </h4>
           <div className="space-y-1 sm:space-y-3 flex-1 overflow-hidden sm:overflow-y-auto">
-            {item.examples.slice(0, 1).map((example, index) => (
+            {item.examples.map((example, index) => (
               <div key={index} className="bg-gray-50 dark:bg-gray-700 rounded p-1.5 sm:p-3">
                 <div className="text-xs sm:text-sm text-red-600 dark:text-red-400 font-medium mb-0.5 sm:mb-1">
                   {example.vietnamese}
