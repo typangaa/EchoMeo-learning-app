@@ -311,135 +311,130 @@ const WelcomePage = () => {
   );
 
   const renderLanguagePairStep = () => (
-    <div className="space-y-4">
+    <div className="space-y-3 max-h-full overflow-y-auto">
       <div className="text-center">
-        <h2 className="text-lg font-bold mb-1 text-gray-900 dark:text-white">
+        <h2 className="text-base font-bold mb-1 text-gray-900 dark:text-white">
           {t('landing.languages.title')}
         </h2>
-        <p className="text-sm text-gray-600 dark:text-gray-400">
+        <p className="text-xs text-gray-600 dark:text-gray-400">
           {t('landing.languages.description')}
         </p>
       </div>
       
-      {/* From Language */}
-      <div>
-        <label className="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-2">
-          {t('landing.languages.fromLanguage')}
-        </label>
-        <div className="grid grid-cols-2 gap-2">
-          {learningLanguageOptions.map((option) => {
-            const isSupported = isFromLanguageSupported(option.code);
-            return (
-              <button
-                key={`from-${option.code}`}
-                onClick={() => isSupported && handleFromLanguageSelect(option.code)}
-                disabled={!isSupported}
-                className={`p-2 rounded-lg border-2 transition-all duration-200 ${
-                  !isSupported 
-                    ? 'border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-700 opacity-50 cursor-not-allowed'
-                    : languagePairPreferences.fromLanguage === option.code
-                      ? 'border-green-500 bg-green-50 dark:bg-green-900/20 shadow-md'
-                      : 'border-gray-200 dark:border-gray-700 hover:border-green-300 hover:bg-gray-50 dark:hover:bg-gray-800'
-                }`}
-              >
-                <div className="flex items-center space-x-2">
-                  <span className="text-lg">{option.flag}</span>
-                  <span className={`text-sm font-medium ${
+      <div className="space-y-3">
+        {/* From Language */}
+        <div>
+          <label className="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-1">
+            From: {t('landing.languages.fromLanguage')}
+          </label>
+          <div className="grid grid-cols-3 gap-1">
+            {learningLanguageOptions.map((option) => {
+              const isSupported = isFromLanguageSupported(option.code);
+              return (
+                <button
+                  key={`from-${option.code}`}
+                  onClick={() => isSupported && handleFromLanguageSelect(option.code)}
+                  disabled={!isSupported}
+                  className={`p-2 rounded-lg border-2 transition-all duration-200 ${
                     !isSupported 
-                      ? 'text-gray-400 dark:text-gray-500'
-                      : 'text-gray-900 dark:text-white'
-                  }`}>
-                    {t(option.labelKey)}
-                    {!isSupported && <span className="block text-xs text-gray-400">(Coming soon)</span>}
-                  </span>
-                </div>
-              </button>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* To Language */}
-      <div>
-        <label className="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-2">
-          {t('landing.languages.toLanguage')}
-        </label>
-        <div className="grid grid-cols-2 gap-2">
-          {learningLanguageOptions.map((option) => {
-            const isSupported = isToLanguageSupported(option.code);
-            return (
-              <button
-                key={`to-${option.code}`}
-                onClick={() => isSupported && handleToLanguageSelect(option.code)}
-                disabled={!isSupported}
-                className={`p-2 rounded-lg border-2 transition-all duration-200 ${
-                  !isSupported 
-                    ? 'border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-700 opacity-50 cursor-not-allowed'
-                    : languagePairPreferences.toLanguage === option.code
-                      ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20 shadow-md'
-                      : 'border-gray-200 dark:border-gray-700 hover:border-blue-300 hover:bg-gray-50 dark:hover:bg-gray-800'
-                }`}
-              >
-                <div className="flex items-center space-x-2">
-                  <span className="text-lg">{option.flag}</span>
-                  <span className={`text-sm font-medium ${
-                    !isSupported 
-                      ? 'text-gray-400 dark:text-gray-500'
-                      : 'text-gray-900 dark:text-white'
-                  }`}>
-                    {t(option.labelKey)}
-                    {!isSupported && <span className="block text-xs text-gray-400">(Not available for this pair)</span>}
-                  </span>
-                </div>
-              </button>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* English Supplement Toggle */}
-      <div className={`rounded-lg p-3 ${
-        languagePairPreferences.fromLanguage === 'en' 
-          ? 'bg-gray-100 dark:bg-gray-700' 
-          : 'bg-gray-50 dark:bg-gray-800'
-      }`}>
-        <label className={`flex items-start space-x-3 ${
-          languagePairPreferences.fromLanguage === 'en' ? 'cursor-not-allowed' : 'cursor-pointer'
-        }`}>
-          <input
-            type="checkbox"
-            checked={languagePairPreferences.showEnglishSupplement}
-            onChange={handleEnglishSupplementToggle}
-            disabled={languagePairPreferences.fromLanguage === 'en'}
-            className={`mt-1 h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded ${
-              languagePairPreferences.fromLanguage === 'en' 
-                ? 'opacity-50 cursor-not-allowed' 
-                : ''
-            }`}
-          />
-          <div>
-            <div className={`text-sm font-medium ${
-              languagePairPreferences.fromLanguage === 'en'
-                ? 'text-gray-500 dark:text-gray-500'
-                : 'text-gray-900 dark:text-white'
-            }`}>
-              {t('landing.languages.englishSupplement')}
-              {languagePairPreferences.fromLanguage === 'en' && (
-                <span className="ml-2 text-xs text-gray-400">(Not needed - you speak English)</span>
-              )}
-            </div>
-            <div className={`text-xs mt-1 ${
-              languagePairPreferences.fromLanguage === 'en'
-                ? 'text-gray-400 dark:text-gray-500'
-                : 'text-gray-500 dark:text-gray-400'
-            }`}>
-              {t('landing.languages.englishSupplementDescription')}
-            </div>
+                      ? 'border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-700 opacity-50 cursor-not-allowed'
+                      : languagePairPreferences.fromLanguage === option.code
+                        ? 'border-green-500 bg-green-50 dark:bg-green-900/20 shadow-md'
+                        : 'border-gray-200 dark:border-gray-700 hover:border-green-300 hover:bg-gray-50 dark:hover:bg-gray-800'
+                  }`}
+                >
+                  <div className="text-center">
+                    <span className="text-base block">{option.flag}</span>
+                    <span className={`text-xs font-medium ${
+                      !isSupported 
+                        ? 'text-gray-400 dark:text-gray-500'
+                        : 'text-gray-900 dark:text-white'
+                    }`}>
+                      {t(option.labelKey)}
+                    </span>
+                    {!isSupported && <span className="text-xs text-gray-400">(Soon)</span>}
+                  </div>
+                </button>
+              );
+            })}
           </div>
-        </label>
+        </div>
+
+        {/* To Language */}
+        <div>
+          <label className="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-1">
+            To: {t('landing.languages.toLanguage')}
+          </label>
+          <div className="grid grid-cols-3 gap-1">
+            {learningLanguageOptions.map((option) => {
+              const isSupported = isToLanguageSupported(option.code);
+              return (
+                <button
+                  key={`to-${option.code}`}
+                  onClick={() => isSupported && handleToLanguageSelect(option.code)}
+                  disabled={!isSupported}
+                  className={`p-2 rounded-lg border-2 transition-all duration-200 ${
+                    !isSupported 
+                      ? 'border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-700 opacity-50 cursor-not-allowed'
+                      : languagePairPreferences.toLanguage === option.code
+                        ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20 shadow-md'
+                        : 'border-gray-200 dark:border-gray-700 hover:border-blue-300 hover:bg-gray-50 dark:hover:bg-gray-800'
+                  }`}
+                >
+                  <div className="text-center">
+                    <span className="text-base block">{option.flag}</span>
+                    <span className={`text-xs font-medium ${
+                      !isSupported 
+                        ? 'text-gray-400 dark:text-gray-500'
+                        : 'text-gray-900 dark:text-white'
+                    }`}>
+                      {t(option.labelKey)}
+                    </span>
+                    {!isSupported && <span className="text-xs text-gray-400">(N/A)</span>}
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* English Supplement Toggle - Compact */}
+        <div className={`rounded-lg p-2 ${
+          languagePairPreferences.fromLanguage === 'en' 
+            ? 'bg-gray-100 dark:bg-gray-700' 
+            : 'bg-gray-50 dark:bg-gray-800'
+        }`}>
+          <label className={`flex items-center space-x-2 ${
+            languagePairPreferences.fromLanguage === 'en' ? 'cursor-not-allowed' : 'cursor-pointer'
+          }`}>
+            <input
+              type="checkbox"
+              checked={languagePairPreferences.showEnglishSupplement}
+              onChange={handleEnglishSupplementToggle}
+              disabled={languagePairPreferences.fromLanguage === 'en'}
+              className={`h-3 w-3 text-blue-600 focus:ring-blue-500 border-gray-300 rounded ${
+                languagePairPreferences.fromLanguage === 'en' 
+                  ? 'opacity-50 cursor-not-allowed' 
+                  : ''
+              }`}
+            />
+            <div>
+              <div className={`text-xs font-medium ${
+                languagePairPreferences.fromLanguage === 'en'
+                  ? 'text-gray-500 dark:text-gray-500'
+                  : 'text-gray-900 dark:text-white'
+              }`}>
+                {t('landing.languages.englishSupplement')}
+                {languagePairPreferences.fromLanguage === 'en' && (
+                  <span className="ml-1 text-xs text-gray-400">(Not needed)</span>
+                )}
+              </div>
+            </div>
+          </label>
+        </div>
       </div>
 
-      <div className="flex justify-between pt-2">
+      <div className="flex justify-between pt-1">
         <button
           onClick={() => setCurrentStep(1)}
           className="px-3 py-2 text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors text-sm"
