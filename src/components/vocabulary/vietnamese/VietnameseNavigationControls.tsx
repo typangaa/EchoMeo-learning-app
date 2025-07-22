@@ -21,7 +21,7 @@ const VietnameseNavigationControls: React.FC<VietnameseNavigationControlsProps> 
   const { t } = useTranslation();
 
   return (
-    <div className="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 p-4">
+    <div className="hidden md:block bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 p-4">
       <div className="flex items-center justify-between max-w-2xl mx-auto">
         {/* Previous Button */}
         <button
