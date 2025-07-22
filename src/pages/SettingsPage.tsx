@@ -158,103 +158,105 @@ const SettingsPage = () => {
   }, [t, language]);
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h1 className="text-2xl sm:text-3xl font-bold mb-6">{t('settings.title')}</h1>
+    <div className="h-full max-h-full flex flex-col md:max-w-4xl md:mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 className="text-xl sm:text-3xl font-bold mb-3 md:mb-6 flex-shrink-0">{t('settings.title')}</h1>
       
-      {/* Interface Language Section */}
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-6">
-        <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
-          {t('settings.interfaceLanguage.title')}
-        </h2>
-        <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
-          {t('settings.interfaceLanguage.description')}
-        </p>
-        
-        <div className="mb-4">
-          <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-            Language / Ngôn ngữ / 简体中文 / 繁體中文
-          </label>
-          <select
-            value={language}
-            onChange={(e) => setLanguage(e.target.value as 'en' | 'vi' | 'zh' | 'zh-tw')}
-            className="w-full max-w-xs px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
-          >
-            <option value="en">{t('languages.en')}</option>
-            <option value="vi">{t('languages.vi')}</option>
-            <option value="zh">{t('languages.zh')}</option>
-            <option value="zh-tw">{t('languages.zh-tw')}</option>
-          </select>
-        </div>
-      </div>
-
-      {/* Language Learning Direction Section */}
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-6">
-        <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
-          {t('settings.languagePair.title')}
-        </h2>
-        <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">
-          {t('settings.languagePair.description')}
-        </p>
-
-        {/* Language Pair Selection */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+      <div className="flex-1 min-h-0 overflow-y-auto space-y-4 md:space-y-6">
+      
+        {/* Interface Language Section */}
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 md:p-6">
+          <h2 className="text-lg md:text-xl font-semibold mb-2 md:mb-4 text-gray-800 dark:text-gray-200">
+            {t('settings.interfaceLanguage.title')}
+          </h2>
+          <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mb-3 md:mb-4">
+            {t('settings.interfaceLanguage.description')}
+          </p>
           
-          {/* From Language */}
           <div>
-            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
-              {t('settings.languagePair.fromLanguage')}
+            <label className="block text-xs md:text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+              Language / Ngôn ngữ / 简体中文 / 繁體中文
             </label>
-            <div className="space-y-2">
-              {(['en', 'vi', 'mandarin'] as const).map((langCode) => {
-                const isSupported = ['en', 'vi', 'mandarin'].includes(langCode);
-                return (
-                  <label key={`from-${langCode}`} className={`flex items-center p-3 rounded-lg border cursor-pointer ${
-                    !isSupported 
-                      ? 'border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-700 opacity-50'
-                      : languagePairPreferences.fromLanguage === langCode
-                        ? 'border-green-500 bg-green-50 dark:bg-green-900/20'
-                        : 'border-gray-200 dark:border-gray-700 hover:border-green-300 hover:bg-green-50 dark:hover:bg-green-900/10'
-                  }`}>
-                    <input
-                      type="radio"
-                      name="fromLanguage"
-                      value={langCode}
-                      checked={languagePairPreferences.fromLanguage === langCode}
-                      onChange={(e) => handleFromLanguageChange(e.target.value as LearningLanguage)}
-                      disabled={!isSupported}
-                      className="mr-3 text-green-600 focus:ring-green-500"
-                    />
-                    <div className="flex items-center">
-                      <span className="text-lg mr-2">
-                        {langCode === 'en' ? '🇺🇸' : 
-                         langCode === 'vi' ? '🇻🇳' : 
-                         langCode === 'mandarin' ? '🇨🇳' : '🇭🇰'}
-                      </span>
-                      <span className={`font-medium ${
-                        !isSupported 
-                          ? 'text-gray-400 dark:text-gray-500'
-                          : 'text-gray-900 dark:text-white'
-                      }`}>
-                        {t(`learningLanguages.${langCode}`)}
-                        {!isSupported && <span className="block text-xs text-gray-400">(Coming soon)</span>}
-                      </span>
-                    </div>
-                  </label>
-                );
-              })}
-            </div>
+            <select
+              value={language}
+              onChange={(e) => setLanguage(e.target.value as 'en' | 'vi' | 'zh' | 'zh-tw')}
+              className="w-full max-w-xs px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+            >
+              <option value="en">{t('languages.en')}</option>
+              <option value="vi">{t('languages.vi')}</option>
+              <option value="zh">{t('languages.zh')}</option>
+              <option value="zh-tw">{t('languages.zh-tw')}</option>
+            </select>
           </div>
+        </div>
 
-          {/* To Language */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
-              {t('settings.languagePair.toLanguage')}
-            </label>
-            <div className="space-y-2">
+        {/* Language Learning Direction Section */}
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 md:p-6">
+          <h2 className="text-lg md:text-xl font-semibold mb-2 md:mb-4 text-gray-800 dark:text-gray-200">
+            {t('settings.languagePair.title')}
+          </h2>
+          <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mb-3 md:mb-6">
+            {t('settings.languagePair.description')}
+          </p>
+
+          {/* Language Pair Selection */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6 mb-3 md:mb-6">
+          
+            {/* From Language */}
+            <div>
+              <label className="block text-xs md:text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 md:mb-3">
+                {t('settings.languagePair.fromLanguage')}
+              </label>
+              <div className="space-y-1 md:space-y-2">
+                {(['en', 'vi', 'mandarin'] as const).map((langCode) => {
+                  const isSupported = ['en', 'vi', 'mandarin'].includes(langCode);
+                  return (
+                    <label key={`from-${langCode}`} className={`flex items-center p-2 md:p-3 rounded-lg border cursor-pointer ${
+                      !isSupported 
+                        ? 'border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-700 opacity-50'
+                        : languagePairPreferences.fromLanguage === langCode
+                          ? 'border-green-500 bg-green-50 dark:bg-green-900/20'
+                          : 'border-gray-200 dark:border-gray-700 hover:border-green-300 hover:bg-green-50 dark:hover:bg-green-900/10'
+                    }`}>
+                      <input
+                        type="radio"
+                        name="fromLanguage"
+                        value={langCode}
+                        checked={languagePairPreferences.fromLanguage === langCode}
+                        onChange={(e) => handleFromLanguageChange(e.target.value as LearningLanguage)}
+                        disabled={!isSupported}
+                        className="mr-2 md:mr-3 text-green-600 focus:ring-green-500"
+                      />
+                      <div className="flex items-center">
+                        <span className="text-sm md:text-lg mr-2">
+                          {langCode === 'en' ? '🇺🇸' : 
+                           langCode === 'vi' ? '🇻🇳' : 
+                           langCode === 'mandarin' ? '🇨🇳' : '🇭🇰'}
+                        </span>
+                        <span className={`text-sm md:text-base font-medium ${
+                          !isSupported 
+                            ? 'text-gray-400 dark:text-gray-500'
+                            : 'text-gray-900 dark:text-white'
+                        }`}>
+                          {t(`learningLanguages.${langCode}`)}
+                          {!isSupported && <span className="block text-xs text-gray-400">(Coming soon)</span>}
+                        </span>
+                      </div>
+                    </label>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* To Language */}
+            <div>
+              <label className="block text-xs md:text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 md:mb-3">
+                {t('settings.languagePair.toLanguage')}
+              </label>
+              <div className="space-y-1 md:space-y-2">
               {(['en', 'vi', 'mandarin'] as const).map((langCode) => {
                 const isSupported = isToLanguageSupported(langCode, languagePairPreferences.fromLanguage);
                 return (
-                  <label key={`to-${langCode}`} className={`flex items-center p-3 rounded-lg border cursor-pointer ${
+                  <label key={`to-${langCode}`} className={`flex items-center p-2 md:p-3 rounded-lg border cursor-pointer ${
                     !isSupported 
                       ? 'border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-700 opacity-50'
                       : languagePairPreferences.toLanguage === langCode
@@ -268,15 +270,15 @@ const SettingsPage = () => {
                       checked={languagePairPreferences.toLanguage === langCode}
                       onChange={(e) => handleToLanguageChange(e.target.value as LearningLanguage)}
                       disabled={!isSupported}
-                      className="mr-3 text-blue-600 focus:ring-blue-500"
+                      className="mr-2 md:mr-3 text-blue-600 focus:ring-blue-500"
                     />
                     <div className="flex items-center">
-                      <span className="text-lg mr-2">
+                      <span className="text-sm md:text-lg mr-2">
                         {langCode === 'en' ? '🇺🇸' : 
                          langCode === 'vi' ? '🇻🇳' : 
                          langCode === 'mandarin' ? '🇨🇳' : '🇭🇰'}
                       </span>
-                      <span className={`font-medium ${
+                      <span className={`text-sm md:text-base font-medium ${
                         !isSupported 
                           ? 'text-gray-400 dark:text-gray-500'
                           : 'text-gray-900 dark:text-white'
@@ -288,12 +290,12 @@ const SettingsPage = () => {
                   </label>
                 );
               })}
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* English Supplement Toggle */}
-        <div className={`rounded-lg p-4 ${
+          {/* English Supplement Toggle */}
+          <div className={`rounded-lg p-3 md:p-4 ${
           languagePairPreferences.fromLanguage === 'en' 
             ? 'bg-gray-100 dark:bg-gray-700' 
             : 'bg-gray-50 dark:bg-gray-800'
@@ -332,18 +334,18 @@ const SettingsPage = () => {
               </div>
             </div>
           </label>
+          </div>
         </div>
-      </div>
       
-      {/* Audio Settings Section */}
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-6">
-        <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
-          {t('settings.audio.title')}
-        </h2>
+        {/* Audio Settings Section */}
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 md:p-6">
+          <h2 className="text-lg md:text-xl font-semibold mb-2 md:mb-4 text-gray-800 dark:text-gray-200">
+            {t('settings.audio.title')}
+          </h2>
         
-        {/* Volume Control */}
-        <div className="mb-6">
-          <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+          {/* Volume Control */}
+          <div className="mb-3 md:mb-6">
+            <label className="block text-xs md:text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
             {t('settings.audio.volume')}: {Math.round(settings.volume * 100)}%
           </label>
           <input
@@ -472,14 +474,15 @@ const SettingsPage = () => {
         </div>
       </div>
 
-      {/* Audio Tips */}
-      <div className="bg-yellow-50 dark:bg-yellow-900/20 rounded-lg p-4">
-        <h3 className="font-semibold mb-2 text-yellow-800 dark:text-yellow-200">{t('settings.audio.tips.title')}</h3>
-        <ul className="text-sm text-yellow-700 dark:text-yellow-300 list-disc list-inside space-y-1">
-          {audioTips.map((tip: string, index: number) => (
-            <li key={index}>{tip}</li>
-          ))}
-        </ul>
+        {/* Audio Tips */}
+        <div className="bg-yellow-50 dark:bg-yellow-900/20 rounded-lg p-3 md:p-4">
+          <h3 className="text-sm md:text-base font-semibold mb-2 text-yellow-800 dark:text-yellow-200">{t('settings.audio.tips.title')}</h3>
+          <ul className="text-xs md:text-sm text-yellow-700 dark:text-yellow-300 list-disc list-inside space-y-1">
+            {audioTips.map((tip: string, index: number) => (
+              <li key={index}>{tip}</li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );
