@@ -30,8 +30,8 @@ const HSKSingleVocabularyCard: React.FC<HSKSingleVocabularyCardProps> = ({
   return (
     <div className="max-w-xl sm:max-w-2xl w-full h-full max-h-full sm:h-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-2 sm:p-6 overflow-hidden sm:overflow-visible flex flex-col">
       {/* Header with level and actions */}
-      <div className="flex justify-between items-center mb-3 sm:mb-4">
-        <span className="text-xs sm:text-sm font-medium text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 px-2 sm:px-3 py-1 rounded-full">
+      <div className="flex justify-between items-center mb-1 sm:mb-4 flex-shrink-0">
+        <span className="text-xs sm:text-sm font-medium text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 px-2 sm:px-3 py-0.5 sm:py-1 rounded-full">
           HSK {item.level}
         </span>
         <div className="flex items-center gap-1 sm:gap-2">
@@ -61,19 +61,19 @@ const HSKSingleVocabularyCard: React.FC<HSKSingleVocabularyCardProps> = ({
       </div>
 
       {/* Chinese Characters */}
-      <div className="text-center mb-2 sm:mb-6 flex-shrink-0">
-        <div className="text-2xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-2 sm:mb-3">
+      <div className="text-center mb-1 sm:mb-6 flex-shrink-0">
+        <div className="text-xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-1 sm:mb-3">
           {item.simplified || item.chinese}
           {item.traditional && item.traditional !== (item.simplified || item.chinese) && (
-            <span className="text-xl sm:text-3xl text-gray-500 dark:text-gray-400 ml-2">
+            <span className="text-lg sm:text-3xl text-gray-500 dark:text-gray-400 ml-2">
               ({item.traditional})
             </span>
           )}
         </div>
         
         {/* Pinyin with audio */}
-        <div className="flex justify-center items-center gap-2 sm:gap-3">
-          <div className="text-base sm:text-xl text-blue-600 dark:text-blue-400 font-medium">
+        <div className="flex justify-center items-center gap-1 sm:gap-3">
+          <div className="text-sm sm:text-xl text-blue-600 dark:text-blue-400 font-medium">
             {item.pinyin}
           </div>
           <AudioButton
@@ -87,10 +87,10 @@ const HSKSingleVocabularyCard: React.FC<HSKSingleVocabularyCardProps> = ({
       {/* Translations */}
       <div className="space-y-1 sm:space-y-3 flex-shrink-0">
         {/* Vietnamese */}
-        <div className="bg-red-50 dark:bg-red-900/20 rounded-lg p-3 sm:p-4">
+        <div className="bg-red-50 dark:bg-red-900/20 rounded-lg p-2 sm:p-4">
           <div className="flex justify-between items-center">
             <div className="flex-1">
-              <div className="text-xs sm:text-sm font-medium text-red-700 dark:text-red-400 mb-1">
+              <div className="text-xs sm:text-sm font-medium text-red-700 dark:text-red-400 mb-0.5 sm:mb-1">
                 Vietnamese
               </div>
               <div className="text-sm sm:text-base text-red-800 dark:text-red-300">
@@ -107,8 +107,8 @@ const HSKSingleVocabularyCard: React.FC<HSKSingleVocabularyCardProps> = ({
 
         {/* English - Only show if supplement is enabled */}
         {item.english && showEnglishSupplement && (
-          <div className="bg-green-50 dark:bg-green-900/20 rounded-lg p-3 sm:p-4">
-            <div className="text-xs sm:text-sm font-medium text-green-700 dark:text-green-400 mb-1">
+          <div className="bg-green-50 dark:bg-green-900/20 rounded-lg p-2 sm:p-4">
+            <div className="text-xs sm:text-sm font-medium text-green-700 dark:text-green-400 mb-0.5 sm:mb-1">
               English
             </div>
             <div className="text-sm sm:text-base text-green-800 dark:text-green-300">
@@ -120,22 +120,22 @@ const HSKSingleVocabularyCard: React.FC<HSKSingleVocabularyCardProps> = ({
 
       {/* Examples - Optimized for Mobile */}
       {item.examples && item.examples.length > 0 && (
-        <div className="mt-2 sm:mt-6 pt-2 sm:pt-4 border-t border-gray-200 dark:border-gray-700 flex-1 min-h-0">
+        <div className="mt-1 sm:mt-6 pt-1 sm:pt-4 border-t border-gray-200 dark:border-gray-700 flex-1 min-h-0">
           <h4 className="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 sm:mb-3">
             Examples
           </h4>
           <div className="space-y-1 sm:space-y-3 flex-1 overflow-hidden sm:overflow-y-auto">
-            {item.examples.slice(0, 2).map((example, index) => (
-              <div key={index} className="bg-gray-50 dark:bg-gray-700 rounded p-2 sm:p-3">
-                <div className="text-xs sm:text-sm text-gray-900 dark:text-gray-100 font-medium mb-1">
+            {item.examples.slice(0, 1).map((example, index) => (
+              <div key={index} className="bg-gray-50 dark:bg-gray-700 rounded p-1.5 sm:p-3">
+                <div className="text-xs sm:text-sm text-gray-900 dark:text-gray-100 font-medium mb-0.5 sm:mb-1">
                   {example.chinese}
                 </div>
                 {example.pinyin && (
-                  <div className="text-xs text-blue-600 dark:text-blue-400 mb-1">
+                  <div className="text-xs text-blue-600 dark:text-blue-400 mb-0.5 sm:mb-1">
                     {example.pinyin}
                   </div>
                 )}
-                <div className="text-xs text-gray-600 dark:text-gray-400 mb-1">
+                <div className="text-xs text-gray-600 dark:text-gray-400 mb-0.5 sm:mb-1">
                   {example.vietnamese}
                 </div>
                 {/* Show English in examples if supplement is enabled */}

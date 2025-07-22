@@ -30,8 +30,8 @@ const VietnameseSingleVocabularyCard: React.FC<VietnameseSingleVocabularyCardPro
   return (
     <div className="max-w-xl sm:max-w-2xl w-full h-full max-h-full sm:h-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-2 sm:p-6 overflow-hidden sm:overflow-visible flex flex-col">
       {/* Header with level and actions */}
-      <div className="flex justify-between items-center mb-3 sm:mb-4">
-        <span className="text-xs sm:text-sm font-medium text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 px-2 sm:px-3 py-1 rounded-full">
+      <div className="flex justify-between items-center mb-1 sm:mb-4 flex-shrink-0">
+        <span className="text-xs sm:text-sm font-medium text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 px-2 sm:px-3 py-0.5 sm:py-1 rounded-full">
           Level {item.level}
         </span>
         <div className="flex items-center gap-1 sm:gap-2">
@@ -61,9 +61,9 @@ const VietnameseSingleVocabularyCard: React.FC<VietnameseSingleVocabularyCardPro
       </div>
 
       {/* Vietnamese Word */}
-      <div className="text-center mb-2 sm:mb-6 flex-shrink-0">
-        <div className="flex justify-center items-center gap-2 sm:gap-3 mb-2 sm:mb-3">
-          <div className="text-2xl sm:text-4xl font-bold text-red-600 dark:text-red-400">
+      <div className="text-center mb-1 sm:mb-6 flex-shrink-0">
+        <div className="flex justify-center items-center gap-1 sm:gap-3 mb-1 sm:mb-3">
+          <div className="text-xl sm:text-4xl font-bold text-red-600 dark:text-red-400">
             {item.vietnamese}
           </div>
           <AudioButton
@@ -77,13 +77,13 @@ const VietnameseSingleVocabularyCard: React.FC<VietnameseSingleVocabularyCardPro
       {/* Translations */}
       <div className="space-y-1 sm:space-y-3 flex-shrink-0">
         {/* Chinese */}
-        <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-3 sm:p-4">
+        <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-2 sm:p-4">
           <div className="flex justify-between items-center">
             <div className="flex-1">
-              <div className="text-xs sm:text-sm font-medium text-blue-700 dark:text-blue-400 mb-1">
+              <div className="text-xs sm:text-sm font-medium text-blue-700 dark:text-blue-400 mb-0.5 sm:mb-1">
                 Chinese
               </div>
-              <div className="text-lg sm:text-xl font-bold text-blue-800 dark:text-blue-300 mb-1">
+              <div className="text-base sm:text-xl font-bold text-blue-800 dark:text-blue-300 mb-0.5 sm:mb-1">
                 {item.chinese}
               </div>
               <div className="text-sm sm:text-base text-blue-600 dark:text-blue-400">
@@ -100,8 +100,8 @@ const VietnameseSingleVocabularyCard: React.FC<VietnameseSingleVocabularyCardPro
 
         {/* English - Only show if supplement is enabled */}
         {item.english && showEnglishSupplement && (
-          <div className="bg-green-50 dark:bg-green-900/20 rounded-lg p-3 sm:p-4">
-            <div className="text-xs sm:text-sm font-medium text-green-700 dark:text-green-400 mb-1">
+          <div className="bg-green-50 dark:bg-green-900/20 rounded-lg p-2 sm:p-4">
+            <div className="text-xs sm:text-sm font-medium text-green-700 dark:text-green-400 mb-0.5 sm:mb-1">
               English
             </div>
             <div className="text-sm sm:text-base text-green-800 dark:text-green-300">
@@ -113,17 +113,17 @@ const VietnameseSingleVocabularyCard: React.FC<VietnameseSingleVocabularyCardPro
 
       {/* Examples - Simplified */}
       {item.examples && item.examples.length > 0 && (
-        <div className="mt-2 sm:mt-6 pt-2 sm:pt-4 border-t border-gray-200 dark:border-gray-700 flex-1 min-h-0">
+        <div className="mt-1 sm:mt-6 pt-1 sm:pt-4 border-t border-gray-200 dark:border-gray-700 flex-1 min-h-0">
           <h4 className="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 sm:mb-3">
             Examples
           </h4>
           <div className="space-y-1 sm:space-y-3 flex-1 overflow-hidden sm:overflow-y-auto">
-            {item.examples.slice(0, 2).map((example, index) => (
-              <div key={index} className="bg-gray-50 dark:bg-gray-700 rounded p-2 sm:p-3">
-                <div className="text-xs sm:text-sm text-red-600 dark:text-red-400 font-medium mb-1">
+            {item.examples.slice(0, 1).map((example, index) => (
+              <div key={index} className="bg-gray-50 dark:bg-gray-700 rounded p-1.5 sm:p-3">
+                <div className="text-xs sm:text-sm text-red-600 dark:text-red-400 font-medium mb-0.5 sm:mb-1">
                   {example.vietnamese}
                 </div>
-                <div className="text-xs sm:text-sm text-blue-600 dark:text-blue-400 mb-1">
+                <div className="text-xs sm:text-sm text-blue-600 dark:text-blue-400 mb-0.5 sm:mb-1">
                   {example.chinese}
                 </div>
                 <div className="text-xs text-blue-500 dark:text-blue-300 mb-1">
