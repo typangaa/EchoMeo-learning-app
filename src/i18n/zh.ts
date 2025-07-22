@@ -49,12 +49,21 @@ export const zh: TranslationKeys = {
       subtitle: "让我们设置您的学习体验"
     },
     steps: {
-      language: "语言",
+      interface: "界面",
+      languages: "语言",
       audio: "音频"
     },
-    language: {
+    interface: {
       title: "选择界面语言",
       description: "选择您希望用于界面的语言"
+    },
+    languages: {
+      title: "选择学习语言",
+      description: "选择您要学习的语言",
+      fromLanguage: "从语言",
+      toLanguage: "到语言",
+      englishSupplement: "显示英语",
+      englishSupplementDescription: "在所选语言旁显示英语翻译以便更好地理解"
     },
     audio: {
       title: "配置音频设置",
@@ -75,6 +84,14 @@ export const zh: TranslationKeys = {
     interfaceLanguage: {
       title: "🌐 界面语言",
       description: "选择您偏好的界面语言",
+    },
+    languagePair: {
+      title: "📚 语言学习方向",
+      description: "配置您的语言学习方向",
+      fromLanguage: "从语言",
+      toLanguage: "到语言",
+      englishSupplement: "显示英语",
+      englishSupplementDescription: "在所选语言旁显示英语翻译以便更好地理解"
     },
     audio: {
       title: "🔊 音频设置",

@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) navigator.serviceWorker.register('/EchoMeo-learning-app/dev-sw.js?dev-sw', { scope: '/EchoMeo-learning-app/', type: 'classic' })

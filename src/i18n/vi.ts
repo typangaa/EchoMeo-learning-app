@@ -49,12 +49,21 @@ export const vi: TranslationKeys = {
       subtitle: "Hãy thiết lập trải nghiệm học tập của bạn"
     },
     steps: {
-      language: "Ngôn ngữ",
+      interface: "Giao diện",
+      languages: "Ngôn ngữ",
       audio: "Âm thanh"
     },
-    language: {
+    interface: {
       title: "Chọn Ngôn Ngữ Giao Diện",
       description: "Chọn ngôn ngữ bạn muốn sử dụng cho giao diện"
+    },
+    languages: {
+      title: "Chọn Ngôn Ngữ Học Tập",
+      description: "Chọn ngôn ngữ bạn muốn học",
+      fromLanguage: "Từ ngôn ngữ",
+      toLanguage: "Đến ngôn ngữ", 
+      englishSupplement: "Hiển thị tiếng Anh",
+      englishSupplementDescription: "Hiển thị bản dịch tiếng Anh cùng với các ngôn ngữ đã chọn"
     },
     audio: {
       title: "Cấu Hình Cài Đặt Âm Thanh",
@@ -75,6 +84,14 @@ export const vi: TranslationKeys = {
     interfaceLanguage: {
       title: "🌐 Ngôn ngữ giao diện",
       description: "Chọn ngôn ngữ giao diện ưa thích",
+    },
+    languagePair: {
+      title: "📚 Hướng học ngôn ngữ",
+      description: "Cấu hình hướng học ngôn ngữ của bạn",
+      fromLanguage: "Từ ngôn ngữ",
+      toLanguage: "Đến ngôn ngữ",
+      englishSupplement: "Hiển thị tiếng Anh",
+      englishSupplementDescription: "Hiển thị bản dịch tiếng Anh cùng với các ngôn ngữ đã chọn để hiểu rõ hơn"
     },
     audio: {
       title: "🔊 Cài đặt âm thanh",

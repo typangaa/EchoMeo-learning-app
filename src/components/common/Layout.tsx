@@ -1,6 +1,8 @@
 import { Outlet } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import { InstallPrompt } from '../pwa/InstallPrompt';
+import { UpdateNotification } from '../pwa/UpdateNotification';
 
 const Layout = () => {
   return (
@@ -10,6 +12,8 @@ const Layout = () => {
         <Outlet />
       </main>
       <Footer />
+      <InstallPrompt />
+      <UpdateNotification />
     </div>
   );
 };

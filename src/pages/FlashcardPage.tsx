@@ -2,10 +2,8 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import AutoplayToggle from '../components/common/AutoplayToggle';
 import { useAppStore } from '../stores';
-import { useTranslation } from '../hooks/useTranslation';
 
 const FlashcardPage = () => {
-  const { t } = useTranslation();
   const languagePairPreferences = useAppStore((state) => state.languagePairPreferences);
   const [selectedHSKLevel, setSelectedHSKLevel] = useState<number>(1);
   const [selectedVietnameseLevel, setSelectedVietnameseLevel] = useState<number>(1);

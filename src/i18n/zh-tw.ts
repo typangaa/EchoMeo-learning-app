@@ -49,12 +49,21 @@ export const zhTw: TranslationKeys = {
       subtitle: "讓我們設置您的學習體驗"
     },
     steps: {
-      language: "語言",
+      interface: "介面",
+      languages: "語言",
       audio: "音訊"
     },
-    language: {
+    interface: {
       title: "選擇介面語言",
       description: "選擇您希望用於介面的語言"
+    },
+    languages: {
+      title: "選擇學習語言",
+      description: "選擇您要學習的語言",
+      fromLanguage: "從語言",
+      toLanguage: "到語言",
+      englishSupplement: "顯示英語",
+      englishSupplementDescription: "在所選語言旁顯示英語翻譯以便更好地理解"
     },
     audio: {
       title: "配置音訊設定",
@@ -75,6 +84,14 @@ export const zhTw: TranslationKeys = {
     interfaceLanguage: {
       title: "🌐 介面語言",
       description: "選擇您偏好的介面語言",
+    },
+    languagePair: {
+      title: "📚 語言學習方向",
+      description: "配置您的語言學習方向",
+      fromLanguage: "從語言",
+      toLanguage: "到語言",
+      englishSupplement: "顯示英語",
+      englishSupplementDescription: "在所選語言旁顯示英語翻譯以便更好地理解"
     },
     audio: {
       title: "🔊 音訊設定",
