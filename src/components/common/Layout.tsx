@@ -17,7 +17,7 @@ const Layout = () => {
       </div>
       
       {/* Main content area - takes remaining space on mobile */}
-      <main className={`flex-1 overflow-y-auto ${
+      <main className={`flex-1 min-h-0 overflow-y-auto ${
         isHomePage 
           ? 'px-4 py-4 md:container md:mx-auto md:px-4 md:py-8' 
           : 'container mx-auto px-4 py-8'
@@ -25,7 +25,7 @@ const Layout = () => {
         <Outlet />
       </main>
       
-      {/* Mobile bottom navigation - fixed at bottom */}
+      {/* Mobile bottom navigation - always at bottom */}
       <div className="flex-shrink-0">
         <MobileBottomNav />
       </div>

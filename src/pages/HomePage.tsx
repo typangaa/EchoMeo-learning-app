@@ -40,8 +40,8 @@ const HomePage = () => {
   const routes = getLanguageRoutes();
   
   return (
-    <div className="h-full md:min-h-0 bg-gradient-to-br from-blue-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-900 dark:to-gray-800 -mx-4 -my-4 md:mx-auto md:my-0 md:bg-none flex flex-col">
-      <div className="flex-1 flex flex-col px-4 py-4 md:max-w-4xl md:mx-auto md:px-4 md:py-8">
+    <div className="h-full max-h-full md:min-h-0 bg-gradient-to-br from-blue-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-900 dark:to-gray-800 -mx-4 -my-4 md:mx-auto md:my-0 md:bg-none flex flex-col">
+      <div className="flex-1 min-h-0 overflow-y-auto flex flex-col px-4 py-4 md:max-w-4xl md:mx-auto md:px-4 md:py-8">
         <div className="text-center mb-4 md:mb-8">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             {t('home.title')}
