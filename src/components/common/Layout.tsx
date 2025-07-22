@@ -1,16 +1,23 @@
 import { Outlet, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import Navbar from './Navbar';
 import MobileBottomNav from './MobileBottomNav';
 import Footer from './Footer';
 import { InstallPrompt } from '../pwa/InstallPrompt';
 import { UpdateNotification } from '../pwa/UpdateNotification';
+import { initMobileViewportFix } from '../../utils/mobileViewport';
 
 const Layout = () => {
   const location = useLocation();
   const isHomePage = location.pathname === '/';
   
+  // Initialize mobile viewport fix for iOS Safari/Chrome
+  useEffect(() => {
+    initMobileViewportFix();
+  }, []);
+  
   return (
-    <div className="h-screen flex flex-col md:min-h-screen md:h-auto">
+    <div className="h-screen-mobile md:h-auto md:min-h-screen flex flex-col">
       {/* Desktop navbar - hidden on mobile */}
       <div className="hidden md:block flex-shrink-0">
         <Navbar />

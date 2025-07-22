@@ -4,6 +4,27 @@
 
 /* Add custom styles for Vietnamese and Chinese text */
 @layer base {
+  /* Fix for mobile browsers (Safari/Chrome iOS) - dynamic viewport height */
+  :root {
+    --vh: 1vh;
+  }
+  
+  /* Mobile viewport height utility classes */
+  .h-screen-mobile {
+    height: 100vh; /* Fallback for browsers that don't support custom properties */
+    height: calc(var(--vh, 1vh) * 100);
+  }
+  
+  .min-h-screen-mobile {
+    min-height: 100vh; /* Fallback */
+    min-height: calc(var(--vh, 1vh) * 100);
+  }
+  
+  /* iOS Safari safe area support for notch/home indicator */
+  .safe-area-inset-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  
   body {
     @apply bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100;
   }
