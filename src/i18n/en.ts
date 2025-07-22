@@ -11,6 +11,7 @@ export const en = {
     hskStudy: "HSK Study",
     flashcards: "Flashcards",
     reading: "Reading",
+    progress: "Progress",
     settings: "Settings",
     language: "Language",
     toggleDarkMode: "Toggle dark mode",
@@ -257,6 +258,43 @@ export const en = {
         }
       }
     }
+  },
+
+  // Progress
+  progress: {
+    title: "Learning Progress",
+    overview: {
+      title: "Overview",
+      streak: "Study Streak",
+      totalWords: "Total Words",
+      studyTime: "Study Time",
+      accuracy: "Accuracy",
+    },
+    hsk: {
+      title: "HSK Chinese",
+    },
+    vietnamese: {
+      title: "Vietnamese",
+    },
+    currentLevel: "Level",
+    wordsProgress: "Words Learned",
+    lessonsProgress: "Lessons Completed",
+    weeklyGoal: {
+      title: "Weekly Goal",
+      sessions: "Study Sessions This Week",
+    },
+    achievements: {
+      title: "Achievements",
+      firstWeek: "First Week Complete",
+      words100: "100 Words Learned",
+      accuracy90: "90% Accuracy",
+    },
+    statistics: {
+      title: "Study Statistics",
+      totalStudyDays: "Total Study Days",
+      favoriteWords: "Favorite Words",
+      studyTime: "Total Study Time",
+    },
   },
 
   // Common

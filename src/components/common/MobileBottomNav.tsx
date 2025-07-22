@@ -34,14 +34,6 @@ const MobileBottomNav = () => {
         label: t('nav.study'),
         color: 'text-red-600 dark:text-red-400'
       });
-    } else {
-      // Default fallback - show both options or generic study
-      baseItems.push({
-        to: '/vocabulary',
-        icon: '📚',
-        label: t('nav.browse'),
-        color: 'text-purple-600 dark:text-purple-400'
-      });
     }
 
     // Add flashcards
@@ -67,6 +59,14 @@ const MobileBottomNav = () => {
         color: 'text-purple-600 dark:text-purple-400'
       });
     }
+
+    // Add progress
+    baseItems.push({
+      to: '/progress',
+      icon: '📊',
+      label: t('nav.progress'),
+      color: 'text-indigo-600 dark:text-indigo-400'
+    });
 
     // Add settings
     baseItems.push({

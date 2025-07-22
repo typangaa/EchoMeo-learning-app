@@ -13,6 +13,7 @@ export const zh: TranslationKeys = {
     hskStudy: "HSK学习",
     flashcards: "闪卡",
     reading: "阅读",
+    progress: "学习进度",
     settings: "设置",
     language: "语言",
     toggleDarkMode: "切换深色/浅色模式",
@@ -259,6 +260,43 @@ export const zh: TranslationKeys = {
         }
       }
     }
+  },
+
+  // Progress
+  progress: {
+    title: "学习进度",
+    overview: {
+      title: "概览",
+      streak: "学习连击",
+      totalWords: "总词汇量",
+      studyTime: "学习时间",
+      accuracy: "准确率",
+    },
+    hsk: {
+      title: "HSK 中文",
+    },
+    vietnamese: {
+      title: "越南语",
+    },
+    currentLevel: "当前级别",
+    wordsProgress: "已学词汇",
+    lessonsProgress: "已完成课程",
+    weeklyGoal: {
+      title: "每周目标",
+      sessions: "本周学习次数",
+    },
+    achievements: {
+      title: "成就",
+      firstWeek: "完成第一周",
+      words100: "学会100个词汇",
+      accuracy90: "达到90%准确率",
+    },
+    statistics: {
+      title: "学习统计",
+      totalStudyDays: "总学习天数",
+      favoriteWords: "收藏词汇",
+      studyTime: "总学习时间",
+    },
   },
 
   // Common

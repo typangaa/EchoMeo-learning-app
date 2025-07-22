@@ -13,6 +13,7 @@ export const vi: TranslationKeys = {
     hskStudy: "Học HSK",
     flashcards: "Thẻ ghi nhớ",
     reading: "Đọc hiểu",
+    progress: "Tiến trình",
     settings: "Cài đặt",
     language: "Ngôn ngữ",
     toggleDarkMode: "Chế độ tối/sáng",
@@ -259,6 +260,43 @@ export const vi: TranslationKeys = {
         }
       }
     }
+  },
+
+  // Progress
+  progress: {
+    title: "Tiến Trình Học Tập",
+    overview: {
+      title: "Tổng Quan",
+      streak: "Chuỗi Học Tập",
+      totalWords: "Tổng Từ Vựng",
+      studyTime: "Thời Gian Học",
+      accuracy: "Độ Chính Xác",
+    },
+    hsk: {
+      title: "Tiếng Trung HSK",
+    },
+    vietnamese: {
+      title: "Tiếng Việt",
+    },
+    currentLevel: "Cấp độ",
+    wordsProgress: "Từ Vựng Đã Học",
+    lessonsProgress: "Bài Học Hoàn Thành",
+    weeklyGoal: {
+      title: "Mục Tiêu Tuần",
+      sessions: "Buổi Học Tuần Này",
+    },
+    achievements: {
+      title: "Thành Tích",
+      firstWeek: "Hoàn Thành Tuần Đầu",
+      words100: "Học 100 Từ Vựng",
+      accuracy90: "Đạt 90% Độ Chính Xác",
+    },
+    statistics: {
+      title: "Thống Kê Học Tập",
+      totalStudyDays: "Tổng Ngày Học",
+      favoriteWords: "Từ Vựng Yêu Thích",
+      studyTime: "Tổng Thời Gian Học",
+    },
   },
 
   // Common

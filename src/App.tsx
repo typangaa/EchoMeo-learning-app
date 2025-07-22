@@ -11,6 +11,7 @@ import FlashcardPage from './pages/FlashcardPage';
 import HSKFlashcardPage from './pages/HSKFlashcardPage';
 import VietnameseFlashcardPage from './pages/VietnameseFlashcardPage';
 import SettingsPage from './pages/SettingsPage';
+import ProgressPage from './pages/ProgressPage';
 import WelcomePage from './pages/WelcomePage';
 
 import Layout from './components/common/Layout';
@@ -68,6 +69,7 @@ function App() {
             <Route path="vietnamese-flashcards" element={<VietnameseFlashcardPage />} />
             <Route path="reading" element={<ReadingPage />} />
             <Route path="reading/:id" element={<PassageDetailPage />} />
+            <Route path="progress" element={<ProgressPage />} />
             <Route path="settings" element={<SettingsPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>

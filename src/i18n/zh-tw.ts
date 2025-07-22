@@ -13,6 +13,7 @@ export const zhTw: TranslationKeys = {
     hskStudy: "HSK學習",
     flashcards: "閃卡",
     reading: "閱讀",
+    progress: "學習進度",
     settings: "設定",
     language: "語言",
     toggleDarkMode: "切換深色/淺色模式",
@@ -259,6 +260,43 @@ export const zhTw: TranslationKeys = {
         }
       }
     }
+  },
+
+  // Progress
+  progress: {
+    title: "學習進度",
+    overview: {
+      title: "概覽",
+      streak: "學習連續天數",
+      totalWords: "總詞彙量",
+      studyTime: "學習時間",
+      accuracy: "準確率",
+    },
+    hsk: {
+      title: "HSK 中文",
+    },
+    vietnamese: {
+      title: "越南語",
+    },
+    currentLevel: "目前級別",
+    wordsProgress: "已學詞彙",
+    lessonsProgress: "已完成課程",
+    weeklyGoal: {
+      title: "每週目標",
+      sessions: "本週學習次數",
+    },
+    achievements: {
+      title: "成就",
+      firstWeek: "完成第一週",
+      words100: "學會100個詞彙",
+      accuracy90: "達到90%準確率",
+    },
+    statistics: {
+      title: "學習統計",
+      totalStudyDays: "總學習天數",
+      favoriteWords: "收藏詞彙",
+      studyTime: "總學習時間",
+    },
   },
 
   // Common
