@@ -19,8 +19,8 @@ const Layout = () => {
       <main className={`flex-grow ${
         isHomePage 
           ? 'px-4 py-4 md:container md:mx-auto md:px-4 md:py-8' 
-          : 'container mx-auto px-4 py-8'
-      } ${!isHomePage ? 'pb-20 md:pb-8' : ''}`}>
+          : 'container mx-auto px-4 py-8 pb-20 md:pb-8'
+      }`}>
         <Outlet />
       </main>
       
