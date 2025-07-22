@@ -37,4 +37,14 @@
   .chinese-text {
     font-family: 'Noto Sans SC', 'SimSun', 'SimHei', sans-serif;
   }
+
+  /* Hide scrollbars for carousel */
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
 }

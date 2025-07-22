@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useFavorites } from '../stores';
 import useVietnameseVocabulary from '../hooks/useVietnameseVocabulary';
@@ -14,6 +14,8 @@ const VietnameseFlashcardPage = () => {
   const [selectedLevel, setSelectedLevel] = useState<number>(1);
   const [itemSource, setItemSource] = useState<'all' | 'favorites'>('all');
   const [selectedLesson, setSelectedLesson] = useState<number | null>(null);
+  const [isMobile, setIsMobile] = useState<boolean>(false);
+  const carouselRef = useRef<HTMLDivElement>(null);
   
   const WORDS_PER_LESSON = 20;
   
@@ -38,6 +40,18 @@ const VietnameseFlashcardPage = () => {
   }, [searchParams]);
   
   
+  // Handle responsive behavior
+  useEffect(() => {
+    const checkIsMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    
+    checkIsMobile();
+    window.addEventListener('resize', checkIsMobile);
+    
+    return () => window.removeEventListener('resize', checkIsMobile);
+  }, []);
+
   // Load selected level when it changes
   useEffect(() => {
     if (availableLevels.includes(selectedLevel)) {
@@ -179,46 +193,98 @@ const VietnameseFlashcardPage = () => {
         </div>
       )}
       
-      {/* Lesson grid */}
+      {/* Lesson grid/carousel */}
       {!loading && !error && vietnameseVocabulary.length > 0 && (
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-6">
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 mb-6">
-            {getAllLessons().map(lessonNumber => {
-              const lessonWords = getLessonWords(lessonNumber);
-              const isCompleted = lessonCompletionTracker.isLessonCompleted('vietnamese', selectedLevel, lessonNumber);
-              
-              return (
-                <button
-                  key={lessonNumber}
-                  onClick={() => startPractice('all', selectedLevel, lessonNumber)}
-                  className={`relative p-4 border-2 rounded-lg transition-all duration-200 text-center group ${
-                    isCompleted 
-                      ? 'border-green-500 bg-green-50 dark:bg-green-900/20 hover:bg-green-100 dark:hover:bg-green-900/30' 
-                      : 'border-gray-300 dark:border-gray-600 hover:border-green-500 hover:bg-green-50 dark:hover:bg-green-900/20'
-                  }`}
-                >
-                  {isCompleted && (
-                    <div className="absolute -top-2 -right-2 w-6 h-6 bg-green-500 text-white rounded-full flex items-center justify-center text-xs font-bold">
-                      ✓
+          {isMobile ? (
+            /* Mobile Carousel */
+            <div className="relative">
+              <div 
+                ref={carouselRef}
+                className="flex overflow-x-auto gap-4 pb-4 snap-x snap-mandatory scrollbar-hide"
+                style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+              >
+                {getAllLessons().map(lessonNumber => {
+                  const lessonWords = getLessonWords(lessonNumber);
+                  const isCompleted = lessonCompletionTracker.isLessonCompleted('vietnamese', selectedLevel, lessonNumber);
+                  
+                  return (
+                    <button
+                      key={lessonNumber}
+                      onClick={() => startPractice('all', selectedLevel, lessonNumber)}
+                      className={`relative min-w-[160px] p-4 border-2 rounded-lg transition-all duration-200 text-center group snap-center ${
+                        isCompleted 
+                          ? 'border-green-500 bg-green-50 dark:bg-green-900/20 hover:bg-green-100 dark:hover:bg-green-900/30' 
+                          : 'border-gray-300 dark:border-gray-600 hover:border-green-500 hover:bg-green-50 dark:hover:bg-green-900/20'
+                      }`}
+                    >
+                      {isCompleted && (
+                        <div className="absolute -top-2 -right-2 w-6 h-6 bg-green-500 text-white rounded-full flex items-center justify-center text-xs font-bold">
+                          ✓
+                        </div>
+                      )}
+                      <div className={`text-lg font-bold mb-1 ${
+                        isCompleted 
+                          ? 'text-green-700 dark:text-green-300' 
+                          : 'text-green-600 dark:text-green-400'
+                      }`}>
+                        Lesson {lessonNumber}
+                      </div>
+                      <div className="text-sm text-gray-600 dark:text-gray-400">
+                        {lessonWords.length} words
+                      </div>
+                      <div className="text-xs text-gray-500 dark:text-gray-500 mt-1">
+                        {isCompleted ? 'Practice again' : 'Tap to start'}
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
+              {/* Swipe hint */}
+              <div className="text-center mt-2 text-xs text-gray-500 dark:text-gray-400">
+                ← Swipe to see more lessons →
+              </div>
+            </div>
+          ) : (
+            /* Desktop Grid */
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 mb-6">
+              {getAllLessons().map(lessonNumber => {
+                const lessonWords = getLessonWords(lessonNumber);
+                const isCompleted = lessonCompletionTracker.isLessonCompleted('vietnamese', selectedLevel, lessonNumber);
+                
+                return (
+                  <button
+                    key={lessonNumber}
+                    onClick={() => startPractice('all', selectedLevel, lessonNumber)}
+                    className={`relative p-4 border-2 rounded-lg transition-all duration-200 text-center group ${
+                      isCompleted 
+                        ? 'border-green-500 bg-green-50 dark:bg-green-900/20 hover:bg-green-100 dark:hover:bg-green-900/30' 
+                        : 'border-gray-300 dark:border-gray-600 hover:border-green-500 hover:bg-green-50 dark:hover:bg-green-900/20'
+                    }`}
+                  >
+                    {isCompleted && (
+                      <div className="absolute -top-2 -right-2 w-6 h-6 bg-green-500 text-white rounded-full flex items-center justify-center text-xs font-bold">
+                        ✓
+                      </div>
+                    )}
+                    <div className={`text-lg font-bold mb-1 ${
+                      isCompleted 
+                        ? 'text-green-700 dark:text-green-300' 
+                        : 'text-green-600 dark:text-green-400'
+                    }`}>
+                      Lesson {lessonNumber}
                     </div>
-                  )}
-                  <div className={`text-lg font-bold mb-1 ${
-                    isCompleted 
-                      ? 'text-green-700 dark:text-green-300' 
-                      : 'text-green-600 dark:text-green-400'
-                  }`}>
-                    Lesson {lessonNumber}
-                  </div>
-                  <div className="text-sm text-gray-600 dark:text-gray-400">
-                    {lessonWords.length} words
-                  </div>
-                  <div className="text-xs text-gray-500 dark:text-gray-500 mt-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                    {isCompleted ? 'Practice again' : 'Click to start'}
-                  </div>
-                </button>
-              );
-            })}
-          </div>
+                    <div className="text-sm text-gray-600 dark:text-gray-400">
+                      {lessonWords.length} words
+                    </div>
+                    <div className="text-xs text-gray-500 dark:text-gray-500 mt-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                      {isCompleted ? 'Practice again' : 'Click to start'}
+                    </div>
+                  </button>
+                );
+              })}
+            </div>
+          )}
         </div>
       )}
       
