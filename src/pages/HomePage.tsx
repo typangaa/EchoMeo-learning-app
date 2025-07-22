@@ -41,12 +41,12 @@ const HomePage = () => {
   
   return (
     <div className="h-full max-h-full md:min-h-0 bg-gradient-to-br from-blue-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-900 dark:to-gray-800 -mx-4 -my-4 md:mx-auto md:my-0 md:bg-none flex flex-col">
-      <div className="flex-1 min-h-0 overflow-y-auto flex flex-col px-4 py-4 md:max-w-4xl md:mx-auto md:px-4 md:py-8">
-        <div className="text-center mb-4 md:mb-8">
-          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+      <div className="flex-1 min-h-0 overflow-hidden flex flex-col px-4 py-2 md:max-w-4xl md:mx-auto md:px-4 md:py-8">
+        <div className="text-center mb-2 md:mb-8 flex-shrink-0">
+          <h1 className="text-xl md:text-4xl lg:text-5xl font-bold mb-1 md:mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             {t('home.title')}
           </h1>
-          <p className="text-sm md:text-lg text-gray-600 dark:text-gray-400 mb-2 md:mb-4 px-2">
+          <p className="text-xs md:text-lg text-gray-600 dark:text-gray-400 mb-1 md:mb-4 px-2">
             {t('home.subtitle')}
           </p>
           
@@ -62,70 +62,58 @@ const HomePage = () => {
 
         {routes ? (
           // Show menu for user's chosen language
-          <div className="flex-1 flex flex-col">
-            <div className="text-center mb-3 md:mb-6">
-              <div className="inline-flex items-center space-x-2 px-3 py-1 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-full shadow-lg">
-                <span className="text-base md:text-xl">{routes.languageIcon}</span>
+          <div className="flex-1 flex flex-col min-h-0">
+            <div className="text-center mb-2 md:mb-6 flex-shrink-0">
+              <div className="inline-flex items-center space-x-2 px-2 py-1 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-full shadow-lg">
+                <span className="text-sm md:text-xl">{routes.languageIcon}</span>
                 <span className="font-medium text-gray-700 dark:text-gray-300 text-xs md:text-base">
                   Learning {routes.languageLabel}
                 </span>
               </div>
             </div>
 
-            <div className="flex-1 flex flex-col gap-3 max-w-sm mx-auto md:max-w-lg md:gap-6">
+            <div className="flex-1 flex flex-col gap-2 max-w-sm mx-auto md:max-w-lg md:gap-6 min-h-0">
               {/* Browse Vocabulary */}
               <Link 
                 to={routes.browse}
-                className={`group p-4 md:p-6 ${routes.browseClasses} rounded-xl md:rounded-2xl border shadow-lg hover:shadow-xl active:scale-95 transition-all duration-200`}
+                className={`group p-3 md:p-6 ${routes.browseClasses} rounded-lg md:rounded-2xl border shadow-lg hover:shadow-xl active:scale-95 transition-all duration-200`}
               >
                 <div className="text-center">
-                  <div className="text-2xl md:text-3xl mb-2 md:mb-3">📚</div>
-                  <h3 className="text-sm md:text-lg font-bold mb-1 md:mb-2 text-gray-800 dark:text-gray-200">Browse</h3>
-                  <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 leading-relaxed hidden md:block">
-                    Explore vocabulary by levels
-                  </p>
+                  <div className="text-xl md:text-3xl mb-1 md:mb-3">📚</div>
+                  <h3 className="text-sm md:text-lg font-bold text-gray-800 dark:text-gray-200">Browse</h3>
                 </div>
               </Link>
 
               {/* Vocabulary Study */}
               <Link 
                 to={routes.study}
-                className="group p-4 md:p-6 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20 rounded-xl md:rounded-2xl border border-blue-200 dark:border-blue-800 shadow-lg hover:shadow-xl active:scale-95 transition-all duration-200"
+                className="group p-3 md:p-6 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20 rounded-lg md:rounded-2xl border border-blue-200 dark:border-blue-800 shadow-lg hover:shadow-xl active:scale-95 transition-all duration-200"
               >
                 <div className="text-center">
-                  <div className="text-2xl md:text-3xl mb-2 md:mb-3">📖</div>
-                  <h3 className="text-sm md:text-lg font-bold mb-1 md:mb-2 text-gray-800 dark:text-gray-200">Study</h3>
-                  <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 leading-relaxed hidden md:block">
-                    Interactive mode with audio
-                  </p>
+                  <div className="text-xl md:text-3xl mb-1 md:mb-3">📖</div>
+                  <h3 className="text-sm md:text-lg font-bold text-gray-800 dark:text-gray-200">Study</h3>
                 </div>
               </Link>
 
               {/* Flashcard Practice */}
               <Link 
                 to={routes.flashcards}
-                className="group p-4 md:p-6 bg-gradient-to-br from-purple-50 to-purple-100 dark:from-purple-900/20 dark:to-purple-800/20 rounded-xl md:rounded-2xl border border-purple-200 dark:border-purple-800 shadow-lg hover:shadow-xl active:scale-95 transition-all duration-200"
+                className="group p-3 md:p-6 bg-gradient-to-br from-purple-50 to-purple-100 dark:from-purple-900/20 dark:to-purple-800/20 rounded-lg md:rounded-2xl border border-purple-200 dark:border-purple-800 shadow-lg hover:shadow-xl active:scale-95 transition-all duration-200"
               >
                 <div className="text-center">
-                  <div className="text-2xl md:text-3xl mb-2 md:mb-3">🧠</div>
-                  <h3 className="text-sm md:text-lg font-bold mb-1 md:mb-2 text-gray-800 dark:text-gray-200">Flashcards</h3>
-                  <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 leading-relaxed hidden md:block">
-                    Practice with spaced repetition
-                  </p>
+                  <div className="text-xl md:text-3xl mb-1 md:mb-3">🧠</div>
+                  <h3 className="text-sm md:text-lg font-bold text-gray-800 dark:text-gray-200">Flashcards</h3>
                 </div>
               </Link>
 
               {/* Settings */}
               <Link 
                 to="/settings"
-                className="group p-4 md:p-6 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900/20 dark:to-gray-800/20 rounded-xl md:rounded-2xl border border-gray-200 dark:border-gray-800 shadow-lg hover:shadow-xl active:scale-95 transition-all duration-200"
+                className="group p-3 md:p-6 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900/20 dark:to-gray-800/20 rounded-lg md:rounded-2xl border border-gray-200 dark:border-gray-800 shadow-lg hover:shadow-xl active:scale-95 transition-all duration-200"
               >
                 <div className="text-center">
-                  <div className="text-2xl md:text-3xl mb-2 md:mb-3">⚙️</div>
-                  <h3 className="text-sm md:text-lg font-bold mb-1 md:mb-2 text-gray-800 dark:text-gray-200">Settings</h3>
-                  <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 leading-relaxed hidden md:block">
-                    Audio, language, and app preferences
-                  </p>
+                  <div className="text-xl md:text-3xl mb-1 md:mb-3">⚙️</div>
+                  <h3 className="text-sm md:text-lg font-bold text-gray-800 dark:text-gray-200">Settings</h3>
                 </div>
               </Link>
           </div>
