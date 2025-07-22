@@ -14,12 +14,8 @@ const VietnameseFlashcardPage = () => {
   const [selectedLevel, setSelectedLevel] = useState<number>(1);
   const [itemSource, setItemSource] = useState<'all' | 'favorites'>('all');
   const [selectedLesson, setSelectedLesson] = useState<number | null>(null);
-  const [currentPage, setCurrentPage] = useState<number>(1);
-  const [isMobile, setIsMobile] = useState<boolean>(false);
   
   const WORDS_PER_LESSON = 20;
-  const LESSONS_PER_PAGE_MOBILE = 5;
-  const LESSONS_PER_PAGE_DESKTOP = 10;
   
   // Use the Vietnamese vocabulary hook
   const {
@@ -41,17 +37,6 @@ const VietnameseFlashcardPage = () => {
     }
   }, [searchParams]);
   
-  // Handle responsive behavior
-  useEffect(() => {
-    const checkIsMobile = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-    
-    checkIsMobile();
-    window.addEventListener('resize', checkIsMobile);
-    
-    return () => window.removeEventListener('resize', checkIsMobile);
-  }, []);
   
   // Load selected level when it changes
   useEffect(() => {
@@ -60,10 +45,6 @@ const VietnameseFlashcardPage = () => {
     }
   }, [selectedLevel, loadLevel, availableLevels]);
   
-  // Reset page when mobile state changes to avoid pagination issues
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [isMobile]);
   
   const handleComplete = () => {
     // Return to lesson selection for the current level
@@ -112,19 +93,9 @@ const VietnameseFlashcardPage = () => {
     return vietnameseVocabulary.slice(startIndex, endIndex);
   };
   
-  const getVisibleLessons = (): number[] => {
+  const getAllLessons = (): number[] => {
     const totalLessons = getLessonsForLevel();
-    const lessonsPerPage = isMobile ? LESSONS_PER_PAGE_MOBILE : LESSONS_PER_PAGE_DESKTOP;
-    const startIndex = (currentPage - 1) * lessonsPerPage;
-    const endIndex = Math.min(startIndex + lessonsPerPage, totalLessons);
-    
-    return Array.from({ length: endIndex - startIndex }, (_, i) => startIndex + i + 1);
-  };
-  
-  const getTotalPages = (): number => {
-    const totalLessons = getLessonsForLevel();
-    const lessonsPerPage = isMobile ? LESSONS_PER_PAGE_MOBILE : LESSONS_PER_PAGE_DESKTOP;
-    return Math.ceil(totalLessons / lessonsPerPage);
+    return Array.from({ length: totalLessons }, (_, i) => i + 1);
   };
   
   
@@ -168,10 +139,7 @@ const VietnameseFlashcardPage = () => {
             {availableLevels.map(level => (
               <button
                 key={level}
-                onClick={() => {
-                  setSelectedLevel(level);
-                  setCurrentPage(1);
-                }}
+                onClick={() => setSelectedLevel(level)}
                 className={`px-4 py-2 rounded-lg transition-colors ${
                   selectedLevel === level
                     ? 'bg-green-600 text-white'
@@ -214,8 +182,8 @@ const VietnameseFlashcardPage = () => {
       {/* Lesson grid */}
       {!loading && !error && vietnameseVocabulary.length > 0 && (
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-6">
-            {getVisibleLessons().map(lessonNumber => {
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 mb-6">
+            {getAllLessons().map(lessonNumber => {
               const lessonWords = getLessonWords(lessonNumber);
               const isCompleted = lessonCompletionTracker.isLessonCompleted('vietnamese', selectedLevel, lessonNumber);
               
@@ -251,31 +219,6 @@ const VietnameseFlashcardPage = () => {
               );
             })}
           </div>
-          
-          {/* Pagination */}
-          {getTotalPages() > 1 && (
-            <div className="flex justify-center items-center gap-4">
-              <button
-                onClick={() => setCurrentPage(prev => Math.max(1, prev - 1))}
-                disabled={currentPage === 1}
-                className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white rounded hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                Previous
-              </button>
-              
-              <span className="text-sm text-gray-600 dark:text-gray-400">
-                Page {currentPage} of {getTotalPages()}
-              </span>
-              
-              <button
-                onClick={() => setCurrentPage(prev => Math.min(getTotalPages(), prev + 1))}
-                disabled={currentPage === getTotalPages()}
-                className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white rounded hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                Next
-              </button>
-            </div>
-          )}
         </div>
       )}
       
