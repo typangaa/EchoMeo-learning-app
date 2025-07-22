@@ -40,144 +40,146 @@ const HomePage = () => {
   const routes = getLanguageRoutes();
   
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="text-center mb-8 sm:mb-12">
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
-          {t('home.title')}
-        </h1>
-        <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400 mb-6">
-          {t('home.subtitle')}
-        </p>
-        
-        {/* PWA Install Button */}
-        <div className="flex justify-center">
-          <InstallButton 
-            variant="secondary" 
-            size="sm"
-            showIcon={true}
-          />
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-900 dark:to-gray-800 -mx-4 -my-4 md:mx-auto md:my-0 md:bg-none md:min-h-0">
+      <div className="px-4 py-6 md:max-w-4xl md:mx-auto md:px-4 md:py-8">
+        <div className="text-center mb-6 md:mb-12">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            {t('home.title')}
+          </h1>
+          <p className="text-base md:text-lg text-gray-600 dark:text-gray-400 mb-4 md:mb-6 px-2">
+            {t('home.subtitle')}
+          </p>
+          
+          {/* PWA Install Button */}
+          <div className="flex justify-center">
+            <InstallButton 
+              variant="secondary" 
+              size="sm"
+              showIcon={true}
+            />
+          </div>
         </div>
-      </div>
 
-      {routes ? (
-        // Show menu for user's chosen language
-        <div className="space-y-4">
-          <div className="text-center mb-8">
-            <div className="inline-flex items-center space-x-3 px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full">
-              <span className="text-2xl">{routes.languageIcon}</span>
-              <span className="font-medium text-gray-700 dark:text-gray-300">
-                Learning {routes.languageLabel}
-              </span>
+        {routes ? (
+          // Show menu for user's chosen language
+          <div className="space-y-6">
+            <div className="text-center mb-6 md:mb-8">
+              <div className="inline-flex items-center space-x-3 px-4 py-2 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-full shadow-lg">
+                <span className="text-xl md:text-2xl">{routes.languageIcon}</span>
+                <span className="font-medium text-gray-700 dark:text-gray-300 text-sm md:text-base">
+                  Learning {routes.languageLabel}
+                </span>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 gap-4 max-w-lg mx-auto md:grid-cols-2 md:max-w-2xl md:gap-6">
+              {/* Browse Vocabulary */}
+              <Link 
+                to={routes.browse}
+                className={`group p-6 ${routes.browseClasses} rounded-2xl border shadow-lg hover:shadow-xl active:scale-95 transition-all duration-200`}
+              >
+                <div className="text-center">
+                  <div className="text-4xl md:text-3xl mb-4 md:mb-3">📚</div>
+                  <h3 className="text-lg md:text-lg font-bold mb-2 text-gray-800 dark:text-gray-200">Browse Vocabulary</h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                    Explore vocabulary by levels and topics
+                  </p>
+                </div>
+              </Link>
+
+              {/* Vocabulary Study */}
+              <Link 
+                to={routes.study}
+                className="group p-6 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20 rounded-2xl border border-blue-200 dark:border-blue-800 shadow-lg hover:shadow-xl active:scale-95 transition-all duration-200"
+              >
+                <div className="text-center">
+                  <div className="text-4xl md:text-3xl mb-4 md:mb-3">📖</div>
+                  <h3 className="text-lg md:text-lg font-bold mb-2 text-gray-800 dark:text-gray-200">Vocabulary Study</h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                    Interactive study mode with audio
+                  </p>
+                </div>
+              </Link>
+
+              {/* Flashcard Practice */}
+              <Link 
+                to={routes.flashcards}
+                className="group p-6 bg-gradient-to-br from-purple-50 to-purple-100 dark:from-purple-900/20 dark:to-purple-800/20 rounded-2xl border border-purple-200 dark:border-purple-800 shadow-lg hover:shadow-xl active:scale-95 transition-all duration-200"
+              >
+                <div className="text-center">
+                  <div className="text-4xl md:text-3xl mb-4 md:mb-3">🧠</div>
+                  <h3 className="text-lg md:text-lg font-bold mb-2 text-gray-800 dark:text-gray-200">Flashcard Practice</h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                    Practice with spaced repetition
+                  </p>
+                </div>
+              </Link>
+
+              {/* Settings */}
+              <Link 
+                to="/settings"
+                className="group p-6 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900/20 dark:to-gray-800/20 rounded-2xl border border-gray-200 dark:border-gray-800 shadow-lg hover:shadow-xl active:scale-95 transition-all duration-200"
+              >
+                <div className="text-center">
+                  <div className="text-4xl md:text-3xl mb-4 md:mb-3">⚙️</div>
+                  <h3 className="text-lg md:text-lg font-bold mb-2 text-gray-800 dark:text-gray-200">Settings</h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                    Audio, language, and app preferences
+                  </p>
+                </div>
+              </Link>
+          </div>
+          </div>
+        ) : (
+          // Fallback: Show language selection if no preference set
+          <div className="text-center">
+            <div className="mb-6 md:mb-8">
+              <h2 className="text-xl md:text-2xl font-bold mb-4 text-gray-800 dark:text-gray-200">Choose Your Learning Language</h2>
+              <p className="text-gray-600 dark:text-gray-400 mb-6 px-2">
+                Select which language you'd like to learn to access your personalized menu
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 gap-4 max-w-sm mx-auto md:grid-cols-2 md:max-w-lg">
+              <Link 
+                to="/welcome"
+                className="group p-6 bg-gradient-to-br from-red-50 to-red-100 dark:from-red-900/20 dark:to-red-800/20 rounded-2xl border border-red-200 dark:border-red-800 shadow-lg hover:shadow-xl active:scale-95 transition-all duration-200"
+              >
+                <div className="text-center">
+                  <div className="text-4xl md:text-3xl mb-4 md:mb-3">🇨🇳</div>
+                  <h3 className="text-lg font-bold mb-2 text-gray-800 dark:text-gray-200">Learn Chinese</h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">
+                    HSK vocabulary and study tools
+                  </p>
+                </div>
+              </Link>
+
+              <Link 
+                to="/welcome"
+                className="group p-6 bg-gradient-to-br from-green-50 to-green-100 dark:from-green-900/20 dark:to-green-800/20 rounded-2xl border border-green-200 dark:border-green-800 shadow-lg hover:shadow-xl active:scale-95 transition-all duration-200"
+              >
+                <div className="text-center">
+                  <div className="text-4xl md:text-3xl mb-4 md:mb-3">🇻🇳</div>
+                  <h3 className="text-lg font-bold mb-2 text-gray-800 dark:text-gray-200">Learn Vietnamese</h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">
+                    Vietnamese vocabulary by CEFR levels
+                  </p>
+                </div>
+              </Link>
+            </div>
+
+            <div className="mt-8">
+              <Link 
+                to="/settings"
+                className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium text-sm md:text-base"
+              >
+                <span className="mr-2">⚙️</span>
+                Set up your learning preferences
+              </Link>
             </div>
           </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
-            {/* Browse Vocabulary */}
-            <Link 
-              to={routes.browse}
-              className={`group p-6 ${routes.browseClasses} rounded-xl border hover:shadow-lg transition-all duration-200`}
-            >
-              <div className="text-center">
-                <div className="text-3xl mb-3">📚</div>
-                <h3 className="text-lg font-semibold mb-2">Browse Vocabulary</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Explore vocabulary by levels and topics
-                </p>
-              </div>
-            </Link>
-
-            {/* Vocabulary Study */}
-            <Link 
-              to={routes.study}
-              className={`group p-6 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20 rounded-xl border border-blue-200 dark:border-blue-800 hover:shadow-lg transition-all duration-200`}
-            >
-              <div className="text-center">
-                <div className="text-3xl mb-3">📖</div>
-                <h3 className="text-lg font-semibold mb-2">Vocabulary Study</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Interactive study mode with audio
-                </p>
-              </div>
-            </Link>
-
-            {/* Flashcard Practice */}
-            <Link 
-              to={routes.flashcards}
-              className={`group p-6 bg-gradient-to-br from-purple-50 to-purple-100 dark:from-purple-900/20 dark:to-purple-800/20 rounded-xl border border-purple-200 dark:border-purple-800 hover:shadow-lg transition-all duration-200`}
-            >
-              <div className="text-center">
-                <div className="text-3xl mb-3">🧠</div>
-                <h3 className="text-lg font-semibold mb-2">Flashcard Practice</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Practice with spaced repetition
-                </p>
-              </div>
-            </Link>
-
-            {/* Settings */}
-            <Link 
-              to="/settings"
-              className={`group p-6 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900/20 dark:to-gray-800/20 rounded-xl border border-gray-200 dark:border-gray-800 hover:shadow-lg transition-all duration-200`}
-            >
-              <div className="text-center">
-                <div className="text-3xl mb-3">⚙️</div>
-                <h3 className="text-lg font-semibold mb-2">Settings</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Audio, language, and app preferences
-                </p>
-              </div>
-            </Link>
-          </div>
-        </div>
-      ) : (
-        // Fallback: Show language selection if no preference set
-        <div className="text-center">
-          <div className="mb-8">
-            <h2 className="text-xl font-semibold mb-4">Choose Your Learning Language</h2>
-            <p className="text-gray-600 dark:text-gray-400 mb-6">
-              Select which language you'd like to learn to access your personalized menu
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-lg mx-auto">
-            <Link 
-              to="/welcome"
-              className="group p-6 bg-gradient-to-br from-red-50 to-red-100 dark:from-red-900/20 dark:to-red-800/20 rounded-xl border border-red-200 dark:border-red-800 hover:shadow-lg transition-all duration-200"
-            >
-              <div className="text-center">
-                <div className="text-3xl mb-3">🇨🇳</div>
-                <h3 className="text-lg font-semibold mb-2">Learn Chinese</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
-                  HSK vocabulary and study tools
-                </p>
-              </div>
-            </Link>
-
-            <Link 
-              to="/welcome"
-              className="group p-6 bg-gradient-to-br from-green-50 to-green-100 dark:from-green-900/20 dark:to-green-800/20 rounded-xl border border-green-200 dark:border-green-800 hover:shadow-lg transition-all duration-200"
-            >
-              <div className="text-center">
-                <div className="text-3xl mb-3">🇻🇳</div>
-                <h3 className="text-lg font-semibold mb-2">Learn Vietnamese</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Vietnamese vocabulary by CEFR levels
-                </p>
-              </div>
-            </Link>
-          </div>
-
-          <div className="mt-8">
-            <Link 
-              to="/settings"
-              className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium"
-            >
-              <span className="mr-2">⚙️</span>
-              Set up your learning preferences
-            </Link>
-          </div>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 };
