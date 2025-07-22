@@ -73,14 +73,14 @@ const HomePage = () => {
             </div>
 
             <div className="flex-1 flex flex-col gap-2 max-w-sm mx-auto md:max-w-lg md:gap-6 min-h-0">
-              {/* Browse Vocabulary */}
+              {/* Progress Tracking */}
               <Link 
-                to={routes.browse}
-                className={`group p-3 md:p-6 ${routes.browseClasses} rounded-lg md:rounded-2xl border shadow-lg hover:shadow-xl active:scale-95 transition-all duration-200`}
+                to="/progress"
+                className="group p-3 md:p-6 bg-gradient-to-br from-indigo-50 to-indigo-100 dark:from-indigo-900/20 dark:to-indigo-800/20 rounded-lg md:rounded-2xl border border-indigo-200 dark:border-indigo-800 shadow-lg hover:shadow-xl active:scale-95 transition-all duration-200"
               >
                 <div className="text-center">
-                  <div className="text-xl md:text-3xl mb-1 md:mb-3">📚</div>
-                  <h3 className="text-sm md:text-lg font-bold text-gray-800 dark:text-gray-200">Browse</h3>
+                  <div className="text-xl md:text-3xl mb-1 md:mb-3">📊</div>
+                  <h3 className="text-sm md:text-lg font-bold text-gray-800 dark:text-gray-200">Progress</h3>
                 </div>
               </Link>
 

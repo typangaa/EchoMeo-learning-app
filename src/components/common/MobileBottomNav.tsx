@@ -60,14 +60,6 @@ const MobileBottomNav = () => {
       });
     }
 
-    // Add progress
-    baseItems.push({
-      to: '/progress',
-      icon: '📊',
-      label: t('nav.progress'),
-      color: 'text-indigo-600 dark:text-indigo-400'
-    });
-
     // Add settings
     baseItems.push({
       to: '/settings',

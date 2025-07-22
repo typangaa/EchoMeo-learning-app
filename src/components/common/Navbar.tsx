@@ -135,6 +135,14 @@ const Navbar = () => {
               {t('nav.reading')}
             </NavLink>
             
+            <NavLink 
+              to="/progress" 
+              className={({ isActive }) => 
+                isActive ? "text-indigo-600 dark:text-indigo-400" : "hover:text-indigo-600 dark:hover:text-indigo-400"
+              }
+            >
+              📊 {t('nav.progress')}
+            </NavLink>
             
             <NavLink 
               to="/settings" 
@@ -248,6 +256,15 @@ const Navbar = () => {
                 {t('nav.reading')}
               </NavLink>
               
+              <NavLink 
+                to="/progress" 
+                className={({ isActive }) => 
+                  isActive ? "text-indigo-600 dark:text-indigo-400" : "hover:text-indigo-600 dark:hover:text-indigo-400"
+                }
+                onClick={() => setIsMenuOpen(false)}
+              >
+                📊 {t('nav.progress')}
+              </NavLink>
               
               <NavLink 
                 to="/settings" 
