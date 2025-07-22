@@ -10,6 +10,7 @@ export interface VocabularyItem {
     vietnamese: string;
     chinese: string;
     pinyin: string;
+    english?: string;
   }>;
   audioUrl?: string;
   // Optional properties for HSK vocabulary

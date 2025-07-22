@@ -3,7 +3,7 @@ import { TranslationKeys } from './en';
 export const zhTw: TranslationKeys = {
   // Navigation
   nav: {
-    appTitle: "學越南語 - Học Tiếng Trung",
+    appTitle: "🐱 EchoMeo",
     vietnamese: "越南語",
     vietnameseStudy: "越南語學習",
     hsk: "HSK",
@@ -19,8 +19,8 @@ export const zhTw: TranslationKeys = {
 
   // Homepage
   home: {
-    title: "學越南語 - Học Tiếng Trung",
-    subtitle: "越南語 ↔ 中文語言學習平台",
+    title: "🐱 EchoMeo",
+    subtitle: "多語言學習平台",
     vietnamese: {
       title: "Tiếng Việt",
       description: "透過6個級別(A1-C1)學習越南語詞彙和中文翻譯",
@@ -45,7 +45,7 @@ export const zhTw: TranslationKeys = {
   // Landing Page
   landing: {
     welcome: {
-      title: "歡迎來到越南語-中文學習平台",
+      title: "歡迎來到🐱 EchoMeo",
       subtitle: "讓我們設置您的學習體驗"
     },
     steps: {
@@ -262,5 +262,13 @@ export const zhTw: TranslationKeys = {
     vi: "Tiếng Việt",
     zh: "简体中文",
     "zh-tw": "繁體中文",
+  },
+
+  // Learning Languages (for language pair selection)
+  learningLanguages: {
+    en: "英語",
+    vi: "越南語",
+    mandarin: "普通話", 
+    cantonese: "粵語",
   },
 };

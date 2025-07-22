@@ -1,7 +1,8 @@
 import { useState, useEffect, useMemo } from 'react';
 import audioService from '../utils/audioService';
 import { useTranslation } from '../hooks/useTranslation';
-import { useSetLanguage } from '../stores';
+import { useSetLanguage, useAppStore } from '../stores';
+import type { LearningLanguage } from '../stores/types';
 
 interface AudioSettings {
   volume: number;
@@ -15,6 +16,10 @@ const SettingsPage = () => {
   const { t, language } = useTranslation();
   const setLanguage = useSetLanguage();
   
+  // Language pair preferences
+  const languagePairPreferences = useAppStore((state) => state.languagePairPreferences);
+  const setLanguagePairPreferences = useAppStore((state) => state.setLanguagePairPreferences);
+  
   const [settings, setSettings] = useState<AudioSettings>({
     volume: 1.0,
     rate: 0.8,
@@ -24,6 +29,50 @@ const SettingsPage = () => {
   const [chineseVoices, setChineseVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [isTestingVietnamese, setIsTestingVietnamese] = useState(false);
   const [isTestingChinese, setIsTestingChinese] = useState(false);
+
+  // Supported language pairs: EN→Mandarin, EN→Vietnamese, VI→Mandarin, Mandarin→Vietnamese
+  const supportedPairs = [
+    { from: 'en', to: 'mandarin' },
+    { from: 'en', to: 'vi' },
+    { from: 'vi', to: 'mandarin' },
+    { from: 'mandarin', to: 'vi' }
+  ];
+
+  const isToLanguageSupported = (toLang: string, fromLang: string) => {
+    return supportedPairs.some(pair => pair.from === fromLang && pair.to === toLang);
+  };
+
+  const handleFromLanguageChange = (newFromLanguage: LearningLanguage) => {
+    // Find the first supported "to" language for this "from" language
+    const supportedToLanguages = supportedPairs
+      .filter(pair => pair.from === newFromLanguage)
+      .map(pair => pair.to);
+    
+    const newToLanguage = supportedToLanguages.includes(languagePairPreferences.toLanguage) 
+      ? languagePairPreferences.toLanguage 
+      : supportedToLanguages[0] as LearningLanguage;
+
+    setLanguagePairPreferences({
+      fromLanguage: newFromLanguage,
+      toLanguage: newToLanguage,
+      // Automatically disable English supplement if user speaks English
+      showEnglishSupplement: newFromLanguage === 'en' ? false : languagePairPreferences.showEnglishSupplement
+    });
+  };
+
+  const handleToLanguageChange = (newToLanguage: LearningLanguage) => {
+    setLanguagePairPreferences({
+      ...languagePairPreferences,
+      toLanguage: newToLanguage
+    });
+  };
+
+  const handleEnglishSupplementToggle = () => {
+    setLanguagePairPreferences({
+      ...languagePairPreferences,
+      showEnglishSupplement: !languagePairPreferences.showEnglishSupplement
+    });
+  };
 
   useEffect(() => {
     // Load current settings
@@ -135,6 +184,154 @@ const SettingsPage = () => {
             <option value="zh">{t('languages.zh')}</option>
             <option value="zh-tw">{t('languages.zh-tw')}</option>
           </select>
+        </div>
+      </div>
+
+      {/* Language Learning Direction Section */}
+      <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-6">
+        <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
+          {t('settings.languagePair.title')}
+        </h2>
+        <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">
+          {t('settings.languagePair.description')}
+        </p>
+
+        {/* Language Pair Selection */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+          
+          {/* From Language */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
+              {t('settings.languagePair.fromLanguage')}
+            </label>
+            <div className="space-y-2">
+              {(['en', 'vi', 'mandarin'] as const).map((langCode) => {
+                const isSupported = ['en', 'vi', 'mandarin'].includes(langCode);
+                return (
+                  <label key={`from-${langCode}`} className={`flex items-center p-3 rounded-lg border cursor-pointer ${
+                    !isSupported 
+                      ? 'border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-700 opacity-50'
+                      : languagePairPreferences.fromLanguage === langCode
+                        ? 'border-green-500 bg-green-50 dark:bg-green-900/20'
+                        : 'border-gray-200 dark:border-gray-700 hover:border-green-300 hover:bg-green-50 dark:hover:bg-green-900/10'
+                  }`}>
+                    <input
+                      type="radio"
+                      name="fromLanguage"
+                      value={langCode}
+                      checked={languagePairPreferences.fromLanguage === langCode}
+                      onChange={(e) => handleFromLanguageChange(e.target.value as LearningLanguage)}
+                      disabled={!isSupported}
+                      className="mr-3 text-green-600 focus:ring-green-500"
+                    />
+                    <div className="flex items-center">
+                      <span className="text-lg mr-2">
+                        {langCode === 'en' ? '🇺🇸' : 
+                         langCode === 'vi' ? '🇻🇳' : 
+                         langCode === 'mandarin' ? '🇨🇳' : '🇭🇰'}
+                      </span>
+                      <span className={`font-medium ${
+                        !isSupported 
+                          ? 'text-gray-400 dark:text-gray-500'
+                          : 'text-gray-900 dark:text-white'
+                      }`}>
+                        {t(`learningLanguages.${langCode}`)}
+                        {!isSupported && <span className="block text-xs text-gray-400">(Coming soon)</span>}
+                      </span>
+                    </div>
+                  </label>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* To Language */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
+              {t('settings.languagePair.toLanguage')}
+            </label>
+            <div className="space-y-2">
+              {(['en', 'vi', 'mandarin'] as const).map((langCode) => {
+                const isSupported = isToLanguageSupported(langCode, languagePairPreferences.fromLanguage);
+                return (
+                  <label key={`to-${langCode}`} className={`flex items-center p-3 rounded-lg border cursor-pointer ${
+                    !isSupported 
+                      ? 'border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-700 opacity-50'
+                      : languagePairPreferences.toLanguage === langCode
+                        ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20'
+                        : 'border-gray-200 dark:border-gray-700 hover:border-blue-300 hover:bg-blue-50 dark:hover:bg-blue-900/10'
+                  }`}>
+                    <input
+                      type="radio"
+                      name="toLanguage"
+                      value={langCode}
+                      checked={languagePairPreferences.toLanguage === langCode}
+                      onChange={(e) => handleToLanguageChange(e.target.value as LearningLanguage)}
+                      disabled={!isSupported}
+                      className="mr-3 text-blue-600 focus:ring-blue-500"
+                    />
+                    <div className="flex items-center">
+                      <span className="text-lg mr-2">
+                        {langCode === 'en' ? '🇺🇸' : 
+                         langCode === 'vi' ? '🇻🇳' : 
+                         langCode === 'mandarin' ? '🇨🇳' : '🇭🇰'}
+                      </span>
+                      <span className={`font-medium ${
+                        !isSupported 
+                          ? 'text-gray-400 dark:text-gray-500'
+                          : 'text-gray-900 dark:text-white'
+                      }`}>
+                        {t(`learningLanguages.${langCode}`)}
+                        {!isSupported && <span className="block text-xs text-gray-400">(Not available for this pair)</span>}
+                      </span>
+                    </div>
+                  </label>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+
+        {/* English Supplement Toggle */}
+        <div className={`rounded-lg p-4 ${
+          languagePairPreferences.fromLanguage === 'en' 
+            ? 'bg-gray-100 dark:bg-gray-700' 
+            : 'bg-gray-50 dark:bg-gray-800'
+        }`}>
+          <label className={`flex items-start space-x-3 ${
+            languagePairPreferences.fromLanguage === 'en' ? 'cursor-not-allowed' : 'cursor-pointer'
+          }`}>
+            <input
+              type="checkbox"
+              checked={languagePairPreferences.showEnglishSupplement}
+              onChange={handleEnglishSupplementToggle}
+              disabled={languagePairPreferences.fromLanguage === 'en'}
+              className={`mt-1 h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded ${
+                languagePairPreferences.fromLanguage === 'en' 
+                  ? 'opacity-50 cursor-not-allowed' 
+                  : ''
+              }`}
+            />
+            <div>
+              <div className={`text-sm font-medium ${
+                languagePairPreferences.fromLanguage === 'en'
+                  ? 'text-gray-500 dark:text-gray-500'
+                  : 'text-gray-900 dark:text-white'
+              }`}>
+                {t('settings.languagePair.englishSupplement')}
+                {languagePairPreferences.fromLanguage === 'en' && (
+                  <span className="ml-2 text-xs text-gray-400">(Not needed - you speak English)</span>
+                )}
+              </div>
+              <div className={`text-xs mt-1 ${
+                languagePairPreferences.fromLanguage === 'en'
+                  ? 'text-gray-400 dark:text-gray-500'
+                  : 'text-gray-500 dark:text-gray-400'
+              }`}>
+                {t('settings.languagePair.englishSupplementDescription')}
+              </div>
+            </div>
+          </label>
         </div>
       </div>
       

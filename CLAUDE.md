@@ -5,21 +5,27 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Development Commands
 
 - **Development server**: `npm run dev` (starts Vite dev server on port 5173)
-- **Build for production**: `npm run build` (TypeScript compilation + Vite build)
+- **Build for production**: `npm run build` (TypeScript compilation + Vite build + PWA generation)
 - **Lint code**: `npm run lint` (ESLint with TypeScript rules)
 - **Preview production build**: `npm run preview`
 - **Deploy to GitHub Pages**: `npm run deploy`
+- **PWA Commands**:
+  - **Build PWA**: Service worker and manifest generation included in build
+  - **Capacitor sync**: `npx cap sync` (sync web assets to native platforms)
+  - **iOS build**: `npx cap run ios` (requires Xcode and iOS development setup)
+  - **Android build**: `npx cap run android` (requires Android Studio and SDK)
 
 ## Architecture Overview
 
-This is a React-based Vietnamese-Chinese learning platform with TypeScript, built using Vite and deployed on GitHub Pages. The application features a mobile-first design with comprehensive vocabulary study tools.
+This is a React-based multi-language learning platform with TypeScript, built using Vite as a Progressive Web App (PWA) with Capacitor wrapper for cross-platform deployment. The application features a mobile-first design with comprehensive vocabulary study tools and supports multiple language pairs for flexible language learning.
 
 ### Core Data Systems
 
-**Vocabulary Management**: Three separate vocabulary systems with unified favorites management:
-- Regular vocabulary (CEFR levels A1-C2)
+**Vocabulary Management**: Extensible vocabulary systems with unified favorites management supporting multiple language pairs:
+- Regular vocabulary (CEFR levels A1-C2) - foundational language learning content
 - HSK vocabulary (Chinese proficiency levels 1-6) with enriched data from `assets/data/hsk/`
 - Vietnamese vocabulary (levels 1-6, mapped to CEFR A1-C1) with enriched data from `assets/data/vietnamese/`
+- **Multi-Language Pair Architecture**: Designed to support additional language pairs (e.g., English-Spanish, French-German, Japanese-Korean) through the same data loading and component patterns
 
 **Data Loading**: Progressive loading system implemented in `enrichedHSKLoader.ts` and `enrichedVietnameseLoader.ts` for large datasets. Uses dynamic imports from assets folder and caching for performance. Both loaders support levels 1-6 with proper error handling and data validation.
 
@@ -73,7 +79,22 @@ The project includes extensive Python scripts in `scripts/` for:
 
 ### Important Technical Details
 
-**Base Path Configuration**: Uses `/EchoMeo-learning-app/` base path in `vite.config.ts` for GitHub Pages deployment.
+**PWA Configuration**: Progressive Web App features with:
+- Service worker for offline functionality and caching strategies
+- Web app manifest (`manifest.json`) for app-like installation
+- Background sync for offline data synchronization
+- Push notifications for study reminders (future enhancement)
+- Responsive design optimized for all device sizes
+
+**Capacitor Integration**: Cross-platform deployment with:
+- Native iOS and Android app generation from web codebase
+- Native device API access (camera, storage, notifications)
+- App store deployment capabilities
+- Platform-specific optimizations and native feel
+
+**Base Path Configuration**: 
+- Uses `/EchoMeo-learning-app/` base path in `vite.config.ts` for GitHub Pages deployment
+- Capacitor builds use root path (`/`) for native app deployment
 
 **Routing**: Uses HashRouter for GitHub Pages compatibility instead of BrowserRouter.
 
@@ -149,6 +170,17 @@ For mobile development:
 - Ensure responsive layouts with proper breakpoints
 - Test on various screen sizes and orientations
 - Use mobile-specific UI patterns in study pages
+- PWA-optimized design for app-like experience
+- Capacitor-compatible components for native deployment
+
+For multi-language pair development:
+- Follow established data loading patterns when adding new language pairs
+- Use consistent ID generation schemes (assign unique ranges for each language pair)
+- Implement language pair-specific loaders following `enrichedHSKLoader.ts` pattern
+- Create dedicated components for each language pair in appropriate subdirectories
+- Maintain unified favorites and progress tracking across all language pairs
+- Ensure audio service supports additional language codes and voice selection
+- Follow existing routing patterns for new language pair pages
 
 For bug reporting:
 - Use `bugReport.ts` utility for vocabulary item issues
@@ -170,6 +202,10 @@ For bug reporting:
 - `scripts/`: Python data processing pipeline including Cantonese generation
 - `assets/data/hsk/`: HSK vocabulary JSON files (levels 1-6)
 - `assets/data/vietnamese/`: Vietnamese vocabulary JSON files (levels 1-6)
+- `public/`: PWA assets including `manifest.json`, service worker, and app icons
+- `ios/`: Capacitor iOS project files (generated)
+- `android/`: Capacitor Android project files (generated)
+- `capacitor.config.ts`: Capacitor configuration for native app builds
 
 ## Recent Updates
 
@@ -226,6 +262,18 @@ For bug reporting:
   * Smart browser language detection
   * Traditional Chinese variant support
   * Dynamic parameter and array handling
+
+- **PWA and Capacitor Integration**: Cross-platform deployment capabilities:
+  * Progressive Web App features with offline support
+  * Service worker for caching and background sync
+  * Native iOS and Android app generation via Capacitor
+  * App store deployment readiness with proper manifests and icons
+
+- **Multi-Language Pair Architecture**: Extensible platform design:
+  * Scalable data loading patterns for new language pairs
+  * Unified progress tracking across all language combinations
+  * Consistent component architecture for language-specific features
+  * Flexible audio service supporting multiple language codes
 
 ## Monetization Strategy
 

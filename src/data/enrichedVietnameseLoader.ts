@@ -235,7 +235,8 @@ function mapEnrichedVietnameseToVocabularyItem(
   }).slice(0, 3).map(example => ({ // Take max 3 examples total
     vietnamese: example.vietnamese || '',
     chinese: example.chinese || '',
-    pinyin: example.pinyin || ''
+    pinyin: example.pinyin || '',
+    english: example.english || ''
   })).filter(example => example.vietnamese && example.chinese); // Filter out incomplete examples
   
   return {

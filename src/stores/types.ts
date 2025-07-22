@@ -8,6 +8,15 @@ import { VocabularyItem } from '../types';
 export type VocabType = 'hsk' | 'vietnamese';
 export type StudySessionType = 'flashcard' | 'reading' | 'quiz';
 export type LayoutMode = 'list' | 'grid' | 'cards';
+export type SupportedLanguage = 'en' | 'vi' | 'zh' | 'zh-tw';
+export type LearningLanguage = 'en' | 'vi' | 'mandarin' | 'cantonese';
+
+// Language pair preferences
+export interface LanguagePairPreferences {
+  fromLanguage: LearningLanguage;
+  toLanguage: LearningLanguage;
+  showEnglishSupplement: boolean;
+}
 
 // =============================================================================
 // User Types (Future-ready)
@@ -154,12 +163,14 @@ export interface AppStore {
   language: 'en' | 'vi' | 'zh' | 'zh-tw';
   isOnline: boolean;
   initialized: boolean;
+  languagePairPreferences: LanguagePairPreferences;
   
   // Actions
   setTheme: (theme: 'light' | 'dark') => void;
   setLanguage: (lang: 'en' | 'vi' | 'zh' | 'zh-tw') => void;
   setOnlineStatus: (status: boolean) => void;
   initializeApp: () => void;
+  setLanguagePairPreferences: (preferences: LanguagePairPreferences) => void;
 }
 
 export interface UserStore {

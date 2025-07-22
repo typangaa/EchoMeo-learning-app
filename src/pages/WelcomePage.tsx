@@ -9,6 +9,13 @@ const WelcomePage = () => {
   const { t } = useTranslation();
   const [currentStep, setCurrentStep] = useState(1);
   
+  // Language pair preferences state
+  const [languagePairPreferences, setLanguagePairPreferencesState] = useState({
+    fromLanguage: 'en' as 'en' | 'vi' | 'mandarin' | 'cantonese',
+    toLanguage: 'mandarin' as 'en' | 'vi' | 'mandarin' | 'cantonese',
+    showEnglishSupplement: false // Default false since fromLanguage is 'en'
+  });
+  
   // Local state for audio settings to avoid store hook issues
   const [audioSettings, setAudioSettings] = useState({
     volume: 1.0,
@@ -31,6 +38,7 @@ const WelcomePage = () => {
   // Get setters from store
   const setLanguage = useAppStore((state) => state.setLanguage);
   const setTheme = useAppStore((state) => state.setTheme);
+  const setLanguagePairPreferences = useAppStore((state) => state.setLanguagePairPreferences);
 
   // Load available voices on component mount
   useEffect(() => {
@@ -46,15 +54,74 @@ const WelcomePage = () => {
     }
   }, []);
 
-  const languageOptions = [
+  const interfaceLanguageOptions = [
     { code: 'en', label: 'English', flag: '🇺🇸', native: 'English' },
     { code: 'vi', label: 'Vietnamese', flag: '🇻🇳', native: 'Tiếng Việt' },
     { code: 'zh', label: 'Simplified Chinese', flag: '🇨🇳', native: '简体中文' },
     { code: 'zh-tw', label: 'Traditional Chinese', flag: '🇹🇼', native: '繁體中文' }
   ];
 
+  const learningLanguageOptions = [
+    { code: 'en', labelKey: 'learningLanguages.en', flag: '🇺🇸' },
+    { code: 'vi', labelKey: 'learningLanguages.vi', flag: '🇻🇳' },
+    { code: 'mandarin', labelKey: 'learningLanguages.mandarin', flag: '🇨🇳' }
+  ];
+
+  // Supported language pairs: EN→Mandarin, EN→Vietnamese, VI→Mandarin, Mandarin→Vietnamese
+  const supportedPairs = [
+    { from: 'en', to: 'mandarin' },
+    { from: 'en', to: 'vi' },
+    { from: 'vi', to: 'mandarin' },
+    { from: 'mandarin', to: 'vi' }
+  ];
+
+  // Check if a language option should be enabled based on current selection
+  const isFromLanguageSupported = (langCode: string) => {
+    return supportedPairs.some(pair => pair.from === langCode);
+  };
+
+  const isToLanguageSupported = (langCode: string) => {
+    const currentFrom = languagePairPreferences.fromLanguage;
+    return supportedPairs.some(pair => pair.from === currentFrom && pair.to === langCode);
+  };
+
   const handleLanguageSelect = (langCode: string) => {
     setLanguage(langCode as any);
+  };
+
+  const handleFromLanguageSelect = (langCode: string) => {
+    const newFromLanguage = langCode as 'en' | 'vi' | 'mandarin' | 'cantonese';
+    
+    // Find the first supported "to" language for this "from" language
+    const supportedToLanguages = supportedPairs
+      .filter(pair => pair.from === newFromLanguage)
+      .map(pair => pair.to);
+    
+    const newToLanguage = supportedToLanguages.includes(languagePairPreferences.toLanguage) 
+      ? languagePairPreferences.toLanguage 
+      : supportedToLanguages[0] as 'en' | 'vi' | 'mandarin' | 'cantonese';
+
+    setLanguagePairPreferencesState(prev => ({ 
+      ...prev, 
+      fromLanguage: newFromLanguage,
+      toLanguage: newToLanguage,
+      // Automatically disable English supplement if user speaks English
+      showEnglishSupplement: newFromLanguage === 'en' ? false : prev.showEnglishSupplement
+    }));
+  };
+
+  const handleToLanguageSelect = (langCode: string) => {
+    setLanguagePairPreferencesState(prev => ({ 
+      ...prev, 
+      toLanguage: langCode as 'en' | 'vi' | 'mandarin' | 'cantonese' 
+    }));
+  };
+
+  const handleEnglishSupplementToggle = () => {
+    setLanguagePairPreferencesState(prev => ({ 
+      ...prev, 
+      showEnglishSupplement: !prev.showEnglishSupplement 
+    }));
   };
 
   const handleThemeToggle = () => {
@@ -139,6 +206,9 @@ const WelcomePage = () => {
   }, []);
 
   const handleComplete = () => {
+    // Save language pair preferences to store
+    setLanguagePairPreferences(languagePairPreferences);
+    
     // Save audio settings to audio store
     const audioState = useAudioStore.getState();
     audioState.setVolume(audioSettings.volume);
@@ -163,19 +233,19 @@ const WelcomePage = () => {
     navigate('/');
   };
 
-  const renderLanguageStep = () => (
+  const renderInterfaceLanguageStep = () => (
     <div className="space-y-6">
       <div className="text-center">
         <h2 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">
-          {t('landing.language.title')}
+          {t('landing.interface.title')}
         </h2>
         <p className="text-gray-600 dark:text-gray-400">
-          {t('landing.language.description')}
+          {t('landing.interface.description')}
         </p>
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-        {languageOptions.map((option) => (
+        {interfaceLanguageOptions.map((option) => (
           <button
             key={option.code}
             onClick={() => handleLanguageSelect(option.code)}
@@ -210,6 +280,152 @@ const WelcomePage = () => {
         <button
           onClick={() => setCurrentStep(2)}
           className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 transition-colors font-medium"
+        >
+          {t('landing.continue')}
+        </button>
+      </div>
+    </div>
+  );
+
+  const renderLanguagePairStep = () => (
+    <div className="space-y-6">
+      <div className="text-center">
+        <h2 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">
+          {t('landing.languages.title')}
+        </h2>
+        <p className="text-gray-600 dark:text-gray-400">
+          {t('landing.languages.description')}
+        </p>
+      </div>
+      
+      {/* From Language */}
+      <div>
+        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
+          {t('landing.languages.fromLanguage')}
+        </label>
+        <div className="grid grid-cols-2 gap-2">
+          {learningLanguageOptions.map((option) => {
+            const isSupported = isFromLanguageSupported(option.code);
+            return (
+              <button
+                key={`from-${option.code}`}
+                onClick={() => isSupported && handleFromLanguageSelect(option.code)}
+                disabled={!isSupported}
+                className={`p-3 rounded-lg border-2 transition-all duration-200 ${
+                  !isSupported 
+                    ? 'border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-700 opacity-50 cursor-not-allowed'
+                    : languagePairPreferences.fromLanguage === option.code
+                      ? 'border-green-500 bg-green-50 dark:bg-green-900/20 shadow-md'
+                      : 'border-gray-200 dark:border-gray-700 hover:border-green-300 hover:bg-gray-50 dark:hover:bg-gray-800'
+                }`}
+              >
+                <div className="flex items-center space-x-2">
+                  <span className="text-lg">{option.flag}</span>
+                  <span className={`text-sm font-medium ${
+                    !isSupported 
+                      ? 'text-gray-400 dark:text-gray-500'
+                      : 'text-gray-900 dark:text-white'
+                  }`}>
+                    {t(option.labelKey)}
+                    {!isSupported && <span className="block text-xs text-gray-400">(Coming soon)</span>}
+                  </span>
+                </div>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* To Language */}
+      <div>
+        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
+          {t('landing.languages.toLanguage')}
+        </label>
+        <div className="grid grid-cols-2 gap-2">
+          {learningLanguageOptions.map((option) => {
+            const isSupported = isToLanguageSupported(option.code);
+            return (
+              <button
+                key={`to-${option.code}`}
+                onClick={() => isSupported && handleToLanguageSelect(option.code)}
+                disabled={!isSupported}
+                className={`p-3 rounded-lg border-2 transition-all duration-200 ${
+                  !isSupported 
+                    ? 'border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-700 opacity-50 cursor-not-allowed'
+                    : languagePairPreferences.toLanguage === option.code
+                      ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20 shadow-md'
+                      : 'border-gray-200 dark:border-gray-700 hover:border-blue-300 hover:bg-gray-50 dark:hover:bg-gray-800'
+                }`}
+              >
+                <div className="flex items-center space-x-2">
+                  <span className="text-lg">{option.flag}</span>
+                  <span className={`text-sm font-medium ${
+                    !isSupported 
+                      ? 'text-gray-400 dark:text-gray-500'
+                      : 'text-gray-900 dark:text-white'
+                  }`}>
+                    {t(option.labelKey)}
+                    {!isSupported && <span className="block text-xs text-gray-400">(Not available for this pair)</span>}
+                  </span>
+                </div>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* English Supplement Toggle */}
+      <div className={`rounded-lg p-4 ${
+        languagePairPreferences.fromLanguage === 'en' 
+          ? 'bg-gray-100 dark:bg-gray-700' 
+          : 'bg-gray-50 dark:bg-gray-800'
+      }`}>
+        <label className={`flex items-start space-x-3 ${
+          languagePairPreferences.fromLanguage === 'en' ? 'cursor-not-allowed' : 'cursor-pointer'
+        }`}>
+          <input
+            type="checkbox"
+            checked={languagePairPreferences.showEnglishSupplement}
+            onChange={handleEnglishSupplementToggle}
+            disabled={languagePairPreferences.fromLanguage === 'en'}
+            className={`mt-1 h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded ${
+              languagePairPreferences.fromLanguage === 'en' 
+                ? 'opacity-50 cursor-not-allowed' 
+                : ''
+            }`}
+          />
+          <div>
+            <div className={`text-sm font-medium ${
+              languagePairPreferences.fromLanguage === 'en'
+                ? 'text-gray-500 dark:text-gray-500'
+                : 'text-gray-900 dark:text-white'
+            }`}>
+              {t('landing.languages.englishSupplement')}
+              {languagePairPreferences.fromLanguage === 'en' && (
+                <span className="ml-2 text-xs text-gray-400">(Not needed - you speak English)</span>
+              )}
+            </div>
+            <div className={`text-xs mt-1 ${
+              languagePairPreferences.fromLanguage === 'en'
+                ? 'text-gray-400 dark:text-gray-500'
+                : 'text-gray-500 dark:text-gray-400'
+            }`}>
+              {t('landing.languages.englishSupplementDescription')}
+            </div>
+          </div>
+        </label>
+      </div>
+
+      <div className="flex justify-between pt-4">
+        <button
+          onClick={() => setCurrentStep(1)}
+          className="px-4 py-2 text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors"
+        >
+          {t('landing.back')}
+        </button>
+        <button
+          onClick={() => setCurrentStep(3)}
+          className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
         >
           {t('landing.continue')}
         </button>
@@ -344,13 +560,13 @@ const WelcomePage = () => {
 
       <div className="flex justify-between pt-4">
         <button
-          onClick={() => setCurrentStep(1)}
+          onClick={() => setCurrentStep(2)}
           className="px-4 py-2 text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors"
         >
           {t('landing.back')}
         </button>
         <button
-          onClick={() => setCurrentStep(3)}
+          onClick={() => setCurrentStep(4)}
           className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
         >
           {t('landing.continue')}
@@ -383,7 +599,9 @@ const WelcomePage = () => {
         </button>
         
         <div className="text-sm text-gray-500 dark:text-gray-400 space-y-1">
-          <div>Language: {languageOptions.find(opt => opt.code === language)?.native}</div>
+          <div>Interface: {interfaceLanguageOptions.find(opt => opt.code === language)?.native}</div>
+          <div>Learning: {t(learningLanguageOptions.find(opt => opt.code === languagePairPreferences.fromLanguage)?.labelKey || 'learningLanguages.en')} → {t(learningLanguageOptions.find(opt => opt.code === languagePairPreferences.toLanguage)?.labelKey || 'learningLanguages.en')}</div>
+          <div>English supplement: {languagePairPreferences.showEnglishSupplement ? 'Yes' : 'No'}</div>
           <div>Theme: {theme === 'light' ? 'Light' : 'Dark'} mode</div>
           <div>Audio: {Math.round(audioSettings.volume * 100)}% vol • {audioSettings.playbackRate}x rate</div>
           {audioSettings.preferredVietnameseVoice && (
@@ -407,7 +625,7 @@ const WelcomePage = () => {
               <span className="text-3xl text-white">📚</span>
             </div>
             <h1 className="text-3xl font-bold mb-2 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Vietnamese-Chinese Learning
+              🐱 EchoMeo
             </h1>
             <p className="text-gray-600 dark:text-gray-400">
               {t('landing.welcome.subtitle')}
@@ -416,13 +634,13 @@ const WelcomePage = () => {
 
           {/* Progress Steps */}
           <div className="mb-8">
-            <div className="flex items-center justify-center space-x-3">
+            <div className="flex items-center justify-center space-x-2">
               <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${
                 currentStep >= 1 ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-500 dark:bg-gray-700 dark:text-gray-400'
               }`}>
                 1
               </div>
-              <div className={`h-1 w-12 ${
+              <div className={`h-1 w-8 ${
                 currentStep >= 2 ? 'bg-blue-600' : 'bg-gray-200 dark:bg-gray-700'
               }`} />
               <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${
@@ -430,7 +648,7 @@ const WelcomePage = () => {
               }`}>
                 2
               </div>
-              <div className={`h-1 w-12 ${
+              <div className={`h-1 w-8 ${
                 currentStep >= 3 ? 'bg-blue-600' : 'bg-gray-200 dark:bg-gray-700'
               }`} />
               <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${
@@ -438,18 +656,28 @@ const WelcomePage = () => {
               }`}>
                 3
               </div>
+              <div className={`h-1 w-8 ${
+                currentStep >= 4 ? 'bg-blue-600' : 'bg-gray-200 dark:bg-gray-700'
+              }`} />
+              <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${
+                currentStep >= 4 ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-500 dark:bg-gray-700 dark:text-gray-400'
+              }`}>
+                4
+              </div>
             </div>
             <div className="flex justify-between mt-2 text-xs text-gray-500 dark:text-gray-400">
-              <span>Language</span>
-              <span>Audio</span>
+              <span>{t('landing.steps.interface')}</span>
+              <span>{t('landing.steps.languages')}</span>
+              <span>{t('landing.steps.audio')}</span>
               <span>Ready</span>
             </div>
           </div>
 
           {/* Main Content */}
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 p-6 mb-6">
-            {currentStep === 1 ? renderLanguageStep() : 
-             currentStep === 2 ? renderAudioStep() : 
+            {currentStep === 1 ? renderInterfaceLanguageStep() : 
+             currentStep === 2 ? renderLanguagePairStep() :
+             currentStep === 3 ? renderAudioStep() : 
              renderSetupCompleteStep()}
           </div>
 

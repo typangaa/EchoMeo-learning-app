@@ -1,7 +1,7 @@
 export const en = {
   // Navigation
   nav: {
-    appTitle: "Learn Chinese - 学越南语",
+    appTitle: "🐱 EchoMeo",
     vietnamese: "Vietnamese",
     vietnameseStudy: "Vietnamese Study",
     hsk: "HSK",
@@ -17,8 +17,8 @@ export const en = {
 
   // Homepage
   home: {
-    title: "Learn Chinese - 学越南语",
-    subtitle: "Vietnamese ↔ Chinese Language Learning Platform",
+    title: "🐱 EchoMeo",
+    subtitle: "Multi-Language Learning Platform",
     vietnamese: {
       title: "Tiếng Việt",
       description: "Learn Vietnamese vocabulary with Chinese translations across 6 levels (A1-C1)",
@@ -43,16 +43,25 @@ export const en = {
   // Landing Page
   landing: {
     welcome: {
-      title: "Welcome to Vietnamese-Chinese Learning",
+      title: "Welcome to 🐱 EchoMeo",
       subtitle: "Let's set up your learning experience"
     },
     steps: {
-      language: "Language",
+      interface: "Interface",
+      languages: "Languages", 
       audio: "Audio"
     },
-    language: {
+    interface: {
       title: "Choose Your Interface Language",
       description: "Select the language you'd like to use for the interface"
+    },
+    languages: {
+      title: "Choose Your Learning Languages",
+      description: "Select which languages you want to learn",
+      fromLanguage: "I speak",
+      toLanguage: "I want to learn",
+      englishSupplement: "Show English as supplementary language",
+      englishSupplementDescription: "Display English translations alongside your selected languages for better understanding"
     },
     audio: {
       title: "Configure Audio Settings",
@@ -73,6 +82,14 @@ export const en = {
     interfaceLanguage: {
       title: "🌐 Interface Language",
       description: "Choose your preferred interface language",
+    },
+    languagePair: {
+      title: "📚 Language Learning Direction",
+      description: "Choose which languages you want to learn from and to",
+      fromLanguage: "I speak",
+      toLanguage: "I want to learn",
+      englishSupplement: "Show English as supplementary language",
+      englishSupplementDescription: "Display English translations alongside your selected languages for better understanding",
     },
     audio: {
       title: "🔊 Audio Settings",
@@ -257,9 +274,17 @@ export const en = {
   // Languages
   languages: {
     en: "English",
-    vi: "Tiếng Việt",
+    vi: "Tiếng Việt", 
     zh: "简体中文",
     "zh-tw": "繁體中文",
+  },
+
+  // Learning Languages (for language pair selection)
+  learningLanguages: {
+    en: "English",
+    vi: "Vietnamese",
+    mandarin: "Mandarin", 
+    cantonese: "Cantonese",
   },
 };
 

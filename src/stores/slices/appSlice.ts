@@ -17,6 +17,11 @@ export const createAppSlice: StateCreator<AppStore> = (set, get) => {
     language: 'en',
     isOnline: navigator.onLine || true,
     initialized: false,
+    languagePairPreferences: {
+      fromLanguage: 'en',
+      toLanguage: 'mandarin',
+      showEnglishSupplement: false
+    },
 
     // Actions
     setTheme: (theme) => {
@@ -40,6 +45,14 @@ export const createAppSlice: StateCreator<AppStore> = (set, get) => {
         { isOnline },
         false,
         actionTypes.custom('SET_ONLINE_STATUS')
+      );
+    },
+
+    setLanguagePairPreferences: (languagePairPreferences) => {
+      actionSet(
+        { languagePairPreferences },
+        false,
+        actionTypes.custom('SET_LANGUAGE_PAIR_PREFERENCES')
       );
     },
 

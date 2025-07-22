@@ -177,7 +177,8 @@ function mapEnrichedHSKToVocabularyItem(
   }).slice(0, 3).map(example => ({ // Take max 3 examples total
     vietnamese: (example && example.vietnamese) || '',
     chinese: (example && example.chinese) || '',
-    pinyin: (example && example.pinyin) || ''
+    pinyin: (example && example.pinyin) || '',
+    english: (example && example.english) || ''
   })).filter(example => example.vietnamese || example.chinese); // Filter out empty examples
   
   const chineseText = enrichedItem.item || enrichedItem.word || '';

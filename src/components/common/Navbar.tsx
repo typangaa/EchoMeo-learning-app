@@ -8,6 +8,7 @@ const Navbar = () => {
   const setLanguage = useAppStore((state) => state.setLanguage);
   const theme = useAppStore((state) => state.theme);
   const setTheme = useAppStore((state) => state.setTheme);
+  const languagePairPreferences = useAppStore((state) => state.languagePairPreferences);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   
   const isDarkMode = theme === 'dark';
@@ -37,6 +38,22 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  // Determine which navigation items to show based on language learning preferences
+  const getVisibleNavItems = () => {
+    const { toLanguage } = languagePairPreferences;
+    
+    const navItems = {
+      showVietnamese: toLanguage === 'vi',
+      showVietnameseStudy: toLanguage === 'vi', 
+      showHSK: toLanguage === 'mandarin',
+      showHSKStudy: toLanguage === 'mandarin'
+    };
+
+    return navItems;
+  };
+
+  const visibleNavItems = getVisibleNavItems();
+
   return (
     <nav className="bg-white dark:bg-gray-800 shadow-md">
       <div className="container mx-auto px-4">
@@ -56,41 +73,49 @@ const Navbar = () => {
           
           {/* Desktop navigation */}
           <div className="hidden md:flex items-center space-x-6">
-            <NavLink 
-              to="/vietnamese" 
-              className={({ isActive }) => 
-                isActive ? "text-green-600 dark:text-green-400" : "hover:text-green-600 dark:hover:text-green-400"
-              }
-            >
-              {t('nav.vietnamese')}
-            </NavLink>
+            {visibleNavItems.showVietnamese && (
+              <NavLink 
+                to="/vietnamese" 
+                className={({ isActive }) => 
+                  isActive ? "text-green-600 dark:text-green-400" : "hover:text-green-600 dark:hover:text-green-400"
+                }
+              >
+                {t('nav.vietnamese')}
+              </NavLink>
+            )}
             
-            <NavLink 
-              to="/vietnamese-study" 
-              className={({ isActive }) => 
-                isActive ? "text-emerald-600 dark:text-emerald-400" : "hover:text-emerald-600 dark:hover:text-emerald-400"
-              }
-            >
-              🇻🇳 {t('nav.vietnameseStudy')}
-            </NavLink>
+            {visibleNavItems.showVietnameseStudy && (
+              <NavLink 
+                to="/vietnamese-study" 
+                className={({ isActive }) => 
+                  isActive ? "text-emerald-600 dark:text-emerald-400" : "hover:text-emerald-600 dark:hover:text-emerald-400"
+                }
+              >
+                🇻🇳 {t('nav.vietnameseStudy')}
+              </NavLink>
+            )}
             
-            <NavLink 
-              to="/hsk" 
-              className={({ isActive }) => 
-                isActive ? "text-red-600 dark:text-red-400" : "hover:text-red-600 dark:hover:text-red-400"
-              }
-            >
-              {t('nav.hsk')}
-            </NavLink>
+            {visibleNavItems.showHSK && (
+              <NavLink 
+                to="/hsk" 
+                className={({ isActive }) => 
+                  isActive ? "text-red-600 dark:text-red-400" : "hover:text-red-600 dark:hover:text-red-400"
+                }
+              >
+                {t('nav.hsk')}
+              </NavLink>
+            )}
             
-            <NavLink 
-              to="/hsk-study" 
-              className={({ isActive }) => 
-                isActive ? "text-orange-600 dark:text-orange-400" : "hover:text-orange-600 dark:hover:text-orange-400"
-              }
-            >
-              📚 {t('nav.hskStudy')}
-            </NavLink>
+            {visibleNavItems.showHSKStudy && (
+              <NavLink 
+                to="/hsk-study" 
+                className={({ isActive }) => 
+                  isActive ? "text-orange-600 dark:text-orange-400" : "hover:text-orange-600 dark:hover:text-orange-400"
+                }
+              >
+                📚 {t('nav.hskStudy')}
+              </NavLink>
+            )}
             
             <NavLink 
               to="/flashcards" 
@@ -155,45 +180,53 @@ const Navbar = () => {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-200 dark:border-gray-700">
             <div className="flex flex-col space-y-4">
-              <NavLink 
-                to="/vietnamese" 
-                className={({ isActive }) => 
-                  isActive ? "text-green-600 dark:text-green-400" : "hover:text-green-600 dark:hover:text-green-400"
-                }
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {t('nav.vietnamese')}
-              </NavLink>
+              {visibleNavItems.showVietnamese && (
+                <NavLink 
+                  to="/vietnamese" 
+                  className={({ isActive }) => 
+                    isActive ? "text-green-600 dark:text-green-400" : "hover:text-green-600 dark:hover:text-green-400"
+                  }
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {t('nav.vietnamese')}
+                </NavLink>
+              )}
               
-              <NavLink 
-                to="/vietnamese-study" 
-                className={({ isActive }) => 
-                  isActive ? "text-emerald-600 dark:text-emerald-400" : "hover:text-emerald-600 dark:hover:text-emerald-400"
-                }
-                onClick={() => setIsMenuOpen(false)}
-              >
-                🇻🇳 {t('nav.vietnameseStudy')}
-              </NavLink>
+              {visibleNavItems.showVietnameseStudy && (
+                <NavLink 
+                  to="/vietnamese-study" 
+                  className={({ isActive }) => 
+                    isActive ? "text-emerald-600 dark:text-emerald-400" : "hover:text-emerald-600 dark:hover:text-emerald-400"
+                  }
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  🇻🇳 {t('nav.vietnameseStudy')}
+                </NavLink>
+              )}
               
-              <NavLink 
-                to="/hsk" 
-                className={({ isActive }) => 
-                  isActive ? "text-red-600 dark:text-red-400" : "hover:text-red-600 dark:hover:text-red-400"
-                }
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {t('nav.hsk')}
-              </NavLink>
+              {visibleNavItems.showHSK && (
+                <NavLink 
+                  to="/hsk" 
+                  className={({ isActive }) => 
+                    isActive ? "text-red-600 dark:text-red-400" : "hover:text-red-600 dark:hover:text-red-400"
+                  }
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {t('nav.hsk')}
+                </NavLink>
+              )}
               
-              <NavLink 
-                to="/hsk-study" 
-                className={({ isActive }) => 
-                  isActive ? "text-orange-600 dark:text-orange-400" : "hover:text-orange-600 dark:hover:text-orange-400"
-                }
-                onClick={() => setIsMenuOpen(false)}
-              >
-                📚 {t('nav.hskStudy')}
-              </NavLink>
+              {visibleNavItems.showHSKStudy && (
+                <NavLink 
+                  to="/hsk-study" 
+                  className={({ isActive }) => 
+                    isActive ? "text-orange-600 dark:text-orange-400" : "hover:text-orange-600 dark:hover:text-orange-400"
+                  }
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  📚 {t('nav.hskStudy')}
+                </NavLink>
+              )}
               
               <NavLink 
                 to="/flashcards" 
