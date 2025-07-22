@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useTranslation } from '../hooks/useTranslation';
 import { useAppStore, useAudioStore } from '../stores';
 import audioService from '../utils/audioService';
+import { WelcomeInstallSection } from '../components/pwa/WelcomeInstallSection';
 
 const WelcomePage = () => {
   const navigate = useNavigate();
@@ -631,6 +632,9 @@ const WelcomePage = () => {
               {t('landing.welcome.subtitle')}
             </p>
           </div>
+
+          {/* PWA Install Section */}
+          <WelcomeInstallSection />
 
           {/* Progress Steps */}
           <div className="mb-8">

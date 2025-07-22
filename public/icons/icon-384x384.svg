@@ -1,0 +1,18 @@
+
+<svg width="384" height="384" viewBox="0 0 384 384" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="384" height="384" rx="38.400000000000006" fill="#3b82f6"/>
+  
+  <!-- Cat emoji or simple icon -->
+  <circle cx="192" cy="153.60000000000002" r="76.80000000000001" fill="#ffffff"/>
+  <circle cx="161.28" cy="134.39999999999998" r="11.52" fill="#000000"/>
+  <circle cx="222.71999999999997" cy="134.39999999999998" r="11.52" fill="#000000"/>
+  
+  <!-- Text "EM" for EchoMeo -->
+  <text x="192" y="307.20000000000005" 
+        font-family="Arial, sans-serif" 
+        font-size="76.80000000000001" 
+        font-weight="bold" 
+        fill="white" 
+        text-anchor="middle">EM</text>
+</svg>

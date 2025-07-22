@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from '../hooks/useTranslation';
+import { InstallButton } from '../components/pwa/InstallButton';
 
 const HomePage = () => {
   const { t } = useTranslation();
@@ -10,9 +11,18 @@ const HomePage = () => {
         <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
           {t('home.title')}
         </h1>
-        <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400">
+        <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400 mb-6">
           {t('home.subtitle')}
         </p>
+        
+        {/* PWA Install Button */}
+        <div className="flex justify-center">
+          <InstallButton 
+            variant="secondary" 
+            size="sm"
+            showIcon={true}
+          />
+        </div>
       </div>
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-8 mb-8 sm:mb-12">
