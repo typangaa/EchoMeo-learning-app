@@ -3,12 +3,14 @@ import { useNavigate } from 'react-router-dom';
 import { useTranslation } from '../hooks/useTranslation';
 import { useAppStore, useAudioStore } from '../stores';
 import audioService from '../utils/audioService';
-import { WelcomeInstallSection } from '../components/pwa/WelcomeInstallSection';
+import { InstallButton } from '../components/pwa/InstallButton';
 
 const WelcomePage = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
   const [currentStep, setCurrentStep] = useState(1);
+  const [skipInstallStep, setSkipInstallStep] = useState(false);
+  const [isInstalled, setIsInstalled] = useState(false);
   
   // Language pair preferences state
   const [languagePairPreferences, setLanguagePairPreferencesState] = useState({
@@ -53,6 +55,26 @@ const WelcomePage = () => {
     if (window.speechSynthesis) {
       window.speechSynthesis.onvoiceschanged = loadVoices;
     }
+  }, []);
+
+  // Check if app is already installed
+  useEffect(() => {
+    const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
+    const isInWebAppiOS = (window.navigator as any).standalone === true;
+    
+    if (isStandalone || isInWebAppiOS) {
+      setIsInstalled(true);
+      setSkipInstallStep(true); // Skip install step if already installed
+    }
+
+    // Listen for app installation
+    const handleAppInstalled = () => {
+      setIsInstalled(true);
+      setSkipInstallStep(true);
+    };
+
+    window.addEventListener('appinstalled', handleAppInstalled);
+    return () => window.removeEventListener('appinstalled', handleAppInstalled);
   }, []);
 
   const interfaceLanguageOptions = [
@@ -567,11 +589,111 @@ const WelcomePage = () => {
           {t('landing.back')}
         </button>
         <button
-          onClick={() => setCurrentStep(4)}
+          onClick={() => {
+            // Skip install step if already installed or user wants to skip it
+            if (isInstalled || skipInstallStep) {
+              setCurrentStep(5);
+            } else {
+              setCurrentStep(4);
+            }
+          }}
           className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
         >
           {t('landing.continue')}
         </button>
+      </div>
+    </div>
+  );
+
+  const renderInstallStep = () => (
+    <div className="space-y-6">
+      <div className="text-center">
+        <div className="mx-auto w-16 h-16 bg-blue-100 dark:bg-blue-900/20 rounded-full flex items-center justify-center mb-4">
+          <span className="text-2xl">📱</span>
+        </div>
+        <h2 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">
+          Install EchoMeo App
+        </h2>
+        <p className="text-gray-600 dark:text-gray-400">
+          Get the best learning experience by installing EchoMeo as an app on your device.
+        </p>
+      </div>
+
+      <div className="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-6 border border-blue-200 dark:border-blue-800">
+        <div className="space-y-4">
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+            ✨ App Benefits
+          </h3>
+          
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <div className="text-center">
+              <div className="w-10 h-10 bg-green-100 dark:bg-green-900/20 rounded-lg flex items-center justify-center mx-auto mb-2">
+                <svg className="w-5 h-5 text-green-600 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
+                </svg>
+              </div>
+              <div className="text-sm font-medium text-gray-900 dark:text-white">Offline Access</div>
+              <div className="text-xs text-gray-600 dark:text-gray-400">Study without internet</div>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900/20 rounded-lg flex items-center justify-center mx-auto mb-2">
+                <svg className="w-5 h-5 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd" />
+                </svg>
+              </div>
+              <div className="text-sm font-medium text-gray-900 dark:text-white">Faster Loading</div>
+              <div className="text-xs text-gray-600 dark:text-gray-400">Instant app launch</div>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-10 h-10 bg-purple-100 dark:bg-purple-900/20 rounded-lg flex items-center justify-center mx-auto mb-2">
+                <svg className="w-5 h-5 text-purple-600 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M3 4a1 1 0 011-1h4a1 1 0 010 2H6.414l2.293 2.293a1 1 0 01-1.414 1.414L5 6.414V8a1 1 0 01-2 0V4zm9 1a1 1 0 010-2h4a1 1 0 011 1v4a1 1 0 01-2 0V6.414l-2.293 2.293a1 1 0 11-1.414-1.414L13.586 5H12zm-9 7a1 1 0 012 0v1.586l2.293-2.293a1 1 0 111.414 1.414L6.414 15H8a1 1 0 010 2H4a1 1 0 01-1-1v-4zm13-1a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 010-2h1.586l-2.293-2.293a1 1 0 111.414-1.414L15 13.586V12a1 1 0 011-1z" clipRule="evenodd" />
+                </svg>
+              </div>
+              <div className="text-sm font-medium text-gray-900 dark:text-white">Native Feel</div>
+              <div className="text-xs text-gray-600 dark:text-gray-400">App-like experience</div>
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-3 pt-4">
+            <div className="flex-1">
+              <InstallButton 
+                variant="primary" 
+                size="md"
+                showIcon={true}
+                className="w-full"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex justify-between pt-4">
+        <button
+          onClick={() => setCurrentStep(3)}
+          className="px-4 py-2 text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors"
+        >
+          {t('landing.back')}
+        </button>
+        <div className="flex gap-3">
+          <button
+            onClick={() => {
+              setSkipInstallStep(true);
+              setCurrentStep(5);
+            }}
+            className="px-4 py-2 text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors"
+          >
+            Skip for now
+          </button>
+          <button
+            onClick={() => setCurrentStep(5)}
+            className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+          >
+            {t('landing.continue')}
+          </button>
+        </div>
       </div>
     </div>
   );
@@ -633,9 +755,6 @@ const WelcomePage = () => {
             </p>
           </div>
 
-          {/* PWA Install Section */}
-          <WelcomeInstallSection />
-
           {/* Progress Steps */}
           <div className="mb-8">
             <div className="flex items-center justify-center space-x-2">
@@ -644,7 +763,7 @@ const WelcomePage = () => {
               }`}>
                 1
               </div>
-              <div className={`h-1 w-8 ${
+              <div className={`h-1 w-4 ${
                 currentStep >= 2 ? 'bg-blue-600' : 'bg-gray-200 dark:bg-gray-700'
               }`} />
               <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${
@@ -652,7 +771,7 @@ const WelcomePage = () => {
               }`}>
                 2
               </div>
-              <div className={`h-1 w-8 ${
+              <div className={`h-1 w-4 ${
                 currentStep >= 3 ? 'bg-blue-600' : 'bg-gray-200 dark:bg-gray-700'
               }`} />
               <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${
@@ -660,7 +779,7 @@ const WelcomePage = () => {
               }`}>
                 3
               </div>
-              <div className={`h-1 w-8 ${
+              <div className={`h-1 w-4 ${
                 currentStep >= 4 ? 'bg-blue-600' : 'bg-gray-200 dark:bg-gray-700'
               }`} />
               <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${
@@ -668,11 +787,20 @@ const WelcomePage = () => {
               }`}>
                 4
               </div>
+              <div className={`h-1 w-4 ${
+                currentStep >= 5 ? 'bg-blue-600' : 'bg-gray-200 dark:bg-gray-700'
+              }`} />
+              <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${
+                currentStep >= 5 ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-500 dark:bg-gray-700 dark:text-gray-400'
+              }`}>
+                5
+              </div>
             </div>
             <div className="flex justify-between mt-2 text-xs text-gray-500 dark:text-gray-400">
               <span>{t('landing.steps.interface')}</span>
               <span>{t('landing.steps.languages')}</span>
               <span>{t('landing.steps.audio')}</span>
+              <span>Install</span>
               <span>Ready</span>
             </div>
           </div>
@@ -682,6 +810,7 @@ const WelcomePage = () => {
             {currentStep === 1 ? renderInterfaceLanguageStep() : 
              currentStep === 2 ? renderLanguagePairStep() :
              currentStep === 3 ? renderAudioStep() : 
+             currentStep === 4 ? renderInstallStep() :
              renderSetupCompleteStep()}
           </div>
 
