@@ -4,6 +4,9 @@ export const zhTw: TranslationKeys = {
   // Navigation
   nav: {
     appTitle: "🐱 EchoMeo",
+    home: "首頁",
+    browse: "瀏覽",
+    study: "學習",
     vietnamese: "越南語",
     vietnameseStudy: "越南語學習",
     hsk: "HSK",

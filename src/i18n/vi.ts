@@ -4,6 +4,9 @@ export const vi: TranslationKeys = {
   // Navigation
   nav: {
     appTitle: "🐱 EchoMeo",
+    home: "Trang chủ",
+    browse: "Duyệt",
+    study: "Học",
     vietnamese: "Tiếng Việt",
     vietnameseStudy: "Học Tiếng Việt",
     hsk: "HSK",

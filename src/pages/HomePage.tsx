@@ -72,7 +72,7 @@ const HomePage = () => {
               </div>
             </div>
 
-            <div className="flex-1 grid grid-cols-2 gap-3 max-w-sm mx-auto md:grid-cols-2 md:max-w-2xl md:gap-6">
+            <div className="flex-1 flex flex-col gap-3 max-w-sm mx-auto md:max-w-lg md:gap-6">
               {/* Browse Vocabulary */}
               <Link 
                 to={routes.browse}

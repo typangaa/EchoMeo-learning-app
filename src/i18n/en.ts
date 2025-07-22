@@ -2,6 +2,9 @@ export const en = {
   // Navigation
   nav: {
     appTitle: "🐱 EchoMeo",
+    home: "Home",
+    browse: "Browse",
+    study: "Study",
     vietnamese: "Vietnamese",
     vietnameseStudy: "Vietnamese Study",
     hsk: "HSK",
