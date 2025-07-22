@@ -40,6 +40,7 @@ This is a React-based multi-language learning platform with TypeScript, built us
 
 **Zustand State Management**: Comprehensive store architecture with middleware:
 - Modular store slices: `appSlice`, `uiSlice`, `audioSlice`, `vocabularySlice`, `progressSlice`
+- **Language Pair Preferences**: User-configurable learning direction with English supplement toggle
 - Persistent state with localStorage via `persist` middleware
 - DevTools integration for debugging
 - Memoized selectors for performance optimization
@@ -54,11 +55,15 @@ This is a React-based multi-language learning platform with TypeScript, built us
 
 **Component Structure**: 
 - Common components in `components/common/` (Layout, Navbar, AudioButton, etc.)
+- **Dynamic Navigation**: Navbar that adapts based on user's target language preferences
 - Vocabulary components with type-specific implementations (HSK, Vietnamese, regular)
+- **Simplified Vocabulary Cards**: Cleaner design with reduced visual complexity and better focus
 - Mobile-optimized study components with swipe navigation and touch gestures
+- **Language-Aware Flashcards**: Show only relevant flashcard options based on learning direction
 - Complete flashcard system with 3D flip animations and practice modes for all vocabulary types
 - Reading system with parallel text and vocabulary lookup
 - Bug reporting system integrated into vocabulary cards
+- **English Supplement Support**: Consistent optional English display across all vocabulary components
 
 **Internationalization (i18n)**: Comprehensive interface language support with:
 - Translation system in `src/i18n/` with files for English, Vietnamese, Simplified Chinese, and Traditional Chinese
@@ -105,10 +110,13 @@ The project includes extensive Python scripts in `scripts/` for:
 - Vietnamese: 200000+ range with level-based offsets (levels 1-6 supported)
 - Regular: Standard incremental IDs
 
-**TypeScript Types**: Core interfaces in `types/index.ts` with `VocabularyItem` and `ReadingPassage` as main data structures.
+**TypeScript Types**: Core interfaces in `types/index.ts` with `VocabularyItem` and `ReadingPassage` as main data structures:
+- **Language Pair Types**: `LearningLanguage` and `LanguagePairPreferences` interfaces for user preferences
+- **Enhanced Examples**: VocabularyItem examples now include optional English field for trilingual support
+- **Store Types**: Comprehensive type definitions for all Zustand store slices and state management
 
-**Interface Languages**: Full support for four interface languages:
-- English (en): Default fallback language
+**Interface Languages**: Full support for four interface languages with EchoMeo branding:
+- English (en): Default fallback language with 🐱 EchoMeo branding
 - Vietnamese (vi): Complete Vietnamese interface
 - Simplified Chinese (zh): Mainland China standard
 - Traditional Chinese (zh-tw): Taiwan/Hong Kong standard with auto-detection
@@ -128,6 +136,20 @@ The project includes extensive Python scripts in `scripts/` for:
 - `/settings` - Audio settings and user preferences
 
 ## Development Guidelines
+
+When working with dynamic navigation and language pairs:
+- Use `useAppStore((state) => state.languagePairPreferences)` to access current language learning direction
+- Check `toLanguage` property to determine which navigation items to show (HSK for 'mandarin', Vietnamese for 'vi')
+- Always validate language pair combinations against supported pairs: EN→Mandarin, EN→Vietnamese, VI→Mandarin, Mandarin→Vietnamese
+- Use `showEnglishSupplement` setting consistently across all vocabulary components
+- English supplement should auto-disable when `fromLanguage` is 'en' to avoid redundancy
+
+When implementing English supplement support:
+- Access setting via `useAppStore((state) => state.languagePairPreferences.showEnglishSupplement)`
+- Apply conditional rendering: `{item.english && showEnglishSupplement && (<EnglishContent />)}`
+- Ensure examples include English when supplement is enabled: `{example.english && showEnglishSupplement && ...}`
+- Maintain consistent English styling: `text-green-600 dark:text-green-400` for English content
+- English content should always be supplementary/secondary in visual hierarchy
 
 When working with vocabulary data:
 - Always use the appropriate data loader (`enrichedHSKLoader`, `enrichedVietnameseLoader`)
@@ -208,6 +230,16 @@ For bug reporting:
 - `capacitor.config.ts`: Capacitor configuration for native app builds
 
 ## Recent Updates
+
+- **Dynamic Language-Based Navigation and English Supplement System** (Latest): Personalized learning experience:
+  * **Smart Navigation**: Navbar and flashcard pages dynamically show only relevant language options based on user's target language
+  * **English Supplement Support**: Comprehensive optional English translation system throughout vocabulary components
+  * **Language Pair Preferences**: User-configurable language learning direction (EN→Mandarin, EN→Vietnamese, VI→Mandarin, Mandarin→Vietnamese)
+  * **Simplified Vocabulary Cards**: Cleaner design with reduced visual clutter and better mobile responsiveness
+  * **Enhanced Data Loading**: Fixed English examples in vocabulary data loaders for complete trilingual support
+  * **Settings Integration**: Language pair configuration with smart auto-disable of English supplement when user speaks English
+  * **Consistent UX**: All vocabulary components (cards, examples, flashcards) respect English supplement setting
+  * **EchoMeo Branding**: Updated interface with cat icon and new branding throughout the application
 
 - **Lesson-Based Flashcard System**: Complete overhaul of flashcard learning:
   * 20 words per lesson structure for both HSK and Vietnamese vocabulary
