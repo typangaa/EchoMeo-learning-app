@@ -28,7 +28,7 @@ const VietnameseSingleVocabularyCard: React.FC<VietnameseSingleVocabularyCardPro
   };
 
   return (
-    <div className="max-w-xl sm:max-w-2xl w-full h-1/2 sm:h-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-2 sm:p-6 overflow-hidden sm:overflow-visible flex flex-col">
+    <div className="max-w-xl sm:max-w-2xl w-full h-screen sm:h-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-2 sm:p-6 overflow-hidden sm:overflow-visible flex flex-col">
       {/* Header with level and actions */}
       <div className="flex justify-between items-center mb-1 sm:mb-4 flex-shrink-0">
         <span className="text-xs sm:text-sm font-medium text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 px-2 sm:px-3 py-0.5 sm:py-1 rounded-full">
@@ -113,11 +113,11 @@ const VietnameseSingleVocabularyCard: React.FC<VietnameseSingleVocabularyCardPro
 
       {/* Examples - Simplified */}
       {item.examples && item.examples.length > 0 && (
-        <div className="mt-1 sm:mt-6 pt-1 sm:pt-4 border-t border-gray-200 dark:border-gray-700 flex-1 min-h-0">
-          <h4 className="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 sm:mb-3">
+        <div className="mt-1 sm:mt-6 pt-1 sm:pt-4 border-t border-gray-200 dark:border-gray-700 flex-1 min-h-0 overflow-hidden">
+          <h4 className="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 sm:mb-3 flex-shrink-0">
             Examples
           </h4>
-          <div className="space-y-1 sm:space-y-3 flex-1 overflow-hidden sm:overflow-y-auto">
+          <div className="space-y-1 sm:space-y-3 overflow-y-auto max-h-full">
             {item.examples.map((example, index) => (
               <div key={index} className="bg-gray-50 dark:bg-gray-700 rounded p-1.5 sm:p-3">
                 <div className="text-xs sm:text-sm text-red-600 dark:text-red-400 font-medium mb-0.5 sm:mb-1">
