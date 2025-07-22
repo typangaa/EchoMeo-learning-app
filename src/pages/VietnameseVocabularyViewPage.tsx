@@ -310,7 +310,7 @@ const VietnameseVocabularyViewPage: React.FC = () => {
           <div className="flex-1 flex overflow-hidden">
             {/* Single Vocabulary Card */}
             <div 
-              className="flex-1 flex flex-col items-center justify-center p-2 sm:p-4 lg:p-8 overflow-y-auto"
+              className="flex-1 flex flex-col items-center justify-center p-1 sm:p-4 lg:p-8 overflow-hidden sm:overflow-y-auto"
               onTouchStart={handleTouchStart}
               onTouchMove={handleTouchMove}
               onTouchEnd={handleTouchEnd}

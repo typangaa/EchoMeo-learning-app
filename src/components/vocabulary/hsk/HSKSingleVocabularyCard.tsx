@@ -124,7 +124,7 @@ const HSKSingleVocabularyCard: React.FC<HSKSingleVocabularyCardProps> = ({
           <h4 className="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 sm:mb-3">
             Examples
           </h4>
-          <div className="space-y-2 sm:space-y-3 max-h-48 sm:max-h-40 overflow-y-auto">
+          <div className="space-y-2 sm:space-y-3 max-h-32 sm:max-h-40 overflow-hidden sm:overflow-y-auto">
             {item.examples.slice(0, 3).map((example, index) => (
               <div key={index} className="bg-gray-50 dark:bg-gray-700 rounded p-2 sm:p-3">
                 <div className="text-xs sm:text-sm text-gray-900 dark:text-gray-100 font-medium mb-1">
