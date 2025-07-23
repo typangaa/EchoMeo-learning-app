@@ -7,7 +7,6 @@ import HSKVocabularyPage from './pages/HSKVocabularyPage';
 import HSKVocabularyViewPage from './pages/HSKVocabularyViewPage';
 import ReadingPage from './pages/ReadingPage';
 import PassageDetailPage from './pages/PassageDetailPage';
-import FlashcardPage from './pages/FlashcardPage';
 import HSKFlashcardPage from './pages/HSKFlashcardPage';
 import VietnameseFlashcardPage from './pages/VietnameseFlashcardPage';
 import SettingsPage from './pages/SettingsPage';
@@ -64,7 +63,6 @@ function App() {
             <Route path="vietnamese-study" element={<VietnameseVocabularyViewPage />} />
             <Route path="hsk" element={<HSKVocabularyPage />} />
             <Route path="hsk-study" element={<HSKVocabularyViewPage />} />
-            <Route path="flashcards" element={<FlashcardPage />} />
             <Route path="hsk-flashcards" element={<HSKFlashcardPage />} />
             <Route path="vietnamese-flashcards" element={<VietnameseFlashcardPage />} />
             <Route path="reading" element={<ReadingPage />} />

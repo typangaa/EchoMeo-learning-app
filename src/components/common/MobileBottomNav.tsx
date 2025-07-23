@@ -51,14 +51,8 @@ const MobileBottomNav = () => {
         label: t('nav.flashcards'),
         color: 'text-purple-600 dark:text-purple-400'
       });
-    } else {
-      baseItems.push({
-        to: '/flashcards',
-        icon: '🧠',
-        label: t('nav.flashcards'),
-        color: 'text-purple-600 dark:text-purple-400'
-      });
     }
+    // Note: No flashcard option shown if target language is not supported
 
     // Add settings
     baseItems.push({

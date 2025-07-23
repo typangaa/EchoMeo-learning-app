@@ -4,6 +4,7 @@ import { useTranslation } from '../hooks/useTranslation';
 import { useAppStore, useAudioStore } from '../stores';
 import audioService from '../utils/audioService';
 import { InstallButton } from '../components/pwa/InstallButton';
+import AutoplayToggle from '../components/common/AutoplayToggle';
 
 const WelcomePage = () => {
   const navigate = useNavigate();
@@ -573,6 +574,14 @@ const WelcomePage = () => {
           {chineseVoices.length === 0 && (
             <p className="text-sm text-gray-500 mt-1">{t('settings.audio.noChineseVoices')}</p>
           )}
+        </div>
+
+        {/* Flashcard Autoplay Settings */}
+        <div>
+          <label className="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-2">
+            🔊 Flashcard Autoplay
+          </label>
+          <AutoplayToggle showAdvancedOptions={true} className="bg-gray-50 dark:bg-gray-700 border-0" />
         </div>
       </div>
 

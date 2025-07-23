@@ -117,14 +117,27 @@ const Navbar = () => {
               </NavLink>
             )}
             
-            <NavLink 
-              to="/flashcards" 
-              className={({ isActive }) => 
-                isActive ? "text-blue-600 dark:text-blue-400" : "hover:text-blue-600 dark:hover:text-blue-400"
-              }
-            >
-              {t('nav.flashcards')}
-            </NavLink>
+            {visibleNavItems.showHSK && (
+              <NavLink 
+                to="/hsk-flashcards" 
+                className={({ isActive }) => 
+                  isActive ? "text-blue-600 dark:text-blue-400" : "hover:text-blue-600 dark:hover:text-blue-400"
+                }
+              >
+                {t('nav.flashcards')}
+              </NavLink>
+            )}
+            
+            {visibleNavItems.showVietnamese && (
+              <NavLink 
+                to="/vietnamese-flashcards" 
+                className={({ isActive }) => 
+                  isActive ? "text-blue-600 dark:text-blue-400" : "hover:text-blue-600 dark:hover:text-blue-400"
+                }
+              >
+                {t('nav.flashcards')}
+              </NavLink>
+            )}
             
             <NavLink 
               to="/reading" 
@@ -236,15 +249,29 @@ const Navbar = () => {
                 </NavLink>
               )}
               
-              <NavLink 
-                to="/flashcards" 
-                className={({ isActive }) => 
-                  isActive ? "text-blue-600 dark:text-blue-400" : "hover:text-blue-600 dark:hover:text-blue-400"
-                }
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {t('nav.flashcards')}
-              </NavLink>
+              {visibleNavItems.showHSK && (
+                <NavLink 
+                  to="/hsk-flashcards" 
+                  className={({ isActive }) => 
+                    isActive ? "text-blue-600 dark:text-blue-400" : "hover:text-blue-600 dark:hover:text-blue-400"
+                  }
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {t('nav.flashcards')}
+                </NavLink>
+              )}
+              
+              {visibleNavItems.showVietnamese && (
+                <NavLink 
+                  to="/vietnamese-flashcards" 
+                  className={({ isActive }) => 
+                    isActive ? "text-blue-600 dark:text-blue-400" : "hover:text-blue-600 dark:hover:text-blue-400"
+                  }
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {t('nav.flashcards')}
+                </NavLink>
+              )}
               
               <NavLink 
                 to="/reading" 

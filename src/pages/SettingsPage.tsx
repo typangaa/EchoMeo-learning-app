@@ -3,6 +3,7 @@ import audioService from '../utils/audioService';
 import { useTranslation } from '../hooks/useTranslation';
 import { useSetLanguage, useAppStore } from '../stores';
 import type { LearningLanguage } from '../stores/types';
+import AutoplayToggle from '../components/common/AutoplayToggle';
 
 interface AudioSettings {
   volume: number;
@@ -463,8 +464,16 @@ const SettingsPage = () => {
           )}
         </div>
 
+        {/* Flashcard Autoplay Settings */}
+        <div className="mt-4 md:mt-6">
+          <h3 className="text-base md:text-lg font-medium mb-3 text-gray-800 dark:text-gray-200">
+            Flashcard Autoplay
+          </h3>
+          <AutoplayToggle showAdvancedOptions={true} className="bg-gray-50 dark:bg-gray-700" />
+        </div>
+
         {/* Reset Button */}
-        <div className="flex justify-end">
+        <div className="flex justify-end mt-4 md:mt-6">
           <button
             onClick={resetToDefaults}
             className="px-4 py-2 bg-gray-500 text-white rounded-md hover:bg-gray-600 transition-colors"
