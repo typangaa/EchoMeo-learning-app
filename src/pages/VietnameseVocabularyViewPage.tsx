@@ -7,10 +7,13 @@ import VietnameseSingleVocabularyCard from '../components/vocabulary/vietnamese/
 import VietnameseVocabularyListPanel from '../components/vocabulary/vietnamese/VietnameseVocabularyListPanel';
 import VietnameseNavigationControls from '../components/vocabulary/vietnamese/VietnameseNavigationControls';
 import { readingProgressTracker } from '../utils/readingProgress';
+import { levelPersistenceTracker } from '../utils/levelPersistence';
 
 const VietnameseVocabularyViewPage: React.FC = () => {
   const { t } = useTranslation();
-  const [selectedLevel, setSelectedLevel] = useState<number>(1);
+  const [selectedLevel, setSelectedLevel] = useState<number>(() => {
+    return levelPersistenceTracker.loadLevel('vietnamese', 'study');
+  });
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [showListPanel, setShowListPanel] = useState<boolean>(false);
   const [showFavorites, setShowFavorites] = useState<boolean>(false);
@@ -63,6 +66,7 @@ const VietnameseVocabularyViewPage: React.FC = () => {
 
   const handleLevelChange = (level: number) => {
     setSelectedLevel(level);
+    levelPersistenceTracker.saveLevel('vietnamese', 'study', level);
   };
 
   const handleNextItem = () => {

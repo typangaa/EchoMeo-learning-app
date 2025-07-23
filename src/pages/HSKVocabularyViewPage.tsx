@@ -7,10 +7,13 @@ import HSKSingleVocabularyCard from '../components/vocabulary/hsk/HSKSingleVocab
 import HSKVocabularyListPanel from '../components/vocabulary/hsk/HSKVocabularyListPanel';
 import HSKNavigationControls from '../components/vocabulary/hsk/HSKNavigationControls';
 import { readingProgressTracker } from '../utils/readingProgress';
+import { levelPersistenceTracker } from '../utils/levelPersistence';
 
 const HSKVocabularyViewPage: React.FC = () => {
   const { t } = useTranslation();
-  const [selectedLevel, setSelectedLevel] = useState<number>(1);
+  const [selectedLevel, setSelectedLevel] = useState<number>(() => {
+    return levelPersistenceTracker.loadLevel('hsk', 'study');
+  });
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [showListPanel, setShowListPanel] = useState<boolean>(false);
   const [showFavorites, setShowFavorites] = useState<boolean>(false);
@@ -65,6 +68,7 @@ const HSKVocabularyViewPage: React.FC = () => {
 
   const handleLevelChange = (level: number) => {
     setSelectedLevel(level);
+    levelPersistenceTracker.saveLevel('hsk', 'study', level);
   };
 
   const handleNextItem = () => {

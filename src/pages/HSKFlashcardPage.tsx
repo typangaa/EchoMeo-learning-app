@@ -6,13 +6,24 @@ import HSKFlashcardPractice from '../components/vocabulary/flashcard/HSKFlashcar
 import { VocabularyItem } from '../types';
 import { lessonCompletionTracker } from '../utils/lessonCompletion';
 import { carouselPositionTracker } from '../utils/carouselPosition';
+import { levelPersistenceTracker } from '../utils/levelPersistence';
 
 const HSKFlashcardPage = () => {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const favorites = useFavorites();
   const [selectingOptions, setSelectingOptions] = useState(true);
-  const [selectedLevel, setSelectedLevel] = useState<number>(1);
+  const [selectedLevel, setSelectedLevel] = useState<number>(() => {
+    // First check URL params, then fallback to persistence
+    const levelParam = new URLSearchParams(window.location.search).get('level');
+    if (levelParam) {
+      const level = parseInt(levelParam, 10);
+      if (level >= 1 && level <= 7) {
+        return level;
+      }
+    }
+    return levelPersistenceTracker.loadLevel('hsk', 'flashcards');
+  });
   const [itemSource, setItemSource] = useState<'all' | 'favorites'>('all');
   const [selectedLesson, setSelectedLesson] = useState<number | null>(null);
   const [isMobile, setIsMobile] = useState<boolean>(false);
@@ -29,13 +40,14 @@ const HSKFlashcardPage = () => {
     availableLevels
   } = useHSKVocabulary(1, { loadProgressively: false });
   
-  // Initialize level from URL params
+  // Initialize level from URL params and save to persistence
   useEffect(() => {
     const levelParam = searchParams.get('level');
     if (levelParam) {
       const level = parseInt(levelParam, 10);
       if (level >= 1 && level <= 7) {
         setSelectedLevel(level);
+        levelPersistenceTracker.saveLevel('hsk', 'flashcards', level);
       }
     }
   }, [searchParams]);
@@ -90,6 +102,7 @@ const HSKFlashcardPage = () => {
   const startPractice = (source: 'all' | 'favorites', level: number, lesson?: number) => {
     setItemSource(source);
     setSelectedLevel(level);
+    levelPersistenceTracker.saveLevel('hsk', 'flashcards', level);
     setSelectedLesson(lesson || null);
     setSelectingOptions(false);
   };
@@ -173,7 +186,10 @@ const HSKFlashcardPage = () => {
             {availableLevels.map(level => (
               <button
                 key={level}
-                onClick={() => setSelectedLevel(level)}
+                onClick={() => {
+                  setSelectedLevel(level);
+                  levelPersistenceTracker.saveLevel('hsk', 'flashcards', level);
+                }}
                 className={`px-2 py-1 sm:px-4 sm:py-2 text-xs sm:text-sm rounded-lg transition-colors ${
                   selectedLevel === level
                     ? 'bg-red-600 text-white'
