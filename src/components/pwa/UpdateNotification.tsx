@@ -21,6 +21,17 @@ export const UpdateNotification: React.FC = () => {
     }
   }, []);
 
+  // Auto-dismiss offline ready notification after 3 seconds
+  useEffect(() => {
+    if (offlineReady && !needRefresh) {
+      const timer = setTimeout(() => {
+        setOfflineReady(false);
+      }, 3000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [offlineReady, needRefresh]);
+
   const close = () => {
     setOfflineReady(false);
     setNeedRefresh(false);
