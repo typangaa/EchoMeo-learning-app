@@ -18,6 +18,29 @@ const VietnameseSingleVocabularyCard: React.FC<VietnameseSingleVocabularyCardPro
 }) => {
   const { t } = useTranslation();
   const showEnglishSupplement = useAppStore((state) => state.languagePairPreferences.showEnglishSupplement);
+  const toLanguage = useAppStore((state) => state.languagePairPreferences.toLanguage);
+  
+  // Create a wrapper for AudioButton that prevents event propagation
+  const AudioButtonWrapper = ({ text, language, className, size }: { 
+    text: string; 
+    language: 'vietnamese' | 'chinese'; 
+    className?: string; 
+    size?: 'sm' | 'md' | 'lg' 
+  }) => {
+    const handleClick = (e: React.MouseEvent) => {
+      e.stopPropagation(); // Prevent the click from reaching the parent div
+    };
+    
+    return (
+      <span onClick={handleClick} className={className}>
+        <AudioButton 
+          text={text} 
+          language={language} 
+          size={size} 
+        />
+      </span>
+    );
+  };
 
   const handleFavoriteClick = () => {
     onToggleFavorite(item);
@@ -120,11 +143,31 @@ const VietnameseSingleVocabularyCard: React.FC<VietnameseSingleVocabularyCardPro
           <div className="space-y-1 sm:space-y-3 overflow-y-auto max-h-full">
             {item.examples.map((example, index) => (
               <div key={index} className="bg-gray-50 dark:bg-gray-700 rounded p-1.5 sm:p-3">
-                <div className="text-xs sm:text-sm text-red-600 dark:text-red-400 font-medium mb-0.5 sm:mb-1">
-                  {example.vietnamese}
+                <div className="flex items-center mb-0.5 sm:mb-1">
+                  <div className="text-xs sm:text-sm text-red-600 dark:text-red-400 font-medium">
+                    {example.vietnamese}
+                  </div>
+                  {toLanguage === 'vi' && (
+                    <AudioButtonWrapper 
+                      text={example.vietnamese} 
+                      language="vietnamese" 
+                      className="ml-1 sm:ml-2" 
+                      size="sm" 
+                    />
+                  )}
                 </div>
-                <div className="text-xs sm:text-sm text-blue-600 dark:text-blue-400 mb-0.5 sm:mb-1">
-                  {example.chinese}
+                <div className="flex items-center mb-0.5 sm:mb-1">
+                  <div className="text-xs sm:text-sm text-blue-600 dark:text-blue-400">
+                    {example.chinese}
+                  </div>
+                  {toLanguage === 'mandarin' && (
+                    <AudioButtonWrapper 
+                      text={example.chinese} 
+                      language="chinese" 
+                      className="ml-1 sm:ml-2" 
+                      size="sm" 
+                    />
+                  )}
                 </div>
                 <div className="text-xs text-blue-500 dark:text-blue-300 mb-1">
                   {example.pinyin}
