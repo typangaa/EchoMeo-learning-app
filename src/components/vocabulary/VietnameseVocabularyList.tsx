@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import useVietnameseVocabulary from '../../hooks/useVietnameseVocabulary';
 import VietnameseVocabularyCard from './VietnameseVocabularyCard';
 import { useFavorites } from '../../stores';
+import { Progress } from '@/components/ui/progress';
+import { Alert, AlertDescription } from '@/components/ui/alert';
+import { Button } from '@/components/ui/button';
 import { CEFRLevel } from '../../types';
 
 interface VietnameseVocabularyListProps {
@@ -199,13 +202,14 @@ const VietnameseVocabularyList: React.FC<VietnameseVocabularyListProps> = ({
       {loading && (
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 mb-4">
           <div className="flex items-center">
-            <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5 mr-4">
-              <div 
-                className="bg-green-600 h-2.5 rounded-full transition-all duration-300"
-                style={{ width: `${progress}%` }}
-              ></div>
+            <div className="w-full mr-4">
+              <Progress 
+                value={progress} 
+                variant="success"
+                className="transition-all duration-300"
+              />
             </div>
-            <span className="text-sm text-gray-500 dark:text-gray-400">
+            <span className="text-sm text-muted-foreground">
               {Math.round(progress)}%
             </span>
           </div>
@@ -222,16 +226,20 @@ const VietnameseVocabularyList: React.FC<VietnameseVocabularyListProps> = ({
       
       {/* Error message */}
       {error && (
-        <div className="bg-red-100 dark:bg-red-900/30 border border-red-400 text-red-700 dark:text-red-300 px-4 py-3 rounded relative mb-4">
-          <strong className="font-bold">Error:</strong>
-          <span className="block sm:inline"> {error.message}</span>
-          <button
-            onClick={() => handleLevelChange(selectedLevel)}
-            className="mt-2 px-3 py-1 bg-red-600 text-white rounded text-sm hover:bg-red-700"
-          >
-            Retry Loading
-          </button>
-        </div>
+        <Alert variant="destructive" className="mb-4">
+          <AlertDescription>
+            <strong className="font-bold">Error:</strong>
+            <span className="block sm:inline"> {error.message}</span>
+            <Button
+              onClick={() => handleLevelChange(selectedLevel)}
+              variant="destructive"
+              size="sm"
+              className="mt-2"
+            >
+              Retry Loading
+            </Button>
+          </AlertDescription>
+        </Alert>
       )}
       
       {/* Empty state */}

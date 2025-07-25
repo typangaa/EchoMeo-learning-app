@@ -4,6 +4,8 @@ import { useTranslation } from '../../../hooks/useTranslation';
 import { useAppStore } from '../../../stores';
 import AudioButton from '../../common/AudioButton';
 import { createBugReport } from '../../../utils/bugReport';
+import { Card, CardContent } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
 
 interface HSKSingleVocabularyCardProps {
   item: VocabularyItem;
@@ -51,12 +53,13 @@ const HSKSingleVocabularyCard: React.FC<HSKSingleVocabularyCardProps> = ({
   };
 
   return (
-    <div className="max-w-xl sm:max-w-2xl w-full h-screen sm:h-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-2 sm:p-6 overflow-hidden sm:overflow-visible flex flex-col">
+    <Card size="mobile" className="max-w-xl sm:max-w-2xl w-full h-screen sm:h-auto overflow-hidden sm:overflow-visible flex flex-col">
+      <CardContent className="p-2 sm:p-6 flex flex-col h-full">
       {/* Header with level and actions */}
       <div className="flex justify-between items-center mb-1 sm:mb-4 flex-shrink-0">
-        <span className="text-xs sm:text-sm font-medium text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 px-2 sm:px-3 py-0.5 sm:py-1 rounded-full">
+        <Badge variant="hsk" size="sm" className="px-2 sm:px-3 py-0.5 sm:py-1">
           HSK {item.level}
-        </span>
+        </Badge>
         <div className="flex items-center gap-1 sm:gap-2">
           <button
             onClick={handleBugReport}
@@ -143,15 +146,15 @@ const HSKSingleVocabularyCard: React.FC<HSKSingleVocabularyCardProps> = ({
 
       {/* Examples - Optimized for Mobile */}
       {item.examples && item.examples.length > 0 && (
-        <div className="mt-1 sm:mt-6 pt-1 sm:pt-4 border-t border-gray-200 dark:border-gray-700 flex-1 min-h-0 overflow-hidden">
-          <h4 className="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 sm:mb-3 flex-shrink-0">
+        <div className="mt-1 sm:mt-6 pt-1 sm:pt-4 border-t border-border flex-1 min-h-0 overflow-hidden">
+          <h4 className="text-xs sm:text-sm font-medium text-foreground mb-1 sm:mb-3 flex-shrink-0">
             Examples
           </h4>
           <div className="space-y-1 sm:space-y-3 overflow-y-auto max-h-full">
             {item.examples.map((example, index) => (
-              <div key={index} className="bg-gray-50 dark:bg-gray-700 rounded p-1.5 sm:p-3">
+              <div key={index} className="bg-muted rounded p-1.5 sm:p-3">
                 <div className="flex items-center mb-0.5 sm:mb-1">
-                  <div className="text-xs sm:text-sm text-gray-900 dark:text-gray-100 font-medium">
+                  <div className="text-xs sm:text-sm text-foreground font-medium">
                     {example.chinese}
                   </div>
                   {toLanguage === 'mandarin' && (
@@ -164,12 +167,12 @@ const HSKSingleVocabularyCard: React.FC<HSKSingleVocabularyCardProps> = ({
                   )}
                 </div>
                 {example.pinyin && (
-                  <div className="text-xs text-blue-600 dark:text-blue-400 mb-0.5 sm:mb-1">
+                  <div className="text-xs text-muted-foreground mb-0.5 sm:mb-1">
                     {example.pinyin}
                   </div>
                 )}
                 <div className="flex items-center mb-0.5 sm:mb-1">
-                  <div className="text-xs text-gray-600 dark:text-gray-400">
+                  <div className="text-xs text-muted-foreground">
                     {example.vietnamese}
                   </div>
                   {toLanguage === 'vi' && (
@@ -183,7 +186,7 @@ const HSKSingleVocabularyCard: React.FC<HSKSingleVocabularyCardProps> = ({
                 </div>
                 {/* Show English in examples if supplement is enabled */}
                 {example.english && showEnglishSupplement && (
-                  <div className="text-xs text-green-600 dark:text-green-400">
+                  <div className="text-xs text-primary">
                     {example.english}
                   </div>
                 )}
@@ -192,7 +195,8 @@ const HSKSingleVocabularyCard: React.FC<HSKSingleVocabularyCardProps> = ({
           </div>
         </div>
       )}
-    </div>
+      </CardContent>
+    </Card>
   );
 };
 

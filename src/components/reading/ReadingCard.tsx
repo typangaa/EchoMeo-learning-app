@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
 import { ReadingPassage } from '../../types';
 import { getReadingCompletion } from '../../utils/progressTracking';
+import { Card, CardContent } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { Progress } from '@/components/ui/progress';
 
 interface ReadingCardProps {
   passage: ReadingPassage;
@@ -11,15 +14,16 @@ const ReadingCard: React.FC<ReadingCardProps> = ({ passage }) => {
   const completionPercentage = getReadingCompletion(passage.id);
   
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-3 md:p-4 hover:shadow-lg transition-shadow">
+    <Card hover="lift" className="p-3 md:p-4">
+      <CardContent className="p-0">
       <div className="flex justify-between items-start mb-3 md:mb-4">
         <div>
           <h3 className="text-base md:text-lg font-bold vietnamese-text mb-1">{passage.title.vietnamese}</h3>
           <h4 className="text-sm md:text-base chinese-text">{passage.title.chinese}</h4>
         </div>
-        <span className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded flex-shrink-0">
+        <Badge variant="level" size="sm" className="flex-shrink-0">
           {passage.level}
-        </span>
+        </Badge>
       </div>
       
       <div className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mb-3 md:mb-4">
@@ -31,18 +35,11 @@ const ReadingCard: React.FC<ReadingCardProps> = ({ passage }) => {
               <span>Progress:</span>
               <span>{completionPercentage}%</span>
             </div>
-            <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-1.5">
-              <div 
-                className={`h-1.5 rounded-full ${
-                  completionPercentage >= 100
-                    ? 'bg-green-600'
-                    : completionPercentage >= 50
-                      ? 'bg-blue-600'
-                      : 'bg-yellow-600'
-                }`}
-                style={{ width: `${completionPercentage}%` }}
-              ></div>
-            </div>
+            <Progress 
+              value={completionPercentage}
+              variant={completionPercentage >= 100 ? 'success' : completionPercentage >= 50 ? 'default' : 'warning'}
+              size="sm"
+            />
           </div>
         )}
       </div>
@@ -70,7 +67,8 @@ const ReadingCard: React.FC<ReadingCardProps> = ({ passage }) => {
       >
         Read Passage
       </Link>
-    </div>
+      </CardContent>
+    </Card>
   );
 };
 

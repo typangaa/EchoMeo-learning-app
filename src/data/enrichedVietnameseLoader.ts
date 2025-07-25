@@ -251,9 +251,9 @@ function mapEnrichedVietnameseToVocabularyItem(
     // Store first two meanings for flashcard display
     meanings: processedMeanings.slice(0, 2).flatMap(meaning => {
       // Split Chinese meanings on semicolons and create separate meaning objects
-      const chineseParts = meaning.chinese.split(';').map((part: string) => part.trim()).filter((part: string) => part.length > 0);
-      const englishParts = meaning.english.split(';').map((part: string) => part.trim()).filter((part: string) => part.length > 0);
-      const vietnameseParts = meaning.vietnamese.split(';').map((part: string) => part.trim()).filter((part: string) => part.length > 0);
+      const chineseParts = (meaning.chinese || '').split(';').map((part: string) => part.trim()).filter((part: string) => part.length > 0);
+      const englishParts = (meaning.english || '').split(';').map((part: string) => part.trim()).filter((part: string) => part.length > 0);
+      const vietnameseParts = (meaning.vietnamese || '').split(';').map((part: string) => part.trim()).filter((part: string) => part.length > 0);
       
       // Create individual meaning objects for each Chinese part
       return chineseParts.slice(0, 2).map((chinesePart: string, index: number) => ({

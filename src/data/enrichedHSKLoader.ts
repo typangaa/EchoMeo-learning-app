@@ -198,9 +198,9 @@ function mapEnrichedHSKToVocabularyItem(
     // Store first two meanings for flashcard display
     meanings: meanings.slice(0, 2).flatMap(meaning => {
       // Split Vietnamese meanings on semicolons and create separate meaning objects
-      const vietnameseParts = meaning.vietnamese.split(';').map((part: string) => part.trim()).filter((part: string) => part.length > 0);
-      const englishParts = meaning.english.split(';').map((part: string) => part.trim()).filter((part: string) => part.length > 0);
-      const chineseParts = meaning.chinese.split(';').map((part: string) => part.trim()).filter((part: string) => part.length > 0);
+      const vietnameseParts = (meaning.vietnamese || '').split(';').map((part: string) => part.trim()).filter((part: string) => part.length > 0);
+      const englishParts = (meaning.english || '').split(';').map((part: string) => part.trim()).filter((part: string) => part.length > 0);
+      const chineseParts = (meaning.chinese || '').split(';').map((part: string) => part.trim()).filter((part: string) => part.length > 0);
       
       // Create individual meaning objects for each Vietnamese part
       return vietnameseParts.slice(0, 2).map((vietnamesePart: string, index: number) => ({
