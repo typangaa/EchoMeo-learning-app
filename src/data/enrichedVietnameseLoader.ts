@@ -249,13 +249,21 @@ function mapEnrichedVietnameseToVocabularyItem(
     category,
     examples: examples.length > 0 ? examples : undefined,
     // Store first two meanings for flashcard display
-    meanings: processedMeanings.slice(0, 2).map(meaning => ({
-      chinese: meaning.chinese,
-      english: meaning.english,
-      vietnamese: meaning.vietnamese,
-      part_of_speech: meaning.part_of_speech,
-      usage_frequency: meaning.usage_frequency
-    }))
+    meanings: processedMeanings.slice(0, 2).flatMap(meaning => {
+      // Split Chinese meanings on semicolons and create separate meaning objects
+      const chineseParts = meaning.chinese.split(';').map((part: string) => part.trim()).filter((part: string) => part.length > 0);
+      const englishParts = meaning.english.split(';').map((part: string) => part.trim()).filter((part: string) => part.length > 0);
+      const vietnameseParts = meaning.vietnamese.split(';').map((part: string) => part.trim()).filter((part: string) => part.length > 0);
+      
+      // Create individual meaning objects for each Chinese part
+      return chineseParts.slice(0, 2).map((chinesePart: string, index: number) => ({
+        chinese: chinesePart,
+        english: englishParts[index] || englishParts[0] || meaning.english,
+        vietnamese: vietnameseParts[index] || vietnameseParts[0] || meaning.vietnamese,
+        part_of_speech: meaning.part_of_speech,
+        usage_frequency: meaning.usage_frequency
+      }));
+    }).slice(0, 2)
   };
 }
 

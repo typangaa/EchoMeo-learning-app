@@ -196,13 +196,21 @@ function mapEnrichedHSKToVocabularyItem(
     category,
     examples: examples.length > 0 ? examples : undefined,
     // Store first two meanings for flashcard display
-    meanings: meanings.slice(0, 2).map(meaning => ({
-      chinese: meaning.chinese,
-      english: meaning.english,
-      vietnamese: meaning.vietnamese,
-      part_of_speech: meaning.part_of_speech,
-      usage_frequency: meaning.usage_frequency
-    }))
+    meanings: meanings.slice(0, 2).flatMap(meaning => {
+      // Split Vietnamese meanings on semicolons and create separate meaning objects
+      const vietnameseParts = meaning.vietnamese.split(';').map((part: string) => part.trim()).filter((part: string) => part.length > 0);
+      const englishParts = meaning.english.split(';').map((part: string) => part.trim()).filter((part: string) => part.length > 0);
+      const chineseParts = meaning.chinese.split(';').map((part: string) => part.trim()).filter((part: string) => part.length > 0);
+      
+      // Create individual meaning objects for each Vietnamese part
+      return vietnameseParts.slice(0, 2).map((vietnamesePart: string, index: number) => ({
+        chinese: chineseParts[index] || chineseParts[0] || meaning.chinese,
+        english: englishParts[index] || englishParts[0] || meaning.english,
+        vietnamese: vietnamesePart,
+        part_of_speech: meaning.part_of_speech,
+        usage_frequency: meaning.usage_frequency
+      }));
+    }).slice(0, 2)
   };
 }
 

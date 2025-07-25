@@ -152,23 +152,24 @@ const VietnameseFlashcard: React.FC<VietnameseFlashcardProps> = ({
       </div>
       
       <div className="text-center">
-        <h2 className={`text-4xl font-bold ${isFrontVietnamese ? 'chinese-text' : 'vietnamese-text text-green-700 dark:text-green-400'}`}>
-          {isFrontVietnamese ? item.chinese : item.vietnamese}
-        </h2>
-        {isFrontVietnamese && item.pinyin && (
-          <p className="text-xl text-gray-600 dark:text-gray-400 mt-1">{item.pinyin}</p>
-        )}
-        
         {/* Show first two Chinese meanings (target language) with optional English supplement */}
         {item.meanings && item.meanings.length > 0 ? (
-          <div className="mt-3 space-y-2">
+          <div className="mt-3 space-y-3">
             {item.meanings.slice(0, 2).map((meaning, index) => (
               <div key={index}>
-                <p className="text-lg text-gray-600 dark:text-gray-300">
-                  {index + 1}. {meaning.chinese}
-                </p>
+                <div className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-200 font-medium">
+                  <span className="text-sm sm:text-base text-gray-500 dark:text-gray-400 mr-2">
+                    {index + 1}.
+                  </span>
+                  <span className="chinese-text">{meaning.chinese}</span>
+                  {isFrontVietnamese && item.pinyin && (
+                    <span className="block text-base sm:text-lg text-gray-600 dark:text-gray-400 mt-1 ml-6">
+                      {item.pinyin}
+                    </span>
+                  )}
+                </div>
                 {showEnglishSupplement && meaning.english && (
-                  <p className="text-sm text-green-600 dark:text-green-400 ml-4 italic">
+                  <p className="text-sm sm:text-base text-green-600 dark:text-green-400 ml-6 mt-1 italic">
                     "{meaning.english}"
                   </p>
                 )}
@@ -177,11 +178,16 @@ const VietnameseFlashcard: React.FC<VietnameseFlashcardProps> = ({
           </div>
         ) : (
           <div className="mt-3">
-            <p className="text-lg text-gray-600 dark:text-gray-300">
+            <div className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-200 font-medium chinese-text">
               {item.chinese}
-            </p>
+              {isFrontVietnamese && item.pinyin && (
+                <span className="block text-base sm:text-lg text-gray-600 dark:text-gray-400 mt-1">
+                  {item.pinyin}
+                </span>
+              )}
+            </div>
             {showEnglishSupplement && item.english && (
-              <p className="text-sm text-green-600 dark:text-green-400 mt-1 italic">
+              <p className="text-sm sm:text-base text-green-600 dark:text-green-400 mt-2 italic">
                 "{item.english}"
               </p>
             )}
