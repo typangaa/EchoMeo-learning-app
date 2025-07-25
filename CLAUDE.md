@@ -14,6 +14,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
   - **Capacitor sync**: `npx cap sync` (sync web assets to native platforms)
   - **iOS build**: `npx cap run ios` (requires Xcode and iOS development setup)
   - **Android build**: `npx cap run android` (requires Android Studio and SDK)
+- **shadcn/ui Commands**:
+  - **Add component**: `npx shadcn@latest add <component-name>` (adds UI components to `src/components/ui/`)
+  - **List components**: `npx shadcn@latest list` (shows available components)
+  - **Update components**: `npx shadcn@latest update` (updates existing components)
 
 ## Architecture Overview
 
@@ -64,6 +68,17 @@ This is a React-based multi-language learning platform with TypeScript, built us
 - Reading system with parallel text and vocabulary lookup
 - Bug reporting system integrated into vocabulary cards
 - **English Supplement Support**: Consistent optional English display across all vocabulary components
+
+**shadcn/ui Integration**: Modern UI component library built on Radix UI and Tailwind CSS:
+- **Component Library**: High-quality, accessible components with consistent design system
+- **Setup**: Configured with TypeScript support and proper path aliases (`@/components`, `@/lib/utils`)
+- **Theme System**: CSS variables for light/dark theme support integrated with existing dark mode
+- **Utility Function**: `cn()` utility in `src/lib/utils.ts` for className merging with clsx and tailwind-merge
+- **Configuration**: `components.json` for shadcn/ui CLI configuration with proper aliases
+- **Dependencies**: Includes class-variance-authority, clsx, tailwind-merge, and lucide-react for icons
+- **Adding Components**: Use `npx shadcn@latest add <component-name>` to add new components
+- **Customization**: Components can be customized by editing files in `src/components/ui/`
+- **Integration**: Works seamlessly with existing Tailwind CSS setup and mobile-first design
 
 **Internationalization (i18n)**: Comprehensive interface language support with:
 - Translation system in `src/i18n/` with files for English, Vietnamese, Simplified Chinese, and Traditional Chinese
@@ -136,6 +151,16 @@ The project includes extensive Python scripts in `scripts/` for:
 - `/settings` - Audio settings and user preferences
 
 ## Development Guidelines
+
+When using shadcn/ui components:
+- Import components from `@/components/ui/` using the configured path alias
+- Use the `cn()` utility function from `@/lib/utils` for conditional className merging
+- Prefer shadcn/ui components over custom implementations for common UI patterns (buttons, inputs, modals, etc.)
+- Customize components by editing the generated files in `src/components/ui/` rather than overriding with CSS
+- Follow the component's built-in prop interface for theming and variants
+- Use `npx shadcn@latest add <component>` to add new components as needed
+- Components automatically respect the existing dark/light theme system via CSS variables
+- Ensure mobile responsiveness when using shadcn/ui components in the mobile-first design
 
 When working with dynamic navigation and language pairs:
 - Use `useAppStore((state) => state.languagePairPreferences)` to access current language learning direction

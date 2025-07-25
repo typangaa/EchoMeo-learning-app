@@ -4,6 +4,9 @@ import { useTranslation } from '../hooks/useTranslation';
 import { useSetLanguage, useAppStore } from '../stores';
 import type { LearningLanguage } from '../stores/types';
 import AutoplayToggle from '../components/common/AutoplayToggle';
+import { Button } from '@/components/ui/button';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { Slider } from '@/components/ui/slider';
 
 interface AudioSettings {
   volume: number;
@@ -177,16 +180,20 @@ const SettingsPage = () => {
             <label className="block text-xs md:text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
               Language / Ngôn ngữ / 简体中文 / 繁體中文
             </label>
-            <select
+            <Select
               value={language}
-              onChange={(e) => setLanguage(e.target.value as 'en' | 'vi' | 'zh' | 'zh-tw')}
-              className="w-full max-w-xs px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+              onValueChange={(value) => setLanguage(value as 'en' | 'vi' | 'zh' | 'zh-tw')}
             >
-              <option value="en">{t('languages.en')}</option>
-              <option value="vi">{t('languages.vi')}</option>
-              <option value="zh">{t('languages.zh')}</option>
-              <option value="zh-tw">{t('languages.zh-tw')}</option>
-            </select>
+              <SelectTrigger className="w-full max-w-xs">
+                <SelectValue placeholder="Select language" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="en">{t('languages.en')}</SelectItem>
+                <SelectItem value="vi">{t('languages.vi')}</SelectItem>
+                <SelectItem value="zh">{t('languages.zh')}</SelectItem>
+                <SelectItem value="zh-tw">{t('languages.zh-tw')}</SelectItem>
+              </SelectContent>
+            </Select>
           </div>
         </div>
 
@@ -349,14 +356,13 @@ const SettingsPage = () => {
             <label className="block text-xs md:text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
             {t('settings.audio.volume')}: {Math.round(settings.volume * 100)}%
           </label>
-          <input
-            type="range"
-            min="0"
-            max="1"
-            step="0.1"
-            value={settings.volume}
-            onChange={(e) => handleVolumeChange(parseFloat(e.target.value))}
-            className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700"
+          <Slider
+            value={[settings.volume]}
+            onValueChange={(value) => handleVolumeChange(value[0])}
+            max={1}
+            min={0}
+            step={0.1}
+            className="w-full"
           />
         </div>
 
@@ -365,14 +371,13 @@ const SettingsPage = () => {
           <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
             {t('settings.audio.speechRate')}: {settings.rate.toFixed(1)}x
           </label>
-          <input
-            type="range"
-            min="0.5"
-            max="2.0"
-            step="0.1"
-            value={settings.rate}
-            onChange={(e) => handleRateChange(parseFloat(e.target.value))}
-            className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700"
+          <Slider
+            value={[settings.rate]}
+            onValueChange={(value) => handleRateChange(value[0])}
+            max={2.0}
+            min={0.5}
+            step={0.1}
+            className="w-full"
           />
           <div className="flex justify-between text-xs text-gray-500 mt-1">
             <span>Slow</span>
@@ -386,14 +391,13 @@ const SettingsPage = () => {
           <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
             {t('settings.audio.speechPitch')}: {settings.pitch.toFixed(1)}
           </label>
-          <input
-            type="range"
-            min="0.5"
-            max="2.0"
-            step="0.1"
-            value={settings.pitch}
-            onChange={(e) => handlePitchChange(parseFloat(e.target.value))}
-            className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700"
+          <Slider
+            value={[settings.pitch]}
+            onValueChange={(value) => handlePitchChange(value[0])}
+            max={2.0}
+            min={0.5}
+            step={0.1}
+            className="w-full"
           />
           <div className="flex justify-between text-xs text-gray-500 mt-1">
             <span>Low</span>
@@ -408,25 +412,29 @@ const SettingsPage = () => {
             🇻🇳 {t('settings.audio.vietnameseVoice')}
           </label>
           <div className="flex gap-2">
-            <select
-              value={settings.preferredVietnameseVoice || ''}
-              onChange={(e) => handleVietnameseVoiceChange(e.target.value)}
-              className="flex-1 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+            <Select
+              value={settings.preferredVietnameseVoice || 'auto'}
+              onValueChange={(value) => handleVietnameseVoiceChange(value === 'auto' ? '' : value)}
             >
-              <option value="">{t('settings.audio.autoSelectVoice')}</option>
-              {vietnameseVoices.map((voice) => (
-                <option key={voice.name} value={voice.name}>
-                  {voice.name} ({voice.lang}) {voice.localService ? '(Local)' : '(Online)'}
-                </option>
-              ))}
-            </select>
-            <button
+              <SelectTrigger className="flex-1">
+                <SelectValue placeholder={t('settings.audio.autoSelectVoice')} />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="auto">{t('settings.audio.autoSelectVoice')}</SelectItem>
+                {vietnameseVoices.map((voice) => (
+                  <SelectItem key={voice.name} value={voice.name}>
+                    {voice.name} ({voice.lang}) {voice.localService ? '(Local)' : '(Online)'}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+            <Button
               onClick={testVietnameseVoice}
               disabled={isTestingVietnamese}
-              className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 disabled:bg-gray-400 transition-colors"
+              className="bg-green-600 hover:bg-green-700 disabled:bg-gray-400"
             >
               {isTestingVietnamese ? t('settings.audio.testing') : t('settings.audio.test')}
-            </button>
+            </Button>
           </div>
           {vietnameseVoices.length === 0 && (
             <p className="text-sm text-gray-500 mt-1">{t('settings.audio.noVietnameseVoices')}</p>
@@ -439,25 +447,29 @@ const SettingsPage = () => {
             🇨🇳 {t('settings.audio.chineseVoice')}
           </label>
           <div className="flex gap-2">
-            <select
-              value={settings.preferredChineseVoice || ''}
-              onChange={(e) => handleChineseVoiceChange(e.target.value)}
-              className="flex-1 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-red-500 focus:border-red-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+            <Select
+              value={settings.preferredChineseVoice || 'auto'}
+              onValueChange={(value) => handleChineseVoiceChange(value === 'auto' ? '' : value)}
             >
-              <option value="">{t('settings.audio.autoSelectVoice')}</option>
-              {chineseVoices.map((voice) => (
-                <option key={voice.name} value={voice.name}>
-                  {voice.name} ({voice.lang}) {voice.localService ? '(Local)' : '(Online)'}
-                </option>
-              ))}
-            </select>
-            <button
+              <SelectTrigger className="flex-1">
+                <SelectValue placeholder={t('settings.audio.autoSelectVoice')} />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="auto">{t('settings.audio.autoSelectVoice')}</SelectItem>
+                {chineseVoices.map((voice) => (
+                  <SelectItem key={voice.name} value={voice.name}>
+                    {voice.name} ({voice.lang}) {voice.localService ? '(Local)' : '(Online)'}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+            <Button
               onClick={testChineseVoice}
               disabled={isTestingChinese}
-              className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 disabled:bg-gray-400 transition-colors"
+              className="bg-red-600 hover:bg-red-700 disabled:bg-gray-400"
             >
               {isTestingChinese ? t('settings.audio.testing') : t('settings.audio.test')}
-            </button>
+            </Button>
           </div>
           {chineseVoices.length === 0 && (
             <p className="text-sm text-gray-500 mt-1">{t('settings.audio.noChineseVoices')}</p>
@@ -474,12 +486,13 @@ const SettingsPage = () => {
 
         {/* Reset Button */}
         <div className="flex justify-end mt-4 md:mt-6">
-          <button
+          <Button
             onClick={resetToDefaults}
-            className="px-4 py-2 bg-gray-500 text-white rounded-md hover:bg-gray-600 transition-colors"
+            variant="secondary"
+            className="bg-gray-500 hover:bg-gray-600 text-white"
           >
             {t('settings.audio.resetDefaults')}
-          </button>
+          </Button>
         </div>
       </div>
 
