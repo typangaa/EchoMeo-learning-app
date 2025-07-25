@@ -3,6 +3,7 @@ import { VocabularyItem } from '../../../types';
 import { LanguageDirection } from '../../common/LanguageDirectionToggle';
 import AudioButton from '../../common/AudioButton';
 import audioService from '../../../utils/audioService';
+import { useAppStore } from '../../../stores';
 import './flashcard.css';
 
 interface VietnameseFlashcardProps {
@@ -18,6 +19,9 @@ const VietnameseFlashcard: React.FC<VietnameseFlashcardProps> = ({
 }) => {
   const [flipped, setFlipped] = useState(false);
   const [showExample, setShowExample] = useState(false);
+  
+  // Get English supplement setting
+  const showEnglishSupplement = useAppStore((state) => state.languagePairPreferences.showEnglishSupplement);
   
   // Use a ref to track when the item changes to auto-play audio
   const itemRef = useRef(item);
@@ -155,11 +159,33 @@ const VietnameseFlashcard: React.FC<VietnameseFlashcardProps> = ({
           <p className="text-xl text-gray-600 dark:text-gray-400 mt-1">{item.pinyin}</p>
         )}
         
-        {/* Show English translation for context */}
-        {item.english && (
-          <p className="text-lg text-gray-500 dark:text-gray-400 mt-2 italic">
-            "{item.english}"
-          </p>
+        {/* Show first two Chinese meanings (target language) with optional English supplement */}
+        {item.meanings && item.meanings.length > 0 ? (
+          <div className="mt-3 space-y-2">
+            {item.meanings.slice(0, 2).map((meaning, index) => (
+              <div key={index}>
+                <p className="text-lg text-gray-600 dark:text-gray-300">
+                  {index + 1}. {meaning.chinese}
+                </p>
+                {showEnglishSupplement && meaning.english && (
+                  <p className="text-sm text-green-600 dark:text-green-400 ml-4 italic">
+                    "{meaning.english}"
+                  </p>
+                )}
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="mt-3">
+            <p className="text-lg text-gray-600 dark:text-gray-300">
+              {item.chinese}
+            </p>
+            {showEnglishSupplement && item.english && (
+              <p className="text-sm text-green-600 dark:text-green-400 mt-1 italic">
+                "{item.english}"
+              </p>
+            )}
+          </div>
         )}
         
         {showExample && item.examples && item.examples.length > 0 && (

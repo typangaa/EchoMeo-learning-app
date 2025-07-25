@@ -4,6 +4,7 @@ import { LanguageDirection } from '../../common/LanguageDirectionToggle';
 import AudioButton from '../../common/AudioButton';
 import audioService from '../../../utils/audioService';
 import useAutoplayPreference from '../../../hooks/useAutoplayPreference';
+import { useAppStore } from '../../../stores';
 import './flashcard.css';
 
 interface HSKFlashcardProps {
@@ -22,6 +23,9 @@ const HSKFlashcard: React.FC<HSKFlashcardProps> = ({
   
   // Use autoplay preferences hook
   const { preferences } = useAutoplayPreference();
+  
+  // Get English supplement setting
+  const showEnglishSupplement = useAppStore((state) => state.languagePairPreferences.showEnglishSupplement);
   
   // Use a ref to track when the item changes to auto-play audio
   const itemRef = useRef(item);
@@ -175,11 +179,33 @@ const HSKFlashcard: React.FC<HSKFlashcardProps> = ({
           <p className="text-xl text-gray-600 dark:text-gray-400 mt-1">{item.pinyin}</p>
         )}
         
-        {/* Show English translation for context */}
-        {item.english && (
-          <p className="text-lg text-gray-500 dark:text-gray-400 mt-2 italic">
-            "{item.english}"
-          </p>
+        {/* Show first two Vietnamese meanings (target language) with optional English supplement */}
+        {item.meanings && item.meanings.length > 0 ? (
+          <div className="mt-3 space-y-2">
+            {item.meanings.slice(0, 2).map((meaning, index) => (
+              <div key={index}>
+                <p className="text-lg text-gray-600 dark:text-gray-300">
+                  {index + 1}. {meaning.vietnamese}
+                </p>
+                {showEnglishSupplement && meaning.english && (
+                  <p className="text-sm text-green-600 dark:text-green-400 ml-4 italic">
+                    "{meaning.english}"
+                  </p>
+                )}
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="mt-3">
+            <p className="text-lg text-gray-600 dark:text-gray-300">
+              {item.vietnamese}
+            </p>
+            {showEnglishSupplement && item.english && (
+              <p className="text-sm text-green-600 dark:text-green-400 mt-1 italic">
+                "{item.english}"
+              </p>
+            )}
+          </div>
         )}
         
         {showExample && item.examples && item.examples.length > 0 && (

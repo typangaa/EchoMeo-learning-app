@@ -19,6 +19,14 @@ export interface VocabularyItem {
   frequency?: string;
   synonyms?: string[];
   antonyms?: string[];
+  // Multiple meanings support for flashcards
+  meanings?: Array<{
+    chinese: string;
+    english: string;
+    vietnamese: string;
+    part_of_speech: string;
+    usage_frequency: string;
+  }>;
 }
 
 export interface ReadingPassage {

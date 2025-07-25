@@ -194,7 +194,15 @@ function mapEnrichedHSKToVocabularyItem(
     english: primaryMeaning.english,
     level: cefrLevelMap[hskLevel] || "A1",
     category,
-    examples: examples.length > 0 ? examples : undefined
+    examples: examples.length > 0 ? examples : undefined,
+    // Store first two meanings for flashcard display
+    meanings: meanings.slice(0, 2).map(meaning => ({
+      chinese: meaning.chinese,
+      english: meaning.english,
+      vietnamese: meaning.vietnamese,
+      part_of_speech: meaning.part_of_speech,
+      usage_frequency: meaning.usage_frequency
+    }))
   };
 }
 
