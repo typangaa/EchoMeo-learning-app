@@ -97,6 +97,15 @@ export const zhTw: TranslationKeys = {
       englishSupplement: "顯示英語",
       englishSupplementDescription: "在所選語言旁顯示英語翻譯以便更好地理解"
     },
+    theme: {
+      title: "🎨 主題與外觀",
+      description: "使用您喜好的顏色和外觀自訂學習環境",
+      colorTitle: "主題顏色",
+      colorDescription: "選擇激發學習動力的顏色主題",
+      modeTitle: "外觀模式",
+      modeDescription: "選擇您偏好的亮度設定",
+      preview: "目前選擇",
+    },
     audio: {
       title: "🔊 音訊設定",
       volume: "音量",

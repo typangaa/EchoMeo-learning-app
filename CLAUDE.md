@@ -72,13 +72,18 @@ This is a React-based multi-language learning platform with TypeScript, built us
 **shadcn/ui Integration**: Modern UI component library built on Radix UI and Tailwind CSS:
 - **Component Library**: High-quality, accessible components with consistent design system
 - **Setup**: Configured with TypeScript support and proper path aliases (`@/components`, `@/lib/utils`)
-- **Theme System**: CSS variables for light/dark theme support integrated with existing dark mode
+- **Multi-Theme System**: User-selectable themes with 5 color variants (Ocean Blue, Forest Green, Sunset Orange, Deep Purple, Rose Pink)
+- **Theme Provider**: React context-based theme management with localStorage persistence in `src/contexts/ThemeProvider.tsx`
+- **Theme Selector**: Complete UI component for theme switching in SettingsPage with preview functionality
+- **CSS Variables**: Theme-aware CSS custom properties in `src/styles/themes.css` supporting all theme variants
+- **Dark/Light Mode**: Integrated with existing dark mode system, supporting system preference detection
 - **Utility Function**: `cn()` utility in `src/lib/utils.ts` for className merging with clsx and tailwind-merge
 - **Configuration**: `components.json` for shadcn/ui CLI configuration with proper aliases
 - **Dependencies**: Includes class-variance-authority, clsx, tailwind-merge, and lucide-react for icons
 - **Adding Components**: Use `npx shadcn@latest add <component-name>` to add new components
 - **Customization**: Components can be customized by editing files in `src/components/ui/`
 - **Integration**: Works seamlessly with existing Tailwind CSS setup and mobile-first design
+- **Translations**: Full internationalization support for theme system across all 4 interface languages
 
 **Internationalization (i18n)**: Comprehensive interface language support with:
 - Translation system in `src/i18n/` with files for English, Vietnamese, Simplified Chinese, and Traditional Chinese
@@ -161,6 +166,15 @@ When using shadcn/ui components:
 - Use `npx shadcn@latest add <component>` to add new components as needed
 - Components automatically respect the existing dark/light theme system via CSS variables
 - Ensure mobile responsiveness when using shadcn/ui components in the mobile-first design
+
+When working with the theme system:
+- Use `useTheme()` hook from `@/contexts/ThemeProvider` to access current theme and mode
+- Themes automatically apply via CSS custom properties - no manual class switching needed
+- All shadcn/ui components automatically adapt to the selected theme
+- Add new themes by extending `src/styles/themes.css` with new `[data-theme="name"]` selectors
+- Theme preferences persist automatically via localStorage with keys `echomeo-theme` and `echomeo-mode`
+- System preference detection works automatically for `mode="system"`
+- Theme translations should be added to all 4 language files when adding new theme options
 
 When working with dynamic navigation and language pairs:
 - Use `useAppStore((state) => state.languagePairPreferences)` to access current language learning direction

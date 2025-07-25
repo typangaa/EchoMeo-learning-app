@@ -95,6 +95,15 @@ export const en = {
       englishSupplement: "Show English as supplementary language",
       englishSupplementDescription: "Display English translations alongside your selected languages for better understanding",
     },
+    theme: {
+      title: "Theme & Appearance",
+      description: "Customize your learning environment with your preferred colors and appearance",
+      colorTitle: "Theme Color",
+      colorDescription: "Choose a color theme that motivates your learning",
+      modeTitle: "Appearance Mode",
+      modeDescription: "Select your preferred brightness setting",
+      preview: "Current Selection",
+    },
     audio: {
       title: "🔊 Audio Settings",
       volume: "Volume",

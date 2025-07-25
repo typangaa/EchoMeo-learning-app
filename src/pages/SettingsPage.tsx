@@ -7,6 +7,7 @@ import AutoplayToggle from '../components/common/AutoplayToggle';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Slider } from '@/components/ui/slider';
+import { ThemeSelector } from '@/components/ui/theme-selector';
 
 interface AudioSettings {
   volume: number;
@@ -195,6 +196,18 @@ const SettingsPage = () => {
               </SelectContent>
             </Select>
           </div>
+        </div>
+
+        {/* Theme Customization Section */}
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 md:p-6">
+          <h2 className="text-lg md:text-xl font-semibold mb-2 md:mb-4 text-gray-800 dark:text-gray-200">
+            🎨 {t('settings.theme.title')}
+          </h2>
+          <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mb-3 md:mb-4">
+            {t('settings.theme.description')}
+          </p>
+          
+          <ThemeSelector />
         </div>
 
         {/* Language Learning Direction Section */}

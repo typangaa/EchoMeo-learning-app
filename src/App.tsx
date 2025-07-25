@@ -19,6 +19,7 @@ import StoreInitializer from './components/StoreInitializer';
 import FirstVisitHandler from './components/FirstVisitHandler';
 import { performDataMigration, validateMigration } from './utils/migrateStorageData';
 import { useTheme } from './stores';
+import { ThemeProvider } from './contexts/ThemeProvider';
 
 function App() {
   const theme = useTheme();
@@ -48,7 +49,7 @@ function App() {
   }, [theme]);
 
   return (
-    <>
+    <ThemeProvider>
       <StoreInitializer />
       <HashRouter>
         <FirstVisitHandler />
@@ -73,7 +74,7 @@ function App() {
           </Route>
         </Routes>
       </HashRouter>
-    </>
+    </ThemeProvider>
   );
 }
 

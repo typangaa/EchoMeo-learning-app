@@ -97,6 +97,15 @@ export const vi: TranslationKeys = {
       englishSupplement: "Hiển thị tiếng Anh",
       englishSupplementDescription: "Hiển thị bản dịch tiếng Anh cùng với các ngôn ngữ đã chọn để hiểu rõ hơn"
     },
+    theme: {
+      title: "Giao diện & Màu sắc",
+      description: "Tùy chỉnh môi trường học tập với màu sắc và giao diện yêu thích",
+      colorTitle: "Màu chủ đạo",
+      colorDescription: "Chọn màu sắc tạo động lực học tập",
+      modeTitle: "Chế độ hiển thị",
+      modeDescription: "Chọn độ sáng giao diện phù hợp",
+      preview: "Lựa chọn hiện tại",
+    },
     audio: {
       title: "🔊 Cài đặt âm thanh",
       volume: "Âm lượng",

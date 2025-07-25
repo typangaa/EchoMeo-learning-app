@@ -97,6 +97,15 @@ export const zh: TranslationKeys = {
       englishSupplement: "显示英语",
       englishSupplementDescription: "在所选语言旁显示英语翻译以便更好地理解"
     },
+    theme: {
+      title: "🎨 主题与外观",
+      description: "使用您喜好的颜色和外观自定义学习环境",
+      colorTitle: "主题颜色",
+      colorDescription: "选择激发学习动力的颜色主题",
+      modeTitle: "外观模式",
+      modeDescription: "选择您偏好的亮度设置",
+      preview: "当前选择",
+    },
     audio: {
       title: "🔊 音频设置",
       volume: "音量",
