@@ -162,11 +162,6 @@ const VietnameseFlashcard: React.FC<VietnameseFlashcardProps> = ({
                     {index + 1}.
                   </span>
                   <span className="chinese-text">{meaning.chinese}</span>
-                  {isFrontVietnamese && item.pinyin && (
-                    <span className="block text-base sm:text-lg text-gray-600 dark:text-gray-400 mt-1 ml-6">
-                      {item.pinyin}
-                    </span>
-                  )}
                 </div>
                 {showEnglishSupplement && meaning.english && (
                   <p className="text-sm sm:text-base text-green-600 dark:text-green-400 ml-6 mt-1 italic">
@@ -180,11 +175,6 @@ const VietnameseFlashcard: React.FC<VietnameseFlashcardProps> = ({
           <div className="mt-3">
             <div className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-200 font-medium chinese-text">
               {item.chinese}
-              {isFrontVietnamese && item.pinyin && (
-                <span className="block text-base sm:text-lg text-gray-600 dark:text-gray-400 mt-1">
-                  {item.pinyin}
-                </span>
-              )}
             </div>
             {showEnglishSupplement && item.english && (
               <p className="text-sm sm:text-base text-green-600 dark:text-green-400 mt-2 italic">
