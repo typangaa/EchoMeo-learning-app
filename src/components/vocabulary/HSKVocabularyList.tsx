@@ -5,6 +5,7 @@ import { useFavorites } from '../../stores';
 import { Progress } from '@/components/ui/progress';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 
 interface HSKVocabularyListProps {
   initialLevel?: number;
@@ -115,13 +116,13 @@ const HSKVocabularyList: React.FC<HSKVocabularyListProps> = ({
       
       {/* Search input */}
       <div className="mb-4">
-        <input
+        <Input
           type="text"
           placeholder="Search vocabulary (Chinese, Vietnamese, English, Pinyin, or Category)..."
-          className="w-full p-3 border border-gray-300 dark:border-gray-700 rounded-lg dark:bg-gray-800 focus:ring-2 focus:ring-red-500 focus:border-transparent"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           disabled={loading}
+          className="w-full"
         />
       </div>
       

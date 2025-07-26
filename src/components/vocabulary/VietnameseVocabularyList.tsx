@@ -5,6 +5,7 @@ import { useFavorites } from '../../stores';
 import { Progress } from '@/components/ui/progress';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 import { CEFRLevel } from '../../types';
 
 interface VietnameseVocabularyListProps {
@@ -129,13 +130,13 @@ const VietnameseVocabularyList: React.FC<VietnameseVocabularyListProps> = ({
           {/* Search input */}
           <div>
             <label className="block text-sm font-medium mb-2">Search</label>
-            <input
+            <Input
               type="text"
-              placeholder="Search vocabulary..."
-              className="w-full p-2 border border-gray-300 dark:border-gray-700 rounded-lg dark:bg-gray-800 focus:ring-2 focus:ring-green-500 focus:border-transparent"
+              placeholder="Search vocabulary (Vietnamese, Chinese, English, Pinyin, or Category)..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               disabled={loading}
+              className="w-full"
             />
           </div>
           
